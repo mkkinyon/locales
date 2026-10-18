@@ -20,6 +20,10 @@ These are exploratory research notes, **not** a manuscript. Assertions are marke
 
 [**A: coherent implication**](A-coherent-implication.md) proves I=U ⇒ I=U=F for coherent frames, using the more general compact-space theorem that equality of pointwise inseparability and Urysohn relations forces a compact Hausdorff quotient by the closed inseparability equivalence relation. The note spells out why spectrality allows the inference for closed localic relations.
 
+## Closed saturation — obstruction and counterexample
+
+[**A: closed saturation**](A-closed-saturation.md) proves that closed saturation is *not necessary* for I=U=F. A second-countable locally compact sober T1 space obtained by duplicating points 1/n in R has I=U=F and quotient R, but the saturation of the closed discrete set of duplicate points is not closed. Closed relations always have closed saturations of compact sets and, under sigma-compactness, F_sigma saturations of closed sets. A net formulation isolates the escape-to-infinity obstruction. The unrestricted continuous-frame implication remains open in these notes.
+
 ## Primitive ideal spaces investigated
 
 [A: primitive ideal spaces](A-primitive-ideal-spaces.md) analyzes operator-algebra examples. No verified counterexample yet. A=C*(R³⋊SO(3)) has **I=U=F** despite a **non-open** complete-regularization quotient with **non-locally-compact** Glimm space. For σ-unital C*-algebras, closed saturations of all closed sets plus Orc(A)=1 imply equality of all three relations. Any negative example must evade this closed-saturation property and the known multiplier-remainder dichotomy.
