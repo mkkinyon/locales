@@ -146,7 +146,25 @@ If x,y lie in different comparability components, choose a continuous g:P→R wh
 
 **Importance of the theorem:** no points of Z exist to serve as vertices, but generalized points s_x with domain Y still detect the separation hierarchy. This is an argument about sublocale inclusions, not a claim about ordinary point graphs on a nonspatial space.
 
-## 6. Existing literature and possible next research
+## 6. Collapse of the upper relation for normal locales
+
+**Proposition 4 (working proof).** If the frame O(X) is normal, then
+
+    U(X) = F(X).
+
+**Proof.** It suffices, given a,b∈L with a*∨b*=1, to show a⊠b≤d_F. Invoke the point-free Urysohn separation lemma for the cover a*,b* (Picado–Pultr 2021, VIII.4.4, p. 175). It supplies a frame homomorphism h:O(R)→L with
+
+    h((-∞,1)) ≤ a*,        h((0,∞)) ≤ b*
+
+(and an additional boundedness condition unnecessary here). Choose rationals 0<s<r<1. Because (-∞,1)∪(r,∞)=R and (0,∞)∪(-∞,s)=R, the two displayed inequalities imply
+
+    a ≤ h((r,∞)),           b ≤ h((-∞,s)).
+
+The two real intervals (r,∞) and (-∞,s) have disjoint closures, and their associated product rectangle occurs in d_F (see §2). Hence a⊠b≤d_F. Taking the join over all a,b with a*∨b*=1 gives d_U≤d_F; the reverse inequality is Proposition 1. Thus d_U=d_F, proving U=F. □
+
+**Interpretation.** This is the relation-level analogue of the familiar fact that normality supplies separating real functions for disjoint closed sets. It is a deduction from the standard localic Urysohn lemma, **not** claimed to be a new separation theorem. This supplies a meaningful collapse result, in contrast to the strictness theorem above.
+
+## 7. Existing literature and possible next research
 
 Established sources:
 - Picado–Pultr, *Separation in Point-Free Topology* (2021), III.5 (Isbell's (sH)), III.7 (modified product for conservative (H)), IV.2 (characterizations of strong Hausdorffness), VI (complete regularity), VIII.3–4 (localic real functions).
