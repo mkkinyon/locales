@@ -164,7 +164,25 @@ The two real intervals (r,∞) and (-∞,s) have disjoint closures, and their as
 
 **Interpretation.** This is the relation-level analogue of the familiar fact that normality supplies separating real functions for disjoint closed sets. It is a deduction from the standard localic Urysohn lemma, **not** claimed to be a new separation theorem. This supplies a meaningful collapse result, in contrast to the strictness theorem above.
 
-## 7. Existing literature and possible next research
+## 7. Regularity collapses the lower relation
+
+**Proposition 5 (working proof).** If L=O(X) is regular, then I(X)=U(X)=Δ_X.
+
+**Proof.** We give a frame proof of I=U. Recall that c is *rather below* a, written c≺a, if c*∨a=1. Regularity says a=⋁{c:c≺a}. Let a∧b=0. For any c≺a and d≺b we have a≤b*≤d*, so
+
+    c*∨d* ≥ c*∨a = 1.
+
+Thus each c⊠d is a generator of d_U and
+
+    a⊠b = ⋁_{c≺a, d≺b} c⊠d ≤ d_U.
+
+Joining over all disjoint a,b yields d_I≤d_U. By Proposition 1 these opens coincide, so I=U. The established theorem that regular frames are strongly Hausdorff (Picado–Pultr V.2) then gives I=Δ. □
+
+**Contrast:** regularity alone need *not* ensure separation by continuous real-valued functions; there are regular Hausdorff spaces that are not functionally Hausdorff (classical counterexamples). Consequently it is plausible, and witnessed spatially by such examples, that I=U=Δ⊊F. For a concrete topological reference, see the regular, first-countable non-functionally-Hausdorff example in *Embedding topological spaces into Hausdorff ω-bounded spaces*, Topology and its Applications (2020), Example 4.1; bibliographic details and whether the example yields the desired sublocale strictness should be checked before citing this in a paper.
+
+**Small complementary finite example:** for the three-element poset a<b1, a<b2 with upper-set topology, the distinct maximal elements b1 and b2 have disjoint smallest opens but intersecting closures, and all three points lie in one functional equivalence class. Thus I⊊U=F. The space/frame is normal: every nonempty closed down-set contains the least element a, so there are no disjoint nonempty closed sets. This is a direct finite illustration of Proposition 4 without regularity.
+
+## 8. Existing literature and possible next research
 
 Established sources:
 - Picado–Pultr, *Separation in Point-Free Topology* (2021), III.5 (Isbell's (sH)), III.7 (modified product for conservative (H)), IV.2 (characterizations of strong Hausdorffness), VI (complete regularity), VIII.3–4 (localic real functions).
