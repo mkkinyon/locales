@@ -12,6 +12,10 @@ Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological
 
 These are exploratory research notes, **not** a manuscript. Assertions are marked *proved (working)*, *to verify*, or *question*; “proved (working)” means the argument is included here but has not undergone independent referee checking. No originality claim is made without a literature review.
 
+## Compact-open equality tests (new)
+
+[**A: coherent frames and conormality**](A-coherent-conormality.md) develops an algebraic-frame criterion for I=U, identifies the coherent case with conormality of compact opens (and mp-rings for ring spectra), and gives a parallel completely-separated-compact-opens criterion for U=F. See the note for proofs, prerequisites, and the known conormal-lattice literature.
+
 ## Current results in Track A
 
 See [**A: first hierarchy results and proofs**](A-hierarchy-first-results.md) and [the Picado–Pultr reading notes](A-reading-Picado-Pultr-2021.md).
