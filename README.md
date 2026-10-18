@@ -16,6 +16,10 @@ These are exploratory research notes, **not** a manuscript. Assertions are marke
 
 [**A: coherent frames and conormality**](A-coherent-conormality.md) develops an algebraic-frame criterion for I=U, identifies the coherent case with conormality of compact opens (and mp-rings for ring spectra), and gives a parallel completely-separated-compact-opens criterion for U=F. See the note for proofs, prerequisites, and the known conormal-lattice literature.
 
+## Coherent implication resolved
+
+[**A: coherent implication**](A-coherent-implication.md) proves I=U ⇒ I=U=F for coherent frames, using the more general compact-space theorem that equality of pointwise inseparability and Urysohn relations forces a compact Hausdorff quotient by the closed inseparability equivalence relation. The note spells out why spectrality allows the inference for closed localic relations.
+
 ## Current results in Track A
 
 See [**A: first hierarchy results and proofs**](A-hierarchy-first-results.md) and [the Picado–Pultr reading notes](A-reading-Picado-Pultr-2021.md).
