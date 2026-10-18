@@ -1,5 +1,7 @@
 # A — Localic separation relations (active)
 
+**Update:** Detailed working proofs and explicit finite/pointless examples are now in [A-hierarchy-first-results.md](A-hierarchy-first-results.md). See also [the Picado–Pultr 2021 reading notes](A-reading-Picado-Pultr-2021.md).
+
 **Working notes, 2026-10-18.** The definitions and elementary deductions below are starting points, not claims of novelty. In particular, diagonal-closure separation has an existing locale-theoretic literature. All claims involving arbitrary locales merit checking against standard conventions for sublocales, products, and real-valued locale maps.
 
 ## 1. Motivation and notation
