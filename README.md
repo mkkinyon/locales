@@ -20,6 +20,10 @@ These are exploratory research notes, **not** a manuscript. Assertions are marke
 
 [**A: coherent implication**](A-coherent-implication.md) proves I=U ⇒ I=U=F for coherent frames, using the more general compact-space theorem that equality of pointwise inseparability and Urysohn relations forces a compact Hausdorff quotient by the closed inseparability equivalence relation. The note spells out why spectrality allows the inference for closed localic relations.
 
+## Primitive ideal spaces investigated
+
+[A: primitive ideal spaces](A-primitive-ideal-spaces.md) analyzes operator-algebra examples. No verified counterexample yet. A=C*(R³⋊SO(3)) has **I=U=F** despite a **non-open** complete-regularization quotient with **non-locally-compact** Glimm space. For σ-unital C*-algebras, closed saturations of all closed sets plus Orc(A)=1 imply equality of all three relations. Any negative example must evade this closed-saturation property and the known multiplier-remainder dichotomy.
+
 ## Removing compactness (partial)
 
 [A: the continuous compactness question](A-continuous-compactness-question.md) proves the implication without compactness when inseparability is an **open equivalence relation**, and constructs a compact sober counterexample showing openness does **not** follow from I=U. The unrestricted locally compact/continuous-frame implication is **not yet settled**; see the note for the exact obstruction and research leads.
