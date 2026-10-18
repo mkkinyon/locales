@@ -18,6 +18,9 @@ See [**A: first hierarchy results and proofs**](A-hierarchy-first-results.md) an
 
 Working results: I⊆U⊆F for every locale; preservation under localic maps; both inclusions strictly realized by an explicit seven-point finite locale and by a product with a **pointless** Boolean locale; regularity forces I=U=Δ, while normality forces U=F. All proofs remain subject to critical verification and priority checks.
 
+
+See also [A: equality characterizations](A-equality-characterizations.md) for the completely-below formula, reflection theorem, exact equality tests, and counterexamples. [Future questions](future-questions.md) keeps deferred ideas.
+
 ## Immediate aim (A)
 
 Express three point-separation relations as closed sublocales of a locale product:
