@@ -20,6 +20,10 @@ These are exploratory research notes, **not** a manuscript. Assertions are marke
 
 [**A: coherent implication**](A-coherent-implication.md) proves I=U ⇒ I=U=F for coherent frames, using the more general compact-space theorem that equality of pointwise inseparability and Urysohn relations forces a compact Hausdorff quotient by the closed inseparability equivalence relation. The note spells out why spectrality allows the inference for closed localic relations.
 
+## Continuous-frame extension
+
+[A: Continuous frames and way-below criteria](A-continuous-frames.md) develops relative compactness of way-below rectangles and necessary-and-sufficient pairwise tests for both equalities. It also extends the coherent I=U ⇒ U=F implication to compact continuous frames and gives a nonalgebraic locally compact strictness example. **Classical warning:** continuous frames are spatial by Hofmann–Lawson duality, so separate work on noncontinuous frames is needed for genuinely pointless locales.
+
 ## Current results in Track A
 
 See [**A: first hierarchy results and proofs**](A-hierarchy-first-results.md) and [the Picado–Pultr reading notes](A-reading-Picado-Pultr-2021.md).
