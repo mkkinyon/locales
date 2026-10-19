@@ -35,6 +35,7 @@ with Ins and Cm incomparable, plus the T1 nullity test for Cm. PDF: https://arxi
 
 - (Fsep) is exactly **the diagonal is fitted**, equivalently fit(Δ)=Δ.
 - The paper gives Dowker–Strauss-type characterization using parallel frame homomorphisms and a characterization by almost frame homomorphisms.
+- **Exact match for a preexisting diagonal test:** its Theorem **4.5** characterizes (Fsep) by the absence of distinct parallel frame maps h,k:L→M satisfying `∨_{c∈C} h(c)∧k(c)=1` for every cover C of L (their phrase is **respecting covers**). Theorem **4.6.1** gives the corresponding Dowker–Strauss characterization of (sH), our condition I=Δ, via behavior on disjoint pairs. **These are predecessors of the style of our parallel-map characterizations**; our equality tests I=U and U=F compare different annihilator conditions and should be assessed as relative variants, not an independent invention of the method.
 - It is *not* our functional relation F despite the “F-separated” label.
 - Our I=cl(Δ) is the standard strongly Hausdorff/Isbell diagonal-closure apparatus, not novel.
 
