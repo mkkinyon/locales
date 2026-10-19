@@ -2,7 +2,7 @@
 
 **Consolidated 18 October 2026.** This is a working theorem map, **not an independent referee verification**, and it makes **no claim of novelty**. For proof details follow links rather than relying on this summary. The current status of the continuous-frame implication is **NEGATIVE in general**, despite historical "open" wording in earlier investigation notes.
 
-**Scope:** classical ZFC unless stated otherwise. In all point-set-to-locale arguments, require the locally compact sober/spectral representation and agreement of the localic product with the ordinary product. Closed sublocales of spatial frames of opens are determined by their underlying closed subsets, but this must **not** be extended to arbitrary sublocales.
+**Scope:** classical ZFC unless stated otherwise. **Terminology:** weak local compactness means each point has *some* compact neighborhood; strong local compactness means *every* open neighborhood of every point contains a compact neighborhood. Our kω/paracompact point-set proofs require only the weak version; the continuous-frame and spatial-product lifts require the strong version together with sobriety. In all point-set-to-locale arguments, require the locally compact sober/spectral representation and agreement of the localic product with the ordinary product. Closed sublocales of spatial frames of opens are determined by their underlying closed subsets, but this must **not** be extended to arbitrary sublocales.
 
 ## I. Definitions and categorical backbone (arbitrary locales)
 
@@ -85,7 +85,7 @@ Details: [A-coherent-conormality.md](A-coherent-conormality.md), [A-coherent-imp
 
 ## IV. Continuous frames
 
-Under classical choice principles, continuous frames have locally compact sober spectra. **They are not a class of pointless locales in this setting.** For opens u≪a (way-below), relative compactness gives compact saturated K with u⊆K⊆a, and similarly v≪b.
+Under classical choice principles, continuous frames have **strongly locally compact** sober spectra. **They are not a class of pointless locales in this setting.** For opens u≪a (way-below), relative compactness gives compact saturated K with u⊆K⊆a, and similarly v≪b.
 
 **Theorem D1 (working).** For continuous L,
 
@@ -96,9 +96,9 @@ Proof reduces covers of a×b to finite subcovers of u×v. The U=F direction uses
 
 **Theorem D2 (working, point-set compact-space lemma).** For a compact topological space, if inseparability E=cl(Δ) is transitive, its quotient X/E is compact Hausdorff, hence E=F. For compact continuous frames, this also proves I=U⇒I=U=F as closed localic relations.
 
-**Theorem D3 (working, kω spaces).** For a kω-space, if E=cl(Δ) is transitive, then X/E is normal Hausdorff and E=F. Proof: q(K_n) are closed compact Hausdorff stages; the quotient carries their final topology; extend separating continuous functions compatibly by Tietze. In particular this covers locally compact σ-compact sober spaces.
+**Theorem D3 (working, kω spaces).** For a kω-space, if E=cl(Δ) is transitive, then X/E is normal Hausdorff and E=F. Proof: q(K_n) are closed compact Hausdorff stages; the quotient carries their final topology; extend separating continuous functions compatibly by Tietze. In particular the point-set theorem covers **weakly** locally compact σ-compact spaces, while the **localic** corollary for continuous frames requires **strong** local compactness and sobriety.
 
-**Theorem D4 (working).** A locally compact paracompact space, with *paracompact defined by open locally finite refinements without assuming Hausdorffness*, decomposes into a clopen disjoint union of σ-compact open subspaces; thus transitive E implies E=F. A locally countable open cover by σ-compact subspaces also suffices. The resulting point-set equalities lift to closed locale relations when X is sober.
+**Theorem D4 (working).** A **weakly** locally compact paracompact space, with *paracompact defined by open locally finite refinements without assuming Hausdorffness*, decomposes into a clopen disjoint union of σ-compact open subspaces; thus transitive E implies E=F. A locally countable open cover by σ-compact subspaces also suffices. The point-set equalities lift to closed locale relations when X is **strongly locally compact and sober**.
 
 **Theorem D5 (WORKING COUNTEREXAMPLE; central).** The unrestricted implication
 
@@ -119,12 +119,14 @@ Details: [A-continuous-frames.md](A-continuous-frames.md), [A-kw-compact-exhaust
 
 ## V. Supporting obstructions, not alternative main theorems
 
-- Openness or closedness of the inseparability quotient is sufficient in certain settings but **neither is necessary**, even when I=U=F; explicit compact/noncompact examples in [A-continuous-compactness-question.md](A-continuous-compactness-question.md) and [A-closed-saturation.md](A-closed-saturation.md).
+- Openness of the inseparability quotient is sufficient in the strongly locally compact setting; closedness is sufficient only with additional global hypotheses such as σ-compactness. Neither is necessary for I=U=F. **Closedness alone is insufficient:** the deleted-plank two-tag example has a *closed* inseparability quotient map yet I=U⊊F (the saturation of any closed set adds at most two closed equivalence classes).
 - If E is a closed relation and K compact, then E[K] is closed. If u≪a and E is a closed equivalence, there is a **closed E-saturated buffer** E[K] with cl(E[cl(u)])⊆E[K]⊆cl(a), possibly noncompact.
 - The relation uρw iff ∃a (u≪a≺w) need not interpolate, even if I=U=F. Arbitrary far opens need not admit any interpolant; the specific way-below far pairs matter.
 - The failure of stable interpolation in the deleted-plank example is **global nonnormality**: opening the closed saturated buffers would give disjoint neighborhoods of A,B in T.
 
 ## VI. Priority audit and next directions
+
+**Independent referee update:** An external high-effort cold review confirmed the central counterexample and key frame lemmas, while identifying the weak/strong local-compactness error, product-point terminology, and novelty concerns. See [A-referee-response.md](A-referee-response.md); the original report is not published here.
 
 **Potential core paper:** definitions + categorical F-reflection + selected equality criteria + finite/pointless examples + continuous positive subclasses + deleted-plank counterexample. This remains *exploratory*, not publication-ready.
 
