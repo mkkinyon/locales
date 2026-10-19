@@ -20,6 +20,10 @@ These are exploratory research notes, **not** a manuscript. Assertions are marke
 
 [**A: coherent implication**](A-coherent-implication.md) proves I=U ⇒ I=U=F for coherent frames, using the more general compact-space theorem that equality of pointwise inseparability and Urysohn relations forces a compact Hausdorff quotient by the closed inseparability equivalence relation. The note spells out why spectrality allows the inference for closed localic relations.
 
+## Countable compact exhaustion (new positive theorem)
+
+[A: kω compact exhaustion](A-kw-compact-exhaustion.md) proves that a **kω-space** with transitive (hence closed equivalence) inseparability has a normal Hausdorff quotient and I=F. Therefore, for **σ-compact locally compact sober spaces**, I=U implies I=U=F, without quotient openness or closed saturation. The proof extends continuous separators along nested compact Hausdorff quotients by Tietze. [A: intermediate-neighborhood lemmas](A-noncompact-intermediate-neighborhoods.md) records closed, possibly noncompact saturated buffers for the precise way-below pairs, together with a compact two-arm counterexample to naive rather-below interpolation. The unrestricted non-σ-compact case remains open.
+
 ## Stable interpolation test
 
 [A: stable interpolation test](A-stable-interpolation-test.md) records a negative test of the natural rounded relation ρ: uρw iff u≪a≺w for some a. It is **not interpolative even when I=U=F** (split real line with duplicated points accumulating at zero). Ordinary rather-below dyadic scales nevertheless exist, but require non-relatively-compact intermediate opens. No proof or counterexample yet to the unrestricted continuous-frame implication.
