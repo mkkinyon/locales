@@ -99,6 +99,21 @@ There is an analogous **finite gluing theorem** for complete separation: finitel
 
 However, **the missing implication is exactly the creation of real separators out of merely far pairs**. Finite gluing does not accomplish that: it takes real separators as input. Any proof of I=U⇒U=F that invokes the finite gluing lemma at this step without first constructing its input functions is circular.
 
+
+## 5a. A genuine positive localization theorem: open subspaces of compact good spaces
+
+**Proposition (proved).** If T is a compact topological space with I(T)=U(T), and O⊆T is open, then
+
+    I(O)=U(O)=F(O).
+
+**Proof.** The compact theorem gives I(T)=F(T). For x,y∈O, I(O)=I(T)∩(O×O), since open neighborhoods in O are exactly open neighborhoods in T contained in O. Every continuous real function on T restricts to one on O, so F(O)⊆F(T)∩(O×O). Thus
+
+    I(O) ⊆ U(O) ⊆ F(O) ⊆ F(T)∩O² = I(T)∩O² = I(O).
+
+This also proves the corresponding closed-localic relation equality for open sublocales of compact locally compact sober spaces under the usual product comparison. □
+
+**Implication for the research problem.** Any counterexample among locally compact sober spaces **cannot** be an open subspace of a compact space in which I=U. This suggests an alternative strategy: construct a compactification preserving I=U. But **the existence of such a compactification is exactly what remains to prove**, and it must not be taken for granted. A generic one-point compactification of a non-Hausdorff locally compact space need not preserve the required separation property.
+
 ## 6. A precise interpolation program (unproved)
 
 Given a*∨b*=1 and u≪a, v≪b, find a dyadic family (c_t) with
