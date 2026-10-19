@@ -34,7 +34,7 @@ and F=Δ iff C(L)→L is epi in Frm. A frame epi need not be surjective.
 
 **Theorem A3 (working, arbitrary locales).** The equations I=U and U=F are equivalent to rectangular generator-saturation conditions, or to implications for all pairs of parallel frame maps h,k:L→M (see [A-equality-characterizations.md](A-equality-characterizations.md), §2–3). These are exact but partly restate the definitions.
 
-**Baseline collapse:** regular frames satisfy I=U=Δ; normal frames satisfy U=F; completely regular frames satisfy I=U=F=Δ. Extremally disconnected frames satisfy I=U=F, not necessarily Δ. See [A-hierarchy-first-results.md](A-hierarchy-first-results.md), [A-equality-characterizations.md](A-equality-characterizations.md).
+**Baseline collapse:** regular frames satisfy I=U=Δ; normal frames satisfy U=F; completely regular frames satisfy I=U=F=Δ. Extremally disconnected frames satisfy I=U=F, not necessarily Δ. **Precise priority:** the normal-frame implication is the formal consequence of Dowker–Papert's (1967) point-free Urysohn lemma, and of the established identity ≺=≺≺ in normal frames (Gutiérrez García–Picado, *On the Parallel Between Normality and Extremal Disconnectedness*, Remark 2.2). Details and original sources in [A-literature-priority-review.md](A-literature-priority-review.md), §3a. See [A-hierarchy-first-results.md](A-hierarchy-first-results.md), [A-equality-characterizations.md](A-equality-characterizations.md).
 
 **Literature/terminology caution:** Isbell strong Hausdorff (sH) means I=Δ, which is not simply the conservative Hausdorff condition. The label F here means functional equivalence and is **not** the established locale property (Fsep) of fitted diagonal in Arrieta–Picado–Pultr.
 
