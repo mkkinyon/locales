@@ -20,7 +20,7 @@ is an arbitrary topological disjoint sum, where each X_α is a **kω-space** (ad
 
 **Proof.** Distinct clopen summands have disjoint open neighborhoods, so E does not relate points from different summands. Thus E is the disjoint union of E_α=cl(Δ_{X_α}), with E_α equivalence on X_α. By the theorem of [A-kw-compact-exhaustion.md](A-kw-compact-exhaustion.md), Q_α=X_α/E_α is normal Hausdorff. The global quotient is the topological disjoint union Q=⨆Q_α: each summand is E-saturated and clopen, and the quotient topology is final with respect to them. A disjoint union of normal Hausdorff spaces is normal Hausdorff (separate closed sets summand by summand). Hence continuous real functions on Q distinguish points, and pulling back via q:X→Q gives E=F. □
 
-No compactness, local compactness, sobriety, Hausdorffness or restriction on the **cardinality** of A is required for this *point-set* theorem. For a conclusion involving closed localic relations, impose locally compact sobriety of X to ensure the spatial product comparison used in our previous notes.
+No compactness, local compactness, sobriety, Hausdorffness or restriction on the **cardinality** of A is required for this *point-set* theorem. For a conclusion involving closed localic relations, impose **strong local compactness and sobriety** of X to ensure the spatial product comparison used in our previous notes.
 
 ## 2. Locally countable σ-compact open covers
 
@@ -68,13 +68,13 @@ This proof is stronger in scope than citing the familiar locally compact paracom
 
     X/E is normal Hausdorff,       E=F.
 
-If, furthermore, X is sober, then its frame O(X) is continuous, its localic product agrees with the ordinary spatial product, and these conclusions imply the equality of closed localic relations:
+If, furthermore, X is **strongly locally compact and sober**, then O(X) is continuous, its localic product agrees with the ordinary spatial product, and these conclusions imply the equality of closed localic relations:
 
     I(X)=U(X)  ⇒  I(X)=U(X)=F(X).
 
-**Proof.** Apply Lemma D and Theorem A. The localized equivalence E=I passes to each clopen summand. The localic conclusion uses only locally compact sobriety and closedness of the relations, just as in [A-kw-compact-exhaustion.md](A-kw-compact-exhaustion.md). □
+**Proof.** Apply Lemma D and Theorem A. The localized equivalence E=I passes to each clopen summand. The localic conclusion uses **strong** local compactness, sobriety, and closedness of the relations, just as in [A-kw-compact-exhaustion.md](A-kw-compact-exhaustion.md). □
 
-**Corollary (stable interpolation).** Under Theorem E, if a,b are opens with disjoint closures and u≪a,v≪b, choose compact K,H with u⊆K⊆a,v⊆H⊆b. The quotient Q=X/E is normal Hausdorff, so the disjoint compact closed images q(K),q(H) admit a continuous [0,1]-separator. Its pullback to X yields a real separator of u and v and the explicit dyadic ≺-scale described in [A-kw-compact-exhaustion.md](A-kw-compact-exhaustion.md), §2a. The intermediate opens need **not** be relatively compact.
+**Corollary (stable interpolation in continuous frames).** Under Theorem E **plus strong local compactness and sobriety**, if a,b are opens with disjoint closures and u≪a,v≪b, choose compact K,H with u⊆K⊆a,v⊆H⊆b. The quotient Q=X/E is normal Hausdorff, so the disjoint compact closed images q(K),q(H) admit a continuous [0,1]-separator. Its pullback to X yields a real separator of u and v and the explicit dyadic ≺-scale described in [A-kw-compact-exhaustion.md](A-kw-compact-exhaustion.md), §2a. The intermediate opens need **not** be relatively compact.
 
 ## 4. Why this genuinely drops σ-compactness
 
@@ -102,6 +102,6 @@ For kω topology, consult Franklin and Smith Thomas, [*A Survey of kω-spaces*](
 - locally compact paracompact spaces, with no Hausdorff requirement built into paracompactness;
 - all locally compact σ-compact spaces (the previous theorem).
 
-**Unresolved:** For *every* locally compact sober space X, does E=I transitive (or the stronger I=U) imply E=F? A counterexample would have to be more global than the lack of one countable exhaustion: it cannot be locally compact paracompact in the stated sense, or have the locally countable σ-compact open cover of Theorem C. The obstruction is still not identified, and **absence of paracompactness does not itself signal a counterexample**.
+**Resolved subsequently:** The unrestricted implication is **false**; see the deleted-plank two-tag counterexample, which is neither σ-compact nor paracompact. The positive statements in this note remain true under their stated point-set hypotheses. Absence of paracompactness alone does not imply failure.
 
-Possible next task: investigate countably compact but noncompact locally compact sober spaces, e.g. non-Hausdorff modifications of ordinal spaces, in which no clopen σ-compact decomposition is available. These are examples where the countable-stage Tietze method lacks a direct replacement.
+**Historical next task, superseded:** the following deleted-plank investigation supplied an explicit counterexample using uncountable nonnormality.
