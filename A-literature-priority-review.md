@@ -73,6 +73,32 @@ Arrieta's Proposition 4.8 and Construction 4.2/Example 4.5 use anti-Urysohn loca
 
 **Caution:** cozero bases, completely regular reflection/coreflection, Stone–Čech coreflection and a frame epimorphism are related but distinct. We should not attribute our kernel-pair formulation to a source unless it actually states it.
 
+## 3a. A definitive primary source for normality ⇒ U=F
+
+**KNOWN theorem, not a new Project A result.** C. H. Dowker and Dona Papert, *On Urysohn's Lemma*, in *General Topology and its Relations to Modern Analysis and Algebra*, Proceedings of the Second Prague Topological Symposium (1966), Academia, Prague, **1967**, pp. 111–114, **Theorem 3**. Digital copy: https://dml.cz/dmlcz/700880 ; original PDF https://dml.cz/bitstream/handle/10338.dmlcz/700880/Toposym_02-1966-1_28.pdf . The catalog listing credits Dowker alone, but the original paper header and contemporary proceedings program name **Dowker and Papert**.
+
+Picado–Pultr, *Separation in Point-Free Topology* (2021), p. 175, recover Urysohn's Lemma as a corollary of their point-free Katětov–Tong Insertion Theorem. As reported from the book: L is normal iff for every A∨B=1 there is a frame map h:L(R)→L such that
+
+    h((−∞,0)∪(1,∞))=0;
+    h((−∞,1))≤A;    h((0,∞))≤B.
+
+(Equivalent statements reverse the roles of 0 and 1.)
+
+**Direct rigorous translation:** Given a≺b, i.e. a*∨b=1, apply the lemma with A=a*, B=b. Since
+
+    a∧h((−∞,1))=0,
+    h((−∞,1))∨h((t,∞))=1     for t<1,
+
+we have a≤h((t,∞)) for all 0<t<1. Also h((t,∞))≤h((0,∞))≤b. As t varies over rationals in (0,1), these opens form a nested *completely-below scale* (higher thresholds lie rather below lower thresholds because h preserves the frame-of-reals relations). Consequently a≺≺b.
+
+**Established exact result:** J. Gutiérrez García and J. Picado, *On the Parallel Between Normality and Extremal Disconnectedness*, Coimbra preprint 13–04 (2013), **Remark 2.2**, https://www.mat.uc.pt/preprints/ps/p1304.pdf : in a normal frame, ≺ is interpolative and hence coincides with ≺≺ (classical dependent choice). Their proof shows a≺b implies a≺u≺b by one application of normality. Thus
+
+    L normal ⇒ (∀ a,b, a≺b ⇔ a≺≺b).
+
+Our U-generating far pair a*∨b*=1 is exactly a≺b*, so every U rectangle is an F rectangle. Combined with F⊇U always, this gives **U=F for every normal locale**. The *general equality U=F*, without the normality hypothesis, remains a separate question; do NOT claim equivalence to normality or attribute that to the papers.
+
+**Classification: KNOWN core theorem; FORMAL CONSEQUENCE for Project A relation equality.**
+
 ## 4. Coherent frames: conormality / mp-rings / minimal primes
 
 **KNOWN algebraic theorem.** W. H. Cornish, *Normal Lattices*, **Journal of the Australian Mathematical Society** 14 (1972), 200–215, DOI 10.1017/S1446788700010041. Cornish explicitly characterizes distributive lattices with the property “every prime ideal contains a unique minimal prime ideal” by a condition on annihilator ideals for disjoint elements. He uses **normal**, while later literature commonly uses **conormal** for this convention. Cambridge record: https://www.cambridge.org/core/journals/journal-of-the-australian-mathematical-society/article/normal-lattices/B71E90ADA1C98165B2EDD8C7B40BB289 .
