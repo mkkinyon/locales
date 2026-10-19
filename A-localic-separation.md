@@ -21,7 +21,7 @@ Equivalently `I(X)=cl(δ(X))` (the closure of the diagonal *image* as a sublocal
 
 **Proof (working).** A rectangle `a⊠b` pulls back along the diagonal to `a∧b`. Every open of `L⊗L` is a join of rectangles. Hence the join of all opens whose diagonal pullback is zero is precisely `d_I`.
 
-For a spatial space `T`, the ordinary points `(x,y)` in this closed sublocale are exactly pairs admitting no disjoint open neighborhoods. **Caution:** the localic product of spatial locales may have additional points; pointwise equality should not be mistaken for equality of the complete localic relations.
+For a spatial space `T`, the ordinary points `(x,y)` in this closed sublocale are exactly pairs admitting no disjoint open neighborhoods. **Caution (corrected after independent referee review):** by the universal property, the points of a locale product are exactly pairs of points. The product of spatial locales may nevertheless fail to be spatial, so its opens are not necessarily determined by points. **Pointwise strictness** establishes strictness of the corresponding closed localic relations without assuming a spatial product, whereas **pointwise equality** requires an additional spatial-product argument.
 
 **Research:** relate `I(X)=δ(X)` to strong Hausdorffness and variants, carefully specifying whether equality is with the diagonal image or its closure and whether the diagonal is a closed embedding.
 
