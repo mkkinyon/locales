@@ -20,6 +20,10 @@ These are exploratory research notes, **not** a manuscript. Assertions are marke
 
 [**A: coherent implication**](A-coherent-implication.md) proves I=U ⇒ I=U=F for coherent frames, using the more general compact-space theorem that equality of pointwise inseparability and Urysohn relations forces a compact Hausdorff quotient by the closed inseparability equivalence relation. The note spells out why spectrality allows the inference for closed localic relations.
 
+## Stable interpolation test
+
+[A: stable interpolation test](A-stable-interpolation-test.md) records a negative test of the natural rounded relation ρ: uρw iff u≪a≺w for some a. It is **not interpolative even when I=U=F** (split real line with duplicated points accumulating at zero). Ordinary rather-below dyadic scales nevertheless exist, but require non-relatively-compact intermediate opens. No proof or counterexample yet to the unrestricted continuous-frame implication.
+
 ## Back to way-below interpolation (latest)
 
 [A: way-below revisited](A-way-below-revisited.md) isolates the missing passage from single farness to a dyadic completely-below scale. It proves the lower equality is inherited by open subspaces, rules out compactly supported bump-function and double-pseudocomplement shortcuts by explicit examples even with I=U=F, and shows every open subspace of a compact space with I=U retains I=U=F. The general continuous-frame implication remains **unresolved**.
