@@ -124,6 +124,12 @@ Details: [A-continuous-frames.md](A-continuous-frames.md), [A-kw-compact-exhaust
 - The relation uρw iff ∃a (u≪a≺w) need not interpolate, even if I=U=F. Arbitrary far opens need not admit any interpolant; the specific way-below far pairs matter.
 - The failure of stable interpolation in the deleted-plank example is **global nonnormality**: opening the closed saturated buffers would give disjoint neighborhoods of A,B in T.
 
+## V½. Additional fitted-diagonal relation (recorded; analysis deferred)
+
+The 2022 paper of Arrieta–Picado–Pultr studies (Fsep): the diagonal is a **fitted sublocale**. Define D(X)=fit(Δ_X), the intersection of all open sublocales containing Δ. Unlike I,U,F, D is **not generally closed**.
+
+For every locale, **Δ⊆D⊆U**. In general D and I are **incomparable**; opposite three-point upper-set Alexandrov V-posets witness this. For ordinary spaces, (x,y) lies in D iff **every open cover contains a member containing both x and y**; the relation on points is diagonal **iff X is T1**. This last statement must not be confused with the stronger localic condition (Fsep) that D=Δ as sublocales. Formal proofs: [A-fitted-diagonal.md](A-fitted-diagonal.md). Further equality combinations are intentionally deferred.
+
 ## VI. Priority audit and next directions
 
 **Independent referee update:** An external high-effort cold review confirmed the central counterexample and key frame lemmas, while identifying the weak/strong local-compactness error, product-point terminology, and novelty concerns. See [A-referee-response.md](A-referee-response.md); the original report is not published here.
