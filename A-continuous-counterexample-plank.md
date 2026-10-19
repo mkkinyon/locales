@@ -101,6 +101,52 @@ Because T is locally compact Hausdorff (hence completely regular), one can also 
 
 For the ⇐ implication, use a function separating A,B for their two tags; for a point t∈T\(A∪B) versus any other class, use continuous [0,1] functions vanishing on the closed set A∪B and distinguishing t, or use a suitable combination of such a function with the A/B separator. These extend to X (being constant separately on A and B). No other functional pairs arise. This supplies a precise embedding of the failure of normality of T into our separation-hierarchy problem.
 
+## 1½. A cleaner structural description: function ring, quotient, and exact F classes
+
+The following sharpening makes the obstruction almost formal once the topology has been checked. Throughout assume A,B are **nonempty**.
+
+**Proposition (real maps).** Restriction to T is an isomorphism of rings
+
+    C(X,R) ≅ {g∈C(T,R): g|A is constant, g|B is constant}.
+
+**Proof.** Every a∈A is inseparable from p_A, so any continuous map from X to a Hausdorff space takes the same value on A∪{p_A}; likewise B∪{p_B}. Conversely, if g:T→R has values α on A and β on B, extend it by g(p_A)=α, g(p_B)=β. For an open interval W in R, g^{-1}(W)∩T is open; if it meets A, it includes p_A, and similarly for B. Thus the extension is continuous. The two constructions are inverse, and preserve ring operations. □
+
+**Proposition (exact functional classes).** If A,B are completely separated in T, F=I=U. Otherwise the *only additional F-identifications* are those between the two classes
+
+    E_A=A∪{p_A},    E_B=B∪{p_B}.
+
+That is, if A and B are not completely separated, the F-equivalence classes are E_A∪E_B and the singletons {t}, t∈T\(A∪B). Equivalently, as **closed sublocales** of the spatial localic product,
+
+    F = U ∪ (E_A×E_B) ∪ (E_B×E_A).
+
+**Proof.** The real-map characterization shows that any g separates the classes E_A,E_B exactly when A,B are completely separated in T; otherwise all real maps give them the same value. For t∈T\(A∪B) and any other class, completely regularity of T gives a continuous g:T→[0,1] that is 1 at t and 0 on the closed set A∪B (and, when needed, another selected point s≠t). It extends to X. Thus no distinct classes other than E_A,E_B are functionally identified. The full relations are closed and X×X is spatial, so the point description yields the claimed equality of closed sublocales. □
+
+**Proposition (the quotient is the double pinching of T).** Let E=I=U be the inseparability equivalence relation on points. Then
+
+    Q=X/E ≅ T/(A∼one point, B∼a second point).
+
+The restriction q_T:T→Q of the quotient map q:X→Q is itself a **closed quotient map**, and q:X→Q is **closed** as well.
+
+**Proof.** The E-classes are E_A, E_B, and the remaining singletons. A subset W of the set of classes has q^{-1}(W) open in X iff its intersection V=q_T^{-1}(W) with T is open in T: one direction follows by restriction; conversely, V is saturated for the A/B collapsing and therefore contains either all or none of A and B. Adding p_A iff A⊆V, and p_B iff B⊆V, makes q^{-1}(W) open. This is precisely the standard quotient topology for T with A,B separately collapsed. For a closed C⊆X, its E-saturation adds at most E_A and E_B, each of which is closed in X, so E[C] is closed and q(C) is closed. The same argument in T proves q_T closed. □
+
+All equivalence classes in T are closed, so **Q is T1**. If A,B have no disjoint open neighborhoods in T, then the two collapsed points of Q have no disjoint neighborhoods either, so **Q is not Hausdorff**. The map q:X→Q is nevertheless **closed**. This makes precise why a closed quotient of a strongly locally compact sober X need not yield a Hausdorff separation quotient.
+
+A convenient summary of the whole two-tag mechanism is:
+
+    pairwise Urysohn separation of E-classes in X
+                  does not imply
+    Hausdorff/functional separation of their images in Q.
+
+**Corollary (normality detected by every two-tag extension).** For a locally compact Hausdorff T,
+
+    T normal
+      ⇔  for every disjoint nonempty closed A,B⊆T,
+          the associated two-tag X has I=U=F.
+
+This follows from the exact F-class proposition and the classical Urysohn lemma. This is just a reformulation, **not a proposed new normality theorem**.
+
+**Additional facts.** If A,B are not completely separated, neither can be compact: every compact subset of a completely regular Hausdorff space is completely separated from a disjoint closed subset. Hence E_A and E_B are **noncompact closures of compact open singleton tags**. Also the frame O(X) is **not subfit**: take a={p_A}, b=0. If a∨w=1 for an open w, then w contains all of T (in particular A), forcing p_A∈w and hence w=1. Thus no w satisfies a∨w=1 while b∨w≠1. The relevance of imposing subfitness on future counterexamples is open.
+
 ## 2. The deleted Tychonoff plank gives explicit uncountable A,B
 
 Take
