@@ -1,3 +1,5 @@
+> **DECISIVE UPDATE (18 October 2026):** The **unrestricted** continuous-frame implication is **false**. See [A-continuous-counterexample-plank.md](A-continuous-counterexample-plank.md): adjoining two nonclosed isolated tags to disjoint nonnormally separable closed subsets of a locally compact Hausdorff space (explicitly the deleted Tychonoff plank) gives a locally compact sober space with **I=U⊊F**, even for a far pair of *compact opens*. This supersedes any unresolved-status or conjectural statement below. Positive conclusions under compactness, sigma-compactness/kω, paracompactness, or quotient hypotheses remain valid.
+
 # A — Continuous frames and way-below criteria
 
 **Research note, 18 October 2026.** Working proofs; no claim of novelty. These results extend the coherent/algebraic criteria in [A-coherent-conormality.md](A-coherent-conormality.md). Here **continuous frame** means continuous as a complete lattice, i.e., each a is the join of the elements u **way below** it. All the spatial arguments invoke ordinary classical mathematics, including the Hofmann–Lawson representation theorem; they are **not** proofs valid in choice-free locale theory.
