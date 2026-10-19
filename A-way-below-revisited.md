@@ -1,3 +1,5 @@
+> **Subsequent progress (18 October 2026):** [A-kw-compact-exhaustion.md](A-kw-compact-exhaustion.md) proves that for every kω-space, a transitive inseparability relation is already functional equivalence, since the quotient is normal Hausdorff. Hence the unrestricted continuous-frame implication is now established for **σ-compact locally compact sober spaces**, without a closed- or open-quotient assumption. This does not settle the general non-σ-compact case. See [A-noncompact-intermediate-neighborhoods.md](A-noncompact-intermediate-neighborhoods.md) for the noncompact closed-buffer lemma and a counterexample to arbitrary one-step interpolation. For C*-algebra spectra, apply only after independently verifying the requisite σ-compactness/local-compactness hypotheses.
+
 # A — Returning to way-below: the missing interpolation step
 
 **18 October 2026 — Status: partial progress, general implication unresolved.** This note follows [A-continuous-frames.md](A-continuous-frames.md), [A-continuous-compactness-question.md](A-continuous-compactness-question.md), and [A-closed-saturation.md](A-closed-saturation.md). It is a research record, not a novelty claim.
