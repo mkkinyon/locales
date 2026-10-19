@@ -1,3 +1,5 @@
+> **Subsequent extension (18 October 2026):** The countable exhaustion can be dropped globally for locally compact spaces that are **paracompact in the non-Hausdorff open-refinement sense**. Such spaces decompose into arbitrarily many clopen sigma-compact pieces, to which the k-omega theorem below applies separately. A locally countable sigma-compact open cover is another sufficient hypothesis. Full proof: [A-beyond-countable-exhaustion.md](A-beyond-countable-exhaustion.md). The unrestricted locally compact sober case remains open.
+
 # A — Compact exhaustion and stable interpolation on kω spaces
 
 **Research note, 18 October 2026.** Status: rigorous working proof of a positive implication for **locally compact σ-compact** spaces (more generally kω spaces), with no closed/open-saturation hypothesis. No priority claim: standard facts about kω direct limits of compact Hausdorff spaces already imply normality of the quotient. This note responds to the search for noncompact intermediate neighborhoods in [A-noncompact-intermediate-neighborhoods.md](A-noncompact-intermediate-neighborhoods.md).
