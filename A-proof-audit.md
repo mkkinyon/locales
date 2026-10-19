@@ -118,3 +118,41 @@ Check the frame identity O(P×Y)≅monotone maps P→O(Y), preservation of all c
 Before treating these as publishable results, request a **genuinely independent** mathematical referee to (a) validate A1/A2, (b) prove or refute the arbitrary-locale finite rectangle lemma, (c) test the tagged counterexample with adversarial cases, (d) verify products in Loc and spatial passage, and (e) compare the intended main claims with literature.
 
 A separate agent was **not available in the current session**, so this report is only an internal audit. The [cold-review packet](A-cold-review-packet.md) is ready for a fresh context or human reader.
+
+## Addendum: an internal proof of the finite-rectangle identity (not independent review)
+
+A second algebraic pass supplies a direct derivation of the identity flagged in §1B. Write Q=L⊗L. We invoke the **standard basic-rectangle lemma**:
+
+    c⊠d = 0_Q  iff  c=0_L or d=0_L.
+
+Every element of Q is a join of basic rectangles and
+
+    (c⊠d)∧(a⊠b)=(c∧a)⊠(d∧b).
+
+It follows that
+
+    (a⊠b)*=(a*⊠1)∨(1⊠b*).                       (†)
+
+Indeed the right side annihilates a⊠b. Conversely, if z∧(a⊠b)=0, express z as a join of rectangles c⊠d≤z. For each such rectangle, (c∧a)⊠(d∧b)=0. By the basic-rectangle lemma either c≤a* or d≤b*, so c⊠d is below the right side. Taking their join gives (†).
+
+Now δ*(a⊠b)=a∧b for diagonal δ:X→X×X. Hence
+
+    δ*((a⊠b)*)=a*∨b*.
+
+For a rectangle r=a⊠b, its open-sublocale closure is C(r*). If
+
+    a⊠b ≤ ⋁_{i=1}^n u_i⊠v_i,
+
+taking closures gives
+
+    C((a⊠b)*) ≤ ⋁_{i=1}^n C((u_i⊠v_i)*).
+
+Finite joins of **closed** sublocales obey C(s)∨C(t)=C(s∧t), and inverse image preserves these finite joins because δ* preserves finite meets. Pulling back along δ yields
+
+    C(a*∨b*) ≤ ⋁_{i=1}^n C(u_i*∨v_i*).
+
+If each u_i*∨v_i*=1, the right side is empty. Therefore C(a*∨b*) is empty, hence a*∨b*=1, proving the **finite-rectangle lemma in arbitrary locales**, *provided* the standard basic-rectangle lemma is used as stated.
+
+This closes the specific missing algebraic step **within our own reasoning**; it does not replace an independent review of the general coproduct facts. The arbitrary-locale tensor pseudocomplement identity should still be checked against a reputable published proof. For a published statement that nonzero basic rectangles satisfy componentwise order and do not vanish unless a factor does, see the frame coproduct preliminaries in T. Dube, *A note on weakly pseudocompact locales*, *Applied General Topology* **18** (2017), 131–143, §2.2.
+
+**Revised risk:** the finite-rectangle lemma is now **internally proved conditional on a standard source-backed basic coproduct fact**, not merely extrapolated from spatial rectangles. It remains a suitable adversarial review target because the project heavily relies on it.
