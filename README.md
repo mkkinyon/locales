@@ -23,6 +23,8 @@ Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological
 - **[Coherent frames and conormality](A-coherent-conormality.md)**; **[coherent implication](A-coherent-implication.md)**.
 - **[Continuous frame criteria](A-continuous-frames.md)**; **[kω compact exhaustion](A-kw-compact-exhaustion.md)**; **[paracompact extension](A-beyond-countable-exhaustion.md)**.
 - **[Deleted Tychonoff plank / two-tag counterexample](A-continuous-counterexample-plank.md)**.
+- **[Fitting the diagonal](A-fitted-diagonal.md):** a fourth, generally nonclosed relation D=fit(Δ); Δ⊆D⊆U and D incomparable with I, with exact pointwise T1 graph test (further equalities deferred).
+
 - [Future questions](future-questions.md) contains a deferred research idea.
 
 Additional historical research notes: [reading Picado–Pultr 2021](A-reading-Picado-Pultr-2021.md), [compactness-question exploration](A-continuous-compactness-question.md), [primitive ideal spaces](A-primitive-ideal-spaces.md), [closed saturation](A-closed-saturation.md), [way-below revisited](A-way-below-revisited.md), [stable interpolation test](A-stable-interpolation-test.md), [noncompact intermediate neighborhoods](A-noncompact-intermediate-neighborhoods.md).
