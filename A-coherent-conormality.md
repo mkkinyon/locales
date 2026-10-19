@@ -151,7 +151,7 @@ In a finite frame every element is compact. Hence:
 - I=U iff a∧b=0 ⇒ a*∨b*=1 for **all** a,b. This is the classical *extremal disconnectedness* identity a*∨a**=1 (put b=a*; the converse follows since a≤b* whenever a∧b=0).
 - U=F iff a*∨b*=1 ⇒ a≺≺b* for all a,b.
 
-This agrees with the earlier graph criteria in terms of inseparability components. In particular, in a finite Alexandrov frame I=U implies I=U=F, but not for general coherent frames without further hypotheses (this possible extension remains to investigate).
+This agrees with the earlier graph criteria in terms of inseparability components. In particular, in a finite Alexandrov frame I=U implies I=U=F. The same implication **holds for all coherent frames**, by the compact quotient theorem in [A-coherent-implication.md](A-coherent-implication.md).
 
 ## 6. Remaining work
 
