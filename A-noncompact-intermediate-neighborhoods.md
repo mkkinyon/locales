@@ -167,6 +167,14 @@ Possible alternate route: investigate whether the special hypothesis u≪a, v≪
 
 which would remove the obstruction of §3, though not prove existence of c. **This compatibility has not been established.** More generally, test whether stronger consequences involving E[cl(u)] can be obtained from I=U and the way-below buffers.
 
+## 5a. Countable compact exhaustion succeeds globally
+
+**Subsequent positive result:** [A-kw-compact-exhaustion.md](A-kw-compact-exhaustion.md) proves that if X is a kω-space and E=cl(Δ_X) is an equivalence relation, then X/E is normal Hausdorff. In particular, if X is **locally compact and σ-compact** (and, for the full locale conclusion, sober), then
+
+    I=U ⇒ I=U=F.
+
+This bypasses a direct dyadic construction: compact quotients q(K_n) are compact Hausdorff, and a continuous separator on one q(K_n) extends consistently through the countable exhaustion by Tietze's theorem. The open question remains **only without** the kω/σ-compact restriction.
+
 ## 6. Research status
 
 **Proved here:** compact E-separated subsets admit far neighborhoods (even with noncompact E-saturations); the first-interpolation necessary condition E[cl(u)]⊆w; an explicit compact locally compact sober example with I=U=F and a far pair that has no rather-below interpolant.
