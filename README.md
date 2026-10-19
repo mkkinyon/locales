@@ -15,6 +15,7 @@ Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological
 ## Project A — Start here
 
 - **[Consolidated theorem outline](A-consolidated-theorems.md):** current claims, hypotheses, hierarchy, dependencies, coherent and continuous results.
+- **[Literature/priority first-pass ledger](A-literature-priority-review.md):** actual predecessor sources, theorem-level comparisons, known/formal/not-located status; includes newly recognized D–Cm and anti-Urysohn matches.
 - **[Independent referee response](A-referee-response.md):** accepted corrections, current scope, and remaining verification tasks.
 - **[First-pass proof audit](A-proof-audit.md):** mathematical risks, tests performed, gaps still needing verification. This is an **internal** audit, not independent.
 - **[Cold referee review packet](A-cold-review-packet.md):** standalone instructions and sources for an independent reviewer, preferably read **before** the internal audit.
