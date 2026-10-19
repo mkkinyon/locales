@@ -2,7 +2,7 @@
 
 Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological spaces* ([arXiv:2610.14783](https://arxiv.org/abs/2610.14783)).
 
-**Working research notes, not a referee-checked paper.** Proofs and any potentially new claims require independent mathematical review and a literature/priority check. For Project A, the current theorem status is in the **[consolidated theorem outline](A-consolidated-theorems.md)** rather than the dated historical notes.
+**Working research notes, not a referee-checked paper.** Proofs and any potentially new claims require independent mathematical review and a literature/priority check. For Project A, the current theorem status is in the **[consolidated theorem outline](A-consolidated-theorems.md)** rather than the dated historical notes. An external cold referee review has now been received; see the [response and corrected hypotheses](A-referee-response.md).
 
 ## Workstreams
 
@@ -15,6 +15,7 @@ Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological
 ## Project A — Start here
 
 - **[Consolidated theorem outline](A-consolidated-theorems.md):** current claims, hypotheses, hierarchy, dependencies, coherent and continuous results.
+- **[Independent referee response](A-referee-response.md):** accepted corrections, current scope, and remaining verification tasks.
 - **[First-pass proof audit](A-proof-audit.md):** mathematical risks, tests performed, gaps still needing verification. This is an **internal** audit, not independent.
 - **[Cold referee review packet](A-cold-review-packet.md):** standalone instructions and sources for an independent reviewer, preferably read **before** the internal audit.
 - **[Core separation definitions](A-localic-separation.md)** and **[hierarchy, strictness and pointless examples](A-hierarchy-first-results.md)**.
