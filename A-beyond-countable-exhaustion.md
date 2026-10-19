@@ -1,3 +1,5 @@
+> **DECISIVE UPDATE (18 October 2026):** The **unrestricted** continuous-frame implication is **false**. See [A-continuous-counterexample-plank.md](A-continuous-counterexample-plank.md): adjoining two nonclosed isolated tags to disjoint nonnormally separable closed subsets of a locally compact Hausdorff space (explicitly the deleted Tychonoff plank) gives a locally compact sober space with **I=U⊊F**, even for a far pair of *compact opens*. This supersedes any unresolved-status or conjectural statement below. Positive conclusions under compactness, sigma-compactness/kω, paracompactness, or quotient hypotheses remain valid.
+
 # A — Beyond one countable exhaustion: clopen kω decomposition and paracompactness
 
 **18 October 2026. Status: working theorem with proof, not a claim of priority.** This continues [A-kw-compact-exhaustion.md](A-kw-compact-exhaustion.md). The main point is to allow **arbitrarily many** countable compact exhaustions on disjoint clopen pieces, rather than forcing one globally countable exhaustion.
