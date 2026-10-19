@@ -79,7 +79,23 @@ Indeed, if X is T1, then for distinct x,y the two-member open cover {X\{x},X\{y}
 
 **Critical distinction:** The property (Fsep), D(X)=Δ_X *as sublocales*, is stronger than the assertion that they have the same points; the latter is equivalent to T1. Do not infer (Fsep) from T1 without a separate spatiality/other argument. In particular D is in general not a closed sublocale.
 
-The pointwise D relation is reflexive and symmetric, and supplies a graph on the points with loops. Its off-diagonal edges detect **failure of T1 exactly**; it can also connect specialization-incomparable pairs.
+The pointwise D relation is reflexive and symmetric, and supplies a graph on the points with loops. Its off-diagonal edges detect **failure of T1 exactly**; by §3a it is precisely the closure-meeting graph of Cameron–Kumar. It can also connect specialization-incomparable pairs.
+
+## 3a. Exact identification with Cameron–Kumar's closure-meeting graph
+
+**Theorem (new identification of our construction, NOT new graph).** For any ordinary topological space X and points x,y,
+
+    (x,y)∈D(X)   ⇔   cl_X{x} ∩ cl_X{y} ≠ ∅.
+
+**Proof.** By §3, (x,y)∈D iff every open cover has a member containing x,y. If z lies in the two singleton closures, every open neighborhood of z contains x and y, so every open cover has such a member. Conversely if the two closures are disjoint, then {X\cl{x}, X\cl{y}} is a two-element open cover, and neither member contains both x,y. □
+
+The right-hand side is **exactly the closure-meeting graph Cm(X)** of P. J. Cameron and Vinod Kumar P. B., *Graphs on Topological Spaces*, arXiv:2610.14783 (2026), Definition 3.1. Their Theorem 3.2 gives precisely the graph-theoretic diamond
+
+    Sp ⊆ Ins∩Cm,     Ins∪Cm ⊆ Ury ⊆ Fun,
+
+with Ins and Cm incomparable in general. **Our fitted-diagonal construction recovers their Cm as the points of a distinguished sublocale of the localic product.** This is a better interpretation of the D–I incomparability and D⊆U than merely a new fourth relation. The relation D remains a generally **nonclosed** fitted sublocale, so even when its point set is Cm, its full point-free structure can carry more information. In particular pointwise Cm trivial ⇔ T1, whereas D=Δ as sublocales is the stronger F-separated condition (cf. Arrieta–Picado–Pultr 2022).
+
+The corresponding specialized graph comparison is already in Cameron–Kumar; we should NOT claim priority for it. Any possible new content lies in the **localic realization, not the pointwise graph**.
 
 ## 4. Incomparability with I
 
@@ -108,4 +124,5 @@ Priority/literature caution: the fitting of the diagonal, (Fsep), and the distin
 
 - I. Arrieta, J. Picado, A. Pultr, *A New Diagonal Separation and Its Relations With the Hausdorff Property*, *Applied Categorical Structures* **30** (2022), 247–263; preprint https://www.mat.uc.pt/preprints/ps/p2117.pdf .
 - J. Picado and A. Pultr, *Separation in Point-Free Topology*, Birkhäuser, 2021, §X.4, “Fitting, ‘Another Closure’”.
+- - P. J. Cameron and Vinod Kumar P. B., *Graphs on Topological Spaces*, arXiv:2610.14783 (2026), Definition 3.1 and Theorem 3.2. https://arxiv.org/pdf/2610.14783 .
 - Our [A-localic-separation.md](A-localic-separation.md), [A-hierarchy-first-results.md](A-hierarchy-first-results.md), and [A-consolidated-theorems.md](A-consolidated-theorems.md).
