@@ -12,6 +12,10 @@ Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological
 
 These are exploratory research notes, **not** a manuscript. Assertions are marked *proved (working)*, *to verify*, or *question*; “proved (working)” means the argument is included here but has not undergone independent referee checking. No originality claim is made without a literature review.
 
+## Continuous-frame question resolved negatively (18 October 2026)
+
+[**A: deleted-plank counterexample**](A-continuous-counterexample-plank.md) proves there is a **locally compact sober** X (hence O(X) continuous) with **I(X)=U(X) ⊊ F(X)**. General construction: given any locally compact Hausdorff **nonnormal** T and disjoint closed A,B without disjoint neighborhoods, adjoin isolated tags p_A,p_B required in every neighborhood of A or B. The resulting X is locally compact sober, its I and U are identical equivalence relations, but every real function agrees at p_A and p_B. Use the **deleted Tychonoff plank** to make the obstruction explicit. This definitively answers the formerly open unrestricted continuous-frame implication **NO**; positive compact, σ-compact/kω, and paracompact theorems remain intact. Earlier notes may discuss the then-open status and should be read with this update.
+
 ## Beyond global countable exhaustion (latest)
 
 [A: beyond countable exhaustion](A-beyond-countable-exhaustion.md) proves that **transitive inseparability implies functional equivalence** for locally compact paracompact spaces, even when non-Hausdorff and not σ-compact. The proof decomposes the space into arbitrarily many clopen σ-compact pieces, applies the kω theorem to each, and assembles the quotient. A locally countable open cover by σ-compact sets is an alternative direct hypothesis. Thus for continuous frames represented by locally compact sober **paracompact** spaces, I=U forces I=U=F. The unrestricted nonparacompact case remains unresolved.
