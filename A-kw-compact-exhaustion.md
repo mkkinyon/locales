@@ -1,6 +1,6 @@
 > **DECISIVE UPDATE (18 October 2026):** The **unrestricted** continuous-frame implication is **false**. See [A-continuous-counterexample-plank.md](A-continuous-counterexample-plank.md): adjoining two nonclosed isolated tags to disjoint nonnormally separable closed subsets of a locally compact Hausdorff space (explicitly the deleted Tychonoff plank) gives a locally compact sober space with **I=U⊊F**, even for a far pair of *compact opens*. This supersedes any unresolved-status or conjectural statement below. Positive conclusions under compactness, sigma-compactness/kω, paracompactness, or quotient hypotheses remain valid.
 
-> **Subsequent extension (18 October 2026):** The countable exhaustion can be dropped globally for locally compact spaces that are **paracompact in the non-Hausdorff open-refinement sense**. Such spaces decompose into arbitrarily many clopen sigma-compact pieces, to which the k-omega theorem below applies separately. A locally countable sigma-compact open cover is another sufficient hypothesis. Full proof: [A-beyond-countable-exhaustion.md](A-beyond-countable-exhaustion.md). The unrestricted locally compact sober case remains open.
+> **Subsequent extension (18 October 2026):** The countable exhaustion can be dropped globally for locally compact spaces that are **paracompact in the non-Hausdorff open-refinement sense**. Such spaces decompose into arbitrarily many clopen sigma-compact pieces, to which the k-omega theorem below applies separately. A locally countable sigma-compact open cover is another sufficient hypothesis. Full proof: [A-beyond-countable-exhaustion.md](A-beyond-countable-exhaustion.md). The unrestricted case is **false**, as shown by the deleted-plank construction cited in the preceding update.
 
 # A — Compact exhaustion and stable interpolation on kω spaces
 
@@ -42,7 +42,7 @@ Finally, any continuous f:X→R is constant on E-related points, because distinc
 
 ## 2. Locally compact σ-compact spaces are kω
 
-**Lemma 2 (proved).** Suppose X is locally compact in the sense that each point has a compact neighborhood, and σ-compact. Then X is kω.
+**Lemma 2 (proved; point-set).** Suppose X is **weakly locally compact**, meaning each point has at least one compact neighborhood, and σ-compact. Then X is kω. This does **not** imply that O(X) is a continuous frame.
 
 **Proof.** Write X=⋃_n C_n with each C_n compact. Every compact C_n can be covered by finitely many open sets whose closures are not required to be compact but which lie in compact neighborhoods; taking the finite union of those compact neighborhoods gives compact L_n with C_n⊆int(L_n). Put
 
@@ -60,7 +60,7 @@ as point relations.
 
 Indeed, I=U makes E=I transitive by [A-coherent-implication.md](A-coherent-implication.md), Lemma 1, and Theorem 1 yields E=F.
 
-**Corollary 4 (closed localic relations).** If, moreover, X is **sober** (so that O(X) is a continuous frame), then the same equality holds for the closed localic sublocales of Loc(X)×Loc(X). The product of locally compact sober spaces agrees with the spatial product in classical topology, and all three relations are closed sublocales, so equality on points determines equality of these relations.
+**Corollary 4 (closed localic relations; corrected).** If, moreover, X is **strongly locally compact and sober**, meaning every open neighborhood contains a compact neighborhood (equivalently, O(X) is continuous for sober X), then the point-set equality lifts to equality of the closed localic sublocales of Loc(X)×Loc(X). Here the localic product agrees with the ordinary spatial product. **Weak local compactness plus sobriety alone does not justify the lift.**
 
 This settles the continuous-frame implication for σ-compact locally compact sober spaces without requiring quotient openness, quotient closedness, or properness of E-saturation.
 
@@ -74,7 +74,7 @@ The proof of Theorem 1 gives more than separation of *points*.
 
 **Proof.** By closed compact saturation, q(K),q(H) are disjoint *closed* subsets of the normal Hausdorff quotient Q=X/E. Separate them by a function g:Q→[0,1] with g|q(K)=0, g|q(H)=1; put f=g∘q. □
 
-**Stable interpolation in the continuous-frame problem.** Let X be locally compact σ-compact sober with I=U. Suppose a,b∈O(X) have disjoint closures, and u≪a, v≪b. Choose compact K,H with u⊆K⊆a and v⊆H⊆b. Since E=I is transitive and no point of a is E-related to a point of b, E[K]∩E[H]=∅. The corollary produces f=0 on u and f=1 on v.
+**Stable interpolation in the continuous-frame problem.** Let X be **strongly** locally compact σ-compact sober with I=U. Suppose a,b∈O(X) have disjoint closures, and u≪a, v≪b. Choose compact K,H with u⊆K⊆a and v⊆H⊆b. Since E=I is transitive and no point of a is E-related to a point of b, E[K]∩E[H]=∅. The corollary produces f=0 on u and f=1 on v.
 
 For dyadic t∈(0,1), set
 
@@ -88,7 +88,7 @@ For s=0, use f=0 on u and continuity to obtain cl(u)⊆f^{-1}({0}); for 0<s<t<1,
 
 **Crucial qualification:** The intermediate opens c_t need not be compactly contained; in the split-real-line example they cannot be. The countable compact exhaustion supplies **compatible separating functions**, not compact intermediate neighborhoods.
 
-This is a genuine positive noncompact intermediate-neighborhood lemma with a clearly identified global hypothesis. Its extension to arbitrary locally compact (non-kω) spaces remains open.
+This is a genuine positive noncompact intermediate-neighborhood lemma with a clearly identified global hypothesis. Its extension to arbitrary non-kω spaces is **false** without additional hypotheses; the two-tag deleted-plank example supplies the counterexample.
 
 ## 3. The promised noncompact closed-buffer lemma
 
@@ -104,15 +104,13 @@ containing cl(u),cl(v), respectively.
 
 These closed buffers are valuable but *not alone* an interpolation theorem: in general their open neighborhoods cannot be selected by a simple finite cover. In the σ-compact case, the kω/Tietze construction circumvents the need to build such nested open neighborhoods directly.
 
-## 4. Limit of the result
+## 4. Limit of the result (historical investigation)
 
-The unrestricted question remains:
-
-    X locally compact sober, I(X)=U(X)  ⇒?  U(X)=F(X).
+The unrestricted continuous-frame implication is now **refuted** by [A-continuous-counterexample-plank.md](A-continuous-counterexample-plank.md). The following discusses the limitation of the compact-exhaustion method as it was understood before that construction.
 
 Our proof uses a **countable exhaustion by compact subspaces** and compatible Tietze extensions. For a non-σ-compact space, there may be no such countable cofinal sequence. Naively extending along an uncountably long directed family of compact subsets is nontrivial: at limit stages there need not be a compact Hausdorff space containing all previous stages, and compatibility can fail without an independent extension mechanism.
 
-This is a *missing proof ingredient*, not evidence of a counterexample. One should not infer the general implication is false.
+**Subsequent resolution:** the general implication is indeed false. The deleted-plank construction shows exactly how a global obstruction can arise.
 
 Further questions:
 1. Can the kω/Tietze method be localized or extended using paracompactness, compactly generated coverings, or a different transfinite gluing principle?
