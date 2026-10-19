@@ -1,6 +1,6 @@
 # A — Noncompact intermediate-neighborhood lemmas: one positive result, two obstructions
 
-**Research note, 18 October 2026.** Status: elementary compact-pair separation proved; a strong proposed interpolation statement **disproved even in a compact, locally compact sober space with I=U=F**; no answer yet to the unrestricted continuous-frame implication. No originality claim. Background notes: [A-way-below-revisited.md](A-way-below-revisited.md), [A-stable-interpolation-test.md](A-stable-interpolation-test.md), [A-closed-saturation.md](A-closed-saturation.md).
+**Research note, 18 October 2026.** Status: closed saturated noncompact buffers for genuine way-below pairs and elementary compact-pair separation proved; a strong proposed interpolation statement **disproved even in a compact, locally compact sober space with I=U=F**; no answer yet to the unrestricted continuous-frame implication. No originality claim. Background notes: [A-way-below-revisited.md](A-way-below-revisited.md), [A-stable-interpolation-test.md](A-stable-interpolation-test.md), [A-closed-saturation.md](A-closed-saturation.md).
 
 Notation for a space X:
 
@@ -48,6 +48,34 @@ Indeed if k∈K⊆A and yEk, every neighborhood of y meets A, so y∈cl(A). Symm
 This is a reasonable *weak noncompact-neighborhood lemma*: distinct E-saturations of compact cores admit **disjoint closed ambient buffers**, although those buffers need not be open neighborhoods of all partners, or themselves E-saturated.
 
 No new continuous real-valued function follows from this lemma alone; further interpolation is required.
+
+
+## 1a. The main positive result: closed, E-saturated, possibly noncompact buffers
+
+**Lemma 2a (proved, arbitrary topological spaces).** Let E=cl(Δ_X) be an **equivalence relation** on a topological space X, and let u,a be opens with u≪a in O(X). Then there exists a compact subset K of X with u⊆K⊆a and
+
+    cl(E[cl(u)]) ⊆ E[K] ⊆ cl(a).
+
+In particular E[K] is **closed and E-saturated**, and may be noncompact. There is no assumption that q:X→X/E is open or closed.
+
+**Proof.** In a locally compact sober space, the way-below/compact-containment characterization gives compact K with u⊆K⊆a. More generally the same proof works whenever such a K has been supplied. Since E is closed in X×X, E[K] is closed: it is the image of E∩(K×X) under the projection K×X→X, a closed map for compact K (tube lemma). Because E is reflexive, u⊆K⊆E[K], and hence cl(u)⊆E[K]. Since E is transitive, E[cl(u)]⊆E[E[K]]=E[K]. Because E[K] is closed, its closure is also contained in E[K].
+
+If zEk for some k∈K⊆a, every neighborhood of z meets a, so z∈cl(a). Thus E[K]⊆cl(a), proving the formula. □
+
+**Corollary 2b.** If a,b are opens with cl(a)∩cl(b)=∅ and u≪a, v≪b, choose compact K,H with u⊆K⊆a and v⊆H⊆b. Then E[K], E[H] are **disjoint closed E-saturated subsets**, and
+
+    cl(E[cl(u)]) ⊆ E[K] ⊆ cl(a),
+    cl(E[cl(v)]) ⊆ E[H] ⊆ cl(b).
+
+In particular,
+
+    E[cl(u)] ⊆ v*,    E[cl(v)] ⊆ u*,
+
+where v*=X\cl(v), u*=X\cl(u).
+
+**Significance.** The necessary obstruction from §3 is **automatically absent for the specific way-below pairs relevant to the main conjecture**. The closed saturated envelopes E[K],E[H] can be noncompact; requiring compact intermediate buffers was precisely the mistake in the earlier ρ-interpolation attempt. There is nevertheless **no general proof that these closed saturated sets possess disjoint open neighborhoods** (much less neighborhoods with disjoint closures). That is the remaining promotion from *closed buffers* to *open interpolants*.
+
+**Caveat on scope:** The compact-containment implication u≪a⇒∃ compact K with u⊆K⊆a is used here for locally compact sober spaces (equivalently, classical continuous frames), not for an arbitrary space X.
 
 ## 2. A compact counterexample to the naïve strong lemma
 
