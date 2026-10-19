@@ -60,6 +60,32 @@ Indeed, I=U makes E=I transitive by [A-coherent-implication.md](A-coherent-impli
 
 This settles the continuous-frame implication for σ-compact locally compact sober spaces without requiring quotient openness, quotient closedness, or properness of E-saturation.
 
+## 2a. A genuine stable noncompact intermediate-neighborhood lemma
+
+The proof of Theorem 1 gives more than separation of *points*.
+
+**Corollary 4a (proved).** Let X be a kω-space and E⊆X×X a closed equivalence relation. If K,H⊆X are compact and E[K]∩E[H]=∅, then there exists an **E-invariant** continuous function
+
+    f:X→[0,1],   f|K=0,   f|H=1.
+
+**Proof.** By closed compact saturation, q(K),q(H) are disjoint *closed* subsets of the normal Hausdorff quotient Q=X/E. Separate them by a function g:Q→[0,1] with g|q(K)=0, g|q(H)=1; put f=g∘q. □
+
+**Stable interpolation in the continuous-frame problem.** Let X be locally compact σ-compact sober with I=U. Suppose a,b∈O(X) have disjoint closures, and u≪a, v≪b. Choose compact K,H with u⊆K⊆a and v⊆H⊆b. Since E=I is transitive and no point of a is E-related to a point of b, E[K]∩E[H]=∅. The corollary produces f=0 on u and f=1 on v.
+
+For dyadic t∈(0,1), set
+
+    c_0=u,   c_t=f^{-1}([0,t)),   c_1=v* = X\cl(v).
+
+These are open in X and satisfy
+
+    cl(c_s)⊆c_t whenever 0≤s<t≤1.
+
+For s=0, use f=0 on u and continuity to obtain cl(u)⊆f^{-1}({0}); for 0<s<t<1, use cl(f^{-1}([0,s)))⊆f^{-1}([0,s]); for t=1, use f=1 on v, hence on cl(v). Therefore this is the desired **stable dyadic rather-below scale**.
+
+**Crucial qualification:** The intermediate opens c_t need not be compactly contained; in the split-real-line example they cannot be. The countable compact exhaustion supplies **compatible separating functions**, not compact intermediate neighborhoods.
+
+This is a genuine positive noncompact intermediate-neighborhood lemma with a clearly identified global hypothesis. Its extension to arbitrary locally compact (non-kω) spaces remains open.
+
 ## 3. The promised noncompact closed-buffer lemma
 
 Let E=I be an equivalence relation on any topological space X. If u≪a in O(X), and X is locally compact sober, choose compact K with u⊆K⊆a. Since E[K] is closed, E-saturated and contains u,
