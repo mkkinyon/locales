@@ -1,3 +1,5 @@
+> **DECISIVE UPDATE (18 October 2026):** The **unrestricted** continuous-frame implication is **false**. See [A-continuous-counterexample-plank.md](A-continuous-counterexample-plank.md): adjoining two nonclosed isolated tags to disjoint nonnormally separable closed subsets of a locally compact Hausdorff space (explicitly the deleted Tychonoff plank) gives a locally compact sober space with **I=U⊊F**, even for a far pair of *compact opens*. This supersedes any unresolved-status or conjectural statement below. Positive conclusions under compactness, sigma-compactness/kω, paracompactness, or quotient hypotheses remain valid.
+
 # A — Closed saturation: what it does and does not capture
 
 **18 October 2026. Mathematical research note.** Main conclusions are proved below, subject to subsequent critical checking. This note follows [the primitive-ideal-space investigation](A-primitive-ideal-spaces.md) and [the continuous compactness question](A-continuous-compactness-question.md).
