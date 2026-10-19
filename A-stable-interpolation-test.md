@@ -1,3 +1,5 @@
+> **DECISIVE UPDATE (18 October 2026):** The **unrestricted** continuous-frame implication is **false**. See [A-continuous-counterexample-plank.md](A-continuous-counterexample-plank.md): adjoining two nonclosed isolated tags to disjoint nonnormally separable closed subsets of a locally compact Hausdorff space (explicitly the deleted Tychonoff plank) gives a locally compact sober space with **I=U⊊F**, even for a far pair of *compact opens*. This supersedes any unresolved-status or conjectural statement below. Positive conclusions under compactness, sigma-compactness/kω, paracompactness, or quotient hypotheses remain valid.
+
 # A — Stable interpolation attempt: a natural rounded relation fails
 
 **18 October 2026. Status: a rigorous obstruction and a model interpolation, but no proof or counterexample to the full continuous-frame implication.** No novelty or priority claim. This follows [A-way-below-revisited.md](A-way-below-revisited.md), [A-continuous-frames.md](A-continuous-frames.md), and [A-closed-saturation.md](A-closed-saturation.md).
