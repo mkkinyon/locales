@@ -12,6 +12,10 @@ Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological
 
 These are exploratory research notes, **not** a manuscript. Assertions are marked *proved (working)*, *to verify*, or *question*; “proved (working)” means the argument is included here but has not undergone independent referee checking. No originality claim is made without a literature review.
 
+## Beyond global countable exhaustion (latest)
+
+[A: beyond countable exhaustion](A-beyond-countable-exhaustion.md) proves that **transitive inseparability implies functional equivalence** for locally compact paracompact spaces, even when non-Hausdorff and not σ-compact. The proof decomposes the space into arbitrarily many clopen σ-compact pieces, applies the kω theorem to each, and assembles the quotient. A locally countable open cover by σ-compact sets is an alternative direct hypothesis. Thus for continuous frames represented by locally compact sober **paracompact** spaces, I=U forces I=U=F. The unrestricted nonparacompact case remains unresolved.
+
 ## Compact-open equality tests (new)
 
 [**A: coherent frames and conormality**](A-coherent-conormality.md) develops an algebraic-frame criterion for I=U, identifies the coherent case with conormality of compact opens (and mp-rings for ring spectra), and gives a parallel completely-separated-compact-opens criterion for U=F. See the note for proofs, prerequisites, and the known conormal-lattice literature.
