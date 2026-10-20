@@ -146,6 +146,22 @@ If \(d_I(L)=d_U(L)\), these inequalities, together with the universal \(d_U(L_c)
 
 Thus I=U is **open-hereditary in Loc**, not only for the original points of spatial spaces. This is a nontrivial stability property for arbitrary noncoherent/noncontinuous frames.
 
+## 5½. Closed heredity fails, even among coherent locales
+
+Open heredity is genuinely asymmetric: **I=U need not pass to closed sublocales**.
+
+Take a field k and let \(X=\operatorname{Spec}k[x,y]\). This space is irreducible because k[x,y] is an integral domain. Consequently **every two nonempty opens intersect**, and the only rectangles in \(d_I\) and \(d_U\) with disjoint/far coordinates are zero. Hence \(I(X)=U(X)=X\times X\).
+
+Now take the **closed** subspace
+
+\[
+Z=V(xy)\ \cong\ \operatorname{Spec}(k[x,y]/(xy)).
+\]
+
+In \(Z\) the compact Zariski opens \(D(x)\) and \(D(y)\) are disjoint because \(xy=0\) in the quotient ring. However, their closures are the two irreducible components \(V(y)\) and \(V(x)\), intersecting at the maximal ideal \((x,y)\). Thus they are **not far**. Since \(D(x),D(y)\) are **compact elements**, the algebraic-frame criterion (or the finite-rectangle farness lemma) implies \(I(Z)\ne U(Z)\). The compactness is essential to this inference: merely finding disjoint opens with intersecting closures would *not* contradict I=U in a general frame.
+
+This is a simple coherent/spectral example showing the equality is open-hereditary but **not closed-hereditary**. It also rules out attempts to characterize I=U by a property inherited under arbitrary sublocale inclusions.
+
 ## 6. Recovering previously proved subclasses
 
 - **Regular frames:** if \(a\wedge b=0\), decompose \(a,b\) into rather-below approximants \(u\prec a,v\prec b\). Each pair is far since \(u^*\vee v^*\ge u^*\vee a=1\). Thus disjointness is generated from far pairs by arbitrary joins in the two coordinates; I=U.
