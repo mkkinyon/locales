@@ -1,3 +1,5 @@
+> **SOURCE CORRECTION (19 October 2026):** Vermeulen, *Proper Maps of Locales* (1994), **Corollary 5.17**, proves that **closed proper equivalence relations are effective on arbitrary locales**—without assuming compactness of the ambient locale. The earlier restriction to compact locales was a misreading of a later paper's application. For a continuous L, proper projections of I=U yield a proper continuous strongly Hausdorff quotient; Vermeulen supplies I=kerpair(q), and complete regularity of the quotient gives **I=U=F** entirely locally. See [A-proper-inseparability-relations.md](A-proper-inseparability-relations.md).
+
 # Project A — Consolidated theorem outline (working manuscript skeleton)
 
 **Consolidated 18 October 2026.** This is a working theorem map, **not an independent referee verification**, and it makes **no claim of novelty**. For proof details follow links rather than relying on this summary. The current status of the continuous-frame implication is **NEGATIVE in general**, despite historical "open" wording in earlier investigation notes.
