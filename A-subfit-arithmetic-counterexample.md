@@ -176,6 +176,24 @@ Thus the T-open set c∩T contains A, while the disjoint T-open set \(T\setminus
 
 In particular \(u\not\prec\!\prec v^*\) even though u,v are **compact open** and have disjoint closures.
 
+## 5½. Complement: sober T1 arithmetic spaces are zero-dimensional
+
+**Proposition (classical).** Let Z be a **sober T1** topological space whose compact open subsets form a basis and are closed under finite intersections. Then every compact open subset of Z is **clopen**. In particular, Z is zero-dimensional, locally compact Hausdorff, and completely regular, so
+
+\[
+\mathcal I(Z)=\mathcal U(Z)=\mathcal F(Z)=\Delta_Z.
+\]
+
+**Proof.** Let K be any compact open subspace of Z. Since open subspaces of sober spaces are sober, and K is compact and T1 with a basis of compact opens closed under finite intersections, K is a **T1 spectral space**. By the standard spectral-space theorem “T1 spectral iff Stone”, K is compact Hausdorff (and zero-dimensional).
+
+For compact opens K,H⊆Z, arithmeticity makes K∩H compact, so **K∩H is closed in the Hausdorff subspace H**. Now fix x∉K and choose a compact open H∋x. Since H is Hausdorff, the relative complement H\K=H\(K∩H) is open in H, hence open in Z. It contains x and is disjoint from K. Taking the union over all x∉K shows Z\K is open. Thus **every compact open K is globally closed**, hence clopen.
+
+Since compact opens are a basis, Z is zero-dimensional T1, thus Hausdorff and completely regular. The diagonal is therefore equal to all three closed relations. □
+
+This is a useful precise boundary: our counterexample gives a **T1 nonsober presentation** of a subfit arithmetic frame, while its **sober spectrum is not T1**. The distinction is mathematically unavoidable, not a cosmetic workaround. The proposition requires no hypothesis I=U.
+
+Reference for the imported standard theorem: Hochster/Stone duality for spectral spaces (see e.g. P. T. Johnstone, *Stone Spaces*, or standard expositions of T1 spectral spaces as Stone spaces).
+
 ## 6. Interpretation, and what remains open
 
 This example **disproves the conjunction**:
@@ -192,7 +210,7 @@ L\text{ algebraic, arithmetic, subfit}\\
 
 It subsumes both earlier **individual hypothesis** tests, but only at the **frame/subfit** level. It does **not** construct a **T1 SOBER arithmetic** space with the same failure: the T1 precursor Y is necessarily nonsober because the cofinite clouds are irreducible. Its sobrification X remains a valid **spatial locale** and its open frame remains subfit, but X is not T1.
 
-Thus the finer question **T1 + sobriety + arithmeticity** may still be worth investigating. Be careful: "subfit" is strictly weaker than pointwise T1 of the sober spectrum (the natural spectrum here has two extra nonclosed generic points).
+The finer question **T1 + sobriety + arithmeticity** is settled positively by §5½: it forces a zero-dimensional completely regular space, with all relations equal to the diagonal. Be careful: "subfit" is strictly weaker than pointwise T1 of the sober spectrum (the natural spectrum here has two extra nonclosed generic points).
 
 Also open: exact priority of this cofinite-cloud method (infinite cofinite spaces and their generic sobrifications are standard) and the more general condition under which stable local compactness plus subfitness forces functional collapse **without** assuming algebraicity. The source counterexample needs an infinite, noncompact deleted-plank T; it does not contradict the positive theorem for **compact locales** or coherent frames.
 
