@@ -150,11 +150,11 @@ For every locale, **Δ⊆D⊆U**. In general D and I are **incomparable**; oppos
 
 ## VI. Priority audit and next directions
 
-**Independent referee update:** An external high-effort cold review confirmed the central counterexample and key frame lemmas, while identifying the weak/strong local-compactness error, product-point terminology, and novelty concerns. See [A-referee-response.md](A-referee-response.md); the original report is not published here.
+**Referee and 20 October 2026 external-audit update:** Two additional external adversarial reviews supported the central continuous-frame/properness results, checked the T1 subfit counterexample, and found the **false unconditional idempotence statement** (even for I=U=F), a stronger compact nonspatial positive theorem, and supporting-scope corrections. The reviews were not strictly blind; see [A-external-audits-reconciliation-2026-10-20.md](A-external-audits-reconciliation-2026-10-20.md). An earlier high-effort referee review also corrected weak/strong local-compactness errors, product-point terminology, and novelty concerns. See [A-referee-response.md](A-referee-response.md); the original report is not published here.
 
 **Potential core paper:** definitions + categorical F-reflection + selected equality criteria + finite/pointless examples + continuous positive subclasses + deleted-plank counterexample. This remains *exploratory*, not publication-ready.
 
-**To verify before manuscript:** (1) independently rederive all frame coproduct/closed-sublocale formulas; (2) scrutinize finite-rectangle and compact/way-below product lemmas; (3) confirm theorem references and exact assumptions of Picado–Pultr/Arrieta–Picado–Pultr; (4) subject the deleted-plank tag construction to hostile proof checking; (5) prioritize genuinely new vs established topological theorems; (6) decide whether localic examples add new information beyond spatial reformulations.
+**Remaining before manuscript:** The rectangle, farness, reflection and composition lemmas and both plank counterexamples were checked in two outside reports; verify the primary compact Hausdorff locale regularity reference, complete source/priority comparisons, and give outstanding kω/paracompact, fitted-diagonal and peripheral statements a further focused audit. Distinguish all-locale results from classical spatial arguments and from historic conjectures now disproved.
 
 **Remaining to develop:** systematic nonspatial equality theory beyond the compact/proper subclasses; combined subfit+arithmetic hypotheses; exact conditions connecting Scott continuity, idempotence, and localic properness; and further relationships of D with I,U,F. The earlier product, composition, and T1-example questions have received partial answers.
 
