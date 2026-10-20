@@ -1,5 +1,8 @@
 # Project A — What obstructs I=U ⇒ U=F? Candidate hypotheses and a perfect-quotient theorem
 
+> **STRONGER THEOREM (19 October 2026):** An arbitrary **closed equivalence relation** on a topological space whose projections are **perfect** (closed with compact fibers) has **Hausdorff quotient**, without using local compactness or Urysohn separation. Therefore for a strongly locally compact sober X with **transitive I=clΔ**, proper/perfect inseparability projections imply **I=U=F**. The hypothesis I=U is sufficient for transitivity but not otherwise needed. See [A-proper-inseparability-relations.md](A-proper-inseparability-relations.md) for proof and a localic proper-quotient/closed-diagonal counterpart. This supersedes §2's extra I=U assumption.
+
+
 **19 October 2026. Status: new working positive criterion and hypothesis triage, internally argued, not externally refereed or priority checked.** Here X is a strongly locally compact sober **topological space** and I,U,F are the closed localic relations from [A-consolidated-theorems.md](A-consolidated-theorems.md), assumed I=U. We distinguish ordinary quotient maps from possible general localic coequalizers.
 
 ## 1. Conceptual translation: functional Hausdorffness of the inseparability quotient
