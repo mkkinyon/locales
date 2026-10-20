@@ -181,6 +181,8 @@ as closed localic relations.
 - Our prior coherent/compact/kω/paracompact positive theorems are unaffected. The plank is a closed subspace of X, hence X remains non-σ-compact and nonparacompact.
 - **Caution regarding compactness:** The compact-open neighborhoods meeting A contain a cofinite tail S_A; they need **not** be closed, even though X is T1. This is why compact open witnesses do not automatically imply coherence or regularity.
 
+**Further strengthening (20 October 2026):** The failure of meet-stability in this *discrete-cloud* construction can be repaired **without sacrificing subfitness** by giving each cloud the **cofinite topology**. See the new [subfit arithmetic counterexample](A-subfit-arithmetic-counterexample.md): after sobrification, the frame is subfit and arithmetic and still I=U⊊F. The earlier discrete-cloud example remains stronger in the independent respect that its **sober spectrum itself is T1**.
+
 ## References
 
 - P. J. Cameron and V. Kumar, *Graphs on Topological Spaces*, arXiv:2610.14783 (2026).
