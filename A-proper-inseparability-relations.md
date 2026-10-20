@@ -248,6 +248,10 @@ The notion “weakly fitted over X” is a relative condition, different from or
 
 **Conclusion:** no special closure-of-diagonal effectiveness theorem remains to prove. Instead, the natural unrestricted question is whether the **strongly Hausdorff quotient** of a closed proper relation is completely regular without continuity of X; that does not follow in general from strong Hausdorffness alone. For continuous X, continuity passes to the proper quotient and gives complete regularity.
 
+## 3⅞. Scott-continuity converse (20 October 2026, new working proof)
+
+For a **closed ordinary relation** E⊆X×Y with X **weakly locally compact**, Scott continuity of `r_E=(p_Y)_*p_X^*` is **equivalent to p_Y being closed with compact fibers**. The crucial observation is that a compact-neighborhood cover `V_i⊆K_i` of X, together with Scott continuity, gives an open cover `W_F=r_E(⋃_{i∈F}V_i)` of Y on which `E∩(X×W_F)⊆(⋃_{i∈F}K_i)×W_F`; the projection is then locally a closed subspace projection along a **compact factor**. This does not require E to be an equivalence relation or X to be Hausdorff. For **continuous frames** in classical mathematics, the closed localic relation is spatial and the topological perfectness of its projection supplies properness of the corresponding locale map (Scott-continuous right adjoint plus closed Frobenius). Thus **for continuous L, r_E Scott-continuous iff p₂:E→X proper as a locale map** for every closed subrelation E. Symmetry gives both projections proper. Details and full proof: [A-scott-continuity-converse.md](A-scott-continuity-converse.md). This repairs the earlier uncertainty about a converse in the continuous-frame case; **no arbitrary-locale converse has been proved**.
+
 ## 4. Scope, examples and implications
 
 **Relation projection perfect ⇔ quotient map perfect (ordinary Top, for equivalence relations):** from p_i perfect the theorem gives q perfect; conversely p_i is a pullback of q along q, and perfect maps are pullback-stable. Thus either formulation is natural in ordinary topology. This equivalence is topological, not automatically an assertion about all localic relations without effectiveness.
