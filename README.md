@@ -24,6 +24,7 @@ Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological
 - **[Coherent frames and conormality](A-coherent-conormality.md)**; **[coherent implication](A-coherent-implication.md)**.
 - **[Continuous frame criteria](A-continuous-frames.md)**; **[kω compact exhaustion](A-kw-compact-exhaustion.md)**; **[paracompact extension](A-beyond-countable-exhaustion.md)**.
 - **[Deleted Tychonoff plank / two-tag counterexample](A-continuous-counterexample-plank.md)**.
+- **[Obstruction hypotheses and compact-fiber theorem](A-obstruction-candidates.md):** a closed inseparability quotient with compact classes is locally compact Hausdorff; candidate frame conditions include properness, stable continuity, and relative interpolation.
 - **[T1 algebraic subfit counterexample](A-subfit-continuous-counterexample.md):** replacing generic tags with cofinite discrete clouds gives a T1, sober, strongly locally compact, **algebraic subfit** locale with I=U⊊F, witnessed by compact opens. This sharpens the older counterexample.
 - **[Fitting the diagonal](A-fitted-diagonal.md):** a fourth, generally nonclosed relation D=fit(Δ); Δ⊆D⊆U and D incomparable with I, with exact pointwise T1 graph test (further equalities deferred).
 
