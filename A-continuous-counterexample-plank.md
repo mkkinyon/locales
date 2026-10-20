@@ -245,6 +245,8 @@ The two disjoint closed saturated buffers E[cl(u)]=A∪{p_A} and E[cl(v)]=B∪{p
 
 **Further strengthening (20 October 2026):** [A-subfit-arithmetic-counterexample.md](A-subfit-arithmetic-counterexample.md) replaces *isolated/discrete* clouds by *cofinite-topology* clouds. The **subfit arithmetic conjunction** also fails to force I=U=F. The T1 precursor is nonsober; its sober spectrum has the same arithmetic subfit frame and satisfies I=U⊊F. This note's original two-tag construction remains a simpler illustrative example.
 
+**Stronger conjunction counterexample (20 October 2026):** See [A-subfit-arithmetic-counterexample.md](A-subfit-arithmetic-counterexample.md). Cofinite clouds give an arithmetic subfit frame still satisfying I=U strictly below F, after explicit sobrification. The older two-tag construction remains a simpler predecessor.
+
 ## References
 
 - P. J. Cameron and V. Kumar, *Graphs on topological spaces*, arXiv:2610.14783 (2026); pointwise relations motivating this project.
