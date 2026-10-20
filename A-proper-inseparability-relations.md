@@ -79,6 +79,8 @@ Each U_n is open; the family is increasing and ⋃_n U_n=X. Let q:X→Q=X/I be o
 
 Therefore **r fails to preserve the directed join** of the U_n. This is the precise frame-level defect that defeats properness in this counterexample. It is a sharper diagnosis than merely saying that the equivalence classes are noncompact.
 
+**Important non-necessity:** Properness is a **sufficient** condition for relation collapse, not an exact criterion for I=U=F. The same cofinite-cloud construction over a **normal** locally compact Hausdorff T (e.g. two disjoint countably infinite discrete components with A,B the components) has noncompact E-classes and non-Scott-continuous r, but A and B are completely separated and therefore I=U=F. Consequently the diagnosed failure of Scott continuity explains why the *proper-quotient argument* does not apply to the plank; it is not by itself equivalent to functional indistinguishability.
+
 **Terminology:** the Scott-continuity law here is the preservation of directed joins by the **right adjoint** q_* of the inverse-image map q*, not by q* itself (which always preserves arbitrary joins). The topological quotient remains closed, so its closed Frobenius law still holds.
 
 ## 3. Frame-theoretic / localic quotient: an intrinsic formula
