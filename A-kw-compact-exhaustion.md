@@ -92,7 +92,7 @@ This is a genuine positive noncompact intermediate-neighborhood lemma with a cle
 
 ## 3. The promised noncompact closed-buffer lemma
 
-Let E=I be an equivalence relation on any topological space X. If u≪a in O(X), and X is locally compact sober, choose compact K with u⊆K⊆a. Since E[K] is closed, E-saturated and contains u,
+Let E=I be an equivalence relation on any topological space X. If u≪a in O(X), and X is **strongly locally compact** (in particular if O(X) is a continuous frame with its classical strongly locally compact sober representation), choose compact K with u⊆K⊆a. Since E[K] is closed, E-saturated and contains u,
 
     cl(E[cl(u)]) ⊆ E[K] ⊆ cl(a).
 
