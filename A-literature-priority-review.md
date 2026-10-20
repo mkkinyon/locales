@@ -148,7 +148,15 @@ This settles negatively the further question whether *subfitness* restores I=U�
 
 S. Jafari, *On R1-Urysohn Spaces*, unrefereed preprint, posted 2 October 2026, https://www.preprints.org/manuscript/202610.0121 . It introduces a condition involving distinct singleton closures and **closures of certain disjoint neighborhoods**. Based on its published abstract, this is **not definitionally our I=U**, which only requires that any points separated by disjoint opens have *some neighborhoods with disjoint closures*. Do not equate them without a theorem. Historical R1/preregularity is weaker and also not definitionally our equality.
 
-## 8. Tentative claim-to-source ledger (non-exhaustive)
+## 8. Tentative claim-to-source ledger (non-exhaustive)## 7a. Proper equivalence relations and separation quotients
+
+**KNOWN categorical machinery:** J. J. C. Vermeulen, *Proper Maps of Locales*, **JPAA** 92 (1994), 79–107 (DOI 10.1016/0022-4049(94)90047-7); Graham Manuell, *Presenting Quotient Locales*, **Applied Categorical Structures** 31 (2023), article 28, §2 and §3 (especially Remark 3.8), https://link.springer.com/article/10.1007/s10485-023-09736-x . Proper f means right adjoint f_* preserves **directed joins** and satisfies the **closed co-Frobenius law** f_*(u∨f^*v)=f_*u∨v. It is stronger than semi-proper (=Scott continuity alone), sometimes called perfect in the localic literature.
+
+**FORMAL CONSEQUENCE, new synthesis for this project:** if a **closed internal equivalence** E↪X² has proper projections p_i, its coequalizer q:X→Q is proper (Manuell) and its diagonal Δ_Q is closed: the closed image (q×q)(E) equals Δ_Q because of reflexivity, coequalization and surjectivity. If X is continuous, the quotient Q is continuous by a short right-adjoint/way-below calculation. Under ZFC Q is thus completely regular. **Do not assume E is its kernel pair in arbitrary locales**; full equality E=F outside the spatial case needs separate effectivity verification. A separate purely topological theorem: for *any* closed equivalence relation E with perfect projections, X/E is Hausdorff; in strongly locally compact sober X with **E=I transitive**, this yields I=U=F as closed localic relations. Detailed proofs and caveat: [A-proper-inseparability-relations.md](A-proper-inseparability-relations.md).
+
+**Priority:** quotient/proper descent techniques are existing literature; the special Project A formulation is not asserted new.
+
+
 
 | Project A result | Closest identified source(s) | Present classification |
 |---|---|---|
