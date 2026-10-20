@@ -127,6 +127,105 @@ Hence B is continuous. This proves continuity of a proper quotient of a continuo
 
 **Boundary for a full arbitrary-locale I=F theorem:** when Q is completely regular, `F(X)⊆kerpair(q)`, because the real maps Q→R jointly separate Q and their pullbacks belong to the defining family of F. If moreover `E⊆F(X)` (as happens for E=I), then every real map X→R coequalizes E and therefore factors through q, giving `kerpair(q)⊆F(X)`. Hence in our inseparability setting `F(X)=kerpair(q)`; nevertheless **F=E still requires E=kerpair(q)** (effectiveness). In the continuous spatial setting the earlier point-set proof supplies the needed equality. Do not silently infer effectiveness from the mere existence of a coequalizer or from the closed diagonal.
 
+## 3½. A complete effectiveness proof for continuous frames (classical mathematics)
+
+**New working theorem (requires the standard spatial characterization of localic properness, which must be checked against Johnstone/Vermeulen before publication).** Let X be a **strongly locally compact sober topological space**. Let E↪X×X be a **closed internal localic equivalence relation** and suppose both projections E⇉X are **proper as locale maps**. Then its coequalizer q:X→Q is the **kernel-pair quotient**:
+
+    E = X×_Q X,
+
+and Q is locally compact Hausdorff. In particular, when E=I=cl(Δ_X), the conclusion is I=U=F.
+
+The same pointwise argument applies to any spatial closed E when the projections satisfy the **non-Hausdorff topological properness criterion** described immediately below. The point-free-to-spatial correspondence for proper maps is the imported standard fact; it is not proved from frame adjunctions in this note.
+
+### Step 1. Closed reflexive relations contain specialization comparisons
+
+Write x≤y for the specialization order: every open neighborhood of x contains y. Then the specialization preorder on X×X is coordinatewise. Because E is **closed and reflexive**, whenever x≤y we have
+
+    (y,y)∈E,    (x,y)≤(y,y),    hence (x,y)∈E.
+
+By symmetry, (y,x)∈E as well. Hence each E-equivalence class C_x is both upward and downward closed for specialization. This is an elementary but essential non-T1 fact.
+
+### Step 2. Proper relation projections give compact equivalence classes
+
+The standard topological characterization of **proper maps in the non-Hausdorff sense** (see J. Goubault-Larrecq, *Proper maps, quasi-adjoints and the Smyth hyperspace*, https://topology.lmf.cnrs.fr/proper-maps-quasi-adjoints-and-the-smyth-hyperspace/ , Theorem A; Johnstone/Vermeulen for the localic version) states that a proper continuous f:Y→Z has:
+
+1. f^-1(K) compact for every compact saturated K⊆Z;
+2. **downward closure** ↓f[H] closed in Z for every closed H⊆Y.
+
+It does **not** assert that f is closed on ordinary closed sets in a non-T1 codomain. For any x∈X, the specialization saturation ↑x is a **compact saturated subset**: a single open containing x covers all of ↑x. Properness of p_2:E→X gives a compact subset
+
+    H_x = p_2^-1(↑x) ⊆ E.
+
+Because x≤z entails xEz, transitivity gives the exact image identity
+
+    p_1(H_x)=E[x].
+
+Indeed, yEx implies (y,x)∈H_x; conversely if (y,z)∈E with z≥x, then xEz and hence yEx. Thus the class E[x] is a continuous image of compact H_x and is **compact**.
+
+### Step 3. Proper projections give ordinary closed saturation
+
+For a closed H⊆X, p_2^-1(H) is closed in E. Properness of p_1 implies
+
+    ↓p_1(p_2^-1(H)) = ↓E[H]
+
+is closed. But E[H] is already **downward closed**: if zEy with y∈H and z'≤z then, since E is closed, z'Ey. Hence E[H] is itself closed. Thus the ordinary quotient q_t:X→Q_t=X/E is a **closed map**.
+
+Together with Step 2 it has compact fibers, so q_t is perfect in the ordinary closed+compact-fiber sense. Closedness of E and compactness of two different classes allow finite rectangular separation, giving **Q_t Hausdorff**, exactly as in §2. The strong local compactness of X and perfectness of q_t give Q_t locally compact. Hence Q_t is **Hausdorff, sober, and completely regular**.
+
+### Step 4. Deduce genuine localic effectiveness
+
+Since X is strongly locally compact sober, X×X is spatial; hence the **closed** E↪X×X is spatial and its points are exactly the ordinary closed E-subset. The frame coequalizer of its projections is precisely the frame of ordinary E-saturated opens,
+
+    O(Q)= {u∈O(X):p_1^*u=p_2^*u} = O(X/E)=O(Q_t).
+
+Because Q_t is Hausdorff and thus sober, there is no sobrifification ambiguity: Q and Q_t are the **same locale**.
+
+The diagonal Δ_Q is closed. Consequently the kernel pair X×_Q X is a **closed** sublocale of X×X. It has exactly the ordinary pairs (x,y) satisfying q_t(x)=q_t(y), i.e. exactly E. Since closed sublocales of spatial O(X×X) are determined by their point sets,
+
+    E = X×_Q X.
+
+This proves effectiveness in the continuous spatial context **without assuming X or E compact**. It does not extend Vermeulen's compact theorem to arbitrary pointless locales.
+
+### Step 5. The quotient is actually the completely regular reflection
+
+Now take E=I=clΔ. Every real-valued map X→R coequalizes E (because I⊆F), so factors uniquely through q. Since Q is completely regular, its opens are generated by pullbacks of real opens. Therefore, as subframes of L,
+
+    O(Q)=C(L),
+
+where C(L) is the **largest completely regular subframe** generated by localic real maps. Hence q is precisely the completely regular reflection map r_X, and
+
+    I=kerpair(q)=F.
+
+Moreover q is a **proper quotient** in the localic sense by Manuell's / Vermeulen's result. Thus the properness hypothesis produces not merely functional separation, but a proper completely regular reflection.
+
+**Important priority/correctness caveat:** the transposition from localic properness to the modified topological criterion in Step 2 is standard for spatial sober locales but needs a precise reference and exact hypotheses confirmed before the theorem is advertised as choice-free. The remainder is a direct proof. In the case where “proper” is assumed **explicitly for the underlying topological projections**, Steps 1–5 are unconditional point-set arguments plus established Hofmann–Lawson duality.
+
+### Explicit internal formula for the saturation operator
+
+For E=I=C(d_I), with d_I=∨_{a∧b=0}a⊠b, O(E)=↑d_I as a frame quotient of L⊗L. For u,v∈L,
+
+    v≤(p_2)_*p_1^*(u)
+     ⇔ p_2^*v≤p_1^*u in O(E)
+     ⇔ (1⊠v)≤(u⊠1)∨d_I.
+
+Consequently
+
+    r_I(u)=⋁{v∈L:(1⊠v)≤(u⊠1)∨d_I}.
+
+This is valid **for any locale** even before I is known transitive; in the equivalence-relation case r_I is the idempotent saturated-open interior, with fixed-point frame O(X/I). If the projections are proper, r_I is Scott-continuous.
+
+### Exactly what the two-tag / cofinite-cloud examples violate
+
+In our plank constructions the E-classes are noncompact. Equivalently, the **proper quotient's** Scott-continuity criterion fails, witnessed by the increasing sequence U_n=X\(A\{a_0,…,a_n}) in §2½: r_I(∨U_n)≠∨r_I(U_n). This is the failure of **properness**, not an exact characterization of E≠F: normal-base variants give E=F even with noncompact fibers.
+
+## 3¾. A genuinely arbitrary-localic effectiveness condition from Vermeulen
+
+Vermeulen (1994), **Corollary 5.14**, explicitly states: a **proper equivalence relation** that is **weakly fitted in X×X over X** (via either projection) is effective; in particular, open equivalence relations with proper projections are effective. His Theorem 5.17 is cited by Karazeris–Tsamis (2021) with an explicit **compact ambient locale** hypothesis for closed proper equivalence relations.
+
+The notion “weakly fitted over X” is a relative localic condition and is **NOT** simply ordinary fitness of the frame L or the fittedness of Δ. We have not yet unpacked its exact definition or tested whether E=clΔ can satisfy it. Source: Vermeulen *Proper Maps of Locales*, https://core.ac.uk/download/pdf/82053693.pdf (search-indexed full PDF, but direct fetch currently unavailable); Karazeris–Tsamis, https://cahierstgdc.com/wp-content/uploads/2021/07/Karazeris-Tsamis_LXII-3.pdf , Thm 4.3.
+
+This is a more useful open purely localic branch than unqualified guesses about effectiveness of arbitrary proper relations.
+
 ## 4. Scope, examples and implications
 
 **Relation projection perfect ⇔ quotient map perfect (ordinary Top, for equivalence relations):** from p_i perfect the theorem gives q perfect; conversely p_i is a pullback of q along q, and perfect maps are pullback-stable. Thus either formulation is natural in ordinary topology. This equivalence is topological, not automatically an assertion about all localic relations without effectiveness.
