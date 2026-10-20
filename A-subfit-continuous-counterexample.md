@@ -183,6 +183,8 @@ as closed localic relations.
 
 **Further strengthening (20 October 2026):** The failure of meet-stability in this *discrete-cloud* construction can be repaired **without sacrificing subfitness** by giving each cloud the **cofinite topology**. See the new [subfit arithmetic counterexample](A-subfit-arithmetic-counterexample.md): after sobrification, the frame is subfit and arithmetic and still I=U⊊F. The earlier discrete-cloud example remains stronger in the independent respect that its **sober spectrum itself is T1**.
 
+**Stronger combined-hypothesis counterexample (20 October 2026):** Giving the clouds the **cofinite topology** rather than the discrete topology makes the frame arithmetic while preserving subfitness and I=U strictly below F. See [A-subfit-arithmetic-counterexample.md](A-subfit-arithmetic-counterexample.md). Its sober spectrum is not T1, unlike this discrete-cloud example.
+
 ## References
 
 - P. J. Cameron and V. Kumar, *Graphs on Topological Spaces*, arXiv:2610.14783 (2026).
