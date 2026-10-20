@@ -158,7 +158,7 @@ Take the three-point **particular-point** topology on {p,x,y}:
 
     O(X)={∅,{p},{p,x},{p,y},X}.
 
-Every two nonempty opens intersect at p. Thus d_I=d_U=0. Every localic real-valued map is constant (as seen from the finite poset p<x, p<y; comparable points must have equal real values). Hence d_F=0. So
+Every two nonempty opens intersect at p. Thus d_I=d_U=0. Every localic real-valued map is constant (as seen from the **upper-set** specialization poset x<p>y; comparable points must have equal real values). Hence d_F=0. So
 
     I=U=F=X×X.
 
