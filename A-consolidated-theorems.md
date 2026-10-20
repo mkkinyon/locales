@@ -115,6 +115,12 @@ Construction: for a locally compact Hausdorff nonnormal T with disjoint closed A
 
 Since X is locally compact sober, pointwise equality/strictness of these **closed** relations lifts to the localic product. This counters *the exact stable-buffer conjecture* for way-below compact opens.
 
+**Theorem D6 (NEW WORKING STRENGTHENING, 19 October 2026).** There exists a **T1, strongly locally compact, sober** topological space X, whose frame of opens L is both **algebraic and subfit**, satisfying
+
+    I(L)=U(L) ⊊ F(L).
+
+It has compact opens u,v with u≪u, v≪v, u*∨v*=1, and **no c** such that u≺c≺v*. Replace each old generic tag by a countably infinite discrete cloud; neighborhoods meeting A (respectively B) must contain a cofinite tail of that cloud. The points of A become mutually inseparable, as do the points of B, while X becomes T1. Each point of A has a compact neighborhood K∪tail inside any given open (K compact in T, the tail together with a∈A compact); added points are clopen, giving sobriety. The pointwise relations agree I=U, but all real maps are constant on A and B, so nonnormality of the deleted plank forces F to merge these classes. Since X is strongly locally compact sober, the equality and strictness lift to closed localic relations. The plank has a compact-open basis, so X does too. **Theorem D6 is internally verified but has not yet been independently refereed or priority checked.** Complete proof: [A-subfit-continuous-counterexample.md](A-subfit-continuous-counterexample.md). It subsumes D5 for strength; D5 is retained as a simpler generic-tag predecessor.
+
 Details: [A-continuous-frames.md](A-continuous-frames.md), [A-kw-compact-exhaustion.md](A-kw-compact-exhaustion.md), [A-beyond-countable-exhaustion.md](A-beyond-countable-exhaustion.md), [A-continuous-counterexample-plank.md](A-continuous-counterexample-plank.md).
 
 ## V. Supporting obstructions, not alternative main theorems
