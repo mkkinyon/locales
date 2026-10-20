@@ -57,7 +57,7 @@ No inclusion between I and D holds in general (proved below).
 
     (x,y)∈D(X)   ⇔   every open cover of X has some member containing both x and y.
 
-Here on the left X denotes the associated spatial locale, and membership means the point 1→X×X factors through the fitted sublocale. Its point set is correctly described by pairs of ordinary points; the localic product may fail to be spatial, but has **no additional points**.
+Here on the left X denotes the locale associated to the topology of the given space, and membership means the point induced by the **specified original pair** (x,y) factors through the fitted sublocale. **If X is not sober, its locale has the points of the sobrification, which may include additional points not originating in X.** The points of the localic product are pairs of *locale points*, not necessarily pairs of original points; no product-spatiality assumption is needed to test original pairs. For a full point-set identification assume X sober.
 
 **Proof.** An open sublocale O(w) of the product contains Δ iff δ*(w)=1. Every w∈L⊗L is a join of basic rectangles,
 
@@ -73,11 +73,13 @@ Conversely for any cover {c_i}, the element w=⋁_i c_i⊠c_i satisfies δ*(w)=1
 
 **Corollary (exact pointwise T1 test).**
 
-    [points of D(X) are precisely Δ] ⇔ [X is T1].
+    [D relates no distinct **original** points of X] ⇔ [X is T1].
+
+For **sober** X this equivalently says the **entire point set** of D is the diagonal. For a non-sober T1 space, sobrification may introduce additional points and the unrestricted assertion about *all locale points* is false.
 
 Indeed, if X is T1, then for distinct x,y the two-member open cover {X\{x},X\{y}} has no member containing both. If X is not T1, some distinct x,y have x∈cl{y}; therefore **every open neighborhood of x contains y**, and any open cover has a member containing both. So D has a nontrivial off-diagonal point.
 
-**Critical distinction:** The property (Fsep), D(X)=Δ_X *as sublocales*, is stronger than the assertion that they have the same points; the latter is equivalent to T1. Do not infer (Fsep) from T1 without a separate spatiality/other argument. In particular D is in general not a closed sublocale.
+**Critical distinction:** The property (Fsep), D(X)=Δ_X *as sublocales*, is stronger than the assertion that D relates no distinct **original points**; the latter is equivalent to T1. For all locale points one must additionally control sobrification (e.g., assume X sober). Do not infer (Fsep) from T1 without a separate spatiality/other argument. In particular D is in general not a closed sublocale.
 
 The pointwise D relation is reflexive and symmetric, and supplies a graph on the points with loops. Its off-diagonal edges detect **failure of T1 exactly**; by §3a it is precisely the closure-meeting graph of Cameron–Kumar. It can also connect specialization-incomparable pairs.
 
