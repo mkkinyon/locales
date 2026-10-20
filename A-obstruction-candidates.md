@@ -5,6 +5,8 @@
 
 **19 October 2026. Status: new working positive criterion and hypothesis triage, internally argued, not externally refereed or priority checked.** Here X is a strongly locally compact sober **topological space** and I,U,F are the closed localic relations from [A-consolidated-theorems.md](A-consolidated-theorems.md), assumed I=U. We distinguish ordinary quotient maps from possible general localic coequalizers.
 
+> **Point-free transitivity update (19 October 2026):** A frame calculation now proves I∘I⊆U for *all* locales, hence I=U makes I an internal equivalence relation without assuming spatiality. The [proper-inseparability relation note](A-proper-inseparability-relations.md) also gives an intrinsic formula `r_I(u)=∨{v:1⊠v≤(u⊠1)∨d_I}` and a classical-ZFC **effectiveness theorem for closed proper equivalence relations on continuous locales** using compact saturated specialization classes. See the exact proof and imported proper-map correspondence there.
+
 ## 1. Conceptual translation: functional Hausdorffness of the inseparability quotient
 
 Set E=I=U on points. It is an equivalence relation: symmetry/reflexivity are immediate; if xEy and yEz then for arbitrary open neighborhoods V∋x, W∋z, y∈cl(V)∩cl(W), so xUz, hence xEz.
