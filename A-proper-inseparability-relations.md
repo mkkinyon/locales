@@ -1,6 +1,10 @@
 # Project A — Proper inseparability projections and Hausdorff quotients
 
-**19 October 2026. Status: working mathematical investigation; topological theorem proved; categorical quotient consequences cross-checked with published Manuell (2023), with the effectiveness boundary explicitly left unresolved outside the spatial setting. No novelty/priority claim.**
+**19 October 2026. CORRECTED SOURCE CHECK:** Vermeulen (1994), **Corollary 5.17**, already proves that **every closed proper equivalence relation of locales is effective**, without assuming the ambient locale compact. Our former ``effectiveness gap'' was a misreading of the *compact-locale application* in Karazeris–Tsamis (2020). The source is https://core.ac.uk/download/pdf/82053693.pdf (search-indexed scan p. 107; direct retrieval was blocked). All proofs below are supplementary, not extensions of Vermeulen's effectiveness theorem. No claim of novelty.**
+
+## Primary-source effectiveness correction
+
+**Vermeulen, *Proper Maps of Locales*, JPAA 92 (1994), Corollary 5.17**: every **closed proper internal equivalence relation** on a locale is **effective**. His parenthetical compact-locale case is **only an example**. This is independently confirmed by the scan's original conclusion on p. 107, https://core.ac.uk/download/pdf/82053693.pdf, indexed at https://www.google.com/search?q=%22Closed+proper+equivalence+relations%22+Vermeulen . Manuell (2023) supplies the proper quotient interior-operator machinery. Thus, assuming I=U and the projections of I proper, no extra effective-descent hypothesis is needed. In continuous frames, the proper quotient is continuous and strongly Hausdorff, hence completely regular; the quotient is the completely regular reflection and I=U=F.
 
 ## Executive result
 
@@ -125,7 +129,7 @@ so q is a **proper quotient**. This is consistent with—and can be read directl
 
 **Proof.** Proper maps of locales are stable under products, hence q×q:X×X→Q×Q is proper. The **image of a closed sublocale under a proper map is closed**, so the image of E under q×q is closed. Since qp_1=qp_2, this image lies in Δ_Q. By reflexivity, Δ_X factors through E, and (q×q)δ_X=δ_Qq. Because q is a proper **surjection**, its image is all of Q, so the image of δ_Qq is Δ_Q. Therefore the image of E is **exactly Δ_Q**, proving that Δ_Q is closed. □
 
-This conclusion DOES NOT require assuming E equals the kernel pair X×_Q X: effectiveness of the given internal equivalence relation is a separate categorical issue. Thus this is a genuine localic Hausdorff-quotient result (conditional only on the standard proper-quotient theorem).
+**Vermeulen's Corollary 5.17 supplies effectiveness separately and unconditionally under the present hypotheses:** closed proper equivalence relations are kernel pairs of their coequalizers in Loc. The closed-diagonal image argument remains a useful short independent proof that the quotient is strongly Hausdorff.
 
 ### Proper surjections preserve continuity of frames (direct calculation)
 
@@ -143,9 +147,9 @@ Hence B is continuous. This proves continuity of a proper quotient of a continuo
 
 **Deduction.** If X is a continuous locale, E is a closed internal equivalence relation with proper projections, then Q is continuous and strongly Hausdorff. Under classical ZFC/Hofmann–Lawson, Q is the frame of opens of a locally compact sober space, and its closed diagonal forces the space to be Hausdorff and thus completely regular. Therefore **Q is a completely regular locale**.
 
-**Boundary for a full arbitrary-locale I=F theorem:** when Q is completely regular, `F(X)⊆kerpair(q)`, because the real maps Q→R jointly separate Q and their pullbacks belong to the defining family of F. If moreover `E⊆F(X)` (as happens for E=I), then every real map X→R coequalizes E and therefore factors through q, giving `kerpair(q)⊆F(X)`. Hence in our inseparability setting `F(X)=kerpair(q)`; nevertheless **F=E still requires E=kerpair(q)** (effectiveness). In the continuous spatial setting the earlier point-set proof supplies the needed equality. Do not silently infer effectiveness from the mere existence of a coequalizer or from the closed diagonal.
+**The remaining distinction is complete regularity, NOT effectiveness:** when Q is completely regular, `F(X)⊆kerpair(q)`, because the real maps Q→R jointly separate Q and their pullbacks belong to the defining family of F. If moreover `E⊆F(X)` (as happens for E=I), then every real map X→R coequalizes E and therefore factors through q, giving `kerpair(q)⊆F(X)`. Hence in our inseparability setting `F(X)=kerpair(q)`; and **Vermeulen's Corollary 5.17 already gives E=kerpair(q)** for our closed proper equivalence. Thus whenever Q is completely regular, E=I=F, with no spatial assumption. If X is continuous then Q is continuous and strongly Hausdorff, so Q is completely regular in ZFC by Hofmann–Lawson; hence **I=U=F** for all continuous locales satisfying I=U and properness of I projections.
 
-## 3½. A complete effectiveness proof for continuous frames (classical mathematics)
+## 3½. An independent spatial proof (now subsumed by Vermeulen 5.17)
 
 **New working theorem (requires the standard spatial characterization of localic properness, which must be checked against Johnstone/Vermeulen before publication).** Let X be a **strongly locally compact sober topological space**. Let E↪X×X be a **closed internal localic equivalence relation** and suppose both projections E⇉X are **proper as locale maps**. Then its coequalizer q:X→Q is the **kernel-pair quotient**:
 
@@ -202,7 +206,7 @@ The diagonal Δ_Q is closed. Consequently the kernel pair X×_Q X is a **closed*
 
     E = X×_Q X.
 
-This proves effectiveness in the continuous spatial context **without assuming X or E compact**. It does not extend Vermeulen's compact theorem to arbitrary pointless locales.
+This provides an alternative spatial proof for continuous frames, but **Vermeulen 1994, Corollary 5.17 is stronger**: closed proper equivalence relations are already effective for *all locales*, including noncompact and pointless ones. The spatial argument is therefore optional.
 
 ### Step 5. The quotient is actually the completely regular reflection
 
@@ -236,13 +240,13 @@ This is valid **for any locale** even before I is known transitive; in the equiv
 
 In our plank constructions the E-classes are noncompact. Equivalently, the **proper quotient's** Scott-continuity criterion fails, witnessed by the increasing sequence U_n=X\(A\{a_0,…,a_n}) in §2½: r_I(∨U_n)≠∨r_I(U_n). This is the failure of **properness**, not an exact characterization of E≠F: normal-base variants give E=F even with noncompact fibers.
 
-## 3¾. A genuinely arbitrary-localic effectiveness condition from Vermeulen
+## 3¾. Vermeulen's actual general effectiveness theorem — critical correction
 
-Vermeulen (1994), **Corollary 5.14**, explicitly states: a **proper equivalence relation** that is **weakly fitted in X×X over X** (via either projection) is effective; in particular, open equivalence relations with proper projections are effective. His Theorem 5.17 is cited by Karazeris–Tsamis (2021) with an explicit **compact ambient locale** hypothesis for closed proper equivalence relations.
+Vermeulen (1994), **Corollary 5.14**, proves effectiveness for proper equivalence relations **weakly fitted in X×X over X**, with open proper relations as a special case. Crucially, **Corollary 5.17 (not just a compact-locale theorem) states: 'Closed proper equivalence relations (in particular closed equivalence relations on a compact locale) are effective.'** The ambient locale need not be compact. The Karazeris–Tsamis (2020) citation uses only the parenthetical compact special case, which led to our earlier erroneous restriction.
 
-The notion “weakly fitted over X” is a relative localic condition and is **NOT** simply ordinary fitness of the frame L or the fittedness of Δ. We have not yet unpacked its exact definition or tested whether E=clΔ can satisfy it. Source: Vermeulen *Proper Maps of Locales*, https://core.ac.uk/download/pdf/82053693.pdf (search-indexed full PDF, but direct fetch currently unavailable); Karazeris–Tsamis, https://cahierstgdc.com/wp-content/uploads/2021/07/Karazeris-Tsamis_LXII-3.pdf , Thm 4.3.
+The notion “weakly fitted over X” is a relative condition, different from ordinary fitness or fitted diagonal. **Our closed relation E=clΔ does not need to satisfy it**: properness plus closedness triggers Corollary 5.17 directly. Source: Vermeulen *Proper Maps of Locales*, https://core.ac.uk/download/pdf/82053693.pdf (search-indexed full PDF, but direct fetch currently unavailable); Karazeris–Tsamis, https://cahierstgdc.com/wp-content/uploads/2021/07/Karazeris-Tsamis_LXII-3.pdf , Thm 4.3.
 
-This is a more useful open purely localic branch than unqualified guesses about effectiveness of arbitrary proper relations.
+**Conclusion:** no special closure-of-diagonal effectiveness theorem remains to prove. Instead, the natural unrestricted question is whether the **strongly Hausdorff quotient** of a closed proper relation is completely regular without continuity of X; that does not follow in general from strong Hausdorffness alone. For continuous X, continuity passes to the proper quotient and gives complete regularity.
 
 ## 4. Scope, examples and implications
 
@@ -250,10 +254,10 @@ This is a more useful open purely localic branch than unqualified guesses about 
 
 **Comparison with our counterexamples.** Both the generic-tag and cofinite-cloud deleted-plank examples have a **closed** inseparability quotient, but their nontrivial inseparability classes are A,B (or A∪{p_A},B∪{p_B}) and are **noncompact**. Hence their relation projections are NOT proper/perfect. The new T1 subfit example demonstrates that subfitness, algebraicity, closed quotient, and even absence of isolated points do not replace compact-fiber control.
 
-**Possible next mathematical tests:**
+**Possible next mathematical tests (updated after verifying Vermeulen 5.17):**
 1. Does I=U already force I to be a **localic** internal equivalence relation (as opposed to only a pointwise equivalence) without continuity? Under strong LC sobriety, product spatiality permits checking equality on points in higher products.
-2. Confirm precise conditions under which closed proper E is effective in Loc. Karazeris–Tsamis (2020, *Regular and Effective Regular Categories of Locales*, arXiv:2004.04404) cite Vermeulen (1994) Theorem 5.17 for **closed proper equivalence relations on compact locales**; no unqualified theorem for arbitrary locales is asserted here.
-3. If effectivity holds, the above completely regular quotient implies **E=F** in the purely point-free setting. Otherwise, document the obstruction (failure of descent/effectivity).
+2. **Resolved by primary source:** Vermeulen (1994) Corollary 5.17 proves effectiveness of **all closed proper equivalence relations of locales**. There is no missing assumption E=clΔ or X compact.
+3. For E=I, effectivity now holds; establish complete regularity of Q under useful hypotheses. Continuous X suffices, but arbitrary localic X need not have a completely regular quotient.
 4. Explore whether one projection merely **closed** plus compact classes is enough pointwise (yes: closed+compact = perfect), and whether Scott continuity without Frobenius suffices (not established).
 5. Check the exact analogues with other closed localic relations U,F: without transitivity, properness of projections does not provide a quotient theorem.
 
