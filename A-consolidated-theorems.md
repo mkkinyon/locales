@@ -42,6 +42,8 @@ and F=Δ iff C(L)→L is epi in Frm. A frame epi need not be surjective.
 
 **Literature/terminology caution:** Isbell strong Hausdorff (sH) means I=Δ, which is not simply the conservative Hausdorff condition. The label F here means functional equivalence and is **not** the established locale property (Fsep) of fitted diagonal in Arrieta–Picado–Pultr.
 
+**NEW STRUCTURAL OBSERVATIONS (20 October 2026; point-free, working, priority unchecked).** For any frame L, `d_I=∨_{a∈L}(a⊠a*)`. Therefore I=U iff **U preserves the closure of every open sublocale**, in the precise sense `U∩(O(a)×O(a*))=∅` for every a. Using the standard cp-ideal coproduct presentation, equivalently the **least symmetric downward relation** on L×L containing all far pairs `a*∨b*=1` and closed under arbitrary joins in **either coordinate** is exactly meet-zero disjointness. This free complete orthogonality has a unary Galois polar `a↦a^diamond≤a*`; I=U iff `a^diamond=a*` throughout L. **Open heredity:** if I=U on X then I=U on **every open sublocale** O(c), without spatiality. **Not closed hereditary:** `Spec k[x,y]` is irreducible and I=U, while its closed `V(xy)≅Spec k[x,y]/(xy)` has disjoint compact opens D(x),D(y) whose closures meet, so I≠U. These are exact formulations, not yet a simpler elementwise axiom; see [A-I-equals-U-structural-study.md](A-I-equals-U-structural-study.md).
+
 ## II. Examples and strictness (arbitrary locales)
 
 **Theorem B1 (working).** The seven-point upper-set Alexandrov zigzag
