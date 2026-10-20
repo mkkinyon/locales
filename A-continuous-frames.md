@@ -115,7 +115,7 @@ Indeed, by Hofmann–Lawson L=O(X) for a **compact**, locally compact sober X. T
 
 This extends the coherent result to noncoherent compact continuous frames. For example, O([0,1]) is compact and continuous but **not algebraic**: its only compact elements are ∅ and [0,1] (a nonempty proper compact open of connected compact Hausdorff [0,1] would be clopen). Thus this is a genuine extension of the *scope* of the implication, although the particular space [0,1] already has all three relations diagonal.
 
-We do **not** deduce the implication for compact nonspatial locales: those need not have continuous frames and the compact-space proof uses ordinary points.
+**Audit strengthening (20 October 2026):** The conclusion actually holds for **every compact locale**, even nonspatial/noncontinuous, provided I is an **internal equivalence relation**. Its projections are proper since I is closed and X is compact; Vermeulen 1994, Prop. 5.5 and Cor. 5.17, give an effective proper quotient with a closed diagonal. The compact strongly Hausdorff quotient is completely regular in classical locale theory, giving I=U=F. See [A-consolidated-theorems.md](A-consolidated-theorems.md), Theorem D2; a precise primary citation for compact Hausdorff ⇒ completely regular locales remains on the source checklist.
 
 ## 5. A continuous, nonalgebraic strictness example
 
@@ -137,11 +137,11 @@ Thus the continuous way-below tests are informative on frames where the compact-
 
 ## 6. Next questions
 
-1. Does I=U imply U=F for **all** continuous frames, not necessarily compact? The compact quotient proof no longer directly applies. No assertion made.
+1. **Resolved negatively:** I=U does not imply U=F for all continuous frames, by the deleted-plank two-tag and T1 cofinite-cloud examples. The compact *locale* case is positive as described above.
 2. Are Theorems 3.1–3.2 expressible as familiar separation principles from classical *core-compact* topology? Compare with neighborhood refinements and completely separated compact-saturated sets.
 3. Can these results be proved **internally** without the classical spatial representation, to recover a constructive locale theorem? The finite rectangular separation and gluing lemmas need localic analogues.
 4. Seek a nontrivial characterization of these equalities valid for *noncontinuous and nonspatial* frames, which is still necessary if “point-free” is to add more than a reformulation of locally compact sober point-set topology.
-5. Consider **stably continuous** frames and stably locally compact locales: does multiplicativity of the way-below relation add stronger implications?
+5. **Resolved negatively for stable continuity alone:** the original two-tag deleted-plank frame is arithmetic (algebraic with compact elements meet-stable) yet I=U⊊F. The combined hypothesis **subfitness plus stable continuity** remains open in our notes.
 6. After these checks, compare with appropriate compactifications/quotient objects rather than relying solely on local tests.
 
 ## References
