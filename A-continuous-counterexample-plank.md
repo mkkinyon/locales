@@ -243,6 +243,8 @@ The two disjoint closed saturated buffers E[cl(u)]=A∪{p_A} and E[cl(v)]=B∪{p
 3. Is this two-tag construction standard in the literature under another name (e.g. forcing inseparability classes with open generic points)? Do a priority/literature check before proposing publication.
 4. Can the construction be modified to give a locally compact **T1** counterexample? The tags in this X are not closed, so the example is T0 sober but not T1. This is not required for the continuous-frame result, but would strengthen the topology.
 
+**Further strengthening (20 October 2026):** [A-subfit-arithmetic-counterexample.md](A-subfit-arithmetic-counterexample.md) replaces *isolated/discrete* clouds by *cofinite-topology* clouds. The **subfit arithmetic conjunction** also fails to force I=U=F. The T1 precursor is nonsober; its sober spectrum has the same arithmetic subfit frame and satisfies I=U⊊F. This note's original two-tag construction remains a simpler illustrative example.
+
 ## References
 
 - P. J. Cameron and V. Kumar, *Graphs on topological spaces*, arXiv:2610.14783 (2026); pointwise relations motivating this project.
