@@ -54,7 +54,7 @@ No new continuous real-valued function follows from this lemma alone; further in
 
 ## 1a. The main positive result: closed, E-saturated, possibly noncompact buffers
 
-**Lemma 2a (proved, arbitrary topological spaces).** Let E=cl(Δ_X) be an **equivalence relation** on a topological space X, and let u,a be opens with u≪a in O(X). Then there exists a compact subset K of X with u⊆K⊆a and
+**Lemma 2a (corrected scope, 20 October 2026).** Let E=cl(Δ_X) be an **equivalence relation** on a topological space X. Suppose **a compact K with u⊆K⊆a is given**, where u,a are opens. In particular such a K exists when X is **strongly locally compact** and u≪a. Then
 
     cl(E[cl(u)]) ⊆ E[K] ⊆ cl(a).
 
@@ -167,11 +167,11 @@ Possible alternate route: investigate whether the special hypothesis u≪a, v≪
 
     E[cl(u)]⊆v*,
 
-which would remove the obstruction of §3, though not prove existence of c. **This compatibility has not been established.** More generally, test whether stronger consequences involving E[cl(u)] can be obtained from I=U and the way-below buffers.
+which would remove the obstruction of §3, though not prove existence of c. **This compatibility is established under compact-containment hypotheses in Corollary 2b above**; what remains unresolved is extending the resulting closed buffers to a dyadic chain of separating *open* neighborhoods. More generally, test whether stronger consequences involving E[cl(u)] can be obtained.
 
 ## 5a. Countable compact exhaustion succeeds globally
 
-**Subsequent positive result:** [A-kw-compact-exhaustion.md](A-kw-compact-exhaustion.md) proves that if X is a kω-space and E=cl(Δ_X) is an equivalence relation, then X/E is normal Hausdorff. In particular, if X is **locally compact and σ-compact** (and, for the full locale conclusion, sober), then
+**Subsequent positive result:** [A-kw-compact-exhaustion.md](A-kw-compact-exhaustion.md) proves that if X is a kω-space and E=cl(Δ_X) is an equivalence relation, then X/E is normal Hausdorff. In particular, if X is **weakly locally compact and σ-compact** as a point-set statement (and, for the full locale conclusion, **strongly locally compact and sober**), then
 
     I=U ⇒ I=U=F.
 
