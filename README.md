@@ -30,6 +30,7 @@ Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological
 
 - **[Two-tag deleted-plank construction](A-continuous-counterexample-plank.md):** `I=U⊊F` for an **arithmetic/stably continuous** frame that is not subfit.
 - **[T1 algebraic subfit cofinite-cloud construction](A-subfit-continuous-counterexample.md):** `I=U⊊F` despite T1, sobriety, strong local compactness, algebraicity and subfitness; compact-open witnesses and a crowded Cantor-product strengthening.
+- **[Scott-continuity converse for closed relations](A-scott-continuity-converse.md):** a new working proof that, for closed relations with weakly locally compact source, Scott continuity of the relation operator is equivalent to topological perfectness of the projection; consequently **properness** of closed relation projections is characterized by Scott continuity for classical continuous frames.
 - **[Nonidempotent inseparability saturation operator](A-saturation-operator-nonidempotence.md):** `r_I²≠r_I` even with `I=U=F`, finite classes, and compact Hausdorff quotient. **Important correction** to earlier unconditional idempotence claims.
 - [Obstruction hypotheses](A-obstruction-candidates.md), [proper inseparability relations](A-proper-inseparability-relations.md), [clean Vermeulen effectiveness theorem memo](A-vermeulen-effectiveness-correction.md).
 
