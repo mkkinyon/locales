@@ -1,6 +1,6 @@
 # Project A — Subfitness does NOT rescue the continuous-frame implication
 
-**19 October 2026 — working new construction, verified internally, NOT independently refereed.** This note responds to the strengthened question left open after the two-tag construction:
+**19 October 2026 construction; externally checked by ChatGPT High and Claude Opus 5.5 on 20 October 2026.** The audits were not strictly blind and novelty has not been determined. ** This note responds to the strengthened question left open after the two-tag construction:
 
 > Does I=U imply U=F for a **subfit continuous frame**?
 
