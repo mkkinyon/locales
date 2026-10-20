@@ -148,6 +148,23 @@ This settles negatively the further question whether *subfitness* restores I=U�
 
 S. Jafari, *On R1-Urysohn Spaces*, unrefereed preprint, posted 2 October 2026, https://www.preprints.org/manuscript/202610.0121 . It introduces a condition involving distinct singleton closures and **closures of certain disjoint neighborhoods**. Based on its published abstract, this is **not definitionally our I=U**, which only requires that any points separated by disjoint opens have *some neighborhoods with disjoint closures*. Do not equate them without a theorem. Historical R1/preregularity is weaker and also not definitionally our equality.
 
+## 7b. Properness and effectiveness: an intrinsic computation (19 October 2026)
+
+**Point-free result, all locales:** I∘I⊆U. Expanding a*∨b*=1 in the middle coordinate of a composable pair of I-arrows annihilates the two disjointness rectangles; hence I=U makes I an **internal equivalence relation** for all locales, not only continuous ones.
+
+**Exact formula:** for I=C(d_I), the saturation operator is
+
+    r_I(u)=(p_2)_*p_1^*(u)
+          =∨{v∈L:1⊠v≤(u⊠1)∨d_I}.
+
+It is the largest I-saturated open below u when I is an equivalence relation. Manuell (2023), Remark 3.8, establishes the proper quotient construction.
+
+**Working continuous-frame effectiveness argument:** for strongly locally compact sober X and a **closed internal equivalence** E⊆X² with proper locale projections, each E-class is compact and E-saturations of closed sets are closed. The key specialization observation: closed reflexive E contains all specialization comparisons; ↑x is compact saturated and E[x]=p_1(p_2^-1(↑x)), while E[H]=↓E[H]. The non-Hausdorff characterization of properness controls compact saturated inverse images and downward closures of closed-set images. Hence the ordinary quotient X/E is perfect and Hausdorff, is also locally compact, and because it is sober it represents the localic coequalizer; E is its **kernel pair**. When E=I, the quotient is precisely the completely regular reflection, and I=U=F.
+
+**Scope caution:** Exact correspondence between localic properness and the non-Hausdorff topological characterization should be verified against Johnstone/Vermeulen in the required sober scope; this is currently a working proof, **not externally refereed**. In arbitrary pointless locales, Vermeulen 1994, Cor 5.14 gives a weak-fitting sufficient hypothesis and his Thm 5.17 is cited for compact ambient locales by Karazeris–Tsamis 2021. These do not establish unrestricted effectiveness. Complete argument: [A-proper-inseparability-relations.md](A-proper-inseparability-relations.md).
+
+Sources: [Manuell 2023](https://link.springer.com/article/10.1007/s10485-023-09736-x), [Goubault-Larrecq on non-Hausdorff proper maps](https://topology.lmf.cnrs.fr/proper-maps-quasi-adjoints-and-the-smyth-hyperspace/), [Karazeris–Tsamis 2021](https://cahierstgdc.com/wp-content/uploads/2021/07/Karazeris-Tsamis_LXII-3.pdf).
+
 ## 8. Tentative claim-to-source ledger (non-exhaustive)## 7a. Proper equivalence relations and separation quotients
 
 **KNOWN categorical machinery:** J. J. C. Vermeulen, *Proper Maps of Locales*, **JPAA** 92 (1994), 79–107 (DOI 10.1016/0022-4049(94)90047-7); Graham Manuell, *Presenting Quotient Locales*, **Applied Categorical Structures** 31 (2023), article 28, §2 and §3 (especially Remark 3.8), https://link.springer.com/article/10.1007/s10485-023-09736-x . Proper f means right adjoint f_* preserves **directed joins** and satisfies the **closed co-Frobenius law** f_*(u∨f^*v)=f_*u∨v. It is stronger than semi-proper (=Scott continuity alone), sometimes called perfect in the localic literature.
