@@ -26,6 +26,8 @@ Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological
 - [Continuous frame criteria](A-continuous-frames.md); [compact exhaustion and `k_ω`](A-kw-compact-exhaustion.md); [paracompact extension](A-beyond-countable-exhaustion.md).
 - [Fitted diagonal](A-fitted-diagonal.md): the fourth, generally nonclosed localic relation `D=fit(Δ)`; its **original-point** relation is Cameron–Kumar's closure-meeting graph. For non-sober spaces distinguish original points from points of the sobrification.
 
+- **[Structural study of I=U in arbitrary frames](A-I-equals-U-structural-study.md):** one-parameter pseudocomplement criterion; a universal **closure-nonexpansiveness** interpretation; complete binary orthogonality and a unary separation polar; point-free open heredity and failure of closed heredity.
+
 ### Counterexamples and the structure of the obstruction
 
 - **[Two-tag deleted-plank construction](A-continuous-counterexample-plank.md):** `I=U⊊F` for an **arithmetic/stably continuous** frame that is not subfit.
