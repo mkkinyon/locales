@@ -1,6 +1,6 @@
 # Project A — Vermeulen resolves the proper-relation effectiveness question
 
-**19 October 2026. Clean theorem memo for the forthcoming adversarial audit.** Corrects an earlier bibliography error. **Working corollary** (the cited Vermeulen effectiveness theorem itself is published). No novelty claim.
+**19 October 2026 theorem memo; corrected against the 20 October 2026 external audits.** Corrects an earlier bibliography error. **Working corollary** (the cited Vermeulen effectiveness theorem itself is published). No novelty claim.
 
 ## 0. Correct primary source
 
@@ -8,7 +8,7 @@ J. J. C. Vermeulen, *Proper Maps of Locales*, **Journal of Pure and Applied Alge
 
 > "Closed proper equivalence relations (in particular closed equivalence relations on a compact locale) are effective."
 
-https://core.ac.uk/download/pdf/82053693.pdf (search-indexed original scanned paper; downloading/opening the link was blocked with 403 in this research session). DOI: https://doi.org/10.1016/0022-4049(94)90047-7 .
+https://core.ac.uk/download/pdf/82053693.pdf (the original 1994 article was subsequently uploaded by the researcher and directly inspected on 19–20 October 2026). DOI: https://doi.org/10.1016/0022-4049(94)90047-7 .
 
 **This is a theorem for arbitrary ambient locales**, NOT just compact ones. The compact parenthesis is merely an example. Karazeris–Tsamis, *Regular and Effective Regular Categories of Locales* (2020), Theorem 4.3, invokes precisely that compact special case; our earlier reading mistakenly narrowed the original theorem.
 
@@ -73,7 +73,7 @@ By the prior intrinsic characterization F(X)=kerpair(r_X), we obtain
 
 The universal chain I⊆U⊆F then gives I=U=F. □
 
-**Status caveats:** (i) The Vermeulen statement was confirmed from full-text *indexed scan* rather than a directly opened PDF (the source currently returns 403). Its literal Cor 5.17 wording is unambiguous; seek an independently accessible copy for the referee packet. (ii) The quotient's strong Hausdorff/continuity steps are reasoned here but have **not undergone a separate adversarial mathematical audit**. (iii) The proof of all facts used in §1 is independent of Vermeulen.
+**Audit status (20 October 2026):** The uploaded original Vermeulen paper has been read directly; two external adversarial reviews independently support the proper quotient/effectiveness and continuous-frame collapse argument, subject to the cited Vermeulen and Hofmann–Lawson theorems. This memo's clean proof remains valid. A separate unconditional idempotence statement in an older note was **false** and is repaired in [A-saturation-operator-nonidempotence.md](A-saturation-operator-nonidempotence.md).
 
 ## 4. What happens without continuity?
 
@@ -109,4 +109,4 @@ This pins down **why the proper quotient proof cannot apply**: Scott continuity 
 - Vermeulen 1994 already solves the **unrestricted effectivity** problem for closed proper equivalence relations. Do **not** claim novelty for this.
 - Our transitivity inclusion I∘I⊆U is elementary, with a Cameron–Kumar pointwise analogue. Its localic expression may already occur in diagonal separation literature.
 - The properness/continuous-frame I=F collapse is an application of Vermeulen, Hofmann–Lawson and completely regular reflection, not yet priority-cleared as a stated corollary.
-- **Next dedicated task should be an adversarial audit**, including the product-image argument, quotient operator, non-Hausdorff properness conventions, T1 cofinite-cloud example, and consistency with established positive coherent/compact theorems. In view of the just-corrected source mistake, this should precede new theorem hunting.
+- **A dedicated adversarial audit was completed on 20 October 2026**, including the product-image argument, quotient operator, non-Hausdorff properness conventions, T1 cofinite-cloud example, and consistency with established positive coherent/compact theorems. In view of the just-corrected source mistake, this should precede new theorem hunting.
