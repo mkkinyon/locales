@@ -14,6 +14,24 @@ The assumption **I=U** is a convenient sufficient way of ensuring E is transitiv
 
 **Even stronger purely topological version:** for **any** topological X and **any closed equivalence relation** E⊆X×X, if p_1 or p_2 is perfect, then Q=X/E is Hausdorff; no local compactness, sobriety, or I=U is required for that result.
 
+## 0. The basic relation-composition lemma is purely point-free
+
+**Theorem (all locales, no spatial or compactness assumptions):**
+
+    I∘I ⊆ U.
+
+Proof. Let P=I_12∩I_23↪X³ be the locale of composable I-arrows, with projections to the first, middle, last coordinates. Let a*∨b*=1. In O(P), pullbacks of a, a*, b, b* are denoted a_1,(a*)_2,b_3,(b*)_2. By the defining relation I=C(d_I), since a∧a*=b*∧b=0,
+
+    a_1∧(a*)_2=0,     (b*)_2∧b_3=0.
+
+Distributing over a*∨b*=1 in the middle coordinate gives
+
+    a_1∧b_3
+      = a_1∧((a*)_2∨(b*)_2)∧b_3
+      =0.
+
+The map P→X² on first and last coordinates therefore factors through U. In particular **I=U ⇒ I is an internal equivalence relation** for *every locale*, because I is already symmetric and reflexive. This improves the earlier pointwise/spatial transitivity proof and makes the properness hypothesis immediately applicable to our main equality problem.
+
 ## 1. Proper/perfect maps: terminology in topology and locales
 
 For ordinary topological spaces, use **perfect** to mean *continuous, closed, and all fibers compact*.
