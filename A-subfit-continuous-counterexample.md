@@ -112,6 +112,34 @@ Therefore, in L=O(X),
 
 **Conclusion:** The subfitness hypothesis does not restore the desired implication even among **algebraic** frames, with an obstruction already witnessed by compact open elements. The example is noncoherent: since it is noncompact, 1 is not compact, so there is no conflict with our earlier coherent-frame positive theorem.
 
+## 5½. Relation to non-Hausdorff cones: an explicit open quotient
+
+A colleague's independent literature search recognized the original *single-tag* construction as an **adjunction of two non-Hausdorff cones**. This observation is correct, with the caveat that literature often uses the *opposite apex convention*.
+
+For a closed set A, let C_+(A)=A⊔{p_A}, with the opens ∅ and U∪{p_A} for U open in A. Thus {p_A} is open and cl{p_A}=A∪{p_A}. Then the original two-tag X_old is the topological pushout
+
+    X_old = T ∪_A C_+(A) ∪_B C_+(B).
+
+The present new construction has an **exactly parallel pushout** presentation. Set C_ω(A)=A⊔S_A where S_A is countably infinite, each point of S_A is isolated, and U⊆C_ω(A) is open iff U∩A is open and whenever U∩A≠∅, U includes all but finitely many members of S_A. Then
+
+    X_new = T ∪_A C_ω(A) ∪_B C_ω(B).
+
+For A={a}, C_+(A) is the Sierpiński space (open apex) whereas C_ω(A) is the usual compact convergent sequence ω+1. For multiple a∈A the SAME sequence S_A converges to all points of A; this produces T1 inseparability without any nontrivial specialization order.
+
+**Proposition (new→old open quotient).** There is a canonical **continuous open surjective quotient map**
+
+    q:X_new→X_old
+
+equal to the identity on T, mapping every s∈S_A to p_A and every s∈S_B to p_B.
+
+**Proof.** For a subset W⊆X_old, the inverse image q^-1(W) is open in X_new iff W is open in X_old: restriction to T matches, and an entire cloud is included in q^-1(W) exactly when its tag belongs to W, so the cofinite implication is equivalent to the corresponding old one. Thus q is quotient (and continuous). If U is open in X_new, q(U)∩T=U∩T is T-open. If U∩T meets A, then U contains a cofinite tail S_A and q(U) contains p_A, similarly for B. Therefore q(U) is old-open: q is open. □
+
+This quotient is typically **not closed**: an infinite proper subset E⊆S_A is closed in X_new only if it is finite (because its closure contains A), but closed subsets can distinguish clopen singletons, and q need not preserve every closed set if there are closed sets meeting T in complicated ways. More directly, the fiber S_A is open in X_new but not closed (its closure contains A); q(S_A)={p_A} is open but not closed in X_old, so this example *does not by itself* prove q is not closed. A suitable argument, when desired, must choose a closed set whose image fails to be closed. In fact q **is closed** on this construction: for any closed C⊆X_new, if C meets S_A, it need not meet A when the intersection is finite; its image then contains p_A but not necessarily A, which is not closed in X_old. Take C={s} for s∈S_A: C is closed in X_new, while q(C)={p_A} is not closed in X_old (when A≠∅). Therefore q is not closed. 
+
+The map q shows the new example is an **open, nonclosed T1 resolution** of the old tag topology. This is an exact topological relationship, not merely an analogy, but it does not claim a standard named construction.
+
+**Terminology and history.** McCord, Barmak and Minian, and J. P. May discuss non-Hausdorff cones/suspensions or mapping cylinders, mostly with the opposite convention (apex closed, not open); see J. P. May, *Finite Spaces and Larger Contexts* (draft), §3.4, https://math.uchicago.edu/~may/FINITE/FINITEBOOK/FINITEBOOKCollatedDraft.pdf . This does not establish that our specific two-tag plank or cofinite-cloud nonnormality-to-function-separation construction was previously used. Furthermore, C_ω({a})=ω+1 is disconnected and not contractible, while C_+({a}) is contractible. Thus the homotopy-theoretic remarks about non-Hausdorff cones do **not** simply transfer to the cofinite-cloud construction.
+
 ## 6. Conceptual significance and caveats
 
 - This is a much sharper result than the original two-*tag* construction: **T1 itself**, not just subfitness, does not prevent the continuous-frame obstruction.
