@@ -53,6 +53,34 @@ are **open saturated** neighborhoods of C,D contained in U,V. Their images under
 
 **Why transitivity is essential.** For a finite T0 Alexandrov zigzag with order a<u>b<v>c (relations a<u,b<u,b<v,c<v), the inseparability relation I=clΔ satisfies a I b and b I c but not a I c. The space X is finite and thus compact; projections of the closed subspace I⊆X×X are closed (projection along a compact factor), with finite compact fibers, hence perfect. Yet I is **not an equivalence relation**; no quotient X/I is available without taking transitive closure. Therefore projection properness *alone* does not imply I=U=F.
 
+## 2½. Exact frame-theoretic signature of the obstruction: failure of Scott continuity
+
+**Proposition (closed surjections).** Let q:X→Q be a **closed surjective quotient map** of ordinary topological spaces, with right adjoint
+
+    q_*(U)=Q\q(X\U),     U∈O(X),
+
+which is open because q is closed. Then
+
+    q_* preserves directed joins  ⇔  every fiber q^-1(y) is compact.
+
+The co-Frobenius equality q_*(U∪q^-1(V))=q_*U∪V already follows from closedness and surjectivity. Thus for a closed surjection **failure of properness is exactly failure of compactness of some quotient fiber**, detected by Scott discontinuity of q_*.
+
+**Proof, compact⇒Scott.** If y∈q_*(⋃_i U_i) for a directed family of opens, then its compact fiber K_y lies in ⋃_i U_i, hence by compactness and directedness K_y⊆U_i for some i. Thus y∈⋃_i q_*U_i. The reverse inclusion is monotonicity.
+
+**Proof, Scott⇒compact.** Given any open covering {U_j} of a fiber K_y, form the directed family of its finite unions U_F. Since K_y⊆⋃_F U_F, we have y∈q_*(⋃ U_F)=⋃ q_*U_F, hence K_y⊆U_F for some finite F. Therefore K_y compact. □
+
+**Explicit witness in the deleted-plank cofinite-cloud example.** The edge A={ω1}×[0,ω) is a closed **discrete**, countably infinite subset of X, hence every subset of A is closed in X. Enumerate A={a_0,a_1,…}, set A_n={a_0,…,a_n}, and define
+
+    U_n = X\(A\A_n).
+
+Each U_n is open; the family is increasing and ⋃_n U_n=X. Let q:X→Q=X/I be our closed quotient, and r=q*q_* be the **saturated-open interior** operator on L=O(X). Because the class A is not contained in any U_n, no r(U_n) contains even a single point of A. On the other hand
+
+    r(⋁_n U_n)=r(1)=1,       ⋁_n r(U_n) does not meet A.
+
+Therefore **r fails to preserve the directed join** of the U_n. This is the precise frame-level defect that defeats properness in this counterexample. It is a sharper diagnosis than merely saying that the equivalence classes are noncompact.
+
+**Terminology:** the Scott-continuity law here is the preservation of directed joins by the **right adjoint** q_* of the inverse-image map q*, not by q* itself (which always preserves arbitrary joins). The topological quotient remains closed, so its closed Frobenius law still holds.
+
 ## 3. Frame-theoretic / localic quotient: an intrinsic formula
 
 For a localic **internal equivalence relation** E↪X×X with p_1,p_2:E⇉X, its coequalizer q:X→Q has
