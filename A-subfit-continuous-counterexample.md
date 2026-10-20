@@ -140,6 +140,28 @@ The map q shows the new example is an **open, nonclosed T1 resolution** of the o
 
 **Terminology and history.** McCord, Barmak and Minian, and J. P. May discuss non-Hausdorff cones/suspensions or mapping cylinders, mostly with the opposite convention (apex closed, not open); see J. P. May, *Finite Spaces and Larger Contexts* (draft), §3.4, https://math.uchicago.edu/~may/FINITE/FINITEBOOK/FINITEBOOKCollatedDraft.pdf . This does not establish that our specific two-tag plank or cofinite-cloud nonnormality-to-function-separation construction was previously used. Furthermore, C_ω({a})=ω+1 is disconnected and not contractible, while C_+({a}) is contractible. Thus the homotopy-theoretic remarks about non-Hausdorff cones do **not** simply transfer to the cofinite-cloud construction.
 
+## 5¾. Crowded algebraic subfit examples via a Cantor factor
+
+**Proposition (stability of point relations).** For any topological space X and any completely regular Hausdorff Y, for R∈{I,U,F} regarded as relations on ordinary points,
+
+    ((x,y),(x',y')) ∈ R(X×Y) ⇔ (x,x')∈R(X) and y=y'.
+
+**Proof.** When y≠y', a continuous real function Y→R distinguishes y and y'; such a function also separates their neighborhoods by disjoint closures (because Y is completely regular Hausdorff). When y=y', I and U are reflected by slices: any basic product neighborhoods U×V,U'×V' have common second-coordinate point y; intersection (respectively intersection of closures) is nonempty iff the corresponding first-coordinate neighborhoods intersect (respectively have intersecting closures). Conversely, disjoint first-coordinate neighborhoods or neighborhoods with disjoint closures lift via products. For F, restrictions of continuous real functions X×Y→R to X×{y} are real functions on X, while any real function on X lifts along projection X×Y→X. □
+
+Let C=2^N be the ordinary Cantor set, and let X be the cofinite-cloud counterexample constructed over the deleted Tychonoff plank. Put Z=X×C.
+
+**Corollary (crowded strengthening).** Z is **T1, crowded (no isolated points), strongly locally compact, sober**, and O(Z) is **algebraic and subfit**, yet
+
+    I(Z)=U(Z) ⊊ F(Z)
+
+as closed localic relations.
+
+**Proof.** T1 and absence of isolated points are immediate. Strong local compactness follows by taking compact neighborhoods inside basic open rectangles (finite products of compact sets are compact). For sobriety, if H⊆X×C is nonempty irreducible closed, its projection to Hausdorff C has irreducible closed closure and thus is contained in one singleton {c}; consequently H⊆X×{c}, where irreducible closed subsets are singletons because X is sober. Products of compact open bases give a compact open basis in Z, hence O(Z) is algebraic. T1 implies subfitness. The point-relation formula transfers I=U⊊F from X to Z: an F-but-not-U pair (a,b) in X gives ((a,c),(b,c)) for any c∈C. Because Z is strongly locally compact and sober, the localic product Z×Z agrees with the ordinary product and is spatial; closed localic relations are detected by point sets. □
+
+**Compact open witnesses still work:** let u,v⊆X be the compact opens with u*∨v*=1 but no c satisfying u≺c≺v*. Choose nonempty clopen V⊆C and set U=u×V, W=v×V. Both are compact open, their closures are disjoint, hence U*∨W*=1, but they admit no intermediate open d with U≺d≺W*: slicing d at a point of V would yield c with u≺c≺v* (since closure in a closed slice is contained in the ambient closure). So the strong noninterpolation survives stabilization.
+
+**Interpretation.** Isolated points are an optional *presentation device*, not an essential ingredient of this failure. This is a formal product stabilization, rather than an independent counterexample mechanism, and makes no new priority claim.
+
 ## 6. Conceptual significance and caveats
 
 - This is a much sharper result than the original two-*tag* construction: **T1 itself**, not just subfitness, does not prevent the continuous-frame obstruction.
