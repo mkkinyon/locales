@@ -81,6 +81,16 @@ Conversely, if A,B are completely separated in T, extend a separator by Proposit
 
 holds in the originally defined locale sense.
 
+## 4½. The T1 quotient is still closed and non-Hausdorff
+
+Let E=I(X)=U(X), the pointwise closed equivalence relation whose nontrivial classes are A and B. Write q:X→Q=X/E for the quotient.
+
+**Proposition.** q is a **closed quotient map**, every singleton in Q is closed (**Q is T1**), but Q is **not Hausdorff** whenever A and B are not separable by disjoint T-open neighborhoods.
+
+**Proof.** A,B are closed in X. For every closed C⊆X, its E-saturation is one of C, C∪A, C∪B, C∪A∪B, therefore closed. The quotient property implies q(C) is closed, so q is closed. Each E-class (A, B, or a singleton) is closed in X, so each singleton in Q is closed. If the two collapsed points q(A) and q(B) had disjoint neighborhoods in Q, their inverse images would be disjoint open saturated neighborhoods of A,B in X. Intersecting with the closed copy of T gives disjoint T-open neighborhoods of A,B, contradiction. □
+
+Consequently **subfitness and T1 do not repair the closed-quotient obstruction**: a closed quotient by localic inseparability can still fail to be Hausdorff even though the domain is strongly locally compact and sober. The new example does not have an open E-quotient in general; don't conflate closedness and openness.
+
 ## 5. Algebraic strengthening and a compact-open obstruction
 
 **Proposition 5.1 (working).** If T has a basis of **compact open subsets**, then so does X; therefore **O(X) is algebraic**, not merely continuous.
