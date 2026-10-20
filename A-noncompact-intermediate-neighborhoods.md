@@ -60,11 +60,11 @@ No new continuous real-valued function follows from this lemma alone; further in
 
 In particular E[K] is **closed and E-saturated**, and may be noncompact. There is no assumption that q:X→X/E is open or closed.
 
-**Proof.** In a locally compact sober space, the way-below/compact-containment characterization gives compact K with u⊆K⊆a. More generally the same proof works whenever such a K has been supplied. Since E is closed in X×X, E[K] is closed: it is the image of E∩(K×X) under the projection K×X→X, a closed map for compact K (tube lemma). Because E is reflexive, u⊆K⊆E[K], and hence cl(u)⊆E[K]. Since E is transitive, E[cl(u)]⊆E[E[K]]=E[K]. Because E[K] is closed, its closure is also contained in E[K].
+**Proof.** Take the compact K **supplied in the hypothesis**. Under strong local compactness it may be obtained from u≪a by the usual compact-containment argument. Since E is closed in X×X, E[K] is closed: it is the image of E∩(K×X) under the projection K×X→X, a closed map for compact K (tube lemma). Because E is reflexive, u⊆K⊆E[K], and hence cl(u)⊆E[K]. Since E is transitive, E[cl(u)]⊆E[E[K]]=E[K]. Because E[K] is closed, its closure is also contained in E[K].
 
 If zEk for some k∈K⊆a, every neighborhood of z meets a, so z∈cl(a). Thus E[K]⊆cl(a), proving the formula. □
 
-**Corollary 2b.** If a,b are opens with cl(a)∩cl(b)=∅ and u≪a, v≪b, choose compact K,H with u⊆K⊆a and v⊆H⊆b. Then E[K], E[H] are **disjoint closed E-saturated subsets**, and
+**Corollary 2b (assuming strong local compactness, or the stated compact containment).** If a,b are opens with cl(a)∩cl(b)=∅ and u≪a, v≪b, choose compact K,H with u⊆K⊆a and v⊆H⊆b. Then E[K], E[H] are **disjoint closed E-saturated subsets**, and
 
     cl(E[cl(u)]) ⊆ E[K] ⊆ cl(a),
     cl(E[cl(v)]) ⊆ E[H] ⊆ cl(b).
@@ -157,11 +157,11 @@ For a first-stage interpolant c with u≺c≺w, the condition E[cl(u)]⊆w is an
 
 A precise but presently **unproved** candidate is:
 
-> (**Relative stable-buffer conjecture.**) Let X be locally compact sober and suppose I(X)=U(X). Let a,b be opens with cl(a)∩cl(b)=∅, and let u≪a and v≪b. Then there exists a dyadic family c_t, t∈D∩[0,1], with c_0=u, c_1=v*, and cl(c_s)⊆c_t for s<t.
+> (**Disproved historical relative stable-buffer conjecture.**) Let X be **strongly** locally compact sober and suppose I(X)=U(X). Let a,b be opens with cl(a)∩cl(b)=∅, and let u≪a and v≪b. Then there exists a dyadic family c_t, t∈D∩[0,1], with c_0=u, c_1=v*, and cl(c_s)⊆c_t for s<t.
 
-By the Picado–Pultr VI.1.1–1.5.2 characterization, this is **exactly** the sought implication I=U⇒U=F. It is not a separate theorem and must not be advertised as one.
+By the Picado–Pultr VI.1.1–1.5.2 characterization, this is **exactly** the sought implication I=U⇒U=F. It is not a separate theorem and has been **disproved by the later deleted-plank examples**; this paragraph is retained as a record of the earlier question.
 
-A genuinely intermediate task, weaker than this full claim, is to seek a *pairwise compact-core enlargement rule* allowing noncompact intermediate opens while retaining a compact E-separated witness on the other side. At present we know only the static finite compact-pair lemma in §1, and there is no verified way to iterate it indefinitely.
+A genuinely intermediate task, weaker than this full claim, is to seek a *pairwise compact-core enlargement rule* allowing noncompact intermediate opens while retaining a compact E-separated witness on the other side. The unrestricted implication is now false; the static finite compact-pair lemma in §1 does not generally iterate to a separating dyadic scale.
 
 Possible alternate route: investigate whether the special hypothesis u≪a, v≪b with cl(a)∩cl(b)=∅ forces the necessary compatibility
 
