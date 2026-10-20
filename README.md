@@ -25,6 +25,7 @@ Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological
 - **[Continuous frame criteria](A-continuous-frames.md)**; **[kω compact exhaustion](A-kw-compact-exhaustion.md)**; **[paracompact extension](A-beyond-countable-exhaustion.md)**.
 - **[Deleted Tychonoff plank / two-tag counterexample](A-continuous-counterexample-plank.md)**.
 - **[Obstruction hypotheses and compact-fiber theorem](A-obstruction-candidates.md):** closed compact-fiber quotients, frame operator diagnostics, and candidate structural properties.
+- **[Vermeulen effectiveness correction — clean theorem memo](A-vermeulen-effectiveness-correction.md):** correct original Cor. 5.17 (no compactness restriction); transparent point-free derivation of continuous-frame proper collapse, ready for adversarial audit.
 - **[Proper inseparability relations](A-proper-inseparability-relations.md):** point-free I∘I⊆U; Vermeulen 1994 Cor. 5.17 gives **effectiveness of all closed proper equivalence relations**; with continuity the quotient is completely regular and I=U=F.
  a closed inseparability quotient with compact classes is locally compact Hausdorff; candidate frame conditions include properness, stable continuity, and relative interpolation.
 - **[T1 algebraic subfit counterexample](A-subfit-continuous-counterexample.md):** replacing generic tags with cofinite discrete clouds gives a T1, sober, strongly locally compact, **algebraic subfit** locale with I=U⊊F, witnessed by compact opens. This sharpens the older counterexample.
