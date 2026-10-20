@@ -115,7 +115,7 @@ as a subframe of L (q* is inclusion; this is a general coequalizer fact in Loc).
 
     r(u)=(p_2)_*(p_1^*(u)),     u∈L.
 
-The reflexive/symmetric/transitive axioms and proper base-change imply that r is a **deflationary, idempotent, Scott-continuous finite-meet-preserving operator**; its fixed points are B. Concretely, it is the **largest saturated open below u**. For topological equivalence relations this is u↦X\E[X\u]. In localic form q* q_*=r.
+**With proper projections**, Vermeulen's base-change argument makes r a **deflationary, idempotent, Scott-continuous, finite-meet-preserving operator** whose fixed points are B; it is then the **largest saturated open below u** and r=q* q_*. **Without properness, idempotence may fail even when E=I=U=F.** For a general topological equivalence relation, the point-set formula is instead r(u)=int(X\E[X\u]); the interior can be dropped only when the indicated saturation is closed (e.g., for a closed quotient). See [A-saturation-operator-nonidempotence.md](A-saturation-operator-nonidempotence.md).
 
 Proper Frobenius of p_2 and the equality p_1^*(v)=p_2^*(v) for v∈B yield
 
@@ -234,7 +234,7 @@ Consequently
 
     r_I(u)=⋁{v∈L:(1⊠v)≤(u⊠1)∨d_I}.
 
-This is valid **for any locale** even before I is known transitive; in the equivalence-relation case r_I is the idempotent saturated-open interior, with fixed-point frame O(X/I). If the projections are proper, r_I is Scott-continuous.
+This is valid **for any locale**, even before I is transitive. When I is an internal equivalence relation, its **fixed points** are the I-invariant opens, but r_I need not itself map into those fixed points and need not be idempotent. **Properness of the projections** makes r_I idempotent and Scott-continuous (Vermeulen Lemma 5.2). A countable algebraic sober counterexample has I=U=F yet r_I²≠r_I: [A-saturation-operator-nonidempotence.md](A-saturation-operator-nonidempotence.md).
 
 ### Exactly what the two-tag / cofinite-cloud examples violate
 
@@ -242,7 +242,7 @@ In our plank constructions the E-classes are noncompact. Equivalently, the **pro
 
 ## 3¾. Vermeulen's actual general effectiveness theorem — critical correction
 
-Vermeulen (1994), **Corollary 5.14**, proves effectiveness for proper equivalence relations **weakly fitted in X×X over X**, with open proper relations as a special case. Crucially, **Corollary 5.17 (not just a compact-locale theorem) states: 'Closed proper equivalence relations (in particular closed equivalence relations on a compact locale) are effective.'** The ambient locale need not be compact. The Karazeris–Tsamis (2020) citation uses only the parenthetical compact special case, which led to our earlier erroneous restriction.
+Vermeulen (1994), **Corollary 5.14**, proves effectiveness for proper equivalence relations **weakly fitted in X×X over X**, with open proper relations as a special case. Crucially, **Corollary 5.17 (not just a compact-locale theorem) states: 'Closed proper equivalence relations (in particular closed equivalence relations on a compact locale) are effective.'** The ambient locale need not be compact. The Karazeris–Tsamis (2020) citation uses only the parenthetical compact special case, which led to our earlier erroneous restriction. The original Vermeulen PDF has now been inspected directly (uploaded primary source, 20 October 2026).
 
 The notion “weakly fitted over X” is a relative condition, different from ordinary fitness or fitted diagonal. **Our closed relation E=clΔ does not need to satisfy it**: properness plus closedness triggers Corollary 5.17 directly. Source: Vermeulen *Proper Maps of Locales*, https://core.ac.uk/download/pdf/82053693.pdf (search-indexed full PDF, but direct fetch currently unavailable); Karazeris–Tsamis, https://cahierstgdc.com/wp-content/uploads/2021/07/Karazeris-Tsamis_LXII-3.pdf , Thm 4.3.
 
@@ -254,8 +254,14 @@ The notion “weakly fitted over X” is a relative condition, different from or
 
 **Comparison with our counterexamples.** Both the generic-tag and cofinite-cloud deleted-plank examples have a **closed** inseparability quotient, but their nontrivial inseparability classes are A,B (or A∪{p_A},B∪{p_B}) and are **noncompact**. Hence their relation projections are NOT proper/perfect. The new T1 subfit example demonstrates that subfitness, algebraicity, closed quotient, and even absence of isolated points do not replace compact-fiber control.
 
-**Possible next mathematical tests (updated after verifying Vermeulen 5.17):**
-1. Does I=U already force I to be a **localic** internal equivalence relation (as opposed to only a pointwise equivalence) without continuity? Under strong LC sobriety, product spatiality permits checking equality on points in higher products.
+**Audit-resolved and remaining mathematical tests (updated 20 October 2026):**
+
+**New negative result:** r_I need not be idempotent even with I=U=F, finite I-classes and a compact Hausdorff quotient. The operator's Scott continuity may likewise fail with finite classes if the quotient is not closed; distinguish this from the plank example, where a **closed** quotient has noncompact fibers. See [A-saturation-operator-nonidempotence.md](A-saturation-operator-nonidempotence.md).
+
+**New positive result:** if X is a **compact locale** and I is transitive, the closed I projections are proper, so Vermeulen yields a compact strongly Hausdorff effective quotient; classically compact Hausdorff locales are completely regular, giving I=U=F *without spatiality or continuity*. Verify the compact Hausdorff → completely regular locale theorem against a primary source when preparing for publication.
+
+**Possible next mathematical tests:**
+1. **Resolved point-freely:** I∘I⊆U for arbitrary locales (§0), so I=U implies I is an internal equivalence relation without continuity or spatiality.
 2. **Resolved by primary source:** Vermeulen (1994) Corollary 5.17 proves effectiveness of **all closed proper equivalence relations of locales**. There is no missing assumption E=clΔ or X compact.
 3. For E=I, effectivity now holds; establish complete regularity of Q under useful hypotheses. Continuous X suffices, but arbitrary localic X need not have a completely regular quotient.
 4. Explore whether one projection merely **closed** plus compact classes is enough pointwise (yes: closed+compact = perfect), and whether Scott continuity without Frobenius suffices (not established).
