@@ -133,7 +133,7 @@ In locale language the underlying principle is related to **proper/closed relati
 
 ## 5. Why closed saturation was useful in operator algebra
 
-Archbold–Kaniuth–Somerset, *Norms of inner derivations for multiplier algebras of C*-algebras and group C*-algebras, II* (2015), **Lemma 4.2 and Proposition 4.3**, [arXiv:1504.07030](https://arxiv.org/pdf/1504.07030), establish a strong result for σ-unital C*-algebras. They show (in their terminology) that closure of every ∼-component-saturation of a closed set is equivalent to closedness of the Glimm map plus connectedness of Glimm classes. In the special case Orc=1, this yields E=F.
+Archbold–Kaniuth–Somerset, *Norms of inner derivations for multiplier algebras of C*-algebras and group C*-algebras, II* (2015), **Lemma 4.2 and Proposition 4.3**, [arXiv:1504.07030](https://arxiv.org/pdf/1504.07030), establish a strong result for σ-unital C*-algebras. They show (in their terminology) that closure of every ∼-component-saturation of a closed set is equivalent to closedness of the Glimm map plus connectedness of Glimm classes. Under the **full hypotheses of the cited operator-algebra propositions** (including the additional condition (i) used in their criterion), the special case Orc=1 yields the stated E=F conclusion; **Orc=1 alone has not been checked to imply E=F**. This summary is a bibliographical pointer, not a substitute for quoting the propositions exactly.
 
 Their proof does **not** say that closed saturation follows from transitivity or Urysohn separation, and it does **not** assert closed saturation is necessary for E=F. Our example in §2 shows the latter would be false in general topological spaces.
 
