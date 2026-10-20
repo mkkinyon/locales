@@ -49,6 +49,8 @@ are **open saturated** neighborhoods of C,D contained in U,V. Their images under
 
 **Consequence for E=I:** All continuous real maps X→R are constant on E classes (inseparability); they descend to Q. Since Q is locally compact Hausdorff, continuous real functions on Q distinguish its points. Thus E=F on points. By the hierarchy E=I⊆U⊆F, all three coincide on points. X is strongly locally compact sober, so X×X is spatial, and equality of these closed localic relations follows.
 
+**Localic transitivity from I=U under spatiality.** For X strongly locally compact sober, X³ is spatial. The pullbacks E_12 and E_23 of the **closed** sublocale E↪X² are closed sublocales of X³; their intersection, the object of composable E-arrows, is therefore spatial. If I=U pointwise, the elementary proof of transitivity (y lies in the closures of both arbitrary x- and z-neighborhoods) shows every point of E_12∩E_23 is in E_13. Since all these sublocales are **closed in the spatial X³**, their inclusion holds localically. Reflexivity and symmetry are immediate. Hence I=U really yields an **internal equivalence relation** for continuous locales, not only a point equivalence.
+
 **Why transitivity is essential.** For a finite T0 Alexandrov zigzag with order a<u>b<v>c (relations a<u,b<u,b<v,c<v), the inseparability relation I=clΔ satisfies a I b and b I c but not a I c. The space X is finite and thus compact; projections of the closed subspace I⊆X×X are closed (projection along a compact factor), with finite compact fibers, hence perfect. Yet I is **not an equivalence relation**; no quotient X/I is available without taking transitive closure. Therefore projection properness *alone* does not imply I=U=F.
 
 ## 3. Frame-theoretic / localic quotient: an intrinsic formula
@@ -93,7 +95,7 @@ Hence B is continuous. This proves continuity of a proper quotient of a continuo
 
 **Deduction.** If X is a continuous locale, E is a closed internal equivalence relation with proper projections, then Q is continuous and strongly Hausdorff. Under classical ZFC/Hofmann–Lawson, Q is the frame of opens of a locally compact sober space, and its closed diagonal forces the space to be Hausdorff and thus completely regular. Therefore **Q is a completely regular locale**.
 
-**Boundary for a full arbitrary-locale I=F theorem:** from E⊆kerpair(q) and Q completely regular one gets F⊆kerpair(q) (because every real map from X that coequalizes E factors through q), but **F=E does not follow without ensuring E=kerpair(q)**. In the continuous spatial setting the earlier point-set proof supplies equality. Do not silently infer effectiveness from the existence of a coequalizer or from the closed diagonal.
+**Boundary for a full arbitrary-locale I=F theorem:** when Q is completely regular, `F(X)⊆kerpair(q)`, because the real maps Q→R jointly separate Q and their pullbacks belong to the defining family of F. If moreover `E⊆F(X)` (as happens for E=I), then every real map X→R coequalizes E and therefore factors through q, giving `kerpair(q)⊆F(X)`. Hence in our inseparability setting `F(X)=kerpair(q)`; nevertheless **F=E still requires E=kerpair(q)** (effectiveness). In the continuous spatial setting the earlier point-set proof supplies the needed equality. Do not silently infer effectiveness from the mere existence of a coequalizer or from the closed diagonal.
 
 ## 4. Scope, examples and implications
 
