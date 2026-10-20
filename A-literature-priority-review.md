@@ -11,6 +11,8 @@
 
 A useful guiding distinction is between a **pointwise graph identity**, a **closed/fitted localic relation**, and an **implication between frame properties**. They can have different priority assessments.
 
+> **EXTERNAL AUDIT RECONCILIATION (20 October 2026):** The original Vermeulen 1994 article was supplied and examined directly; its **Corollary 5.17** settles effectiveness of closed proper equivalence relations for *all* locales. Two outside reviews confirmed the basic relation framework and the proper continuous collapse, and found a stronger counterexample to unconditional idempotence of r_I even when I=clΔ=U=F. The original two-tag deleted-plank example is **arithmetic** (so stable continuity alone fails), and the compact transitive-I theorem extends to **nonspatial compact locales** (using the standard compact Hausdorff locale theorem, whose precise primary citation is still to be supplied). Full editorial resolution and outstanding checks: [A-external-audits-reconciliation-2026-10-20.md](A-external-audits-reconciliation-2026-10-20.md); example proof: [A-saturation-operator-nonidempotence.md](A-saturation-operator-nonidempotence.md). **Neither review was strictly blind**, because the internal audit was included in both contexts.
+
 ## 0. Major new synthesis: fitted diagonal recovers the fifth Cameron–Kumar graph
 
 **Our construction:** D(X)=fit(Δ_X)⊆X×X, a fitted (generally nonclosed) sublocale.
@@ -25,7 +27,7 @@ the **closure-meeting graph**, and Theorem 3.2 gives
 
 with Ins and Cm incomparable, plus the T1 nullity test for Cm. PDF: https://arxiv.org/pdf/2610.14783 .
 
-**Pointwise equality proved in our notes:** For every space X, (x,y) is a point of D(X) iff every open cover of X contains an element containing both x,y. This is **equivalent to** cl{x}∩cl{y}≠∅: a common specialization z forces such a cover member, while if singleton closures are disjoint the cover {X\cl{x},X\cl{y}} defeats the condition.
+**Pointwise equality proved in our notes:** For every space X and **original pair** (x,y), its induced locale point factors through D(X) iff every open cover of X contains an element containing both x,y. This is **equivalent to** cl{x}∩cl{y}≠∅: a common specialization z forces such a cover member, while if singleton closures are disjoint the cover {X\cl{x},X\cl{y}} defeats the condition.
 
 **Classification: KNOWN pointwise graph, CANDIDATE point-free realization.** The graph-theoretic diamond, incomparability, and T1 interpretation are **already Cameron–Kumar's results**. Their identification with the **points of the fitted diagonal** is a natural new realization in our framework; no prior locale-theoretic formulation has been located yet. This makes our model a natural locale-level companion of **four of Cameron–Kumar's five** graphs (Ins, Cm, Ury, Fun), not an unrelated fourth relation. Their fifth graph, **specialization**, has *not yet* been represented as a separate localic relation in our notes and remains deferred. See [A-fitted-diagonal.md](A-fitted-diagonal.md).
 
