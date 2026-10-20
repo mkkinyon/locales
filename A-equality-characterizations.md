@@ -124,7 +124,7 @@ Let S be the set of all maps f:X→R and let e:X→R^S be the product evaluation
     F(X)=Δ_X  ⇔  r_X is monic in Loc
               ⇔  j:C(L)→L is an epimorphism in Frm.
 
-**Important:** a frame epimorphism is not necessarily surjective. Therefore F=Δ need **not** imply L is completely regular. Note also that F=Δ forces I=U=Δ by the general hierarchy, so all three diagonal-collapse conditions agree with F=Δ only if one also assumes F=Δ; the conditions I=Δ, U=Δ by themselves are weaker.
+**Important:** a frame epimorphism is not necessarily surjective. Therefore F=Δ need **not** imply L is completely regular. Also, **F=Δ implies I=U=Δ**, by the hierarchy; the converse is false without additional assumptions. In particular **I=Δ** or **U=Δ** alone does not guarantee F=Δ (nor complete regularity).
 
 ### Concrete nonregular example with all three relations equal to Δ
 
