@@ -123,6 +123,8 @@ It has compact opens u,v with u≪u, v≪v, u*∨v*=1, and **no c** such that u�
 
 Details: [A-continuous-frames.md](A-continuous-frames.md), [A-kw-compact-exhaustion.md](A-kw-compact-exhaustion.md), [A-beyond-countable-exhaustion.md](A-beyond-countable-exhaustion.md), [A-continuous-counterexample-plank.md](A-continuous-counterexample-plank.md).
 
+**New working positive criterion (19 October 2026):** For strongly locally compact sober X with I=U=E, if every E-class is compact **and** the quotient q:X→X/E is closed, then X/E is locally compact Hausdorff, hence E=F as closed localic relations. The proof separates compact classes by finite Urysohn neighborhoods, then shrinks them to open saturated neighborhoods using closedness of q. The quotient is locally compact by compact-fiber finite-neighborhood arguments. This excludes both plank examples since their nontrivial E-classes are noncompact. See [A-obstruction-candidates.md](A-obstruction-candidates.md) for exact proof and ranked candidate hypotheses, especially properness and stable continuity. This has not been externally refereed or priority checked.
+
 ## V. Supporting obstructions, not alternative main theorems
 
 - Openness of the inseparability quotient is sufficient in the strongly locally compact setting; closedness is sufficient only with additional global hypotheses such as σ-compactness. Neither is necessary for I=U=F. **Closedness alone is insufficient:** the deleted-plank two-tag example has a *closed* inseparability quotient map yet I=U⊊F (the saturation of any closed set adds at most two closed equivalence classes).
