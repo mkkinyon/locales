@@ -136,7 +136,13 @@ and for L=O(Spec R), this translates to the mp-ring condition. **Classification:
 
 **Important novelty limit:** arbitrary regular non-functionally-Hausdorff spaces already show I=U=Δ⊊F for arbitrary locales; the distinctive result is failure **within continuous frames**, where regularity would force complete regularity.
 
-## 7. One early-October 2026 near-name collision: R1-Urysohn
+## 7. One early-October 2026 near-name collision:## 6a. A sharper T1 / subfit / algebraic counterexample (19 October 2026)
+
+**NEW WORKING CONSTRUCTION; NOT PRIORITY-CHECKED.** A replacement of the generic tags by two countably infinite discrete sets with cofinite-filter convergence to **every point** of the respective closed sets A,B gives a T1, strongly locally compact, sober X. T1 ⇒ O(X) subfit; if T has a compact-open basis, X also does, so O(X) is **algebraic**. It satisfies I=U⊊F, with far but not completely separated **compact open** witnesses; see [A-subfit-continuous-counterexample.md](A-subfit-continuous-counterexample.md). The deleted Tychonoff plank qualifies for T.
+
+This settles negatively the further question whether *subfitness* restores I=U⇒U=F. The construction was derived in our own research discussion and has **not** undergone an external audit or historical priority check. Search terms: cofinite filter extensions, multi-limit convergent sequences, T1 non-Hausdorff spaces, nonnormal quotient spaces, primal/sober extensions.
+
+ R1-Urysohn
 
 S. Jafari, *On R1-Urysohn Spaces*, unrefereed preprint, posted 2 October 2026, https://www.preprints.org/manuscript/202610.0121 . It introduces a condition involving distinct singleton closures and **closures of certain disjoint neighborhoods**. Based on its published abstract, this is **not definitionally our I=U**, which only requires that any points separated by disjoint opens have *some neighborhoods with disjoint closures*. Do not equate them without a theorem. Historical R1/preregularity is weaker and also not definitionally our equality.
 
