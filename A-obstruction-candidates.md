@@ -11,6 +11,8 @@
 
 > **DECISIVE SUBFIT + ARITHMETIC UPDATE (20 October 2026, working):** The two properties **together** do not rescue I=U⇒U=F. Replace discrete plank clouds by **cofinite** clouds: the T1 nonsober precursor has an **arithmetic, algebraic, subfit** open frame; its sobrification adds two generic points but leaves the frame unchanged and satisfies **I=U⊊F** as closed localic relations. Full proof in [A-subfit-arithmetic-counterexample.md](A-subfit-arithmetic-counterexample.md). A **sober T1 arithmetic space**, by contrast, must be zero-dimensional and completely regular. Earlier candidate statements in this note are historical.
 
+**NEW UPDATE (20 October 2026):** Subfit + arithmetic + I=U still does NOT imply I=F. Replacing the deleted-plank's discrete clouds by cofinite-topology clouds gives a T1 nonsober precursor with arithmetic subfit frame. Its sobrification is strongly locally compact sober and has I=U strictly below F. See [A-subfit-arithmetic-counterexample.md](A-subfit-arithmetic-counterexample.md). In contrast, any sober T1 arithmetic space is zero-dimensional and completely regular. Earlier questions in this note on the conjunction are superseded.
+
 ## 1. Conceptual translation: functional Hausdorffness of the inseparability quotient
 
 Set E=I=U on points. It is an equivalence relation: symmetry/reflexivity are immediate; if xEy and yEz then for arbitrary open neighborhoods V∋x, W∋z, y∈cl(V)∩cl(W), so xUz, hence xEz.
