@@ -149,6 +149,16 @@ This follows from the exact F-class proposition and the classical Urysohn lemma.
 
 **Additional facts.** If A,B are not completely separated, neither can be compact: every compact subset of a completely regular Hausdorff space is completely separated from a disjoint closed subset. Hence E_A and E_B are **noncompact closures of compact open singleton tags**. Also the frame O(X) is **not subfit**: take a={p_A}, b=0. If a∨w=1 for an open w, then w contains all of T (in particular A), forcing p_A∈w and hence w=1. Thus no w satisfies a∨w=1 while b∨w≠1. The relevance of imposing subfitness on future counterexamples is open.
 
+## 1¾. Arithmetic strengthening (checked after two external audits, 20 October 2026)
+
+**Proposition.** If T is locally compact Hausdorff and has a basis of **compact open** sets, then the original **two-tag** X has an **arithmetic frame**: O(X) is algebraic and its compact elements are stable under finite intersections. Consequently, for the deleted Tychonoff plank, the relation equality I=U⊊F holds even in a **stably continuous** frame. This settles **stable continuity alone** as a candidate remedy negatively. The space is **not subfit**; the combined hypothesis *subfit + arithmetic* remains untested.
+
+**Proof.** The set T is **closed** in X. For every compact open V⊆X, V∩T is a compact open subset of T (closed in the compact subspace V). Conversely, any X-open V whose T-part V∩T is compact is itself compact: V adds at most the two tags, a finite union of compact sets; the tags are singleton compact subspaces. In particular for compact open V,W⊆X, their T-parts V∩T,W∩T are compact open in **Hausdorff** T; their intersection is compact (compact subsets of Hausdorff spaces are closed). Thus (V∩W)∩T is compact and V∩W is compact open in X.
+
+To see algebraicity, shrink an arbitrary T-neighborhood of t to a compact open K⊆T meeting neither of the prescribed closed sets that do **not** contain t, then append the required tags to obtain an X-open compact neighborhood inside the given open. The tags themselves have compact open singleton neighborhoods. Thus compact opens form a basis. □
+
+**Interpretation.** The two-tag example fails subfitness but satisfies finite-meet stability of compact opens; the cofinite-cloud example is T1/subfit but fails compact-meet stability. These exclude two independent attempted repairs, not their conjunction. See [A-obstruction-candidates.md](A-obstruction-candidates.md).
+
 ## 2. The deleted Tychonoff plank gives explicit uncountable A,B
 
 Take
