@@ -46,7 +46,7 @@ These X_α are mutually disjoint, cover X, and are each open; their complements 
 
 **Proof.** Lemma B gives a clopen partition into σ-compact spaces X_α, each locally compact. Every locally compact σ-compact space is kω (proof in [A-kw-compact-exhaustion.md](A-kw-compact-exhaustion.md)). Apply Theorem A. □
 
-The covering condition is sufficient. We do **not claim** that it is a strictly weaker condition than paracompactness within the category of locally compact spaces, since that comparison depends on conventions and may collapse to an equivalence. The lemma is worthwhile because it isolates the **one cover** needed, without quantifying over all open covers.
+The covering condition is sufficient and, under our **non-Hausdorff** convention, is **strictly weaker** than paracompactness. For example, N with opens ∅, the finite initial segments [0,n], and N itself is strongly locally compact, sober and σ-compact (hence has the one-member σ-compact open cover), but it is **not paracompact**: the cover by finite initial segments admits no locally finite open refinement, since all nonempty opens contain 0. The lemma isolates the **one cover** needed, without quantifying over all open covers.
 
 ## 3. Paracompactness implies the covering condition
 
@@ -78,7 +78,7 @@ If, furthermore, X is **strongly locally compact and sober**, then O(X) is conti
 
 ## 4. Why this genuinely drops σ-compactness
 
-An **uncountable disjoint union** of compact or locally compact σ-compact spaces is locally compact and paracompact, but it need not be σ-compact.
+An **uncountable disjoint union of compact spaces** is locally compact and paracompact (under our open-refinement convention), but need not be σ-compact. More generally, a disjoint union of **individually paracompact** locally compact σ-compact spaces remains paracompact; **locally compact σ-compact alone does not imply paracompactness without Hausdorffness**, as shown by the initial-segment example in §2.
 
 For example
 
