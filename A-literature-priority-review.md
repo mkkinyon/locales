@@ -13,6 +13,8 @@ A useful guiding distinction is between a **pointwise graph identity**, a **clos
 
 > **EXTERNAL AUDIT RECONCILIATION (20 October 2026):** The original Vermeulen 1994 article was supplied and examined directly; its **Corollary 5.17** settles effectiveness of closed proper equivalence relations for *all* locales. Two outside reviews confirmed the basic relation framework and the proper continuous collapse, and found a stronger counterexample to unconditional idempotence of r_I even when I=clΔ=U=F. The original two-tag deleted-plank example is **arithmetic** (so stable continuity alone fails), and the compact transitive-I theorem extends to **nonspatial compact locales** (using the standard compact Hausdorff locale theorem, whose precise primary citation is still to be supplied). Full editorial resolution and outstanding checks: [A-external-audits-reconciliation-2026-10-20.md](A-external-audits-reconciliation-2026-10-20.md); example proof: [A-saturation-operator-nonidempotence.md](A-saturation-operator-nonidempotence.md). **Neither review was strictly blind**, because the internal audit was included in both contexts.
 
+**NEW WORKING CONSTRUCTION, PRIORITY UNEXAMINED (20 October 2026):** [A-subfit-arithmetic-counterexample.md](A-subfit-arithmetic-counterexample.md) combines subfitness and arithmeticity in a deleted-plank counterexample to I=U implies U=F, by attaching cofinite clouds and passing to sobrification. The positive boundary for **sober T1 arithmetic** spaces is zero-dimensionality (via the standard T1 spectral implies Stone theorem). No originality certification.
+
 ## 0. Major new synthesis: fitted diagonal recovers the fifth Cameron–Kumar graph
 
 **Our construction:** D(X)=fit(Δ_X)⊆X×X, a fitted (generally nonclosed) sublocale.
