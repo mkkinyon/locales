@@ -64,10 +64,10 @@ This even disproves interpolation of ρ under the stronger hypothesis I=U=F.
 
 ### A general obstruction behind the example
 
-For any topological X, if uρcρw then cl(u) is contained in a compact subset of X:
+**When way-below compact containment is available** (in particular for **strongly locally compact** X), if uρcρw then cl(u) is contained in a compact subset of X:
 
     uρc ⇒ cl(u)⊆c,
-    cρw ⇒ c≪a_2 ⇒ c⊆K with K compact.
+    cρw ⇒ c≪a_2 ⇒ c⊆K with K compact (under the stated compact-containment hypothesis).
 
 Thus every u with non-relatively-compact closure, yet uρw for some w, is an obstruction to interpolation of ρ. In non-Hausdorff locally compact spaces, u≪a does **not** imply cl(u) is compact. Compact containment and compact closure must never be silently identified.
 
@@ -108,10 +108,10 @@ The analogous real-valued function is immediate: compose p with a continuous cut
 
 **Not established:**
 - No valid interpolation relation deduced from I=U has been identified.
-- We have **not** shown that the implication I=U⇒U=F is true or false for all continuous frames.
+- **Superseded:** the unrestricted implication I=U⇒U=F is now known **false** for continuous frames, by the two-tag deleted plank and the T1 cofinite-cloud construction. The negative result is independent of the present ρ-example.
 - The failure of ρ is **not** a counterexample to the target implication, since this X satisfies I=U=F.
 
-## 5. More promising reformulation of the task
+## 5. Historical reformulation (the unrestricted target has since been disproved)
 
 Instead of demanding that every dyadic intermediate be relatively compact, try to construct open c_t for which
 
