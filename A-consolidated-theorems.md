@@ -100,7 +100,7 @@ Proof reduces covers of a×b to finite subcovers of u×v. The U=F direction uses
 
 **Theorem D4 (working).** A **weakly** locally compact paracompact space, with *paracompact defined by open locally finite refinements without assuming Hausdorffness*, decomposes into a clopen disjoint union of σ-compact open subspaces; thus transitive E implies E=F. A locally countable open cover by σ-compact subspaces also suffices. The point-set equalities lift to closed locale relations when X is **strongly locally compact and sober**.
 
-**Theorem D5 (WORKING COUNTEREXAMPLE; central).** The unrestricted implication
+**Theorem D5 (WORKING COUNTEREXAMPLE; central, substantially sharpened 19 October 2026).** The unrestricted implication
 
     continuous L and I=U  ⇒  U=F
 
