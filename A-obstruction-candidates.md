@@ -9,6 +9,8 @@
 
 > **Point-free transitivity update (19 October 2026):** A frame calculation now proves I∘I⊆U for *all* locales, hence I=U makes I an internal equivalence relation without assuming spatiality. The [proper-inseparability relation note](A-proper-inseparability-relations.md) also gives an intrinsic formula `r_I(u)=∨{v:1⊠v≤(u⊠1)∨d_I}` and a classical-ZFC **effectiveness theorem for closed proper equivalence relations on continuous locales** using compact saturated specialization classes. See the exact proof and imported proper-map correspondence there.
 
+> **DECISIVE SUBFIT + ARITHMETIC UPDATE (20 October 2026, working):** The two properties **together** do not rescue I=U⇒U=F. Replace discrete plank clouds by **cofinite** clouds: the T1 nonsober precursor has an **arithmetic, algebraic, subfit** open frame; its sobrification adds two generic points but leaves the frame unchanged and satisfies **I=U⊊F** as closed localic relations. Full proof in [A-subfit-arithmetic-counterexample.md](A-subfit-arithmetic-counterexample.md). A **sober T1 arithmetic space**, by contrast, must be zero-dimensional and completely regular. Earlier candidate statements in this note are historical.
+
 ## 1. Conceptual translation: functional Hausdorffness of the inseparability quotient
 
 Set E=I=U on points. It is an equivalence relation: symmetry/reflexivity are immediate; if xEy and yEz then for arbitrary open neighborhoods V∋x, W∋z, y∈cl(V)∩cl(W), so xUz, hence xEz.
