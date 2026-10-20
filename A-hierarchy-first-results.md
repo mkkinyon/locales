@@ -118,7 +118,7 @@ Moreover P×Y is itself pointless, since any point 1→P×Y would project to a p
 
     W = ⋁_{x∈P} (↑x)⊠W_x,
 
-and the same formula reconstructs each elementary rectangle, since U=⋃_{x∈U}↑x. All joins and finite meets are pointwise. In particular s_x^*(W)=W_x.
+and the same formula reconstructs each elementary rectangle, since U=⋃_{x∈U}↑x. To check the **other composite**, evaluating the reconstructed join at z gives `⋁_{x≤z}W_x=W_z` (monotonicity, and the term x=z occurs). These mutually inverse frame maps preserve joins and finite meets pointwise. In particular s_x^*(W)=W_x.
 
 For (1), pullback of the separation open along t_xy gives
 
