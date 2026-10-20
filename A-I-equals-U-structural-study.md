@@ -171,6 +171,49 @@ This is a simple coherent/spectral example showing the equality is open-heredita
 
 These agree with the earlier proofs in [A-coherent-conormality.md](A-coherent-conormality.md), [A-continuous-frames.md](A-continuous-frames.md), and [A-equality-characterizations.md](A-equality-characterizations.md).
 
+## 6½. Frame–coframe theorem: I=U collapses to extremal disconnectedness
+
+The initiating far relation \(\mathsf{Far}\) has **more finite structure** than might appear: it is downward closed and closed under **finite joins in either coordinate**, even without assuming I=U. Indeed,
+
+\[
+\left(\bigvee_{i=1}^n a_i\right)^*\vee b^*
+=\left(\bigwedge_{i=1}^n a_i^*\right)\vee b^*
+=\bigwedge_{i=1}^n(a_i^*\vee b^*)=1
+\]
+
+whenever each \(a_i^*\vee b^*=1\), by finite distributivity. Thus only **infinite coordinate joins** can enlarge the initial far relation in the complete orthogonality generated in §3.
+
+**Theorem 6 (arbitrary frame–coframes, point-free).** Suppose \(L\) is both a **frame and a coframe**: finite joins distribute over arbitrary meets as well as finite meets distributing over arbitrary joins. Then
+
+\[
+\boxed{I=U\quad\Longleftrightarrow\quad
+L\text{ is extremally disconnected},\ \ a^*\vee a^{**}=1
+\text{ for every }a.}
+\]
+
+**Proof.** Coframe distributivity makes \(\mathsf{Far}\) closed under **arbitrary** joins in either coordinate. For a fixed b and a family (a_i) of far partners,
+
+\[
+\left(\bigvee_i a_i\right)^*\vee b^*
+=\left(\bigwedge_i a_i^*\right)\vee b^*
+=\bigwedge_i(a_i^*\vee b^*)=1.
+\]
+
+The other coordinate is symmetric. Hence \(\widehat{\mathsf{Far}}=\mathsf{Far}\) in §3, so I=U iff **every disjoint pair is far**.
+
+That elementwise implication is equivalent to extremal disconnectedness: choose b=a* to deduce \(a^*\vee a^{**}=1\); conversely if \(a\wedge b=0\), then \(b\le a^*\) gives \(b^*\ge a^{**}\), and thus \(a^*\vee b^*\ge a^*\vee a^{**}=1\). □
+
+**Corollary (arbitrary Alexandrov spaces).** If \(P\) is any poset with its **upper-set Alexandrov topology**, its open frame is a sublattice of the powerset lattice closed under arbitrary unions and intersections. Hence it is a frame and coframe. Consequently
+
+\[
+\boxed{I(P)=U(P)\quad\Longleftrightarrow\quad
+\mathcal O(P)\text{ is extremally disconnected}.}
+\]
+
+There is **no finiteness assumption** on P. The finite-frame criterion in [A-coherent-conormality.md](A-coherent-conormality.md), §5, therefore extends to all upper-set Alexandrov spaces. The result also applies to other abstract frames which are simultaneously coframes, regardless of compact generation or spatiality.
+
+**Boundary:** The additional coframe distributivity is sufficient for this collapse, not known to be necessary. For example \(L=\mathcal O(\mathbb R)\) has I=U by regularity, but is not extremally disconnected; its far relation is strictly smaller than disjointness and only their **complete closure** agrees.
+
 ## 7. Genuine remaining questions
 
 1. Can the separation polar \(a^\diamond\) be computed directly from \(a^*\) and standard frame operations, **without** free binary completion or the coproduct? Is it already studied under another name in proximity/nearness theory?
