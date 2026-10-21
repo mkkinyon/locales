@@ -60,3 +60,9 @@ For each substantive research segment, update one source note and this index in 
 - 21 Oct 2026: finite three-point coherent example shows **U fitted does not imply D=U**; proof in [D=U first results](A-D-equals-U-first-results-2026-10-21.md), §4.
 
 - 21 Oct 2026: **fit(U)⊊F can occur**, by closed-point lemma and a Urysohn non-functionally-Hausdorff space; see [D=U first results](A-D-equals-U-first-results-2026-10-21.md), §7. No implication for continuous/coherent cases claimed.
+
+## Adversarial internal review checkpoint — 21 October 2026
+
+Priority order after validation: (0) independently audit recent categorical, coproduct and counterexample dependencies; (1) D=U ⇒ U=F, bounded initial investigation; (2) structural coherent characterization of D=U; (3) fit(U) strict/intermediate examples; (4) continuous-frame way-below criterion; (5) D=U preservation properties; (6) defer Scott-continuity converse and the I=U terminology search.
+
+Targeted internal read found no fatal defect in the D=U square-cover criterion, finite Alexandrov classification, or the three-point fitted-U counterexample. F fitted is independently supported by the fitted-equalizer theorem for F-separated codomains (Arrieta–Picado–Pultr); cite that directly. Strict fit(U)⊊F argument is conditional on a concrete verified Urysohn/non-functionally-Hausdorff example; choose and audit one before promotion. Arbitrary frame coproduct/product closure of I=U remains a working proof pending independent audit. This is not an exhaustive second read of all foundational notes.
