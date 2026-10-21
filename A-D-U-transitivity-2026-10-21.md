@@ -32,3 +32,11 @@ The established D=U open-cover criterion supplies identities d_U∨⋁_{c∈C}c�
 - Arbitrary frame: still open; a counterexample must be invisible to ordinary pointwise transitivity, i.e., exploit a nonspatial closed composable-pair locale or the corresponding frame quotient.
 
 **Next mathematical test:** Can the arbitrary-cover identities for D=U be used directly on Q_3 to establish the inequality? Do not simply redo the pointwise proof or invoke a global quotient without properness.
+
+## Correction and fittedness-plus-absorption test (21 October 2026)
+
+**WITHDRAW the purported universal absorption proof I∘U⊆U, U∘I⊆U.** It incorrectly asserted that a rectangle arising from b*∧b=0 vanishes on U. The disjointness condition implies vanishing on I, not the larger U. The identity b**∨b*=1 needed for far separation fails in general. Therefore the absorption inclusions are at best UNPROVED here; neither should be used as a lemma. The earlier chat statement and any forward inferences based on it are superseded.
+
+**Formal fittedness+absorption is insufficient for transitivity.** Let X be discrete on three points 0,1,2, so I=Δ. Let R contain the diagonal and symmetric edges 0–1 and 1–2, omitting 0–2. Every sublocale of X×X is clopen and fitted. R is reflexive, symmetric and closed/fitted; I∘R=R=R∘I, but R is not transitive. This does NOT refute D=U⇒U transitive, because R is not U(X). It refutes the proposed proof strategy using only formal fittedness and absorption.
+
+**Status:** D=U⇒U internal equivalence remains OPEN for arbitrary frames, established for continuous and compact frames. Future work must use additional properties peculiar to U and D.
