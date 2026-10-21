@@ -44,3 +44,17 @@ Conversely, if each component has a least point, any pair in the component is D-
 ## Literature
 
 Arrieta, Picado, Pultr (2022), *A New Diagonal Separation and Its Relations With the Hausdorff Property*; Arrieta (2024), *Localic Separation and the Duality Between Closedness and Fittedness*. Literature priority and any exact identification remain unchecked.
+
+## 4. Fitted U need not equal D (decisive finite example)
+
+**Theorem (direct point-free proof).** There is a finite coherent frame L with U(L) fitted but D(L)≠U(L).
+
+Let P={a,b,t}, ordered a<t and b<t, with upper-set topology. Its frame L has five elements: ∅, {t}, {a,t}, {b,t}, P. Every nonempty open contains t. Therefore each nonzero u has u*=0. A pair u,v is far only if one is zero; every far rectangle vanishes, so d_U=0 and U=C(0)=P×P, which is fitted (O(1)).
+
+The two opens A={a,t} and B={b,t} cover P. Their square-open w=A⊠A∨B⊠B satisfies δ*(w)=A∨B=1 but does not contain the ordinary product point (a,b). Hence D⊆O(w)≠P×P=U. This is Example B already present in A-fitted-diagonal.md, now repurposed as a strictly weaker fittedness witness.
+
+**Optional nontrivial proper U:** Take the disjoint union of this P and a singleton. Then U is the union of the two component squares (mixed-component pairs are far), hence is a proper clopen/fitted sublocale of the product, while D≠U still holds on the P component.
+
+**Finite-locale observation:** In a finite frame, only finitely many distinct open sublocales occur; intersections of open sublocales are open. Hence every fitted sublocale is open. Therefore every *closed* fitted sublocale of a finite locale is clopen. For our U this can simplify classification, but one must still check that the relevant clopen blocks are precisely the comparability-component squares before promoting a full finite classification.
+
+**Consequence:** U fitted ⇒ D=U is **false**, already for finite coherent frames. In this example U=F is also total (all real-valued continuous maps are constant), so it does not settle the separate question D=U ⇒ U=F.
