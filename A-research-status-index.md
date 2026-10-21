@@ -23,7 +23,7 @@
 | A8 | Subframes and surjective frame quotients do **not** preserve I=U | Finite Alexandrov counterexamples; recheck precise poset witnesses | closure-properties discussion |
 | A9 | Scott continuity of r_I ⇒ idempotence, β_* Scott-continuity, or p₂ proper | **OPEN** (no proof or counterexample in general continuous frame) | [Scott ledger](A-scott-continuity-converse-status-2026-10-21.md) |
 | A10 | Full arbitrary-frame property I=U equivalent to established named axiom | **NOT IDENTIFIED; literature search deferred after substantial due diligence (21 Oct)** | [literature ledger](A-literature-separation-status-2026-10-21.md) |
-| A11 | D=U: arbitrary-frame open-cover criterion; finite Alexandrov components have least points | **ACTIVE; working proofs, audit pending** | [D=U first results](A-D-equals-U-first-results-2026-10-21.md), [fitted note](A-fitted-diagonal.md) |
+| A11 | D=U: cover criterion; finite Alexandrov classification; fitted U is strictly weaker | **ACTIVE; working proofs, audit pending** | [D=U first results](A-D-equals-U-first-results-2026-10-21.md), [fitted note](A-fitted-diagonal.md) |
 
 ## Research tracks / priority
 
@@ -56,3 +56,5 @@ For each substantive research segment, update one source note and this index in 
 [The literature ledger](A-literature-separation-status-2026-10-21.md) now records direct reading of Bhattacharjee–Madinya–McGovern (2026): their CAB condition holds for all coherent frames, so it is too weak to characterize I=U. It also records the bounded conclusion from this search: **substantial corroborating evidence of no previously identified treatment of the exact arbitrary-frame I=U condition in the accessible literature inspected**, but **no definitive novelty or priority claim**. This search is **paused**; resume only on a specific lead. The D=U fitted-diagonal line remains separate.
 
 - 21 Oct 2026: [A-D-equals-U-first-results-2026-10-21.md](A-D-equals-U-first-results-2026-10-21.md), working proofs of the cover criterion and finite Alexandrov classification; **await independent audit**.
+
+- 21 Oct 2026: finite three-point coherent example shows **U fitted does not imply D=U**; proof in [D=U first results](A-D-equals-U-first-results-2026-10-21.md), §4.
