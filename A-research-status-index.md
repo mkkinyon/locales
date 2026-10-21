@@ -1,3 +1,5 @@
+> **Current status correction (21 Oct 2026):** Read [external audit reconciliation](A-external-audit-reconciliation-2026-10-21.md) first. The compact theorem D=U iff frame normal and coherent normal/pm criterion supersede earlier D=U agenda. Contrary to the previous ledger, the continuous Scott/properness converse has a working proof dated 20 Oct; only its unrestricted arbitrary-frame extension remains open. D=U ⇒ U=F is false generally but true for compact locales.
+
 # Project A — research-status index
 
 **Updated 21 October 2026.** This is the entry point for preserving context between sessions. It is a **status guide**, not an assertion that all working proofs have received independent refereeing. When status differs across dated notes, prioritize the most recent audited correction and recheck source proofs before reuse.
@@ -21,9 +23,9 @@
 | A6 | Arbitrary **frame products** preserve I=U | Working point-free proof by clopen locale components; not independently audited | closure-properties discussion / [coproduct note](A-coproduct-preservation-I-U.md) |
 | A7 | Arbitrary **frame coproducts** preserve I=U | Working proof committed 20 Oct; independently audit zero-detection and functorial transport | [coproduct note](A-coproduct-preservation-I-U.md) |
 | A8 | Subframes and surjective frame quotients do **not** preserve I=U | Finite Alexandrov counterexamples; recheck precise poset witnesses | closure-properties discussion |
-| A9 | Scott continuity of r_I ⇒ idempotence, β_* Scott-continuity, or p₂ proper | **OPEN** (no proof or counterexample in general continuous frame) | [Scott ledger](A-scott-continuity-converse-status-2026-10-21.md) |
+| A9 | Scott continuity of r_I ⇒ idempotence, β_* Scott-continuity, or p₂ proper | **WORKING THEOREM for continuous frames; arbitrary-frame case OPEN** | [Scott ledger](A-scott-continuity-converse-status-2026-10-21.md) |
 | A10 | Full arbitrary-frame property I=U equivalent to established named axiom | **NOT IDENTIFIED; literature search deferred after substantial due diligence (21 Oct)** | [literature ledger](A-literature-separation-status-2026-10-21.md) |
-| A11 | D=U: cover criterion; finite Alexandrov classification; fitted U is strictly weaker | **ACTIVE; working proofs, audit pending** | [D=U first results](A-D-equals-U-first-results-2026-10-21.md), [fitted note](A-fitted-diagonal.md) |
+| A11 | D=U: cover criterion; finite Alexandrov classification; fitted U is strictly weaker | **AUDITED foundations; compact-normality proof externally checked, independent specialist verification recommended** | [D=U first results](A-D-equals-U-first-results-2026-10-21.md), [fitted note](A-fitted-diagonal.md) |
 
 ## Research tracks / priority
 
