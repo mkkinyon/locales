@@ -1,0 +1,52 @@
+# Project A — research-status index
+
+**Updated 21 October 2026.** This is the entry point for preserving context between sessions. It is a **status guide**, not an assertion that all working proofs have received independent refereeing. When status differs across dated notes, prioritize the most recent audited correction and recheck source proofs before reuse.
+
+## Canonical foundations and audits
+
+- [A-consolidated-theorems.md](A-consolidated-theorems.md): master theorem outline; foundational hierarchy Δ⊆I⊆U⊆F.
+- [A-external-audits-reconciliation-2026-10-20.md](A-external-audits-reconciliation-2026-10-20.md): primary correction log and reconciliation.
+- [A-proper-inseparability-relations.md](A-proper-inseparability-relations.md): localic properness, quotient effectiveness (Vermeulen), saturation operator. **Read audit qualifications**: for arbitrary closed equivalence E, r_E need not be idempotent.
+- [A-fitted-diagonal.md](A-fitted-diagonal.md): fourth relation D=fit(Δ); Δ⊆D⊆U, I and D incomparable, pointwise closure-meeting interpretation. D=U belongs in its **own** research track.
+
+## Result / status ledger
+
+| ID | Statement / question | Current status | Source |
+|---|---|---|---|
+| A1 | Frame coproduct tensor pseudocomplement; Δ⊆I⊆U⊆F; I∘I⊆U | Audited foundation | consolidated outline / audits |
+| A2 | Algebraic compact-pair test; coherent I=U iff K(L) conormal (Cornish-normal) | Established in project; primary-source novelty unchecked | [coherent note](A-coherent-conormality.md) |
+| A3 | Continuous-frame way-below test for I=U | Established in project; classical spatial representation caveats | [continuous note](A-continuous-frames.md) |
+| A4 | I=U does not generally imply U=F; cofinite-cloud and deleted-plank examples | Counterexamples in existing notes, audited with qualifications | [continuous counterexample](A-continuous-counterexample-plank.md), audits |
+| A5 | Proper closed equivalence E gives effective quotient (Vermeulen 1994) and Scott-continuous idempotent r_E; proper continuous collapse under stated hypotheses | Established relative to cited theorem; hypotheses matter | proper relations note, audits |
+| A6 | Arbitrary **frame products** preserve I=U | Working point-free proof by clopen locale components; not independently audited | closure-properties discussion / [coproduct note](A-coproduct-preservation-I-U.md) |
+| A7 | Arbitrary **frame coproducts** preserve I=U | Working proof committed 20 Oct; independently audit zero-detection and functorial transport | [coproduct note](A-coproduct-preservation-I-U.md) |
+| A8 | Subframes and surjective frame quotients do **not** preserve I=U | Finite Alexandrov counterexamples; recheck precise poset witnesses | closure-properties discussion |
+| A9 | Scott continuity of r_I ⇒ idempotence, β_* Scott-continuity, or p₂ proper | **OPEN** (no proof or counterexample in general continuous frame) | [Scott ledger](A-scott-continuity-converse-status-2026-10-21.md) |
+| A10 | Full arbitrary-frame property I=U equivalent to established named axiom | **NOT IDENTIFIED** | [literature ledger](A-literature-separation-status-2026-10-21.md) |
+| A11 | D=U or D=I; interaction with fitted diagonal | **DEFERRED** | [fitted note](A-fitted-diagonal.md) |
+
+## Research tracks / priority
+
+1. **Active A:** localic separation relations and equality conditions. Current established closure results and literature identifications to audit and integrate.
+2. **Deferred A:** genuinely point-free Scott-continuity converse. Several methods (way-below interpolation, rectangles, quotient operators) have stalled; **avoid merely renaming the gap**. See Scott ledger.
+3. **Deferred A:** D=U and diagonal fittedness; Arrieta–Picado–Pultr likely more directly relevant here.
+4. **Backlog:** [B-overlap-graphs.md](B-overlap-graphs.md) and [C-frame-nerves.md](C-frame-nerves.md).
+
+## Corrections and risk flags
+
+- **Continuous frames are spatial classically** (Hofmann–Lawson); do not label a classical continuous-frame example 'pointless'.
+- Do not infer r_E idempotent merely from closed internal equivalence; counterexamples in audits.
+- Distinguish frame products (locale disjoint unions) from frame coproducts (locale products).
+- In the geometric I=clΔ argument, p₁*a∧p₂*b=0 for a∧b=0 **does not** imply p₁*a≤p₂*(b*); inverse images may not preserve pseudocomplements.
+- The finite poset counterexample for nonclosure and the arbitrary-coproduct proof are working results; request independent audit before publication.
+- Cornish-normality of **all** L corresponds to Stone, not to I=U. The correct coherent test applies to K(L).
+- In a new session, **read this index first**, then the relevant current source note and audit reconciliation; do not reconstruct settled questions from conversational recollection alone.
+
+## Maintenance protocol
+
+For each substantive research segment, update one source note and this index in the **same session**, if repository write access is available. Label: **proved and audited**, **working proof**, **counterexample**, **conjecture/open**, **false**, or **deferred**. Record exact hypotheses, proof dependencies, and counterexamples to tempting false assertions. Do not silently overwrite historical exploratory notes: add an explicit dated correction or refer to reconciliation. Cite papers accurately and distinguish primary-source checks from searches/abstracts. Keep an uncertainty ledger; after a failed approach, record the obstacle rather than further equivalent formulations.
+
+## Recent repository changes
+
+- 20 Oct 2026: [A-coproduct-preservation-I-U.md](A-coproduct-preservation-I-U.md), commit 3f9b4ce.
+- 21 Oct 2026: this index and separate literature / Scott-status ledgers; no claim of independent post-commit audit.
