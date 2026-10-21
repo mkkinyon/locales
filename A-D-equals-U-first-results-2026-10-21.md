@@ -58,3 +58,19 @@ The two opens A={a,t} and B={b,t} cover P. Their square-open w=A⊠A∨B⊠B sat
 **Finite-locale observation:** In a finite frame, only finitely many distinct open sublocales occur; intersections of open sublocales are open. Hence every fitted sublocale is open. Therefore every *closed* fitted sublocale of a finite locale is clopen. For our U this can simplify classification, but one must still check that the relevant clopen blocks are precisely the comparability-component squares before promoting a full finite classification.
 
 **Consequence:** U fitted ⇒ D=U is **false**, already for finite coherent frames. In this example U=F is also total (all real-valued continuous maps are constant), so it does not settle the separate question D=U ⇒ U=F.
+
+## 5. Fitting hull and functional relation (21 October, working proof)
+
+For every locale, D⊆U⊆fit(U)⊆F. The final inclusion follows from **F fitted**: F=⋂_{f:X→R}Eq(fπ₁,fπ₂); the real locale has fitted diagonal, pullbacks preserve fitted sublocales, and intersections of fitted sublocales are fitted. As U⊆F, monotonicity of fitting implies fit(U)⊆fit(F)=F. Record as a **working categorical proof**, with verification of arbitrary sublocale pullback/intersection conventions before publication.
+
+This supplies an intermediate (generally nonclosed) relation fit(U). Further equality fit(U)=F or strictness requires investigation.
+
+## 6. Coherent compact-lattice formulation (21 October, working proof)
+
+For coherent L=Id(D), D=K(L), define u⊥_f v (u,v∈D) iff some c,d∈D satisfy c∨d=1, u∧c=0, v∧d=0. This agrees with u*∨v*=1 in L, by compact generation and compactness of 1.
+
+Then D_reln(L)=U(L) (here D_reln denotes fitting-of-diagonal, *not* the compact lattice D) iff for every finite compact cover k₁∨...∨kₙ=1 and every pair P,Q of prime filters of D, either some k_i∈P∩Q or there exist u∈P,v∈Q with u⊥_f v.
+
+Equivalent purely finitary identity: for every such cover there exist finitely many u_j⊥_f v_j such that 1=∨_i(k_i⊠k_i)∨∨_j(u_j⊠v_j) in the bounded-distributive-lattice coproduct D ⨿ D. The equivalence uses K(L⊕L)≅D⨿D and the compactness of 1. Both forms are **working proofs**, not recognized named axioms or novelty claims.
+
+**Separate future problem:** D_reln=U ⇒ U=F? Not assumed. Also examine whether fit(U)=F, and if not find a strict intermediate example.
