@@ -43,3 +43,18 @@ Normality of a topological space guarantees Ury=Cm for ordinary point pairs; hen
 Literature checked at a high level: Arrieta–Picado–Pultr 2022 (fitted diagonal) and Arrieta 2024 (dual of closedness/fitness) give no immediate theorem equating this arbitrary normality implication, based on available descriptions. No novelty conclusions.
 
 **One final segment permitted**, directed at either (a) an infinitary coproduct/cover proof, or (b) a concrete normal noncontinuous counterframe. If unsuccessful mark deferred, rather than prolonging the search.
+
+## 6. Bounded investigation, segment 2 of 2: universal coproduct test (21 October 2026)
+
+**Status: DEFERRED, unresolved.** Two-segment limit reached.
+
+Use the universal property of Q=L⊕L. For a cover C with ⋁C=1, the failure of d_U∨w_C=1 is **equivalent** to the existence of a nontrivial frame M and frame homomorphisms f,g:L→M with
+
+1. f(a)∧g(b)=0 in M whenever a*∨b*=1 (all far rectangles annihilated);
+2. f(c)∧g(c)=0 in M for every c∈C (all cover squares annihilated).
+
+Proof: if q=d_U∨w_C<1, the closed quotient Q→↑q, z↦z∨q, has nontrivial codomain, and its compositions with coproduct injections provide f,g. Conversely, universal factorization of f,g through Q carries q to 0_M, so q<1 whenever M is nontrivial. The equivalence is exact but **does not by itself decide the conjecture**.
+
+Normality plus the finite-cover lemma prohibits such a pair for a finite cover, and indeed whenever C has a finite subcover. To infer a contradiction for arbitrary C using finite prime filters would silently assume preservation of infinite joins: an ordinary prime filter of the finite-distributive reduct of L may contain ⋁C=1 while containing no c∈C. Passing to completely prime filters requires a spatiality assumption. A generic frame codomain M is necessary for a genuinely point-free argument.
+
+No direct infinitary cp-ideal derivation or explicit normal noncontinuous counterframe emerged in this segment. Existing positive cases: compact, continuous, and any setting with the relevant localic product and closed U detected by ordinary points. **Do not claim normal⇒D=U for all frames.** Close this exploration after two segments as requested; next priority is point-free transitivity of U under D=U.
