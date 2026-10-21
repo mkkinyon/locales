@@ -22,7 +22,7 @@ Proof. For any subset S⊆P×P, c(S)=down(S) and f(S)=up(S), since all finite Al
 
 ## 3. Strict containment J<H
 
-For the five-point zigzag 0<1>2<3>4, the comparability graph is connected, hence H=F=P². But 0 and 4 have no common upper or lower bound, so (0,4) lies in neither I nor D. Finite Alexandrov sublocales are spatial, so J=I∨D omits (0,4) and J<H. Thus J is NOT generally fixed under the closure operator T(S)=c(S)∧f(S), since T(J)=c(D)∧f(I)=P² in this example (indeed H=P² and any closed-and-fitted overrelation must contain it).
+For the five-point zigzag 0<1>2<3>4, the comparability graph is connected, hence H=F=P². But 0 and 4 have no common upper or lower bound, so (0,4) lies in neither I nor D. Finite Alexandrov sublocales are spatial, so J=I∨D omits (0,4) and J<H. Indeed, direct enumeration of the 25 pairs gives |J|=19 and |T(J)|=23 for T(S)=c(S)∧f(S), while |H|=25. Specifically T(J) adds (0,3),(3,0),(1,4),(4,1), but still omits (0,4),(4,0). Thus J is NOT fixed by T, and T(J) is NOT H; T is idempotent, whereas alternating c and f gives the strictly larger H.
 
 ## 4. H need not equal F
 
