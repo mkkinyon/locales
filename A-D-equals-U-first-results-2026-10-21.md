@@ -1,3 +1,5 @@
+> **AUDIT UPDATE, 21 October 2026:** Statements below that call D=U ⇒ U=F open are superseded. The implication is false generally, true for compact locales. Claude's independent audit proposed and checked the compact theorem D=U iff frame normal and its coherent normal/pm counterpart. See A-external-audit-reconciliation-2026-10-21.md. The strengthened noncompact plank construction remains working, not fully adopted. Historical exploration retained below.
+
 # A — First results on D = U (21 October 2026)
 
 **Status: new working proofs; not independently audited.** Start from [A-fitted-diagonal.md](A-fitted-diagonal.md) (definition D=fit(Δ), general inclusions Δ⊆D⊆U and I⊆U).
