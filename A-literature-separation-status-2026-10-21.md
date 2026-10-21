@@ -30,3 +30,21 @@ Existing [A-fitted-diagonal.md](A-fitted-diagonal.md) defines D=fit(Δ), and pro
 ## Identification status / filter
 
 **No verified conventional name for arbitrary-frame I=U.** Candidate must agree with conormality in coherent case, admit O(Cantor space), reject finite nonconormal Alexandrov witnesses and three-origin example, and have appropriate product/coproduct behavior. Consider literature comparisons provisional until primary theorem statements and counterexamples are audited. Avoid renaming the cp-ideal condition without mathematical benefit.
+
+## Bhattacharjee–Madinya–McGovern (2026): CAB and subcompact elements
+
+**Primary source examined (16-page user-supplied PDF):** P. Bhattacharjee, A. Madinya, W. Wm. McGovern, *Algebraic Frames and Minimal Prime Elements*, *Order* **43** (2026), article 20, DOI:10.1007/s11083-026-09734-3.
+
+Their **compact absoluteness property (CAB)** for a prime element p in an algebraic frame L is
+
+    p = ⋁ {c* : c∈K(L), c≰p}.
+
+Lemma 2.3 gives its equivalent compact test: for each c∈K(L), exactly one of c≤p and c*≤p holds. Lemma 2.5 shows Cab(L)⊆Min(L). The classical Lemma on Ultrafilters (Theorem 2.1) establishes **Cab(L)=Min(L) for every algebraic frame satisfying FIP**, hence for every coherent frame. This property **does not imply I=U**, since finite coherent nonconormal examples (e.g. our five-point Alexandrov Q) satisfy CAB for all minimal primes but fail I=U. Do not conflate CAB with Cornish conormality.
+
+The authors define the canonical lattice **s(L)** of finite meets of compact elements (Definition 2.7). It is a distributive sublattice of an algebraic frame even without FIP; s(L)=K(L) iff FIP holds. **Theorem 2.15** characterizes CAB minimal primes by maximality among subcompactly generated filters and equivalent pseudocomplement expressions. **Proposition 3.5** equates Cab(L)=Min(L) with hull-kernel topology finer than inverse topology on Min(L); **Corollary 3.8** then yields zero-dimensional Hausdorff Min(L). **Theorem 3.11** characterizes compactness of the inverse minimal-prime space by equality of maximal completely prime and maximal subcompactly generated filters. Sections 4.13, 4.17, 4.19 construct instructive poset examples distinguishing these conditions. Example 4.19 has an apparent heading/text mismatch: the construction yields Cab(L)=∅ rather than Cab(L)=Min(L).
+
+**Relevance:** CAB is eliminated as an exact criterion; s(L) and subcompact filters are worth retaining as potential tools if algebraic non-FIP frames become relevant. No claim of independent publication-level audit of all the authors' proofs.
+
+## Literature-search stopping decision (21 October 2026)
+
+The systematic comparison of Cornish conormality, mp/pmin, PF variants, Stone/Baer annihilator axioms, annulets/α-ideals, CAB, and diagonal/fittedness terminology has found **no established named condition verified to coincide with I=U on all frames**. Together with the working closure results and explicit counterexamples, this is **substantial corroborating evidence that the precise arbitrary-frame condition has not been studied in the accessible literature we examined**. It is **not** a priority or novelty proof, and does not imply exhaustive coverage of obscure or unindexed sources. Revisit only if a new structural connection, reference, or mathematical result gives a concrete reason. The parallel D=U question belongs with fitted-diagonal literature; see A-fitted-diagonal.md.
