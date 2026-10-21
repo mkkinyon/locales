@@ -33,3 +33,13 @@ Audit localic composition image mechanisms and search for an explicit counterexa
 **Proposition (coherent locales):** I composed I is contained in cl(D). In spectral representation P is a closed, spatial sublocale of X cubed. Every point (x,y,z) of P maps to (x,z) in ordinary I composed I, which equals the ordinary topological closure of D's points by the preceding spectral theorem. This lies in the closed sublocale cl(D). Spatiality of P yields factorization of P to X squared through cl(D). Taking localic images gives the inclusion.
 
 **NOT PROVED:** reverse cl(D) contained in I composed I. It would suffice to show D contained in I composed I, because the latter is closed. D can be a nonspatial fitted sublocale; its point set alone cannot establish that inclusion. Likewise no general coherent-localic equality fit(I)=D composed D established. These are live gaps, not counterexamples.
+
+## Resolution: first coherent identity (21 October)
+
+THEOREM (working): If X is coherent, then cl(D)=I composed I=U as closed localic sublocales.
+
+In the spectral representation, for compact open K,H, cl(K)=down(K). Thus K times H misses the ordinary points of D exactly when their closures are disjoint. The spectral point calculation gives ordinary cl(D points)=I-point-relation composed with itself. This set is closed. A point outside it has a compact-open rectangular neighborhood missing D-points; that neighborhood is far by the preceding observation. Hence the ordinary points of U coincide with the points of I squared.
+
+The localic image I squared is closed because the middle-factor projection is closed for compact X, and its source is spatial. Thus its points are its ordinary pointwise composite. Both I squared and U are closed sublocales of spatial X squared, giving I squared=U. Meanwhile D lies in U, so cl(D) lies in U; its ordinary points include the ordinary closure of D-points, namely all U-points. Both are closed and point-determined, so cl(D)=U.
+
+This supersedes the older 'open in coherent case' wording in this note. The second localic formula fit(I)=D squared is still open. No arbitrary-frame claim or novelty claim.
