@@ -1,0 +1,35 @@
+# A — Noncompact normality and D=U (21 October 2026)
+
+**Status:** classical continuous-frame theorem proved; arbitrary-frame implication OPEN. This develops the compact-frame normality theorem from [A-external-audit-reconciliation-2026-10-21.md](A-external-audit-reconciliation-2026-10-21.md) and Claude Opus 5.5's independent audit §§3.2, 5. The full point-free noncompact implication is **not** asserted.
+
+## 1. Positive result without compactness
+
+**Theorem.** If L is a classically continuous **normal** frame, then D(L)=U(L)=F(L).
+
+**Proof.** By Hofmann–Lawson L=O(X) for locally compact sober X, with O(X×X)=L⊕L. If (x,y)∉D then the point closures cl{x},cl{y} are disjoint. Normality separates these disjoint closed subsets by neighborhoods with disjoint closures; hence (x,y)∉U. Therefore the ordinary pair-point sets of U and D agree. For each open w∈O(X×X) satisfying δ*(w)=1, every U-point belongs to O(w), since every D-point does. Because U=C(d_U) is a **closed** sublocale of a spatial product, it is point-determined, so U⊆O(w). Intersecting gives U⊆D. The reverse D⊆U is universal. Normal ⇒ U=F is the established frame Urysohn lemma. □
+
+**More general sufficient condition:** The same proof works for any *normal sober* topological space X for which the localic square agrees with the ordinary product and U is determined by its ordinary points. Do not infer arbitrary fitted-sublocale equality from equality on points.
+
+**Noncompact examples:** Any noncompact locally compact Hausdorff space is normal only when separately assumed; in particular discrete infinite spaces are noncompact, normal and satisfy D=U=F=Δ. For a nonregular noncompact normal example, disjoint unions of finite least-point Alexandrov posets give normal, locally compact examples with D=U=F but generally D≠Δ.
+
+## 2. The finite-cover result holds in all normal frames
+
+For any normal frame L and any **finite** cover C, the independent audit §3.2 Proposition 3.2b proves
+
+    d_U ∨ ⋁_{c∈C} c⊠c = 1.
+
+This uses finite distributive lattice / finite prime-filter calculations and normality, not compactness. If L is compact, every cover has a finite subcover and thus D=U. If L is continuous, use §1 above. **No deduction for arbitrary noncompact, noncontinuous frames follows simply from finite-cover completeness.**
+
+## 3. Why the arbitrary-frame extension is nontrivial
+
+The criterion for D=U quantifies over *all* covers C of 1, possibly without finite subcovers. A join in Q=L⊕L can be 1 even without a finite witness; conversely the finite-cover lemma cannot be applied to a family of opens whose finite subjoins fall below 1.
+
+A distributive-lattice prime filter of Q need not preserve arbitrary joins; showing that every point pair satisfies U⊆D is insufficient unless the closed U is determined by points in the product. Normality alone has not been shown to force that spatiality.
+
+**Open:** Does normality of an arbitrary (possibly pointless, noncontinuous, noncompact) frame imply d_U∨w_C=1 for every cover? No proof or counterexample identified here. A point-free proof must address genuinely infinite covers or supply an independent compact/locality reduction.
+
+## 4. Converse and relation with regularity
+
+Noncompact D=U does **not** imply normal: every regular frame has I=U=Δ and hence D=U, while classical regular nonnormal spaces exist. Thus an arbitrary normality sufficiency would not be a characterization outside compact frames.
+
+**Research next:** Seek a direct infinite-cover tensor argument, or a normal noncontinuous frame failing D=U. Keep the distinct question D=U⇒U internally transitive point-free as a separate line. Do not spend more work merely reproducing the continuous spatial proof in frame language without addressing the missing general case.
