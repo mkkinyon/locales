@@ -4,6 +4,8 @@ Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological
 
 **Exploratory mathematics, not a submission-ready paper.** The foundational results and two principal counterexamples have now received an internal audit and two external adversarial reviews (20 October 2026). These were **not strictly blind**, and correctness of all peripheral notes and novelty/priority remain open. Start with the **[consolidated theorem outline](A-consolidated-theorems.md)** and the **[external-audit reconciliation](A-external-audits-reconciliation-2026-10-20.md)** rather than treating dated exploratory notes as current status.
 
+> **Research continuity (21 October 2026):** Start with the [research-status index](A-research-status-index.md). It distinguishes audited results, working proofs, open problems, and corrected false leads. See also [closure properties](A-closure-properties-I-U.md), [Scott-continuity converse ledger](A-scott-continuity-converse-status-2026-10-21.md), and [Cornish/minimal-prime literature ledger](A-literature-separation-status-2026-10-21.md).
+
 ## Workstreams
 
 | Track | Topic | Status |
