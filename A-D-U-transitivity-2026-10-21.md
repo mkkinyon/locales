@@ -40,3 +40,15 @@ The established D=U open-cover criterion supplies identities d_U∨⋁_{c∈C}c�
 **Formal fittedness+absorption is insufficient for transitivity.** Let X be discrete on three points 0,1,2, so I=Δ. Let R contain the diagonal and symmetric edges 0–1 and 1–2, omitting 0–2. Every sublocale of X×X is clopen and fitted. R is reflexive, symmetric and closed/fitted; I∘R=R=R∘I, but R is not transitive. This does NOT refute D=U⇒U transitive, because R is not U(X). It refutes the proposed proof strategy using only formal fittedness and absorption.
 
 **Status:** D=U⇒U internal equivalence remains OPEN for arbitrary frames, established for continuous and compact frames. Future work must use additional properties peculiar to U and D.
+
+## Direct inequality attempt: residual middle coordinate (21 October 2026)
+
+**Working calculation, not a transitivity proof.** Assume D=U. Let P=U_12 intersect U_23, and take a far pair a,b, meaning a-star join b-star = 1. Pull the square-cover identity for the two-element cover {a-star,b-star} into positions 12, then restrict to P. Since d_12 vanishes there, multiplying by a_1 gives a_1 <= (b-star)_1 meet (b-star)_2. The corresponding identity on positions 23, multiplied by b_3, gives b_3 <= (a-star)_2 meet (a-star)_3. Hence on P:
+
+    a_1 meet b_3 <= (a-star meet b-star)_2.
+
+Equivalently, in the full triple-product frame,
+
+    a_1 meet b_3 <= d_12 join d_23 join (a-star meet b-star)_2.
+
+Transitivity would require omitting the last summand. It need not be zero; farness says a-star join b-star=1, not a-star meet b-star=0. No derivation eliminating the residual using arbitrary square-cover identities was found in this focused attempt. The residual inequality alone is not evidence of a counterexample. **General arbitrary-frame transitivity remains OPEN.** The continuous and compact positive cases stand. Stop this route now per the user's instruction and pursue another project question.
