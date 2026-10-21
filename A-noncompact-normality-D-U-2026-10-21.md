@@ -33,3 +33,13 @@ A distributive-lattice prime filter of Q need not preserve arbitrary joins; show
 Noncompact D=U does **not** imply normal: every regular frame has I=U=Δ and hence D=U, while classical regular nonnormal spaces exist. Thus an arbitrary normality sufficiency would not be a characterization outside compact frames.
 
 **Research next:** Seek a direct infinite-cover tensor argument, or a normal noncontinuous frame failing D=U. Keep the distinct question D=U⇒U internally transitive point-free as a separate line. Do not spend more work merely reproducing the continuous spatial proof in frame language without addressing the missing general case.
+
+## 5. Bounded investigation, segment 1 of at most 2 (21 October 2026)
+
+The arbitrary-frame normal ⇒ D=U implication remains OPEN after a direct attempt to extend the finite-cover criterion. Normality establishes d_U∨w_C=1 whenever C has a finite subcover. The exact obstruction is an arbitrary cover C with ⋁C=1 but no finite subcover, for which one would need a nonzero residual of Q below the complement of d_U∨w_C. The finite-lattice/prime-filter proof does **not** extend by choosing a prime filter containing 1=⋁C: prime filters need not respect infinite joins. Invoking completely prime filters assumes spatiality of the relevant quotient/product and is circular.
+
+Normality of a topological space guarantees Ury=Cm for ordinary point pairs; hence a normal-frame counterexample, if one exists, must involve genuine localic nonspatial behavior (of the product or relevant closed sublocale), not just two ordinary points.
+
+Literature checked at a high level: Arrieta–Picado–Pultr 2022 (fitted diagonal) and Arrieta 2024 (dual of closedness/fitness) give no immediate theorem equating this arbitrary normality implication, based on available descriptions. No novelty conclusions.
+
+**One final segment permitted**, directed at either (a) an infinitary coproduct/cover proof, or (b) a concrete normal noncontinuous counterframe. If unsuccessful mark deferred, rather than prolonging the search.
