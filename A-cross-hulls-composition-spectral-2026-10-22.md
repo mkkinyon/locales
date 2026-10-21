@@ -25,3 +25,11 @@ Let Q=O(X²), d_I=join over disjoint rectangles, and j_D the nucleus of fitted d
 ## Next
 
 Audit localic composition image mechanisms and search for an explicit counterexample or additional hypotheses (e.g. properness) that force pointwise relation-square identities to lift. Defer rather than promote spectral point calculations to locale equalities.
+
+## Coherent-localic refinement (later segment)
+
+**Proposition (compact locales):** I composed I is a CLOSED sublocale. Indeed P=I_12 intersect I_23 is closed in X cubed, and the coordinate projection X cubed to X squared is closed for compact X (properness of projection). Its image I composed I is therefore closed.
+
+**Proposition (coherent locales):** I composed I is contained in cl(D). In spectral representation P is a closed, spatial sublocale of X cubed. Every point (x,y,z) of P maps to (x,z) in ordinary I composed I, which equals the ordinary topological closure of D's points by the preceding spectral theorem. This lies in the closed sublocale cl(D). Spatiality of P yields factorization of P to X squared through cl(D). Taking localic images gives the inclusion.
+
+**NOT PROVED:** reverse cl(D) contained in I composed I. It would suffice to show D contained in I composed I, because the latter is closed. D can be a nonspatial fitted sublocale; its point set alone cannot establish that inclusion. Likewise no general coherent-localic equality fit(I)=D composed D established. These are live gaps, not counterexamples.
