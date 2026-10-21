@@ -74,3 +74,15 @@ Then D_reln(L)=U(L) (here D_reln denotes fitting-of-diagonal, *not* the compact 
 Equivalent purely finitary identity: for every such cover there exist finitely many u_j⊥_f v_j such that 1=∨_i(k_i⊠k_i)∨∨_j(u_j⊠v_j) in the bounded-distributive-lattice coproduct D ⨿ D. The equivalence uses K(L⊕L)≅D⨿D and the compactness of 1. Both forms are **working proofs**, not recognized named axioms or novelty claims.
 
 **Separate future problem:** D_reln=U ⇒ U=F? Not assumed. Also examine whether fit(U)=F, and if not find a strict intermediate example.
+
+## 7. fit(U) is in general strictly smaller than F (21 October 2026)
+
+**Theorem (working proof).** There exist spatial locales X for which fit(U_X) ⊊ F_X.
+
+**General closed-point lemma.** If S=C(d) is a closed sublocale of a locale Y and p:1→Y is a *closed point* outside S, then p is outside fit(S). Indeed, the closed singleton sublocale {p} has open complement O(e); p∉C(d) entails d∨e=1 (equivalently C(d)⊆O(e)), and thus fit(S)⊆O(e), which excludes p. Hence fitting a closed sublocale does not add closed points.
+
+Take any **Urysohn but non-functionally Hausdorff T1 space** X (the standard distinction T_{2½} versus functionally Hausdorff; corrected Arens-square-type examples are available). Choose x≠y that no real continuous function separates. Then (x,y) belongs to F but not U, because a,b neighborhoods with disjoint closures exist. The product point (x,y) is a closed point of the *localic* product because x,y are closed points of X and products of closed sublocale embeddings are closed. By the lemma (x,y) is outside fit(U). Consequently fit(U)⊊F, even as localic sublocales; **no product-spatiality assumption** is needed. For every T1 space, the point pairs of fit(U) and U coincide.
+
+**Source caution:** Older versions of the Arens square in Steen–Seebach were reported to have a gap in the Urysohn verification; use an explicitly corrected construction, e.g. the 2023 paper *Enumeration Degrees and Non-Metrizable Topology*, section 3.6.1 (found at https://personal.ntu.edu.sg/kmng/Files/Papers/nonmetriz.pdf), before citing a specific example formally. The mathematical implication requires only the well-established existence of a Urysohn non-functionally-Hausdorff space.
+
+Open: whether fit(U)=U or fit(U)=F under useful coherent/continuous hypotheses. The counterexample above is not asserted to be coherent or continuous.
