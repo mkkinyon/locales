@@ -1,3 +1,5 @@
+> **CORRECTION, 21 October 2026:** The unresolved status below is obsolete for continuous locales. The earlier A-scott-continuity-converse.md gives a working proof that r_E Scott-continuous is equivalent to properness of p2 for closed relations on continuous locales. Only the unrestricted arbitrary-frame converse remains open. See A-external-audit-reconciliation-2026-10-21.md.
+
 # A — Scott-continuity converse: research status (21 October 2026)
 
 **Status: unresolved.** A ledger of the October 20–21 discussion, **not** a paper-ready proof. Consult [A-proper-inseparability-relations.md](A-proper-inseparability-relations.md), [A-continuous-frames.md](A-continuous-frames.md), and [A-external-audits-reconciliation-2026-10-20.md](A-external-audits-reconciliation-2026-10-20.md) for foundational and audit context.
