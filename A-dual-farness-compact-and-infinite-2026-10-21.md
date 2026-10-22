@@ -20,3 +20,17 @@ Define W=meet over all dual-far k,h of O((k⊠1)∨(1⊠h)). Universally V=fit(I
 For compact Hausdorff X, W=Δ=V. Given open diagonal neighborhood G, compact X²\G is covered by interiors of finitely many closed rectangles A×B disjoint from Δ (compact Hausdorff normality gives disjoint closed neighborhoods around every off-diagonal point). Complements of these rectangles are dual-far strips whose finite intersection is contained in G. This proves W⊆O(G) for every diagonal neighborhood and hence W⊆fit(Δ)=Δ.
 
 For **general compact locales**, W=V is still UNRESOLVED by this segment. Key problem: special dual-far open strips need to be cofinal in the fitted-neighborhood meet, not just have exact individual separation witnesses. Compact three-limit-point noncoherent example from Claude audit is a recommended test. No assertion of equality beyond coherent and compact Hausdorff.
+
+## RESOLUTION: compact sublocales have strip-generated fittings
+
+**Theorem (all locales X,Y).** For any compact sublocale S of X×Y, fit(S) equals the intersection of all open strips O((k⊠1)∨(1⊠h)) containing S. Closedness of S, compactness of ambient factors, coherence and spatiality are not needed.
+
+Proof. Let O(w) contain S. Write w=∨_i(a_i⊠b_i). Compactness of S selects a finite subcover w0=∨_{i=1}^n(a_i⊠b_i)≤w, still containing S. Set A_i=a_i⊠1, B_i=1⊠b_i. Finite distributivity in the frame gives w0=∨_i(A_i∧B_i)=∧_{σ∈{0,1}^n}(∨_{σ(i)=0}A_i∨∨_{σ(i)=1}B_i). Every factor is a strip sσ≥w0, so every such O(sσ) contains S. Their finite intersection O(∧sσ)=O(w0) lies in O(w). Hence the meet of all strips containing S lies in every O(w) containing S, exactly fit(S). The reverse inclusion is tautological.
+
+**Corollary (compact locale X):** I=C(d_I) is compact because it is closed in compact X². Therefore V=fit(I)=meet_{k,h dual far} O((k⊠1)∨(1⊠h)), where dual far means d_I∨(k⊠1)∨(1⊠h)=1. Thus the compact strip formula formerly marked OPEN is now PROVED for arbitrary compact locales.
+
+**Generalization:** The result holds whenever I itself is a compact sublocale, even if X is not compact. More generally fit(S) for compact S in any binary product is strip generated.
+
+**Limit:** Without compactness of S, the finite extraction and CNF step do not directly apply. The previous nonnormal Hausdorff counterexample still shows that arbitrary-frame dual far need not have a single disjoint-supplement witness.
+
+**Status correction:** Earlier paragraph marking arbitrary compact strip formula UNRESOLVED is superseded by this theorem.
