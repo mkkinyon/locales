@@ -105,3 +105,19 @@ Let e=L_0∨R_0. Three of four quadrant opens in e⊠e lie below q_C, because al
 F_C is closed ordinary off-diagonal (shown earlier), so for each pair with coordinate in Z=X\e closed discrete, a product-open rectangle misses F_C; its frame rectangle lies below q_C and hence below P_bgr²(q_C). Apply the elementary frame boundary lemma (from Claude external audit) to u=P_bgr²(q_C): conclude u=1.
 
 **Scope:** The argument requires both the shift family having isolated points accumulating at one limit and its realization as closed translation fibers of δ with open parameter separation. Does not show that arbitrary infinite étale families are redundant, nor bi-graph completeness for arbitrary locales or for the rational-bridge locale. The individual graph-far opens q_c are valid in the strengthened rational-bridge construction because each graph closure misses I (same boundary argument used for collective q_C, and q_C≤q_c implies q_c∨d_I=1).
+
+## Crowded shift parameter test (22 Oct, subsequent segment)
+
+**Dense shifts C=Q fail collective farness.** All graph shifts (ℓ_t,r_{t+c}) for c∈Q fill the entire open quadrant L_0×R_0, whose closure contains every (z_n,z_n)∈Δ. Thus q_Q∨d_I≠1. (Proof as ordinary point: no product neighborhood of (z_n,z_n) can be disjoint from all shifted graph points; by rectangle-generation if (z_n,z_n) lay in q_Q it would have such neighborhood, and diagonal point does not belong d_I.)
+
+**Viable crowded alternative.** Take K⊂R a perfect nowhere-dense compact set with C=K∩Q dense in K and no isolated points (standard ternary Cantor set, endpoints rational). C is closed in Q and crowded. Use the same bridge-space construction, but choose all irrational limits α_n,β_m subject to:
+- α_n∉Q−K and β_m∉Q+K (countable unions of translates of compact nowhere-dense K);
+- β_m−α_n∉K for every n,m;
+- pairwise distinct as before, with α_n,β_n in prescribed basis J_n.
+All conditions can be met inductively by Baire category: each forbidden set for a new limit is meagre; the prescribed interval is Baire and nonempty. Rational sequences A_n,B_n approaching these limits can be chosen mutually disjoint as before.
+
+The multigraph F_C={(ℓ_t,r_s):s−t∈C} is **closed in ordinary X² and off-diagonal**. In L×R it is the preimage of closed C⊆Q by difference map. At boundary (z_n,r_s), its avoidance follows s−α_n∉K; at (ℓ_t,z_m) from β_m−t∉K; at (z_n,z_m) from β_m−α_n∉K. Compactness of K permits uniform separating neighborhoods so the boundaries have rectangular neighborhoods disjoint from F_C. All other quadrants trivially disjoint.
+
+Let q_C=∧_{c∈C}q_c, the null open of the étale disjoint sum of shift maps. With e=L_0∨R_0 and Z=C(e) closed discrete, three quadrants of e⊠e lie below q_C and the fourth L_0⊠R_0 lies in d_I. Since F_C ordinary closed off-diagonal, all points having a Z-coordinate have product-open rectangles disjoint from F_C and below q_C. Claude's elementary boundary lemma yields **q_C∨d_I=1**, giving a graph-far infinitely branched étale primitive with parameter C having no isolated points.
+
+**Precisely NOT established:** Whether j_bgr(q_C)=1 or not. The previous Cantor–Bendixson difference-map argument uses isolated shifts, hence cannot apply to this C. The closed multigraph's relative open pieces need not all be inseparable under strip primitives, so the existence of a perfect shift parameter alone does not prove q_C is fixed by any nucleus. A direct localic test is next.
