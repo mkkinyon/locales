@@ -85,3 +85,11 @@ For every off-diagonal point p=(x,y), the singleton complement strip s_p=X²\{p}
 **Theorem:** If X is Hausdorff and X² is scattered, then the FULL nucleus-generated strip relation Wstrip equals V=fit(Δ) (even if I is noncompact). For any diagonal open W, transfinite iterate P on W. By induction P^α(W) contains X²\F^(α), where F^(α) is the Cantor–Bendixson derivative of closed F, with isolated points removed at successors. Base is tautological; successors use each singleton dual-far strip, limits use joins. As X² is scattered, F^(α)=∅ eventually; hence j_Wstrip(W)=1. Neighborhood-filter criterion implies Wstrip=V. This does NOT prove one-stage P(W)=1, nor the unrestricted noncompact theorem.
 
 **Remaining open:** To refute (9), find a closed off-diagonal F with a point surviving ∩_{s∈Σ^∧}cl(s∩F); to refute full Wstrip=V, it must survive all transfinite P-iterations. Non-Urysohn pairs by themselves do not establish either failure.
+
+## Further Hausdorff obstruction: local compactness of excluded relation
+
+**Proposition.** If X is Hausdorff and F⊆X²\Δ is compact, then F is covered by finitely many closed rectangles A_i×B_i with A_i∩B_i=∅. For p=(x,y)∈F, choose disjoint open U∋x,V∋y. Since compact Hausdorff F is regular, choose a compact relative neighborhood K_p⊆F∩(U×V). Its projections A_p,B_p are compact, hence closed in Hausdorff X, and lie in disjoint U,V. They are disjoint closed sets and K_p⊆A_p×B_p. Compactness of F picks finitely many K_p interiors to cover F. Complementary open strips are dual-far and their finite meet lies inside X²\F.
+
+**Local corollary.** For a closed off-diagonal F (not necessarily compact), condition (9)'s local finite-rectangle requirement holds at each point where F is locally compact: choose compact relative neighborhood K⊆F inside U×V and project. Thus any point witnessing failure of one-stage saturation in a Hausdorff space must be a point at which the off-diagonal closed relation F fails to be locally compact. This is in addition to having no isolated points; neither obstruction alone implies failure.
+
+The arbitrary Hausdorff non-Urysohn problem remains OPEN. Need a closed off-diagonal F with non-locally-compact local structure whose every finite family of disjoint closed rectangles fails to cover F locally at some point.
