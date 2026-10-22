@@ -75,3 +75,13 @@ Let Σ be dual-far strips, Φ={w:d_I∨w=1}, and P(w)=∨_{finite strip meets s}
 Proof: X Hausdorff, so I=Δ as a closed sublocale, and w corresponds to an open diagonal neighborhood W⊆X². At any (x,y) outside W, x≠y. Take open neighborhoods A∋x,B∋y with disjoint closures. Set k=X\\cl A, h=X\\cl B, s=(k×X)∪(X×h). The closed rectangle cl A×cl B misses the diagonal, so s is dual far. A×B is an open neighborhood of (x,y) disjoint from s, whence (x,y) belongs to open (s→W). Points of W lie in every (s→W). Hence W∪∨_{s∈Σ}(s→W)=X², proving the stronger one-strip-per-point cover, and a fortiori P(w)=1. This argument is spatial and does not generalize automatically to pointless locales.
 
 **Status:** condition (9) remains unresolved for arbitrary locales. Compact I already gives stronger finite strip refinements; noncompact spatial Urysohn gives the one-stage condition without compactness. A counterexample must fall outside both sufficient regimes, e.g. noncompact and lacking Urysohn separation (or pointless).
+
+## Hausdorff non-Urysohn test: derived-set mechanism (subsequent segment)
+
+Let X Hausdorff, I=Δ, w an open diagonal neighborhood W in X², F=X²\W. For any dual-far strip s, the open implication is s→W=X²\cl(s∩F). Thus X²\P(W)=∩_{s∈Σ^∧}cl(s∩F).
+
+For every off-diagonal point p=(x,y), the singleton complement strip s_p=X²\{p} is dual far (T1). If p is isolated in closed F, then p∈s_p→W, so W∪Iso(F)⊆P(W). In particular F={p} is never a counterexample to (9).
+
+**Theorem:** If X is Hausdorff and X² is scattered, then the FULL nucleus-generated strip relation Wstrip equals V=fit(Δ) (even if I is noncompact). For any diagonal open W, transfinite iterate P on W. By induction P^α(W) contains X²\F^(α), where F^(α) is the Cantor–Bendixson derivative of closed F, with isolated points removed at successors. Base is tautological; successors use each singleton dual-far strip, limits use joins. As X² is scattered, F^(α)=∅ eventually; hence j_Wstrip(W)=1. Neighborhood-filter criterion implies Wstrip=V. This does NOT prove one-stage P(W)=1, nor the unrestricted noncompact theorem.
+
+**Remaining open:** To refute (9), find a closed off-diagonal F with a point surviving ∩_{s∈Σ^∧}cl(s∩F); to refute full Wstrip=V, it must survive all transfinite P-iterations. Non-Urysohn pairs by themselves do not establish either failure.
