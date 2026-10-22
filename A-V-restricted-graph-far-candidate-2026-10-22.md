@@ -35,3 +35,13 @@ Then τ(W_bgr)=W_bgr, V⊆W_bgr⊆W. If I is compact, all equal V. The rational 
 **What has NOT been proved:** whether the enlarged family is complete in arbitrary locales, or even on the rational-bridge test space. Symmetry repair does not supply completeness. If graph closures of maps from open domains prove inadequate, possible next restriction class: local homeomorphisms/étale maps with multiple sheets; avoid allowing every closed sublocale as domain because that makes the formula tautological.
 
 **Duality question reserved:** Graph-far neighborhoods look more like a fitted generating family than a literal dual of U's far open rectangles. No claim of true duality yet.
+
+## Multivalued primitives: finite-branch redundancy, infinitary gap (22 Oct, continuation)
+
+**Proposition (finite graph-image unions are redundant).** Let γ_i:U_i→X×_loc X be permitted forward/reverse open-domain graph maps and S_i=cl(im γ_i)=C(q_i), i=1,...,n. The closed hull of the union of images is S=∨_iS_i=C(∧_i q_i). If S∩I=0 then each S_i∩I=0, hence each γ_i is graph far. Its complementary open primitive is O(∧_i q_i)=∧_iO(q_i), already in the bi-graph generated meet. Therefore permitting relations that are finite unions of admissible graph images gives no new generator.
+
+**Infinite branching is genuinely different.** For a family indexed by J, S=∨_{i∈J}C(q_i)=C(∧_{i∈J}q_i) (meet taken in frame), but O(∧_i q_i) need not equal ∧_i O(q_i) for infinite J; finite intersection of open sublocales behaves differently from an infinite one. If the entire closed hull S is off I, each branch is graph far, yet O(∧_i q_i) may be a stronger neighborhood than the individual graph primitives collectively. This is a possible source of new power and parallels why finite rectangle joins were insufficient. Do not assert a strict inequality in our specific test space without construction.
+
+**Controlled enlargement to test:** allow spans U←p−Y−φ→X with p a local homeomorphism (étale map) onto an open sublocale U⊆X, and use the closed image of (i∘p,φ):Y→X×X, including transpose. Graph far iff its closed image misses I. A finite open-sheet decomposition is redundant by the proposition; a genuinely infinite étale cover may introduce new neighborhoods. This remains non-tautological (not all closed relations are étale over a coordinate), symmetric after transposes, and works point-freely. Need check whether it strictly strengthens bi-graphs on the rational-bridge X or other controlled test frames.
+
+**Central question still open:** Does the original bi-graph family already generate V? Neither an equality proof nor a counterexample obtained here. Infinitary-étale candidate is a fallback test, not promoted theorem.
