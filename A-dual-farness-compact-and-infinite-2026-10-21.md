@@ -67,3 +67,11 @@ Because open nuclei compose as o_s o_t=o_(s∧t), the family indexed by finite m
 A counterexample needs such w with P^∞(w)≠1. A strong sufficient criterion is P(w)=1 for every w∈Φ; compactness of I gives an even stronger finite-strip-meet refinement s≤w, as previously proved. These criterion statements are exact in arbitrary frames and make no spatiality/coherence assumption. They do NOT settle W=V in general.
 
 **Key caution:** joining open nuclei inside Nuc(Q) is not the same as a pointwise join. The latter is a prenucleus whose transfinite closure is the actual join.
+
+## One-stage saturation (9): noncompact spatial Urysohn theorem
+
+Let Σ be dual-far strips, Φ={w:d_I∨w=1}, and P(w)=∨_{finite strip meets s}(s→w). **For a spatial Urysohn topological space X (distinct points have open neighborhoods with disjoint closures), P(w)=1 for every w∈Φ**, regardless of compactness or coherence.
+
+Proof: X Hausdorff, so I=Δ as a closed sublocale, and w corresponds to an open diagonal neighborhood W⊆X². At any (x,y) outside W, x≠y. Take open neighborhoods A∋x,B∋y with disjoint closures. Set k=X\\cl A, h=X\\cl B, s=(k×X)∪(X×h). The closed rectangle cl A×cl B misses the diagonal, so s is dual far. A×B is an open neighborhood of (x,y) disjoint from s, whence (x,y) belongs to open (s→W). Points of W lie in every (s→W). Hence W∪∨_{s∈Σ}(s→W)=X², proving the stronger one-strip-per-point cover, and a fortiori P(w)=1. This argument is spatial and does not generalize automatically to pointless locales.
+
+**Status:** condition (9) remains unresolved for arbitrary locales. Compact I already gives stronger finite strip refinements; noncompact spatial Urysohn gives the one-stage condition without compactness. A counterexample must fall outside both sufficient regimes, e.g. noncompact and lacking Urysohn separation (or pointless).
