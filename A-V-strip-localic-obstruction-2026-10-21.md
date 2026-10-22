@@ -21,3 +21,17 @@ The operator D_loc is monotone and deflationary on closed sublocales. Its transf
 **Spatial shadow and scope correction:** In an ordinary Hausdorff topological product, the fixed-point condition is equivalent to existence of a nonempty closed off-diagonal relation F such that each disjoint closed rectangle A×B is nowhere dense in F. This is only automatically a theorem about localic X×X when the locale product is represented faithfully by the ordinary spatial product. For general non-locally-compact Hausdorff spaces, the localic product can differ from the ordinary topological product: point-set calculations alone do NOT certify the unrestricted localic conclusion. The intrinsic criterion above has no such gap.
 
 Next test: find a nonzero closed sublocale satisfying the 'every dual-far strip dense' condition, or prove none can exist using the special diagonal-generated structure of d_I. Nonzero fixed sublocales can be pointless. Avoid claiming one-stage failure necessarily implies full failure.
+
+## Continuation: obstruction via coordinate projections
+
+**Proposition (ordinary Hausdorff topological product).** For nonempty closed F⊆X²\Δ, the following are equivalent:
+(1) For every pair of disjoint closed A,B⊆X, F∩(A×B) is nowhere dense in F.
+(2) Every nonempty relatively open G⊆F satisfies cl_X π₁(G) ∩ cl_X π₂(G) ≠ ∅.
+
+Proof: If closures of coordinate projections of G are disjoint, their product is a disjoint-sided closed rectangle containing G, with nonempty relative F-interior. Conversely if relatively open nonempty G is contained in F∩(A×B), the projection closures are contained in A,B and hence disjoint.
+
+This strengthens the earlier criterion: obstruction F must be *hereditarily projection-inseparable*, not just have a perfect kernel. In particular, every point of F is a non-Urysohn pair: otherwise a product neighborhood with disjoint closures would produce a relatively open G violating (2). Isolated F-points are impossible.
+
+**Irreducible route unproductive in spatial Hausdorff settings:** irreducible nonempty closed subsets of an ordinary Hausdorff product are singletons; for an off-diagonal singleton {p}, the dual-far strip X²\{p} has empty intersection. Thus no irreducible spatial closed F can obstruct full strip equality. Pointless irreducible sublocales of nonspatial localic products are not excluded.
+
+**Scope:** The equivalence above is a topological characterization of closed subsets of an *ordinary Hausdorff product*. To infer actual localic strip failure, one must establish that the locale product faithfully represents that topological product and that the implicated closed sublocale has the required point set. The exact all-locales closed-sublocale obstruction criterion remains the preceding theorem.
