@@ -34,3 +34,15 @@ Proof. Let O(w) contain S. Write w=∨_i(a_i⊠b_i). Compactness of S selects a 
 **Limit:** Without compactness of S, the finite extraction and CNF step do not directly apply. The previous nonnormal Hausdorff counterexample still shows that arbitrary-frame dual far need not have a single disjoint-supplement witness.
 
 **Status correction:** Earlier paragraph marking arbitrary compact strip formula UNRESOLVED is superseded by this theorem.
+
+## Noncompact arbitrary-locale push (21 Oct, subsequent segment)
+
+**Infinite Alexandrov point theorem.** For every poset P with upper-set topology, define ordinary I by common upper bound. Intersect all open strips (K×P)∪(P×H) containing I, for K,H upper sets. This intersection is exactly ↑I=D∘D, no compactness. Given (x,y) outside ↑I choose K=P\↓x and H=P\↓y; their strip contains I and excludes (x,y). Reverse inclusion follows because strips are upper sets. This is a point-set result; not claimed as a sublocale equality for arbitrary infinite Alexandrov frames.
+
+**T1 point-level warning.** For any T1 space and any relation S⊆X², the ordinary intersection of all open strips containing S has point set S: to exclude (x,y)∉S use strip ((X\{x})×X)∪(X×(X\{y})), whose complement is the closed singleton pair. Likewise ordinary intersection of all open neighborhoods of S is S. Hence pointwise testing cannot settle the localic strip equality in noncompact sober T1 spaces.
+
+**Infinite-distributivity obstruction.** Compact-sublocale proof uses a finite rectangle subcover, then distributive DNF→CNF:
+∨_{i=1}^n(A_i∧B_i)=∧_{σ∈{0,1}^n}(∨_{σ_i=0}A_i∨∨_{σ_i=1}B_i).
+For arbitrary infinite joins the analogous formula is NOT a frame identity (would require a form of complete distributivity absent in general frames). A compact exhaustion of I does not automatically produce globally admissible strips; each strip must contain all of I. Therefore no general sublocale theorem has been proved by this route.
+
+**Status:** Exact universal result V⊆W, with W=meet of dual-far strips, remains. Coherent / compact I equality as before. Arbitrary noncompact localic W=V unresolved. Need an explicitly nonspatial witness or a new point-free argument; do not infer from point equality.
