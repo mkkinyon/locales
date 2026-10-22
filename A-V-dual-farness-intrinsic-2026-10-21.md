@@ -19,3 +19,20 @@ Proof: I_pt is patch-closed in spectral X², hence patch-compact. By Claude's ve
 Compare U=C(∨_{a*∨b*=1}a⊠b). Ordinary farness implies a∧b=0; dual farness implies k∨h=1. U excludes far OPEN rectangles; V is the intersection of complements of dual-far CLOSED rectangles. The formula does not use fit(I) or D² on its right side and is a genuine intrinsic frame-coproduct presentation in the coherent setting. It provides an internal form for the pointwise Urysohn relation of the Hochster dual.
 
 **Do not generalize without proof:** cofar definition makes sense with arbitrary a,b∈L, but the strip-meet formula is presently proved only for coherent locales, using spectral patch compactness and coherent compact-open-filter spatiality. Investigate a choice-free proof and whether the formula persists for stably compact/other frames. Compare this cofar predicate with normal/conormal lattice separation axioms.
+
+## NEW: Elimination of coproduct from dual farness (compact theorem)
+
+**Theorem (compact frame L).** For any k,h∈L,
+
+    d_I∨(k⊠1)∨(1⊠h)=1
+iff ∃a,b∈L: a∧b=0, k∨a=1, h∨b=1.
+
+If L is coherent and k,h compact, a,b can be chosen compact by approximation and compactness of 1.
+
+Reverse direction is universal: (k∨a)⊠(h∨b)=1 and its expansion is bounded by the two strips plus a⊠b≤d_I.
+
+Forward direction: compactness of X² selects finitely many generators a_i⊠b_i of d_I (a_i∧b_i=0), so 1=(k⊠1)∨(1⊠h)∨∨_i(a_i⊠b_i). Restrict to closed rectangle C(k)×C(h), whose frame is ↑k⊕↑h; finite rectangle lemma yields k∨u=1 for u=∨_{S:h∨∨_{i∈S}b_i=1} ∧_{i∈S}a_i. Put v=∧_S∨_{i∈S}b_i. Finiteness gives h∨v=1, and u∧v=0 by a_i∧b_i=0. The case of no eligible S is handled by empty join u=0 and empty meet v=1, forcing k=1. Thus disjoint supplements exist. (The finite rectangle lemma should be included in a publication proof.)
+
+**Consequence (compact L):** L is normal iff for every k∨h=1 the pair k,h is dual far. For coherent frames, compact lattice K is normal iff every covering compact pair is dual far. This clarifies the connection between V dual separation and pm/normality.
+
+**Scope:** The coproduct-free *predicate* extends to all compact frames; equality of V with the meet of dual-far strips has been proved only in coherent frames. No unrestricted fit(I) formula is asserted.
