@@ -45,3 +45,13 @@ Then τ(W_bgr)=W_bgr, V⊆W_bgr⊆W. If I is compact, all equal V. The rational 
 **Controlled enlargement to test:** allow spans U←p−Y−φ→X with p a local homeomorphism (étale map) onto an open sublocale U⊆X, and use the closed image of (i∘p,φ):Y→X×X, including transpose. Graph far iff its closed image misses I. A finite open-sheet decomposition is redundant by the proposition; a genuinely infinite étale cover may introduce new neighborhoods. This remains non-tautological (not all closed relations are étale over a coordinate), symmetric after transposes, and works point-freely. Need check whether it strictly strengthens bi-graphs on the rational-bridge X or other controlled test frames.
 
 **Central question still open:** Does the original bi-graph family already generate V? Neither an equality proof nor a counterexample obtained here. Infinitary-étale candidate is a fallback test, not promoted theorem.
+
+## Étale-span reduction theorem (22 Oct 2026)
+
+**Theorem.** Any étale span X←p−Y−φ→X, with p a local homeomorphism, can be covered by local sections V_i≅U_i⊆_open X, giving partial graph maps γ_i=(inclusion,φ_i). If q_i is the largest open killed by γ_i*, then the largest open killed by γ*=(p,φ)* equals q=∧_i q_i (meet IN frame T). Proof: γ*(t)=0 iff γ_i*(t)=0 for all i because V_i cover Y; equivalently t≤q_i for all i, iff t≤∧_i q_i. Conversely any set-indexed family of partial maps gives an étale span p:⊔U_i→X, with the same q=∧_i q_i. Transpose family also included. Thus the étale-generator proposal is **exactly** a scheme adding O(∧_i q_i) for arbitrary families of partial graphs for which d_I∨∧_i q_i=1.
+
+Every individual branch is then graph far (q≤q_i), but collectively graph-far is a stronger condition and does not automatically follow from individual farness.
+
+**Gluing redundancy:** If partial maps φ_i are restrictions of a single map φ:U→X with open domains U_i covering U, then ∧_i q_{φ_i}=q_φ; the étale generator is already in the original bi-graph family even for infinitely many branches. In particular, any étale decomposition of the rational-bridge homeomorphism φ:L_0→R_0 gives exactly the previously available q_φ=q. Thus merely replacing the rational graph by an infinite cover of its domain cannot strengthen the candidate.
+
+**Genuine test target:** incompatible families of partial graphs, particularly infinitely many conflicting branches with jointly far closed hull. Finite families redundant; compatible infinite families redundant. We have NOT shown that any incompatible infinite family strictly enlarges the bi-graph nucleus for the rational-bridge space. We have NOT settled completeness of the original bi-graph formula.
