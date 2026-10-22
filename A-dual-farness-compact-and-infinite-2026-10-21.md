@@ -46,3 +46,24 @@ Proof. Let O(w) contain S. Write w=∨_i(a_i⊠b_i). Compactness of S selects a 
 For arbitrary infinite joins the analogous formula is NOT a frame identity (would require a form of complete distributivity absent in general frames). A compact exhaustion of I does not automatically produce globally admissible strips; each strip must contain all of I. Therefore no general sublocale theorem has been proved by this route.
 
 **Status:** Exact universal result V⊆W, with W=meet of dual-far strips, remains. Coherent / compact I equality as before. Arbitrary noncompact localic W=V unresolved. Need an explicitly nonspatial witness or a new point-free argument; do not infer from point equality.
+
+## Nuclei-lattice reduction: exact arbitrary-frame test
+
+Let Q=L⊕L and d=d_I. Put Φ={w∈Q:d∨w=1}, and Σ={s=(k⊠1)∨(1⊠h):d∨s=1}. For open nucleus o_w(q)=w→q, define
+
+    j_V=∨^(Nuc Q)_{w∈Φ}o_w,
+    j_W=∨^(Nuc Q)_{s∈Σ}o_s.
+
+Universally j_W≤j_V, and W=V iff for every w∈Φ, j_W(w)=1. This follows from o_w≤j iff j(w)=1, and the fitted hull of I has exactly the neighborhood filter Φ.
+
+For explicit transfinite saturation, let Σ^∧ contain finite meets of members of Σ (including 1) and define
+
+    P(q)=∨_{s∈Σ^∧}(s→q).
+
+Because open nuclei compose as o_s o_t=o_(s∧t), the family indexed by finite meets is directed in nucleus order. P is therefore a monotone inflationary finite-meet-preserving **prenucleus**, generally not idempotent. The transfinite pointwise iteration P^0=id, P^(α+1)=P∘P^α, P^λ(q)=∨_{α<λ}P^α(q), stabilizes at the nucleus j_W. Consequently:
+
+    W=V iff every w with d∨w=1 satisfies P^∞(w)=1.
+
+A counterexample needs such w with P^∞(w)≠1. A strong sufficient criterion is P(w)=1 for every w∈Φ; compactness of I gives an even stronger finite-strip-meet refinement s≤w, as previously proved. These criterion statements are exact in arbitrary frames and make no spatiality/coherence assumption. They do NOT settle W=V in general.
+
+**Key caution:** joining open nuclei inside Nuc(Q) is not the same as a pointwise join. The latter is a prenucleus whose transfinite closure is the actual join.
