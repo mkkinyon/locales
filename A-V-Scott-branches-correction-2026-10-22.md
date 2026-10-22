@@ -1,0 +1,7 @@
+# Scott-domain branching test: correction and disjoint-sum theorem
+
+Correction: P consisting of two dense chains (0,1) with a common top is a dcpo but is NOT continuous: each branch forms a directed set of supremum top, hence no branch element is way-below top, and top is not way-below itself. The Scott-open calculation by pair of tails may still hold, but P cannot be used as a continuous-domain example.
+
+Theorem: If P is a topological disjoint sum (poset coproduct) of continuous downward-directed dcpos P_i, then every rectangular bar in O_sigma(P) has a depth-two horizontal-then-vertical separation tree. Proof: diagonal pullback shows overlaps of B-rectangles cover P. For x in component i select z way-below x in P_i and Scott open U_z={t in P_i:z way-below t}, viewed as an open of P. If y lies in P_i, choose r in P_i below z,y; some B rectangle a,b contains r in a meet b. Upperness makes U_z subset a and y in b. If y lies in P_j with j different from i, the disjointness rectangle (U_z,P_j) supplies a leaf with y in second factor. Thus for fixed U_z, vertical leaf labels cover 1; cover P by these U_z for horizontal root. In particular, two independent noncompact Scott chains cannot witness depth>2, even though their frame has nontrivial disjointness.
+
+What remains: A continuous dcpo with branches joined by a compact element, or with more subtle interaction, is a possible next test. No explicit bar with minimum depth 3 has been produced. A depth-3 witness would not refute a universal bound >2.
