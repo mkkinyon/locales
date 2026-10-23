@@ -50,9 +50,17 @@ The implication in the finite envelope is NOT by itself sufficient to prove the 
 Let L be normal and w∈Q satisfy w∨d_I=1. Put
    R_w=C(w∨d_U), a closed sublocale of Q contained in U=C(d_U).
 
-**THEOREM.** R_w has NO points, independently of spatiality of L or Q.
+**PRECISE POINT/CLOSURE LEMMA (works even if L is not spatial).** Given ordinary locale points x,y:L→2, let p_x=∨{a∈L:x(a)=0} and p_y likewise. These are the largest opens missing x,y, and C(p_x),C(p_y) are the **localic** point closures. For ANY open w∈Q with δ*(w)=1 and (x,y)(w)=0, represent w=∨_i a_i⊠b_i. Each a_i∧b_i≤p_x∨p_y: since x(a_i)∧y(b_i)=0, either a_i≤p_x or b_i≤p_y. But ∨_i(a_i∧b_i)=δ*w=1, so p_x∨p_y=1. Conversely if p_x∨p_y=1, the open (p_x⊠1)∨(1⊠p_y) is a diagonal neighborhood excluding (x,y). Therefore:
+  (x,y)∈pt(D) iff p_x∨p_y<1,
+equivalently the LOCALIC closed point closures meet nontrivially. Do not replace this by intersection of their ordinary point sets on nonspatial L: their intersection could be nonzero and pointless.
 
-Proof. If h:1→R_w were a point, its two coordinate projections give points x,y of locale X. Since h lies in U, (x,y) is Urysohn-inseparable. But h(w)=0 while δ^*(w)=1 (because δ^*(d_I)=0 and w∨d_I=1). If cl{x}∩cl{y} contained z, then (z,z)≤(x,y) in the specialization order of points of X²; the diagonal point (z,z) belongs to w, so openness of w would force (x,y)∈w: contradiction. Thus cl{x} and cl{y} are disjoint. Frame normality separates these two point-closed sublocales by neighborhoods with disjoint closures, contradicting their Urysohn-inseparability. Therefore no such point h exists.
+**THEOREM.** For normal L, R_w has NO points, independently of spatiality of L or Q.
+
+Proof. If h:1→R_w is a point, it gives points x,y∈pt(X). Since h(w)=0 and δ*w=1, the precise lemma above gives p_x∨p_y=1 in L. Normality of L provides c,d∈L with
+  p_x∨c=1=p_y∨d,    c∧d=0.
+Then x(c)=1=y(d), because x(p_x)=0 and y(p_y)=0. Moreover normality allows shrinking to c',d' neighborhoods of x,y whose **closures** are disjoint: apply the normal shrinking lemma to the disjoint closed sublocales C(p_x),C(p_y), or apply pointfree Urysohn's lemma for p_x∨p_y=1 to obtain a real map separating x and y. Hence (x,y)∉U=C(d_U), contradiction. This proves that R_w has no ordinary points.
+
+The same argument gives pt(D)=pt(U) for every normal frame: U⊆O(w) on all ordinary points for each open diagonal neighborhood w, and D⊆U universally.
 
 In fact the same proof works if w is ANY open diagonal neighborhood, δ^*(w)=1, even without w∨d_I=1. In particular **pt(D)=pt(U)** for every normal locale, and the possible strictness D⊊U is invisible to points.
 
