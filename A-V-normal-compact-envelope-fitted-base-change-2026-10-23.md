@@ -88,6 +88,12 @@ in O(N×N) is a bar since I(N)=Δ_N, and indeed V(N)=U(N)=Δ_N. But NO open v in
 
 This does not threaten fitting descent in this example (it holds). It disproves the naive proof strategy 'lift each bar of X to a bar of compact Y'.
 
+## 4a. NO-GO: density and normality do not by themselves make fitting commute with pullback
+
+Let Y be the finite Alexandrov **bottom fork** 0<a,0<b; its frame is compact and normal. Let X={a,b} be the open dense discrete two-point sublocale. Both Y and X are normal. Put S={0}, the closed singleton sublocale of Y. Every open containing 0 is all of Y, so fit_Y(S)=Y; however i^{-1}(S)=empty, so fit_X(i^{-1}S)=empty, while i^{-1}fit_Y(S)=X. Thus fitting under a dense inclusion can fail even between finite normal locales.
+
+The canonical ideal-completion inclusion of §§1–3 has the extra nontrivial **exact pullback property for BOTH I and U**, which this bottom-fork dense inclusion lacks: here U(Y)=Y² while U(X)=Δ_X. This example explains why proving an arbitrary dense-base-change theorem would be false, and why the special ideal-completion nucleus must be used.
+
 ## 5. Optional extension: rooted-factor transport is not limited to finite P
 
 The rooted-factor theorem in A-V-normal-pointfree-rooted-factor-transport-2026-10-23.md extends verbatim to **ANY nonempty poset P with a least element 0**, not only finite P. For arbitrary locale Y with frame B,
