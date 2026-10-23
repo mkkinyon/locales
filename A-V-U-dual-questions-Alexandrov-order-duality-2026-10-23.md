@@ -1,3 +1,5 @@
+> **UPDATE (23 October 2026):** The question “almost normal ⇒ V closed?” posed below has been answered **negatively** by a countable noncompact almost-normal thickened-zigzag space. See [A-V-almost-normal-nonclosed-thickened-zigzag-counterexample-2026-10-23.md](A-V-almost-normal-nonclosed-thickened-zigzag-counterexample-2026-10-23.md). The original discussion is retained as research history.
+
 # Project A: a genuine I-D / U-V order duality and the almost-normal closedness question
 
 23 October 2026. **Working research note, with elementary verified finite-order calculations; audit before a publication claim.**
