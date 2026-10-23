@@ -69,3 +69,13 @@ CONCRETE STRICTLY STRONGER EXAMPLE. Let X_0=R equipped with the classical K-topo
 CARDINAL GENERALIZATION. Fix infinite κ. If X is Hausdorff and every x has character ≤κ, and if A⊆X is initially κ-compact (every open cover of A of cardinal≤κ has finite subcover), then point x∉A can be separated from A by disjoint opens. Proof: choose a local base (U_i)_{i∈I}, |I|≤κ, and suppose F_i=A∩cl U_i nonempty for all i. Every finite intersection of F_i contains F_j for a base element U_j contained in the finite intersection of U_i, so FIP. Initial κ-compactness gives ∩_iF_i nonempty. Hausdorffness yields contradiction as above. Consequently initially κ-compact F_H(B) implies H→V→H rank≤3 if χ(X)≤κ, with dual statement; global initially κ-compact exceptional nonregular set also suffices. Case κ=ℵ_0 is the main concrete theorem.
 
 NOTE: One must assume that the exceptional countably compact set K is closed (or at least that each residual F_H,F_V is countably compact). A closed subset of a countably compact set is countably compact; an arbitrary subset need not be. No universal arbitrary-locale rank3 proof is claimed.
+
+## Stronger hypothesis reduction: diagonal cover is sufficient
+
+Inspecting the proofs shows that the full localic BAR equation is never used after its diagonal pullback. We only require
+   1=∨_{(u,v)∈B} (u∧v)
+for an arbitrary lower rectangle family B⊆O(X)×O(X). Consequently ALL compact-residual, compact-exceptional, and countably compact-exceptional depth-three theorems above hold whenever this diagonal cover holds, PROVIDED the applicable residual t_H/t_V is formed from S=D∪B and is compact/countably compact as required. The resulting H-V-H tree then PROVES d_I∨∨_B(u⊠v)=1 in the localic square, so B is a bar automatically.
+
+In particular, on a Hausdorff space whose nonregular points are contained in a compact set, or on a first-countable Hausdorff space whose nonregular points are contained in a closed countably compact set, every rectangular family whose coordinatewise diagonal intersections cover X already has an H-V-H separation tree of depth≤3. The diagonal condition is sufficient for localic barhood in those spaces; no advance assumption that the potentially nonspatial locale square has a given bar cover is needed.
+
+Caution: This diagonal-cover criterion may fail for arbitrary Hausdorff spatial locales. It is a stronger property of the two positive classes; do not infer global localic product spatiality, equality of arbitrary sublocale relations, or a full arbitrary-frame theorem from it.
