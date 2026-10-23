@@ -45,3 +45,18 @@ The preceding locally compact-boundary paragraph asserts P_fin(w)|Z²=1 by restr
 The VALID statement is j_fin(w)=1 for this boundary class by the previously established fixed-point/nucleus-density argument (see A-V-question-A-locally-compact-boundary-equality-2026-10-23.md). Put r=j_fin(w), then r is fixed by each o_s, so the closed residual R=C(r) has R∩O(s) dense in R. After clopen patch localization, R lies in spatial Z×locZ. At each offdiagonal point of R, a rank-two s vanishes on a nonzero RELATIVELY open part of R (interiors of disjoint compact A,B), contradicting DENSITY. Diagonal points excluded by original w. Therefore R=0 and j_fin(w)=1. This proof does NOT show P_fin(w)=1.
 
 The ONE-STEP theorem remains rigorously proved for complemented clopen patches and their covering families: its ambient inequalities c×c≤v_c→w and cross c×c'≤p→w are sound. One-point fan and arbitrary clopen cover follow at one step. For general closed locally compact boundaries, one-step saturation remains unproved (and may fail). This correction supersedes only the inappropriate one-step promotion, not fitted-hull equality.
+
+## Further point-free extension: rather-below locality without complemented patches
+
+Let c,a∈L satisfy c≺a, i.e. c*∨a=1 (and automatically c≤a). Suppose a bar w has a FINITE separation-tree certificate for the rectangle (a,a) using D∪B_w leaves (equivalently the restricted square bar on ↓a has finite rank, with D leaves interpreted in L). Then
+    c⊠c ≤ P_fin(w).
+
+Proof. Define t=a⊠a and
+   v=(w∧t)∨(c*⊠1)∨(1⊠c*).
+Since c*∨a=1, frame distributivity gives
+   1=(a∨c*)⊠(a∨c*) ≤ t∨(c*⊠1)∨(1⊠c*),
+so w≤v. The bar v has a finite tree: horizontal split 1=a∨c*; (c*,1) is B_v, then vertical split 1=a∨c* below (a,1); (a,c*) is B_v and (a,a) has the inherited finite D/B_w certificate (every B_w leaf inside a² lies below w∧t≤v). Thus v is a finite-rank bar. Because c∧c*=0 and c≤a,
+   v∧(c⊠c)=w∧(c⊠c)≤w.
+By Heyting adjunction c⊠c≤v→w≤P_fin(w).
+
+This localized finite-rank approximation holds for arbitrary frames, even when c is NOT complemented and neither a nor c is compact. It can be applied asymmetrically to c_1≺a_1 and c_2≺a_2 with a finite original D/B_w certificate of (a_1,a_2), using v=(w∧(a_1⊠a_2))∨(c_1*⊠1)∨(1⊠c_2*) and H/V root splits. It only yields an interior SQUARE bound c⊠c, not the two strips c⊠1∨1⊠c of the complemented-patch theorem: the missing cross rectangles are exactly where clopen partition strips were previously used. A proof of arbitrary Question A cannot silently promote this local square inequality to global strip coverage.
