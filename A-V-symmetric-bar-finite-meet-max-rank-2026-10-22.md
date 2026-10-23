@@ -29,3 +29,21 @@ SIGNIFICANCE. The previous general inequality max(ρ(w),ρ(v))≤ρ(w∧v)≤ρ(
 NO CLAIM about INFINITE meets: a frame does not distribute d over infinite meets; ∧_i w_i may cease being a bar, even when every w_i is. Moreover parallel tree choices only distribute FINITE meets across arbitrary coordinate joins.
 
 PROJECT LINKS: A-V-separation-tree-rank-meet-subadditivity-2026-10-22.md (older general bound); A-V-symmetric-rational-bar-exact-rank-three-2026-10-22.md (exact rank3); A-V-Cantor-multigraph-exact-rank-three-2026-10-22.md.
+
+## NEW: finite meet of arbitrary finite-rank bars raises rank by at most ONE
+
+Let w_1,...,w_m be ANY finite family of bar opens of finite rank and n=max_iρ(w_i). Then
+  n ≤ ρ(∧_i w_i) ≤ n+1.
+Proof: Every height≤n tree may be converted to alternating orientation at each depth, beginning either H or V, by collapsing successive same-coordinate joins and padding shorter branches by unary joins. For an H-first tree, pad to height n+1 with the alternating H,V,H,... signature. For a V-first tree, prepend a unary H split at the root and then pad to height n+1; it too has the signature H,V,H,... . Thus all bars have common-orientation certificate of height n+1. Repeatedly apply the parallel-intersection lemma, producing height≤n+1 certificate for ∧_i w_i. The lower bound follows from B_(∧w_i)⊆B_wi. Crucially, the +1 bound is INDEPENDENT of number m. If all max-rank component certificates can be chosen in a common orientation, n suffices and rank=max exactly.
+
+## Exact symmetrization dichotomy and orientation rigidity
+
+For any bar w of finite rank n, put s=w∧τw (automatically symmetric bar). The transposition τ carries an H-first certificate for w to a V-first certificate of the same height for τw, and vice versa, so ρ(τw)=ρ(w)=n. Consequently n≤ρ(s)≤n+1.
+
+CLAIM: ρ(s)=n iff w admits BOTH an H-first and a V-first alternating certificate of height≤n. Thus ρ(s)=n+1 iff w is 'orientation-rigid' at its minimum finite height n (exactly one starting orientation available).
+
+Proof (⇒): s symmetric, so any height-n root proof for s can be transposed to get a height-n proof with opposite root orientation, ALSO for s (because τs=s). Since S_s⊆S_w, both oriented proofs work for w. Proof (⇐): if w admits height-n certificates in BOTH orientations, τw admits both as well. Choose aligned H-first proofs for w,τw, and the parallel-intersection lemma yields an H-first certificate for s of height n. As already n≤ρ(s), equality follows. This is a precise IFF, not merely an implication.
+
+RESEARCH REDUCTION: A nonsymmetric bar of rank exactly 3 with just ONE height-three root orientation would IMMEDIATELY produce a symmetric bar of exact rank FOUR by symmetrization. Conversely, the universal depth-three conjecture (*) implies that every finite-rank-3 bar necessarily has certificates of BOTH orientations: otherwise its symmetric meet would have rank4, contradict (*). This indicates a concrete finite-rank orientation asymmetry test as a route to an informative counterexample. We have NOT found such a rigid bar and have NOT proved (*) globally.
+
+CAVEAT: For rank n=0 root itself is B_w leaf and w=1, both orientations can be regarded as vacuous or unary-padded; dichotomy holds with ρ(s)=0. For n≥2 the orientation claim has its intended nontrivial content. Canonical bars of rank exactly1 do not exist: a one-step root H or V cover by S=D∪B_w forces w=1 (D cannot contain (a,1) or (1,b) for nonzero a,b), so rank would be0.
