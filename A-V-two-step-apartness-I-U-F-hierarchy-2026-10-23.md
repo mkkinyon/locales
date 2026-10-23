@@ -1,0 +1,37 @@
+# Two-step rather-below apartness and the I-U-F hierarchy
+23 October 2026
+
+Let L be a frame and Q=L⊕L. Write a≺b iff a*∨b=1; write a≺≺b for the standard "completely below" relation witnessed by a rational interpolation scale. Define:
+ d_I=join_{a∧b=0}a box b;
+ d_U=join_{a*∨b*=1}a box b;
+ d_F=join_{a≺≺b*}a box b;
+ d_2=join_{c≺a, f≺b, a∧b=0}c box f.
+This d_2 is the d_sep previously introduced in A-V-rather-below-separated-apartness-rank-two-2026-10-23.md.
+
+EXACT TWO-STEP GENERATOR LEMMA. A pair (c,f) appears among the generators of d_2 if and only if there exists a∈L with c≺a≺f*. Proof:
+  (⇒) c≺a and f≺b with a∧b=0. Then b≤a*, so a*∨f*≥b∨f*=1, hence a≺f*.
+  (⇐) If c≺a and a≺f*, then c≺a and f≺a*, with a∧a*=0. Use b=a*.
+Thus d_2 is precisely the open of pairs separated by a two-link rather-below chain from c to f*.
+
+HIERARCHY (no additional assumptions):
+  d_F ≤ d_2 ≤ d_U ≤ d_I.
+Indeed, a rational interpolation chain for c≺≺f* provides an intermediate a, proving d_F≤d_2. Transitivity of rather-below gives c≺f* whenever c≺a≺f*, equivalently c*∨f*=1, hence d_2≤d_U. Finally c*∨f*=1 implies c∧f=0 (since c∧f≤c∧c*=0 after meeting with c*∨f*), giving d_U≤d_I.
+In terms of CLOSED sublocales, since C(d) reverses order:
+  I=C(d_I) ≤ U=C(d_U) ≤ C(d_2) ≤ F=C(d_F).
+C(d_2) is a useful temporary intermediate relation but no new permanent symbol or novelty claim is proposed.
+
+MAIN CONSEQUENCE FOR V. If I=F (equivalently d_I=d_F), the sandwich yields d_2=d_I. By the earlier theorem d_2=d_I⇒I=V=V_2, with an explicit intersection of rank-two dual-far strip neighborhoods. Therefore
+  I=F ⇒ I=V=V_2.
+This is a strong sufficient frame-theoretic condition, not a converse. It does not say that the separate fitted diagonal D=fit(Delta) equals Delta.
+
+NORMALITY LINKS (existing terminology).
+- If L is normal, then d_2=d_U. Indeed whenever c*∨f*=1, apply the frame normality law to cover 1=c*∨f*, finding u,v with c*∨u=1, f*∨v=1, u∧v=0. Then c≺u, f≺v, so c box f is itself a generator of d_2.
+- If rather-below ≺ interpolates, then d_2=d_F: from c≺a≺f* we have c≺f*, and repeated interpolation along a dyadic rational subdivision produces a full rational-scale witness c≺≺f*. This uses ordinary countable dependent choice. In the established literature, interpolation of ≺ is equivalent to an almost-normal frame, see A. B. Avilez, 'Generalizing beta- and lambda-maps', Topology and its Applications (2025), Proposition 3.4 (arXiv:2407.16941). In particular normal frames have d_F=d_2=d_U.
+- Combining the previous statements, on a normal frame, I=U implies I=F and therefore I=V=V_2. More generally on an almost-normal frame, I=U implies I=V=V_2 only if d_2=d_U, which is not guaranteed by interpolation alone.
+These are conditional implications; neither d_2=d_U nor d_2=d_F holds for every frame.
+
+INTERPRETATION: d_2 is the two-step rather-below apartness open between the ordinary disjointness d_I and the functionally far apartness d_F. It precisely identifies the portion of d_I annihilated by our explicit rank-two strip neighborhoods. On all iterated K-fans, d_2=d_I; thus they satisfy I=U=V, even though F may be larger without additional interpolation assumptions. The original rational-bridge graph has pullback g*d_2=0 but g*d_I=1, so the distinction has substantive examples.
+
+CAUTION ABOUT d_F: the standard 'completely below' symbol ≺≺ is the RATIONALLY INTERPOLATED strong relation, not merely the two-link relation used to define d_2. The equality d_2=d_F requires interpolation (almost-normality), and is not claimed universally.
+
+STATUS FOR QUESTION A: these results expand the cases where V_fin=V and even V=I. They do not resolve arbitrary-frame Question A, and do not produce a proper bar fixed by every finite-rank nucleus.
