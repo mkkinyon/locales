@@ -33,3 +33,23 @@ has exact rank3 by A-V-Hausdorff-nonregular-orientation-rigid-rank-two-2026-10-2
 **DO NOT MISSTATE:** It is not necessary that the subspace K be locally compact as a complement of a fixed open e in a bridge construction; K is an arbitrary compact subset containing all failure points of ambient regularity. Conversely, the theorem does NOT apply just because the nonregular locus is σ-compact or closed discrete: separating x from the possibly noncompact K\v_x is the crucial global step.
 
 **Scope:** This is a theorem for Hausdorff spatial topological X. Extension to compact sublocales in pointless frames may require a replacement of point/compact-set Hausdorff separation and is not asserted. Universal arbitrary-frame rank3 remains open, and no rank4 bar is constructed.
+
+## STRONGER BAR-SPECIFIC THEOREM: compact one-step residual implies three stages
+
+Let X be ANY Hausdorff space, B ANY rectangular bar, S=D∪B, and define the one-step horizontal-fiber cover
+ t_H(B)=∨{b∈O(X):(1,b)∈H(S)}=∨{b:h_S(b)=1}.
+Let F_H(B)=X\t_H(B), a closed subset of X.
+
+THEOREM. If F_H(B) is compact, then (1,1)∈H(V(H(S))) (an H→V→H root tree of depth≤3). Dually, if
+ t_V(B)=∨{a:(a,1)∈V(S)}, F_V(B)=X\t_V(B)
+ is compact, then (1,1)∈V(H(V(S))) (V→H→V depth≤3).
+
+Proof. For each x∈X choose B leaf (u_x,v_x) containing ordinary (x,x), by diagonal pullback of bar equation. Since F_H compact, K_x=F_H\v_x compact and x∉K_x. Hausdorff point/compact-set separation provides disjoint opens U_x∋x, W_x⊇K_x. Let a_x=u_x∩U_x. Then (a_x,v_x) is a B leaf and (a_x,W_x) is a D leaf, so a_x≤h(v_x),h(W_x). For every y∈t_H, by definition of t_H choose b_y∋y with h(b_y)=1, thus a_x≤h(b_y). These second-coordinate opens cover X, so Φ_S(a_x)=1 and (a_x,1)∈V(H(S)). Finally ∨_x a_x=1, establishing H(V(H(S))) root. Dual by transpose.
+
+Thus the global compact-exception theorem follows since every regular second point y lies in t_H(B) (regular shrink proof). The residual F_H(B) is closed and lies entirely in the nonregular point set, so if the latter is contained in a compact subset K, the residual itself is compact.
+
+IMPORTANT NECESSARY CONDITION for orientation-rigid rank3 on a Hausdorff space: if B admits H→V→H depth3 but NO V→H→V depth3, then F_V(B) must be NONCOMPACT; similarly, if V works and H fails, F_H(B) must be noncompact. For a rank≥4 bar, both F_H(B),F_V(B) must be noncompact. These are bar-specific closed residuals, not just global nonregularity. Noncompactness is only necessary, NOT sufficient, for orientation failure.
+
+Concrete illustration: for the elementary H-rigid rank2 bar w=(a⊠1)∨(e⊠e), with e=X\{p} and regularity failing at p, its horizontal fiber t_H=e, so F_H={p} compact; this explains the existence of a V→H→V certificate at depth3 despite failure of V→H at depth2. The dual one-step residual F_V is empty because H→V already works at depth2.
+
+This theorem is independent of localic product spatiality and works solely with frame-sound rectangular bar leaves and ordinary Hausdorff separation of a point from a compact set.
