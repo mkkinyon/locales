@@ -73,6 +73,13 @@ for every coherent/spectral locale X. (Forward directions via the diagonal-compo
 
 As a separate consequence, the continuous real-valued maps X→R and X^vee→R are EXACTLY the same functions: f is continuous iff it is patch-continuous and constant on comparable points (preimages of open intervals are patch open and order invariant, hence open in both up- and downset spectral topologies). Thus F has a Hochster-self-dual spectral sublocale, (F_X)^vee≅F_(X^vee).
 
+There is an additional equivalent *transitivity* condition for each relation. Each of U and V is reflexive, symmetric, contains all comparable pairs, lies within E, and is a spectral (patch-closed) sublocale. If U or V is pointwise transitive, it contains every finite comparability path, hence equals E; patch closedness makes E a closed equivalence relation on the patch space and implies F=E as above. Internal transitivity implies pointwise transitivity. Conversely F is the kernel pair of the real-function evaluation map and internally transitive. Thus
+
+  V closed ⇔ V=F ⇔ V internally transitive,
+  U fitted ⇔ U=F ⇔ U internally transitive
+
+for spectral/coherent X. These two triple equivalences are Hochster dual. A point-set-only transitivity criterion suffices in this spectral setting because U,V,F are already spectral sublocales, so equality of point sets detects equality of these particular sublocales. This argument is special to coherent locales.
+
 The equivalence V closed ⇔ V=F is specific to coherent/spectral locales; e.g. Claude Fable's NONCOMPACT almost-normal two-chain space has V=I properly below F while V remains closed.
 
 ## 5. Connection to almost-normality
