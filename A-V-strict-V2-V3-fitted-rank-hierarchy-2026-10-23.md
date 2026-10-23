@@ -22,3 +22,9 @@ Let g:Y→X×locX be any locale map, q its maximal g-null open, and suppose q is
 ## Ordinary point invisibility
 
 On any Hausdorff spatial X, rank-two bars already exclude every ordinary offdiagonal pair (x,y): choose disjoint opens U∋x,V∋y and set p=((X\{x})⊠1)∨(1⊠(X\{y})). It has an H→V tree: root first opens X\{x} and U; first child is a B_p leaf; second child splits the second coordinate by X\{y} and V, using B_p and D. But p excludes (x,y). Thus V_2 and V_3 both have ordinary point set equal to the diagonal, even in our strict example. The strict inclusion arises entirely at the localic sublocale/nucleus level.
+
+## The initial hierarchy on the rational bridge space
+
+No nontrivial bar has separation rank 1: a one-step H-root covers 1 by pairs (u_i,1) in D∪B_w, and any nonzero such pair cannot lie in D. Thus 1=join_i(u_i box1)≤w, giving w=1 (rank0). Likewise for V. So Phi_0=Phi_1={1} and V_0=V_1=the entire localic square.
+
+There are nontrivial rank2 bars on every Hausdorff X with at least two points: for x≠y choose disjoint neighborhoods U_x,U_y; the strip p=((X\{x}) box1)∨(1box(X\{y})) has an H-V tree using the leaf (X\{x},1), the B leaf (U_x,X\{y}) and D leaf (U_x,U_y), so p is a rank2 bar excluding ordinary (x,y). Thus V_2 is proper in the entire localic square, and its ordinary points are exactly the diagonal. Yet on the rational graph bridge X, V_2 strictly contains V_3 by the q witness above, while V_3 also has only diagonal ordinary points. The first two strictness steps therefore measure different things: top→V2 removes ordinary offdiagonal points, whereas V2→V3 removes a purely localic/nonspatial closed graph obstruction.
