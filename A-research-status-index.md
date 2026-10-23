@@ -1,3 +1,5 @@
+> **NEW DECISIVE RESULT (22 Oct 2026):** The separation-tree conjecture (*) asserting universal depth ≤3 for rectangular bars is **FALSE**. A countable, first-countable, Hausdorff space supports an explicit symmetric two-rectangle bar of **exact rank four**, constructed as a two-level K-topology fan. See [full proof](A-V-exact-rank-four-two-level-K-fan-2026-10-22.md). Earlier entries saying (*) is OPEN are superseded. The locally compact nonregularity-locus depth-four upper bound is sharp.
+
 > **Current status correction (21 Oct 2026):** Read [external audit reconciliation](A-external-audit-reconciliation-2026-10-21.md) first. The compact theorem D=U iff frame normal and coherent normal/pm criterion supersede earlier D=U agenda. Contrary to the previous ledger, the continuous Scott/properness converse has a working proof dated 20 Oct; only its unrestricted arbitrary-frame extension remains open. D=U ⇒ U=F is false generally but true for compact locales.
 
 # Project A — research-status index
