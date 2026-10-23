@@ -53,3 +53,9 @@ Enumerate a rational interval basis (J_n), infinitely many J_n⊂every nonempty 
 Both α,β are continuous injections into irrationals, their images are disjoint, and α(n,t)≠β(n,t). X as above is Hausdorff; its boundary Z is a NONLOCALLY COMPACT topological sum of rational intervals, so the previous locally compact boundary lemma does not apply. Yet the direct tree proves s∨d=1 and rank≤3. Because for each J_n, the point (n,0) has α_n,β_n∈J_n, the diagonal-density hypothesis holds and rank=3 EXACTLY.
 
 Therefore genuine NONLOCALLY COMPACT boundary structures and arbitrarily many bridge clusters do not raise this full-interval graph-null separation bar above rank3. Neither universal (*) for all frames nor existence of rank4 is established. Any higher-rank bridge construction must alter the attachment geometry, not merely the topology or compactness of Z.
+
+## Sharp barhood criterion (added after first proof)
+
+The pointwise condition α(z)≠β(z) is also NECESSARY for forward graph-null barhood, and hence for symmetric barhood. If α(z)=β(z)=t (an irrational) at some bridge point z, then every pair of open neighborhoods u,v of z has first-left rational interval around t in u and second-right rational interval around t in v. Their rational index traces intersect, so u⊠v cannot lie below q (and a fortiori cannot lie below s). Because all opens in O(X)⊕O(X) are joins of rectangles, the ordinary product point (z,z) is not contained in q. Also it is not in d_I: every disjointness rectangle a⊠b avoids all ordinary diagonal pairs. Thus q∨d_I≠1, and s∨d_I≠1. The sufficiency of pairwise α(z)≠β(z) for s∨d_I=1 is proved by the H-V-H tree above. Therefore for full-interval rational-bridge attachments:
+  q∨d_I=1 iff s∨d_I=1 iff α(z)≠β(z) for EVERY z∈Z.
+This equivalence is independent of compactness, local compactness, soberness, or spatiality of the localic square (although X is an ordinary topological space in the setup).
