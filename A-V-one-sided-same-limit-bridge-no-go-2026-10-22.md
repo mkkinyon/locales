@@ -1,0 +1,12 @@
+# One-sided same-limit bridge accumulation obstruction
+22 October 2026.
+
+Setup: X contains disjoint open rational copies L=ℓ[Q], R=r[Q] and boundary Z. For every bridge x∈Z choose an attaching number t(x)∈R\Q. Assume the left trace of every open neighborhood of x accumulates at t(x) from BELOW (i.e., has members in (t(x)-ε,t(x)) for every ε>0), and the right trace accumulates at t(x) from ABOVE (has members in (t(x),t(x)+ε) for every ε>0). Assume also that every bridge x has a basic open neighborhood contained in left rational half-line ℓ(-∞,t(x)) and right rational half-line r(t(x),∞); this is the natural 'opposite one-sided tails at the same limit' model and makes U_L∩U_R empty for that neighborhood.
+
+THEOREM. For each z∈Z there is an open neighborhood U of z such that U∩Z⊆t^{-1}({t(z)}). Therefore the attaching-limit function t:Z→R is locally constant IN THE STRONG FIBER-OPEN SENSE (each t-fiber open). If t is injective, Z is discrete (whether or not globally closed in X).
+
+PROOF. Choose U∋z with U∩L⊆ℓ(-∞,t(z)) and U∩R⊆r(t(z),∞). Let x∈U∩Z. Since U is a neighborhood of x, left traces accumulate at t(x) from below. The containment U_L⊆(-∞,t(z)) forces t(x)≤t(z), for if t(x)>t(z) then a sufficiently short left tail of x lies above t(z). The right traces accumulate at t(x) from above, and containment U_R⊆(t(z),∞) similarly forces t(x)≥t(z). Thus t(x)=t(z). So U∩Z⊆t^{-1}(t(z)) as claimed. Apply to each z: all fibers open; injective t implies singleton boundary neighborhoods.
+
+RESEARCH IMPLICATION. A proposed second-level graph-null bridge construction with two opposite one-sided rational tails approaching the same irrational number at each bridge point cannot have a nonisolated boundary whose attaching limits vary injectively continuously or discontinuously. Any naive neighborhood containing nearby points with different attaching limits is NOT open in X, because openness at those points forces rational tails to cross the first neighborhood's fixed separation threshold. One may get nondiscrete boundary by allowing multiple points with IDENTICAL limit t, but that does not yield varying-limit accumulation. This is a genuine topological obstruction to a tempting rank-four design.
+
+LIMITATION. This theorem is specific to one-sided common-limit attachment and the existence of a suitable split-trace neighborhood. It says nothing about general filters, different left/right attaching limits, or abstract frame bars. It does not produce rank4 or prove universal rank3.
