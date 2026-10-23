@@ -95,7 +95,17 @@ A useful exact reduction: if j_V is the fitted nucleus of V and k=j_V(0), then d
 - Arrieta–Picado–Pultr, *A New Diagonal Separation and its Relations with the Hausdorff Property*, Appl. Categ. Struct. 30 (2022), 247–263.
 - Jakl–Suarez, *Canonical extensions via fitted sublocales*, Appl. Categ. Struct. 33 (2025), article 10. On fitted sublocales/closed filters.
 
-## 8. Compactness restriction and research priorities
+## 8. Further separation: the functional relation F is always fitted
+
+This fact does not require almost-normality. For each locale map f:X→R, the kernel-pair sublocale K_f=(f×f)^{-1}(Δ_R) is fitted: Δ_R is fitted in R×R (a regular/fit locale), and inverse images of sublocales preserve arbitrary meets and carry open sublocales to opens, hence preserve fitting presentations. Intersections of fitted sublocales remain fitted. Thus
+
+    F=⋂_{f:X→R}K_f
+
+is CLOSED by definition and FITTED for every locale. Under almost-normality U=F, giving an independent perspective on why U is fitted (the rank-two theorem supplies the stronger identification V2=U).
+
+In Claude Fable's almost-normal two-chain example, the previously established working theorem says Q is spatial scattered and I=V is closed. The ordinary point relation of D=fitΔ is the common-specialization-predecessor relation, which there is exactly pt(I)=Z²∪Y²∪Δ_S. Since every sublocale of the scattered spatial Q is spatial, D=I. Consequently W=cl(D)=I < U. This is a **working counterexample** to the unrestricted identity W=U, even under almost-normality; it relies on the separate still-to-be-audited exact-V calculation in A-V-Claude-almost-normal-example-exact-V-equals-I-2026-10-23.md.
+
+## 9. Compactness restriction and research priorities
 
 On a COMPACT locale, the established compact-first-coordinate localic tube lemma gives every canonical rectangular bar a depth≤2 separation tree (A-V-compact-coordinate-local-tube-normalization-2026-10-22.md). Hence
   L compact and almost normal ⇒ V=V_2=U=F.
