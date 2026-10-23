@@ -50,3 +50,7 @@ Let r<1 be a proper bar fixed by all finite-rank open nuclei, as in the fixed-po
 Thus a NEGATIVE answer to Question A is possible only if the locally closed 'unregularized apartness defect' O(d)∧C(d_sep) is nonzero, and it must carry a closed sublocale on which every finite-rank bar is dense. In particular d_sep<d is necessary. On all iterated K-fans d_sep=d, so this defect is zero. On the rational-bridge graph g*d_sep=0 but g*d=1, so its graph image lives within the defect; its rank-three null bar removes that obstruction, showing the defect need not survive finite-rank nuclei.
 
 This isolates the intrinsic point-free region where an attempted hereditary graph-density construction must live. It is stronger than requiring a bar of infinite separation-tree rank; the latter may occur even when the defect is zero and I is already fitted.
+
+## Terminology caveat about the separate D relation
+
+The conclusion V=I says that the CLOSED INSEPARABILITY sublocale I=C(d_I) is already fitted. It does NOT assert that the actual diagonal sublocale Delta is fitted, nor that the separate project relation D=fit(Delta) equals Delta or I. In nonregular Hausdorff spaces the localic diagonal and I may differ even when their ordinary point sets agree. This distinction is essential when connecting to the literature on (Fsep) and fitted diagonals. Our rank theorem concerns fitting I, not automatically (Fsep).
