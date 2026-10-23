@@ -30,6 +30,19 @@ Join in j.
 
 Hence if every cover of L admits this two-step rather-below refinement, D=U. A normal finite open cover has the required shrinking; a regular frame has it for any cover, by iterating regular-below decompositions. Normality alone need not furnish such refinements: the normal noncompact upper-set frame of P=omega^op has a cover by its finite initial segments, but no nonzero r≺s≺c_i for these proper initial segments (every nonzero open is dense, so r≺s iff s=1 or r=0). Yet D=U=whole for the chain. Thus this criterion is sufficient, not necessary.
 
+## 1a. A normal-frame finite-diagonal-cover theorem
+
+For normal L, let w∈Q be an open diagonal neighborhood with a *finite rectangle core*: there exist a_i,b_i∈L (1≤i≤n) such that
+    ⋁_i (a_i⊠b_i) ≤ w,
+    ⋁_i (a_i∧b_i)=1.
+Then
+    w∨d_U=1.
+Indeed the finite family c_i=a_i∧b_i covers 1; normality gives a two-step rather-below shrinking of a finite cover (standard normal shrinking argument), so §1 proves 1=d_U∨⋁_i(c_i⊠c_i)≤d_U∨w.
+
+In particular **every FINITE join of rectangles w with δ*w=1 is U-large**, and every finite-rectangle bar is U-large. Thus a hypothetical normal-frame counterexample to V=U cannot use a bar with a finite rectangle diagonal core. One must exploit genuine infinitary diagonal coverage.
+
+This sharpens the known finite-cover theorem without claiming any compactness of L or Q.
+
 ## 2. Rooted-factor transport theorem (arbitrary possibly pointless Y)
 
 Let P be a NONEMPTY FINITE poset with least element 0. Let Y be any locale, B=O(Y), X=P×_locY, and π:X→Y the projection.
