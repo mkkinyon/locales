@@ -19,3 +19,18 @@ This strengthens the previous special calculation for the symmetric exact omega-
 More generally, any disjoint union of locales whose bars each have some finite universal rank bound has V_fin=V, even if the bounds across components are unbounded.
 
 Open: Question A for arbitrary frames remains unresolved. This proof relies essentially on complemented clopen blocks, and does not imply cofinality in neighborhood order or any bound for all frames.
+
+## Exact all-frame criterion for FAILURE of Question A
+
+Let Φ_fin be the finite-rank bar filter and j_fin the least nucleus dominating open nuclei o_v(q)=v→q for v∈Φ_fin. Then
+
+  V_fin≠V  iff  there exists a proper bar r∈Q, r<1, such that
+                         v→r=r for EVERY v∈Φ_fin.
+
+Proof (⇐): If every generating nucleus o_v fixes r, their join j_fin fixes r, hence j_fin(r)=r<1, while r is a bar and j_V(r)=1. Thus V_fin>V. Proof (⇒): If some bar w has j_fin(w)<1, put r=j_fin(w). Because r≥w, r is also a bar; r<1. For every v∈Φ_fin, o_v≤j_fin so v→r=o_v(r)≤j_fin(r)=r; converse inflationary, so equality. Thus proper fixed-point bar r exists.
+
+Under the closed sublocale correspondence R=C(r), condition v→r=r means the open sublocale O(v) meets R densely in R, equivalently c(R∧O(v))=R. The bar r means R∧I=0. So Question A fails iff there is a nonzero closed sublocale R disjoint from I such that EVERY finite-rank bar v is dense on R. This is much stronger than the existence of infinite-rank individual bars. The rational graph R from the earlier strip counterexample is NOT such a witness, because its annihilator q is itself a rank-three bar; similarly no closed witness can survive all finite block truncations on X_infty.
+
+For any Hausdorff spatial X, finite rank-2 bars exclude each ordinary off-diagonal pair: given x≠y choose disjoint neighborhoods U∋x,T∋y, put v=((X\{x})⊠1)∨(1⊠(X\{y})); a horizontal first split into X\{x},U and vertical second split into X\{y},T provides an H→V depth-two bar certificate. Consequently both V and V_fin have precisely diagonal ordinary point sets. If strict inequality occurs on Hausdorff X, it is a genuine nonspatial-sublocale distinction, invisible as an ordinary binary relation on points.
+
+A potential counterexample must therefore build a closed off-I ghost R that is HEREDITARILY resistant to ALL finite-rank bars; merely accumulating arbitrarily high finite-rank components at a clopen-accessible limit is insufficient. The general arbitrary-frame Question A remains OPEN.
