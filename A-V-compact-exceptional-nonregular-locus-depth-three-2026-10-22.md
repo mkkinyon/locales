@@ -1,0 +1,35 @@
+# Compact exceptional nonregular locus: universal depth-three bars on Hausdorff spaces
+
+Date: 22 October 2026.
+
+**THEOREM (compact nonregular locus).** Let X be a Hausdorff topological space and K⊆X a compact subset such that every point y∈X\K is a point of regularity: for every open neighborhood U of y there exists open b∋y with closure_X(b)⊆U. Then EVERY rectangular bar B on L=O(X) has an explicit H→V→H separation tree of maximum edge depth THREE.
+
+Proof. Put S=D∪B, h(b)=∨{u:(u,b)∈S}, and Φ(a)=∨{b:a≤h(b)}.
+
+(1) Diagonal leaves cover all ordinary points. Since d_I∨b_B=1 in L⊕L, pull back along localic diagonal Δ* and use Δ*(d_I)=0 to obtain
+  1=∨_{(u,v)∈B}u∧v.
+Thus for each x∈X choose (u_x,v_x)∈B with x∈u_x∩v_x.
+
+(2) Each REGULAR second-coordinate point y∈X\K admits b_y∋y with h(b_y)=1. Indeed choose bar diagonal leaf (u_y,v_y) containing y, then by regularity shrink b_y with y∈b_y, closure b_y⊆u_y∩v_y. The B leaf (u_y,b_y) and D leaf (b_y*,b_y) horizontally cover 1 because u_y∨b_y*=1. Consequently (1,b_y)∈H(S), equivalently h(b_y)=1.
+
+(3) Fix any first-coordinate point x∈X and diagonal B leaf (u_x,v_x) containing x. The subset F_x=K\v_x is compact and excludes x. In a Hausdorff space, a point and a disjoint compact subset admit disjoint OPEN neighborhoods. Choose U_x∋x and W_x⊇F_x with U_x∩W_x=∅. Set a_x=u_x∩U_x, an open neighborhood of x.
+
+For second-coordinate points in K∩v_x: the single B leaf (a_x,v_x)∈B gives a_x≤h(v_x).
+For second-coordinate points in K\v_x: the single D leaf (a_x,W_x)∈D gives a_x≤h(W_x).
+For every y∉K: use b_y from (2), for which a_x≤h(b_y)=1.
+
+The open family {v_x,W_x}∪{b_y:y∈X\K} covers X, and a_x≤h(each member). Hence Φ(a_x)=1, i.e. (a_x,1)∈V(H(S)).
+
+(4) As x varies, a_x cover X. Hence
+  (1,1)∈H(V(H(S))).
+This is the desired rooted H→V→H tree. There is NO assumption on the spatiality of X×locX: the only localic input is the diagonal pullback of the bar equation, and every subsequent certificate is built using frame joins and genuine B/D rectangles.
+
+**SHARPNESS for Hausdorff nonregular spaces.** If X also fails regularity at any point p (necessarily p∈K), the elementary two-rectangle bar
+  s_(p,a)=(a⊠a)∨((X\{p})⊠(X\{p}))
+has exact rank3 by A-V-Hausdorff-nonregular-orientation-rigid-rank-two-2026-10-22.md. Thus for this whole compact-exceptional class, the supremum of finite minimum bar ranks equals 2 if X regular and 3 otherwise. In particular every Hausdorff X with FINITELY many nonregular points has universal rank≤3 (finite K) and exact rank3 if nonregular.
+
+**COUNTEREXAMPLE CONSEQUENCE.** Any Hausdorff space supporting a rank≥4 bar must have a set of nonregular points that is NOT contained in any compact subset of X. In particular a compactly supported isolated nonregularity defect, or an entire compact convergent cluster of such defects, cannot give rank4 regardless of the structure of the bar.
+
+**DO NOT MISSTATE:** It is not necessary that the subspace K be locally compact as a complement of a fixed open e in a bridge construction; K is an arbitrary compact subset containing all failure points of ambient regularity. Conversely, the theorem does NOT apply just because the nonregular locus is σ-compact or closed discrete: separating x from the possibly noncompact K\v_x is the crucial global step.
+
+**Scope:** This is a theorem for Hausdorff spatial topological X. Extension to compact sublocales in pointless frames may require a replacement of point/compact-set Hausdorff separation and is not asserted. Universal arbitrary-frame rank3 remains open, and no rank4 bar is constructed.
