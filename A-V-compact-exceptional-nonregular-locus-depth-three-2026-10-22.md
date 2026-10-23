@@ -79,3 +79,7 @@ for an arbitrary lower rectangle family B⊆O(X)×O(X). Consequently ALL compact
 In particular, on a Hausdorff space whose nonregular points are contained in a compact set, or on a first-countable Hausdorff space whose nonregular points are contained in a closed countably compact set, every rectangular family whose coordinatewise diagonal intersections cover X already has an H-V-H separation tree of depth≤3. The diagonal condition is sufficient for localic barhood in those spaces; no advance assumption that the potentially nonspatial locale square has a given bar cover is needed.
 
 Caution: This diagonal-cover criterion may fail for arbitrary Hausdorff spatial locales. It is a stronger property of the two positive classes; do not infer global localic product spatiality, equality of arbitrary sublocale relations, or a full arbitrary-frame theorem from it.
+
+## Refinement of the exceptional-set hypothesis
+
+The earlier sufficient statement 'nonregular locus contained in a CLOSED countably compact K' is unnecessarily strong. It suffices for the nonregular point set to lie in ANY countably compact subset K of a first-countable Hausdorff X. Indeed F_H and F_V are CLOSED IN X and contained in K, hence are relatively closed subspaces of K and therefore countably compact. The bar-specific residual theorem applies as before. The same remark holds for initially κ-compact K and character ≤κ. This corrects the overly restrictive wording of the prior corollary; closedness of K was not used in the actual proof.
