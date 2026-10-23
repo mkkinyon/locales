@@ -82,7 +82,15 @@ If R_w is nonzero, the normal-point theorem in §4 implies the intersection with
 
 This description distinguishes the relevant phenomenon from the βN example, where an envelope residual may consist of free-ultrafilter pairs, but its intersection with N² is ZERO. Requiring a *nonzero* pointfree intersection is the genuinely new obstruction.
 
-## 6. Useful no-go and agenda
+## 6. Prime-spectrum location of a hypothetical counterexample
+
+Let L normal, and let J∈Idl(B) witness
+  1_B∈j(J∨D_I),   1_B∉j(J∨D_U).
+The latter j-saturated ideal is proper, hence extends to a prime ideal P of the bounded distributive lattice B (classical prime ideal theorem). By the bounded-distributive-lattice coproduct duality, P is a pair (ξ,η) of lattice-prime points of Y=Spec(A). Since D_U≤j(J∨D_U), this pair belongs to U(Y), and the maximal envelope open ρ(w∨d_U) misses it. If BOTH ξ and η were completely prime for the arbitrary joins of L, they would come from ordinary points of X and hence yield a point of the residual R_w. Section 4 excludes that. Thus at least one coordinate is a finitely prime but NOT completely prime filter of the frame L.
+
+This does not by itself produce a counterexample: for discrete N⊆βN there are abundant such boundary prime pairs, yet every associated residual downstairs is zero. The extra task is to arrange a nonzero POINTLESS pullback from the compact spectral support.
+
+## 7. Useful no-go and agenda
 
 The envelope law (finite ideals) does not automatically survive j-saturation; similarly a downstairs bar need not lift to an upstairs bar (e.g. the diagonal of an infinite discrete space inside βN). These facts rule out a two-line compactification proof.
 
