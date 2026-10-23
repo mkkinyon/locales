@@ -47,3 +47,18 @@ Proof (⇒): s symmetric, so any height-n root proof for s can be transposed to 
 RESEARCH REDUCTION: A nonsymmetric bar of rank exactly 3 with just ONE height-three root orientation would IMMEDIATELY produce a symmetric bar of exact rank FOUR by symmetrization. Conversely, the universal depth-three conjecture (*) implies that every finite-rank-3 bar necessarily has certificates of BOTH orientations: otherwise its symmetric meet would have rank4, contradict (*). This indicates a concrete finite-rank orientation asymmetry test as a route to an informative counterexample. We have NOT found such a rigid bar and have NOT proved (*) globally.
 
 CAVEAT: For rank n=0 root itself is B_w leaf and w=1, both orientations can be regarded as vacuous or unary-padded; dichotomy holds with ρ(s)=0. For n≥2 the orientation claim has its intended nontrivial content. Canonical bars of rank exactly1 do not exist: a one-step root H or V cover by S=D∪B_w forces w=1 (D cannot contain (a,1) or (1,b) for nonzero a,b), so rank would be0.
+
+## FINAL SHARP THEOREM: COMPLETE FINITE-MEET RANK CLASSIFICATION
+
+Let w_1,...,w_m be arbitrary (not necessarily symmetric) finite-rank bar opens, and n=max_i ρ(w_i). For θ∈{H,V}, say θ∈O_i(n) iff w_i admits a rooted separation tree of height≤n whose first split has orientation θ (if n=0, conventionally both orientations are allowed, as each w_i=1). Then
+
+  ρ(∧_i w_i) = n if ∩_i O_i(n)≠∅;
+  ρ(∧_i w_i) = n+1 if ∩_i O_i(n)=∅.
+
+Proof forward: if finite intersection admits height-n certificate rooted with θ, that same certificate is valid for every w_i since S_(∧w_i)⊆S_wi. Thus θ∈all O_i(n). Reverse: if θ belongs to all, use the oriented alternating-tree normal form and the parallel-intersection lemma iteratively to construct a θ-starting height-n certificate for meet. If no common θ, the meet rank cannot be n (and monotonicity rules out <n). But any input bar of height≤n can be given BOTH θ-start orientations within height n+1: prepend a single unary split of desired orientation when necessary, then flatten/pad. Parallel-intersection lemma gives meet rank≤n+1. Hence exact n+1.
+
+For n≥1, any bar of rank <n automatically has both orientations within n steps, by prepending a unary root split; so ∩_iO_i(n)=∅ is equivalent to existence of at least one MAXIMUM-RANK input with ONLY H-first certificates and another MAXIMUM-RANK input with ONLY V-first certificates. No family of finite bar opens can increase rank through finite meet by more than one, and the exact condition for that increase is **oppositely rigid maximum-rank orientations**.
+
+SPECIAL CASE SYMMETRIZATION: for s=w∧τw, orientation sets are exchanged by τ, so the above sharp theorem recovers ρ(s)=ρ(w)+1 iff w is orientation-rigid at its own minimum rank. Conversely for symmetric w, O(n)={H,V} automatically; finite meet of symmetric bars has exact max rank.
+
+This theorem gives a precise structural target for a rank-four counterexample: either produce ONE orientation-rigid rank-three bar and symmetrize it, or equivalently find two rank-three bars with mutually exclusive starting orientations and intersect them. If all rank-three bars are orientation-balanced, no finite intersection of rank≤3 bars can yield rank4. As of this note, no orientation-rigid rank-three example is known.
