@@ -1,0 +1,102 @@
+# Project A: a genuine I-D / U-V order duality and the almost-normal closedness question
+
+23 October 2026. **Working research note, with elementary verified finite-order calculations; audit before a publication claim.**
+
+## 1. Notation
+
+For a locale X put Q=O(X×_locX). Let Δ be its diagonal sublocale,
+  I=cl(Δ)=C(d_I), D=fit(Δ), V=fit(I),
+  U=C(d_U), with d_I=⋁_{a∧b=0} a⊠b, d_U=⋁_{a*∨b*=1}a⊠b.
+
+The symbols D and F follow the existing Project A convention: D=fit(Δ) is unrelated to the FUNCTIONAL relation F.
+
+Define the opposite composite
+  W=cl(D)=cl(fit(Δ)).
+Since D⊆U (known point-free theorem) and U is closed, W⊆U. Also Δ⊆D and I=clΔ, so I⊆W. Meanwhile Δ⊆I implies D⊆V, giving
+  I,D⊆V and I,D⊆W⊆U.
+One always has I⊆U and I⊆V. There is no general inclusion between U and V or between W and V.
+
+This identifies the *literal* complementary construction to V=fit(clΔ) as W=cl(fitΔ), not necessarily U. Their equality W=U holds for all Alexandrov locales, but is not asserted generally.
+
+## 2. All four point relations on Alexandrov posets
+
+Let P be a poset with upward-open Alexandrov topology, R={(x,y):x≤y}, R^op its converse. As point relations (and for finite P also ordinary localic relations):
+  I(P) = R∘R^op  = {(x,y):∃t≥x,y},
+  D(P) = R^op∘R = {(x,y):∃t≤x,y},
+  U(P) = (R∘R^op)^2 = I(P)∘I(P),
+  V(P) = (R^op∘R)^2 = D(P)∘D(P).
+
+Justifications: I is open-inseparability, i.e. common upper bound. D=fit(Δ) is the least open up-set containing the point diagonal, i.e. common lower bound. U means ↓↑x meets ↓↑y, i.e. a length-four zigzag x≤u≥z≤v≥y. V=fit(I) is upward saturation of I, i.e. length-four zigzag x≥p≤t≥q≤y. The inclusions of open/closed sublocales in the Alexandrov square are determined by these point sets.
+
+A further equality:
+  U(P)=cl(D(P))
+since the downward saturation of common-lower-bound pairs is exactly the length-four relation R R^op R R^op. Consequently W(P)=U(P).
+
+## 3. Exact order duality
+
+Replacing P by P^op interchanges R and R^op, so *as relations on the common underlying set P²*
+  I(P)=D(P^op),   D(P)=I(P^op),
+  U(P)=V(P^op),   V(P)=U(P^op).
+
+For **finite** P these are exact Hochster order-duality correspondences (finite T0 Alexandrov spaces are spectral and their Hochster dual has the opposite specialization order). For infinite P this is elementary order reversal; no Hochster/spectral hypotheses are implied.
+
+Consequences:
+- V(P) closed iff U(P^op) fitted.
+- V(P)=I(P) iff U(P^op)=D(P^op).
+- U(P)=I(P) iff V(P^op)=D(P^op).
+Thus the user's proposed dual of V=I, namely U=I, needs refinement: the literal dual is U=D, because I itself dualizes to D rather than remaining fixed.
+
+## 4. Classification of two U questions for Alexandrov locales
+
+Let P_i be the comparability-connected components of P and put E=⋃_i P_i², which is the point set of the functional relation F.
+
+Since the closed relation U(P) is a lower set and contains all comparable point pairs, it is fitted iff its point set is also an upper set, hence iff U(P)=E=F(P).
+
+Equivalently:
+  U fitted ⇔ U=F ⇔ for every x,y in the same comparability component,
+   ∃u≥x, v≥y, z≤u,v.
+This is the condition of one length-four *upper–lower* zigzag connecting x to y.
+
+Similarly the earlier Alexandrov result:
+  V closed ⇔ V=F ⇔ for every x,y in same component,
+    ∃p≤x,q≤y,t≥p,q.
+This is the order-dual length-four *lower–upper* zigzag.
+
+Moreover U(P)=I(P) iff I(P) is transitive (since U=I²). The transitivity of the common-upper-bound relation is equivalent to upward directedness of each comparability component, which is equivalent to I(P)=V(P). Thus
+  **U=I ⇔ I=V ⇔ each comparability component is upward directed**
+for all Alexandrov P. This is a same-space coincidence of equalities, NOT the literal transformation under P↦P^op.
+
+## 5. Independent closedness/fittedness conditions: dual five-point zigzags
+
+A. Let P_A have p<t, p<x, q<t, q<y (and no other strict order), connected. Every point lies above p or q; p and q have common upper bound t. Therefore all pairs belong to V(P_A), so V(P_A)=whole square, hence closed. But closure of ↑x={x} is {p,x} and closure of ↑y={y} is {q,y}, disjoint, so (x,y)∉U. The connected U is a nonempty proper closed down-set of P_A² and cannot be fitted (otherwise it would be clopen, forcing the whole connected square). Hence V closed does NOT imply U fitted.
+
+B. Let P_B=P_A^op; equivalently, write p<u, r<u, r<v, q<v, connected. The point r lies in cl(↑x) for EVERY x∈P_B, so U(P_B)=whole square (fitted). But minimal p,q have no common upper bound; (p,q)∉V(P_B). The fitted open V is nonempty proper on the connected square and cannot be closed. Thus U fitted does NOT imply V closed.
+
+Neither space is almost normal, so these two examples do NOT settle the almost-normal conjecture about V closed.
+
+## 6. Almost-normal frames: one half of the duality holds unconditionally
+
+Previously audited theorem AN1:
+  ≺ interpolates (L almost normal) ⇒ d_U=d_2=d_F, and U=V_2=F.
+
+Therefore **U is fitted on every almost-normal frame**, without spatiality. By monotonicity of fitting,
+  U fitted ⇒ V=fit(I)⊆fit(U)=U.
+In particular, in an almost-normal frame,
+  U=I ⇒ I=V=U=F.
+The converse I=V⇒U=I fails in Claude's almost-normal two-chain example, where I=V< U.
+
+Almost-normality ⇒ V closed remains OPEN. No universal implication U fitted ⇒ V closed exists: Example B above supplies a finite counterexample without almost-normality.
+
+A useful exact reduction: if j_V is the fitted nucleus of V and k=j_V(0), then d_U≤k≤d_I when L almost normal. The conjecture says j_V(x)=x∨k, or equivalently F_k=F_{d_I} for supplement filters F_a={w:a∨w=1}. The statement that U is fitted alone does not force this condition.
+
+## 7. Relation to the actual duality literature
+
+- Arrieta, *Localic separation and the duality between closedness and fittedness*, Topology Appl. 342 (2024), 108785, arXiv:2310.18522. Its published duality concerns strong Hausdorffness/F-separatedness and the diagonal; our order-zigzag identities are independent elementary calculations, and no novelty over this literature is asserted.
+- Arrieta–Picado–Pultr, *A New Diagonal Separation and its Relations with the Hausdorff Property*, Appl. Categ. Struct. 30 (2022), 247–263.
+- Jakl–Suarez, *Canonical extensions via fitted sublocales*, Appl. Categ. Struct. 33 (2025), article 10. On fitted sublocales/closed filters.
+
+## 8. Research priorities
+
+1. Continue almost-normal V-closed conjecture (7), seeking first a structural theorem for coherent/spectral locales under Hochster duality, where finite order reversal suggests a route. Do not assume almost-normality is automatically preserved by Hochster duality.
+2. Determine whether W=cl(D) admits a meaningful intrinsic pointfree formula and characterize when W=U; it holds on all Alexandrov locales and is false or unverified in general.
+3. Treat U fitted and U=I as complementary conditions, but keep D in the statement of literal duality; U fitted alone is not enough to settle V closed.
