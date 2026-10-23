@@ -30,3 +30,13 @@ OTHER EXAMPLES. Arbitrary disjoint unions of hyperconnected locales satisfy d_se
 CONTRAST. On the original rational bridge locale, g*(d_sep)=0 but g*(d)=1 for graph g(t)=(ell_t,r_t): if c box f met graph over a nonempty rational interval, a bridge attached to both sheets inside that interval would lie in closures of c,f, contradicting their rather-below containment in disjoint opens. Thus the regular-apartness hypothesis fails there, consistent with strict V2>V3. This does not by itself decide whether I is fitted on the rational-bridge space.
 
 OPEN. General Question A (V_fin=V for every frame) remains unsettled; the fan mechanism cannot furnish a counterexample because its diagonal is already fitted at rank2.
+
+## Explicit dual-far strip formula for the fitted diagonal
+
+Assume d_sep=d. For each c prec a, f prec b with a meet b=0, let v_cf=(c* box 1) join (1 box f*), a bar of rank<=2. Let j_T be the join of just the open nuclei o_vcf. Since v_cf meet(c box f)=0, the bottom value j_T(0) dominates every c box f, hence d_sep=d. Since every v_cf is a neighborhood of I, j_T<=j_I. As in Theorem A, this forces j_T=j_I everywhere. Therefore the fitted closed diagonal has the explicit expression
+
+  I=V= meet_{c prec a, f prec b, a meet b=0} O(v_cf).
+
+Thus even the restricted family of specially constructed RANK-TWO DUAL-FAR STRIPS generates I and V. The more general strip-fitted relation W from the earlier failed unrestricted dual-far formula also satisfies W=V=I on all frames with d_sep=d. In particular, this exact intrinsic strip formula holds on ALL iterated K-fans and on their disjoint-union rank-omega example, despite the existence of two-rectangle bars of unbounded height.
+
+This does not restore the general identity W=V for arbitrary frames: the rational-bridge counterexample has g*d_sep=0<g*d and a genuine strict W>V by its separate graph-density argument. It also does not prove the general finite-neighborhood Question A outside this class.
