@@ -14,3 +14,11 @@ If t∧v≤q, pulling back by g gives g*t∧g*v=0, so density implies g*t=0. By 
 The nonzero closed sublocale C(q) is disjoint from I, meets every rank-two bar densely, but is eliminated by rank-three bar q. This is STRICTNESS OF FITTED SUBLOCALES, not simply a difference in individual certificate ranks. It does not decide whether V_fin=V: q is already finite rank.
 
 The key is hereditary depth-two obstruction on every rational interval, not simply rank(q)>2. Iterating such hereditary relative obstructions may lead to strict V_n at larger n or even to a negative answer to the general finite-rank Question A.
+
+## General graph-density witness lemma
+
+Let g:Y→X×locX be any locale map, q its maximal g-null open, and suppose q is a bar. Let n≥0. If for every rank≤n bar v the inverse image g*v is dense in O(Y) (that is, its pseudocomplement vanishes), then j_n(q)=q. The proof is uniform: t∧v≤q implies g*t∧g*v=0, hence g*t=0, hence t≤q. Thus v→q=q, for all n-stage generators, and their nucleus join fixes q. If q<1 then the n-stage fitted hull is strictly above V. If also q has rank n+1, then V_n strictly exceeds V_(n+1). This lemma gives a concrete target for higher-rank graph constructions: hereditary graph-density of every lower-stage bar.
+
+## Ordinary point invisibility
+
+On any Hausdorff spatial X, rank-two bars already exclude every ordinary offdiagonal pair (x,y): choose disjoint opens U∋x,V∋y and set p=((X\{x})⊠1)∨(1⊠(X\{y})). It has an H→V tree: root first opens X\{x} and U; first child is a B_p leaf; second child splits the second coordinate by X\{y} and V, using B_p and D. But p excludes (x,y). Thus V_2 and V_3 both have ordinary point set equal to the diagonal, even in our strict example. The strict inclusion arises entirely at the localic sublocale/nucleus level.
