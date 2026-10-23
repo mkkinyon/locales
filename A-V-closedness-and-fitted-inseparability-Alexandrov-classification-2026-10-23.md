@@ -1,3 +1,5 @@
+> **UPDATE (23 October 2026):** The question “almost normal ⇒ V closed?” posed below has been answered **negatively** by a countable noncompact almost-normal thickened-zigzag space. See [A-V-almost-normal-nonclosed-thickened-zigzag-counterexample-2026-10-23.md](A-V-almost-normal-nonclosed-thickened-zigzag-counterexample-2026-10-23.md). The original discussion is retained as research history.
+
 # Project A: when is V closed, and when is I fitted?
 
 23 October 2026. **Working structural note; audit before treating as final.**
