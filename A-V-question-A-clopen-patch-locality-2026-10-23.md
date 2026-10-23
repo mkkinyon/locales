@@ -23,3 +23,17 @@ APPLICATIONS: On a topological disjoint union of finite-universal-rank spaces, t
 CRITICAL CAVEAT: A rank-two singleton-complement strip excludes an ordinary offdiagonal POINT, but need not vanish on a relatively OPEN neighborhood of that point. To contradict density v→r=r on a closed residual one needs the latter stronger property, obtained from separated compact neighborhoods in the locally compact boundary. It is incorrect to conclude j_fin(w)=1 from mere pointwise exclusions in an arbitrary spatial product. Point-set agreement of V_fin and V is weaker than fitted sublocale equality.
 
 OPEN: arbitrary-locale V_fin=V. A negative witness must have a proper bar r fixed by all finite-rank open nuclei, hence a nonzero closed R disjoint from I that cannot be eliminated on any complemented patch with finite local rank. This rules out many clopen-local constructions, not all possible intertwined infinite-rank obstructions.
+
+## Stronger result: no nucleus iteration is needed on clopen-local and locally compact-boundary spaces
+
+For any frame Q and finite-rank bar filter Phi_fin define the single-step (generally non-idempotent) prenuclear value
+    P_fin(w)=join_{v in Phi_fin}(v→w).
+The one-complemented-patch theorem actually proves
+    (c⊠1)∨(1⊠c)≤P_fin(w)
+for any complemented c with finite-rank diagonal restriction w|c². This uses implication inequalities relative to w directly: on c² the finite-rank truncation v_c matches w, so c⊠c≤v_c→w; on c×c' and c'×c rank-two partition strips p,q are ZERO, so mixed blocks lie below p→w and q→w. It does not require r=j_fin(w) nor idempotence.
+
+COROLLARY (one-stage equality). If the locally finite-rank clopen opens c cover 1, then P_fin(w)=1 for every bar w. Hence j_fin=j_V, with a stronger one-step implication cover for all bar neighborhoods.
+
+LOCALLY COMPACT BOUNDARY. More generally suppose X Hausdorff, Z closed locally compact Hausdorff, and X\Z is covered by clopen opens c_i on whose diagonal squares w has finite rank. The patch lemma yields (e⊠1)∨(1⊠e)≤P_fin(w), where e=join_i c_i=X\Z. Restrict to Z×locZ, a spatial product. At any ordinary diagonal (z,z), the restriction of w is top at this point because w is a bar (diagonal pullback). At any offdiagonal (z,z'), choose disjoint compact closed neighborhoods A,B inside Z (with relative interiors containing z,z'), and disjoint ambient opens around them. The rank-two strip s=((X\A)⊠1)∨(1⊠(X\B)) is a bar and vanishes on the relatively OPEN rectangle int_Z A×int_Z B. Hence the restriction of s→w to Z² is top throughout that open rectangle. It follows pointwise on the spatial product Z×Z that P_fin(w)|Z²=1. Since its closed residual is already contained in Z² from the e-cover, the residual vanishes globally. Therefore P_fin(w)=1, not merely j_fin(w)=1. This recovers clopen disjoint unions and one-point fans (Z singleton) with a stronger quantified conclusion.
+
+Careful logical distinction: a strip excluding just the ordinary singleton pair (z,z') need NOT provide an open neighborhood of it, and therefore does not suffice for this argument. Relative open exclusion follows here from compact closed neighborhoods in locally compact Hausdorff Z. The global Question A and the still stronger global one-stage assertion P_fin(w)=1 remain open.
