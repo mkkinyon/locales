@@ -19,3 +19,6 @@ Then ρ_B≤∨{c:(1,c)∈H(S)}, and if ρ_B=1, the same depth-two proof works. 
 CHECK. This does NOT contradict original rational-bridge exact-rank-three example: its frame O(X) cannot be regular, a conclusion now deduced by rank, independently of a separate direct topological regularity argument.
 
 This is an additional universal depth-two class not subsumed by compact-top or Lindelöf P-space results. Do not overclaim converses: nonregular compact-top frames can also have universal depth-two bars (by earlier finite-rectangle theorem).
+
+STRONGER FORM. The full bar equation is not needed: if a family B merely satisfies ∨_{(u,v)∈B}(u∧v)=1 in a regular frame, then the same V→H depth-two argument with D works. Consequently d_I∨∨_B(u⊠v)=1 follows from its diagonal pullback equality. This is an explicit constructive formulation of the closed-diagonal property in a regular locale, with separation-tree rank bound.
+DUAL ORIENTATION. Apply the same argument to τ(B): a regular frame also yields (1,1)∈H(V(D∪B)). Thus both orientation-specific depth-two certificates are available for every such B.
