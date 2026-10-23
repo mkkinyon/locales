@@ -95,8 +95,13 @@ A useful exact reduction: if j_V is the fitted nucleus of V and k=j_V(0), then d
 - Arrieta–Picado–Pultr, *A New Diagonal Separation and its Relations with the Hausdorff Property*, Appl. Categ. Struct. 30 (2022), 247–263.
 - Jakl–Suarez, *Canonical extensions via fitted sublocales*, Appl. Categ. Struct. 33 (2025), article 10. On fitted sublocales/closed filters.
 
-## 8. Research priorities
+## 8. Compactness restriction and research priorities
 
-1. Continue almost-normal V-closed conjecture (7), seeking first a structural theorem for coherent/spectral locales under Hochster duality, where finite order reversal suggests a route. Do not assume almost-normality is automatically preserved by Hochster duality.
-2. Determine whether W=cl(D) admits a meaningful intrinsic pointfree formula and characterize when W=U; it holds on all Alexandrov locales and is false or unverified in general.
-3. Treat U fitted and U=I as complementary conditions, but keep D in the statement of literal duality; U fitted alone is not enough to settle V closed.
+On a COMPACT locale, the established compact-first-coordinate localic tube lemma gives every canonical rectangular bar a depth≤2 separation tree (A-V-compact-coordinate-local-tube-normalization-2026-10-22.md). Hence
+  L compact and almost normal ⇒ V=V_2=U=F.
+This covers coherent/spectral locales: they are NOT candidates for a negative answer to (7). The finite Hochster-order-duality calculation remains useful conceptually, but cannot manufacture a counterexample to (7) inside coherent frames.
+
+1. Pursue (7) in NONCOMPACT almost-normal frames, particularly nonalgebraic continuous frames which are not Scott spaces of continuous dcpos, and noncontinuous nonsubfit frames with nontrivial specialization behavior.
+2. Investigate whether the closed counterpart W=cl(D) has a useful coordinate formula and characterize when W=U. Equality holds on all Alexandrov locales; no universal equality is asserted.
+3. Keep U fitted/U=I as complementary conditions, but distinguish the literal orderdual U=D. The fact U fitted follows from almost-normality does not prove V closed.
+4. Check closure/fitting absorption for Q=L⊕L without relying on ordinary points of potentially nonspatial products.
