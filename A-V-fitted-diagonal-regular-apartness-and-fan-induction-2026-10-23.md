@@ -40,3 +40,13 @@ Assume d_sep=d. For each c prec a, f prec b with a meet b=0, let v_cf=(c* box 1)
 Thus even the restricted family of specially constructed RANK-TWO DUAL-FAR STRIPS generates I and V. The more general strip-fitted relation W from the earlier failed unrestricted dual-far formula also satisfies W=V=I on all frames with d_sep=d. In particular, this exact intrinsic strip formula holds on ALL iterated K-fans and on their disjoint-union rank-omega example, despite the existence of two-rectangle bars of unbounded height.
 
 This does not restore the general identity W=V for arbitrary frames: the rational-bridge counterexample has g*d_sep=0<g*d and a genuine strict W>V by its separate graph-density argument. It also does not prove the general finite-neighborhood Question A outside this class.
+
+## Necessary support of any hypothetical counterexample to Question A
+
+Let r<1 be a proper bar fixed by all finite-rank open nuclei, as in the fixed-point criterion for V_fin!=V. In particular r=v->r for every rank-two strip v_cf. Since v_cf meet(c box f)=0, each c box f is <=v_cf->r=r. Hence d_sep<=r. Also d join r=1 because r is a bar. Therefore its nonzero closed residual R=C(r) is contained simultaneously in O(d) and C(d_sep):
+
+  0 != R <= O(d) meet C(d_sep).
+
+Thus a NEGATIVE answer to Question A is possible only if the locally closed 'unregularized apartness defect' O(d)∧C(d_sep) is nonzero, and it must carry a closed sublocale on which every finite-rank bar is dense. In particular d_sep<d is necessary. On all iterated K-fans d_sep=d, so this defect is zero. On the rational-bridge graph g*d_sep=0 but g*d=1, so its graph image lives within the defect; its rank-three null bar removes that obstruction, showing the defect need not survive finite-rank nuclei.
+
+This isolates the intrinsic point-free region where an attempted hereditary graph-density construction must live. It is stronger than requiring a bar of infinite separation-tree rank; the latter may occur even when the defect is zero and I is already fitted.
