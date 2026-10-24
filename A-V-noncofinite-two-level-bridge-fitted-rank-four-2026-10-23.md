@@ -61,3 +61,31 @@ Finally, take a GLOBAL horizontal first-root cover consisting of E, all basic lo
 is a genuine H-V-H-V certificate of rank≤4 in the FULL FRAME COPRODUCT; no assumption that the localic square is spatial.
 
 Combined with the lower bound, rk(q)=4 and q is a proper bar. Since q_J≥q, all q_J have rk≤4 and the lower bound proves rk(q_J)=4 for every nonempty J.
+
+
+## Fitted rank stage, not merely bar rank
+
+Let Phi_n be all bars of rank≤n and j_n=join of their open nuclei o_v(u)=v→u. The graph inverse image g*:O(X²_loc)→O(Q_rat) is SURJECTIVE: ell[I]⊠1 pulls back to any rational open interval I, and such intervals generate O(Q_rat).
+
+For every nonempty rational interval J the restricted graph-null q_J has rank exactly 4, as established above. Suppose a rank≤3 bar v had NONDENSE g*v. Some nonempty rational interval J would miss g*v; thus v≤q_J, implying rk(q_J)≤rk(v)≤3, contradiction. Hence g*v is dense for ALL rank≤3 bars v. If t∧v≤q, then g*t∧g*v=0; density forces g*t=0, hence t≤q. Therefore v→q=q for every rank≤3 v, and their join nucleus also fixes q:
+    j_3(q)=q<1.
+Since q is itself a bar of rank 4,
+    j_4(q)≥q→(-),   j_4(q)=1.
+Thus the working theorem is a genuine STRICT FITTED STAGE:
+    **V3(X) strictly contains V4(X)**,
+not simply a rank-four individual tree.
+
+The reason this escapes the old K-fan no-go is HEREDITARY rank four. Every nonempty rational graph slice intersects the attachment of a suitable top t_k (lambda_k dense), and at that top the two independent anchor directions force BOTH orientations of rank3 to fail. The noncofinite tail filter lets an open t_k-neighborhood OMIT ANY FIXED row m while retaining an infinite new row m' beyond any threshold; that simultaneously preserves barhood and defeats all uniform rank3 root patches. The old cofinite-on-all-bridges construction could not do this.
+
+## Focused audit list
+
+1. Check that the intervals C_(k,m), A_(k,m,l),B_(k,m,l) can be chosen with common left/right real closure meeting only in irrational gamma_(k,m),lambda_k for fixed k and all N. In particular ensure the set of alpha centers for a fixed k has compact closure disjoint from every other lambda_j.
+2. Check the basis axiom for the top T_(k,N), especially intersections with selected lower bridge neighborhoods, and verify Hausdorffness for t_k versus EVERY lower anchor.
+3. Check the "sheet observation" E≤h(b) for top b=T_(j,M); disjoint rational traces alone would NOT suffice without the stronger no-RATIONAL-common-closure property.
+4. Check the lower-bridge V-H certificates, including the fixed N_x≤E∪{x} trick.
+5. Check that the top a=T_(k,N) lower-second-boundary case really yields H(V(S)), not merely pointwise cover; verify the vertical cover of an entire lower b_y from one fixed first u_x.
+6. Check rank≤3 orientation exclusion for graph restrictions q_J. The lower proof must rule out D leaves and B_(q_J) leaves, not just graph leaves.
+7. Check the graph-density-to-nucleus implication and order reversal between j_n and V_n.
+8. This is a complex new construction and should NOT be promoted to 'independently audited' until a fresh blind referee reads the full note. No assertion of priority relative to literature.
+
+The simpler first-order noncofinite experiment with ONE top t did not give a fitted-stage jump: after graph restriction to a parameter interval disjoint from its limiting irrational, the top obstruction disappears. Densely many distinct lambda_k (each with its own noncofinite fan) are essential for HEREDITARY rank-four.
