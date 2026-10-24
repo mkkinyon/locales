@@ -55,3 +55,19 @@ If W2=U but W<U, then some nonzero relatively open portion of R_U is missed by D
 ## 3. Outstanding question
 
 The implication W2=U ⇒ W=U is unresolved. A witness must have an infinite diagonal-cover descent failure localized to U\W, beyond a generic nonspatial excess in D2. A new construction should deliberately avoid both the closure-density mechanism of S×P and the binary closed-cut witness of the compact alpha-beta-gamma space. Further model building is needed; do not report a conjectured counterexample as established.
+
+## 4. Disjoint-open rectangle certificate for W<U
+
+**Lemma (working).** Suppose the localic square is the ordinary spatial product, and W<U. Then there are **disjoint opens** a,b of X for which
+
+    R_U∩(a×b) ≠ empty,
+    D∧O(a⊠b)=0, and hence Cm(X)∩(a×b)=empty.
+
+Proof. W=C(d_W), I=C(d_I), U=C(d_U), with I≤W<U, so d_U≤d_W≤d_I and d_W not≤d_U. Since rectangles join-generate Q, choose a rectangle r≤d_W not≤d_U. Expand r=r∧d_I as a join of rectangles r∧(u⊠v) with u∧v=0, because d_I is the join of all such disjoint rectangles. Some r'=a⊠b with a∧b=0 remains not≤d_U; it lies below d_W. Thus D≤W=C(d_W) gives D∧O(r')=0, while U∧O(r')≠0. The latter has an ordinary pair because U is a closed sublocale of a spatial frame. Every Cm pair belongs to D, so none belongs to r'.
+
+Combining with §2: any hypothetical W2=U but W<U example with spatial square must have a nonempty U-relation region in the product of DISJOINT opens a,b, with no Cm points there, while for EVERY pair of disjoint CLOSED sets A,B the U-related points lying in A×B form a nowhere-dense subset of U. This juxtaposition is a construction constraint, not a contradiction (open coordinate separation is weaker than being captured by disjoint closed neighborhoods).
+
+## 5. Scattered-U control
+
+If U is a spatial scattered locale, every nonzero sublocale of U has an ordinary point: take an isolated point of its nonempty closed hull and intersect the sublocale with the corresponding isolated open. Since D2≤U and pt(D2)=pt(D), a nonzero pointless residual D2∧C(w) witnessing D2≠D cannot occur. Thus D2=D, so the binary test is exact. In an ordinary spatial square, U scattered implies X scattered (the diagonal embeds X in U), and then the ordinary square is also scattered; thus this is chiefly a useful sublocale-level restatement rather than a fundamentally new topological class.
+
