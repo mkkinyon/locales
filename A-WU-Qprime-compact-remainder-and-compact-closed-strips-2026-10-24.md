@@ -96,3 +96,12 @@ Let S=P(N)\{empty} with Scott topology, and Y the compact two-apex space in §4.
 The Urysohn relation of Z is U(Z)=S²×U(Y). The regular-closed core is S²×K(Y), and the remaining open sector is S²×{(p,q),(q,p)}. The binary cover of Y by Y\{p},Y\{q} pulls back to Z and excludes this ENTIRE sector from D2(Z). Consequently W(Z)=W2(Z)=S²×K(Y).
 
 This example meets the topological noncompact remainder conditions h_hc=h_cc=0 with G≠0 but still satisfies Q', showing the new conditions necessary for failure are far from sufficient. Note B(O(S²))=2 because S² is hyperconnected, so the Booleanization of the boundary sector is atomic; this provides a separate explanation through the earlier boundary-atomicity theorem. Do NOT claim that a noncompact Scott factor automatically creates an atomless Boolean boundary.
+
+## 8. Strengthening: compact remainder of the compact-closed locus forces D=D2
+
+**Theorem (new working).** If C(h_cc) is compact, then D=D2, not merely W=W2.
+
+Proof. Let C be an arbitrary cover. Compactness of C(h_cc) supplies finitely many c_i∈C such that h_cc∨⋁ c_i=1. Hence the FINITE cover F={h_cc,c_i} has w_F=(h_cc⊠h_cc)∨⋁_i(c_i⊠c_i), and D2≤O(w_F). By §2, D2 and D agree on the open strip h_cc⊠1, and in particular D2∧O(h_cc⊠h_cc)≤O(w_C). Since each c_i-square lies below w_C, we also have D2∧O(c_i⊠c_i)≤O(w_C). As these finitely many opens cover D2 through O(w_F), it follows D2≤O(w_C). Since C was arbitrary, D2≤D. The reverse inclusion is automatic.
+
+This generalizes h_cc=1, and improves the compact-complemented-cover theorem in a different direction: compact CLOSED neighborhoods need not be complemented and need only cover up to a compact closed remainder.
+
