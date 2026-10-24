@@ -65,6 +65,25 @@ Coherent frames satisfy W=U, and hence Φ(d_U)=d_U. In locales with FIT localic 
 
 This criterion is not claimed to be recognized in the published literature; possible connections to neighborhood-filter closure and theta-type separation should be checked before naming it.
 
-## 5. Next work
+
+
+## 5. Explicit two-element-cover failure in the compact T1 example
+
+Let X be the alpha–beta–gamma space with disjoint infinite clopen discrete sheets N1,N2 from [the upper-diamond note](A-H-upper-diamond-unrestricted-failure-compact-T1-2026-10-24.md). Set a={alpha}∪N1 and b={gamma}∪N2. Its U relation contains (alpha,gamma), so r=a⊠b is NOT ≤d_U.
+
+Take the two-element open cover C={X\{alpha}, X\{gamma}}. Its square-cover w_C omits the point (alpha,gamma). More directly, the two localized rectangles are
+
+    (a∧(X\{alpha}))⊠(b∧(X\{alpha})) = N1⊠b,
+    (a∧(X\{gamma}))⊠(b∧(X\{gamma})) = a⊠N2.
+
+Each lies below d_U: for every n∈N1 or N2 the singleton {n} is clopen, and the opposite open b or a avoids n, so each relevant pure subrectangle is far. But a⊠b is NOT ≤d_U, witnessed by (alpha,gamma)∈U. Thus condition (11) fails already for a cover of cardinality two, which explicitly witnesses Φ(d_U)>d_U and W<U without any transfinite computation.
+
+This distinguishes a finite-cover (indeed binary-cover) failure from possible infinitary failures. It does NOT establish that testing only binary covers suffices in general.
+
+## 6. Literature terminology caution
+
+The identity U=⋂ cl(O(w)) resembles neighborhood-filter closure constructions. Do not identify it without proof with standard theta-closure: the usual theta-closure of a subset A tests closures of *neighborhoods of the testing point*, whereas this identity takes closures of *neighborhoods of the diagonal as a whole*. The distinction can matter in nonregular spaces.
+
+## 7. Next work
 
 Can cover descent be recognized intrinsically in L without explicitly computing d_U in Q? Test behavior under frame constructions and search for a standard separation axiom or categorical class whose defining condition is Φ(d_U)=d_U. Distinguish finite-cover failures (compact noncoherent example) from infinitary failures.
