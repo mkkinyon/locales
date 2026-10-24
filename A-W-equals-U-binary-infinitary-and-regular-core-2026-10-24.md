@@ -6,11 +6,11 @@ Conventions: Q=L⊕L, Delta diagonal sublocale, D=fit(Delta), W=cl(D)=C(d_W), U=
 
 ## 1. Binary approximation and exact meaning of its fixed-point test
 
-Define D_2=⋂_{a∨b=1}O(v(a,b)), W_2=cl(D_2), and Psi(q)=⋁_{a∨b=1}(v(a,b)→q). As in the first note, Psi is an inflationary monotone finite-meet-preserving pre-nucleus with fixed frame D_2. The binary-cover theorem gives
+Define D_2=⋂_{a∨b=1}O(v(a,b)), W_2=cl(D_2), and Psi(q)=⋁_{a∨b=1}(v(a,b)→q). Psi is monotone and inflationary, and its fixed-point set is the frame of the sublocale D_2. CAUTION: binary neighborhoods need not be closed under finite meets; consequently the proof used for the full-filter operator Phi does NOT show that Psi preserves finite meets. No pre-nucleus claim is made for Psi. The binary-cover theorem gives
 
     Psi(0)=⋁_{a∨b=1}v(a,b)*=d_U.
 
-Its full nuclear completion has bottom d_W2. Hence, for every locale (no compactness),
+Transfinite iteration of this inflationary monotone map computes the least fixed point above each input (the nucleus of D_2); in particular its least fixed point above 0 is d_W2. Hence, for every locale (no compactness),
 
     W_2=U  ⇔  Psi(d_U)=d_U.
 
