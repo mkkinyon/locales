@@ -61,3 +61,7 @@ In arbitrary frames, U is still recovered from binary closed neighborhoods (§1)
 Can a noncompact locale satisfy v(a,b)→d_U=d_U for every binary cover a∨b=1 while W<U? Equivalently, can binary density on U hold without density of the full fitted diagonal? Seek an intrinsic compactness-like property weaker than compactness that ensures the binary diagonal neighborhoods form a basis at the level of the relative dense core.
 
 **Literature caution:** The diagonal/Fsep background is Arrieta–Picado–Pultr (2022), *A New Diagonal Separation and its Relations With the Hausdorff Property*. We have not located or ruled out a previous publication of this binary reduction.
+
+## 6. Known product stability of fitness
+
+Arrieta, Picado, and Pultr (2022), introduction, state that fitness is preserved by locale products. Thus if X is fit, its localic square is fit and D=Delta, W=I, V=I, H=I. In particular W=U iff I=U. Product preservation is standard background, not a claim of novelty. This resolves the previously deferred question about preservation of fitness by binary locale products.
