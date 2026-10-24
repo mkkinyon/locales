@@ -53,6 +53,10 @@ Proof ⇒: constant B-valued functions embed B in Mon(P,B) (nonempty P), so its 
 
 Consequently (JP×) holds for EVERY Alexandrov frame Up(P) with prime top, including arbitrary infinite downward-directed P with no least element, without assuming compactness/spatiality of the other factor. This extends Theorem 1 substantially: neither factor needs a completely join-prime top, and B may be pointless/noncompact.
 
+## 4a. Continuous frames: square as ordinary localic product
+
+For a classically continuous frame L, the corresponding sober space X is locally compact, and the localic square agrees with the usual topological square. If top L is finitely join-prime, then any two nonempty closed subsets of X meet. Given nonempty closed subsets C,D of X×X, choose (x,y)∈C and (u,v)∈D. The ordinary closed sets cl{x},cl{u} have a common point z, and cl{y},cl{v} have a common point t. Their product (z,t) belongs to C∩D by closedness under specialization. Thus X×X is ultraconnected, and top of Q join-prime. This is another positive case (already implicit in earlier spatial-square theorems), not an arbitrary pointfree proof.
+
 ## 5. No general answer yet
 
 Search of localic-product and frame-coproduct literature did not produce an immediate general preservation theorem or an explicit failure for noncontinuous, nonspatial prime-top frames. The two elementary arguments above rely on a generic-bottom section or the explicit monotone-function presentation and do NOT generalize to an arbitrary frame L whose top is join-prime but not completely join-prime.
