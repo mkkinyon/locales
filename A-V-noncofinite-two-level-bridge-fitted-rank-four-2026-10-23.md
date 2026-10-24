@@ -1,3 +1,13 @@
+> **AUDIT STATUS UPDATE (23 Oct 2026).** The proposed strict stage V3⊋V4 has passed an independent blind audit, conditional on explicit construction and tree-proof repairs. See [audit reconciliation](A-V-noncofinite-bridge-external-audit-reconciliation-2026-10-23.md). The original proof is preserved below as research history; use the repairs in the reconciliation as part of its hypotheses/proof. No publication-priority claim.
+>
+> **Required construction details.** Require λ_k∉C_(k,m), γ_(k,m)∈int C_(k,m), sup_{x∈C_(k,m)}|x−λ_k|→0; global pairwise distinctness of first lower-bridge coordinates and independently of second coordinates, with all individual α≠β and avoidance of every λ_j; cl A_(k,m,l) inside the left half C_(k,m) and cl B_(k,m,l) inside the right half; intervals shrink to γ_(k,m) within rows. Distinct coordinates are required across towers, not just within one tower.
+>
+> **Uniform tail lemma.** For A_k^N=⋃_{m,l≥N}A_(k,m,l) and analogously B_k^N, the real closed tails are compact, with ⋂_N cl(A_k^N)=⋂_N cl(B_k^N)={λ_k}. Any compact real set not containing λ_k is avoided by sufficiently late tails. This justifies a single second open in the y=t_j≠t_k case, and the first top neighborhood in the y=lower-bridge case.
+>
+> **Tree quantifiers.** For y a lower bridge, choose b_y first; for each first lower z then choose u_z⊆T_(k,N) depending on b_y. Pointwise first-sheet S-leaf neighborhoods (which lie in V(S)) plus the lower and top neighborhoods yield H(V(S)). Do not infer (E,b_y)∈V(S) merely from E≤h(b_y).
+>
+> The exact mixed-depth-three normal-form lemma and full separation-table proof are given in the reconciliation. The claim about strict fitted stages still requires the hereditary rank lower bound on **every** graph interval, not simply rk(q)=4.
+
 # Two-index noncofinite bridge filters: working strict fitted stage V3 > V4
 
 Date: 23 October 2026. **WORKING MATHEMATICAL PROOF — targeted independent audit essential.** This note presents a countable first-countable Hausdorff locale X, a rational graph g:Q_rat→X×loc X, and a proper graph-null bar q of exact rank 4 whose restriction to every nonempty rational parameter interval still has rank 4. By the previously established graph-density lemma, j_3(q)=q<1=j_4(q), proving the working result V3(X) strictly contains V4(X). No priority claim.
