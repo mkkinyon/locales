@@ -1,5 +1,7 @@
 # Project A — Reconciliation of the external W=U referee report
 
+> **CORRECTION (later check, 24 Oct 2026):** The two-apex space in §5 below is **COMPACT**, not noncompact. One neighborhood each of p and q covers all but finitely many positive and negative real points, and finitely many further opens cover 0 and those exceptions. The localic relation calculations in §5 stand. See [Q' compact-remainder and compact-closed-strip note](A-WU-Qprime-compact-remainder-and-compact-closed-strips-2026-10-24.md). The external referee's original report is preserved unaltered.
+
 24 October 2026. Independent report archived separately as [A-WU-external-referee-report-2026-10-24.md](A-WU-external-referee-report-2026-10-24.md). This reconciliation is our mathematical assessment of the report; do not confuse the referee's cold-read verdict with our subsequent checks. All research-priority/novelty claims remain provisional.
 
 ## 1. Executive disposition
