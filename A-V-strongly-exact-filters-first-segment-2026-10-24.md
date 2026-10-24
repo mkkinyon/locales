@@ -106,6 +106,24 @@ Consequently the containment B_fin⊆↑c, which completely blocks STRONGLY EXAC
 
 The argument uses only ordinary points of the localic square and its rectangular join basis, not the spatiality of the whole square.
 
+
+
+## 4b. Sharper regularization criterion: closed residuals OUTSIDE I
+
+The test B_fin^{##}=B has a particularly simple equivalent form:
+
+  **B_fin^{##}=B**
+   iff
+  **there is NO nonzero CLOSED sublocale R of Q with R⊆V_fin and R∩I=0**.
+
+Proof (⇒): Suppose R=C(z) nonzero closed and contained in V_fin, with R∩I=0. Then z∨v=1 for every finite-rank bar v, so z∈B_fin^#. The disjointness R∩I=0 says z∨d=1, so z is a proper bar (because R nonzero, z<1). But z∨z=z<1, so z∉B_fin^{##}, contradicting B_fin^{##}=B.
+
+Proof (⇐): If equality fails, choose w∈B\B_fin^{##}. There exists z∈B_fin^# with z∨w<1. Then R=C(z∨w) is a nonzero closed sublocale. Since C(z)⊆V_fin, R⊆V_fin. Since w is a bar, C(w)∩I=0, and R⊆C(w), so R∩I=0.
+
+Equivalently: the sublocale V_fin∩O(d) (the portion of the finite-rank fitted residual OUTSIDE the original closed I=C(d)) must have **no nonzero closed sublocale**. This distinguishes the regular-closure problem from the already proved mere existence of an OPEN point in V_fin\V.
+
+In particular the two-generic-point residual may survive as a relatively open point without containing ANY closed sublocale; its closure includes specializations which finite bars can remove. The earlier point witness alone is insufficient to decide the new criterion.
+
 ## 5. Assessment and disciplined next step
 
 **Positive outcome of this segment:** exact filter-theoretic framework and a new principal-open obstruction; a precise regular-closure test that could conceivably recover V even where SE completion of finite bars fails.
