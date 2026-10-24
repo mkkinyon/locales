@@ -78,3 +78,21 @@ A genuinely noncompact non-Hausdorff example with I<U and D=D2 is X×R: X is com
 - Seek a locale with C(h_hc∨h_cc) genuinely noncompact and with nonregular Urysohn boundary. The necessary conditions are not sufficient.
 - In general, Q' is equivalent to Phi(d_W2)=d_W2. A counterexample would require an infinite-cover diagonal descent defect not locally controllable by any compact closed neighborhood or hyperconnected open strip.
 - Do not call the current structural class a named separation axiom before checking literature.
+
+## 6. Isbell/atomic positive criterion for Q'
+
+Let B(W2) denote the least dense Boolean sublocale of W2. Since D2 is dense in W2, Isbell density gives B(W2)≤D2.
+
+**Proposition (working).** If B(W2) is spatial, equivalently its complete Boolean frame is atomic, then W=W2.
+
+Proof. Every point of the spatial B(W2) factors through D2, hence through D because D and D2 have the same locale points (the binary-versus-arbitrary cover point test). Since B(W2) is the join of its points as a spatial sublocale, B(W2)≤D. But B(W2) is dense in W2, so W2≤cl D=W. The reverse inequality W≤W2 is universal.
+
+Thus a counterexample to Q' requires not only a noncompact residual C(h_hc∨h_cc), but also a non-atomic Booleanization of W2 (at least one nonzero atomless component).
+
+## 7. Stress test outside the covering criterion
+
+Let S=P(N)\{empty} with Scott topology, and Y the compact two-apex space in §4. The product Z=S×Y is sober, locally compact, noncompact, with no nonzero hyperconnected open, so h_hc(Z)=0: every nonempty open contains a basic product A×B, and the Y-factor B can be split into two disjoint nonempty opens. Also h_cc(Z)=0: every nonempty A⊆S is dense, so any compact CLOSED subspace of Z containing a nonempty open rectangle contains S×{y} for some y. Its projection onto S would be all of S, contradicting noncompactness of S.
+
+The Urysohn relation of Z is U(Z)=S²×U(Y). The regular-closed core is S²×K(Y), and the remaining open sector is S²×{(p,q),(q,p)}. The binary cover of Y by Y\{p},Y\{q} pulls back to Z and excludes this ENTIRE sector from D2(Z). Consequently W(Z)=W2(Z)=S²×K(Y).
+
+This example meets the topological noncompact remainder conditions h_hc=h_cc=0 with G≠0 but still satisfies Q', showing the new conditions necessary for failure are far from sufficient. Note B(O(S²))=2 because S² is hyperconnected, so the Booleanization of the boundary sector is atomic; this provides a separate explanation through the earlier boundary-atomicity theorem. Do NOT claim that a noncompact Scott factor automatically creates an atomless Boolean boundary.
