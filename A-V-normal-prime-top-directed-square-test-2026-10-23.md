@@ -38,7 +38,9 @@ A further important local version: if w∈L⊕L satisfies δ*w=1, and some recta
 
 **Obstruction:** A potential proper diagonal-neighborhood bar in a prime-top frame must have a diagonal cover without a directed refinement. This is a genuine infinitary issue, not a finite-join issue.
 
-For Alexandroff Up(P) with P downward-directed, top is join-prime and the localic square is spatial/continuous, so D=whole by the ordinary common-specialization-lower-bound argument. The directed-cover criterion provides additional *point-free* proofs whenever the covers in question possess directed refinements, but it is not asserted that ALL covers on ALL such P admit them.
+**COROLLARY (pointfree proof for all down-directed Alexandrov posets).** If P is downward-directed, the set K={↑p:p∈P} of principal upsets is upward-directed under inclusion: for any p,q choose r≤p,q, so ↑p∪↑q⊆↑r. It covers P. Given any cover C by upsets, for each p choose c∈C containing p; then ↑p⊆c. Hence the SAME directed family K refines every cover. The theorem gives D=whole in Up(P) using only the frame coproduct, not ordinary points or spatiality arguments.
+
+**GENERAL COROLLARY.** If L has a directed join-dense family K of completely join-prime elements (k≤∨C implies k≤c for some c∈C), then K refines every cover, hence D=V=U=F=whole. No separate ultraconnectedness hypothesis needed; this property implies joinprime top because for any a∨b=1, the directed K forces one side top. This makes the directed-cover criterion a structural theorem covering all downward-directed Alexandrov examples.
 
 ## 3. Necessity of finite join-primality for a total fitted relation (normal case)
 
