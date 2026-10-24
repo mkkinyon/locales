@@ -1,14 +1,16 @@
 # Project A — Finite Cantor–Bendixson bridge height bounds graph-null bar rank
 
-23 October 2026. A direct, uniformly-all-n corollary of the relative non-local-compactness derivative theorem, with precise hypotheses. No new strict fitted stage.
+23 October 2026. **AUDIT CORRECTION:** The first draft inadvertently invoked compact avoidance for a q not yet known to be a bar. The theorem below now explicitly assumes the pointwise leaf-cover property (automatically true for Hausdorff X with graph-null self-neighborhoods). The original weaker rank bound for an already-certified bar needs no Hausdorffness. A direct, uniformly-all-n corollary of the relative non-local-compactness derivative theorem, with precise hypotheses. No new strict fitted stage.
 
 ## Theorem
 
 Let X be a topological space containing two disjoint open copies L_0,R_0 of the rational line Q. Let B=X\(L_0∪R_0), a CLOSED subset. Let g:Q→X×loc X be the rational index graph g(t)=(ell_t,r_t), and q its greatest g-null open. Assume:
 
+(0) Either q is already known to be a bar, OR the canonical D/B_q rectangle leaves cover every ordinary pair (x,y) in X×X. This pointwise property is automatic when X is HAUSDORFF and condition (i) holds: off-diagonal points admit disjoint neighborhoods; diagonal points admit graph-null self-neighborhoods.
+
 (i) For every x∈X there is an open neighborhood a_x∋x such that a_x⊠a_x≤q and
    cl_R((a_x)_L) ∩ cl_R((a_x)_R) ∩ Q=∅.
-These are graph-null self-neighborhoods whose two rational traces have NO COMMON RATIONAL point in their real closures. This is stronger than mere graph-nullness, and must not be suppressed.
+These are graph-null self-neighborhoods whose two rational traces have NO COMMON RATIONAL point in their real closures. This is stronger than mere graph-nullness, and must not be suppressed. Importantly, for the automatic-barhood conclusion without prior barhood, (0) is indispensable.
 
 (ii) The CLOSED boundary B has finite Cantor–Bendixson height h, i.e. B^(h)=∅ with B^(0)=B and B^(j+1)=(B^(j))' (relative nonisolated points, in the subspace B).
 
@@ -22,7 +24,7 @@ For any u⊆a_x define K_L(u)=cl_X(u)∩cl_X(u^L), where u^L=r[u_L] is the right
 
 For ell_s∈L0, because L0 is open and disjoint from R0, ell_s∉cl_X(u^L). For r_s∈R0, r_s∈cl_X(u) iff s∈cl_Q(u_R), and r_s∈cl_X(u^L) iff s∈cl_Q(u_L). Since u⊆a_x, this would put s in the forbidden intersection cl_R((a_x)_R)∩cl_R((a_x)_L)∩Q. Hence
     K_L(u)⊆B for EVERY u⊆a_x.
-This uses neither Hausdorffness nor product spatiality. Symmetrically the same holds for K_R(u).
+This uses neither Hausdorffness nor product spatiality. Symmetrically the same holds for K_R(u). The compact-avoidance step of the relative-rank theorem uses only pointwise leaf-cover (0): for each x and y in a compact target C choose a rectangle leaf containing (x,y), take a finite subcover in the second coordinate, and intersect its first-coordinate neighborhoods. Thus the entire induction is valid under (0), WITHOUT presupposing that q is a bar. Its resulting separation tree then establishes q∨d_I=1 localically.
 
 For any closed subspace F⊆X, let D(F) be its non-locally-compact point locus. Every isolated point of F has the compact neighborhood {point}, hence D(F)⊆F' (relative derived set). If A⊆F is closed, its derived sets satisfy A'⊆F' and its nonlocal-compactness derivatives are closed; inductively
    D^j(B)⊆B^(j).
