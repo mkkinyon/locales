@@ -92,6 +92,20 @@ A falsification criterion is equally explicit: regularization FAILS iff there ex
 
 This is the next focused test. Since I=C(d)⊆V_fin always, some closed sublocales of V_fin are automatic; the question is whether there are additional *closed residuals killed by full bars* but preserved by ALL finite bars. The generic-point obstruction is open, not closed: its closed hull intersects parts that finite bars may already remove. Thus the existing point witness does not immediately settle regularization in either direction.
 
+
+
+## 4a. An additional exact computation: the point trap vanishes under REGULARIZATION
+
+The regular route is genuinely different from strong exactness in the GENERIC-POINT EXAMPLE. Let c={ell}⊠{r} be the nonzero open singleton p=(ell,r). Choose any ordinary point y=(c_0,f_0), c_0∈C,f_0∈F. Every basic rectangle neighborhood of y contains p by construction; hence y∈cl{p}, y≠p.
+
+CLAIM: (↑c)^#={1}, hence (↑c)^{##}=Q0 (the IMPROPER filter).
+
+Proof: if z∨c=1, then y∈z, because c misses y. Since every open containing y contains p, we have p∈z and thus c≤z (the point p is OPEN). Therefore z∨c=z=1. Conversely 1 supplements c. Thus ↑c has no nontrivial supplement and its double supplement is all of Q0.
+
+Consequently the containment B_fin⊆↑c, which completely blocks STRONGLY EXACT closure, supplies NO corresponding obstruction to REGULAR closure. The regular-filter operation destroys the very open-atom obstruction on which our negative Question A proof rests. This does NOT prove B_fin^{##}=B: that remains the focused test in §5.
+
+The argument uses only ordinary points of the localic square and its rectangular join basis, not the spatiality of the whole square.
+
 ## 5. Assessment and disciplined next step
 
 **Positive outcome of this segment:** exact filter-theoretic framework and a new principal-open obstruction; a precise regular-closure test that could conceivably recover V even where SE completion of finite bars fails.
