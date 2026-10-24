@@ -18,7 +18,7 @@ The established results there give X locally compact, sober and T1 with I=U<F as
 
 The same finite-product observation makes X×X scattered; it is also T1. Since X is locally compact sober, the localic square is spatial and identified with O(X×X) by the standard locally-compact-factor product theorem. The elementary T1-scattered-fit lemma, proved in [A-postV-external-audit-reconciliation-2026-10-24.md](A-postV-external-audit-reconciliation-2026-10-24.md), shows that O(X×X) is fit: every closed sublocale is fitted. Hence I is fitted, V=fit(I)=I, and the least closed-and-fitted sublocale H containing the diagonal is exactly I.
 
-The universal point-free composition law I∘I⊆U together with I=U implies I∘I⊆I. Reflexivity and symmetry are inherited from I=cl(Delta), so H=I is an internal equivalence relation. Yet H=I<U<F is impossible here because I=U; the actual strict chain is H=I=U<F. QED.
+The universal point-free composition law I∘I⊆U together with I=U implies I∘I⊆I. Reflexivity and symmetry are inherited from I=cl(Delta), so H=I is an internal equivalence relation. The resulting strict chain is H=I=U<F. QED.
 
 ## Consequence
 
