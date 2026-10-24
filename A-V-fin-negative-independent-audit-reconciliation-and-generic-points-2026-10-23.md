@@ -53,3 +53,18 @@ The cofinite rational sheets are not essential for the localic phenomenon: an ar
 ## Research implications
 
 The primary finite-rank exhaustion question is now resolved negatively with strong independent support. Prioritize consolidating the concise generic-point transfer and the T1 upgrade into a clean theorem statement, and a targeted literature due-diligence phase (including semiclosed/fitted sublocales), before investing in another hierarchy example. The remaining directions include conditions under which V_fin=V DOES hold and a truly intrinsic non-tautological dual formula for V.
+
+
+## Additional observation: the two-generic-point example is SOBER
+
+Suppose the starting Y is sober (it is: the K-fan sum Y is Hausdorff). Then X0 is sober as well. Let A be nonempty irreducible closed in X0. If ell∈A, closedness gives cl{ell}⊆A. If A had a point outside cl{ell}, the disjoint opens {ell} and X0\cl{ell} would both meet A, contradicting irreducibility. Hence A=cl{ell}. Similarly if r∈A, A=cl{r}. Otherwise A⊆Y; because Y is closed, A is an irreducible closed subset of sober Y and thus A=cl{y} for a unique y∈Y. T0 uniqueness is clear from the construction and T0 of Y.
+
+Therefore the simple example can be presented as COUNTABLE, FIRST-COUNTABLE, SOBER T0 (non-T1). Its witnesses are ordinary LOCALIC PRODUCT POINTS; there is still NO assertion that its localic square as a whole is spatial.
+
+## Stronger display formula and ordinal transfer
+
+For X0 define a0=X0\cl{ell}=a∪{r} and e0=X0\cl{r}=e∪{ell}. Then the maximal product-point-null open is EXACTLY
+  q0=(a0 box 1)∨(1 box e0).
+Proof: every rectangle missing (ell,r) has either its first open missing ell (hence below a0), or its second open missing r (hence below e0); those rectangles join-generate Q. Thus q0 is itself a TWO-RECTANGLE strip bar, not merely an unspecified graph-null open.
+
+More generally, if the old strip w is a bar with no tree of rank less than any fixed ordinal alpha, the restriction argument proves that every bar of rank<alpha on X0 contains (ell,r), while the lifted q0 excludes it. This isolates an ALL-ORDINAL transfer mechanism. The special case alpha=omega gives the negative answer to Question A. This does not independently construct input bars at arbitrary ordinals.
