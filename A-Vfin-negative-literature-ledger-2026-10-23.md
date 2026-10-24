@@ -143,3 +143,15 @@ The equality of strongly exact closures would FORCE equal su's, so they are dist
 ## 5. Interim position
 
 The mathematical proof is currently well supported by independent audit. The literature check establishes standard framing in localic sublocales and strongly exact filters, and identifies a very promising path for later intrinsic V research. It does **not** establish that the theorem is known or novel. The current project agenda should be **consolidation, targeted filter-language translation, and cautious novelty checks** before returning to the full I,U,D,V,F hierarchy.
+
+
+## 6. Additional close structural antecedent: simple extensions (checked after the first ledger pass)
+
+The source [L3] has a freely accessible Coimbra preprint:
+https://www.mat.uc.pt/preprints/ps/p2117.pdf
+
+Its **§2.3 (printed page 9)** recalls a "simple extension" of a space by refining the topology relative to a subspace, used to produce separation/property counterexamples. This was checked directly, including the displayed definition. It is an important precedent for **topological extension mechanisms in localic separation**, but it is NOT visibly the same as our two-point extension X0 (which adjoins new isolated/generic points along specified closed C and F rather than simply refining a topology on a fixed set). This reference should be considered in any novelty review of the graphization trick.
+
+The same preprint **§2.2.2** confirms that its fittedness condition applies to the ACTUAL diagonal; our V fits the closed inseparability relation instead. The reference list cites Banaschewski, "Singly generated frame extensions" (J. Pure Appl. Algebra 83 (1992), 1–21) as a further potential source for general extension machinery, but that article has NOT been examined here.
+
+**Search consequence:** the literature gives genuine precedents for both sides of the proof — rectangular coproduct presentations and topology/frame extensions — so any eventual originality claim should be narrowly formulated around the *specific finite-bar exhaustion failure*, not around generic points, simple extensions, or C-ideals considered separately.
