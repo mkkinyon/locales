@@ -41,3 +41,42 @@ The referee also supplies a Boolean splitting B(U)=B(int U) sqcup B(G), with B(i
 
 **Source/prior art.** The full operator Phi is the kappa_L of Arrieta–Picado–Pultr (2022), Lemma 5.4 of the authors' preprint; their Lemma 4.4 covers arbitrary-cover-compatible homomorphisms. Isbell's least dense sublocale is standard. Do not claim these named constructions as new.
 
+
+## 3. Correction of referee M2: arbitrary finite closed sets need NOT be regular closed
+
+The report (§2 M2) asserts that every closed set of a finite upper-Alexandrov space is regular closed. This is FALSE. In the Sierpinski chain 0<1 with upper topology, the closed subset {0} has empty interior, so is not regular closed. More generally, maximal points *of a closed down-set* need not be maximal in the ambient poset.
+
+The **specific** conclusion that U(P) is regular closed for a finite upper-Alexandrov space P is nevertheless TRUE, for a different reason. If (x,y)∈U(P), the closures of the minimal open neighborhoods ↑x,↑y meet. Hence there exist z and u≥x,v≥y with z≤u,v. Extend u and v to ambient maximal elements m,n. Then z≤m,n, so (m,n)∈U(P). Because (m,n) is ambient maximal in P×P, it belongs to int U(P), and (x,y) is in its closure. Therefore U(P)=cl(int U(P)).
+
+For the finite six-point zigzag P, this establishes that U(P) is regular closed without using the false blanket assertion. Since the Scott factor S in the product example has U(S)=S², the product relation U(S×P)=S²×U(P) is also regular closed. Hence the report's narrower conclusion G(S×P)=0 holds; the stated justification should be replaced.
+
+## 4. Correction of referee §5: hyperconnected pseudocomplements do NOT imply the proposed rectangle criterion
+
+The report's elementary lemma is valid: if ↓a is hyperconnected and 0<u≤a, then u*=a*. But the report infers
+
+    u⊠v ≤ d_U  iff  a*∨v*=1.
+
+This equivalence is FALSE. Being contained in d_U, a JOIN of far rectangles, does NOT require the rectangle itself to be far.
+
+**Concrete counterexample.** Take X={z,t}⊔N, with t and every n∈N isolated, and neighborhoods of z given by
+
+    {z,t} ∪ (N\F),  F finite.
+
+It is a compact sober T0 locally compact space. In L=O(X), let a={t} and v=N. The subframe ↓a is two-element and thus hyperconnected. We have
+
+    cl(a)={z,t},   cl(v)={z}∪N,
+    a*=N,          v*={t},
+    a*∨v*=X\{z}<1.
+
+But for EVERY n∈N the singleton {n} is clopen; a and {n} form a far pair:
+
+    a*∨{n}*=N∨(X\{n})=1.
+
+Therefore, in the genuine LOCALIC square,
+
+    a⊠v = ⋁_{n∈N} a⊠{n} ≤ d_U.
+
+So a⊠v≤d_U yet a*∨v*≠1, even though ↓a is hyperconnected.
+
+**Consequence for the referee's advice.** The rest of §5, particularly the purported requirement that a successful counterexample have cover-generators with distinct pseudocomplements and the alleged impossibility of upgrading a hyperconnected-coordinate mechanism, is NOT established by the stated argument. We should not adopt it as a necessary obstruction. The generic open/closed boundary and binary-descent certificates from our original packet remain valid and are sufficient for planning future work.
+
