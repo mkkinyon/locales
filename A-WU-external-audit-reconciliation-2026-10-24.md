@@ -80,3 +80,38 @@ So a⊠v≤d_U yet a*∨v*≠1, even though ↓a is hyperconnected.
 
 **Consequence for the referee's advice.** The rest of §5, particularly the purported requirement that a successful counterexample have cover-generators with distinct pseudocomplements and the alleged impossibility of upgrading a hyperconnected-coordinate mechanism, is NOT established by the stated argument. We should not adopt it as a necessary obstruction. The generic open/closed boundary and binary-descent certificates from our original packet remain valid and are sufficient for planning future work.
 
+
+## 5. Accepted and strengthened: the two-apex boundary control
+
+The referee's new space X=R⊔{p,q}, with basic p-neighborhoods {p}∪((0,∞)\F) and q-neighborhoods {q}∪((−∞,0)\F), is a locally compact sober T1 noncompact space with spatial localic square. Put
+
+    A_+=[0,∞)∪{p},   A_-=(−∞,0]∪{q}.
+
+A more precise point-relation calculation gives
+
+    pt U = A_+² ∪ A_-² ∪ {(p,q),(q,p)}.
+
+The two rectangles A_+²,A_-² are closed and regular closed in X²: their open cores ((0,∞)∪{p})² and ((−∞,0)∪{q})² are dense in them. Hence
+
+    K=cl(int U)=A_+² ∪ A_-²
+    G=U∩O(d_U**)=the discrete two-point sublocale {(p,q),(q,p)}.
+
+The latter pair of points is relatively isolated in U. Since X is T1, neither lies in pt(D) nor pt(D2). An open neighborhood of each isolates that point inside U, so D,D2 restrict to the zero sublocale there. Thus W and W2 omit both points of G. But K≤W≤W2≤U universally. Therefore the example actually satisfies the STRONGER exact chain
+
+    I < W = W2 = K < U,
+
+with G a nonzero atomic boundary. The strict I<K is witnessed by (0,x), x>0: these points admit disjoint neighborhoods, yet lie in the closure of the positive-square interior of U.
+
+This is a very useful SIMPLE example of an actual strict W<U with a nonregular boundary and a precise binary obstruction. It does not refute (Q) or (Q'), and unlike the report's proposed compactification remark, the calculation above makes no claim about modifications without further checks.
+
+## 6. Implications for next work and presentation
+
+- Preserve the general goal: classify frames/locales with W=cl(fit Delta)=U.
+- Preserve the focal implication (Q) and the new stronger candidate (Q') as OPEN.
+- Prefer Phi2 over Psi for the binary-versus-full fixed-point comparison. Present Isbell density reductions as established theory, not a new theorem.
+- The main eight-note working package has passed one independent adversarial referee with no foundational error found, but the referee's own Section 5 obstruction is false as stated and is EXCLUDED from the accepted theorem ledger.
+- The Scott/Cantor model proves D2>D, NOT W2>W; the two-apex example proves W2=W<U and supplies the complementary control. Thus the two distinct strict phenomena are both real, but no example combining them into W2>W has been established.
+- A focused next attack on Q' is reasonable: test whether d_W2 is a fixed point of Phi, or seek any locale with W<W2. A separate route is to construct an explicit infinite-cover rectangle witness localized to the nonregular boundary G, using the valid boundary criteria rather than the discredited hyperconnected assertion.
+- Priority/literature remains unverified for the binary reduction and derived characterizations. Standard sources include Arrieta–Picado–Pultr (2022) and Isbell's density theorem (see Picado–Pultr, *Frames and Locales*, 2012, Ch. III.8.3).
+
+**Source preservation:** The independent referee report itself is archived VERBATIM in the linked repository file. This reconciliation is separate. Do not retroactively alter the external blind packet to insert our counterarguments; the cold-read provenance matters.
