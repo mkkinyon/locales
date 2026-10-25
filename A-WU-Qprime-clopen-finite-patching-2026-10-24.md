@@ -1,5 +1,7 @@
 # Project A — Finite-cover fitting via clopen patching
 
+> **STRENGTHENED IN CONSOLIDATION (24 Oct 2026):** The disjointness requirement on complemented patches in §1 is unnecessary. The proof works for **any covering family of complemented e_i**, each finitely covered by the given open cover. In §2 the base Y need only be **zero-dimensional**, not ultraparacompact: the compact-fiber tube cover can be refined by a possibly overlapping family of complemented opens. See [consolidated framework, §4](A-WU-Qprime-unified-synthesis-2026-10-24.md). Original working proof below retained as a special case for provenance.
+
 24 October 2026. New **working** sufficient conditions for D=D2 and a noncompact test case. Internally verified, not independently audited; no originality claim.
 
 ## 1. Clopen-finite-subcover theorem
