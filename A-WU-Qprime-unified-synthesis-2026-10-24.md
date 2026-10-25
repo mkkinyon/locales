@@ -116,3 +116,23 @@ The row Baire×Y is worth emphasizing: even NONZERO ATOMLESS H2 is not sufficien
 4. Before any headline or publication claim, arrange another blind adversarial audit for the new compact-remnant, hyperconnected localization, zero-dimensional compact-fiber, branching, and exact H2 arguments, followed by literature-priority checking.
 
 No claim that Q or Q' is resolved; no forced construction or novelty assertion.
+
+## 7. Exact disjoint-rectangle certificate for failure of Q'
+
+This criterion is stronger than merely requiring a noncompact nonregular boundary and is the recommended target for any constructive attack.
+
+**Proposition (working, direct consequence of the pre-nucleus fixed-point test).** W<W2 iff there exist an open cover C of 1, with NO finite subcover, and nonzero a,b∈L such that
+
+    a∧b=0,
+    r=a⊠b not≤d_W2,
+    r∧w_C≤d_W2.
+
+Proof. Write d0=d_W2, so Phi2(d0)=d0. If W<W2 then d_W>d0 and Phi(d0)>d0, because Phi(d0)=d0 would make d0 a full Phi fixed point and force d_W=d0. Thus for some full cover C, (w_C→d0)not≤d0. Extract a nonzero rectangle r=a⊠b below (w_C→d0) but not below d0, since rectangles join-generate Q. Then r∧w_C≤d0 and C cannot have a finite subcover: if it had finite F⊆C, w_F≤w_C would give r≤(w_F→d0)≤Phi2(d0)=d0, contradiction.
+
+Also (w_C→d0)≤Phi(d0)≤d_W≤d_I, where the last relation is I≤W. Hence r≤d_I. Applying diagonal inverse image δ*:Q→L yields a∧b=δ*(r)≤δ*(d_I)=0. The converse: if such C,r exist then r≤w_C→d0 but rnot≤d0, so Phi(d0)>d0 and W<W2.
+
+Furthermore D∧O(r)=0, since D≤O(w_C) and D≤W2=C(d0), whereas r∧w_C≤d0; meanwhile W2∧O(r)≠0 and D2∧O(r) is dense there. Since pt(D2)=pt(D) for EVERY locale, the nonzero dense sublocale D2∧O(r) has NO locale points.
+
+In words: a counterexample requires a **genuinely infinite diagonal square cover**, a **disjoint pair of coordinate opens**, and a **dense pointless finite-cover remnant on an open part of W2**, not merely a strict D2>D somewhere invisible under closure.
+
+This exact certificate, the Boolean residual test B(H2)⊆D, and the three local-positive mechanisms should be used together. The first is suited to explicit constructions; the second to abstract proof; the third to eliminate degenerate attempts.
