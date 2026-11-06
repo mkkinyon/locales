@@ -121,3 +121,28 @@ At the first infinite stage S_omega=patch_closure(sim_c), where sim_c is finite 
 4. **H vs composition:** Explore whether Theta gives shorter intrinsic formulas in special coherent families (e.g. normal, conormal, or bounded comparability diameter), without reopening isolated ordinal-height searches.
 
 References: project files A-cross-hulls-composition-spectral-2026-10-22.md; A-Claude-three-claims-focused-verification-2026-10-21.md; A-postV-external-audit-reconciliation-2026-10-24.md; A-H-formal-hull-odd-powers-omega-plus-m-2026-10-24.md; standard facts on proconstructible subspaces of spectral spaces and localic Priestley duality.
+
+## 8. All finite comparability powers reduce to TWO alternating words
+
+The C²/C³/C⁴ identities are the first cases of an exact family; this is a short semigroup identity (not a priority/novelty claim).
+
+**Proposition (finite relation algebra).** Let A,B be ANY two reflexive transitive relations on a set; write C=A∪B, I=AB, D=BA, R=ABA, R'=BAB. Then for each n≥1,
+
+    C^(2n)   = (AB)^n ∪ (BA)^n = I^n ∪ D^n;
+    C^(2n+1) = (ABA)^n ∪ (BAB)^n = R^n ∪ (R')^n.
+
+Proof. Relational composition distributes over set-theoretic unions. Expand C^m into all length-m words in A,B. Since A²=A and B²=B, every word collapses to an alternating word of length ≤m. Because A and B are REFLEXIVE, any shorter alternating word lies inside one of the two fully alternating length-m words, by padding left/right with identity-containing A/B factors of the appropriate orientation. The two length-m alternating words themselves are present in the expansion, giving equality.
+
+For coherent locales with A,B the specialization-order sublocales, the same identities hold in the proconstructible spectral relation calculus, SUBJECT TO the coherent-localic image/pullback audit flagged in §4.
+
+**Application to H:** In §6, S_n=C_cmp^(2n)=I^n∨D^n for every finite n≥1, so the H-composition schedule has exact finite stages
+
+    S1=I∨D=J;
+    S2=I²∨D²=U∨V;
+    S3=I³∨D³;
+    ...
+    Sω=patch_closure(⋃_{n≥1}(I^n∨D^n)).
+
+This is a separate schedule from the prior *closed-stage* kappa recursion (whose stage n is I^(2n+1)); both stabilize at H, but finite stages must not be conflated.
+
+The relation-algebra identity is verified independently by random finite-poset tests to exponent 11, in addition to the elementary proof.
