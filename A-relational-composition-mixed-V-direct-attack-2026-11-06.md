@@ -131,3 +131,30 @@ Dually,
 Both equalities are VALID in arbitrary locales whenever D=B A (for example whenever D spatial). In particular, a counterexample to **either** (i) R≤V or (ii) R=A J A must have D≠B A. (This does NOT say the two potential failures are equivalent.)
 
 This unifies the two outstanding arbitrary-locale questions: the extra part of the localic fitted diagonal beyond the specialization composite is the only possible source for either discrepancy.
+
+## 10. Published stress test: sH not (Fsep) does not yield mixed failure
+
+Igor Arrieta, *Localic separation and the duality between closedness and fittedness*, Topology and its Applications 342 (2024), 108785, https://arxiv.org/abs/2310.18522 (also open access DOI https://doi.org/10.1016/j.topol.2023.108785), explicitly constructs a strongly Hausdorff locale that is NOT F-separated. In our notation strong Hausdorff is I=Delta and Fsep is D=Delta.
+
+For that published example:
+
+    A=B=Delta (since A,B≤I=Delta),
+    D>Delta=B A,
+    V=fit I=fit Delta=D,
+    I D=Delta D=D=V.
+
+Thus the strictness D>B A, and nonspatiality of D, are genuinely realizable in the literature but do NOT suffice for the sought failure R⊄V. Nontrivial inseparability I must be coupled to the extra nonspatial D contribution. The published paper is supporting external context, not a source of the mixed-composition theorem and not a counterexample to it.
+
+This also confirms mathematically that failure of D=B A alone cannot settle the second question R=A J A: since I=Delta, J=D and A J A=Delta D Delta=D=R in this test case.
+
+## 11. Current strongest necessary conditions
+
+For a SPATIAL locale X to refute I D≤V, it is necessary that all of the following hold:
+(i) D≠B A, in particular D is nonspatial;
+(ii) the projection p2:I→X is not proper;
+(iii) E=I12∧D23 is nonspatial;
+(iv) for some w containing I, the POINTLESS locally closed residual E_w=E∧C(w13) is nonzero.
+
+Conditions (i)–(iv) are NOT sufficient. Condition (iv) is the exact failure certificate by §8, but the pointlessness follows from spatiality X, so unlike (i)–(iii) (iv) is equivalent to failure once w is quantified. A construction must COUPLE failure of strong Hausdorff/Fsep separation with nontrivial, nonproper inseparability; a direct product of unrelated examples should not be expected to achieve this automatically.
+
+The primary literature test for (i), sH≠Fsep, is real and externally published; the remaining coupled construction is OPEN.
