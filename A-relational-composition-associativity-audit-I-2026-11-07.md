@@ -62,3 +62,44 @@ For arbitrary S, BOTH parenthesizations (A∘S)∘B and A∘(S∘B) are ≤cl(S)
 Investigate the special claimed all-locale saturation of R=I∘D under canonical specialization A. Either give a direct localic proof avoiding reassociation or find a counterexample. The independently audited negative mixed-composition example is an especially useful test. A second audit should explicitly review whether the proconstructible/localic identification is being used only for SPECTRAL maps and patch-closed sublocales.
 
 Sources: Picado–Pultr–Tozzi, *Locales*, II.5 p.86; Taylor, *Practical Foundations*, Lemma 5.8.6; Dickmann–Schwartz–Tressl, *Spectral Spaces*, 2019, Cor. 1.3.23, Thm. 2.3.7; localic open/proper pullback-stability theorems.
+
+## 7. RESPONSE TO THE SAME-LOCALE OBJECTION: ONE SYMMETRIC REFLEXIVE ENDORRELATION SUFFICES
+
+A natural objection to §1 is that R,S,T initially lie between FOUR different locales, whereas the project studies endorelations on one locale X. This restriction does NOT save associativity; in fact even powers of ONE reflexive symmetric endorelation can be nonassociative.
+
+Use precisely the locales of §1, and put
+
+    X = 1 ⊔ E ⊔ Y ⊔ Z.
+
+The frame is 2×P(N)×O(Y)×P(N∪{∞}). The four summands are CLOPEN sublocales of X, and the sixteen (source,target) pairs are clopen blocks of X². Loc is an extensive category: stable, disjoint finite coproducts; this can also be proved directly since the images of (1,0) and (0,1) under a frame homomorphism are complementary.
+
+Let R be the total relation on the block 1×E; S the graph of f:E→Y; T the converse graph of g:Z→Y. Regard them as sublocales of X², supported on those individual blocks. Define ONE endorelation
+
+    Q = Δ_X ∨ R ∨ R^smile ∨ S ∨ S^smile ∨ T ∨ T^smile.
+
+Then Q=Q^smile and Δ_X≤Q. Because its support is confined to successive edges of the four-block undirected chain 1--E--Y--Z, and all on-block effects are just the diagonals, blockwise composition gives:
+
+    (Q∘Q) |_(1×Y) = 1×Y      (because im f=Y);
+    (Q∘Q) |_(E×Z) = graph(j) (because E×_Y Z≅E, j:N→Z);
+    (Q∘Q) |_(1×Z) = 0       (no path of length ≤2).
+
+Therefore on the SAME block 1×Z,
+
+    ((Q∘Q)∘Q)|_(1×Z) = 1×Z,
+    (Q∘(Q∘Q))|_(1×Z) = 1×N ⊊ 1×Z.
+
+The left bracketing arises from 1→Y by Q² (im f=Y) followed by Y→Z (converse graph g). The right arises from 1→E by Q followed by E→Z by Q² (graph j); ∞ is missed. The added diagonals and converses do NOT create a new three-step route from 1 to Z, because each step changes the block by at most one along the chain. The unique three-step block itinerary is 1→E→Y→Z.
+
+Thus
+
+    **(Q∘Q)∘Q ≠ Q∘(Q∘Q)**
+
+for a SINGLE REFLEXIVE SYMMETRIC relation Q⊆X² on one single frame L=O(X).
+
+This is materially stronger than the original heterogeneous-relations example and matches the formal conditions reflexivity and symmetry shared by I and D. It does NOT show that any actual diagonal hull I_X or D_X has nonassociative powers; such special identities still require separate analysis.
+
+**Source check:** Loc is extensive, e.g. *Free Doubly-Infinitary Distributive Categories are Cartesian Closed* (2026), §6.4.1, provides a direct proof from complementary idempotents of products of frames. The block calculation itself is elementary and follows from the same frame decomposition; no blanket pullback-stability of arbitrary image-surjections is invoked.
+
+## 8. Updated audit focus
+
+The minimal all-endorelation obstacle is settled NEGATIVELY, even under reflexivity/symmetry and even for ONE Q. Focus next on the PARTICULAR special relations A,B,I,D, where closedness, fittedness, and specialization monotonicity might enforce restricted association or module identities that general symmetric reflexive relations lack. Do not conflate the one-Q example with a counterexample to specific identities such as (I∘I)∘I=I∘(I∘I).
