@@ -111,3 +111,23 @@ Proof: V=fit I is the meet of all O(w) containing I, i.e. the w with d_I∨w=1. 
 This pinpoints the necessary pathological object for a SPATIAL counterexample: a nonzero pointless **locally closed composable-pair residual**, simultaneously lying in I12, D23, and outside a chosen I-neighborhood in the 13 coordinates. In particular neither a mere pointwise zigzag nor a failure of the properness-based uniform neighborhood condition is itself a counterexample.
 
 For nonspatial X, the same algebraic iff remains true, but the proof of pointlessness cannot use the ordinary closure-meeting point formula without extra hypotheses, so do not claim the pointless conclusion there.
+
+## 9. Distributor EXACTNESS also follows from D=B A
+
+The condition D=B A yields more than mixed≤V: it restores the least-distributor formula from the coherent case, without assuming I=A B.
+
+Indeed I B=I and A I=I by the closed-relation module lemma; thus
+
+    R=I D=I B A=I A=A I A.
+
+Since I≤J, one has A I A≤A J A. The reverse A J A≤R is universal from the distributor property of R and J≤R. Hence
+
+    **R=A J A=I A**.
+
+Dually,
+
+    **R'=B J B=B I**.
+
+Both equalities are VALID in arbitrary locales whenever D=B A (for example whenever D spatial). In particular, a counterexample to **either** (i) R≤V or (ii) R=A J A must have D≠B A. (This does NOT say the two potential failures are equivalent.)
+
+This unifies the two outstanding arbitrary-locale questions: the extra part of the localic fitted diagonal beyond the specialization composite is the only possible source for either discrepancy.
