@@ -158,3 +158,35 @@ For a SPATIAL locale X to refute I D≤V, it is necessary that all of the follow
 Conditions (i)–(iv) are NOT sufficient. Condition (iv) is the exact failure certificate by §8, but the pointlessness follows from spatiality X, so unlike (i)–(iii) (iv) is equivalent to failure once w is quantified. A construction must COUPLE failure of strong Hausdorff/Fsep separation with nontrivial, nonproper inseparability; a direct product of unrelated examples should not be expected to achieve this automatically.
 
 The primary literature test for (i), sH≠Fsep, is real and externally published; the remaining coupled construction is OPEN.
+
+## 12. Exact fitting/composition reformulation, and a general proper-laxity theorem
+
+This is the cleanest categorical answer to the asymmetry question. Universally Delta≤B A≤D=fit Delta, so
+
+    **D=fit(B A).**
+
+Also I B=I, I≤I A≤V (as I≤V, V A=V). Hence
+
+    **fit(I B A)=fit(I A)=V.**
+
+Therefore the outstanding question I D≤V is EXACTLY the specialized lax distributivity condition
+
+    **I∘fit(B A) ⊆ fit(I∘B A).**
+
+No coherence or spatiality used in this equivalence. It explains why replacing U by W=cl D does not resolve the duality problem: the missing operation is an interchange of FITTING with COMPOSITION, not merely a different name for U.
+
+**General proper-laxity theorem (working).** For any locales X,Y,Z, relations S↪X×Y and T↪Y×Z, if p2:S→Y is PROPER then
+
+    **S∘fit(T) ⊆ fit(S∘T).**
+
+Proof. Let O(w)⊆X×Z contain S∘T. Consider P=S×Z, m:P→Y×Z induced by (p2,id_Z), and n:P→X×Z induced by (p1,id_Z). Since p2 is proper, m is proper, and t:=m_*(n^*w) is an open of Y×Z. Pull m back along the sublocale inclusion i_T:T↪Y×Z, whose pullback is E=S×_Y T. By proper Beck–Chevalley,
+
+    i_T^*t = (E→T)_*[(n^*w)|_E] = (E→T)_*(1)=1,
+
+because O(w) contains the image S∘T. Thus T⊆O(t), and fit(T)⊆O(t). By counit m^*t≤n^*w, on S×_Y fit(T) we have n^*w=1; hence S∘fit(T)⊆O(w). Since w was arbitrary, the desired inclusion follows.
+
+The previously obtained result S∘D⊆fit S is the special case T=Delta, because S∘Delta=S and fit Delta=D. The new identity puts that lemma into a standard-looking relation-algebra pattern. Properness is only a sufficient hypothesis, not claimed necessary.
+
+For S=I,T=B A, the theorem yields (8) under proper p2:I→X; since I is symmetric this covers both mixed orientations. The unrestricted open question is whether this ONE specialized laxity inequality remains true even when p2 is nonproper.
+
+**Research test:** find a locale where fitting fails the general proper-laxity inequality for some NONPROPER relation S and T. Such a counterexample would NOT by itself settle our problem unless S=I,T=B A; however it could reveal how to engineer the required coupled defect.
