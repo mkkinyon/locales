@@ -168,3 +168,23 @@ For symmetric I,D, converse of a binary localic composite reverses factors, no a
 Thus the special associativity assertion (I D) I=I(D I) is EQUIVALENT to symmetry of the left-bracketed relation (I D) I. Similarly (D I) D and D(I D) are converses, as are (D D) D and D(D D). A genuine failure in any of these triple words would require an asymmetric *localic image after one intermediate image*, not an ordinary four-point zigzag (the honest four-path image is symmetric under reversal).
 
 This reduction is useful for adversarial checking: proof of reflexivity/symmetry of the factors alone cannot establish symmetry of a bracketed 3-fold composite (audit I's one-Q counterexample is exactly of this type).
+
+## 10. Generalization: every OPEN finite-Alexandrov extension projection has (SC)
+
+The Banaschewski two-coordinate argument in §3 is not limited to Sierpiński.
+
+**Proposition (WORKING).** Let P be any FINITE Alexandrov poset and Y ANY locale. Let w∈O(Y×P), and put X=O(w)↪Y×P, with base projection r:X→Y. Then **r has (SC)**.
+
+Proof. Write L=O(Y). The product frame O(Y×P) identifies with Mon(P,L), the frame of monotone functions P→L with pointwise joins/meets. The open sublocale X=O(w) has frame
+
+    O(X)=↓w={a:P→L monotone : a(p)≤w(p) for all p},
+
+with top w and frame operations inherited pointwise. For any locale-surjection f:E→Y, the pullback X_E=E×_Y X is O(f*w)↪E×P, and its frame is ↓(f*∘w)⊆Mon(P,O(E)). The induced frame homomorphism ↓w→↓(f*w) sends a to (p↦f*(a(p))), which is INJECTIVE because f*:L→O(E) is injective. Thus base change along r preserves arbitrary locale-surjections. Every base change of r to Z→Y has exactly the same form O(g*w)↪Z×P, so the result is stably true.
+
+**Consequences:** If K=ker(r) for such an open finite-Alexandrov extension, the universal triple relation identity
+
+    (K S)K = K(S K)
+
+holds for ALL S⊆X², and the IID/DII-type identities of §4 hold with K. This does not imply I_X=K: the latter is guaranteed for the SINGLE-Sierpiński extension over an sH base (§5), but may fail already for TWO Sierpiński predicates. Thus this generalization is a *kernel-pair* theorem, not an unqualified theorem about diagonal hull I in every finitely generated extension.
+
+The finiteness restriction is used for the monotone-tuple presentation and should NOT be dropped without a pointfree proof of the appropriate product formula.
