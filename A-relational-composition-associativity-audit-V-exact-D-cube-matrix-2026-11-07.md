@@ -116,7 +116,7 @@ This strengthens audit IV's one-way HH implication: with a F-separated low open 
 
 ## 6. Arrieta's actual example permits a REGULAR open witness u
 
-The 2024 published construction (Construction 4.2 + Example 4.5 + Cor. 4.10) starts with the Cantor cube C, deletes a countable family of disjoint nonempty compact K_n, and makes a topological extension Y=R⊔N, where R=C\∪K_n is OPEN REGULAR (subspace of Cantor cube) and N is CLOSED DISCRETE. The resulting Y is SPATIAL, strongly Hausdorff, anti-Urysohn and non-F-separated. Source: https://pure-oai.bham.ac.uk/ws/portalfiles/portal/215992239/1-s2.0-S0166864123003784-main.pdf , printed pp. 12–14.
+The 2024 published construction (Construction 4.2 + Example 4.5 + Cor. 4.10) starts with the Cantor cube C, deletes a countable family of disjoint nonempty compact K_n, and makes a topological extension Y=R⊔N, where R=C\∪K_n is REGULAR as a subspace of Cantor cube, and is OPEN in the newly constructed Y (not necessarily open in the original Cantor cube), while N is CLOSED DISCRETE in Y. The resulting Y is SPATIAL, strongly Hausdorff, anti-Urysohn and non-F-separated. Source: https://pure-oai.bham.ac.uk/ws/portalfiles/portal/215992239/1-s2.0-S0166864123003784-main.pdf , printed pp. 12–14.
 
 **Lemma (working).** In such a Y, some witness u for D_Y>Δ_Y can be chosen with u≤R. In particular O(u) is regular, hence F-separated.
 
