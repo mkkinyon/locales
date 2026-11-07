@@ -137,3 +137,48 @@ Also, A,B≤M but A∨B may be strictly smaller than M already in finite posets:
 4. **Mixed closure:** Compare cl(I D) with W=cl D and U; universal W≤cl(I D)≤U, coherent equality U, and compact scattered T1 alpha–beta–gamma example has cl(I D)=I=W<U. Full arbitrary classification open.
 
 No claimed resolution of the stronger all-locale inclusion I D≤V, no claim to novelty for the specialization relation or its exponential classifying space. This is the recommended research continuation.
+
+## 8. Proper projection forces S∘D⊆fit S (new useful strengthening)
+
+**Theorem (working, all locales conditional on standard proper Beck–Chevalley):** Let S↪X×X be any sublocale relation. If the second projection p2:S→X is proper, then
+
+    S∘D⊆fit S.
+
+If the first projection is proper, dually D∘S⊆fit S.
+
+Proof. Let O(w) be any OPEN neighborhood of S; equivalently the restriction w|_S is 1. Consider
+
+    m:S×X→X×X, (x,y,z)↦(y,z),
+    n:S×X→X×X, (x,y,z)↦(x,z).
+
+Since m is a base change of proper p2, it is proper and satisfies Beck–Chevalley for its frame right adjoint m_*. Put
+
+    t=m_*(n^*w)∈O(X×X).
+
+Pull back m along the diagonal δ:X→X×X, yielding S→X via p2. Along this pullback, n^*w restricts to w|_S=1. Thus proper Beck–Chevalley yields
+
+    δ^*t=p2_*(1)=1.
+
+So O(t) contains Δ, hence D≤O(t). The adjunction m^*⊣m_* gives m^*t≤n^*w. Restricting to S12∧D23 then forces w13=1, as needed. Intersect over all open O(w) containing S.
+
+**Application:** For S=I, if its second projection is proper, then I D≤fit I=V. I is symmetric, so its first projection is proper too and D I≤V. By §5 both mixed products lie in U, hence:
+
+    **J≤(I D)∧(D I)≤I D,D I≤(I D)∨(D I)≤U∧V**.
+
+In particular this refined lower-diamond holds for **EVERY COMPACT LOCALE**, even noncoherent, because I is closed in X² and the projection X²→X has compact fiber and is proper.
+
+The proper base-change reference is C.F. Townsend, *On the Parallel between the Suplattice and Preframe approaches to Locale Theory*, Theorem 16 and accompanying Beck–Chevalley identity; https://www.christophertownsend.org/Documents/propopen02.pdf . The known direct proper-base-change result is essential: do NOT assert it for an arbitrary nonproper map.
+
+**Sharper obstruction formulation:** This proof only needs the specific diagonal Beck–Chevalley fact
+
+    δ^* m_* (n^*w)=1
+
+whenever w|_S=1, for m=S×X→X². Even if p2 is not proper, showing this restricted identity for S=I would suffice for the V-inclusion. In its absence, the unrestricted mixed V-inclusion remains OPEN.
+
+## 9. New conceptual disposition
+
+The properness result extends the arbitrary comparison of §5 to U∧V over every compact locale, while the universal order-distributor property of §4 holds with no compactness. Thus **arbitrary locale** progress is substantive beyond pointwise pictures: a built-in canonical partial order, its closed/fitted module actions, a pointfree cover proof of mixed⊆U, and a proper-base-change proof of mixed⊆V.
+
+Open question: Does mixed⊆V hold for every locale despite possible nonproperness? If not, look for a noncompact nonspatial-square counterexample where the diagonal Beck–Chevalley neighborhood fails. Do not claim one without a verified sublocale-level witness.
+
+Priority/literature: The order and Sierpinski exponential are demonstrably published (Fauser–Raynaud–Vickers 2012). The particular properness lemma above has not been compared exhaustively with published localic-relation theory, and no novelty claim is made.
