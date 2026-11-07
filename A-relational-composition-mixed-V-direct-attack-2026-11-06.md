@@ -89,3 +89,25 @@ The general statement 'D=O(w0)' is frame-valid without spatiality; spatiality of
 **Question 2:** The lack of duality is real but not the whole explanation. Already compactly R⊄W=cl D while R≤U∧V. The dual binary-cover proof works on disjoint-supplement strips, but noncompactly they may not generate fit I; moreover dual-far strips can lack such supplements. The actual universal target asks whether the extra pointless portion of D can propagate through I into an open neighborhood excluded by V.
 
 **Next focused test:** Take a noncompact locale with a genuinely nonspatial fitted diagonal D and nonproper inseparability projection, not an Alexandrov/prime-generated locale. Examine directly the composable-pair sublocale E for a failure of a chosen open neighborhood of I. The earlier rational-bridge V-strip counterexample is a candidate source of the requisite infinitary neighborhoods, but no verified factorization of its graph obstruction through I D has been constructed. Do not promote that possibility to a counterexample.
+
+## 8. Exact pointless-residual certificate for SPATIAL X
+
+This is a useful refinement of the necessity that E=I12∧D23 be nonspatial. Fix a spatial locale X, and for w∈Q satisfying d_I∨w=1 put
+
+    E_w=I12 ∧ D23 ∧ C(w13) ⊆ X³.
+
+Here C(w13) is the closed sublocale complementary to the open O(w13). Because pulling back a closed sublocale along E↪X³ gives the closed sublocale defined by w13|_E, it is nonzero precisely when the restriction w13|_E is not top.
+
+**Proposition (working).** For any SPATIAL X,
+
+    R=I D not≤ V
+    iff
+    ∃w∈Q with d_I∨w=1 and E_w≠0.
+
+Moreover every such E_w is a **pointless locale**.
+
+Proof: V=fit I is the meet of all O(w) containing I, i.e. the w with d_I∨w=1. Image relation R fails to lie in V iff for one such w, E fails to lie in O(w13), equivalently E_w is nonzero. Suppose E_w had a point. Its coordinate triple (x,y,z) consists of locale points of spatial X, with x I y and y D z. Spatiality of X and the cover characterization of D furnish a point t≤y,z. As I is closed, x I t, and V (fitted) contains (x,z) since (x,t)∈I and t≤z. Thus w(x,z)=1 because V≤O(w), contradicting C(w13). Hence E_w has no points.
+
+This pinpoints the necessary pathological object for a SPATIAL counterexample: a nonzero pointless **locally closed composable-pair residual**, simultaneously lying in I12, D23, and outside a chosen I-neighborhood in the 13 coordinates. In particular neither a mere pointwise zigzag nor a failure of the properness-based uniform neighborhood condition is itself a counterexample.
+
+For nonspatial X, the same algebraic iff remains true, but the proof of pointlessness cannot use the ordinary closure-meeting point formula without extra hypotheses, so do not claim the pointless conclusion there.
