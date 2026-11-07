@@ -114,3 +114,38 @@ The abstract theorem does NOT say arbitrary I_X equals ker(c), or that D_X is al
 **Remaining investigation:** DDD on X_u; arbitrary-X associativity of IDI/IID/IDD; arbitrary-X full A-distributor. Priority and external correctness audit for §§2–6 remain open.
 
 Proof-audit checks: justify open-map image base change; verify left adjoint r_!(a,b)=b and Frobenius on M; check c²=c and x≤cx at the frame level; use the GENERIC POINT of each composable-pair sublocale rather than ordinary points; keep parenthesization explicit until equality is established.
+
+## 8. Exact table of all three-letter words except FFF
+
+In the abstract setting of §7 (open inflationary idempotent c, K=ker c, F fitted), write c1=c×id and c2=id×c. Both parenthesizations have identical results:
+
+    KKK = K,
+    KKF = c1^-1 F,
+    KFK = (c×c)^-1 F,
+    KFF = c1^-1(F²),
+    FKK = c2^-1 F,
+    FKF = F²,
+    FFK = c2^-1(F²),
+    FFF = UNDECIDED.
+
+The new formula KFK=(c×c)^-1 F follows directly: in the source for (KF)K, one has F(c x,y), yKz. Since y≤c y=c z, fittedness gives F(c x,c z); conversely if F(c x,c z), choose y=c z. The alternative bracketing follows by symmetry. This gives a useful all-case normal form: only the genuinely self-composed fitted relation F³ might be nonassociative in such a locale.
+
+## 9. Reduction of F² to high-intermediate witnesses
+
+Let c=s r:X_u→X_u and F fitted (no extra assumption). Let E_FF⊆X³ be the composable-pair source, with generalized triple x F y F z. As y≤c y and F upward in both coordinates, such a triple yields x F c y F z. Conversely, every x F c y F z is already a valid F² witness using middle c y. Therefore **F² is the localic image of the high-intermediate source**
+
+    H₂={(x,t,z)∈X×Y×X: x F s(t), s(t) F z}
+
+under projection to (x,z).
+
+For F=D_X, its restriction along s×s:Y²→X² is EXACTLY D_Y:
+- D_Y≤(s×s)^-1(D_X) by preservation of fitted-diagonal relation under ANY locale map;
+- reverse: for every cover C of O(Y), its image {r*(a):a∈C} is a cover of O(X), so a pair of high points in D_X satisfies the C test after applying s*, hence lies in D_Y.
+
+Consequently, the HONEST four-coordinate witness image for D³ can be computed from two Y-valued high intermediates:
+
+    {(x,t,v,z): x D_X s(t),   t D_Y v,   s(v) D_X z} ⊆ X×Y²×X.
+
+Every honest D³ chain x D y D m D z upgrades both middle points to c y,c m; conversely every displayed path yields a D³ chain using s(t),s(v). The two bracketings of DDD each CONTAIN this honest endpoint image, but may contain more if the intermediate D²-image surjection becomes non-surjective under the next pullback. Thus this reduction is an exact normal form for the honest path image, NOT a proof that DDD associates.
+
+This isolates the remaining obstruction to how images of the high-intermediate D_Y paths behave under base change along the X-to-Y mixed fitted slices. There is no obvious implication from D_Y non-F-separatedness to DDD nonassociativity.
