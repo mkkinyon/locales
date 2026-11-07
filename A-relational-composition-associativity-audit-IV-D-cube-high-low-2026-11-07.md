@@ -152,3 +152,24 @@ But D_P(x,y) fails, and D_P²(x,y) fails: since x,y are minimal, a two-step comm
     D_P²=V_P ≠ P²=U_P.
 
 This is a useful control against the tempting but FALSE shortcut "anti-Urysohn ⇒ D²=top." For Arrieta's noncoherent example the dense fitted diagonal and total U/W/H/F do not decide D² or D³, just as §5 cautions.
+
+## 10. Four explicit HONEST high-intermediate D³ path sources
+
+Write G=D_Y and E=D_U, with j:U↪Y. In the high-intermediate path locale
+
+    H3={(x,t,v,z):x D_X s(t), t G v, s(v) D_X z},
+
+the layer of each ENDPOINT gives the following *genuine path SOURCE* conditions (not yet iterated relation products):
+
+    high→high:  G(x,t),  G(t,v),  G(v,z)
+    low→high:   E(x,t),  G(t,v),  G(v,z),       t∈U
+    high→low:   G(x,t),  G(t,v),  E(v,z),       v∈U
+    low→low:    E(x,t),  G(t,v),  E(v,z),       t,v∈U.
+
+These follow immediately from the four-block fitted-diagonal formula of §2 and do NOT invoke associativity or any image pullback along a closed endpoint block.
+
+The last line is subtle: the middle G(t,v) is the restriction of D_Y to U×U, which can STRICTLY exceed E=D_U. Thus the low-low honest path is not automatically the threefold E-path; a nonlocal defect from Y may pass between two E-steps even with BOTH endpoints low.
+
+The selected published non-Fsep witness T=D_Y∧O(u⊠u*) has middle bases in U and U*, so it can drive the LOW→HIGH configuration but cannot directly populate the LOW→LOW line (where both middle bases lie in U). This matters for looking for a *different* DDD associativity defect rather than recycling the original ID⊄V witness.
+
+Caution repeated: these are calculations of path SOURCE restrictions; the restriction of an IMAGE of H3 along a closed low endpoint may strictly exceed the image of its restricted source, owing to the same nonstable-surjection issue driving the whole investigation.
