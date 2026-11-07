@@ -1,3 +1,5 @@
+> **SUPERSEDED 7 Nov 2026 — UNIVERSAL MIXED INCLUSION NOW REFUTED:** [Negative transfer theorem and rigorous witness](A-relational-composition-mixed-V-negative-transfer-2026-11-07.md) proves that for any strongly Hausdorff non-F-separated Y, the single-generator open extension X=O(u∨e)⊆Y×S violates I_X∘D_X⊆V_X. The positive finite-predicate theorem BELOW is unaffected: it assumes the base Y is REGULAR (hence F-separated), while the counterexample base is specifically non-F-separated. Earlier sections describing the universal inclusion as OPEN are historical and superseded. Full proof and test characterization in the new note. This is an internally checked theorem, pending adversarial external audit and publication priority check.
+
 # Project A — Two-predicate frame extensions: localic semilattices, Boolean-base obstruction, and dense-stratum tests
 
 7 November 2026. WORKING research note, independently adversarial audit still required. Main question I∘D⊆V remains OPEN. Do not claim the two-predicate constructions below refute it. User offered access to Banaschewski 1992; abstract and secondary sources presently available, full text not verified.
