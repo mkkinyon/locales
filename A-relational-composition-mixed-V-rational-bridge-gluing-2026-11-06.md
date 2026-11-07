@@ -171,3 +171,7 @@ The results now eliminate two distinct defect mechanisms:
 Therefore a counterexample to I D≤V obtained by modifying rational/open-layered constructions must evade BOTH restrictions. A natural controlled next class is a sublocale of Y×S² (two interacting open predicates), where the Sierpinski fibre meet/join proof no longer automatically works. The antichain example in §9 demonstrates this loss of automatic fibre-lattice closure, but is itself finite/coherent and cannot refute mixed≤V.
 
 A second route is to retain one open predicate but use a base Y whose diagonal is not both closed and fitted; that route reintroduces the original separation problem in the base and may be less informative.
+
+## 13. Literature-priority checkpoint (not a verification of novelty)
+
+The special embedding X↪Y×S is a singly generated extension of the frame O(Y): a new open predicate is adjoined to the base opens. Existing literature is relevant, notably B. Banaschewski, *Singly generated frame extensions*, J. Pure Appl. Algebra 83 (1992), 1–21, cited by Arrieta–Picado–Pultr, *A new diagonal separation and its relations with the Hausdorff property*, Appl. Categ. Struct. 30 (2022), 247–263. Their paper also discusses weak/almost homomorphisms and 'simple extensions'. The present theorem may be an instance or easy consequence of known extension theory. No claim of novelty is appropriate until those sources have been read directly. The concrete I=D=kernel pair proof above is self-contained at the level of frame quotients and localic specialization relations.
