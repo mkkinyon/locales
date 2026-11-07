@@ -116,3 +116,27 @@ The four-layer formula gives the relation data entering H3; the remaining diffic
 **Established here as WORKING statements:** exact D_X four-block description; high-high restriction of any parenthesized D_X word = corresponding D_Y word; density of D_Y and D_X, and W=U=top in Arrieta's anti-Urysohn setting. **NOT resolved:** D_Y³ association; D_X³ association; arbitrary-X I/D associativity; whether source image H2→F² remains surjective under F projections. The earlier seven-of-eight associativity theorem for X_u remains unaffected.
 
 Recommended next test: seek a characterization of surjection stability for the particular H2→F² map using the F cover formula and/or identify an explicit nonzero residual E from the published anti-Urysohn base. No implication from nontransitivity F²⊄F to nonassociativity is asserted. External adversarial audit recommended before extending categorical conclusions.
+
+## 8. A further hierarchy consequence: H and F are TOTAL in the anti-Urysohn test
+
+Let Z be any spatial anti-Urysohn locale as in §5. We proved W_Z=cl D_Z=Z² and U_Z=Z². Since H_Z is by definition CLOSED and FITTED and contains Δ_Z, it contains fit Δ_Z=D_Z and hence cl D_Z=Z², so
+
+    **H_Z=Z².**
+
+The universal inclusion U_Z≤F_Z (formal/functionally-indistinguishable relation) yields
+
+    **F_Z=Z².**
+
+Thus for Arrieta's strongly Hausdorff anti-Urysohn base Y:
+
+    **I_Y=Δ_Y < D_Y=V_Y < W_Y=U_Y=H_Y=F_Y=Y²**.
+
+The strict D_Y<Y² follows from Hausdorff/T1 diagonal-cover separation, as explained in §5. We also have I_Y≤D_Y since I=Δ.
+
+For the singly generated transfer X_u over that Y:
+
+    **I_X=K ≤ D_X=V_X < W_X=U_X=H_X=F_X=X²**,
+
+where K is a proper closed kernel pair and D_X is dense but proper; strict K<D_X holds in the independently refereed transfer example, since I D not≤V=D and K=I with K≤D (if K=D, then I D=D² and nontransitivity doesn't alone rule equality K=D; but K=D would force K²=K, contradict D²⊄D). Thus both inclusions are strict in the selected counterexample.
+
+These are strong Hasse-diagram consequences of anti-Urysohn topology, but still DO NOT decide associativity of D³. In particular, every three-letter D-word has dense closure, which cannot distinguish its two bracketings.
