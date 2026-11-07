@@ -141,3 +141,33 @@ The ORIGINAL rational bridge is strongly Hausdorff by §2 (I=Δ, so R=D=V). The 
 The promising remaining test must involve inseparability that is NOT fully explained by a single Sierpinski-coordinate fibre lattice, and simultaneously a fitted diagonal whose nonspatial part DOES NOT reduce to B A. A plausible modification involves two or more interacting open predicates (S²-like fibres), plus a nonlocallycompact boundary, but the elementary finite S² example only refutes the overly broad kernel-pair theorem and provides NO mixed-composition counterexample.
 
 The unrestricted inclusion I D≤V remains OPEN; it is proved for compact I-proper projections, spatial D, and the Sierpinski-fiber class in this note. Do not claim the stronger inclusion settled by the negative controls. New theorems in §§2,8 unrefereed; verify frame quotient/evaluation and spatial-product restrictions independently.
+
+## 11. Whole-hierarchy version over a functionally separated base
+
+The Sierpinski-fiber theorem of §8 has an additional uniform corollary.
+
+Suppose Y has Δ_Y closed and fitted AND F_Y=Δ_Y, i.e. its continuous real-valued functions jointly separate the locale diagonal. For any sublocale X↪Y×S with projection r:X→Y, §8 gives I_X=D_X=K=ker(r). Because every real-valued function f on Y yields f∘r on X,
+
+    F_X≤(r×r)^-1(F_Y)=K.
+
+The universal inclusions I_X⊆U_X⊆F_X and D_X⊆V_X⊆F_X give
+
+    **I_X=D_X=U_X=V_X=W_X=H_X=F_X=K**,
+
+and M_X=J_X=K as well. Thus the full collapse does NOT rely on having a single real-valued projection r:X→R; any functionally separated base Y suffices.
+
+For the rational-open line the base is ordinary R, so this recovers §8's stated collapse.
+
+**Caution:** Do not replace the exact assumption F_Y=Δ_Y by 'Y is regular' without citing/proving the corresponding functional-separation theorem in the localic sense. Complete regularity may supply it classically, but the exact hypothesis avoids implicit spatial or choice assumptions.
+
+## 12. New conceptual boundary for a counterexample
+
+The results now eliminate two distinct defect mechanisms:
+
+(A) If the nonregular boundary attached to a regular open sheet is a closed locally compact sober locale, the gluing theorem forces I=Δ and mixed composition collapses trivially.
+
+(B) If the structure is carried by a SINGLE added Sierpinski open predicate over a base whose diagonal is closed/fitted, the kernel-pair theorem forces D=B A and mixed inclusion holds, even though I and D may both be nonspatial.
+
+Therefore a counterexample to I D≤V obtained by modifying rational/open-layered constructions must evade BOTH restrictions. A natural controlled next class is a sublocale of Y×S² (two interacting open predicates), where the Sierpinski fibre meet/join proof no longer automatically works. The antichain example in §9 demonstrates this loss of automatic fibre-lattice closure, but is itself finite/coherent and cannot refute mixed≤V.
+
+A second route is to retain one open predicate but use a base Y whose diagonal is not both closed and fitted; that route reintroduces the original separation problem in the base and may be less informative.
