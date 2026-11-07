@@ -1,3 +1,5 @@
+> **7 Nov 2026 — INDEPENDENT BLIND REFEREE REPORT ACCEPTED; ERRATA RECONCILED:** [Post-referee reconciliation with self-contained corrected frame proof](A-mixed-composition-external-audit-reconciliation-2026-11-07.md). External referee independently confirmed negative theorem, SPATIAL realization, nontransitivity, and F-separatedness characterization. Corrections: (i) prove F0 D F1 directly rather than invoking I≤D prematurely; (ii) define the specialization SUBLOCALE and explicitly prove K≤I,D in the kernel-pair refinement; (iii) explain that pullbacks preserve closed/fitted sublocales; (iv) avoid "topological simple extension" terminology; (v) note witness T is POINTLESS for the spatial input. Main theorem needs no associativity of localic composition. PRIORITY not fully checked. The external referee's further note that image-defined localic composition may fail associativity applies to EARLIER composition identities, not this single-composition theorem.
+
 > **7 Nov 2026 — POST-BANASCHEWSKI INTERNAL AUDIT (PASS; EXTERNAL BLIND AUDIT PENDING):** [Detailed independent frame-proof audit and source reconciliation](A-mixed-composition-internal-audit-and-banaschewski-2026-11-07.md). Banaschewski (1992) Prop. 2.1 identifies M=O(O(u∨e)) as the singly generated frame {(a,b):a≤u, a≤b}, top (u,1), η(a)=(a∧u,a), c=(0,1). Given nonzero T=D_Y∧O(u⊠u*), frame maps h,k:L→O(T) satisfy h(u)=1,k(u)=0 and all-cover compatibility. The three FRAME homomorphisms F0(a,b)=h(a), F1(a,b)=h(b), G1(a,b)=k(b) witness F0 I F1 D G1. The open w=c_left∨η(u)_right contains I_M because I_M≤K=ker(X→Y) CLOSED, but w(F0,G1)=0. This proves I_M D_M⊄V_M with NO reliance on the more elaborate K=AB=BA equality, and no ordinary points. Arrieta (2024) Cor. 4.10 supplies a SPATIAL strongly Hausdorff non-Fsep base, hence the counterexample X can itself be SPATIAL. Banaschewski's Θ={(a,b):a∧u=b∧u}, Φ=Δ imply non-epi, and his Prop. 4.10 predicts nonseparated M (consistent). CAREFUL: Banaschewski Appendix A.6 concerns topological simple extensions, DIFFERENT from frame-single-generator extensions. His sH/nonfit examples are Fsep according to Arrieta (2024), and cannot replace Arrieta's newer existence source. Core proof internally PASS; external independent audit outstanding. Originality unverified.
 
 # Project A — Mixed composition into V FAILS for arbitrary locales: simple-cover transfer of non-F-separatedness
@@ -35,6 +37,8 @@ Define
 where e is the nontrivial Sierpinski open and u the Y-open. Let r:X_u→Y be projection. There is a global section s1:Y→X_u, y↦(y,1), and a zero-Sierpinski section over the open O(u)↪Y, y↦(y,0).
 
 Let K=X_u×_Y X_u, the localic kernel pair.
+
+For clarity, let A_X⊆X² be the canonical specialization-order SUBLOCALE imposing f*(a)≤g*(a) for all a∈O(X) on generalized pairs f,g, and B_X=A_X^smile. (The words "canonical specialization relation" do not suffice without this sublocale definition.)
 
 **Lemma (single-generator kernel calculation over an sH base).**
 
@@ -80,17 +84,17 @@ Since T≠0, E does not lie in O(w13), hence the image R=I_X∘D_X does NOT lie 
 
     **I_X∘D_X NOT⊆ V_X.**
 
-By reflexivity K=I_X≤D_X, we also get
+Independently of the kernel-pair refinement, the same triple witnesses NONTRANSITIVITY of D_X: F0≤F1 gives (F0,F1)∈D_X by the arbitrary-cover criterion, since for every M-cover {(a_i,b_i)}, ⋁_i F0(a_i,b_i)∧F1(a_i,b_i)=⋁_i h(a_i)=h(u)=1. Also (F1,G1)∈D_X, yet the endpoint pair kills w and D_X≤O(w) (because w contains the diagonal). Thus
 
     D_X∘D_X NOT⊆ D_X,
 
-so D_X is NOT internally transitive despite I_X being an internal equivalence relation. Since I,D symmetric, taking converses gives
+although I_X=K is an internal equivalence relation. Since I,D symmetric, taking converses gives
 
     D_X∘I_X NOT⊆ V_X.
 
 This is a FULL LOCALIC counterexample: no ordinary point of T needed, no assumption of spatiality of any localic product, and the obstruction is exhibited by an explicit map from NONZERO locale T into the composable-pair locale. It does not contradict the universal mixed⊆U inclusion.
 
-## Universal characterization by simple coverings
+## Universal characterization by singly generated Sierpinski gluings
 
 **Corollary (WORKING equivalence).** For any strongly Hausdorff locale Y, the following are equivalent:
 
@@ -108,7 +112,7 @@ Thus the new negative result is not just existential: the entire obstruction is 
 
 The preceding positive theorem says if Y has Δ_Y BOTH closed and fitted, then ANY sublocale X↪Y×S has I_X=D_X=ker r, hence mixed≤V. The negative construction requires an sH but non-Fsep base, where the base's fitted diagonal defect is transferred into the 1-fiber of X and composed with a nontrivial kernel-pair edge across S-fibers.
 
-The new X_u is actually an OPEN sublocale of Y×S, showing that even an open simple extension suffices once the base lacks F-separatedness. The easy mixed≤U proof remains true universally; the strict cross-hull inequality W<U was a signal of duality asymmetry but NOT the actual counterexample mechanism. Here the failure is a precise fitting/composition non-distributivity with S=I_X, T=BA_X=K.
+The new X_u is actually an OPEN sublocale of Y×S, showing that even an open singly generated frame extension suffices once the base lacks F-separatedness. The easy mixed≤U proof remains true universally; the strict cross-hull inequality W<U was a signal of duality asymmetry but NOT the actual counterexample mechanism. Here the failure is a precise fitting/composition non-distributivity with S=I_X, T=BA_X=K.
 
 ## Audit checklist
 
