@@ -190,3 +190,15 @@ The previously obtained result S∘D⊆fit S is the special case T=Delta, becaus
 For S=I,T=B A, the theorem yields (8) under proper p2:I→X; since I is symmetric this covers both mixed orientations. The unrestricted open question is whether this ONE specialized laxity inequality remains true even when p2 is nonproper.
 
 **Research test:** find a locale where fitting fails the general proper-laxity inequality for some NONPROPER relation S and T. Such a counterexample would NOT by itself settle our problem unless S=I,T=B A; however it could reveal how to engineer the required coupled defect.
+
+## 13. General laxity really CAN fail without properness (elementary finite control)
+
+Do not assume S∘fit T≤fit(S∘T) for arbitrary nonproper S; it is FALSE even for finite Alexandrov locales when S is not closed.
+
+Let X=Z=1 and let Y={0<1} with upper Alexandrov opens. Take S↪X×Y=Y to be the open singleton {1}, and T↪Y×Z=Y to be the closed singleton {0}. The fitted hull of T is the entire Y (upward closure of 0), so S∘fit(T)=1. But S∘T=0 (no shared middle point), and fit(0)=0. Thus
+
+    S∘fit(T) not≤fit(S∘T).
+
+The second projection S→Y is not proper: its image {1} is not closed in Y. This finite example does NOT refute our original question, since S is not I and is not closed. It does show that a universal fitting/composition distributive law is untenable; a proof for S=I must use the closed, symmetric diagonal-generated structure of I, not merely formal fitting axioms.
+
+In fact for the original S=I, compactness supplies properness automatically, so a genuine counterexample would require noncompact/nonproper behavior invisible in these finite tests.
