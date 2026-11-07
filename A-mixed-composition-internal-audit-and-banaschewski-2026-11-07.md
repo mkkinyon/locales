@@ -53,3 +53,18 @@ Checked: nonzero rectangle extraction through a JOIN-PRESERVING frame quotient (
 Literature correction: our earlier Hausdorff gluing criterion is closely related to Arrieta (2024), Proposition 4.1, explicitly a generalization of Banaschewski (1992) Proposition A.6. Do NOT claim novelty for its spatial-multiplier form. Originality of the NEW mixed-composition transfer remains unverified. The earlier finite-generator/regular-base and proper-base-change working results were not fully reaudited in this segment.
 
 **Decision:** request an independent BLIND audit of the main frame construction, the source existence statement, the kernel-pair refinement, and the exact F-separatedness equivalence. Blind auditors should not see this internal verdict before writing their reports.
+
+## 7 Nov 2026 addendum — Independent referee comparison and corrections
+
+The blind external referee subsequently received the INTERNAL audit only after completing its own report. Both independently certified the headline negative theorem and spatial strengthening. The post-referee reconciliation is in [A-mixed-composition-external-audit-reconciliation-2026-11-07.md](A-mixed-composition-external-audit-reconciliation-2026-11-07.md).
+
+Corrections to this internal record:
+1. The assertion that D∘D⊄D is independent of the kernel-pair refinement was previously justified via I≤D, which was proven only in that refinement. The correct INDEPENDENT proof is F0≤F1 ⇒ (F0,F1)∈D by the ALL-cover criterion, using ⋁_i h(a_i)=h(u)=1 for every cover of the extension M.
+2. The kernel-pair refinement was too compressed: sH(Y) proves I_X≤K; the reverse K≤I_X requires the common-upper construction (p∨q). K≤D_X requires common lower (p∧q), and A_X must be defined as an actual specialization-order SUBLOCALE, not merely an order on maps.
+3. The former "contingency" about pullback stability of closed/fitted sublocales is discharged by standard pullback formulas and Arrieta (2024), Prop. 2.1.
+4. Avoid "topological simple extension" for this X_u: Banaschewski's Appendix uses the term for a dense open extension with discrete remainder. Prefer "singly generated frame extension" or "Sierpinski gluing".
+5. For Arrieta's SPATIAL Hausdorff base, T is necessarily POINTLESS (not just possibly pointless) and the ordinary-point zigzags satisfy the mixed inclusion. The localic image failure is genuinely point-free.
+
+The blind referee also warned that image-defined localic relational composition may fail associativity in Loc; this does not affect the certified negative theorem, but does require a separate audit of earlier arbitrary-locale and coherent composition manipulations using associativity.
+
+**Updated decision:** core theorem fully independently referee-verified; subsidiary claims verified after proof/exposition repairs; priority remains open. The historical text above is preserved for transparency.
