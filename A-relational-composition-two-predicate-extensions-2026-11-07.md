@@ -172,3 +172,82 @@ All Y_p are dense sublocales of Y; therefore their pairwise meets contain the le
 Use the four-sublocale model with Y=R (or another regular NON-Boolean base) and CHOOSE Y_p as a mixture of open, closed, dense and nonspatial sublocales, rather than requiring each P_p to arise from a fixed dense ordinary subset.
 
 First determine for a given configuration whether D=B A (do not assume it from the pointwise finite-poset formula). If strict, test the exact mixed residual E_w=I12∧D23∧C(w13) for a candidate neighborhood w of I. This is more controllable than attempting all arbitrary 3-fold coproduct identities at once. In all cases the actual localic image/pullback calculation must be audited; pairwise point relations are not enough.
+
+## 12. MAJOR STRENGTHENING: REGULAR BASE IMPLIES D=B A FOR EVERY FINITE POSET FIBER
+
+**Theorem (NEW WORKING, localic proof).** Let Y be REGULAR and P FINITE Alexandrov. For any sublocale X↪Y×P:
+
+    **D_X = B_X∘A_X**.
+
+Consequently
+
+    **I_X∘D_X = I_X∘A_X = A_X∘J_X∘A_X ≤ U_X∧V_X**,
+
+and similarly with I,D reversed. Here A_X denotes the canonical specialization-order sublocale and B_X=A_X^smile. The universal inclusion I D≤U is from the preceding segment.
+
+**Dependency facts, to be independently audited:**
+(a) Regular locale Y is strongly Hausdorff (specialization equality on all generalized points), F-separated (Δ_Y fitted), and FIT (EVERY sublocale of Y is fitted). Standard regular⇒fit in J. Martínez, CMUC 49 (2008), Def/Remarks 5.1; fit⇔all sublocales fitted (Picado–Pultr, Arrieta).
+(b) Finite P gives frame O(Y×P)=Mon(P,O Y) and finite slice-join decomposition of EVERY sublocale, as in §9.
+(c) Relational image is left adjoint to inverse image on sublocales and hence preserves arbitrary sublocale joins.
+
+**Step 1: canonical specialization on slices.** Write X=join_p(Y_p×{p}), where Y_p↪Y arbitrary sublocales. Since Y is strongly Hausdorff, any two generalized maps f,g to X that are specialization-comparable must have equal Y-coordinate. A pair with fixed labels p,q and equal Y-coordinate satisfies f≤g iff p≤q: X-open values are inherited from monotone Y×P opens via the quotient i*. Thus A_X on (p,q) is the diagonal-base sublocale Y_p∧Y_q if p≤q, and zero otherwise; B_X is the converse.
+
+**Step 2: calculate the genuine LOCALIC image B A.** Let E=B_{12}∧A_{23}↪X³. It lies over the diagonal base in Y³ and has a finite decomposition into triple label slices (p,t,q). Such a slice is precisely Y_p∧Y_t∧Y_q↪Y for t≤p,q, and zero otherwise. The localic image E→X² preserves joins of these finitely many source slices; on each slice its map to the (p,q) target is the inclusion of that meet sublocale into the base diagonal. Hence its image has (p,q)-component
+
+    R_{pq}=join_{t≤p,q}(Y_p∧Y_q∧Y_t)
+           =(Y_p∧Y_q) ∧ (join_{t≤p,q}Y_t).
+
+These equalities are of sublocales of Y, including pointless intersections; NO calculation on ordinary point sets is used.
+
+**Step 3: construct a fitted ambient relation.** Put
+
+    H_{pq}=join_{t≤p,q}Y_t    as sublocale of Y.
+
+Because Y is fit and the lower cones are finite, each H_{pq} is fitted (finite join of fitted sublocales). The H_{pq} increase as p,q increase, so their tuple defines a FITTED sublocale H↪Y×P².
+
+**Finite fitted tuple lemma:** For any finite poset Q and any increasing tuple (H_s)_{s∈Q} of FITTED sublocales of Y, the join_s(H_s×{s}) is FITTED in Y×Q. Proof: given s and an open a∈O(Y) with H_s≤O(a), define an ambient monotone open w^s_a:Q→O(Y) by w(t)=a for t≤s and w(t)=1 otherwise. Then this open contains every slice H_t; intersecting all such opens over s,a recovers H_s on each slice, hence the original relation. This uses uniqueness of the finite-slice representation, not spatial points.
+
+**Step 4: intersect the diagonal base.** The kernel pair K=X×_Y X is fitted in X² because Δ_Y fitted. K is itself an embedded sublocale of Y×P² (via equality of the two Y coordinates). Its (p,q)-slice is Y_p∧Y_q. By Step 2,
+
+    B_X A_X = K ∧ (restriction of H along K↪Y×P²).
+
+Inverse image of fitted H is fitted INSIDE K. Since K is fitted in X², every fitted sublocale of K is fitted in X² (an open of K is restriction of an open of X², so expressing such a sublocale as a meet of K-open neighborhoods and then using K's fittedness gives an ambient fitted presentation). Hence B_X A_X is fitted.
+
+Finally Δ≤B A≤D=fit Δ universally, so fittedness forces D=B A.
+
+**Scope:** The finiteness of P is used for (i) the slice join decomposition and (ii) finite joins of fitted Y_t. Regularity can be weakened to Y strongly Hausdorff and fit, provided Δ_Y is fitted. NO assertion for an infinitely generated extension or for a base lacking fitness.
+
+**Consequences for this note:**
+- §4 Boolean-base theorem becomes a SPECIAL CASE; the proof here is more general.
+- §6 four dense real strata has **D=B A**, despite D being NONSPATIAL. Thus its mixed composition DOES lie in V; it cannot provide a counterexample. The earlier undecided question is resolved positively.
+- The antichain control of §5 is likewise subsumed, though its failure of both semilattice alternatives remains instructive.
+- The search for two finitely many interacting opens over a regular base is EXHAUSTED for the present target. Any counterexample by this route must use INFINITELY many new open predicates, or abandon regular/fit strongly separated base.
+
+## 13. Coherent-style I=A B can still fail: one finite extension over regular R
+
+Let Y=R with usual topology; P=S² labels 00,10,01,11. Choose
+
+    Y_10=Y_01=Y,
+    Y_11=Q (the dense spatial rational sublocale of Y),
+    Y_00=0.
+
+Let X=join_p(Y_p×{p})↪Y×S². Ordinary points l_y at (y,10) and r_y at (y,01) are inseparable for EVERY y∈Y: any neighborhoods in the subspace have common points (t,11) for rationals t near y. Thus (l_y,r_y)∈pt(I_X).
+
+On the other hand, AB has cross slice (10,01) equal to the sublocale Y_10∧Y_01∧Y_11=Q, because 11 is the ONLY common upper label and the image of the corresponding mediator-slice Q→Y is the inclusion of Q (no closure taken). For irrational y, (l_y,r_y) is NOT a point of AB. Thus
+
+    I_X > A_X B_X
+
+as genuine relations, even for a TWO-generator extension over a regular real-line base.
+
+By §12, D_X=B_X A_X nonetheless; therefore I_X D_X≤V_X and exact least-distributor formula hold. This realizes the coherent factorization ASYMMETRY (I may exceed AB, D=BA) while still proving the target mixed inclusion.
+
+**Further conceptual interpretation:** In the P² slice labels (10,01), closure of the dense upper mediator Q creates inseparability beyond existence of an actual common upper specialization. The fitted-diagonal side is protected because EVERY base sublocale is fitted, so the finite lower-mediator slice join is itself fitted. These are different mechanisms; no claim that I on every slice equals simply Kpq∧cl_Y(Y11) without checking closure/pullback interchange.
+
+## 14. Next actual frontier
+
+The finite-generator/regular-base strategy is now a POSITIVE CLASS, not a prospective counterexample family. The next meaningful attack is either:
+
+1. an **infinitely generated** extension X↪Y×S^I over a regular base, where the finite slice decomposition and finite fitted joins fail; or
+2. a finite extension over a base with nontrivial inseparability and failure of fit, so D of that base carries an obstruction.
+
+In either case, the old exact witness E_w=I12∧D23∧C(w13) remains decisive, and real localic image/pullback operations must be checked. Do not simply extrapolate the finite matrix theorem to infinite P.
