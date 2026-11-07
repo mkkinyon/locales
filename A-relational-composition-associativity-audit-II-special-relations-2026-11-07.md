@@ -143,9 +143,7 @@ We do **not** obtain the other two equations (I D)A=I D or A(D I)=D I from this 
 Confirmed from prior audit I:
 - for coherent X, patch-closed spectral relations associate (including A,B,I,D);
 - for compact X, CLOSED relations associate (including all powers of I);
-- if I=Δ (strong Hausdorff), or D=Δ (F-separated), all words in I,D trivially associate because Δ is a two-sided unit (though D³ alone may still be ambiguous in the sH case! see CAUTION below).
-
-**CAUTION/correction:** The preceding bullet about I=Δ must be read carefully: if I=Δ but D need not be transitive, then words involving THREE D's are DDD and may still associate or not; the statement "all words in I,D trivially associate if I=Δ" is FALSE for DDD. Analogously if D=Δ, III may still be nonassociative outside compact/coherent, even if I is nontransitive. Only words involving at least one identity factor associate trivially when the other two factors compose ordinarily. In coherent or when all remaining relation powers are controlled there is no issue.
+- if I=Δ (strong Hausdorff), EVERY length-three word involving at least one I associates trivially by the unit law, but DDD still needs checking. Dually if D=Δ (F-separated), every word involving D associates, but III may remain ambiguous. These cases must not be conflated with general associativity of the one surviving nontrivial relation.
 
 Genuine unresolved directions:
 - arbitrary X: (I D)I ?= I(D I);
@@ -154,3 +152,19 @@ Genuine unresolved directions:
 - all-locale distributor saturation A(I D), (I D)A, and least A-saturated hull.
 
 No assertion that nontransitivity D²⊄D entails nonassociativity of D³. No priority claims.
+
+## 8. Distinctness of SC from properness, and the residual distributor question
+
+Take the sH/non-Fsep base Y and u given by Arrieta's published spatial existence theorem and the independent mixed-composition audit. For X_u, the projection r_u is (SC) by the two-coordinate proof. However its kernel-pair projections K→X_u CANNOT be proper, since the previously proved proper-projection lemma would then give K∘D≤fit(K)=D, contradicting the independently refereed counterexample. Because properness is stable under pullback, r_u is itself NOT proper. Thus (SC) is a genuine route to restricted associativity beyond properness.
+
+For S=D, §4 proves K(K D)=K D and (D K)K=D K. The specialization-order relation A satisfies Δ≤A≤K, so A(K D)=K D and (D K)A=D K. But these facts do NOT yield (K D)A=K D or A(D K)=D K; passage of A through an intermediate image remains subject to surjective-image base-change behavior. The original all-locale distributor claim should therefore stay UNPROVED, with only the indicated half-actions established for X_u.
+
+## 9. Literal associativity tests by symmetry
+
+For symmetric I,D, converse of a binary localic composite reverses factors, no associativity needed:
+
+    ((I D) I)^smile = I (D I).
+
+Thus the special associativity assertion (I D) I=I(D I) is EQUIVALENT to symmetry of the left-bracketed relation (I D) I. Similarly (D I) D and D(I D) are converses, as are (D D) D and D(D D). A genuine failure in any of these triple words would require an asymmetric *localic image after one intermediate image*, not an ordinary four-point zigzag (the honest four-path image is symmetric under reversal).
+
+This reduction is useful for adversarial checking: proof of reflexivity/symmetry of the factors alone cannot establish symmetry of a bracketed 3-fold composite (audit I's one-Q counterexample is exactly of this type).
