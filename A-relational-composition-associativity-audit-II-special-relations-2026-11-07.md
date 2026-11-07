@@ -42,7 +42,7 @@ Call a locale map p:T→Y **stably surjection-conservative under pullback**, abb
 
     E×_Z (T×_Y Z) → T×_Y Z
 
-is again surjective (equivalently: its frame inverse-image is injective). The property is expressly stronger than p being a surjection or open, and is stable under arbitrary base change by definition. Every isomorphism and every open-embedding pullback satisfy (SC).
+is again surjective (equivalently: its frame inverse-image is injective). This is a base-change property, distinct in formulation from ordinary surjectivity/openness/properness; no general implication or non-implication between it and openness is claimed. It is stable under arbitrary base change by definition. Every isomorphism and every open-embedding pullback satisfy (SC).
 
 **Example (NEW):** For ANY locale Y and u∈O(Y), let S be Sierpiński with open generator σ and let
 
