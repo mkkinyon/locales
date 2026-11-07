@@ -83,7 +83,7 @@ Also, since no nonzero pair a,b is far, the localic Urysohn relation has no nonz
 
     **U_Y=Y²**.
 
-Thus in Arrieta's sH anti-Urysohn base, I_Y=Δ_Y but D_Y is a PROPER, DENSE fitted relation, while W_Y=U_Y=Y². The properness of D_Y follows from the published non-Fsep result and the presence of some proper open Δ-neighborhood (e.g. u⊠u* witness).
+Thus in Arrieta's sH anti-Urysohn base, I_Y=Δ_Y but D_Y is a PROPER, DENSE fitted relation, while W_Y=U_Y=Y². The properness of D_Y follows from ordinary T1/Hausdorff separation: for two distinct points y,z, the open cover {Y\\{y},Y\\{z}} produces a diagonal-cover neighborhood excluding (y,z), so D_Y≠Y². The nonzero u⊠u* **is not itself a diagonal neighborhood**; it witnesses the extra D_Y-part outside Δ.
 
 **Corollary for transfer X_u:** Its upper layer H≅Y is OPEN and DENSE: a nonzero M_u(L) element (a,b) has b≠0 and therefore meets σ. Since Y is anti-Urysohn, any two nonempty opens of X intersect H in nonempty opens whose closures meet, so X itself is anti-Urysohn (as a spatial locale). Hence
 
