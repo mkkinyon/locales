@@ -218,3 +218,29 @@ Density of P is equivalent to the combinatorial condition:
 Our explicit σ,τ satisfy this for pairs (id,σ) and (σ,τ), but NOT for (id,τ), since τ changes the maximum of every nonempty finite S. This gives an exact purely combinatorial proof of the Boolean-valued nontransitivity witness.
 
 **Significance and limit.** We have identified a precise tolerance relation (reflexive, symmetric, NONTRANSITIVE) on the group of K_n-preserving *set D*-homeomorphisms as sampled by Boolean-valued generalized points. This does not establish nonassociativity of the localic relation cube A³: ordinary composition of this induced tolerance is associative by construction, and a cube discrepancy would require a nonstable intermediate localic image, not just a 3-map chain.
+
+## 12. Surprisingly, the ENTIRE coordinate-permutation Boolean family is A²-related
+
+The nontransitive Boolean permutation relation of §11 nevertheless has **diameter 2**. This is a strong control on attempts to extract NONASSOCIATIVITY from a fourth coordinate permutation.
+
+**Lemma.** If π,κ∈Sym(N) agree on an INFINITE set of coordinates, then h_π A h_κ.
+
+Proof: Given any prescribed finite prefix pattern of length m, choose agreement coordinate n>m with π(n)=κ(n) larger than all values π(i),κ(i) for i≤m. Such n exists because the agreement set is infinite and π is injective. A finite-support x with the prescribed prefix, a 1 at n and all other later bits 0 has π̂x,κ̂x with common final-1 coordinate π(n)=κ(n), so x∈P_(π,κ). These x occur in every Cantor cylinder, hence P dense; invoke the exact criterion of §11.
+
+**Proposition (Baire/elementary back-and-forth).** For ANY π,κ∈Sym(N), there exists σ∈Sym(N) agreeing with EACH of π and κ on infinitely many coordinates.
+
+Proof: In the Polish Baire space Sym(N) with the pointwise-convergence topology, for fixed π and each m put
+
+    U_m(π)= ⋃_{n≥m}{σ:σ(n)=π(n)}.
+
+This is OPEN and DENSE: given any finite partial bijection, choose n≥m outside its finite domain with π(n) outside its finite range, and extend the partial bijection by n↦π(n). Thus ⋂_m U_m(π) is a dense Gδ. Similarly for κ. The intersection of the two dense Gδ sets is nonempty by the Baire category theorem. A σ in the intersection has infinitely many coordinate agreements with both.
+
+Consequently h_π A h_σ A h_κ in the **same nonzero Boolean locale T=Loc(RO(V))**, and hence
+
+    **(h_π,h_κ):T→V² factors through A²**
+
+for EVERY π,κ. Therefore the Boolean-valued coordinate-permutation family is A²-TOTAL even though A itself is NOT transitive within this family (our explicit id,τ pair fails A).
+
+This also explains why any finite chain of Boolean-valued coordinate-permutation generalized points, however long, has endpoints already related by A²: these points will not prove strict increase beyond A² or distinguish the two bracketings of A³. An associativity counterexample, if one exists, must exploit other generalized points of the A²-image or a genuinely nonstable intermediate image-surjection.
+
+**Terminology:** “diameter 2” refers ONLY to the induced symmetric tolerance on Sym(N) tested by maps h_π. It is NOT a claim that A²=V² or even that A³=A² as localic sublocales. Indeed every finite power of A has only diagonal ordinary points and is proper (§7), so A² cannot equal the total relation V².
