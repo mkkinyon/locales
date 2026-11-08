@@ -1,5 +1,7 @@
 # Locales and graph-theoretic separation
 
+> **CURRENT PROJECT A STATUS — 8 November 2026:** Start at the [current Project A index](PROJECT_A_START_HERE.md), [master theorem ledger v1.6](ProjectA_master_theorem_ledger_v1_6_2026-11-08.md) and [open-problem register v1.4](ProjectA_open_problems_register_v1_4_2026-11-08.md). The canonical proofs are [unrestricted Scott-continuity](ProjectA_Lstar_canonical_corrected_proof_2026-11-08.md) and [coherent composition](ProjectA_coherent_composition_canonical_proof_2026-11-08.md). The older status descriptions below are retained as dated historical context, not the current theorem ledger.
+
 Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological spaces* ([arXiv:2610.14783](https://arxiv.org/abs/2610.14783)).
 
 **Exploratory mathematics, not a submission-ready paper.** The foundational results and two principal counterexamples have now received an internal audit and two external adversarial reviews (20 October 2026). These were **not strictly blind**, and correctness of all peripheral notes and novelty/priority remain open. Start with the **[consolidated theorem outline](A-consolidated-theorems.md)** and the **[external-audit reconciliation](A-external-audits-reconciliation-2026-10-20.md)** rather than treating dated exploratory notes as current status.
