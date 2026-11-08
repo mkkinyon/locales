@@ -147,3 +147,30 @@ for our chosen Arrieta-based spatial mixed-composition counterexample. This is a
 - DO NOT infer A³ associativity from A being fitted, dense, or pointwise diagonal. General relation images in Loc need not associate.
 - The distinction between admissible Y-covers and ALL V-covers is the next algebraic target. A candidate criterion: for each admissible cover C, can it be star-refined by another admissible cover? If yes, A is transitive (stronger than A³ associativity). If not, work directly with (A²)A versus A(A²), using exact images, not generic points of an intermediate image.
 - The new propositions are derived from the topology in Arrieta 2024, not claims explicitly made in his article; external adversarial audit is strongly advised, especially the pullback/finite-point argument for P_n and the layer-restriction compatibility.
+
+## 9. Finite truncations are regular: the pathology is intrinsically infinite
+
+Fix m≥1. Retain only K_1,...,K_m, and form the corresponding finite Arrieta surgery Y_m, with V_m=C\(K_1∪...∪K_m) and finitely many attached points {1,...,m}. Let ∼ be the equivalence relation on compact Hausdorff Cantor C whose only non-singleton classes are K_1,...,K_m.
+
+The relation ∼ is CLOSED in C², since it is Δ_C∪⋃_{n≤m}(K_n×K_n), a FINITE union of closed subsets. Hence the quotient C/∼ is compact Hausdorff and therefore regular. The topology defined by Arrieta's finite-version basis equals this quotient topology: to obtain a basic neighborhood of a collapsed K_n, choose an ambient open around K_n and delete the finitely many other closed K_j, yielding a saturated open with precisely the desired trace and attached n. The converse quotient-open description is equally direct.
+
+Therefore
+
+    **D_(Y_m)=Δ_(Y_m)**
+
+for EVERY finite truncation. In contrast, Arrieta's infinite Y is strongly Hausdorff but NOT F-separated, and the excess A>Δ_V arises from the quantified ALL-n condition (★) on admissible covers.
+
+Thus finite computations on the first m compacta cannot see the non-Fsep defect; it is a genuinely INFINITARY limit phenomenon. This does not settle A² or A³, since relation images can introduce further infinitary pathologies, but it explains why tests on finite surgery examples would be uninformative.
+
+## 10. Immediate next mathematical question
+
+A is the relation defined by admissible cover tests (§5). A sufficient condition for TRANSITIVITY A²≤A would be:
+
+    for every admissible V-cover C, there exists an admissible V-cover E
+    whose stars refine C (each star_E(e) lies inside some member of C).
+
+In a locale/frame formulation one should use the corresponding inclusion of cover-neighborhood composites, and verify that the intermediate diagonal-cover sublocale images satisfy it. Ordinary metric V has star refinements of EVERY open cover, but these refinements need not remain Θ-admissible. The distinction is why the problem does not collapse to regularity of V.
+
+Failure of such an admissible star-refinement is NOT automatically a counterexample to A³ associativity; the star-refinement property is merely a strong sufficient path toward A-transitivity. The exact target remains (A²)A versus A(A²), using genuine localic images.
+
+For additional tests, exploit that every fixed-depth Cantor cylinder cover is INADMISSIBLE unless it contains V as one member (§6), while infinite covers may assign different pieces to arbitrarily late K_n. This is the quantified infinitary interchange at the heart of the remaining question.
