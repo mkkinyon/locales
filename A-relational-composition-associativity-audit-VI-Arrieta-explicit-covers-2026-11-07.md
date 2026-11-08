@@ -174,3 +174,34 @@ In a locale/frame formulation one should use the corresponding inclusion of cove
 Failure of such an admissible star-refinement is NOT automatically a counterexample to A³ associativity; the star-refinement property is merely a strong sufficient path toward A-transitivity. The exact target remains (A²)A versus A(A²), using genuine localic images.
 
 For additional tests, exploit that every fixed-depth Cantor cylinder cover is INADMISSIBLE unless it contains V as one member (§6), while infinite covers may assign different pieces to arbitrarily late K_n. This is the quantified infinitary interchange at the heart of the remaining question.
+
+## 11. Concrete obstruction: an admissible cover with NO admissible star refinement
+
+This is a genuine negative answer to the standard *cover-star-refinement route* toward transitivity of A, NOT a solution to associativity of A³.
+
+Fix a point p∈V. Choose a nontrivial CANTOR-CLOPEN cylinder B⊂C with p∈B and C\B≠∅. Put
+
+    a=V\{p} (an open, dense subset of V),
+    b=B∩V (open proper neighborhood of p).
+
+Then C0={a,b} is an admissible V-cover. Indeed W=C\{p} is Cantor-open, contains EVERY K_n (because p∈V disjoint all K_n), and W∩V=a. Hence Θ(a)=N, so C0 satisfies (★).
+
+**Proposition (ordinary cover-theoretic).** The admissible cover C0 has NO admissible STAR REFINEMENT.
+
+Proof. Suppose E is an admissible V-cover star-refining C0. Pick e_p∈E with p∈e_p, and Cantor-open O_p with O_p∩V=e_p. Since O_p is a nonempty Cantor-open, and C\B is a nonempty Cantor-clopen, the finite sets K_n MEET BOTH O_p and C\B for all sufficiently large n (each K_n at sufficiently large n meets every fixed finite cylinder).
+
+Choose such an n. Since E is admissible, some e_n∈E has n∈Θ(e_n), i.e. a Cantor-open W_n⊇K_n satisfies W_n∩V⊆e_n. Both W_n∩O_p and W_n∩(C\B) are nonempty Cantor-open; since V is DENSE, each meets V. Thus e_n meets e_p (so Star_E(e_n) includes e_p and hence contains p) and e_n meets V\b (so Star_E(e_n) is not contained in b). It is also not contained in a=V\{p} since it contains p. This contradicts the assumption Star_E(e_n) is contained in one of {a,b}.
+
+Thus the admissible-cover family is **NOT star-refinable**, despite the intrinsic metric zero-dimensional regular locale V having star refinements of all its open covers.
+
+**Important logical caveat:** this proves failure of a familiar SUFFICIENT construction for A²≤A, not failure of transitivity of A, and certainly not failure of associativity of A³. An intersection of cover-entourages may be transitive even if the cover family does not admit star refinements. To obtain a localic counterexample one still needs a NONZERO generalized composable-pair source whose endpoint image escapes an admissible cover's diagonal-neighborhood open.
+
+## 12. Revised next attack
+
+The missing associativity comparison is now exactly (A²)A vs A(A²) for
+
+    A=⋂_{admissible C} O(⋁_{a∈C}a⊠a) ⊆ V²,
+
+with a concrete admissible cover C0 lacking star refinements. One possible next tactic is to test whether the intermediate image e:A12∧A23→A² fails surjectivity after pullback along A's projection, using C0 to design a pointfree test. Avoid inferring such a failure merely from the star-refinement obstruction in §11.
+
+The finite truncations from §9 are compact Hausdorff and F-separated, and hence cannot detect the defect. Work with the full countably infinite Cantor-surgery frame Θ, not finite approximations.
