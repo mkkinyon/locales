@@ -205,3 +205,23 @@ The missing associativity comparison is now exactly (A²)A vs A(A²) for
 with a concrete admissible cover C0 lacking star refinements. One possible next tactic is to test whether the intermediate image e:A12∧A23→A² fails surjectivity after pullback along A's projection, using C0 to design a pointfree test. Avoid inferring such a failure merely from the star-refinement obstruction in §11.
 
 The finite truncations from §9 are compact Hausdorff and F-separated, and hence cannot detect the defect. Work with the full countably infinite Cantor-surgery frame Θ, not finite approximations.
+
+## 13. A simpler proof that the negative-transfer witness u can be chosen REGULAR
+
+The strict excess A>Δ_V is stronger than audit V's block argument for finding u≤V. Because V is REGULAR, its intrinsic diagonal Δ_V is CLOSED and given by C(d_I^V), where
+
+    d_I^V=∨_{a∧b=0 in O(V)}a⊠b.
+
+Therefore A>Δ_V implies A∧O(d_I^V)≠0. The frame quotient O(V²)→O(A) preserves joins, so there exist V-opens a,b with a∧b=0 and
+
+    A∧O(a⊠b) ≠0.
+
+Regard a,b as Y-opens since V↪Y is OPEN; then a≤V and b≤V, still a∧b=0 in O(Y). Thus the same nonzero witness sits in D_Y∧O(a⊠b), and setting u=a gives the EXACT input to the independently refereed negative mixed-V transfer.
+
+Since u≤V and V is regular, U=O(u) is regular, hence F-separated. This is a short standalone justification of the regular-u hypothesis used in audit V's transfer equivalence, with no appeal to distributing excess over four blocks again. The resulting transfer locale X_u remains SPATIAL.
+
+## 14. Expanded current hierarchy of tests
+
+For the published Y, the question D_Y³ associates has been reduced to (A²)A=A(A²), where A is a FITTED, DENSE, symmetric, reflexive sublocale of V² with ordinary point set Δ_V, defined via admissible covers. It may be useful to test the stronger property A²≤A; if true, A³ associates trivially. But §11 proves the STANDARD star-refinement route cannot establish it, and no other proof or counterexample is available.
+
+The test must be genuinely POINTFREE: fixing either endpoint at an ordinary V-point need not detect an image-level nonassociativity defect, and finite truncations Y_m are all regular/F-separated. Future proof efforts should operate on the full countable frame presentation Θ and a nonzero witness locale, not a finite sample of points.
