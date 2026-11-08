@@ -172,3 +172,49 @@ This is a concrete frame-calculation target. The new nontransitivity witness pro
 **UNRESOLVED:** whether (A²)A=A(A²); therefore D_Y³ and the selected transfer D_X³ remain unresolved. All source and pair constructions have been checked at the level of arbitrary admissible covers. No novelty or publication priority claimed.
 
 Audit priorities: verify permutation maxima and construction of separating admissible cover C*; verify open/closed pullback-stability statement and frame congruence model for images; verify the p1 proper⇒A closed graph argument. A secondary test is whether the frame-congruence comparison can be sharpened by testing a specific γ_C or by exploiting countable Cantor cylinders.
+
+## 11. EXACT combinatorial criterion for all Cantor homeomorphism-induced Boolean maps
+
+The particular permutations σ,τ are instances of a more general test, which helps separate genuine localic phenomena from special choices of coordinates.
+
+Let ρ,λ:C→C be ANY Cantor-cube homeomorphisms preserving D=∪K_n (hence also V) SETWISE. Define h_ρ=q∘ρ_V^*, h_λ=q∘λ_V^*:O(V)→B=RO(V). Define the SAME-CLASS coincidence set
+
+    P_(ρ,λ) = {x∈D: ∃n≥1 with ρ(x)∈K_n and λ(x)∈K_n}.
+
+**Theorem (new WORKING exact characterization):**
+
+    **h_ρ A h_λ  ⇔  P_(ρ,λ) is DENSE in the Cantor cube C.**
+
+**Sufficiency.** Fix any Θ-admissible cover C0 and any nonempty basic Cantor open B0. Pick x∈B0∩P. Then ρx,λx∈K_n for some n. The admissible cover has a member a containing the V-trace of an open Cantor-neighborhood W⊇K_n. Continuity gives a nonempty Cantor-open B0∩ρ^-1(W)∩λ^-1(W) containing x, whose V-trace is nonempty (V dense) and contained in H_(ρ,λ)(C0). So H is dense and q(H)=1; this holds for every admissible C0.
+
+**Necessity.** Suppose P is NOT dense. Choose nonempty Cantor-CLOPEN B0 disjoint from P. The coincidence locus E={x:ρ(x)=λ(x)} is CLOSED and cannot have nonempty interior inside B0: if it contained an open O⊆B0, choose x∈O∩D (D dense); then ρx=λx lies in D, contradicting B0∩P=∅. Thus choose a nonempty clopen B⊆B0\E. Write F=(ρ,λ):C→C². Then compact F(B) is disjoint from the diagonal Δ_C and from K_n×K_n for EVERY n (if both coordinates lay in K_n, the input would lie in D since ρ and λ preserve V vs D, giving a point of P).
+
+For each n, compactness and disjointness from K_n² supply a Cantor-CLOPEN neighborhood W_n⊇K_n such that
+
+    F(B)∩(W_n×W_n)=∅.
+
+One way to see it: the sets W×W, with W clopen neighborhoods of K_n, form a neighborhood basis of the closed K_n² in C²; if every such product met compact F(B), nested-compactness would force F(B)∩K_n²≠∅.
+
+Similarly, since F(B) compact avoids Δ_C, for every target p∈C choose a Cantor-clopen neighborhood U_p of p with
+
+    F(B)∩(U_p×U_p)=∅.
+
+Compactness of C yields FINITELY many such U_1,...,U_m covering C. The V-cover
+
+    C*={W_n∩V:n≥1} ∪ {U_i∩V:1≤i≤m}
+
+is Θ-ADMISSIBLE (each W_n covers the whole K_n) and EVERY member a satisfies F(B)∩(a×a)=∅. Hence H_(ρ,λ)(C*)∩B=∅, so q(H)≠1 and h_ρ not A h_λ.
+
+The resulting separating cover can be chosen COUNTABLE, consisting entirely of traces of Cantor-clopen sets: one W_n per compactum plus a FINITE supplementary clopen cover. This is a much sharper failure certificate than the uncountable-neighborhood cover initially used in §5.
+
+**Permutational form.** If ρ,λ arise from coordinate permutations π,κ, then x∈D corresponds to a nonempty finite support S⊆N and
+
+    x∈P_(ρ,λ)  ⇔  max π(S)=max κ(S).
+
+Density of P is equivalent to the combinatorial condition:
+
+    for every finite 0/1-prefix pattern, there exists a nonempty finite support S realizing the pattern with max π(S)=max κ(S).
+
+Our explicit σ,τ satisfy this for pairs (id,σ) and (σ,τ), but NOT for (id,τ), since τ changes the maximum of every nonempty finite S. This gives an exact purely combinatorial proof of the Boolean-valued nontransitivity witness.
+
+**Significance and limit.** We have identified a precise tolerance relation (reflexive, symmetric, NONTRANSITIVE) on the group of K_n-preserving *set D*-homeomorphisms as sampled by Boolean-valued generalized points. This does not establish nonassociativity of the localic relation cube A³: ordinary composition of this induced tolerance is associative by construction, and a cube discrepancy would require a nonstable intermediate localic image, not just a 3-map chain.
