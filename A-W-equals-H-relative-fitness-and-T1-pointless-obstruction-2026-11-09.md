@@ -150,3 +150,56 @@ The regular part r(d_W) cannot handle W<U, by (2.3). So to understand the noncoh
 - Coherent maximal-point criterion and five-point fence: [W=H coherent classification](A-W-equals-H-coherent-maximal-point-criterion-2026-11-09.md).
 - Compact scattered T1 noncoherent counterexample: [Oct 24 post-V independent reconciliation](A-postV-external-audit-reconciliation-2026-10-24.md).
 - Arrieta non-F-separated anti-Urysohn source: Arrieta, *Localic separation and the duality between closedness and fittedness*, Topology Appl. 342 (2024), 108785; [our Nov 7 working analysis](A-relational-composition-associativity-audit-IV-D-cube-high-low-2026-11-07.md).
+
+
+## 6. A useful arbitrary-frame sufficient condition: a discrete fitted collar
+
+The spatial T1 obstruction theorem gives a criterion that **does not** require \(W=U\) or regular approximation of \(d_W\).
+
+**Theorem 6 (discrete fitted collar).** Let Z be a sober spatial T1 locale and let \(S=C(d)\subseteq T\subseteq Z\), where T is a **fitted** sublocale (not necessarily closed). Suppose the relative open complement
+\[
+E=T\wedge O(d)
+\tag{6.1}
+\]
+is a **discrete locale** (its frame is a powerset Boolean algebra; the empty locale is allowed). Then **S is fitted**.
+
+**Proof.** By monotonicity of fitting,
+\(S\le\operatorname{fit}(S)\le\operatorname{fit}(T)=T\).
+Theorem 4 shows \(R=\operatorname{fit}(S)\wedge O(d)\) has no points. But \(R\le E\). Every nonzero sublocale of a discrete locale has a point: a nucleus on \(\mathcal P(A)\) is \(x\mapsto x\cup c\), with c its value at 0, so every nonzero sublocale is represented by a nonempty subset of A. Therefore \(R=0\). Since the sublocale lattice is distributive and \(C(d),O(d)\) are complementary, \(\operatorname{fit}(S)=S\), as required. □
+
+**Corollary 7 (finite functional discrepancy).** Let X be a locale whose **localic square is spatial and T1**, e.g. the locale of a locally compact sober T1 space. Suppose the ordinary point-set difference
+\[
+\operatorname{pt}(\mathcal F_X)\setminus
+\operatorname{pt}(\mathcal W_X)
+\]
+is **finite**. Then
+\[
+\boxed{\mathcal W_X=\mathcal H_X.} \tag{6.2}
+\]
+More generally it suffices that this difference, with its relative topology as an open sublocale of the closed spatial \(\mathcal F_X\), be discrete (possibly infinite).
+
+*Proof.* The universal \(\mathcal F_X\) is **closed and fitted** and contains W. The sublocale
+\(\mathcal F_X\wedge O(d_W)\) is an open sublocale of the **spatial closed** F, and therefore spatial; its ordinary points are exactly the displayed difference. A finite T1 space is discrete, so Theorem 6 applies with T=F. □
+
+**Noncoherent application and independent simplification.** In the externally checked compact T1 scattered α–β–γ example Y, the relation \(\mathcal F_Y=\mathcal U_Y\) differs from \(\mathcal W_Y=\mathcal I_Y\) on **exactly two ordinary pairs**:
+\[
+(\alpha,\gamma),\quad(\gamma,\alpha).
+\]
+Since Y is locally compact and sober, its localic square is spatial; since Y is T1, the square is T1. Corollary 7 gives
+\[
+\mathcal W_Y=\mathcal H_Y
+\]
+**without using the stronger fact that every sublocale of Y² is fitted**. This is a separate short route to the already externally checked equality, not a novelty claim for that example.
+
+**A stronger nonfit-square demonstration.** To ensure the ambient square is not fit while remaining T1, take the disjoint sum \(X=Y\sqcup A\), where A is Arrieta's spatial strongly Hausdorff anti-Urysohn **non-F-separated** locale (2024). The published construction gives \(\mathcal D_A>\Delta_A\), so \(A²\) is **not fit**. The internal audit-IV anti-Urysohn argument gives \(\mathcal W_A=\mathcal U_A=\mathcal F_A=A²\); in particular W_A is fitted. By exact clopen-block decomposition, \(W_X=H_X<U_X\); also \(X²\) is not fit because it contains the clopen nonfit block A². Both components are T1. This makes it explicit that neither global square fitness nor regularity of \(d_W\) is necessary for W=H.
+
+**Caution.** The collar theorem needs T fitted. It is invalid to take T=U just because U is a closed superrelation of W; U is not universally fitted (the five-point fence is a counterexample). The compact **two-apex** control has \(U\setminus W\) supported on two ordinary points, but that fact **alone** does not prove W fitted, precisely because the premise “U fitted” is not established there. For the unconditional corollary use F, which is fitted for every locale.
+
+## 7. Revised research direction
+
+We now have two distinct positive mechanisms:
+
+1. **Regular-complement mechanism:** \(r(d_W)=d_W\) implies W=U=H; this cannot account for W=H<U.
+2. **Discrete fitted collar:** for T1 spatial squares, a closed fitted superrelation T with a discrete relative complement \(T\setminus W\) forces W=H, even if W<U and the ambient square is nonfit.
+
+The T1 obstruction says any remaining failure of W=H must be carried by a **pointless atomless** sublocale of the fitted hull outside W, so a non-discrete fitted collar is the first realistic place to look. A bounded next test is the compact non-scattered two-apex space with W=K<U, but do not infer fittedness merely from the two U-only points.
