@@ -140,6 +140,13 @@ Theorem 2.1 and (3.1),(4.1) give the exact localic relation
 
 ## 5. Compute H without using spatiality of arbitrary sublocales
 
+
+**Sectionwise fittedness justification (added during adversarial review).** The assertion that \(P^2\times K\) is fitted can be verified without assuming any general preservation law for fitted sublocales under arbitrary pullbacks. Write \(J=P^2,\ M=\mathcal O(Y^2)\), so the ambient frame is \(\operatorname{Up}(J,M)\). For any constant open \(\hat v\) with value \(v\in M\) and any monotone section family \(x\), its ambient Heyting implication is
+\[
+(\hat v\to x)_t=\bigwedge_{s\ge t}(v\to_M x_s)=v\to_M x_t,
+\]
+since \(x_t\le x_s\) for all s≥t. If \(K=\bigcap_{\lambda}O_M(v_\lambda)\), then the intersection \(\bigcap_\lambda O_{\operatorname{Up}(J,M)}(\widehat v_\lambda)\) consists exactly of the section families \(x\) for which every \(x_t\in\mathcal O(K)\), and is therefore the product sublocale \(J\times K\). This proves fittedness of \(P^2\times K\) directly in the finite-poset section calculus. The coordinatewise quotient onto the product is surjective: for a monotone family of fixed-point values, choose lifts and replace each lift at t with the join of its lifts over s≤t. Thus no point-determination or unproved pullback-of-arbitrary-meets step enters the argument.
+
 **Lemma 5.1 (fitted propagation through a finite poset).** Let P be finite and let K be a **closed fitted** sublocale of Y². Let B⊆P² be a **closed downset** with upward saturation all of P² (for the application take B=U(P)). Then
 \[
 \boxed{\operatorname{fit}_{P^2\times Y^2}(B\times K)=P^2\times K.}
