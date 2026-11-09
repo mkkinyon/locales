@@ -167,6 +167,13 @@ is a **discrete locale** (its frame is a powerset Boolean algebra; the empty loc
 \(S\le\operatorname{fit}(S)\le\operatorname{fit}(T)=T\).
 Theorem 4 shows \(R=\operatorname{fit}(S)\wedge O(d)\) has no points. But \(R\le E\). Every nonzero sublocale of a discrete locale has a point: a nucleus on \(\mathcal P(A)\) is \(x\mapsto x\cup c\), with c its value at 0, so every nonzero sublocale is represented by a nonempty subset of A. Therefore \(R=0\). Since the sublocale lattice is distributive and \(C(d),O(d)\) are complementary, \(\operatorname{fit}(S)=S\), as required. □
 
+**Necessary obstruction (T1 functional residual).** In the hypotheses of Corollary 5, if W<H then the nonzero pointless residual
+\(R=\operatorname{fit}(W)\wedge O(d_W)\) lies inside
+\[
+\mathcal F\wedge O(d_W),
+\]
+since F is universally fitted and W≤F. Thus the *spatial open sublocale* \(\mathcal F\setminus W\) must admit a nonzero pointless sublocale, and in particular **cannot be discrete**. Its least dense Boolean sublocale of R is atomless. This obstruction is independent of the coherent specialization geometry and is stronger than merely requiring infinitely many ordinary functional pairs outside W.
+
 **Corollary 7 (finite functional discrepancy).** Let X be a locale whose **localic square is spatial and T1**, e.g. the locale of a locally compact sober T1 space. Suppose the ordinary point-set difference
 \[
 \operatorname{pt}(\mathcal F_X)\setminus
