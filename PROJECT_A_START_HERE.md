@@ -11,6 +11,10 @@
 
 - **[Far-grid converse — verified counterexamples](ProjectA_far_grid_canonical_counterexamples_2026-11-08.md)** — negative even under subfitness; corrected canonical proof and both independent referee cycles.
 
+## W=H beyond coherence (9 November)
+
+- **[Relative fitness and the T1 pointless obstruction](A-W-equals-H-relative-fitness-and-T1-pointless-obstruction-2026-11-09.md)** — exact single-element frame fitness test; regular-part inequality (r(d_W)\le d_U), showing why regular approximation cannot explain W=H<U; for spatial T1 squares W=H iff fit(W) is spatial and any failure has an atomless pointless Boolean residual. Includes a nonfit ambient-square example where W=H<U. Internal working mathematics; not externally audited.
+
 ## W=H: coherent maximal-specialization criterion (9 November)
 
 - **[W=H coherent maximal-point classification](A-W-equals-H-coherent-maximal-point-criterion-2026-11-09.md)** — working theorem W=H iff U=F iff U transitive for coherent locales, equivalently each pair of maximal spectral points within a comparability component shares a lower bound. Includes five-point fence and order-dual tests, product preservation, open/closed non-heredity, and an arbitrary-frame Boolean obstruction. Not externally audited.
