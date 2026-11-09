@@ -170,7 +170,9 @@ E_1=\operatorname{fit}(W)\wedge O(d_W)
 \]
 is then nonzero and **pointless** by the earlier T₁ theorem. Later closed stages may turn the closure of this pointless precursor into new ordinary points.
 
-This gives a useful necessary mechanism for a T₁ counterexample to W=H∧U: **pointless precursor followed by re-entry into the Urysohn relation at a closure stage**. Do not infer that a one-step test suffices or that this mechanism has been realized by a specific diagonal example.
+**Sharpening.** Because fit(W)>W, its first **closed** hull (C_1=\operatorname{cl}(\operatorname{fit}(W))) is strictly larger than W. In the spatial square this guarantees some new **ordinary point already at the first closed stage**, although it need not lie in U. The additional U-compatible point witnessing (W<H\wedge U) may occur at a later successor or limit stage, as the 5-point general-closure control in §3 warns.
+
+This gives a useful necessary mechanism for a T₁ counterexample to W=H∧U: **pointless precursor followed by the creation of ordinary points under closure, with eventual re-entry into the Urysohn relation**. Do not infer that a one-step test suffices or that this mechanism has been realized by a specific diagonal example.
 
 ## 6. Research directions constrained by the results
 
