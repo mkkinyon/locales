@@ -15,6 +15,10 @@
 
 - **[Relative fitness and the T1 pointless obstruction](A-W-equals-H-relative-fitness-and-T1-pointless-obstruction-2026-11-09.md)** — exact single-element frame fitness test; regular-part inequality (r(d_W)\le d_U), showing why regular approximation cannot explain W=H<U; for spatial T1 squares W=H iff fit(W) is spatial and any failure has an atomless pointless Boolean residual. Includes a nonfit ambient-square example where W=H<U. Internal working mathematics; not externally audited.
 
+## W-phase audit preparation (9 November)
+
+- **[BLIND external W-phase audit prompt and technical packet](project-a/audits/2026-11-09/Wphase/README.md)** — covering the new Boolean W semantics, coherent W=H, finite-branch shrinking, multi-apex examples, fitted supplements, finite-Alexandrov product theorem, and the connected strict H∧U diamond. A separate adversarial internal report exists but is **not** in the external packet or public blind archive. **External verdict pending; new claims working only.** Q/Q′ deferred.
+
 ## Connected strict H∧U diamond and finite-Alexandrov product theorem (9 November)
 
 - **[Connected compact example with W=H∧U strictly below H and U](A-W-HmeetU-connected-example-finite-poset-product-2026-11-09.md)** — NEW working result: frame-level theorem \(W(P\times Y)=W(P)\times W(Y)\) for any finite upper-Alexandrov poset P and arbitrary locale Y; combine a five-point fence with the connected compact two-apex Y to get a **connected, compact, locally compact, sober, noncoherent** X realizing the full strict diamond \(W=H\wedge U<H,U<H\vee U<F\). Genuine localic computation of H using monotone sections, without assuming arbitrary sublocales spatial. Internally checked only; earlier [scattered-product special case](A-W-HmeetU-product-transfer-nondisjoint-example-2026-11-09.md) retained for history.
