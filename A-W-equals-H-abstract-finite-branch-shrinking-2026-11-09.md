@@ -172,3 +172,16 @@ Both limiting closed sets avoid the first corresponding open interval.
 5. The proof remains valid for **arbitrary closed sublocales**, not just the diagonal-related W, so it may be useful elsewhere in pointfree topology. No literature novelty claim is made without a search.
 
 **Research choice:** Rather than immediately seek a converse (which would risk a new open-ended approximation programme), first identify a second nontrivial W example where the finite-branch criterion works but relative clopenness in F fails. The two-apex locale already supplies one. The new criterion can also be applied to existing examples with several accumulating boundary sectors if such a need arises. Keep Q/Q′ deferred.
+
+
+## 6. Relative finite-branch shrinking inside any fitted envelope
+
+The criterion also **subsumes the earlier relative-clopen and relative-regular approach** when applied in an appropriate fitted superlocale.
+
+**Corollary 6.1.** Suppose \(S=C_Z(d)\le T\le Z\), where T is a **fitted** sublocale of Z, and S is closed in T (automatic if S is closed in Z). If, in the frame \(\mathcal O(T)\), the defining open of S satisfies the finite-branch hypotheses of Theorem 3.1 (using pseudocomplements and bottom **relative to T**), then S is fitted in Z.
+
+*Proof.* Theorem 3.1 makes S fitted as a sublocale of T. Since T is fitted in Z, the fitted-envelope lemma [proved in the relative-fitness note](A-W-equals-H-relative-fitness-functional-envelope-2026-11-09.md) lifts this fittedness to Z. □
+
+For our particular relation take \(Z=X^2,\ T=\mathcal F\), \(S=\mathcal W\), with \(\mathcal O(\mathcal F)=\uparrow d_{\mathcal F}\). Thus **relative finite-branch shrinking in F suffices for W=H**; it need not force W=U. The previous relative-clopen criterion is the degenerate one-branch instance: if W is clopen in F, its complement in F is a single open neighborhood excluding the entire relative residual, and the branch can be taken to be the bottom open of F.
+
+This unifies the two previous *types* of sufficient conditions—relative clopen splitting and two-sided infinitary shrinking—without claiming either is necessary.
