@@ -140,7 +140,7 @@ Theorem 2.1 and (3.1),(4.1) give the exact localic relation
 
 ## 5. Compute H without using spatiality of arbitrary sublocales
 
-**Lemma 5.1 (fitted propagation through a finite poset).** Let P be finite and let K be a **closed fitted** sublocale of Y². Let B⊆P² be an upset whose up-saturation is all of P² (for the application take B=U(P)). Then
+**Lemma 5.1 (fitted propagation through a finite poset).** Let P be finite and let K be a **closed fitted** sublocale of Y². Let B⊆P² be a **closed downset** with upward saturation all of P² (for the application take B=U(P)). Then
 \[
 \boxed{\operatorname{fit}_{P^2\times Y^2}(B\times K)=P^2\times K.}
 \tag{5.1}
