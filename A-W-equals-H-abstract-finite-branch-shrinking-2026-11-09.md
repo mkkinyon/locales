@@ -4,6 +4,8 @@
 
 Let A be a frame; for a∈A write O(a), C(a) for its open/closed sublocales; a* for pseudocomplement. Let B be a **nontrivial complete Boolean frame**. Every nonzero locale S has nonzero Booleanization B(S), and a frame map g:A→B factors through O(a) iff g(a)=1_B.
 
+> **9 Nov simplification and test:** The finite-branch Boolean vanishing lemma below has a much shorter proof directly from the **coframe distributivity** of sublocales. For decreasing finite collections of sublocales, \(\bigwedge_n\bigvee_{j=1}^m S_{j,n}=\bigvee_{j=1}^m\bigwedge_n S_{j,n}\). The [new tests and direct proof](A-W-equals-H-finite-star-testing-shrinking-2026-11-09.md) also justify restriction to an arbitrary sector cover via the special open-locality identity. This is standard coframe mathematics, **not a newly discovered Boolean principle**; the construction of suitable shrinking neighborhoods is the substantive part.
+
 ## 1. Boolean-null towers
 
 Call a decreasing family \(r_1\ge r_2\ge\dots\) **Boolean-null** if every frame map g:A→B to a complete Boolean frame satisfies
