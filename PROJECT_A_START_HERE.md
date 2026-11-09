@@ -1,17 +1,23 @@
 # Project A — Current entry point
 
-**Status: 8 November 2026.** This page is the current navigation authority for Project A of the [locales research notebook](README.md). Earlier dated research notes and the chronological status index are preserved as historical records, not automatically current statements of theorem status.
+**Status: 9 November 2026.** This page is the current navigation authority for Project A of the [locales research notebook](README.md). Earlier dated research notes and the chronological status index are preserved as historical records, not automatically current statements of theorem status.
 
 ## Canonical reference documents
 
-- **[Master theorem ledger v1.7](ProjectA_master_theorem_ledger_v1_7_2026-11-08.md)** — stable IDs, verification provenance, exact hypotheses and primary proof entry points.
-- **[Open-problem and deferred-question register v1.5](ProjectA_open_problems_register_v1_5_2026-11-08.md)** — mathematical open questions, explicitly deferred ideas, and remaining targeted proof checks, kept separate from established results.
+- **[Master theorem ledger v1.8](ProjectA_master_theorem_ledger_v1_8_2026-11-09.md)** — stable IDs, verification provenance, exact hypotheses and primary proof entry points.
+- **[Open-problem and deferred-question register v1.6](ProjectA_open_problems_register_v1_6_2026-11-09.md)** — mathematical open questions, explicitly deferred ideas, and remaining targeted proof checks, kept separate from established results.
 - **[Unrestricted Scott-continuity converse — corrected canonical proof](ProjectA_Lstar_canonical_corrected_proof_2026-11-08.md)** — for every closed sublocale E of X×Y, Scott continuity of (p₂)₍*₎p₁* is equivalent to properness of p₂. The proof uses the upper powerlocale and incorporates a correction identified by an independent blind referee.
 - **[Coherent proconstructible composition calculus — canonical proof](ProjectA_coherent_composition_canonical_proof_2026-11-08.md)** — compact-preserving quotient characterization, actual localic pullbacks and images, associativity within the coherent spectral class, fitted-diagonal and alternating-hull formulas.
 
 - **[Far-grid converse — verified counterexamples](ProjectA_far_grid_canonical_counterexamples_2026-11-08.md)** — negative even under subfitness; corrected canonical proof and both independent referee cycles.
 
+## Q′ audit and transition to studying W
+
+- **[Q′ independent-referee reconciliation](ProjectA_Qprime_referee_reconciliation_and_bounded_checks_2026-11-09.md)** — verified structural results, global upgrades of C5/C6, and two bounded referee suggestions closed. **Q/Q′ remain open and deferred.** The active focus is now W as a separation relation in its own right.
+
 ## Audit provenance
+
+- **[9 November Q′ blind audit archive](project-a/audits/2026-11-09/Qprime/README.md)** — original packet and independent referee report, separate internal audit, and a standalone reconciliation; no original report was rewritten.
 
 - **[8 November audit archive](project-a/audits/2026-11-08/README.md)** — prompt/packet pairs, original blind reports, reconciliations, antecedent working audits and the detailed cumulative inventory v0.7.
 - [Far-grid audit archive](project-a/audits/2026-11-08/far-grid/README.md) — both original blind packets and referee reports, separate internal audits and reconciliations.
