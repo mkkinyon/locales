@@ -15,6 +15,10 @@
 
 - **[Relative fitness and the T1 pointless obstruction](A-W-equals-H-relative-fitness-and-T1-pointless-obstruction-2026-11-09.md)** — exact single-element frame fitness test; regular-part inequality (r(d_W)\le d_U), showing why regular approximation cannot explain W=H<U; for spatial T1 squares W=H iff fit(W) is spatial and any failure has an atomless pointless Boolean residual. Includes a nonfit ambient-square example where W=H<U. Internal working mathematics; not externally audited.
 
+## Shrinking mechanism stress test: finite multi-apex stars (9 November)
+
+- **[Coframe simplification and compact m-apex tests](A-W-equals-H-finite-star-testing-shrinking-2026-11-09.md)** — standard coframe proof of the finite-branch lemma, positive width-one scattered control, negative compact T₀ control, and a working m-ray/m-apex family (every finite m≥2) with W=H<U<F. Produces countably many explicit open neighborhoods presenting W. Not externally audited.
+
 ## Frame-theoretic abstraction: finite-branch shrinking (9 November)
 
 - **[Finite-branch shrinking theorem for fitted closed sublocales](A-W-equals-H-abstract-finite-branch-shrinking-2026-11-09.md)** — internally checked all-frame criterion: a sector cover of the complementary open, finitely many decreasing Boolean-null branches on each sector, and compatible open neighborhoods imply fittedness. Includes the explicit star-exhaustion test, essential finite-width counterexample, countable fitted presentation of the two-apex W, and relative F-envelope version. Keeps Q/Q′ deferred; not externally audited.
