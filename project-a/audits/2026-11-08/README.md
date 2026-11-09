@@ -17,6 +17,10 @@ This directory preserves the **historical audit materials** for the 7–8 Novemb
 - [Independent report](ProjectA_coherent_composition_EXTERNAL_referee_report_2026-11-08.md) and [reconciliation](ProjectA_coherent_composition_EXTERNAL_referee_reconciliation_2026-11-08.md)
 - [Preliminary foundational audit](ProjectA_coherent_composition_foundation_audit_2026-11-08.md)
 
+## Far-grid converse audits
+
+- [Both independent blind referee cycles and reconciliations](far-grid/README.md) — unrestricted and subfit converses settled negatively.
+
 ## Other audit records retained
 
 - [Cumulative theorem dependency inventory v0.7](ProjectA_theorem_dependency_inventory_v0_7.md) — detailed precursor to the concise master theorem ledger.

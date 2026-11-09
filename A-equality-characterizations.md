@@ -1,3 +1,5 @@
+> **8 Nov 2026 — LATER RESULT:** The far-grid converse to I=U has been refuted, **even for subfit frames**, with two separate blind referee checks. See [canonical corrected counterexamples](ProjectA_far_grid_canonical_counterexamples_2026-11-08.md) and [theorem ledger v1.7](ProjectA_master_theorem_ledger_v1_7_2026-11-08.md). Historical open questions in this note remain as originally written but are superseded on this point.
+
 # A — Equality characterizations for the localic separation hierarchy
 
 **Working research note — 18 October 2026.** Proofs given here are intended for mathematical scrutiny, not a claim of priority. The first two papers to compare with are Picado–Pultr, *Separation in Point-Free Topology* (2021), especially VI.1.5.2, VI.2.2 and V.2.4, and Arrieta–Picado–Pultr, *A New Diagonal Separation and Its Relations With the Hausdorff Property* (2022), especially the Dowker–Strauss approach to parallel frame maps. Our notation **F(X)** means the functional-equivalence **relation**, not their distinct property **(Fsep)** of a fitted diagonal.

@@ -1,3 +1,5 @@
+> **8 Nov 2026 — LATER RESULT:** The far-grid converse to I=U has been refuted, **even for subfit frames**, with two separate blind referee checks. See [canonical corrected counterexamples](ProjectA_far_grid_canonical_counterexamples_2026-11-08.md) and [theorem ledger v1.7](ProjectA_master_theorem_ledger_v1_7_2026-11-08.md). Historical open questions in this note remain as originally written but are superseded on this point.
+
 # Project A — Structural study of I=U in arbitrary frames
 
 **20 October 2026. New working observations, with point-free proofs; no claim of novelty or exhaustive literature review.** This note addresses the second stage of the research agenda after the adversarial audit of the subfit arithmetic example. It extracts genuinely frame/locale-theoretic consequences without imposing coherence, algebraicity, continuity, spatiality, or choice. The interpretation via a complete binary orthogonality uses the standard cp-ideal presentation of frame coproducts (Picado–Pultr, *Frames and Locales*, Appendix; also *Separation in Point-Free Topology*, Appendix A.8).

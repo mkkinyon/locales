@@ -4,14 +4,17 @@
 
 ## Canonical reference documents
 
-- **[Master theorem ledger v1.6](ProjectA_master_theorem_ledger_v1_6_2026-11-08.md)** — stable IDs, verification provenance, exact hypotheses and primary proof entry points.
-- **[Open-problem and deferred-question register v1.4](ProjectA_open_problems_register_v1_4_2026-11-08.md)** — mathematical open questions, explicitly deferred ideas, and remaining targeted proof checks, kept separate from established results.
+- **[Master theorem ledger v1.7](ProjectA_master_theorem_ledger_v1_7_2026-11-08.md)** — stable IDs, verification provenance, exact hypotheses and primary proof entry points.
+- **[Open-problem and deferred-question register v1.5](ProjectA_open_problems_register_v1_5_2026-11-08.md)** — mathematical open questions, explicitly deferred ideas, and remaining targeted proof checks, kept separate from established results.
 - **[Unrestricted Scott-continuity converse — corrected canonical proof](ProjectA_Lstar_canonical_corrected_proof_2026-11-08.md)** — for every closed sublocale E of X×Y, Scott continuity of (p₂)₍*₎p₁* is equivalent to properness of p₂. The proof uses the upper powerlocale and incorporates a correction identified by an independent blind referee.
 - **[Coherent proconstructible composition calculus — canonical proof](ProjectA_coherent_composition_canonical_proof_2026-11-08.md)** — compact-preserving quotient characterization, actual localic pullbacks and images, associativity within the coherent spectral class, fitted-diagonal and alternating-hull formulas.
+
+- **[Far-grid converse — verified counterexamples](ProjectA_far_grid_canonical_counterexamples_2026-11-08.md)** — negative even under subfitness; corrected canonical proof and both independent referee cycles.
 
 ## Audit provenance
 
 - **[8 November audit archive](project-a/audits/2026-11-08/README.md)** — prompt/packet pairs, original blind reports, reconciliations, antecedent working audits and the detailed cumulative inventory v0.7.
+- [Far-grid audit archive](project-a/audits/2026-11-08/far-grid/README.md) — both original blind packets and referee reports, separate internal audits and reconciliations.
 - [Chronological research-status index (historical)](A-research-status-index.md) — extensive append-only project history. Its latest note is *not* necessarily the latest theorem status.
 - [Earlier consolidated theorem outline (historical)](A-consolidated-theorems.md) — superseded for navigation and verification status by the master ledger.
 
