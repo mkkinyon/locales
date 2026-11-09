@@ -110,7 +110,7 @@ with r∈J∩J′. There is a **finite** set E of conflicting coordinates so tha
 \]
 Since \((\theta_A,\theta_B^E)\) factors through the **full** fitted diagonal \(\mathcal D\), this gives \(\mathcal D\wedge O(u\boxtimes v)\ne0\).
 
-If the parameter projections of u,v are disjoint, then \(u\boxtimes v\le d_{\mathcal U}\): refine each open into products with arbitrarily small rational-parameter intervals; pairs of distinct parameter points have disjoint-closure interval neighborhoods, so the rectangle is a join of far rectangles. Therefore **every nonzero relatively open part of** \(\mathcal U\wedge O(\rho)\) meets \(\mathcal D\). We conclude
+If the parameter projections of u,v are disjoint, then \(u\boxtimes v\le d_{\mathcal U}\), **in the actual frame coproduct**: first express u as a join of basic sheet rectangles with parameter intervals J whose closures lie inside \(\pi(u)\). For each such fixed basic rectangle, express v as a join of sheet rectangles with parameter intervals K having \(\overline K\cap\overline J=\varnothing\); this is possible because every parameter of v lies outside \(\overline J\subseteq\pi(u)\), and the irrational line is regular. Each resulting cross rectangle is far, since the only potential common closure points lie at rational boundary centers, and disjoint parameter closures preclude those. Applying coordinatewise join distributivity **twice**, rather than invoking ordinary product points, proves the inequality. Therefore **every nonzero relatively open part of** \(\mathcal U\wedge O(\rho)\) meets \(\mathcal D\). We conclude
 \[
 \boxed{
 \mathcal W\wedge O(\rho)
