@@ -170,3 +170,22 @@ where \(a_{i,n}\le u_i\) and \(b_{i,n}\le v_i\) are decreasing families, and
 Then C(d) is fitted. Indeed, a nonzero residual \(E=\operatorname{fit}C(d)\wedge O(t_i)\) would yield via Booleanization a pair h,k with \(h(u_i)=k(v_i)=1\) and \(h(a_{i,n})\vee k(b_{i,n})=1\) for every n. But both Boolean meets are zero, contradicting Lemma 2.2. This proves the general criterion without compactness, coherence, spatiality, or regularity assumptions, once the stipulated open-neighborhood identities hold.
 
 **Caution:** This is a sufficient *template*, not a classification of fitted closed sublocales. It does not claim the two-sided shrinking equations can be found for arbitrary W.
+
+
+## 7. A further strict comparison: V < W = H
+
+Since \(X^2\) is spatial and T₁, any **ordinary point** z outside a closed sublocale C is omitted by the open neighborhood \(X^2\setminus\{z\}\) of C. Thus the fitted hull \(\operatorname{fit}(C)\) has **exactly the same ordinary points** as C, though it may contain extra pointless structure. Apply this to \(C=\mathcal I\):
+\[
+\operatorname{pt}(\mathcal V)=\operatorname{pt}(\mathcal I).
+\]
+For any real \(x>0\), the pair \((0,x)\) lies in \(\operatorname{pt}(\mathcal W)\) because both coordinates are in \(A_+\), but is **not** in \(\operatorname{pt}(\mathcal I)\), since 0 and x admit disjoint small real neighborhoods. Since the universal relation \(\mathcal V\le\mathcal H\) combines with our \(\mathcal H=\mathcal W\), this yields the strict comparison
+\[
+\boxed{
+\mathcal I\le\mathcal V\subsetneq\mathcal W=\mathcal H
+\subsetneq\mathcal U\subsetneq\mathcal F=X^2.
+}
+\tag{7.1}
+\]
+We do **not** assert \(\mathcal I=\mathcal V\), which would require a separate point-free fittedness calculation for I.
+
+This is a useful strengthening: it realizes the strict upper-diamond relation \(\mathcal V<\mathcal W=\mathcal H\) **within a compact T₁ noncoherent space** where the further gaps \(\mathcal H<\mathcal U<\mathcal F\) are also strict.
