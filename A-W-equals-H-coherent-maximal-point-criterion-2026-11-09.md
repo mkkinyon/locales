@@ -160,3 +160,35 @@ This gives a useful geometric interpretation: failure of W=H is witnessed by a *
 - The compact noncoherent scattered T1 example \(\mathcal W=\mathcal H<\mathcal U<\mathcal F\) shows that coherent functional collapse cannot be asserted universally.
 
 Keep the new results marked **working**, and do not reopen the deferred Q/Q′ search.
+
+
+## 7. Preservation and non-heredity in the coherent class
+
+Theorem 3 gives two short structural deductions.
+
+**Theorem 7.1 (working).** For nonempty coherent locales \(X,Y\),
+\[
+\mathcal W(X\times Y)=\mathcal H(X\times Y)
+\iff
+\bigl(\mathcal W(X)=\mathcal H(X)\text{ and }\mathcal W(Y)=\mathcal H(Y)\bigr).
+\tag{7.1}
+\]
+Furthermore, for arbitrary localic disjoint sums of coherent locales, \(\mathcal W=\mathcal H\) holds iff it holds on every component (with the empty/degenerate summands interpreted trivially).
+
+**Proof for products.** Their spectral spaces are P,Q, and their product is the ordinary spectral product with coordinatewise specialization order and patch-product topology. Comparability-connected components of P×Q are precisely C×D, where C,D are components in P,Q: one direction follows by projecting comparison steps, and the other by moving one coordinate at a time while fixing the other. A point (p,q) is maximal in its component iff p,q are maximal in theirs. Two product maxima (m,n),(m′,n′) admit a common lower bound iff m,m′ have one in P and n,n′ have one in Q. Apply Theorem 3; the reverse implication uses a fixed maximal point in any nonempty component of the other factor. The disjoint-sum statement follows either from the same component criterion or from the exact clopen block decomposition for D,W,H; each summand is clopen and no connected comparability path crosses between summands. □
+
+**Theorem 7.2 (working).** Among finite coherent locales, the property \(\mathcal W=\mathcal H\) is **neither open-hereditary nor closed-hereditary**.
+
+**Proof.** Let P be the five-point fence in §4 with W(P)<H(P).
+
+*Open restriction:* adjoin a new global bottom \(0\) below every element of P. Call the resulting poset P⁻. Every open cover of P⁻ contains the whole space (because it must contain 0), so \(D(P^-)=W(P^-)=H(P^-)=P^-{}^2\). The old P is the **open upper** subposet P⁻\\{0}; its intrinsic W is strictly below H.
+
+*Closed restriction:* adjoin a new global top \(\infty\) above every element of P, obtaining P⁺. Every nonempty open of P⁺ contains \(\infty\), so \(I(P^+)=W(P^+)=U(P^+)=P^+{}^2\); the comparability graph is connected, hence \(H(P^+)=P^+{}^2\). The old P is the **closed lower** subposet P⁺\\{\infty\}, and again W(P)<H(P).
+
+Thus neither type of sublocale inclusion preserves this equality, even with all frames finite coherent. □
+
+These statements concern **preservation of the equality class**, not the previously established lax naturality of the W relation itself. Proper inclusions of the restricted W relation already occur on three-element forks.
+
+## 8. Status and next question
+
+The coherent W=H class is now sharply described by (3.1). A natural next question is how much of its *maximal-specialization geometry* can be meaningfully reconstructed for noncoherent locales, where point relations may miss pointless sublocales and W need not coincide with U. The Boolean obstruction (5.1) is an honest point-free starting point. No conjecture is opened merely on the basis of these examples.
