@@ -15,6 +15,10 @@
 
 - **[Relative fitness and the T1 pointless obstruction](A-W-equals-H-relative-fitness-and-T1-pointless-obstruction-2026-11-09.md)** — exact single-element frame fitness test; regular-part inequality (r(d_W)\le d_U), showing why regular approximation cannot explain W=H<U; for spatial T1 squares W=H iff fit(W) is spatial and any failure has an atomless pointless Boolean residual. Includes a nonfit ambient-square example where W=H<U. Internal working mathematics; not externally audited.
 
+## W=H beyond coherence: the functional envelope (9 November)
+
+- **[Relative fitness within F](A-W-equals-H-relative-fitness-functional-envelope-2026-11-09.md)** — working all-frame single-element fit test, diagonal obstruction to absolute rather-below generation, fitted-envelope lemma, sufficient relative regular/clopen criteria in O(F), and spatial T1 pointless-residual obstruction. Reinterprets the compact scattered α–β–γ example; Q/Q′ remain deferred. Not externally audited.
+
 ## W=H: coherent maximal-specialization criterion (9 November)
 
 - **[W=H coherent maximal-point classification](A-W-equals-H-coherent-maximal-point-criterion-2026-11-09.md)** — working theorem W=H iff U=F iff U transitive for coherent locales, equivalently each pair of maximal spectral points within a comparability component shares a lower bound. Includes five-point fence and order-dual tests, product preservation, open/closed non-heredity, and an arbitrary-frame Boolean obstruction. Not externally audited.
