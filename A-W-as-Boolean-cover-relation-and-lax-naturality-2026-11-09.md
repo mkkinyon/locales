@@ -103,3 +103,20 @@ Our first interpretative result is that \(\mathcal W\) is a **Boolean-valued cov
 Suggested next focused problem: seek useful additional classes of maps, beyond clopen embeddings and isomorphisms, under which equality \(W_Y=(f\times f)^{-1}W_X\) actually holds, or develop a transparent frame-theoretic criterion for that equality. Do **not** reintroduce Q/Q′ or their forcing candidate program without a new user decision.
 
 **Status:** internal working proofs and project-based literature attribution; no external audit requested.
+
+
+## 7. Semantic tests for the two extremal equalities
+
+The Boolean witness theorem provides a useful pair of tests that no longer mention nuclei or W₂. Let \(\mathrm{Comp}_B(L)\) denote all fully cover-compatible pairs \(h,k:L\to B\) where B ranges over nonzero complete Boolean frames, and let \(r=a\boxtimes b\).
+
+**Proposition 4 (working).**
+
+**(a) W=I** iff for **all** \((h,k)\in\mathrm{Comp}_B(L)\) and **all disjoint opens** \(a\wedge b=0\), one has \(h(a)\wedge k(b)=0\).
+
+Proof: \(\mathcal I=C(d_{\mathcal I})\), with \(d_{\mathcal I}=\bigvee_{a\wedge b=0}a\boxtimes b\). Since \(\mathcal I\le\mathcal W\), equality is equivalent to each disjoint rectangle being disjoint from W, which by Theorem 1 is exactly the displayed universal Boolean condition.
+
+**(b) W=U** iff for **every** rectangle \(a\boxtimes b\not\le d_{\mathcal U}\), there exists a full-cover-compatible Boolean pair \(h,k:L\to B\) with \(h(a)\wedge k(b)\ne0\).
+
+Proof: by Theorem 1 the latter says that every rectangle meeting U also meets W. Since W≤U is closed, equality follows because rectangles join-generate Q and test equality of their defining closed complements. Conversely W=U supplies the Boolean witness for each such rectangle.
+
+These tests distinguish \(\mathcal W\) from both adjoining closed relations: \(\mathcal W=\mathcal I\) means **no new Boolean cover-compatible correlations on disjoint opens**, whereas \(\mathcal W=\mathcal U\) means **every rectangle not already U-separated has a full-cover-compatible Boolean correlation**. Both are logical rephrasings of earlier inequalities and the new witness interpretation; no claim of an easier algorithm or a new separation axiom is intended.
