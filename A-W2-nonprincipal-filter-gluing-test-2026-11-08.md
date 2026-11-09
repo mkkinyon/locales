@@ -130,3 +130,24 @@ Replacing join-prime boundary neighborhoods by truly **nonprincipal** neighborho
 The recurring failure is a regular-closed Urysohn relation: in this model \(\mathcal U=X^2\), so the known inclusion \(\operatorname{cl}(\operatorname{int}\mathcal U)\le\mathcal W\) already enforces \(\mathcal W=\mathcal U\). A useful next design must build a nonregular Urysohn boundary *intrinsically* into the gluing, not append an independently pathological factor.
 
 No claim about universal Q′ is made, and these calculations are internal working results only.
+
+
+## 6. A general dense-projection no-go theorem
+
+The density mechanism in §4 extends well beyond the explicit rational/finite-subsets example.
+
+**Theorem 6.1 (working).** Suppose a topological space X contains two disjoint open subspaces A,B, each homeomorphic to R×P, where R is a topological group and P is hyperconnected (every two nonempty opens of P intersect). Suppose A∪B is dense in X and there is a point t∈X\(A∪B) such that **for every open neighborhood V of t**, the projections onto R of V∩A and V∩B are both dense in R. Then
+\[
+\boxed{\operatorname{cl}(\mathcal D(X))=X\times_{\mathrm{Loc}}X.}
+\]
+Consequently \(\mathcal W=\mathcal W_2=\mathcal U=X^2\), and this method cannot supply a Q′ counterexample.
+
+**Proof.** For either sheet σ∈{A,B} let \(\pi_\sigma:\mathcal O(X)\to\mathcal O(R)\) map U to the projection of U∩σ. It preserves joins. It also preserves binary meets: at any r∈πσ(U)∩πσ(V), the two nonempty open fibers in P intersect by hyperconnectedness. Hence πσ is a frame homomorphism. Compose πσ with the double-negation quotient \(j:\mathcal O(R)\to\operatorname{RO}(R)\), and with an arbitrary translation automorphism of the complete Boolean frame RO(R). Call the resulting frame map θσ,g.
+
+For any cover C of X, some c∈C contains t. Its projections to R from both sheets are dense by hypothesis, hence every θσ,g sends c to 1. Therefore every pair of the θ-maps is full-cover-compatible, and its joint map from \(\mathcal O(X)\oplus\mathcal O(X)\) factors through D.
+
+Take arbitrary nonzero opens u,v of X. Since A∪B is dense, u and v each meet some sheet, say σ,τ, respectively. Their projections U,V to R are nonempty opens. Choose x∈U and y∈V; translating V by xy^{-1} makes the two opens intersect, so for appropriate θσ,g and θτ,h one has θσ,g(u)∧θτ,h(v)≠0 in RO(R). Thus D meets every nonzero pure rectangle in the localic square. Rectangles join-generate the frame coproduct, so D is dense in X². Its closure W equals X², and the universal inclusions W≤W2≤U≤X² force equality throughout. □
+
+**Useful diagnostic.** In any gluing with such sheet-dense boundary traces, not only does the ordinary-point witness fail to detect the full localic D, but **U is automatically the entire square**. To obtain a useful nonregular Urysohn boundary, the attached boundary cannot have sheet-dense projected traces across the *whole* intended rectangular support. In particular simply replacing principal boundary filters by arbitrary dense nonprincipal filters is structurally insufficient.
+
+This theorem is a *new internal working result*, not externally checked.
