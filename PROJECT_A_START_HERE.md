@@ -11,6 +11,10 @@
 
 - **[Far-grid converse — verified counterexamples](ProjectA_far_grid_canonical_counterexamples_2026-11-08.md)** — negative even under subfitness; corrected canonical proof and both independent referee cycles.
 
+## New W-as-relation work (9 November)
+
+- **[W as Boolean-valued cover compatibility](A-W-as-Boolean-cover-relation-and-lax-naturality-2026-11-09.md)** — first independent W segment: Boolean probes, exact W=I and W=U semantic tests, lax naturality, finite coherent 3-point open/closed restriction counterexamples, and exact clopen-sum behavior. **Internal working mathematics; not externally audited.**
+
 ## Q′ audit and transition to studying W
 
 - **[Q′ independent-referee reconciliation](ProjectA_Qprime_referee_reconciliation_and_bounded_checks_2026-11-09.md)** — verified structural results, global upgrades of C5/C6, and two bounded referee suggestions closed. **Q/Q′ remain open and deferred.** The active focus is now W as a separation relation in its own right.
