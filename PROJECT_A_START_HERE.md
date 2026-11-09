@@ -11,6 +11,10 @@
 
 - **[Far-grid converse — verified counterexamples](ProjectA_far_grid_canonical_counterexamples_2026-11-08.md)** — negative even under subfitness; corrected canonical proof and both independent referee cycles.
 
+## W=H: coherent maximal-specialization criterion (9 November)
+
+- **[W=H coherent maximal-point classification](A-W-equals-H-coherent-maximal-point-criterion-2026-11-09.md)** — working theorem W=H iff U=F iff U transitive for coherent locales, equivalently each pair of maximal spectral points within a comparability component shares a lower bound. Includes five-point fence and order-dual tests, product preservation, open/closed non-heredity, and an arbitrary-frame Boolean obstruction. Not externally audited.
+
 ## New W-as-relation work (9 November)
 
 - **[W as Boolean-valued cover compatibility](A-W-as-Boolean-cover-relation-and-lax-naturality-2026-11-09.md)** — first independent W segment: Boolean probes, exact W=I and W=U semantic tests, lax naturality, finite coherent 3-point open/closed restriction counterexamples, and exact clopen-sum behavior. **Internal working mathematics; not externally audited.**
