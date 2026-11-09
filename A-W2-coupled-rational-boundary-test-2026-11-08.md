@@ -109,7 +109,7 @@ It follows that every nonzero relative open of \(\mathcal U\wedge O(\rho)\) meet
 \]
 This does not assert any global equality for X.
 
-**Atomlessness of the reached boundary.** Every nonzero relative open of \(\mathcal U\wedge O(\rho)\) contains a rectangle u⊠v with overlapping nonempty parameter projections. Choose two disjoint nonempty rational intervals I,J contained in their intersection. The two subrectangles obtained by restricting *both* coordinates to I and to J have nonzero U restrictions by the compatible-point argument and are disjoint. Thus no nonzero relative open is hyperconnected; the Booleanization of \(\mathcal U\wedge O(\rho)=H_2\wedge O(\rho)\) is atomless.
+**Atomlessness of the reached boundary.** Every nonzero relative open of \(\mathcal U\wedge O(\rho)\) contains a **nonzero relatively open restriction** of some rectangle u⊠v whose parameter projections overlap. Choose two disjoint nonempty rational intervals I,J contained in their intersection. The two subrectangles obtained by restricting *both* coordinates to I and to J have nonzero U restrictions by the compatible-point argument and are disjoint. Thus no nonzero relative open is hyperconnected; the Booleanization of \(\mathcal U\wedge O(\rho)=H_2\wedge O(\rho)\) is atomless.
 
 ## 5. Interpretation and precise limitation
 
