@@ -2,6 +2,8 @@
 
 **9 November 2026. NEW WORKING RESEARCH: internal mathematical check only; not independently refereed or priority-checked.** Both Q and Q′ remain deferred. This note is a bounded follow-up to [the fitted-supplement/strict-meet study](A-W-H-meet-U-fitted-supplements-and-higher-stage-obstruction-2026-11-09.md). The user requested an example where \(\mathcal W=\mathcal H\wedge\mathcal U\) but \(\mathcal W<\mathcal H\) and \(\mathcal W<\mathcal U\), without placing the two strictness mechanisms in separate clopen summands. A **Cartesian product** of two previously analyzed locales achieves this. The full product formula extends to a useful class; the resulting space is not connected, but the two defects cannot be isolated into different clopen summands.
 
+> **STRONGER SUCCESSOR (9 November 2026):** [Finite-Alexandrov W-product theorem and CONNECTED strict-meet example](A-W-HmeetU-connected-example-finite-poset-product-2026-11-09.md). The present scattered-product argument remains valid, but a new frame-level cover/section proof establishes \(\mathcal W(P\times Y)=\mathcal W(P)\times\mathcal W(Y)\) for EVERY locale Y and finite upper-Alexandrov P. Taking Y to be the **connected** compact two-apex space gives \(\mathcal W=\mathcal H\wedge\mathcal U<\mathcal H,\mathcal U\) on a **connected** compact noncoherent locale, removing this note's disconnectedness limitation. Keep this note as a useful independently derived special case.
+
 ## 1. The factors and hypotheses
 
 Let \(P\) be a **finite poset** equipped with its upper-Alexandrov topology. Let \(A\) be a **locally compact sober, scattered, \(T_1\) topological space**. Write \(X=P\times A\).
