@@ -192,3 +192,38 @@ These statements concern **preservation of the equality class**, not the previou
 ## 8. Status and next question
 
 The coherent W=H class is now sharply described by (3.1). A natural next question is how much of its *maximal-specialization geometry* can be meaningfully reconstructed for noncoherent locales, where point relations may miss pointless sublocales and W need not coincide with U. The Boolean obstruction (5.1) is an honest point-free starting point. No conjecture is opened merely on the basis of these examples.
+
+
+## 9. The formally dual finite-poset test for V=H, and opposite fences
+
+For a **finite** upper-Alexandrov poset P, the point relation of \(\mathcal I\) is the common-upper relation, so
+\[
+\operatorname{pt}(\mathcal V)
+=\uparrow_{\!P^2}\operatorname{pt}(\mathcal I).
+\]
+Exactly dualizing the maximal-point argument of §4 gives:
+\[
+\boxed{\mathcal V=\mathcal H
+\iff \text{every two MINIMAL elements of each comparability component
+have a common UPPER bound}.}
+\tag{9.1}
+\]
+The proof is independent of the coherent infinite-point theorem: V is the upward closure of I, H is the union of component squares, and every point lies above a minimal point in finite P.
+
+For the original 5-fence P (m—a—k—b—n), the two minimal points a,b have common upper k, so
+\[
+\mathcal V(P)=\mathcal H(P)=\mathcal F(P)=P^2,
+\qquad
+\mathcal W(P)=\mathcal U(P)=P^2\setminus\{(m,n),(n,m)\}.
+\]
+For its **order dual** \(P^{\mathrm{op}}\), the roles reverse:
+\[
+\boxed{
+\mathcal W(P^{\mathrm{op}})=\mathcal H(P^{\mathrm{op}})
+=\mathcal U(P^{\mathrm{op}})=\mathcal F(P^{\mathrm{op}})=P^2,
+\qquad
+\mathcal V(P^{\mathrm{op}})=P^2\setminus\{(m,n),(n,m)\}.
+}
+\tag{9.2}
+\]
+This makes a useful distinction: **even coherently, W=H does not imply V=H**, nor the converse. The two routes of alternating closure and fitting have genuinely different stopping behavior. In the infinite coherent category, the finite test for V=H is *not* asserted to extend without further work because fitted spectral sublocales need not be patch-closed; their pointwise minimum condition does not by itself guarantee closure.
