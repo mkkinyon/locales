@@ -1,0 +1,19 @@
+Yes, a few, and the first two would be my priorities. None has had a second reader, so treat them as leads, not results.
+
+1. **Everything dualises, so the D-side has its own descent.** Reversing the order on the Priestley space swaps I and D and leaves C unchanged (reversing chains is an automorphism of Δ). Closed downsets become compact-open upsets. So D1, F1 and the criteria have mirror versions for finite compact-open covers, with "ambient lower bound" in place of UB and least and greatest swapped. A tuple with a common lower witness z lies in any compact open containing z, which is exactly the localisation that fails for closed covers. With C3 you can then certify a space by whichever kind of cover works.
+
+2. **A non-constant test family.** For a Stone space S, let X = S ⊔ {p, q} with every s below both p and q. Descent on the cover {↓p, ↓q} gives C(X) ≃ the unreduced suspension of h(S), while I(X) ≃ D(X) ≃ 1. For S two points this is your four-point control; for S a Cantor set the obstruction is a genuinely non-constant object. This is the kind of example the packet lacks, where the sheaf structure carries the answer.
+
+3. **Products.** Ch, I and D commute with finite products degreewise, and realisation commutes with finite products in H. So C, I, D and both canonical maps are multiplicative. That gives closure of SNC and of "C → I is an equivalence" under products, and cheap non-constant examples such as P × S.
+
+4. **The B2 hypothesis is not necessary.** Take B finite, acyclic and not contractible, and add two maxima above all of B. Then Ord(P) is the suspension of Ord(B), hence contractible, and both witness complexes are contractible, yet B_S = B fails the hypothesis. So "contractible" cannot be the sharp condition; a homological version (acyclic intersections give homology isomorphisms) plus a π₁ statement may be the right pair. The same example shows Cameron–Kumar's informal "exactly when" remark is not literally true.
+
+5. **Fibrewise certificates need continuity.** D2 works because the extremal point is a single point. Over a Stone base S, the natural generalisation is a patch-continuous section choosing a least (or greatest) point in each fibre; then C(Z) ≃ h(S). Pointwise contractibility of fibres alone should not be expected to suffice, since points do not detect equivalences in H.
+
+6. **Order-adjunctions.** Spectral maps f, g with gf ≥ id and fg ≤ id induce inverse equivalences on C. This is a stronger invariance statement than SZC and gives a continuous analogue of removing beat points.
+
+7. **State the finite-stage comparison as a question.** There is a natural map from C(X) to the limit in H of the constant objects on Ord(P_λ). Example W shows it can fail on π₀. Asking for which X it is an equivalence is the precise form of "does C see intrinsic shape", and I do not know the answer.
+
+8. **Size.** All your examples have countable lattices, so the light (countably based) Stone site would remove the κ bookkeeping entirely.
+
+If useful, I can add these to the report as a clearly separated appendix, with the short proofs written out for items 1 to 4.
