@@ -32,7 +32,7 @@ For an **arbitrary** locale X, the canonical *oriented specialization* sublocale
 \qquad\text{for all }a\in\mathcal O(X).
 \tag{2.1}
 \]
-Put \(\mathcal B=\mathcal A^\smile\). **Proposed permanent notation**:
+Put \(\mathcal B=\mathcal A^\smile\). **Provisional notation for discussion**:
 \[
 \boxed{\mathcal S:=\mathcal A\vee\mathcal B.}
 \tag{2.2}
@@ -166,7 +166,47 @@ The converse classification is \(I=D\iff K(L)\) is both normal and conormal (usi
 
 Do not promote (4.1) into a universal \(U=F\) assertion.
 
-## 5. Reinterpretations and candidate directions, not yet new theorems
+## 5. A striking coherent graph-power calculation (NEW deduction)
+
+Let \(\mathcal S=\mathcal A\vee\mathcal B\), where \(\mathcal A\) is the oriented localic specialization relation, \(\mathcal B=\mathcal A^\smile\). For **coherent** locales, the [canonical composition calculus](ProjectA_coherent_composition_canonical_proof_2026-11-08.md) proves that the proconstructible relations \(\mathcal A,\mathcal B,\mathcal I,\mathcal D,\mathcal U,\mathcal V\) are closed under the relevant finite joins and compositions; composition **associates and distributes over finite joins within that class**. It further gives
+\[
+\mathcal A^2=\mathcal A,\quad\mathcal B^2=\mathcal B,\quad
+\mathcal A\mathcal B=\mathcal I,\quad \mathcal B\mathcal A=\mathcal D,\quad
+\mathcal I^2=\mathcal U,\quad \mathcal D^2=\mathcal V.
+\tag{5.1}
+\]
+
+**Theorem 5.1 (new short coherent consequence).**
+\[
+\boxed{\mathcal S^2=\mathcal J,\qquad
+\mathcal S^4=\mathcal U\vee\mathcal V.}
+\tag{5.2}
+\]
+
+*Proof.* Finite distributivity gives
+\[
+\mathcal S^2=(\mathcal A\vee\mathcal B)^2
+=\mathcal A^2\vee\mathcal A\mathcal B
+ \vee\mathcal B\mathcal A\vee\mathcal B^2
+=\mathcal A\vee\mathcal B\vee\mathcal I\vee\mathcal D
+=\mathcal I\vee\mathcal D=\mathcal J,
+\]
+because \(\mathcal S\le\mathcal I\wedge\mathcal D\). Then
+\[
+\mathcal S^4=\mathcal J^2
+=(\mathcal I\vee\mathcal D)^2
+=\mathcal I^2\vee\mathcal I\mathcal D
+ \vee\mathcal D\mathcal I\vee\mathcal D^2.
+\]
+The [7 November mixed-composition referee](A-mixed-composition-external-audit-reconciliation-2026-11-07.md) established the general inequalities \(\mathcal I\mathcal D\le\mathcal U,\ \mathcal D\mathcal I\le\mathcal U\). Hence the right side is \(\mathcal U\vee\mathcal V\). □
+
+This is **exact localic relational composition**, not just ordinary graph paths. It requires coherence for the distributivity/associativity and the \(I^2=U,D^2=V\) identities; it is NOT claimed for arbitrary locales. It was independently sanity-tested on all 407 naturally labeled posets of sizes 1–5 with order extending a fixed labeling (reflexive transitive suborders of the total order): no counterexample to either equality or the mixed inequalities.
+
+**Graph interpretation.** For finite posets, \(\mathcal S^2\) is the reflexive two-step comparability graph, so \(J=I\vee D\) has a direct *graph-square* meaning. The upper pair \(U\vee V\) is the fourth power of the specialization graph, not an unrelated extra binary relation. The six-point zigzag from our earlier work has \(U\vee V<H=F\), so even fourth graph powers need not recover the closed-and-fitted hull. In coherent locales \(\mathcal H\) is the **patch-closed comparability-saturated completion** of the diagonal, whereas \(\mathcal S^n\) encodes finite graph-distance bounds; infinite paths and patch limits are genuinely relevant.
+
+This brings Cameron–Kumar's path-length viewpoint back into the center of Project A. It also provides a natural test for any future attempt to define graph power analogues of \(\mathcal J\) or \(\mathcal U\vee\mathcal V\) beyond coherence: ordinary localic composition can fail to associate and need not distribute over sublocale joins, so **no unrestricted analogue is inferred**.
+
+## 6. Reinterpretations and candidate directions, not yet new theorems
 
 **The canonical specialization relation is the common source of I and D in coherent locales.** Our proven coherent formulas are
 \[
@@ -183,8 +223,8 @@ with order-convention/orientation as in the canonical proof. This directly echoe
 
 **Homotopy and invariants.** Cameron–Kumar show that the clique complex of Sp recovers weak homotopy type for finite T0 spaces, and derive Dowker homotopy equivalences between the complexes of inseparable and closure-meeting families. The introduction of S supplies an intrinsic relation whose finite points recover Sp. It does NOT automatically supply a localic clique complex or prove the same homotopy theorem for locales.
 
-## 6. Scope of this first reorientation
+## 7. Scope of this first reorientation
 
-New content here is the **explicit notation S**, its all-frame placement \(S\le M\), the **exact hull identities** \(\operatorname{cl}S=I\) and \(\operatorname{fit}S=D\), and the finite-poset interval criterion \(S=M\). The source theorems on graphs, the coherent A/B composition formulas, and the existing W-phase hierarchy are inherited, with their corresponding source/audit provenance.
+New content here is the **provisional notation S**, its all-frame placement \(S\le M\), the **exact hull identities** \(\operatorname{cl}S=I\) and \(\operatorname{fit}S=D\), the finite-poset interval criterion \(S=M\), and the coherent **graph-power identities** \(S^2=J\), \(S^4=U\vee V\). The source theorems on graphs, the coherent A/B composition formulas, and the existing W-phase hierarchy are inherited, with their corresponding source/audit provenance.
 
 This note is a **refreshed diagram and motivational crosswalk**, not a complete new audit or an assertion that every relation-constructor comparison has been decided. The most natural *next bounded study* is to ask exactly how the Dowker common-witness picture interacts with pointfree relational composition, beginning with coherent locales where A/B are already under control, or alternatively revisit finite graph realizability in the language of actual sublocales. Either would return us to the paper's original mathematical purposes rather than extend the Hasse diagram for its own sake.
