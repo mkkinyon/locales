@@ -28,6 +28,8 @@
 - **[Stone-indexed pointed face-poset wedges with nonconstant canonical equivalences](PointFree_Stone_indexed_pointed_face_posets_nonconstant_canonical_equivalences_2026-11-10.md)** — a **working positive answer** to PF-Q01: both canonical maps `C→I,D` are equivalences, and the common realization has nonconstant homology sheaf `Z[h(S)]`; pointed finite-sphere face posets give nonconstant first homotopy sheaf in **every degree m≥1**. **Not externally audited.**
 - These notes begin answering PF-Q01 and PF-Q02 from the [unified open-problem register](ProjectA_open_problems_register_v1_7_2026-11-10.md), but that register's original question statements are intentionally preserved for provenance.
 
+- **[Free condensed homology: unmarked counterexample and coalgebra reconstruction](PointFree_free_condensed_homology_coalgebra_reconstruction_2026-11-10.md)** — **final working segment before the next audit**. Clausen–Scholze's nonhomeomorphic Stone spaces with isomorphic unmarked free condensed abelian groups refute homology-only recovery; the canonical diagonal coalgebra recovers the Stone space as group-like elements. **Working internal proof / published external input, not independently blind-audited.**
+
 ## Referee additions and next research
 
 - [First referee's suggestions, with original prioritization](PointFree_referee_post_audit_suggestions_priorities_2026-11-10.md): Čech/Vietoris refinement pro-systems, finite crosscuts, chain nerves, unpatched descent hypotheses.
