@@ -1,6 +1,6 @@
 # Point-Free Topology Project — Dowker phase external-audit reconciliation
 
-**10 November 2026.** Reconciliation of the independent blind report **“Referee report — Project A C Dowker and higher diagonal phase (blind audit)”** (Claude Fable 5.2, High). The report was prepared without access to [our internal audit](ProjectAC_Dowker_INTERNAL_AUDIT_2026-11-10.md). This reconciliation is a separate subsequent analysis; the referee's report must be retained verbatim. The older **Project A/C** identifiers are historical; the active research program is now one unified Point-Free Topology Project.
+**10 November 2026.** Reconciliation of the independent blind report **“Referee report — Project A C Dowker and higher diagonal phase (blind audit)”** (Claude Fable 5.2, High). The report was prepared without access to the separate internal audit prepared earlier in Session 6 (preserved as a conversation attachment). This reconciliation is a separate subsequent analysis; the referee's report must be retained verbatim. The older **Project A/C** identifiers are historical; the active research program is now one unified Point-Free Topology Project.
 
 ## 1. Verdict and provenance
 
