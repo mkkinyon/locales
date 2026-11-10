@@ -15,7 +15,7 @@
 ## Verification and deliberate limits
 
 - Direct GitHub reading verified **583 inline link targets in the 19 most important current/status/audit pages**, with **no broken relative targets**. A further representative sample of 12 historical A notes had 12 inline targets, all resolving. This is a **targeted** check, not a full 321-plus-file scan. Earlier scan found and this pass fixed the three known broken 9 November audit index links.
-- Canonical note and ledger explicitly repair the second referee's B2 last-vertex proof gap, C3 cofibre inference, site prerequisites, G3 strictness overstatement, and Cambridge–Kumar/Cameron–Kumar §9 attribution (correct author spelling is **Cameron–Kumar**).
+- Canonical note and ledger explicitly repair the second referee's B2 last-vertex proof gap, C3 cofibre inference, site prerequisites, G3 strictness overstatement, and Cameron–Kumar §9 attribution.
 - The first referee's non-descent theorem and the second's post-report additions (UB equivalence, no-compactness closed descent, strictness of cover criteria, compactified fence W) retain **their actual verification provenance**; no original external report was silently altered.
 - **Not done:** full 300-plus-file link checker run (no local git checkout in this runtime); deep rewrite of historical notes; independent proof assistant/human audit; literature-priority investigation; original ZIP binary archiving; site-size independence; automatic CI workflow.
 - **Pending optional cosmetics:** a duplicated README reference to the same arithmetic counterexample, 177-byte historical W=U placeholder stub, and a consistent naming policy for future files. These pose no substantive mathematical risk and were deliberately left alone.
