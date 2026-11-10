@@ -72,6 +72,15 @@ The first final equivalence follows from prime-filter extension of the proper fi
 
 **Caution on monotonicity.** Under arbitrary cover refinement, w_V≤w_U holds, but b_V≥b_U need NOT hold. Example: discrete two-point X, U=({a},{b},1) and V=(1); V refines U, b_U^(2)≠0 while b_V^(2)=0. For *canonical intersection refinement* U⊗V=(u_i∧v_j)_{i,j}, b_{U⊗V}≥b_U,b_V and w_{U⊗V}≤w_U,w_V. Do not claim the nonface operators form a monotone inverse system under arbitrary refinement assignments.
 
+### Directed approximation systems (distinct for the two hulls)
+
+The test families can each be arranged into a genuine decreasing diagram of sublocales, but **not using the same refinement order**.
+
+- For I^(n), if U⊔V denotes *concatenation* of two indexed covers, then b_{U⊔V}^(n)≥b_U^(n),b_V^(n). Consequently C(b_{U⊔V})≤C(b_U),C(b_V). Inclusion/concatenation of indexing families makes the closed tests a filtered decreasing family, whose intersection (limit of subobjects of X^n) is I^(n). This works already without coherence.
+- For D^(n), ordinary refinement V≼U gives w_V^(n)≤w_U^(n). A common intersection refinement U⊗V=(u_i∧v_j) refines both, so the open witness locales L_{n−1}(V) form a cofiltered decreasing family with limit D^(n). In a coherent locale, finite compact-open covers suffice for this strict inverse-limit description, in every simplicial degree, giving D^(•+1) as a degreewise inverse limit of the L_•(U).
+
+This does **not** imply that geometric realizations or homotopy groups commute with these inverse limits. Avoid interpreting the degreewise inverse-limit identity itself as a nerve lemma or shape theorem.
+
 ## 4. Genuine higher-dimensional information
 
 Take the six-point finite poset P with three minimal elements a,b,c and three maximal elements t_ab,t_bc,t_ca, where a,b≤t_ab, b,c≤t_bc, c,a≤t_ca, and no other strict comparisons. In the upper-Alexandrov topology its principal opens U_a,U_b,U_c cover P, have pairwise nonzero intersection, but U_a∧U_b∧U_c=0. Thus their cover nerve is the triangle boundary. Each pair among a,b,c belongs to I^(2), but (a,b,c) does not belong to I^(3), detected by the missing 2-simplex. Order-dualizing gives an analogous distinction for D^(3) versus its binary coordinate projections. Thus higher hulls are not generally determined by their 2-dimensional skeleta, already for finite coherent locales.
