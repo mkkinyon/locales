@@ -20,6 +20,12 @@
 6. [Dowker rectangle Čech patch descent](ProjectA_Dowker_bisimplicial_Cech_patch_descent_2026-11-10.md), [higher diagonal reconstruction](ProjectAC_higher_diagonal_cover_nerve_reconstruction_2026-11-10.md), and [cover-nerve descent](ProjectAC_frame_cover_Dowker_open_descent_2026-11-10.md) — pre-audit Dowker papers / working notes.
 7. [Cameron–Kumar revisit](ProjectA_Cameron_Kumar_revisit_graph_to_locale_hierarchy_2026-11-10.md) and [Brun–Fosse–Salbu crosswalk](ProjectA_Brun_Fosse_Salbu_Dowker_crosswalk_2026-11-10.md) — motivating graph-to-localic dictionary and established rectangle literature.
 
+## Post-audit mathematical work (internally checked, not part of blind reports)
+
+- **[Two-apex coherent locales and nonconstant sheaf suspensions](PointFree_two_apex_nonconstant_sheaf_suspension_2026-11-10.md)** — working calculation `C(X(S)) ≃ Σ h(S), I(X(S)) ≃ D(X(S)) ≃ 1`, and a section-based argument that the first reduced homology sheaf is nonconstant for infinite Stone S. **Not externally audited.**
+- **[Direct D-side open-cover Čech descent](PointFree_D_side_open_cover_Cech_descent_2026-11-10.md)** — working all-locale/arbitrary-open-cover equations for chain/fitted hulls (degreewise open localic effective descent), plus coherent finite compact-open patched codescent, dual ambient lower-bound test, and a two-bottom mirror of the suspension example. **Not externally audited.**
+- These notes begin answering PF-Q01 and PF-Q02 from the [unified open-problem register](ProjectA_open_problems_register_v1_7_2026-11-10.md), but that register's original question statements are intentionally preserved for provenance.
+
 ## Referee additions and next research
 
 - [First referee's suggestions, with original prioritization](PointFree_referee_post_audit_suggestions_priorities_2026-11-10.md): Čech/Vietoris refinement pro-systems, finite crosscuts, chain nerves, unpatched descent hypotheses.
