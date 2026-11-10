@@ -1,6 +1,6 @@
 # Point-Free Topology — thematic guide to a large historical research repository
 
-**10 November 2026.** The repository contains hundreds of largely chronological Markdown notes. This page intentionally adds navigation **without moving or renaming files**, protecting the original proofs, dead ends, referee provenance and links. The [unified start page](POINT_FREE_TOPOLOGY_START_HERE.md) and [master theorem ledger v2.0](PointFree_master_theorem_ledger_v2_0_2026-11-10.md) are the current authority for status.
+**10 November 2026.** The repository contains hundreds of largely chronological Markdown notes. This page intentionally adds navigation **without moving or renaming files**, protecting the original proofs, dead ends, referee provenance and links. The [unified start page](POINT_FREE_TOPOLOGY_START_HERE.md) and [master theorem ledger v2.1](PointFree_master_theorem_ledger_v2_1_2026-11-10.md) are the current authority for status.
 
 ## 1. The separation hierarchy (historic Project A)
 
@@ -35,7 +35,7 @@
 
 - **[Coherent homotopy phase index](PointFree_coherent_homotopy_PHASE_INDEX_2026-11-10.md)** — the authoritative guided tour.
 - **[Canonical chain/higher-hull mathematical account](PointFree_coherent_chain_hulls_CANONICAL_2026-11-10.md)** — corrected theorem package and explicit referee-origin extensions.
-- [Both 10 Nov independent blind audit archives](audits/2026-11-10/README.md) and their [mathematical status ledger](PointFree_master_theorem_ledger_v2_0_2026-11-10.md).
+- [Three 10 Nov independent blind audit archives](audits/2026-11-10/README.md) and their [mathematical status ledger](PointFree_master_theorem_ledger_v2_1_2026-11-10.md).
 - [First referee's suggestions](PointFree_referee_post_audit_suggestions_priorities_2026-11-10.md) and [second referee's suggestions](PointFree_referee2_mathematical_suggestions_triage_2026-11-10.md).
 
 ## 6. Deferred/archive areas, editorial conventions
