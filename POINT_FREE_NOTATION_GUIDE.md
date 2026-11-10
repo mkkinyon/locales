@@ -16,6 +16,8 @@
 - \(\mathcal V=\operatorname{fit}(\mathcal I)\), \(\mathcal W=\operatorname{cl}(\mathcal D)\), \(\mathcal M=\mathcal I\wedge\mathcal D\), \(\mathcal J=\mathcal I\vee\mathcal D\), \(\mathcal H\) the alternating formal hull. Subscripts such as \(\mathcal V_n\), \(\mathcal W_2\) are iterated hierarchy operations; **not** the higher simplicial arity index below.
 - For exact containment theorems, see [master ledger v2.0](PointFree_master_theorem_ledger_v2_0_2026-11-10.md); not every intuitively plausible inclusion is valid.
 
+**For arbitrary noncoherent locales:** Present the localic specialization relation using frame inequalities for **all** frame opens, or a join-generating base, not just compact opens. The compact-open presentation is sufficient only for coherent X. This repairs the third blind referee's B1 definition gap.
+
 ## Higher diagonals and simplicial objects
 
 - \(\Delta_{n+1}\hookrightarrow X^{n+1}\); \(I_n(X)=\operatorname{cl}(\Delta_{n+1})\), \(D_n(X)=\operatorname{fit}(\Delta_{n+1})\). The index \(n\) here denotes **arity \(n+1\)**. In coherent X, \(I_n\) has tuples with a common upper witness, \(D_n\) tuples with a common lower witness.
@@ -30,4 +32,4 @@
 
 - \(\mathscr H_\kappa\): a sufficiently large Stone sheaf \(\infty\)-topos with **finite jointly surjective covers including the empty cover of \(\emptyset\)**. Comparisons occur **after Patch**, not necessarily before.
 - A result marked **externally blind-checked after repairs** differs from **referee-origin working**, **internally checked**, **open**, and **historical attempt**. Original external referee reports remain unchanged and separated from our later reconciliations.
-- [Unified start](POINT_FREE_TOPOLOGY_START_HERE.md) · [phase index](PointFree_coherent_homotopy_PHASE_INDEX_2026-11-10.md) · [master theorem ledger](PointFree_master_theorem_ledger_v2_0_2026-11-10.md).
+- [Unified start](POINT_FREE_TOPOLOGY_START_HERE.md) · [phase index](PointFree_coherent_homotopy_PHASE_INDEX_2026-11-10.md) · [master theorem ledger](PointFree_master_theorem_ledger_v2_1_2026-11-10.md).
