@@ -106,6 +106,29 @@ Therefore the actual **full unmarked homotopy objects** of the Stone-indexed fac
 
 **Stronger caution for the coalgebra theorem:** These equivalences do **not** intertwine the distinguished diagonal coalgebras on \(\mathbb Z[h(S)]\) and \(\mathbb Z[h(T)]\), since their group-like subsheaves would then be isomorphic, contrary to nonhomeomorphism. Thus the generator-diagonal coalgebra is **not determined by the unmarked pointed sheaf homotopy type**. The genuine reduced diagonal on the first nontrivial sphere homology is primitive; it is not the generator coalgebra.
 
+### Other referee-origin post-report refinements (independently checked here)
+
+**Direct D-side computation for pointed fibre wedges (report Post-audit 2).** For \(W=W_S(P,v)\) with v minimal, the actual patched \(D_n(W)\) is the union \(F_n\cup B_n\), where:
+- \(F_n\) contains the constant tuple \(v_n\) and tuples whose non-v coordinates all belong to **one** S-fibre and possess a lower witness there; thus \(F_\bullet\) is the pointed S-indexed gluing of \(D_\bullet(P)\).
+- \(B_n=U_v^{n+1}\) where \(U_v=\uparrow_W v\) (a patch-clopen spectral open). Every such tuple has ambient lower witness v. This is the Čech nerve of \(U_v\to1\).
+- Their intersection is pointed S-indexed gluing of \(U_P^{n+1}\) with \(U_P=\uparrow_P v\), and is also contractible after realization.
+
+Every tuple with a common lower witness falls into F (if the witness lies in a non-v fibre) or B (if the witness is v). These are **actual proconstructible Stone subobjects**, and the finite jointly surjective pair yields their homotopy pushout after applying h. Since \(|hB_\bullet|\simeq|h(F\cap B)_\bullet|\simeq1\),
+\[
+\boxed{\mathbf D(W_S(P,v))\simeq h(S)_+\wedge\mathbf D(P).}
+\]
+The equivalence is compatible with the **canonical** C→D map because Ch(W) lies in F and its restriction is the fibrewise finite inclusion. This supplies a direct D-side proof for the family **without invoking the earlier edgewise arrow theorem**, although the older general theorem remains valid. **CAUTION:** this is a *realization-level* statement using the union \(F_n\cup B_n\), **not** the false assertion that the whole \(D_n(W)\) glues fibrewise like I_n(W). Its proof is internally checked post-report, **not** one of the fifteen blind-refereed claims.
+
+**Actual fundamental-group sheaf when m=1 (report Post-audit 3).** For every Stone S,
+\[
+h(S)_+\wedge\underline{S^1}\simeq B\operatorname{Fr}(h(S))
+\quad\Longrightarrow\quad
+\boxed{\pi_1(h(S)_+\wedge\underline{S^1})\cong\operatorname{Fr}(h(S))}
+\]
+with no higher positive homotopy sheaves. This is a 1-truncated object: objectwise it is a wedge of circles indexed by the set of continuous maps to S, and left exact sheafification preserves 1-truncation. The A2 unreduced suspension also has a free fundamental-group *quotient* after choosing a global basepoint \(s_0\in S\); the precise presentation is \(\operatorname{Fr}(h(S))/\langle\!\langle[s_0]\rangle\!\rangle\). These are referee-origin after-report refinements, internally checked, not blind-refereed A1–E3 claims.
+
+**Intrinsic homology diagonal (report Post-audit 4).** On the first nonzero reduced sphere homology of the suspension/wedge object, reduced diagonal classes are **primitive**, unlike the group-like generator coalgebra of \(M_S\). This reinforces that the generator-diagonal coalgebra is externally retained data, not recovered from the unmarked homotopy object. The general statement about *every* stable homotopy operation is not claimed.
+
 ## 5. Status, references and remaining research
 
 **Now externally blind-checked after repairs:** A1–E3 of the Nov 10 post-audit packet. These depend on earlier audited coherent chain/higher-hull prerequisites; their underlying methods are mainly standard Priestley, crosscut, simplicial, \(\infty\)-topos, and condensed-mathematics machinery. Do not claim publication priority absent comprehensive literature check.
