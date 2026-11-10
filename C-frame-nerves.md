@@ -1,3 +1,5 @@
+> **HISTORICAL IDEA NOTE, NOT CURRENT STATUS (10 November 2026).** The former Project C is now an active part of the unified Point-Free Topology program, not an inactive backlog. The “backlog” description below records the note's **original** context. For current mathematics and next questions see the [coherent homotopy phase index](PointFree_coherent_homotopy_PHASE_INDEX_2026-11-10.md), [canonical account](PointFree_coherent_chain_hulls_CANONICAL_2026-11-10.md), and [unified project home](POINT_FREE_TOPOLOGY_START_HERE.md). This original idea note is otherwise retained unmodified.
+
 # C — Frame-cover nerves and homotopy (backlog)
 
 **Status:** ideas preserved, not active. Classical Čech nerves and Dowker duality predate this discussion; the possible research is in new comparisons and theorems, not in inventing the nerve.
