@@ -24,6 +24,7 @@
 
 - **[Two-apex coherent locales and nonconstant sheaf suspensions](PointFree_two_apex_nonconstant_sheaf_suspension_2026-11-10.md)** — working calculation `C(X(S)) ≃ Σ h(S), I(X(S)) ≃ D(X(S)) ≃ 1`, and a section-based argument that the first reduced homology sheaf is nonconstant for infinite Stone S. **Not externally audited.**
 - **[Direct D-side open-cover Čech descent](PointFree_D_side_open_cover_Cech_descent_2026-11-10.md)** — working all-locale/arbitrary-open-cover equations for chain/fitted hulls (degreewise open localic effective descent), plus coherent finite compact-open patched codescent, dual ambient lower-bound test, and a two-bottom mirror of the suspension example. **Not externally audited.**
+- **[Mixed open/closed Čech and ordinal-sum higher homotopy](PointFree_mixed_Cech_ordinal_sum_higher_nonconstant_homotopy_2026-11-10.md)** — working bi-Čech chain-nerve formula, ordinal-sum join theorem, independent I/D contractions, and `(m−1)`-connected examples with **nonconstant `π_m`** for every `m≥2`. **Not independently audited.**
 - These notes begin answering PF-Q01 and PF-Q02 from the [unified open-problem register](ProjectA_open_problems_register_v1_7_2026-11-10.md), but that register's original question statements are intentionally preserved for provenance.
 
 ## Referee additions and next research
