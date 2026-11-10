@@ -37,6 +37,20 @@ Indeed Δ_n is dense in its closure I^(n). For any open w of X^n, O(w)∧I^(n)=0
 
 Thus the entire family of *labelled* cover nerves is read off from the higher closed diagonal sublocales; conversely Theorem 1 reconstructs I^(n) using the forbidden localic rectangles from the labelled nonfaces. Merely knowing the abstract simplicial complex of one cover, without its actual opens in L, is not sufficient to determine the sublocale.
 
+
+## 2a. A natural simplicial span of two open covers (new structural strengthening)
+
+Let U=(u_i) be an open cover, and write T_U=∐_i O(u_i)→X for the standard open-cover surjection. For n≥1 pull back its n-fold product along I^(n)↪X^n:
+  Q_{n−1}(U) := I^(n) ×_{X^n} (T_U)^n
+    ≅ ∐_{(i_1,...,i_n)∈I^n} [I^(n)∧O(u_{i_1}⊠···⊠u_{i_n})].
+By Theorem 2, the components indexed by nonfaces of N(U) are ZERO, so the index projection factors uniquely through the discrete locale K_{n−1}(U) of nerve tuples. We obtain a canonical span
+  K_{n−1}(U) ← Q_{n−1}(U) → I^(n).
+**Both maps are open surjections**, for arbitrary locales: the right map is a pullback of the n-fold product of an open-cover map, and the left map is assembled over the discrete K_{n−1}(U) from nonzero locale maps to 1. Deleting/repeating coordinate maps yield a simplicial span
+  K_•(U) ← Q_•(U) → I^(•+1)
+natural for specified refinements of indexed covers.
+
+**Important:** Degreewise open surjections are NOT sufficient for a weak equivalence of simplicial realizations. For example, with the one-element cover {1} of a discrete two-point locale, K_• is terminal and I^(•+1) is constant at the two-point locale, with the comparison simply a two-point surjection onto a point. This is a genuine simplicial open-cover comparison, not a localic nerve lemma.
+
 ## 3. Coherent reduction to finite compact-open covers
 
 Suppose X coherent (compact spectral) and K(X) the bounded distributive lattice of compact opens. Then **both** meets in Theorem 1 may be restricted to *finite indexed covers by compact opens*.
