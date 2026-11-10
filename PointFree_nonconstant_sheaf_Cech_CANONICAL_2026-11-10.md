@@ -174,6 +174,26 @@ Likewise the unreduced suspensions of this specific pair are equivalent: both St
 
 **Consequence for coalgebras:** an equivalence of the unmarked homotopy objects does **not** induce an isomorphism of the distinguished generator coalgebras, for their group-like subsheaves are \(h(S)\), \(h(T)\), and S,T are not homeomorphic. The reduced diagonal on spherical homology is *primitive*, not the group-like coalgebra of freely generated coefficients. No conflict with E2–E3.
 
+### Two further post-report refinements, with separate status
+
+**Direct fitted-hull comparison in the pointed-fibre construction (referee Post-audit 2).** The D-side is not literally fibrewise level by level, but each \(D_n(W_S(P,v))\) splits as a Stone-subobject union
+\[
+F_n\ \cup\ U_v^{n+1},
+\]
+where \(F_n\) consists of the constant-v tuple and tuples lying in a single S-fibre with an internal P-lower witness, and \(U_v=\uparrow_Wv\). Their intersection is the pointed S-fibre gluing of \((\uparrow_Pv)^{n+1}\). Both the full Čech nerve \((U_v)^{\bullet+1}\) and the intersection simplicial object realize to 1. The F-part realizes to \(h(S)_+\wedge\mathbf D(P)\), so their homotopy pushout gives
+\[
+\boxed{\mathbf D(W_S(P,v))\simeq h(S)_+\wedge\mathbf D(P)}
+\]
+**compatibly with the canonical C→D map**. This yields a second, **direct D-side** proof of the D3 application without invoking the general edgewise theorem. It is **referee-origin, independently internally checked after the third audit**, not a sixteenth blind-refereed claim. In particular, the false *degreewise* equality \(D_n(W)\cong1\sqcup S\times(D_n(P)\setminus\{v_n\})\) is NOT being asserted.
+
+**Full fundamental group in degree 1 (referee Post-audit 3).** The standard objectwise graph/free-group calculation and exact sheafification give
+\[
+h(S)_+\wedge\underline{S^1}\simeq B\operatorname{Fr}(h(S)),
+\qquad
+\boxed{\pi_1\simeq\operatorname{Fr}(h(S)),\quad \pi_j=0\ \ (j>1).}
+\]
+Thus D3's m=1 case can be strengthened from a statement about the abelianization of \(\pi_1\) to an exact identification of the **full** fundamental-group sheaf. For the **unreduced** suspension of h(S), a choice of global point \(s_0\) yields \(\pi_1\simeq\operatorname{Fr}(h(S))/\langle\!\langle[s_0]\rangle\!\rangle\). These are after-report deductions, not part of the blind certificate.
+
 ## Verification and forward boundary
 
 - **Externally audited after repairs:** A1–E3, relying on earlier canonical coherent chain/hull premises already independently checked. Their proofs use classical choice/prime-filter theorem.
