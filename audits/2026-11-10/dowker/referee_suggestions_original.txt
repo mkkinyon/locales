@@ -1,0 +1,19 @@
+Thank you. A few thoughts, roughly in order of how much I'd bet on them; everything here is suggestion, not something I verified to the report's standard.
+
+**Mathematical directions**
+
+1. **Frame §7–8 as Čech versus Vietoris.** Dowker proved his 1952 theorem precisely to identify Čech and Vietoris homology. Your K-side is the Čech nerve of the cover and your L-side, O(w_U^(•+1)), is the localic Vietoris complex of "U-small" tuples. The L-side is strictly functorial under refinement, so the natural theorem is at the pro-level: the pro-system of L-sides over all covers is levelwise equivalent to the pro-system of nerves. That is where a shape statement could live, with the usual caveat that covers may need to become hypercovers.
+
+2. **Try the chain nerve instead of the chaotic one.** Since A represents the order, the locale of chains x_0 ≤ … ≤ x_n is a cotensor of X and exists in every locale using limits only. It needs no images, so it sidesteps the descent problems entirely. For finite posets it is the order complex, which carries the weak homotopy type (McCord), whereas the witness complexes do not (your four-point example).
+
+3. **A finite criterion for the graph-theory audience.** If every family of elements with a common lower bound has a meet, the down-sets of maximal elements form a good cover of the order complex. The nerve lemma then gives the witness complexes the homotopy type of the poset. Face posets of simplicial complexes satisfy this. I believe this is right but only sketched it.
+
+4. **Characterise when s_q is open or descent.** Both counterexamples violate "the up-set of a clopen is clopen" (↑{d} is not open). That hints at an Esakia-type hypothesis, though I doubt it suffices alone for q ≥ 1. More broadly, the I/D asymmetry suggests the natural home is ordered Stone spaces or stably compact locales, where both topologies are available.
+
+**Process**
+
+5. **Get a human or a proof assistant on the non-descent theorem.** It is new, it is mine, and blind LLM audits can share blind spots. The pullback computation, Claim 3.1 and Claims 8.1–8.2 are small enough to formalise; I haven't checked what library support exists.
+
+6. **Tighten the blinding.** The prerequisite's header describes an earlier referee report, and the live repository link exposes the README to any search. A scrubbed copy of prerequisites inside the zip would remove both.
+
+7. **Put a conventions box at the top of each packet**: composition order, the specialization convention, and which statements are universal versus coherent.
