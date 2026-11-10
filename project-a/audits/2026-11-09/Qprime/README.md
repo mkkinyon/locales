@@ -8,6 +8,6 @@ This directory preserves, without corrections to the source texts, the first int
 - [Sending instructions](ProjectA_Qprime_EXTERNAL_BLIND_send_instructions_2026-11-09.md), part of audit provenance.
 - [Internal adversarial audit](ProjectA_Qprime_INTERNAL_adversarial_audit_2026-11-09.md), **not supplied** to the referee.
 
-Corrections, theorem-status classification, independent global upgrades of the C5/C6 examples, and two bounded post-referee tests live in the [separate canonical reconciliation](../../../ProjectA_Qprime_referee_reconciliation_and_bounded_checks_2026-11-09.md). This separation preserves the blind character of the external review and avoids rewriting the referee's words.
+Corrections, theorem-status classification, independent global upgrades of the C5/C6 examples, and two bounded post-referee tests live in the [separate canonical reconciliation](../../../../ProjectA_Qprime_referee_reconciliation_and_bounded_checks_2026-11-09.md). This separation preserves the blind character of the external review and avoids rewriting the referee's words.
 
 **Status:** the referee found no false principal theorem; some presentation repairs were required and the October hyperconnected/Alexandrov extensions were outside the new audit scope. **Q and Q′ remain OPEN and are DEFERRED**; next active Project A investigation studies \(\mathcal W\) as a relation in its own right.
