@@ -1,10 +1,10 @@
 # Project A — Current entry point
 
-**Status: 9 November 2026.** This page is the current navigation authority for Project A of the [locales research notebook](README.md). Earlier dated research notes and the chronological status index are preserved as historical records, not automatically current statements of theorem status.
+**Status: 9 November 2026 · W-phase external audit reconciled.** This page is the current navigation authority for Project A of the [locales research notebook](README.md). Earlier dated research notes and the chronological status index are preserved as historical records, not automatically current statements of theorem status.
 
 ## Canonical reference documents
 
-- **[Master theorem ledger v1.8](ProjectA_master_theorem_ledger_v1_8_2026-11-09.md)** — stable IDs, verification provenance, exact hypotheses and primary proof entry points.
+- **[Master theorem ledger v1.9](ProjectA_master_theorem_ledger_v1_9_2026-11-09.md)** — stable IDs, verification provenance, exact hypotheses and primary proof entry points.
 - **[Open-problem and deferred-question register v1.6](ProjectA_open_problems_register_v1_6_2026-11-09.md)** — mathematical open questions, explicitly deferred ideas, and remaining targeted proof checks, kept separate from established results.
 - **[Unrestricted Scott-continuity converse — corrected canonical proof](ProjectA_Lstar_canonical_corrected_proof_2026-11-08.md)** — for every closed sublocale E of X×Y, Scott continuity of (p₂)₍*₎p₁* is equivalent to properness of p₂. The proof uses the upper powerlocale and incorporates a correction identified by an independent blind referee.
 - **[Coherent proconstructible composition calculus — canonical proof](ProjectA_coherent_composition_canonical_proof_2026-11-08.md)** — compact-preserving quotient characterization, actual localic pullbacks and images, associativity within the coherent spectral class, fitted-diagonal and alternating-hull formulas.
@@ -15,9 +15,11 @@
 
 - **[Relative fitness and the T1 pointless obstruction](A-W-equals-H-relative-fitness-and-T1-pointless-obstruction-2026-11-09.md)** — exact single-element frame fitness test; regular-part inequality (r(d_W)\le d_U), showing why regular approximation cannot explain W=H<U; for spatial T1 squares W=H iff fit(W) is spatial and any failure has an atomless pointless Boolean residual. Includes a nonfit ambient-square example where W=H<U. Internal working mathematics; not externally audited.
 
-## W-phase audit preparation (9 November)
+## W-phase independent referee verdict and post-report work (9 November)
 
-- **[BLIND external W-phase audit prompt and technical packet](project-a/audits/2026-11-09/Wphase/README.md)** — covering the new Boolean W semantics, coherent W=H, finite-branch shrinking, multi-apex examples, fitted supplements, finite-Alexandrov product theorem, and the connected strict H∧U diamond. A separate adversarial internal report exists but is **not** in the external packet or public blind archive. **External verdict pending; new claims working only.** Q/Q′ deferred.
+- **[W-phase independent blind report and audit archive](project-a/audits/2026-11-09/Wphase/README.md)** — referee found no false principal theorem; reviewed finite-P × arbitrary-Y W-product and connected strict diamond. Internal audit archived separately after the report.
+- **[Canonical W-phase reconciliation](ProjectA_Wphase_EXTERNAL_referee_reconciliation_2026-11-09.md)** — C1 coherent proof repair, provenance, presentation corrections and factorwise interpretation of connected example.
+- **[Independent checks of referee additions A3–A5](ProjectA_Wphase_referee_additions_INDEPENDENT_checks_2026-11-09.md)** — compact-factor D/W multiplicativity, finite-P U/H multiplicativity, and the compact connected T₁ example with W<H. These additions remain INTERNAL working results, not part of the external certificate. Q/Q′ OPEN, DEFERRED.
 
 ## Connected strict H∧U diamond and finite-Alexandrov product theorem (9 November)
 
