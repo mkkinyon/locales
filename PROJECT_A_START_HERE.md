@@ -15,6 +15,10 @@
 
 - **[Relative fitness and the T1 pointless obstruction](A-W-equals-H-relative-fitness-and-T1-pointless-obstruction-2026-11-09.md)** — exact single-element frame fitness test; regular-part inequality (r(d_W)\le d_U), showing why regular approximation cannot explain W=H<U; for spatial T1 squares W=H iff fit(W) is spatial and any failure has an atomless pointless Boolean residual. Includes a nonfit ambient-square example where W=H<U. Internal working mathematics; not externally audited.
 
+## Cameron–Kumar revisitation: recovering graph powers and the hierarchy (10 November)
+
+- **[Graph-to-locale dictionary and refreshed Hasse-style diagram](ProjectA_Cameron_Kumar_revisit_graph_to_locale_hierarchy_2026-11-10.md)** — first reading directly against the author-supplied arXiv v1 TeX: restore the specialization relation \(S=A\vee A^\smile\) and prove \(\Delta\le S\le M\), \(\operatorname{cl}S=I\), \(\operatorname{fit}S=D\) for all locales; classify \(S=M\) on finite posets by chain intervals; and derive **new coherent graph-power identities** \(S^2=J\), \(S^4=U\vee V\). Includes universal hull/meet/join diagram, finite-cover and separation-tree overlays, and bounded research ideas from graph realization and Dowker complexes. Working deductions, not externally audited; no change to Q/Q′.
+
 ## W-phase independent referee verdict and post-report work (9 November)
 
 - **[W-phase independent blind report and audit archive](project-a/audits/2026-11-09/Wphase/README.md)** — referee found no false principal theorem; reviewed finite-P × arbitrary-Y W-product and connected strict diamond. Internal audit archived separately after the report.
