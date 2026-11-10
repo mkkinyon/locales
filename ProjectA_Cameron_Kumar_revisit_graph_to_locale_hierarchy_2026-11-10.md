@@ -50,6 +50,33 @@ For any open cover \(\mathcal C\) of X, its diagonal square-cover open \(w_\math
 
 This is a *genuine* extension of the bottom of the Cameron–Kumar diamond: the meet \(\mathcal M\) is not in general the same as specialization.
 
+**Proposition 2.1a (the two hulls of specialization).** For every locale,
+\[
+\boxed{\operatorname{cl}(\mathcal S)=\mathcal I,\qquad
+\operatorname{fit}(\mathcal S)=\mathcal D.}
+\tag{2.3a}
+\]
+*Proof.* Proposition 2.1 gives \(\Delta\le S\le I\) and \(\Delta\le S\le D\). Applying the monotone idempotent closure/fitting operators gives
+\(I=\operatorname{cl}\Delta\le\operatorname{cl}S\le\operatorname{cl}I=I\), and
+\(D=\operatorname{fit}\Delta\le\operatorname{fit}S\le\operatorname{fit}D=D\). □
+
+**Consequently**
+\[
+\mathcal S\text{ closed}\iff \mathcal S=\mathcal I,\qquad
+\mathcal S\text{ fitted}\iff \mathcal S=\mathcal D.
+\]
+This explains why the *two lower branches* of the original Cameron–Kumar graph hierarchy can be viewed as two distinct **localic hulls of specialization**, not merely as independent point-set conditions. It is a short formal deduction (indeed any R with \(\Delta\le R\le I\wedge D\) has the same two hulls).
+
+For **finite** upper-Alexandrov posets the original Cameron–Kumar equality classification (§7) reads:
+\[
+\begin{aligned}
+\mathcal S=\mathcal I&\iff\text{every principal downset }\downarrow p\text{ is a chain},\\
+\mathcal S=\mathcal D&\iff\text{every principal upset }\uparrow p\text{ is a chain}.
+\end{aligned}
+\tag{2.3b}
+\]
+These are stronger conditions than the interval-chain property \(\mathcal S=\mathcal M\) below. In the five-point alternating fence every interval is a chain, so \(\mathcal S=\mathcal M\), while \(\mathcal S\) is neither closed nor fitted; this is a concrete check that the equality with M is a genuinely separate class.
+
 **Proposition 2.2 (finite T0 classification, new deduction).** For a finite poset P in Project A's upper-Alexandrov convention,
 \[
 \boxed{\mathcal S(P)=\mathcal M(P)
@@ -158,6 +185,6 @@ with order-convention/orientation as in the canonical proof. This directly echoe
 
 ## 6. Scope of this first reorientation
 
-New content here is the **explicit notation S**, its all-frame placement \(S\le M\), and the finite-poset interval criterion \(S=M\). The source theorems on graphs, the coherent A/B composition formulas, and the existing W-phase hierarchy are inherited, with their corresponding source/audit provenance.
+New content here is the **explicit notation S**, its all-frame placement \(S\le M\), the **exact hull identities** \(\operatorname{cl}S=I\) and \(\operatorname{fit}S=D\), and the finite-poset interval criterion \(S=M\). The source theorems on graphs, the coherent A/B composition formulas, and the existing W-phase hierarchy are inherited, with their corresponding source/audit provenance.
 
 This note is a **refreshed diagram and motivational crosswalk**, not a complete new audit or an assertion that every relation-constructor comparison has been decided. The most natural *next bounded study* is to ask exactly how the Dowker common-witness picture interacts with pointfree relational composition, beginning with coherent locales where A/B are already under control, or alternatively revisit finite graph realizability in the language of actual sublocales. Either would return us to the paper's original mathematical purposes rather than extend the Hasse diagram for its own sake.
