@@ -1,4 +1,6 @@
-# Locales and graph-theoretic separation
+# Point-Free Topology Project
+
+> **UNIFIED PROJECT STATUS — 10 November 2026:** Former tracks A (separation relations) and C (frame-cover nerves, Dowker duality, homotopy) now constitute one research program; B is archived. Start with the [unified project index](POINT_FREE_TOPOLOGY_START_HERE.md) and the [10 November independent Dowker referee reconciliation](PointFree_Dowker_EXTERNAL_referee_reconciliation_2026-11-10.md). The report confirmed the new phase after repairs and supplied a referee-origin **non-descent theorem**. Older A/C names and dated status blocks below are retained for provenance.
 
 > **CURRENT PROJECT A STATUS — 9 November 2026:** Start at the [current Project A index](PROJECT_A_START_HERE.md), [master theorem ledger v1.9](ProjectA_master_theorem_ledger_v1_9_2026-11-09.md) and [open-problem register v1.6](ProjectA_open_problems_register_v1_6_2026-11-09.md). The [W-phase blind referee reconciliation](ProjectA_Wphase_EXTERNAL_referee_reconciliation_2026-11-09.md) corroborates the submitted W-product and connected strict-diamond results with specified repairs; the referee's additional compact-product and T₁ results are [internally checked separately](ProjectA_Wphase_referee_additions_INDEPENDENT_checks_2026-11-09.md), not part of the independent certificate. The [Q′ reconciliation](ProjectA_Qprime_referee_reconciliation_and_bounded_checks_2026-11-09.md) keeps **Q and Q′ OPEN and DEFERRED**. The canonical proofs are [unrestricted Scott-continuity](ProjectA_Lstar_canonical_corrected_proof_2026-11-08.md) [coherent composition](ProjectA_coherent_composition_canonical_proof_2026-11-08.md), and [far-grid counterexamples](ProjectA_far_grid_canonical_counterexamples_2026-11-08.md). The older status descriptions below are retained as dated historical context, not the current theorem ledger.
 
@@ -8,13 +10,15 @@ Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological
 
 > **Research continuity (21 October 2026):** Start with the [research-status index](A-research-status-index.md). It distinguishes audited results, working proofs, open problems, and corrected false leads. See also [closure properties](A-closure-properties-I-U.md), [Scott-continuity converse ledger](A-scott-continuity-converse-status-2026-10-21.md), and [Cornish/minimal-prime literature ledger](A-literature-separation-status-2026-10-21.md).
 
-## Workstreams
+## One research program, three interlocking themes
 
-| Track | Topic | Status |
-|---|---|---|
-| **A** | Closed and fitted localic separation relations and equality theory | **Active; consolidated** |
-| **B** | Graphs on nonzero elements of frames | [Backlog](B-overlap-graphs.md) |
-| **C** | Frame-cover nerves, Dowker duality, homotopy | [Backlog](C-frame-nerves.md) |
+| Theme | Primary topics |
+|---|---|
+| **Separation and relational algebra** | Localic hierarchy, equality theory, proconstructible composition |
+| **Higher relations and nerves** | Graph powers of specialization, higher diagonal hulls, simplicial and bisimplicial locales |
+| **Point-free homotopy and shape** | Frame-cover nerves, Dowker comparison, descent, refinements |
+
+The former Project A and Project C labels survive only in historical filenames and theorem references. **Project B is archived:** [original overlap-graph notes](B-overlap-graphs.md). For active work use the [unified index](POINT_FREE_TOPOLOGY_START_HERE.md); the [former A index](PROJECT_A_START_HERE.md) is still the detailed navigation authority for the pre-Dowker separation program.
 
 ## Project A — Start here
 
