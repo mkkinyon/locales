@@ -1,11 +1,13 @@
 # Coherent specialization chains, higher diagonal hulls, and patched homotopy — phase index
 
+> **LATEST STATUS: THIRD independent blind report reconciled, 10 November 2026.** New A1–E3 nonconstant sheaf-homotopy claims are **externally checked after three repairs**; their [corrected canonical account](PointFree_nonconstant_sheaf_Cech_CANONICAL_2026-11-10.md), [original report](audits/2026-11-10/postaudit-sheaf/Referee_report_original.md), and [full reconciliation](PointFree_postaudit_sheaf_EXTERNAL_referee_reconciliation_2026-11-10.md) supersede older "working" status labels below. One extra nonabelian full-homotopy reconstruction counterexample was suggested **after** the audited claims and checked internally, but was not blind-refereed. Current status: [v2.1 theorem ledger](PointFree_master_theorem_ledger_v2_1_2026-11-10.md), [v1.8 problem register](ProjectA_open_problems_register_v1_8_2026-11-10.md).
+
 **Status: 10 November 2026, after independent blind external audit and mathematical reconciliation.** This is the curated navigation page for the coherent homotopy phase of the **unified** Point-Free Topology Project. The current mathematical account is [the corrected canonical note](PointFree_coherent_chain_hulls_CANONICAL_2026-11-10.md); the original working documents below retain their historical statements and pre-audit mistakes for provenance, and should **not** be cited as current theorem authorities.
 
 ## Start here: certified core
 
 - **[Canonical coherent chain/higher-hull account](PointFree_coherent_chain_hulls_CANONICAL_2026-11-10.md)** — fixed conventions, actual coherent lattice presentations, degreewise finite inverse limits, canonical edgewise arrow theorem, finite closed-cover codescent, contractibility certificates, infinite realizations, referee-origin fence W, and precise boundaries.
-- **[Unified master theorem ledger v2.0](PointFree_master_theorem_ledger_v2_0_2026-11-10.md)** — stable identifiers PF-D01–03, PF-C01–07 and PF-R01–03; each distinguishes **externally blind-checked** results from *referee-origin working additions*.
+- **[Unified master theorem ledger v2.1](PointFree_master_theorem_ledger_v2_1_2026-11-10.md)** — stable identifiers PF-D01–03, PF-C01–07 and PF-R01–03; each distinguishes **externally blind-checked** results from *referee-origin working additions*.
 - **[Coherent chain/hull external-referee reconciliation](PointFree_chain_hulls_EXTERNAL_referee_reconciliation_2026-11-10.md)** — 11 issues, their repairs, Cameron–Kumar attribution, exact UBs, strictness of criteria and compactified fence W.
 - **[Prior Dowker-phase independent-audit reconciliation](PointFree_Dowker_EXTERNAL_referee_reconciliation_2026-11-10.md)** — two site repairs, fitted lower-witness **non-descent** theorem, and audited foundations of the patched rectangle equivalence.
 - **[Two independent November 10 audit archives](audits/2026-11-10/README.md)** — original prompt, packet, report, internal audit, and separately received referee suggestions in each cycle.
@@ -34,7 +36,7 @@
 
 - [First referee's suggestions, with original prioritization](PointFree_referee_post_audit_suggestions_priorities_2026-11-10.md): Čech/Vietoris refinement pro-systems, finite crosscuts, chain nerves, unpatched descent hypotheses.
 - [Second referee's eight mathematical suggestions, independently triaged](PointFree_referee2_mathematical_suggestions_triage_2026-11-10.md): priority **nonconstant suspension \(\Sigma h(S)\)** and **finite compact-open D-side codescent**; products/adjunctions as supporting lemmas.
-- [Current open questions v1.7](ProjectA_open_problems_register_v1_7_2026-11-10.md): PF-Q01–08 and targeted checks. **Next:** find and compute genuinely nonconstant sheaf-theoretic specialization-nerve structure. Fence W warns against blindly passing homotopy realization through finite spectral inverse limits.
+- [Current open questions v1.8](ProjectA_open_problems_register_v1_8_2026-11-10.md): PF-Q01–08 and targeted checks. **Next:** find and compute genuinely nonconstant sheaf-theoretic specialization-nerve structure. Fence W warns against blindly passing homotopy realization through finite spectral inverse limits.
 - [Unified notation glossary](POINT_FREE_NOTATION_GUIDE.md), [subject-wide thematic guide](POINT_FREE_THEMATIC_GUIDE.md).
 
 ## Scope and literature status
