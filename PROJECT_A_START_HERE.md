@@ -1,6 +1,6 @@
-# Project A — Current entry point
+# Project A — specialized historical navigation (A track)
 
-**Status: 9 November 2026 · W-phase external audit reconciled.** This page is the current navigation authority for Project A of the [locales research notebook](README.md). Earlier dated research notes and the chronological status index are preserved as historical records, not automatically current statements of theorem status.
+**Current authority:** [unified Point-Free Topology home](POINT_FREE_TOPOLOGY_START_HERE.md), [master theorem ledger v2.0](PointFree_master_theorem_ledger_v2_0_2026-11-10.md), and [open register v1.7](ProjectA_open_problems_register_v1_7_2026-11-10.md). This page is a **specialized subject index** of historical Project A (separation relations, W, composition), with a 9 November baseline. It is not a competing current project or a replacement for the [coherent homotopy phase index](PointFree_coherent_homotopy_PHASE_INDEX_2026-11-10.md). The original dated content below is preserved for provenance.
 
 ## Canonical reference documents
 
