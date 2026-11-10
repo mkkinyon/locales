@@ -2,6 +2,8 @@
 
 **10 November 2026.** This register adds the **new coherent-chain/Dowker homotopy questions** without removing the original Project A Q/Q′ and other deferred questions from [v1.6](ProjectA_open_problems_register_v1_6_2026-11-09.md). Statements in the inherited section below retain their historical 9 November provenance. **This is a research guide, not an agenda imposed by publication considerations.** See the [unified theorem ledger v2.0](PointFree_master_theorem_ledger_v2_0_2026-11-10.md).
 
+> **WORKING PROGRESS AFTER THIS REGISTER WAS WRITTEN (10 November):** PF-Q01 has a **proposed positive solution, internally checked but not externally audited**. The [Stone-indexed pointed face-poset note](PointFree_Stone_indexed_pointed_face_posets_nonconstant_canonical_equivalences_2026-11-10.md) gives coherent X with canonical `C(X)≃I(X)≃D(X)` but a genuinely nonconstant shared homology sheaf `Z[h(S)]` for infinite Stone S, and analogous examples in all positive degrees. The separate [two-apex](PointFree_two_apex_nonconstant_sheaf_suspension_2026-11-10.md) and [open-cover descent](PointFree_D_side_open_cover_Cech_descent_2026-11-10.md) notes develop complementary working results. The original question/status table below is preserved as a dated snapshot, not an assertion that the newly proposed theorem is already referee-certified.
+
 ## New questions from two independent 10 November audits
 
 | ID | Question | Current status and caveat | Priority |
