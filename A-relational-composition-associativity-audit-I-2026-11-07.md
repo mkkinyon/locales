@@ -1,5 +1,8 @@
 # Project A — Relational associativity audit I: explicit failure and coherent repair
 
+> **WITHDRAWN IMAGE ARGUMENT (11 November 2026).** The proof below incorrectly asserts that the inclusion of a proper topologically dense subset with the discrete topology is a **locale-surjection**. It is not: the whole target and the open complement of an omitted closed point have equal inverse images. The claimed **specific** nonassociative-relations example and deductions depending on that image identity are therefore **NOT established** by this file. Do not cite them as valid. See [precise correction](ProjectA_CO01_historical_dense_inclusion_locale_surjection_CORRECTION_2026-11-11.md). Other independently established results must be assessed on their own proofs.
+
+
 7 November 2026. **Internally derived; categorical source cross-check performed.** The general nonassociativity is explicit; the coherent/proconstructible repair and compact-closed repair have proofs here, with external audit recommended for categorical details. This DOES NOT affect the independently refereed negative theorem I∘D⊄V (only one composition).
 
 ## 1. Convention, issue, and explicit example
