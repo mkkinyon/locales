@@ -56,7 +56,7 @@ Proof. For n>m, the prefixes of points of K_n exhaust all binary m-tuples. Since
 - **no bounded-cylinder-depth theory** can define A through Θ-admissible cover equations;
 - any genuine normalized generator of G_{ij} is intrinsically infinitary.
 
-No claim that *finite arbitrary open covers* are trivial: V\{p} is dense proper open and Θ-admissible as a singleton member; it is not generally the trace of a Cantor-clopen set.
+This does **not** make arbitrary finite admissible open covers trivial. For any p∈V, the dense proper open a=V\{p} has Θ(a)=ℕ, since C\{p} contains every K_n. Thus {a,b} is a finite Θ-admissible open cover whenever b is an open neighborhood of p; with a suitable proper b neither member is V. The set a is not the trace of a proper Cantor-clopen subset.
 
 ## 3. Every finite admissible open cover has a dense member
 
