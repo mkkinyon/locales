@@ -1,5 +1,8 @@
 # CO-01 control: closed reflexive symmetric nonassociative cubes on a locally compact zero-dimensional Hausdorff locale
 
+> **WITHDRAWN IMAGE ARGUMENT (11 November 2026).** The proof below incorrectly asserts that the inclusion of a proper topologically dense subset with the discrete topology is a **locale-surjection**. It is not: the whole target and the open complement of an omitted closed point have equal inverse images. The claimed **specific** nonassociative-relations example and deductions depending on that image identity are therefore **NOT established** by this file. Do not cite them as valid. See [precise correction](ProjectA_CO01_historical_dense_inclusion_locale_surjection_CORRECTION_2026-11-11.md). Other independently established results must be assessed on their own proofs.
+
+
 **11 November 2026. New internally checked independent strengthening of the older general nonassociativity example. NOT a counterexample for the fitted diagonal.** Supports the bounded [Arrieta cube program](ProjectA_nonc_coherent_return_Arrieta_cube_kickoff_2026-11-11.md) by ruling out shortcuts using Hausdorffness, local compactness or closedness of an *arbitrary* symmetric relation. Uses exactly the block construction of [associativity audit I](A-relational-composition-associativity-audit-I-2026-11-07.md) but upgrades the ambient locale dramatically. The result does not contradict the **compact-closed** associativity theorem, since the constructed locale is not compact.
 
 ## 1. Dense-discrete refinement of Cantor space
