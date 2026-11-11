@@ -2,6 +2,8 @@
 
 **10 November 2026 · Updated after independent blind audit A1–E3 and reconciliation.** This current status table supersedes earlier snapshot statuses of PF-Q01/PF-Q02; the full [v1.7 register](ProjectA_open_problems_register_v1_7_2026-11-10.md) is preserved below for provenance. Older Project A questions Q,Q′ and other deferred separation problems remain **OPEN**, not silently solved by the homotopy work. The [master theorem ledger v2.1](PointFree_master_theorem_ledger_v2_1_2026-11-10.md) assigns exact proof-verification statuses.
 
+> **WORKING PROGRESS ON PF-Q11, AFTER THE THIRD AUDIT (10 Nov):** A new [relative full-subcomplex gluing construction](PointFree_Stone_indexed_relative_full_subcomplex_nonsuspension_2026-11-10.md) gives an explicit **working positive solution** to the nonsuspension question. Gluing Cantor-indexed copies of a finite triangulated torus along a shared essential circle produces coherent X with **both canonical comparisons C→I,D equivalences** and common object \(\underline{S^1}\times(h(S)_+\wedge\underline{S^1})\). Its H₂ is the nonconstant free condensed abelian sheaf \(\mathbb Z[h(S)]\); point-evaluation has nontrivial cup products and fundamental group \(\mathbb Z\times F(S_{\mathrm{set}})\), ruling out suspensions and **any wedge of finite CW complexes** for S infinite. The underpinning new gluing theorem and non-wedge argument are **internally checked only** and were **NOT** among externally certified A1–E3. The original PF-Q11 “OPEN” table row below remains a **pre-experiment snapshot** until an independent audit.
+
 ## Current coherent homotopy questions
 
 | ID | Disposition and mathematical content | Priority |
