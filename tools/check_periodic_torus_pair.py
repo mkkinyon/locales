@@ -87,5 +87,37 @@ def main():
           contributions)
 
 
+    # Finite Stone parameter S={0,1}: check the common-upper-bound tuple
+    # gluing formula for every ordered pair in the 102-point quotient poset.
+    faces = ([frozenset((v,)) for v in vertices]
+             + [frozenset(e) for e in edges]
+             + [frozenset(t) for t in triangles])
+    shared = [f for f in faces if f.issubset(row)]
+    outside = [f for f in faces if f not in shared]
+    nodes = ([("A", f) for f in shared]
+             + [(i, f) for i in (0, 1) for f in outside])
+    assert len(shared) == 6 and len(faces) == 54 and len(nodes) == 102
+
+    def leq(a, b):
+        tag_a, face_a = a
+        tag_b, face_b = b
+        if tag_a == "A":
+            return face_a.issubset(face_b)
+        return tag_b != "A" and tag_a == tag_b and face_a.issubset(face_b)
+
+    for a in nodes:
+        for b in nodes:
+            actual = any(leq(a, witness) and leq(b, witness)
+                         for witness in nodes)
+            outer_tags = {x[0] for x in (a, b) if x[0] != "A"}
+            predicted = (
+                len(outer_tags) <= 1
+                and any(a[1].issubset(face) and b[1].issubset(face)
+                        for face in faces)
+            )
+            assert actual == predicted, (a, b, actual, predicted)
+    print("Upper-hull finite-pair gluing: all 10,404 ordered pairs pass.")
+
+
 if __name__ == "__main__":
     main()
