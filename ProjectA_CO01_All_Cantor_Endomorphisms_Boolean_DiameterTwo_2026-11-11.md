@@ -67,6 +67,14 @@ This extends the 7 Nov coordinate permutation theorem to **all** D/V-preserving 
 
 **Sharp scope:** A general Boolean-valued map \(h:\mathcal O(V)\to B\) need not be of the special form q∘f_V^* for a continuous f:C→C preserving D,V. This theorem does **not** assert that arbitrary Boolean-valued points or all generalized points of the intermediate image lift, and does not settle CO-01.
 
+## 4. The entire Cantor-map Boolean family still does not determine Q on its own
+
+Let \(G_{\mathscr T}=\bigvee_{f,g\in\mathscr T}\operatorname{im}(h_f,h_g)\subseteq Q\). The inclusion is **strict**, already because these Boolean generic tests miss ordinary diagonal points. Fix p∈V and let \(w_p=V²\setminus\{(p,p)\}\), an open of the regular (strongly Hausdorff) localic square. For any f∈\(\mathscr T\), the closed set \(f^{-1}(\{p\})\subseteq C\) is disjoint from dense D, hence nowhere dense. Thus for every f,g the pullback \((f,g)^{-1}(w_p)\) is dense open in V and q sends it to 1. All the images defining \(G_{\mathscr T}\) lie in \(\mathfrak o(w_p)\). But Q contains the ordinary diagonal point (p,p), so \(Q\not\subseteq\mathfrak o(w_p)\). Hence
+\[
+\boxed{G_{\mathscr T}\subsetneq Q.}\tag{4.1}
+\]
+This alone does **not** rule out the stronger, more relevant possible generation \(Q\stackrel?=\Delta_V\vee G_{\mathscr T}\), which is currently OPEN and would itself not automatically prove stability after pullback with A. The issue of nongeometric generalized points remains.
+
 ## 4. What to investigate next
 
 The next concrete discriminating object is a **Boolean frame map not induced by any continuous D/V-preserving Cantor selfmap**, e.g. a suitably chosen non-geometric endomorphism/automorphism of \(\mathrm{RO}(V)\) composed with q, or a generalized point over a different nonspatial locale. Alternatively, attack the endpoint top-class predicate via the exact countable clopen \(\Theta\)-cover congruences without testing generalized points. Avoid expanding the current Baire proof to merely more coordinate maps: \(\mathscr T\) already contains all continuous partition-preserving maps and has universal 2-hop center at the Booleanized generalized points.
