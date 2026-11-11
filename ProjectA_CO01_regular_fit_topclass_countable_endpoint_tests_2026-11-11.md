@@ -77,7 +77,7 @@ For a negative answer it is enough to find one countable family E with an asymme
 
 ## 4. A strict infinitary barrier for endpoint separators
 
-Earlier audit VIII establishes A is a **dense** sublocale of V², with precisely diagonal ordinary point pairs. Hence Q,L,R,P₄ all contain A and are dense.
+The required density of A can be checked directly (and was asserted in audit VIII). Given any nonzero basic open rectangle \(U\boxtimes W\) of V², choose Cantor cylinders \(U_0,W_0\) whose nonempty V-traces lie inside U,W. Choose a **finite-support coordinate permutation** σ moving the finitely many coordinates constrained by W_0 to indices disjoint from those constrained by U_0. There is then a nonempty Cantor cylinder \(B\subseteq U_0\cap\widehat\sigma^{-1}(W_0)\). Since σ fixes every sufficiently large coordinate, the all-cover coincidence criterion of audit VIII gives \(h_{\rm id}\ A\ h_\sigma\), and the pulled-back rectangle has value \(q(U\cap\widehat\sigma^{-1}W)\ne0\), as it contains the nonempty V-trace of B. Hence the pullback of A to every nonempty basic rectangle is nonzero, so \(\operatorname{cl}(A)=V²\). Earlier audit VIII also establishes that A has precisely diagonal ordinary point pairs. Therefore Q,L,R,P₄ all contain A and are dense.
 
 If \(S\) is a dense sublocale and \(w\in Q_2\) is complemented (clopen), \(S\subseteq\mathfrak o(w)\) implies w=1: otherwise \(\mathfrak o(w)\) is a **proper closed** sublocale containing dense S, contradicting closure(S)=V². Any *finite union* of basic Cantor-clopen rectangles (3.1) is complemented. Therefore:
 \[
