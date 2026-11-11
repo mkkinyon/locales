@@ -45,6 +45,8 @@
 
 - **[Binary rectangle groupoid quotient and relative skeletal layers](PointFree_binary_rectangle_pi1_relative_skeleton_2026-11-10.md)** — return to the parked binary hierarchy. Both canonical chain-to-hull maps induce the same quotient on fundamental groupoids, by normal closure of four-edge rectangle loops in \(E_{1,1}\). Relative first skeletal homology retains the extra ordered binary edges; witness triangles kill that homology in degree 2. Explicit Stone-indexed triangle wedge: \(L_I=M^{12}\), \(L_D=M^{10}\oplus N^2\oplus Q^2\) with \(M=R[h(S)],N=R[h(S^2)],Q=\operatorname{coker}(M\to N)\) along the diagonal. **Working only; not externally audited.**
 
+- **[Binary triangle hierarchy and formal-hull rank at fixed homotopy type](PointFree_binary_triangle_hierarchy_formal_hull_rank_2026-11-10.md)** — explicit coherent calculations of all named binary relations on the pointed triangle wedge: cross-fibre D is the incident-edge square, U=W the down-saturated square, V the union of incident-edge rows and columns. Both lower and upper diamonds are strict; U,V incomparable even though their finite pair counts agree. The alternating closed stages are I, I³, I⁵=H=F. More generally the first fixed closed stage on a connected finite pointed-poset wedge is the eccentricity of v in the I-graph; attaching arbitrarily long whiskers to the triangle gives **unbounded finite formal-hull rank with fixed nonconstant canonical common homotopy**. **Working, not externally audited.**
+
 ## Referee additions and next research
 
 - [First referee's suggestions, with original prioritization](PointFree_referee_post_audit_suggestions_priorities_2026-11-10.md): Čech/Vietoris refinement pro-systems, finite crosscuts, chain nerves, unpatched descent hypotheses.
