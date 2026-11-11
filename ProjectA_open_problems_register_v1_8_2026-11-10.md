@@ -22,6 +22,8 @@
 
 > **FOURTH AUDIT PREPARED (10 Nov):** Internal adversarial review completed for the accumulated post-third-audit research and three previously unaudited referee-origin additions. Separate blind A/B and C packets and prompts have been prepared, with the internal report and independent finite-control script withheld until external verdicts. Research is paused pending independent review and reconciliation; all new theorem statuses remain working. The older Q/Q′ and other deferred questions are unchanged.
 
+> **FOURTH AUDIT STAGE TWO, 11 Nov:** both independent blind reports and both opposite-referee cross-reviews are favorable relative to the named premises. New cross-checked results: \(G_{\mathrm{Ch}}\cong G_{I_\bullet\cap D_\bullet}\) over the vertex sheaf, **2-connectivity** of \(\mathbf C\to|I_\bullet\cap D_\bullet|\), and the infinite-Stone finite-pair gluing constancy criterion \(E_{T,K}(S)\) constant iff \(K\to T\) acyclic. The first two refine/answer binary 1-type reconstruction. **Warning:** arbitrary maps preserving only \(I_1,D_1\) need not preserve \(M_2\), so reconstructed groupoids are functorial only under the appropriate higher-meet-preserving maps, although binary *isomorphisms* recover the higher hulls. [Stage-two reconciliation](PointFree_audit4_crossreview_stage2_reconciliation_2026-11-11.md). Final internal-audit comparison, canonical write-up and ledger promotion still pending. Research remains paused.
+
 ## Current coherent homotopy questions
 
 | ID | Disposition and mathematical content | Priority |
