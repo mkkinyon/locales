@@ -81,6 +81,29 @@ V_{\neg\neg}\ \subseteq Q_\delta,\qquad
 \]
 Strictness: Booleanization V¬¬ is nonzero and dense in the nontrivial V; it cannot lie in singleton {0}, as {0} is a proper closed sublocale. This is a **genuine jump from a single ordinary fixed point to a dense nonspatial sublocale of a graph after one relational composition**. It isolates where the new exotic paths live.
 
+## 4. General equalizer-collapse criterion and universal A² density (new strengthening)
+
+**Proposition.** Let \(f,g\in\mathscr T\), the full monoid of continuous C→C preserving D and V. Put \(p=(f_V,g_V):V\to V²\), let \(E=\mathrm{Eq}(f_V,g_V)\) (a closed sublocale, since V regular/strongly Hausdorff), and define
+\[
+P_{f,g}=\{d\in D:\mathrm{ht}(f(d))=\mathrm{ht}(g(d))\}.
+\]
+If **every** d∈P_{f,g} already satisfies \(f(d)=g(d)\), then
+\[
+\boxed{\quad p^{-1}A=E\quad\text{as sublocales of }V.\quad}\tag{4.1}
+\]
+
+**Proof.** Always \(E\subseteq p^{-1}A\) by reflexivity. For x∈V\setminus E choose a Cantor clopen neighborhood U of x such that f(y)≠g(y) for every y∈U, using continuity on C and Hausdorffness. Since P⊆Eq, U∩P=∅. The compact set \(F(U)=\{(f(y),g(y)):y\in U\}\) avoids Δ_C and every K_n²: any y∈U mapping into K_n² must lie in D (partition-preservation) and then in P, contradiction. Choose Cantor clopens \(W_n\supseteq K_n\) and a finite clopen cover \(U_i\) of C such that \(F(U)\) misses every \(W_n²\) and every \(U_i²\) (as in the exact all-cover necessity proof). The Θ-admissible cover \(\{W_n\cap V\}\cup\{U_i\cap V\}\) has pulled-back common-member open disjoint from U∩V. Thus \(p^{-1}A\) meets no clopen neighborhood of any x∈V\E. These clopens cover V\E, so \(p^{-1}A\) lies in the closed complement E. Equality follows.
+
+**Independent strengthening (Baire theorem).** The separate [fusion/Baire theorem](ProjectA_CO01_All_Cantor_Endomorphisms_Boolean_DiameterTwo_2026-11-11.md) proves for **every** pair f,g∈\(\mathscr T\) that \(h_f A h_\sigma A h_g\) for some permutation σ. Therefore
+\[
+\boxed{\quad V_{\neg\neg}\subseteq p^{-1}(A²),\quad
+\operatorname{cl}_V(p^{-1}A²)=V
+\quad\text{for every }f,g\in\mathscr T.\quad}\tag{4.2}
+\]
+When P⊆Eq and E is a **proper closed** sublocale, A collapses to the exact equalizer but A² is dense. This generalizes the coordinate-doubling example and demonstrates that localic composition creates dense nonspatial graph structure even when the original relation is confined to an ordinary equalizer.
+
+**Important:** the previous §1 limitation to coordinate permutations as the established A²-total family is superseded by the proven fusion/Baire theorem. The full monoid \(\mathscr T\), including arbitrary D/V-preserving homeomorphisms, is A²-total in Boolean-valued points; this remains far short of proving that such points generate the whole image locale A² or its cubic pullbacks.
+
 ## 4. Limits for CO-01
 
 - Equation (6) is now bounded by a strictly incomplete graph-density condition: no proof of its symmetry can rely solely on coordinate-permutation/homeomorphism generic graphs.
