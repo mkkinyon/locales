@@ -20,6 +20,8 @@
 
 > **BINARY FEEDBACK V (10 Nov, working; final pre-audit segment):** [Compact paired-extrema reconstruction](PointFree_coherent_binary_1type_paired_extrema_2026-11-10.md) gives a working positive answer to the coherent 1-type question: isomorphic patched \((\mathcal I,\mathcal D)\) structures imply equivalent chain 1-types and simultaneous compatibility with both canonical comparison arrows. The compact auxiliary incidence space uses closures of matched extremal pairs; local witness choices descend in the edge-path groupoids. No recovery of spectral order, chain 2-type, or functorial reconstruction on arbitrary graph morphisms is asserted. **Next action: consolidate and independently audit the accumulated post-third-audit work; no new research branch before that audit.**
 
+> **FOURTH AUDIT PREPARED (10 Nov):** Internal adversarial review completed for the accumulated post-third-audit research and three previously unaudited referee-origin additions. Separate blind A/B and C packets and prompts have been prepared, with the internal report and independent finite-control script withheld until external verdicts. Research is paused pending independent review and reconciliation; all new theorem statuses remain working. The older Q/Q′ and other deferred questions are unchanged.
+
 ## Current coherent homotopy questions
 
 | ID | Disposition and mathematical content | Priority |
