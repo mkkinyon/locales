@@ -28,6 +28,15 @@
 - **UB**: ambient upper-bound compact-open centeredness. **SZC**: spectral specialization-zigzag contraction. **SNC**: specialization-nerve contractibility \(\mathbf C(Z)\simeq1\) in the chosen sheaf \(\infty\)-topos.
 - “Canonical arrows equivalent” refers to equivalence in the **undercategory** \(\mathbf C(X)/\mathscr H_\kappa\), not merely equivalence of the targets \(\mathbf I,\mathbf D\).
 
+## Fourth-audit higher meet and connectivity notation (11 Nov 2026)
+
+- **Higher meet hull:** \(M_n(X)=I_n(X)\cap D_n(X)\), \(\mathbf M(X)=|h(\operatorname{Patch}M_\bullet(X))|\). The binary \(M_1=\mathcal M\), but \(\mathbf M\) is **not** equal in general to \(\mathbf C,\mathbf I,\mathbf D\); the canonical \(\mathbf C\to\mathbf M\) is merely **2-connective**, sharply.
+- A **2-connective** map induces isomorphisms on \(\pi_0,\pi_1\) and an epimorphism on \(\pi_2\); this does **not** mean equivalence of 2-types (or injection on \(\pi_2\)). This is sometimes called 2-connected in classical terminology.
+- The meet groupoid reconstruction is functorial for patch-continuous maps preserving \(M_1,M_2\), **not** arbitrary maps preserving only the binary I,D relations. **Binary isomorphisms** recover all patched \(I_n,D_n\), hence preserve \(M_2\). See [fourth-audit canonical binary note](PointFree_binary_meet_hull_CANONICAL_2026-11-11.md).
+- **Acyclic map:** a homotopy epimorphism of spaces, equivalent to all homotopy fibres being **nonempty and acyclic**; not merely an integral homology equivalence. For **finite** \(K\subseteq T\) and **infinite** Stone S, \(E_{T,K}(S)\) is constant exactly when \(K\to T\) is acyclic. See [fourth-audit canonical relative gluing note](PointFree_relative_gluing_twisted_CANONICAL_2026-11-11.md).
+- For coefficients, write \(I_H\) for Higman group's augmentation ideal and \(J_\Pi\) for the augmentation ideal of the sheafified free-product group \(\Pi\), avoiding collision with the upper hull \(I_\bullet\). Internal H¹ is the **sheaf quotient** \(\operatorname{Der}/\operatorname{PDer}\); values on arbitrary Stone tests need not be ordinary cohomology of point-evaluated discrete groups.
+- **Current ledger authority:** [v2.2 fourth-audit addendum](PointFree_master_theorem_ledger_v2_2_2026-11-11.md), preserving earlier v2.1 verification statuses for the prior phases.
+
 ## Scope/provenance
 
 - \(\mathscr H_\kappa\): a sufficiently large Stone sheaf \(\infty\)-topos with **finite jointly surjective covers including the empty cover of \(\emptyset\)**. Comparisons occur **after Patch**, not necessarily before.
