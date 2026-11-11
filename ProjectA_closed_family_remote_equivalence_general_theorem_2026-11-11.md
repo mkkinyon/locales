@@ -94,6 +94,8 @@ Hence
 \tag{4.2}
 \]
 
+**Crucial image-stability warning:** The residual condition (4.2) concerns the **pullbacks of the already formed cubic image sublocales** along \(Z²\hookrightarrow V²\). It is **not** justified to replace it with associativity of the *independently composed restricted relation* \(A|_{Z²}\): the inclusion \(Z²\hookrightarrow V²\) is generally neither closed nor open, and pullback of locale-surjections need not preserve images along it. Doing so would silently reintroduce the very defect CO-01 is studying. The maximal equivalence relation \(\mathscr R_\infty\) is transitive because of a separate closed-compact-fibre argument, **not** because arbitrary relations on \(Z\) compose associatively.
+
 **Stronger sufficient condition to settle CO-01 positively:**
 \[
 A²=\mathscr R_\infty.
