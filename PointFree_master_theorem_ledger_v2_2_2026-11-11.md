@@ -1,0 +1,56 @@
+# Point-Free Topology — Master theorem ledger v2.2: fourth audit addendum
+
+**11 November 2026.** This is a **status addendum** to [v2.1](PointFree_master_theorem_ledger_v2_1_2026-11-10.md), which remains the source of all previous stable claims and is **not silently rewritten**. The fourth audit comprises two original independent blind reviews (A/B and C), two independently cross-checked post-verdict results (cross-checking the other referee's work), and final comparison of each original report with the earlier internal adversarial report. The final comparison generated one new **internally checked only** B4 extension. Detailed corrections and provenance are in [final reconciliation](PointFree_audit4_FINAL_RECONCILIATION_2026-11-11.md), [canonical A/B addendum](PointFree_relative_gluing_twisted_CANONICAL_2026-11-11.md) and [canonical C addendum](PointFree_binary_meet_hull_CANONICAL_2026-11-11.md).
+
+## A/B original independent blind verdict — relative to stated premises
+
+| Stable ID | Claim | Status and critical boundary |
+|---|---|---|
+| **PF-4-AB-A1** | Lower-ideal Stone-indexed gluing along upper-witness-reflecting lower ideal: explicit Priestley space, compact-open lattice, compatible C/I pushouts and canonical arrow. | **Blind-checked**, corrected. WR is necessary for **degreewise I(A)** identification, not necessary for *all possible* canonical C→I equivalences. No degreewise D identity. |
+| **PF-4-AB-A2** | Every finite simplicial pair after subdivision yields canonical C≃I≃D with relative-gluing common object; torus full circle gives nonconstant nonsuspension/non-finite-wedge common object. | **Blind-checked**, with literal complex, point-evaluated cup/π₁ and finite-image-constancy lemma. Nonconstancy is NOT automatic for every pair. |
+| **PF-4-AB-A3** | Derived chain splitting \(C_R(E)\simeq C_R(T)\oplus J_S\otimes_R^L C_R(T,K)\) and relative field homology test. | **Blind-checked**, distinguish \(M_S=R[h(S)]\), \(J_S=\ker\epsilon\), and \(C(E,K)\) versus \(C(E,T_{s_0})\). |
+| **PF-4-AB-A4** | Finite acyclic noncontractible T give canonical equivalent but homologically invisible, π₁-nonconstant common realizations; Higman model 1-truncated. | **Blind-checked** relative to classical presentations/asphericity. Ordinary van Kampen/Whitehead are performed in spaces and transferred through c. |
+| **PF-4-AB-B1** | Higman finite-dimensional/finitely generated-coefficient monodromy is trivial, with corresponding untwisted vanishing. | **Blind-checked**, finite generation of Higman sufficient. |
+| **PF-4-AB-B2** | Augmentation ideal Berstein–Schwarz class of infinite order, nonzero square and pullback detection. | **Blind-checked** using named classical cohomological-dimension/duality inputs; do not misstate internal H². |
+| **PF-4-AB-B3** | Exact **internal** folded H¹: \(\underline{\mathrm{LC}(S,\mathrm{Der}(H,I_H))/I_H}\), vs. much larger pointwise group cohomology. | **Blind-checked**, explain Der/PDer via sections; absolute sheaf H¹ at * agrees with this internal sheaf value in this particular topos. |
+| **PF-4-AB-B4** | Intrinsic \(J_\Pi\) and \(\mathbb Z[\Pi]\) give nonconstant internal H¹ for infinite Stone S and G containing an infinite-order element. | **Blind-checked** as originally stated. Separate broader theorem PF-4-POST-B4 below. |
+| **PF-4-AB-R1** | \(h(S)_+\wedge S^1\simeq B\mathrm{Fr}(h(S))\), full fundamental-group sheaf. | **Blind-checked as a fourth-audit addendum**, original source third referee post-verdict. |
+| **PF-4-AB-R2** | Nonhomeomorphic Stone spaces with isomorphic unmarked free condensed-group sheaves and unmarked full homotopy objects. | **Blind-checked as a fourth-audit addendum**, include Okunev's M-equivalence antecedent and marked diagonal-coalgebra distinction. |
+| **PF-4-AB-R3** | Direct realized fitted-side gluing along a minimal point, compatible with canonical chain arrow; **not** degreewise fibre gluing. | **Blind-checked as a fourth-audit addendum**, explicit degreewise union and sheaf \(\infty\)-pushout. |
+
+## C original independent blind verdict — relative to stated premises
+
+| Stable ID | Claim | Status and critical boundary |
+|---|---|---|
+| **PF-4-C-C1** | Canonical chain→I and chain→D groupoids are identical rectangle-loop quotient after sheafification; C→I,D 1-connective. | **Blind-checked**, define presheaf normal closure, then sheafify; no continuous least witness. |
+| **PF-4-C-C2** | Relative skeletal edge modules and triangle 2-cell killing; explicit S-indexed triangle L_I,L_D sheaf formulas. | **Blind-checked**, inclusion of free module sheaves is monic; nonconstancy lemma. |
+| **PF-4-C-C3** | Explicit strict displayed binary Hasse pattern, U/V incomparable, exact label blocks and finite counts on Stone-indexed triangle. | **Blind-checked**, patch-closed blocks require folding argument; scope limited to *displayed* pattern. |
+| **PF-4-C-C4** | First fixed closed formal-hull stage equals I-graph eccentricity of the glued minimal vertex (≥2 fibres); arbitrarily large rank at fixed canonical homotopy. | **Blind-checked**, preserve |S|≥2 and minimum whisker length; do not invoke unquoted functoriality as a premise. |
+| **PF-4-C-C5** | Reverse-face-poset spanning-tree gadgets yield arbitrary finite K obstructions at fixed displayed hierarchy, rank 2 and hull target; acyclic K gives nonequivalence with terminal cofiber. | **Blind-checked**, the historical identity M=comparability can fail after attachments; no claim of fixed full relational structure. |
+| **PF-4-C-C6** | Binary I (resp. D) plus patch recovers all patched I_n (resp. D_n) through graph simplicial-neighborhood downsets (resp. upsets). | **Blind-checked**; finite graph antecedent is classical upper/lower bound graph theory; no recovery of localic embeddings across distinct orders. |
+| **PF-4-C-C7** | Finite flattening and duplicated-extrema recover chain 1-type and canonical 1-type comparisons. | **Blind-checked**; now superseded in presentation by PF-4-X-F1. |
+| **PF-4-C-C8** | Six-point fixed-hull example and fixed Cantor middle-layer hierarchy yield same patched higher simplicial hulls with unbounded homological obstruction degree. | **Blind-checked**, equality across orders is patched, not equality of sublocales in one ambient locale. |
+| **PF-4-C-C9** | Coherent paired-extrema compactification reconstructs chain fundamental groupoid and both canonical comparisons. | **Blind-checked as originally written**, but conceptually superseded by PF-4-X-F1. |
+
+## Independent opposite-referee cross-checks of post-verdict results
+
+| Stable ID | Strengthening | Verification and boundary |
+|---|---|---|
+| **PF-4-X-F1** | For coherent X, \(\mathsf G_{\mathrm{Ch}}(X)\cong\mathsf G_{I_\bullet\cap D_\bullet}(X)\) over the vertex sheaf, strictly compatible with both hull groupoids. | **C-referee origin, independently checked by A/B** with explicit local-witness descent proof. Combined with C6 it gives an intrinsic **patched** binary-pair reconstruction of chain 1-types. Functorial only for maps preserving M₁ and M₂ (or binary isomorphisms), **not** arbitrary binary-preserving maps. |
+| **PF-4-X-F2** | \(\mathbf C(X)\to\left|h(I_\bullet\cap D_\bullet)\right|\) is **2-connective** (π₀,π₁ iso, π₂ epi). | **C-referee origin, independently checked by A/B**, which supplied ∞-topos realization-connectivity proof. Sharp: six-point S²→1. Does not reconstruct full 2-type or recover π₂ injectively. |
+| **PF-4-X-A** | For a finite nonempty simplicial pair K⊆T and infinite Stone S, E_{T,K}(S) is constant iff K→T is a homotopy epimorphism (acyclic fibres). | **A/B-referee origin, independently checked by C**. Epi⇒fold equivalence for any nonempty S; for finite S E always constant. No converse claim for arbitrary infinite complexes, no connectedness hypothesis required. |
+
+## New result in final nonblind comparison, distinct status
+
+| Stable ID | Strengthening | Verification and boundary |
+|---|---|---|
+| **PF-4-POST-B4** | For infinite Stone S and **any nontrivial discrete G**, the intrinsic group-ring and augmentation-ideal H¹ sheaves of \(\ast_{h(S)}G\) are nonconstant. | **A/B-referee origin in final internal-audit comparison; independently rechecked internally here only, not opposite-referee cross-reviewed**. Replace infinite-order cancellation by support/orbit invariance of \((x_s-1)(\Delta-a)=0\) for every x∈G_s. Original B4 with an infinite-order element remains blind-checked. |
+
+## Deferred, false and historical statements
+
+- **False:** every finite pair produces nonconstant gluing for infinite S. **Correct:** K→T acyclic iff E constant (finite pair, S infinite).
+- **False:** binary-I/D-preserving arbitrary maps automatically induce reconstructed chain-groupoid maps. **Correct:** require M₂ preservation; binary **isomorphisms** suffice by C6.
+- **False:** binary data determine the chain 2-type. Six-point C8 gives a counterexample. The meet hull map is 2-connective, not a 2-type equivalence.
+- **Unproved:** direct fitted-side realization gluing along an arbitrary lower ideal beyond minimal-point case (referee sketch only); full intrinsic H¹ computations; site-size independence; intrinsic localic shape; converse of acyclic constancy with infinite K,T; exhaustive literature priority.
+- **Bibliographic matters:** use classic bound graphs, Dowker, Okunev, Bieri–Eckmann, Dranishnikov–Rudyak, Raptis, Ebert–Randal-Williams and Kerodon accurately; verify version-specific page/theorem numbers before submission.
+- **Source integrity:** keep original blind reports, original packets and post-report additions separate; this ledger records after-repair status and must not be confused with the original blind referee texts. See final reconciliation and the two canonical addenda for all proofs and boundaries.
