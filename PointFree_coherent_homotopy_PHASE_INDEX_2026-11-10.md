@@ -32,6 +32,10 @@
 
 - **[Free condensed homology: unmarked counterexample and coalgebra reconstruction](PointFree_free_condensed_homology_coalgebra_reconstruction_2026-11-10.md)** — **final working segment before the next audit**. Clausen–Scholze's nonhomeomorphic Stone spaces with isomorphic unmarked free condensed abelian groups refute homology-only recovery; the canonical diagonal coalgebra recovers the Stone space as group-like elements. **Working internal proof / published external input, not independently blind-audited.**
 
+## New research after third audit — **working, not externally audited**
+
+- **[Relative Stone-indexed gluing and nonsuspension common-hull objects](PointFree_Stone_indexed_relative_full_subcomplex_nonsuspension_2026-11-10.md)** — extends the canonical Ch/I fibrewise gluing from a single minimal point to any **lower ideal reflecting common upper witnesses**. Every finite simplicial pair K⊂T becomes admissible after barycentric subdivision. A 9-vertex triangulated torus glued over its essential full-subcomplex circle gives canonical C≃I≃D with nonconstant H₂, nonzero cup products, and a **non-suspension not even a wedge of any family of finite CW complexes** (for infinite Stone S). Explicit finite checks: [periodic torus control script](tools/check_periodic_torus_pair.py). **INTERNALLY CHECKED ONLY; not part of the third referee's blind A1–E3 certificate.**
+
 ## Referee additions and next research
 
 - [First referee's suggestions, with original prioritization](PointFree_referee_post_audit_suggestions_priorities_2026-11-10.md): Čech/Vietoris refinement pro-systems, finite crosscuts, chain nerves, unpatched descent hypotheses.
