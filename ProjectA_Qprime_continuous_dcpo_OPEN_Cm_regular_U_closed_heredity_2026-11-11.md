@@ -155,7 +155,7 @@ Let \(\mathcal C^\star=\{\uparrow\ell_{n,b}:n\in\mathbb N,b\in2\}\), which is an
 \boxed{t_{\mathcal C^\star}=0.}
 \tag{4.4}
 \]
-The mixed cover-dependent closed remainder from the preceding programme is **all of P**, not compact, not regular, and not zero-dimensional. The new closed-hereditary domain theorem nevertheless proves Q′ for P.
+The mixed cover-dependent closed remainder from the preceding programme is **all of P**, not compact, not regular, and not zero-dimensional. To substantiate the last two claims: for **any** nonzero Scott-open v⊆P and any basic open ↑s, choose a finite condition t with ↑t⊆v and a fresh singleton \(\ell_{n,0}\) compatible with t but outside ↑s. The singleton belongs to cl(v) but not to ↑s, so \(v\not\prec\uparrow s\); thus ↑s is not a join of rather-below opens and O(P) is nonregular. Further, every two nonzero Scott opens a,b have intersecting closures by the fresh-singleton/common-lower argument in §4.3; a nontrivial clopen a would give a pair a,a^c of nonzero opens with disjoint closures, impossible. Thus the only clopens are 0 and 1, so P is not zero-dimensional. The new closed-hereditary domain theorem nevertheless proves Q′ for P.
 
 ### 4.2 A *genuine* infinite-cover defect D₂>D
 
