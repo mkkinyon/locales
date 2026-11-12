@@ -163,7 +163,21 @@ continuous but not a topological embedding: the topology induced on V from \(\wi
 - Every proper closed subspace of \(\widehat V\) is a **σ-compact Polish space with its original topology**.
 - The topology is characterized among one-point extensions of V by the condition that the nonempty opens are precisely the complements of original closed σ-compact subsets, together with the generic point. The new point is a literal generic point; it is not a compactification point.
 
-## 7. Source and audit status
+## 7. Two further geometric consequences
+
+**Not first countable at any point.** Suppose \(p\in\widehat V\) has a countable neighborhood base \(U_n=\{\infty\}\cup(V\setminus F_n)\) (after discarding any empty members), where every \(F_n\) is closed σ-compact. Then \(F=\bigcup_n F_n\) is σ-compact, so as \(V\cong\omega^\omega\) is not σ-compact, choose \(y\in V\setminus(F\cup\{p\})\) (interpret \(\{p\}\) as empty when \(p=\infty\)). Every \(U_n\) contains y, whereas the valid neighborhood \(\{\infty\}\cup(V\setminus\{y\})\) of p excludes y. No \(U_n\) lies in that neighborhood. Thus the quotient is Lindelöf and sober, but **nowhere first countable**.
+
+**The remote sublocale is strictly larger than the Booleanization.** In Baire space, let
+\[
+F=\{x\in\omega^\omega:x(2n)=0\ \text{for every }n\}.
+\]
+This is a closed nowhere dense copy of \(\omega^\omega\), hence not σ-compact. Its open complement \(a=V\setminus F\) is dense, so \(V_{\neg\neg}\le\mathfrak o(a)\). But \(Z_V\not\le\mathfrak o(a)\) by (0.1). Since \(V_{\neg\neg}\le Z_V\), the inclusion is **strict**:
+\[
+\boxed{V_{\neg\neg}<Z_V.}
+\]
+This distinguishes the compact-remote generic sublocale from the minimal dense Booleanization, even though both are pointless.
+
+## 8. Source and audit status
 
 The result is new **internal** mathematical work. The classical Baire-category ingredient is standard. Hurewicz's theorem that non-σ-compact Polish spaces contain a closed copy of \(\omega^\omega\) independently corroborates the key σ-compactness dichotomy, but the canonical-derivative proof here is self-contained.
 
