@@ -221,7 +221,68 @@ has infinite product-box rank in X² whenever \(\mathcal U(Y)\ne0\). No finite u
 
 **Interpretation:** Rank-one geometry of spatial separated products is often **INFINITELY** box-complex at every open scale even when Q holds; the exact transfer theorems (3.2) and (4.2) explain why this complexity is irrelevant. The central invariant should be the **fiberwise CLOSED relation** or the actual nonzero OPEN hole, not the number of ordinary product boxes needed.
 
-## 6. Adversarial limits and next test
+## 6. CLOPEN-locally-trivial bundles: the product formulas glue without a global product
+
+The previous transfer argument also applies to a bundle which is only locally a product, provided the trivializing charts are **CLOPEN** in the base. The clopen condition is not cosmetic: it supplies both exact closed heredity of fitted diagonals and openness needed for closure localization. No arbitrary open-trivialization theorem is claimed.
+
+Let \(p:X\to Z\) be a locale map, where Z is nonempty, spatial and \(\mathcal U(Z)=\Delta_Z\). Suppose \(\{e_i:i\in I\}\subseteq O(Z)\) is a cover by **complemented opens**, and for each i there is a fixed-fiber **over-base** isomorphism
+\[
+\boxed{p^{-1}O_Z(e_i)\ \cong\ O_Z(e_i)\times Y.}
+\tag{6.1}
+\]
+Here \(O_Z(e_i)\) denotes the open-and-closed sublocale of Z, and Y is the SAME arbitrary locale for all i. The charts may be GLUED NONTRIVIALLY: X need not be globally isomorphic to Z×Y.
+
+**Lemma 6.1 (clopen localization of closed relations).** If J↪X is clopen, then for \(R\in\{\mathcal W,\mathcal W_2,\mathcal U,\mathcal I\}\):
+\[
+\boxed{R(J)=R(X)\wedge J^2.}
+\tag{6.2}
+\]
+
+*Proof.* For W and W₂, J is CLOSED, so the independently audited fitted-diagonal heredity says
+\(\mathcal D_\epsilon(J)=\mathcal D_\epsilon(X)\wedge J^2\).
+Because J² is ALSO OPEN in X², relative closure commutes with its restriction:
+\[
+\operatorname{cl}_{J^2}\bigl(S\wedge J^2\bigr)
+=\operatorname{cl}_{X^2}(S)\wedge J^2.
+\]
+For U, far rectangles restrict to far rectangles. Conversely, a pair of J-far opens a,b≤J extends to a pair of X-far opens: write J=O(e), with complement f=e^*, and note \(a^*\vee b^*\) contains both e (by J-farness) and f (since a,b≤e), hence is 1. Thus the complement-defining far open restricts exactly and U(J)=U(X)∧J². For I, ordinary closure of the diagonal commutes with open restriction, proving the same. □
+
+**Lemma 6.2 (closed-relation gluing on the fiber square).** Put \(F=X\times_Z X=(p\times p)^{-1}\Delta_Z\le X^2\). This is CLOSED, and
+\[
+\boxed{\mathcal W(X),\mathcal W_2(X),\mathcal U(X)\le F}
+\tag{6.3}
+\]
+by naturality. Write \(J_i=p^{-1}O_Z(e_i)\). The open sublocales \(F\wedge J_i^2\) COVER F: on F the two base coordinates agree, so the restriction of the ith square is simply the pullback of e_i along the common base map, and \(\bigvee_ie_i=1\). If two CLOSED sublocales R,S of F have equal restrictions to all these open patches, then R=S. Indeed the complements of R,S within F are OPENS of F, and their meets with the covering opens agree, hence the complements themselves agree. No unsupported distributivity of arbitrary sublocale meets over infinite joins is used.
+
+**Theorem 6.3 (clopen-trivial bundle invariance; NEW INTERNAL).** Under (6.1) for a fixed Y:
+\[
+\boxed{
+\begin{aligned}
+\mathcal W_2(X)=\mathcal U(X)&\iff \mathcal W_2(Y)=\mathcal U(Y),\\
+\mathcal W(X)=\mathcal U(X)&\iff \mathcal W(Y)=\mathcal U(Y),\\
+\mathcal W(X)=\mathcal W_2(X)&\iff\mathcal W(Y)=\mathcal W_2(Y).
+\end{aligned}}
+\tag{6.4}
+\]
+Thus Q(X) iff Q(Y), and Q′(X) iff Q′(Y). A nontrivial locally constant bundle over a spatial zero-dimensional separated base does not create or destroy either counterexample.
+
+*Proof.* For each i, Lemma 6.1 and the local product formula Theorem 3.1 compute the three restrictions on \(J_i^2\) as
+\[
+\mathcal W_\epsilon(X)\wedge J_i^2
+\cong\Delta_{O_Z(e_i)}\times\mathcal W_\epsilon(Y),\qquad
+\mathcal U(X)\wedge J_i^2
+\cong\Delta_{O_Z(e_i)}\times\mathcal U(Y).
+\tag{6.5}
+\]
+If the desired Y equality holds, all local X relations agree, hence the global X relations agree by Lemma 6.2. Conversely, if a global X equality holds, restrict to ANY nonzero e_i, use (6.5), and then take one ordinary point of that spatial nonempty e_i to reflect equality in Y. At least one e_i is nonzero because Z is nonempty and the family covers it. The three equivalences follow separately. □
+
+**Generalization with varying fibers:** If the same clopen charts have fibers Y_i which may vary, each of the THREE global equality statements holds precisely when it holds for EVERY Y_i. But do NOT infer that the logical implication "Q holds" on X is equivalent to "Q holds" on each Y_i without a shared antecedent: one fiber could fail finite stabilization, making the global implication true vacuously despite a different Q-bad fiber.
+
+**Cover-level descent and ascent.** A nonzero relative OPEN W₂ or rank-one U hole E⊆F must meet \(J_i^2\) nontrivially for SOME i, because these clopen squares cover F. By Lemma 6.1 this is a genuine hole on \(J_i\cong O_Z(e_i)\times Y\); the uniform fiberwise descent theorem §4 then yields a bad Y-cover on a nonempty base-open patch. Conversely, any bad Y-cover lifts to a hole on a nonzero trivializing chart, and by adjoining the clopen exterior \(X\setminus J_i\) to that chart's cover obtains a global X-cover with a hole. Thus even an **arbitrary genuinely twisted clopen-locally-trivial bundle has no irreducibly cross-chart Q or Q′ obstruction**.
+
+**Scope / practical geometry.** A zero-dimensional spatial base often has a CLOPEN basis, but a general locally trivial bundle can admit only OPEN trivialisations. A clopen cover of trivialisations is an actual hypothesis, not automatic just because the base is zero-dimensional. The theorem makes no claim about the nonclosed Dε, pointfree bases without enough points, or arbitrary locally trivial maps.
+
+## 7. Adversarial limits and next test
 
 - This does NOT solve Q or Q′ universally. It proves a strong preservation-and-reflection class and explicitly descends actual bad covers.
 - **Spatiality of Z is essential to this proof**: the reverse containment uses dense ordinary point slices. A POINTLESS zero-dimensional locale is not covered, even if \(\mathcal U(Z)=\Delta_Z\). Removing spatiality would require a genuine pointfree local patching/base-change argument, not an unsupported “same fiber” analogy.
@@ -232,6 +293,6 @@ has infinite product-box rank in X² whenever \(\mathcal U(Y)\ne0\). No finite u
 - The uniform descent theorem uses the slice-specific lax Heyting inequality, not the false assertion \(j_z^*(w_C\to d_X)=w_{C_z}\to d_Y\).
 - The infinite-box control is a strategy falsification check, not a Q obstruction: fiberwise diagonal complexity need NOT be finite even in Q-positive locales.
 
-**NEXT BOUNDED TEST:** whether this fiberwise transfer can be extended from literal products \(Z\times Y\) to locally trivial or locally clopen-trivialized bundles over Z, retaining cover-hole descent on a nonzero open patch. A legitimate proof would require a locality/pasting lemma for the CLOSED relations, or an explicit neighborhood trivialization; do not infer it from a general unfounded product law.
+**NEXT BOUNDED TEST (partially answered by §6):** The clopen-locally-trivial extension is now proved. The remaining issue is extension from clopen trivializations to arbitrary OPEN trivializations, or to base locales without enough points. That would require a new locale-patching argument, not this section's exact clopen heredity. Previously the proposed target was whether fiberwise transfer could be extended from literal products \(Z\times Y\) to locally trivial or locally clopen-trivialized bundles over Z, retaining cover-hole descent on a nonzero open patch. A legitimate proof would require a locality/pasting lemma for the CLOSED relations, or an explicit neighborhood trivialization; do not infer it from a general unfounded product law.
 
 **Status: NEW INTERNAL theorem with explicit generalized-pair proof and controls. Not externally audited; Q and Q′ OPEN.**
