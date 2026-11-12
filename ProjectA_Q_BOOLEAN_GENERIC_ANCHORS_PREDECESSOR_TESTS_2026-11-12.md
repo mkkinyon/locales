@@ -89,7 +89,37 @@ So the strong canonical predecessor selection property holds on B(W₂), even th
 \]
 This matches precisely the known strict W₂<U in this example, where finite rank-one stabilization \(\Phi_2(z_1)=z_1\) FAILS. It does NOT prove the criterion is necessary when rank-one stabilization holds.
 
-## 4. A fully POINTLESS NONCOMPACT, NONREGULAR U, genuine W₂=U=W test
+## 4. Universal anchor selection in the earlier Alexandrov and continuous-dcpo classes
+
+The new anchor criterion also yields something STRONGER than the prior W=U results for two broad classes.
+
+**Theorem 4.1 (Alexandrov/continuous-domain Boolean predecessor).**
+Let Y be either
+(a) an upper-Alexandrov locale of a poset P (using its sober localic presentation), or
+(b) the Scott locale of a continuous dcpo P.
+Then \(\mathcal W(Y)=\mathcal W_2(Y)=\mathcal U(Y)\) as previously proved, AND the two canonical frame maps \(h,k:O(Y)\to O(B(U(Y)))\) admit a GLOBAL common generalized predecessor
+\[
+\boxed{p^*:O(Y)\to O(B(U(Y))),\qquad p^*(a)\le h(a)\wedge k(a)\quad(\forall a).}
+\tag{4.1}
+\]
+
+*Proof.* In case (a), the common-specialization-predecessor open relation
+\[
+C_P=\bigcup_{t\in P}(\uparrow t)\times(\uparrow t)
+\]
+is dense in U(Y), by the previously proved Alexandrov closure theorem. Put \(V_t=(\uparrow t)\boxtimes(\uparrow t)\). Each open a containing the ORDINARY point t is an upper set and hence contains ALL of ↑t. Therefore BOTH coordinate-cylinder opens for a contain V_t outright (stronger than density). The anchor criterion Theorem 1.1 applies with anchor t to the dense open cover \(C_P=\bigvee_tV_t\), producing a GLOBAL predecessor on B(U).
+
+In case (b), the earlier continuous-dcpo theorem proves
+\[
+C_P=\bigcup_{t\in P}(\Uparrow t)\times(\Uparrow t)
+\]
+is OPEN and DENSE in U(Y), with \(\Uparrow t=\{x:t\ll x\}\). Since \(t\ll x\Rightarrow t\le x\) and any Scott-open a containing t is upward, \(\Uparrow t\subseteq a\). Hence the same anchor argument applies to each \(V_t=\Uparrow t\boxtimes\Uparrow t\), proving (4.1). □
+
+**Added value:** These results are not merely alternative closure proofs of W=U. They explicitly exhibit ONE Boolean-valued generalized predecessor for the ENTIRE canonical B(U), even for NONCOMPACT domains and posets, and therefore feed into the point-free fiber-transfer theorem with arbitrary POINTLESS base satisfying W₂=I. The general span-density hypothesis was already known for these examples by ordinary common-predecessor density, but the GLOBAL canonical Boolean predecessor is genuinely stronger information.
+
+**Scope warning:** For continuous dcpos, the common-predecessor patches depend on WAY-BELOW continuity. The argument does NOT extend to all Scott dcpos: the earlier noncontinuous three-limit bridge control has a nonregular U boundary and W=W₂<U. On that control, the current argument only applies to the part of W₂ reached by earlier open predecessor patches, not automatically to all of U.
+
+## 5. A fully POINTLESS NONCOMPACT, NONREGULAR U, genuine W₂=U=W test
 
 Let B be the Boolean locale with frame \(O(B)=RO(2^\omega)\), complete atomless Boolean, with NO ordinary points and NO nonzero compact open. Let X be the compact cofinite-apex example §2 and put
 \[
@@ -128,7 +158,7 @@ The inequality holds on elementary product opens q=u⊠a because g is shared and
 
 **Provenance control:** Y was built from previously understood factors, and equality (4.2) also follows by our earlier compact-fiber theorem; this is NOT an irreducible example or an independent proof of universal Q. It IS a decisive test that (6) is meaningful in a noncompact, entirely pointless, nonregular U setting.
 
-## 5. Synthesis, tests passed and next question
+## 6. Synthesis, tests passed and next question
 
 - The canonical Boolean predecessor criterion SUCCEEDS on the compact cofinite-apex W=U example, whose D density is essentially pointless; this directly tests the proposed notion where ordinary common-predecessor point pairs fail.
 - It SUCCEEDS on B(W₂) of the compact two-apex W₂<U example, but fails on the two isolated offdiag Boolean atoms of B(U); this distinguishes a real finite-stage U gap in that example.
