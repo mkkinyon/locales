@@ -187,7 +187,37 @@ This is a **stronger and more intrinsically self-reproducing condition** than th
 
 **It is not a contradiction by itself.** For example the complete graph on a countably infinite set has J=Fin and perfectly legitimate free ultrafilters. The proof does NOT show the far-rectangle generation \(z₁=\bigvee_{\mathrm{far}}r\) rules out the resulting chromatic filters. Achieving that would be genuine further progress on Q.
 
-## 4. Research decision and remaining precise test
+## 4. Critical weak-defect control: K_ω and the same tail filter already occur when Q HOLDS
+
+The chromatic ideal and tail-density theorem MUST NOT be confused with a solution of Q. A direct adversarial control uses the older completed powerset Scott example.
+
+Let \(S=\mathcal P(\omega)\setminus\{\varnothing\}\) with the Scott topology, and \(c_n=\{A\in S:n\in A\}\). Let \(M=\operatorname{RO}(2^\omega)\) and use the two frame maps \(h,k:O(S)\to M\) with
+\[
+h(c_n)=[x_n=0],\qquad k(c_n)=[x_n=1].
+\tag{4.1}
+\]
+They match every finite cover to 1 but the countable cover \(\{c_n\}\) to 0. For n≠m,
+\[
+h(c_n)\wedge k(c_m)=[x_n=0,x_m=1]\ne0,
+\]
+while \(h(c_n)\wedge k(c_n)=0\). Thus the **BOOLEAN-PROBE** cross-link graph on \(\{c_n\}\) is exactly \(K_\omega\), with
+\[
+\mathscr J_G=\mathrm{Fin}(\omega),\qquad
+\bigvee_{n\ge N}h(c_n)=\bigvee_{n\ge N}k(c_n)=1_M
+\quad\forall N.
+\tag{4.2}
+\]
+The finite chromatic ideal is proper and its quotient \(P(\omega)/\mathrm{Fin}\) is atomless; the same dense-tail behaviour is present on this Boolean *fitting* witness. But S is hyperconnected, so \(d_{\mathcal U(S)}=0\) and
+\[
+\Phi_2(0)=\Phi(0)=0,\qquad
+\mathcal W(S)=\mathcal W_2(S)=\mathcal U(S)=S^2.
+\tag{4.3}
+\]
+The Boolean probe is a **closed-relative weak defect**, not the Booleanization of a nonzero **open U-hole**. Its image lies in the closed complement of the dense full-cover square and is nowhere dense in U.
+
+Hence **infinite chromaticity, even complete-graph chromaticity, atomless chromatic quotient, nowhere distributivity, and dense tails all coexist with a POSITIVE Q instance**. They are necessary conditions of a hypothetical strong hole but not sufficient. In any future Q argument, the **relatively OPEN position of the hole in G_perp**, and the specific far-generation of U, must be used in a way that the completed powerset Scott control excludes. This is the anti-drift falsification test for this line.
+
+## 5. Research decision and remaining precise test
 
 - **Ruled out:** An a priori universal finite chromatic bound from the far-rectangle presentation ALONE. Explicit actual-Urysohn K_{2^m} gadgets disprove it in the absence of finite stabilization, and attain the finite-box bound sharply.
 - **Established under finite stabilization:** The canonical chromatic ideal J and its **strong tail-density** on every open part of a bad hole, for ANY finite-fixed closed relation (including rank-one U).
