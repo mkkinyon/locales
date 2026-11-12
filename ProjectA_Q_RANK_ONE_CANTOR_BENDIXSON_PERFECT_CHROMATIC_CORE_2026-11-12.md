@@ -136,6 +136,17 @@ H=[0,1]\sqcup\bigsqcup_{n\in\omega}Y_n
 \]
 is T₁, noncompact, nonregular, and its perfect kernel is the compact regular interval [0,1]. The new perfect-kernel criterion applies to this H whereas the earlier global “H is compact or regular” criterion does not. **This is a control of the abstract one-sided theorem, not a claim that this particular H arises as a Q chromatic frontier.**
 
+**Additional global positive class.** Apply Corollary 1.3 to H=X (a closed sublocale of itself). If X is spatial T₁ and its Cantor–Bendixson perfect kernel P(X) is **compact OR regular** (the empty perfect kernel is included), then
+\[
+\boxed{\mathcal D_2(X)=\mathcal D(X).}
+\tag{4.1}
+\]
+For perspective, this hypothesis does **not** require X itself to be compact, regular, paracompact, or scattered. A concrete consistency control is
+\[
+X=2^\omega\ \sqcup\ [0,\omega_1)\ \sqcup\ Y,
+\]
+where \(2^\omega\) is Cantor space, \([0,\omega_1)\) is the usual locally compact noncompact, non-paracompact scattered ordinal space, and Y is the compact T₁ scattered nonregular two-limit space described above. X is T₁, sober, noncompact, nonregular, non-paracompact, and NOT scattered (it contains Cantor space); its perfect kernel is precisely the compact regular Cantor summand, so D₂=D follows. **This is a consistency control for the hypotheses, NOT a novelty example:** the equality for this particular disjoint sum may also follow from older componentwise preservation or cover-patching results. The one-sided *localization* (2.1), not the sum example, is the main new content.
+
 **Negative control:** The completed branching Scott locales that realize \(\mathcal D_2>\mathcal D\) without Q/Q′ failure are NOT T₁; they do not refute the theorem. No hypothetical perfect T₁ noncompact nonregular chromatic frontier is constructed here.
 
 **Classical terminology:** The Cantor–Bendixson derivative and its stable perfect kernel are standard. A concise reference is the scattered-space entry at https://topology.pi-base.org/properties/P000051 and an explicit transfinite definition at https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2476CB7A112975F78C2CB2355600D2C0/S2050509422000238a.pdf/invariant_ideal_axiom.pdf . No claim of novelty for this general topology is made.
