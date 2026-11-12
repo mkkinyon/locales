@@ -107,34 +107,29 @@ Indeed the finite coarsening F from Theorem 2.1 gives \(r\le w_F\to d\le\Phi_2(d
 
 This is a strictly local condition: it makes no claim about \(T\) outside the chosen rectangle.
 
-## 3. A new positive class for Q localized to the nonregular Urysohn boundary
+## 3. A sharper positive class for Q: the doubly exceptional off-inseparability boundary
 
-Let
+Let \(\mathcal I=\operatorname{cl}\Delta=\mathfrak c(d_{\mathcal I})\), with \(d_{\mathcal I}=\bigvee_{a\wedge b=0}a\boxtimes b\). Put
 \[
-G=\mathcal U\wedge\mathfrak o(z_1^{**}),
+G=\mathcal U\wedge\mathfrak o(z_1^{**}),\qquad
+G_\perp=\boxed{\mathcal U\wedge\mathfrak o(z_1^{**}\wedge d_{\mathcal I})},
 \qquad
 K_{\rm reg}=\operatorname{cl}(\operatorname{int}\mathcal U)=\mathfrak c(z_1^{**}).
 \tag{3.1}
 \]
-The previously established universal regular-core theorem says
-\(K_{\rm reg}\le\mathcal W\le\mathcal W_2\le\mathcal U\).
+The universal inclusion \(\mathcal I\vee K_{\rm reg}\le\mathcal W\le\mathcal W_2\le\mathcal U\) implies that **every genuine Q-hole lies inside the relatively open smaller sector \(G_\perp\)**. More directly, for \(\rho_C=w_C\to z_1\), \(\rho_C\le\Phi(z_1)\le d_{\mathcal W}\le d_{\mathcal I}\), so its relative hole E is off \(\mathcal I\); and E misses \(K_{\rm reg}\), putting it in G. Thus \(E\le G_\perp\).
 
-Call \(r=a\boxtimes b\le z_1^{**}\) a **finite-box patch in G** if \(\mathcal U[r]\ne0\) and \(\mathcal U[r]\) admits a finite product-box decomposition as (1.1). (It is already a relatively open sublocale of G.)
+Call a rectangle \(r=a\boxtimes b\le z_1^{**}\wedge d_{\mathcal I}\) a **finite-box patch in \(G_\perp\)** if \(\mathcal U[r]\ne0\) and \(\mathcal U[r]\) admits a finite product-box decomposition as (1.1). The bound \(r\le d_{\mathcal I}\) automatically forces \(a\wedge b=0\).
 
-**Theorem 3.1 (locally finite-box residual criterion, NEW INTERNAL).** Suppose the join of all finite-box patches in G is **dense in G** (equivalently every nonzero relatively open sublocale of G contains a nonzero finite-box rectangular patch). Then
+**Theorem 3.1 (off-inseparability finite-box criterion; NEW INTERNAL).** Suppose finite-box rectangular patches form a **dense relatively open family in \(G_\perp\)** (equivalently every nonzero relatively open part of \(G_\perp\) contains a nonzero such rectangular patch). Then
 \[
 \boxed{\mathcal W_2=\mathcal U\quad\Longrightarrow\quad\mathcal W=\mathcal U.}
 \tag{3.2}
 \]
-In other words, **Question Q holds for every locale with such a locally finite-product decomposable nonregular Urysohn boundary.**
 
-*Proof.* Assume \(\Phi_2(z_1)=z_1\), but \(\Phi(z_1)>z_1\). Choose C with nonzero regular-open hole
-\[
-E=\mathcal U\wedge\mathfrak o(\rho_C),\qquad\rho_C=w_C\to z_1.
-\]
-The inclusion \(K_{\rm reg}\le\mathcal W\) and the fact that E is disjoint from \(\mathcal W\) imply \(0\ne E\le G\). By density of finite-box patches in G, E meets a finite-box patch \(\mathcal U[r_0]\) nontrivially. Because their intersection is relatively open in U and rectangles join-generate Q, there is a pure rectangle \(r'=a'\boxtimes b'\le r_0\wedge\rho_C\) with \(\mathcal U[r']\ne0\). Restrict the finite product decomposition of \(\mathcal U[r_0]\) to this rectangle: each box remains a product of open restrictions, so \(\mathcal U[r']\) has finite box rank. We have \(r'\wedge w_C\le z_1\) and \(r'\not\le z_1\). Corollary 2.2 contradicts finite stabilization at z₁. □
+*Proof.* Assume \(\Phi_2(z_1)=z_1\), but \(\Phi(z_1)>z_1\). Choose C with nonzero regular-open hole \(E=\mathcal U\wedge\mathfrak o(\rho_C)\), where \(\rho_C=w_C\to z_1\). As above \(0\ne E\le G_\perp\); it is genuinely OPEN in U and hence in \(G_\perp\). The density hypothesis gives a finite-box patch \(\mathcal U[r_0]\) meeting E nontrivially. Rectangles join-generate \(L\oplus L\), so there is a pure rectangle \(r'=a'\boxtimes b'\le r_0\wedge\rho_C\) with \(\mathcal U[r']\ne0\). Restricting the finite product decomposition to r′ preserves finite rank. But \(r'\wedge w_C\le z_1\) and \(r'\not\le z_1\), contradicting Corollary 2.2A together with \(\Phi_2(z_1)=z_1\). □
 
-**What this covers and what it does NOT.** When G=0 (U regular closed), it recovers the old regular-core positive mechanism. When G contains a dense family of *genuine finite product regions*—even products of nonspatial or atomless sublocales—the new finite-box argument supplies a different positive mechanism. This hypothesis is NOT claimed necessary, nor is it shown to subsume the earlier atomic-Boolean criterion. A Hausdorff perfect space has \(G=\Delta\) and need not possess finite-box diagonal patches although W=U; thus the criterion should be regarded as a useful **new sufficient class** rather than an approximate characterization of Q.
+**Why this is sharper than the original G-only version.** If \(\mathcal U\) is regular closed, \(G_\perp=0\); if \(\mathcal U=\mathcal I\), then \(G_\perp=0\) as well, *even when U has empty ambient interior* (e.g. the diagonal of a perfect Hausdorff space). Thus this condition correctly excludes the familiar regular/Hausdorff parts from the locus where a rank-one hole might occur. The finite-box condition is needed only in the **doubly exceptional off-inseparability nonregular boundary**, and allows atomless/pointless products. It remains a sufficient, NOT necessary, condition, and is not claimed to follow universally from \(\Phi_2(z_1)=z_1\).
 
 ### 3.2 Unrestricted one-stage implication under a STRONGER rectangular hypothesis
 
