@@ -214,7 +214,36 @@ h_{\rm hc}=h_{\rm cc}=0,\quad t_{\mathcal C}=0
 \]
 Every apparently encouraging **global** necessary diagnostic survives, yet no Q′ gap exists. The missing condition is precisely a finite-cover defect **on the Urysohn residual rectangle where \(\mathcal W_2\) is nonzero**, rather than a product of two independent pathologies.
 
-## 5. Implications, boundaries and next experiment
+## 5. A non-product extension test: persistence versus pointwise rescue
+
+The projection criterion is not the only obstruction to a non-product coupling. The original bridge-cover proof admits a useful formulation that can be applied when no projection to B remains.
+
+**Lemma 5.1 (finite-tail cover persistence).** Let X be any locale with opens a,b and an **open discrete** sublocale \(D\le\mathfrak o(a\boxtimes b)\) indexed by a set I. Suppose there are finite covers \(F_n\) of X such that
+\[
+\mathfrak o(a\boxtimes b)\wedge\mathfrak o(w_{F_0})\le D,
+\]
+and \(\mathfrak o(w_{F_n})\wedge D\) corresponds to a subset \(E_n\subseteq I\) with \(\bigcap_nE_n=\varnothing\). Then
+\[
+\boxed{\mathcal D_2(X)\wedge\mathfrak o(a\boxtimes b)=0,\quad
+\mathcal W_2(X)\wedge\mathfrak o(a\boxtimes b)=0.}
+\tag{5.1}
+\]
+*Proof.* The first finite-cover square forces the D₂ restriction into the discrete D. There, sublocales of an ordinary discrete locale are ordinary subsets and their arbitrary meets are intersections, so simultaneous restriction by all the square covers is zero. The closure of D₂ is disjoint from any open on which D₂ is zero. QED.
+
+For the original bridge B take a=X₀,b=Y₀, \(D=A\times B_{\rm bridges}\) and \(E_n=\{(i,j):i\ge n\text{ or }j\ge n\}\). The lemma survives **any non-product modification** whose finite bridge covers still exist with the same vanishing discrete tail traces, even when the modification has no projection to the original B. In particular, adding finite-cover members which never touch **both** wings contributes no mixed square and does not break this obstruction.
+
+There is an opposite elementary danger.
+
+**Lemma 5.2 (pointwise predecessor rescue).** Suppose X has a spatial localic square, and \(x,y\in X\) are such that **every pair of their open neighborhoods** a∋x,b∋y contains points s∈a,t∈b with a common specialization predecessor p≤s,t. Then
+\[
+\boxed{(x,y)\in\operatorname{pt}\mathcal W(X).}
+\tag{5.2}
+\]
+*Proof.* Every common-predecessor pair (s,t) belongs to the full fitted diagonal D: a cover member containing p contains both s and t because opens are specialization-upward. Thus the common-predecessor relation is pointwise contained in D. Its closure contains (x,y) by the hypothesis, and the closure of D is W. QED.
+
+So a proposed non-product identification of x/y bridge tails cannot create a cofinal family of **actual common-predecessor pairs** in every mixed neighborhood: that would cause full D, not only D₂, to become dense at the intended boundary point. Together Lemmas 5.1 and 5.2 articulate the narrow remaining design window: **finite bridge cuts must cease to eliminate the candidate mixed residual, but the new cross-wing compatibility must remain genuinely pointless, rather than becoming dense through ordinary lower-bound witnesses**. This is a research constraint, not a classification or universal disjunction.
+
+## 6. Implications, boundaries and next experiment
 
 1. The general transfer theorem (2.1) gives a new **no-go principle**: a noncompactification of the bridge example that preserves a locale map back to B cannot populate its forbidden mixed wing rectangle with \(\mathcal W_2\). Tensoring the bridge with a Scott forcing domain cannot defeat those old finite covers.
 2. Conversely if some B were a Q′ counterexample, then B×S would be one as well, by (2.2). Thus this class of product operations does not simplify the universal question.
