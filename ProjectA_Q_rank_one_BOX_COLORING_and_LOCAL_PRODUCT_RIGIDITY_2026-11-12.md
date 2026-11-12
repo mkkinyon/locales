@@ -89,6 +89,14 @@ for every i,τ. By finite distributivity and (1.1),
 
 **Remark (scope of product positivity).** This is a proof in the sublocale lattice rather than an argument from ordinary pairs. In particular "not locally linked" is tested by the *actual nonzero localic product*, not only by spatial points.
 
+**Corollary 2.2A (ONE-step finite simulation; no stabilization assumed).** For ANY closed T=C(d), ANY locale X, ANY rectangle r with finite product-box rank T[r], and ANY arbitrary cover C,
+\[
+\boxed{r\wedge w_C\le d\quad\Longrightarrow\quad
+r\le\Phi_2(d).}
+\tag{2.4a}
+\]
+Indeed the finite coarsening F from Theorem 2.1 gives \(r\le w_F\to d\le\Phi_2(d)\). **This is an exact partial positive answer to the referee's UNRESTRICTED rank-one test**, with d=z₁: \(r\le\Phi_2(z_1)\le d_0\). No hypothesis \(\Phi_2(z_1)=z_1\) is required.
+
 **Corollary 2.2 (finite-fixed closed relations cannot have holes on finite-box patches).** If \(d\) is **finite-cover fixed**, i.e. \(\Phi_2(d)=d\), and a rectangle r is such that T[r] has finite box rank, then for EVERY arbitrary X-cover C,
 \[
 \boxed{r\wedge w_C\le d\quad\Longrightarrow\quad r\le d.}
@@ -127,6 +135,30 @@ The inclusion \(K_{\rm reg}\le\mathcal W\) and the fact that E is disjoint from 
 
 **What this covers and what it does NOT.** When G=0 (U regular closed), it recovers the old regular-core positive mechanism. When G contains a dense family of *genuine finite product regions*—even products of nonspatial or atomless sublocales—the new finite-box argument supplies a different positive mechanism. This hypothesis is NOT claimed necessary, nor is it shown to subsume the earlier atomic-Boolean criterion. A Hausdorff perfect space has \(G=\Delta\) and need not possess finite-box diagonal patches although W=U; thus the criterion should be regarded as a useful **new sufficient class** rather than an approximate characterization of Q.
 
+### 3.2 Full one-step interchange if finite-box patches are dense in the entire U
+
+An even stronger hypothesis yields equality after ONE iteration, without assuming finite stabilization.
+
+**Corollary 3.2 (conditional one-stage interchange).** If relatively open finite-box rectangular patches have **dense union in the whole closed relation U**, then
+\[
+\boxed{\Phi(z_1)=\Phi_2(z_1).}
+\tag{3.3}
+\]
+
+*Proof.* The inequality \(\Phi_2(z_1)\le\Phi(z_1)\) is automatic. Otherwise choose cover C and rectangle \(r\le w_C\to z_1\) with \(r\not\le\Phi_2(z_1)\). This gives a nonzero relatively open sublocale \(E=\mathfrak c(\Phi_2(z_1))\wedge O(r)\) of U. By density of finite-box patches, E meets one. Refine to a rectangle r′≤r inside that patch, retaining a nonzero intersection with E; r′ has finite box rank and still satisfies \(r'\wedge w_C\le z_1\). Corollary 2.2A yields \(r'\le\Phi_2(z_1)\), contradiction. □
+
+**Scope:** The hypothesis is very strong and generally fails for the diagonal of a perfect Hausdorff space, even though Q holds there. The more useful *Q-only* criterion Theorem 3.1 asks for finite box patches only in the nonregular boundary G, since every genuine Q-hole is confined there.
+
+### 3.3 Rank-zero local far-separation is not the hard part
+
+A small comparison helps locate the exact new difficulty. Suppose a,b∈L and C is an arbitrary cover such that **each** pair \((a\wedge c,b\wedge c)\) is itself far, i.e.
+\[
+(a\wedge c)^*\vee(b\wedge c)^*=1\qquad(c\in C).
+\]
+Then \((a\wedge c)^*\vee(b\wedge c)^*=a^*\vee b^*\vee c^*\). Put t=a*∨b*. The equation t∨c*=1 implies c≤t (meet both sides with c). Since C covers 1, \(t=1\), so (a,b) is itself far. This *local-to-global gluing for individual far pairs* needs no finite-stabilization hypothesis. Rank one is hard precisely because the LOCAL rectangles need only lie below the **JOIN** \(z_1\) of far rectangles; they need not themselves be far.
+
+For a topological picture of this distinction, on the ordinary real line the product of the disjoint opens (0,1) and (1,2) lies in the far-relation open \(z_1\) (U=diagonal), although the closures of the two entire opens meet at 1. This is an illustration, not a Q counterexample.
+
 ## 4. Rank-one obstruction sharpened
 
 **Corollary 4.1 (infinite rectangular complexity in every genuine Q-hole).** Under \(\Phi_2(z_1)=z_1\), if \(\Phi(z_1)>z_1\) and \(E_C=\mathcal U\wedge\mathfrak o(w_C\to z_1)\ne0\), then
@@ -140,6 +172,19 @@ More precisely, for every rectangle \(r\le w_C\to z_1\) with \(\mathcal U[r]\ne0
 This constraint complements, rather than replaces, the referee's **infinite-chromatic cross-link graph** and nowhere-distributivity constraints. In a bad cover, finite rank m gives an explicit 2^m-colouring; a genuine Q-hole cannot have finite product-box rank at any of its nonzero rectangular open patches.
 
 **Generalization:** Theorem 2.1 and Corollary 2.2 are true with \(\mathcal U\) replaced by ANY closed T=C(d) with \(\Phi_2(d)=d\). Thus the same finite-box exclusion applies to Q′ holes in W₂. What is specifically rank-one is the localization to the **nonregular Urysohn boundary** G and the equivalence with Question Q.
+
+### 4.2 Atomless finite-box control (no false equivalence with atomicity)
+
+Let Y denote the **compact two-apex** control from our October W/U phase, whose nonregular U boundary contains the two opposite apex pairs and for which \(W_2(Y)=W(Y)<U(Y)\). Let S be the **completed branching algebraic Scott dcpo** of nonempty finite/infinite binary partial functions. Then \(\mathcal U(S)=S^2\) via dense common-predecessor pairs, but the Booleanization of \(S^2\) is **atomless**: every nonzero basic Scott rectangle contains disjoint nonzero subrectangles obtained by splitting a fresh binary coordinate in one factor.
+
+For the locally compact sober product \(X=Y\times S\), the previously internally proved dense-common-predecessor transfer says \(U(X)=U(Y)\times S^2\) and \(W_2(X)=W_2(Y)\times S^2<U(X)\). The nonregular off-diagonal apex boundary pieces in U(X) are of the form
+\[
+(\{p\}\times S)\times(\{q\}\times S)
+\quad\text{and their transposes},
+\]
+**single product sublocales**, despite having atomless Booleanizations. This shows that “finite product-box rank” is NOT equivalent to atomic Booleanization. It is compatible with substantial pointless Boolean complexity. Finite stabilization fails in this control, so there is no contradiction with Theorem 3.1.
+
+**Status of control:** Relies on the earlier working compact two-apex boundary computation and the internal product-transfer lemma; those example computations were not re-audited as part of this rank-one proof. The rank-one box-colouring theorem itself is independent of the control.
 
 ## 5. Why this is not an answer to Q
 
