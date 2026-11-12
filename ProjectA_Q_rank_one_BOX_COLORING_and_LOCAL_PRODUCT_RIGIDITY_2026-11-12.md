@@ -117,7 +117,12 @@ G_\perp=\boxed{\mathcal U\wedge\mathfrak o(z_1^{**}\wedge d_{\mathcal I})},
 K_{\rm reg}=\operatorname{cl}(\operatorname{int}\mathcal U)=\mathfrak c(z_1^{**}).
 \tag{3.1}
 \]
-The universal inclusion \(\mathcal I\vee K_{\rm reg}\le\mathcal W\le\mathcal W_2\le\mathcal U\) implies that **every genuine Q-hole lies inside the relatively open smaller sector \(G_\perp\)**. More directly, for \(\rho_C=w_C\to z_1\), \(\rho_C\le\Phi(z_1)\le d_{\mathcal W}\le d_{\mathcal I}\), so its relative hole E is off \(\mathcal I\); and E misses \(K_{\rm reg}\), putting it in G. Thus \(E\le G_\perp\).
+The universal inclusion \(\mathcal I\vee K_{\rm reg}\le\mathcal W\le\mathcal W_2\le\mathcal U\) implies that **every genuine Q-hole lies inside the relatively open smaller sector \(G_\perp\)**. In fact, the earlier universal closure-intersection lemma gives the stronger explicit frame inequality
+\[
+\boxed{\rho_C=w_C\to z_1\ \le\ \Phi(z_1)\ \le\ d_{\mathcal W}\ \le\ d_{\mathcal I}\wedge z_1^{**}.}
+\tag{3.1a}
+\]
+The last two inequalities correspond respectively to \(\mathcal I\le\mathcal W\) and \(\operatorname{cl}(\operatorname{int}\mathcal U)\le\mathcal W\). Thus the relative hole \(E=\mathcal U\wedge O(\rho_C)\) is automatically contained in \(G_\perp\).
 
 Call a rectangle \(r=a\boxtimes b\le z_1^{**}\wedge d_{\mathcal I}\) a **finite-box patch in \(G_\perp\)** if \(\mathcal U[r]\ne0\) and \(\mathcal U[r]\) admits a finite product-box decomposition as (1.1). The bound \(r\le d_{\mathcal I}\) automatically forces \(a\wedge b=0\).
 
