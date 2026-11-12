@@ -227,28 +227,48 @@ K_C=\mathfrak c(e_C)
 \]
 This establishes a precise, intrinsic **strengthening** of the earlier closed-remainder self-reduction, in ONE support operation, for the same marked hole E. It does not say that the new core is minimal among all possible Q′ counterexamples, or that taking support of the *entire new cover-hole* on K is idempotent.
 
-### 4.3 Two new structural sufficient conditions for Q′
+### 4.3 General support normalization for ANY \(\mathcal D_2>\mathcal D\) defect
 
-The normalization yields explicit sufficient conditions that do **not** mention W or W₂ in their hypotheses.
+The joint-support part of the proof has a broader scope. Distinguish **two stages**:
+
+- **Weak fitting defect:** \(\mathcal D_2(X)>\mathcal D(X)\). Then for some cover C, \(\mathcal D_2(X)\) is not contained in \(\mathfrak o(w_C)\). Its **closed relative complement**
+\[
+T_C=\mathcal D_2(X)\wedge\mathfrak c_{X^2}(w_C)
+\tag{4.4}
+\]
+is nonzero. The Booleanization \(B(T_C)\), or indeed T_C itself, yields generalized coordinate maps compatible with every finite cover and giving **zero** on C. Form the least common **closed coordinate support** K of these maps by joining their common killed opens, exactly as in §2. The restricted Boolean maps are jointly zero-reflecting, remain finite-cover-compatible, and still match C|K to zero. The same short finite-cover calculation proves \(t_{C|K}^K=0\), with \(\mathcal D_2(K)>\mathcal D(K)\). In general this does **NOT** force \(\mathcal W_2(K)>\mathcal W(K)\).
+- **Strong open-hull defect (Q′):** \(\mathcal W_2(X)>\mathcal W(X)\). Here the preceding construction begins with the NONZERO **RELATIVELY OPEN** \(E_C=\mathcal W_2\wedge O(w_C\to d_0)\) rather than merely the relative closed defect \(T_C\subseteq\mathcal D_2\). Its Booleanization is dense in E_C; this stronger property gives the **exact persistence** of the same open E_C in W₂(K) and its disjointness from W(K), Theorem 3.1.
+
+Thus joint zero-reflection and \(t_C=0\) alone are NOT signatures of Q′. They can occur in the completed branching Scott example despite Q′ holding. The **nonzero open hole E of W₂** is precisely the missing ingredient.
+
+### 4.4 Two structural sufficient conditions for the STRONGER equality \(\mathcal D_2=\mathcal D\)
+
+The weak normalization immediately strengthens two earlier corollaries: their conclusions hold already for **full fitted-diagonal equality**, not merely Q′.
 
 **Corollary 4.2 (hereditarily nonzero cover patches).** Suppose that for **every nonzero closed sublocale** \(Y\hookrightarrow X\), and **every open cover** \(\mathcal V\) of Y,
 \[
 \boxed{t_{\mathcal V}^{\,Y}\ne0_Y.}
-\tag{4.4}
+\tag{4.5}
 \]
-Then \(\mathcal W(X)=\mathcal W_2(X)\).
+Then
+\[
+\boxed{\mathcal D_2(X)=\mathcal D(X).}
+\tag{4.6}
+\]
 
-*Proof.* Otherwise the canonical closed support K of a nonzero first-step hole is a **nonzero closed** sublocale of X, and its inherited bad cover C_K has \(t_{C_K}^{\,K}=0\) by Theorem 4.1, contradiction. □
+*Proof.* Otherwise apply the **weak** normalization of §4.3 to \(\mathcal D_2(X)>\mathcal D(X)\). It yields a nonzero closed K⊆X and an inherited cover C_K with \(t_{C_K}^{\,K}=0\), contradiction. □
 
-This is a sufficient condition, NOT necessary: the completed branching Scott dcpo has Q′ positive but an infinite cover with \(t_C=0\). Its value is that it is phrased **entirely in the rather-below cover calculus** rather than in the unknown closed hull equality.
+This sufficient condition is NOT necessary for Q′, and no equivalence with D₂=D is claimed. The completed branching Scott dcpo has Q′ positive but a cover with \(t_C=0\).
 
-**Corollary 4.3 (hereditarily locally compact/regular closed patches).** Suppose **every nonzero closed sublocale** \(Y\hookrightarrow X\) contains a **nonzero open** sublocale \(V\subseteq Y\) lying inside some closed sublocale \(J\hookrightarrow Y\) which is either **compact OR regular**. Then \(\mathcal W(X)=\mathcal W_2(X)\).
+**Corollary 4.3 (hereditarily locally compact/regular closed patches).** Suppose **every nonzero closed sublocale** \(Y\hookrightarrow X\) contains a **nonzero open** sublocale \(V\subseteq Y\) lying inside a closed sublocale \(J\hookrightarrow Y\) which is either **compact OR regular**. Then
+\[
+\boxed{\mathcal D_2(X)=\mathcal D(X).}
+\tag{4.7}
+\]
 
-*Proof.* Otherwise choose normalized K. By the previously proved one-sided rigidity theorem (from [the frontier stop note](ProjectA_Qprime_FRONTIER_ONE_SIDED_RIGIDITY_EXIT_TREE_STOP_2026-11-12.md)), D₂(K)=D(K) on J×K and K×J. The Boolean witness B(E) lies in D₂(K) but is DISJOINT from D(K) because its C matching value is zero. Hence the B(E) coordinates both vanish on any open v≤J, in particular on the given nonzero V. Joint zero-reflection on K is contradicted. □
+*Proof.* Otherwise choose the normalized nonzero closed K and zero-cover Boolean pair from §4.3. By the earlier **one-sided** rigidity theorem ([frontier stop note](ProjectA_Qprime_FRONTIER_ONE_SIDED_RIGIDITY_EXIT_TREE_STOP_2026-11-12.md)), D₂(K)=D(K) on J×K and K×J. The Boolean pair lies in D₂(K) but is DISJOINT from D(K) because its C_K matching value is zero. Hence both coordinate values of every open v≤J vanish. For the nonzero V this contradicts joint zero-reflection. □
 
-This criterion does not rely on the still separately audited hyperconnected-strip theorem, and one may substitute any **independently established one-sided D₂=D patch class** for "closed compact or regular."
-
-Both corollaries are **strong sufficient classes**, not purported characterizations. Their failure in familiar positive controls is entirely possible. They put the "self-similarity" observation to work as a genuine obstruction theorem without seeking a new counterexample construction.
+This criterion does not rely on the separately reviewed hyperconnected-strip result. Both corollaries are **sufficient**, not purported characterizations. Their significance is structural: no contradiction with the merely **weak** normalized fitting witness is possible under these hypotheses.
 
 ## 5. A formal lax naturality statement for the prenucleus
 
