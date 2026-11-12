@@ -13,6 +13,8 @@ Assume:
 - **(H1)** \(V\) is dense in \(X\);
 - **(H2) eventual ubiquity:** for each nonempty open \(U\subseteq X\), there is \(N_U\) such that \(K_n\cap U\ne\varnothing\) for every \(n>N_U\).
 
+Equivalently, for **every infinite** \(I\subseteq\mathbb N\), the union \(\bigcup_{n\in I}K_n\) is dense in \(X\). Otherwise some nonempty open misses an infinite subfamily, and conversely. This matches the hypothesis highlighted by the CO-01 referee in Arrieta's Proposition 4.4. As \(X\) is locally compact Hausdorff (hence regular), the referee also notes that Arrieta's Corollary 4.3 and Proposition 4.9 establish strong Hausdorffness and failure of property (F) for \(Y\).
+
 For \(a\in\mathcal O(V)\), let
 \[
 \Theta(a)=\{n:\ \exists\text{ open }W\subseteq X,\ K_n\subseteq W,\ W\cap V\subseteq a\}.
@@ -108,7 +110,7 @@ Complete Boolean locales jointly detect arbitrary sublocale inclusion by the clo
 
 For any compact \(K\subseteq V\), its inclusion into \(X\) is closed (Hausdorff), so the ambient open \(X\setminus K\) contains every \(K_n\). Hence \(V\setminus K\) is a Θ-admissible open **member**, with Θ-value all of \(\mathbb N\).
 
-For every open \(w\in\mathcal O(K\times V)\) containing the graph diagonal \(\Delta_K\), compactness of \(K\), the rectangle basis of \(K\times V\), and regularity of \(V\) give finitely many \(V\)-opens \(b_i\) covering \(K\) for which
+For every open \(w\in\mathcal O(K\times V)\) containing the graph diagonal \(\Delta_K\), compactness of \(K\) and the rectangle basis of \(K\times V\) give finitely many \(V\)-opens \(b_i\) covering \(K\) for which
 \[
 \bigvee_i (K\cap b_i)\boxtimes b_i\le w.
 \]
@@ -166,7 +168,7 @@ This strengthening is **newly checked internally** and has not been externally r
 
 Every compact \(K\subseteq V\) has empty interior in V. Otherwise choose nonempty X-open U with \(U\cap V\subseteq K\). Since K is closed in Hausdorff X and V dense, U⊆K. But (H2) forces U to meet some \(K_n\subseteq X\setminus V\), contradiction. Consequently each \(V\setminus K\) is a **dense open** of V, hence Z contains the Booleanization \(V_{\neg\neg}\ne0\). Any ordinary point of Z would lie outside its own compact singleton, impossible: \(Z\) is a nonzero **pointless** sublocale.
 
-Likewise any admissible cover \(\mathcal C\) gives a **dense** \(\gamma_{\mathcal C}\in\mathcal O(V^2)\): given nonempty opens \(v_1,v_2\) and ambient nonempty \(U_i\) with \(U_i\cap V\subseteq v_i\), take n so large that \(K_n\) meets both \(U_i\); the admissible a with a neighborhood of the whole \(K_n\) then meets both \(v_i\). Thus \(A\) contains \((V^2)_{\neg\neg}\). Choose disjoint nonempty V-opens \(v_1,v_2\): their nonzero rectangle meets the Booleanization but not the diagonal. Hence \(\Delta_V<A\). The hypotheses ensure V has at least two distinct points: an isolated ambient open point would violate (H2) together with (H1).
+Likewise any admissible cover \(\mathcal C\) gives a **dense** \(\gamma_{\mathcal C}\in\mathcal O(V^2)\): given nonempty opens \(v_1,v_2\) and ambient nonempty \(U_i\) with \(U_i\cap V\subseteq v_i\), take n so large that \(K_n\) meets both \(U_i\); the admissible a with a neighborhood of the whole \(K_n\) then meets both \(v_i\). Thus \(A\) contains \((V^2)_{\neg\neg}\). Choose disjoint nonempty V-opens \(v_1,v_2\): their nonzero rectangle meets the Booleanization but not the diagonal. Hence \(\Delta_V<A\). More precisely, \(V\) has no isolated points. If \(U\cap V=\{p\}\) for some ambient open \(U\), then density of \(V\) and the Hausdorff (hence \(T_1\)) property force \(U=\{p\}\): otherwise \(U\setminus\{p\}\) would be a nonempty open missing \(V\). But (H2) forces sufficiently large \(K_n\) to meet \(U\), impossible since \(p\in V\). Consequently \(V\) has at least two distinct points.
 
 **Not established in full generality:** \(A<A^2\). Although the original Cantor example has an explicit three-permutation witness, no argument here shows that all systems admit such a witness. Do not attach this strictness to the general theorem without proof.
 
@@ -178,7 +180,7 @@ X=C\times H,\qquad K_n=M_n\times H,\qquad
 V=(C\setminus\bigcup M_n)\times H.
 \tag{7.1}
 \]
-These K_n are disjoint and compact, and V is dense. Every nonempty ambient open contains a product of nonempty opens U×J, and for all large n the M_n meet U; hence (H2). For infinite H the K_n are **infinite**; for H connected, X is not Stone; for nonmetrizable Stone H, the construction gives nonmetrizable Stone examples.
+These K_n are disjoint and compact, and V is dense. Every nonempty ambient open contains a product of nonempty opens U×J, and for all large n the M_n meet U; hence (H2). For infinite H the K_n are **infinite**; if H is connected and has **more than one point**, X is not Stone; for nonmetrizable Stone H, the construction gives nonmetrizable Stone examples.
 
 Let \(B=\operatorname{RO}(V)\), \(q:\mathcal O(V)\to B\) its double-negation quotient. The original Cantor coordinate permutations \(\sigma,\tau\) induce homeomorphisms
 \[
@@ -195,6 +197,8 @@ Thus
 \boxed{\quad A<A^2=R_\infty,\quad\text{for EVERY nonempty compact Hausdorff }H.}
 \tag{7.2}
 \]
+Once the general saturation theorem is available, the intermediate \(k\) and permutation \(\sigma\) are **not needed merely for strictness**: the remote endpoints \(h,\ell\) already give a pair in \(Z^2\le A^2\) excluded from \(A\) by the separating cover. The three-map argument is retained as a direct witness to nontransitivity.
+
 In particular, the genuinely infinite-K_n case \(H=[0,1]\) gives an explicit non-Stone example; a nonmetrizable Stone H gives a nonmetrizable Stone example. The full fitted diagonal has the same strict square and stabilized subsequent powers by §5. These are **internally argued extensions**, not independently audited.
 
 ## 8. Why the mixing condition matters: a counterexample without (H2)
@@ -213,13 +217,13 @@ Every two-edge path likewise stays in one half, so \(A^2\) has **zero cross bloc
 \[
 \boxed{Z^2\nleq A^2.}
 \]
-So saturation fails without some hypothesis coupling the tails of the K_n across all nonempty opens. This shows (H2) is doing essential work; it is not claimed to be logically necessary in every system.
+Indeed **every tail union** \(\bigcup_{n\ge N}K_n\) is dense in \(X\) in this example: each half receives all but finitely many of its own Cantor \(M_n\). Thus ordinary tail-density is **strictly weaker** than (H2), and insufficient for saturation. So saturation fails without some hypothesis coupling **individual large** \(K_n\) across all nonempty opens; (H2) is doing essential work, though not claimed logically necessary in every system.
 
 ## 9. Scope and next tests
 
 - The original Arrieta/CO-01 example is recovered by \(X=C\), \(K_n=M_n\).
 - The proof of **square saturation** uses H1/H2, local compactness for a compact boundary witness, compact-local diagonal restrictions, Boolean probes, and closed-base-change stability; no Stone duality or ultrafilters.
-- The transfer to **all of \(\mathcal D_Y\)** uses closedness of **individual** \(K_n\), not their finiteness, plus finite-join preservation of sublocale inverse image.
+- The transfer to **all of \(\mathcal D_Y\)** uses closedness of **individual** \(K_n\), **fitness of their ambient regular space** \(X\) to express each \(K_n\) as an intersection of its open neighborhoods, and finite-join preservation of sublocale inverse image. Finiteness of \(K_n\) is not required.
 - Strictness \(A<A^2\) is separately verified for the product family, not claimed for arbitrary X.
 - No assertion about the effectivity of \(R_\infty\), nor about literature priority, is made.
 - Possible next bounded target: determine whether \(A<A^2\) follows already from H1/H2 in general, or find a counterexample. In parallel, audit the stronger locally compact transfer, especially the direct factorization \(j:V\to X\setminus K_n\).
@@ -231,6 +235,6 @@ So saturation fails without some hypothesis coupling the tails of the K_n across
 3. [CO-01 external referee reconciliation](ProjectA_CO01_EXTERNAL_referee_reconciliation_2026-11-11.md).
 4. [Abstract closed-family remote-equivalence theorem](ProjectA_closed_family_remote_equivalence_general_theorem_2026-11-11.md).
 5. [Compact-local diagonality](ProjectA_CO01_compact_restriction_diagonal_all_powers_2026-11-11.md).
-6. For inverse image on sublocales preserving arbitrary meets and finite joins, see the standard coframe-homomorphism statement in the literature, e.g. *On infinite variants of De Morgan law in locale theory*, J. Pure Appl. Algebra (2021), §2.
+6. I. Arrieta, [*On infinite variants of De Morgan law in locale theory*](https://www.sciencedirect.com/science/article/pii/S0022404920301602), *Journal of Pure and Applied Algebra*, §2, explicitly states that inverse image on sublocales is a coframe homomorphism (preserving arbitrary meets and finite joins).
 
-**Status: internally derived generalization only. No independent referee has checked the new locally compact generality, the improved infinite-\(K_n\) transfer, or the product-family strictness argument.**
+**Verification status (updated 11 November 2026):** New locally compact generalization originally derived internally; **subsequently checked section-by-section by the same independent referee who audited the original CO-01 theorem**. That referee reported no errors and corrected an earlier claim that finiteness of \(K_n\) was essential. This is **nonblind external corroboration**, not a fresh independent blind referee assessment. The full reconciliation is in [the follow-up note](ProjectA_CO01_LCH_GENERALIZATION_nonblind_referee_followup_2026-11-11.md). No claim of publication novelty is made.
