@@ -176,6 +176,34 @@ Under rank-one fixedness W₂=U, the same criterion proves Q, and only the NONRE
 
 **IMPORTANT HONESTY CHECK:** (4.2) is only a **sufficient criterion assembled from already known positive mechanisms**, not a new characterization. The Arrieta example shows the global Boolean-predecessor selection criterion is far too strong; restricting it to the exceptional boundary is necessary before using it in any attempted Q proof. NO proof is given that span images are dense on that boundary under finite rank-one stabilization. That remains open.
 
+### 4.2 Nonregular Q-positive SUCCESS with genuinely nonzero exceptional boundary: Cantor or pointless Boolean base × finite fence
+
+The two-apex test in §2 has W₂ regular closed; the Arrieta negative control in §3 has U regular closed. We must ALSO check a Q-positive locale with a NONZERO off-inseparability NONREGULAR sector, lest the specialization-span method appear to be only another form of the old regular-core argument.
+
+Take P the finite upper-Alexandrov six-point fence \(0<5>1<4>2<3\), with
+\[
+\operatorname{cl}(\mathrm{Cm}(P))=W(P)=W₂(P)=U(P)>I(P).
+\]
+Let Z be EITHER ordinary Cantor space (SPATIAL, perfect and U-separated) OR the complete atomless Boolean locale \(B=\operatorname{Loc}(\operatorname{RO}(2^\omega))\) (POINTLESS, U-separated). Put Y=Z×P. For both bases, the earlier spatial-product or compact-fiber theorem gives
+\[
+\boxed{W(Y)=W₂(Y)=U(Y)=\Delta_Z\times U(P),\quad I(Y)=\Delta_Z\times I(P).}
+\tag{4.2a}
+\]
+Since Z has no diagonal interior (Cantor is perfect; atomless Boolean proved below), \(\operatorname{int}U(Y)=0\), and \(G_\perp=U(Y)\wedge O(d_I)\ne0\) because U(P)>I(P). Thus **the entire nontrivial off-I sector is NONREGULAR** in the ambient square, yet Q holds.
+
+Now for every ordinary common-predecessor pair (s,t)∈Cm(P), choose r∈P with r≤s,t, and use source T=Z with frame maps
+\[
+z\mapsto(z,r),\quad z\mapsto(z,s),\quad z\mapsto(z,t)
+\]
+from Z to Y. These form an ACTUAL generalized predecessor span. The image of the pair maps is \(\Delta_Z\times\{(s,t)\}\), and their joins are DENSE in \(\Delta_Z\times U(P)\) because Cm(P) is dense in U(P). Therefore
+\[
+\boxed{\operatorname{cl}\Sigma(Y)=W(Y)=W₂(Y)=U(Y)}
+\tag{4.2b}
+\]
+with G_perp nonzero, even if the base Z (and hence Y) is ENTIRELY POINTLESS.
+
+This is a genuine **positive** test of predecessor spans on the difficult nonregular off-I sector, unlike the merely regular-closed-core two-apex and Arrieta examples. It is not a NEW positive Q result (the product formulas already prove it), but it verifies that the method can handle exactly the right kind of geometry when the fiber has common-lower-bound specialization links.
+
 ### 4.3 A genuinely exposed rank-one test: pointless Boolean base × Arrieta's anti-Urysohn locale
 
 Set \(Z=\operatorname{Loc}(\operatorname{RO}(2^\omega))\), a nonzero POINTLESS, atomless Boolean locale; let A be Arrieta's strongly Hausdorff anti-Urysohn locale. Put \(X=Z\times A\). We can PROVE all the following facts without knowing W(X) or W₂(X):
