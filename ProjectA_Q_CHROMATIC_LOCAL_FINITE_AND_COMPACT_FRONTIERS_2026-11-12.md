@@ -209,6 +209,16 @@ The right side is a **computable closed frontier from the actual cross-link grap
 
 **Rank-one consequence:** With \(d=z_1=d_{\mathcal U}\), and \(\Phi_2(z_1)=z_1\), a genuine Q bad cover and linked rectangle r MUST have a nonzero closed chromatic frontier \(H^\chi_{C,r}\) which is **neither compact nor regular**. This is sharper than the plain condition on H_C because \(H^\chi_{C,r}\le H_C\).
 
+### 4.3 Explicit test: chromatic finiteness can be much weaker than local finiteness
+
+Let \(S=\mathcal P(\omega)\setminus\{\varnothing\}\) with its Scott topology. Let \(X=S_L\sqcup S_R\) be a DISJOINT sum of two copies, with clopen summands \(a=S_L,b=S_R\). For each n, let \(c^L_n\) be the nth singleton-basic Scott open in S_L and \(c^R_n\) its counterpart in S_R. The family \(C=\{c^L_n,c^R_n:n\in\omega\}\) covers X.
+
+**Claim:** \(\ell_C=0\), hence \(H_C=X\), but for the nonzero CLOSED product relation \(T=a\times b\) and \(r=a\boxtimes b\), the link graph \(\Gamma_r(C)\) is the complete **bipartite** graph \(K_{\omega,\omega}\), so \(\eta_{C,r}=1\) and \(H^\chi_{C,r}=0\).
+
+*Proof.* Every nonzero Scott-open in either copy meets ALL singleton-basic opens in that copy: given a finite nonempty condition F and any n, its extension F∪{n} lies in both. Thus no nonzero X-open meets only finitely many members of C, and ℓ_C=0. As r is mixed, every same-member square c⊠c lies entirely in one clopen summand's square, so r∧w_C=0. A left c and right c′ have a nonzero product in T[r], while two same-side c,c′ do not. Therefore the link graph is \(K_{\omega,\omega}\), globally 2-colorable, and \(\eta=1\).
+
+This test proves the **chromatic** finiteization genuinely goes beyond local finiteness: the original cover is nowhere locally finite, yet its mixed relation is finitized by the two-color coarsening \(\{a,b\}\). Of course \(\Phi_2(d)>d\) for d the complement of T (the two-element finite cover already kills T). This is a control of the general theorem, **NOT** a Q counterexample or an assertion that Urysohn relations can link clopen-separated components.
+
 ## 5. The chromatic core is nowhere locally finitely chromatic
 
 Let d=Φ₂(d), C a bad cover, and E=C(d)∧O(w_C→d) a NONZERO relatively open hole. Define \(\Gamma_E(C)\) by actual nonzero restrictions of E to c⊠c′ (loops vanish). Set
