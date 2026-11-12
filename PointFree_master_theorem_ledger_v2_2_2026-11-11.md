@@ -1,3 +1,14 @@
+> **12 NOV 2026 — FURTHER REFINEMENT: VARIABLE-RANK FRONTIER LOCALIZATION (NEW INTERNAL).** Suppose finite square-cover traces on a mixed open L×R are supported by descending **open bridge tails** \(T_n^A,T_n^B\) inside A⊆L,B⊆R:
+\(w_{F_0}\wedge(L\boxtimes R)\le A\boxtimes B\) and
+\(w_{F_n}\wedge(A\boxtimes B)\le(T_n^A\boxtimes B)\vee(A\boxtimes T_n^B)\).
+Then the actual **finite-cover fitted sublocale** on L×R is supported in the closed coordinate frontier union
+\[
+(H_A\times B)\vee(A\times H_B),\qquad
+H_A=\bigwedge_n\operatorname{cl}_A(T_n^A),\quad
+H_B=\bigwedge_n\operatorname{cl}_B(T_n^B).
+\]
+If both frontiers vanish, \(\mathcal W_2\) vanishes on the mixed rectangle. If A,B are **Baire** and each descending tail intersection has no ordinary point, the respective H are **closed nowhere dense** (although they can be perfect and nonzero, e.g. open punctured neighborhoods shrinking to a Cantor set). Thus the remaining construction window is a **nonzero, potentially atomless nowhere-dense accumulation frontier supporting a genuine pointless \(\mathcal D_2\) sublocale**, without any dense infinite-rank completion points above a shared boundary supremum. This is an exact refinement of the fixed-rank distributed model; it does **not** prove a Q′ gap. [Proposition 7.2 and proof](ProjectA_Qprime_DISTRIBUTED_SUPREMA_FIXED_RANK_FIBERS_EXACT_W_2026-11-12.md). **I only.**
+
 > **12 NOV 2026 — DISTRIBUTED-SUPREMUM NONPRODUCT STRESS TEST: EXACT \(\mathcal W=\mathcal W_2<\mathcal U\), BUT \(\mathcal D<\mathcal D_2\) (NEW INTERNAL).** Construct a **locally compact sober noncompact noncontinuous dcpo P**, with an algebraic but noncoherent Scott-open frame, using countably many independent two-chain suprema \(z_k\), x/y chains, **open forcing bridge fibres** \(A_{k,m},B_{k,m}\cong S\) at **fixed finite bridge rank m**, and a **closed** completed branching core \(K\cong S\) below the left bridges. K supplies explicit Cantor-regular-open generalized pairs proving \(\boxed{\mathcal D(P)<\mathcal D_2(P)}\). Let \(L=K\cup\uparrow x_0\), \(R=\uparrow y_0\), and \(Z_{p,q}\) unite each indexed boundary's u/v tails. For every n the four Scott opens \(\{L,R,Z_{0,n},Z_{n,0}\}\) cover P, with exact mixed trace \(w_{F_n}\wedge(L\boxtimes R)=(A\boxtimes B_{\ge n})\vee(A_{\ge n}\boxtimes B)\). The n=0 trace lies in the open **sum of fibre products**, and every fixed-rank component is eliminated by one later finite cover; hence \(\mathcal D_2\), and its closed hull \(\mathcal W_2\), vanish on **both mixed rectangles**. Conversely \(\overline A=P\setminus R\), \(\overline B=P\setminus L\), and every A×A or B×B ordinary pair shares x₀ or y₀, so full D is dense in the complementary closed sublocale. Therefore
 \[
 \boxed{\mathcal W(P)=\mathcal W_2(P)=
