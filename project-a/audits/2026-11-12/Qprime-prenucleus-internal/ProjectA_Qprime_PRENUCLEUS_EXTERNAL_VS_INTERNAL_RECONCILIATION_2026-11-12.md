@@ -180,7 +180,7 @@ The "separated pieces collapse" lemma (all same-index pieces separated ⇒ whole
 ## 8. Proposed editorial changes and statuses
 
 1. Keep the two **BLIND** prompt/packet files frozen as the historical submitted versions; place the D.4 corrigendum here or in the working note.
-2. Add a top-level audit addendum to the [working normalization note](../../../ProjectA_Qprime_PRENUCLEUS_BOOLEAN_SUPPORT_IDEMPOTENT_CORE_2026-11-12.md): central claim independently reviewed; D.4 packet line fixed; exact closed-restriction identity; unmarked same-cover support idempotence; weak/strong interior-closure relation.
+2. Add a top-level audit addendum to the [working normalization note](../../../../ProjectA_Qprime_PRENUCLEUS_BOOLEAN_SUPPORT_IDEMPOTENT_CORE_2026-11-12.md): central claim independently reviewed; D.4 packet line fixed; exact closed-restriction identity; unmarked same-cover support idempotence; weak/strong interior-closure relation.
 3. In future redactions put the Boolean-core criterion first, then the \(\Phi\)-hole and linked-pair relation, and only afterward the Boolean representative; clarify that "canonical" is *relative to a chosen cover*.
 4. Do not upgrade the earlier hyperconnected or compact-closed-neighborhood strip results on the strength of this report: the referee explicitly did not audit them.
 5. Track referee's original suggestions as **new, internally reconstructed**, but not independently second-refereed; in particular rank-one is an **open** test and graph infinite chromatic is **necessary, not sufficient**.
