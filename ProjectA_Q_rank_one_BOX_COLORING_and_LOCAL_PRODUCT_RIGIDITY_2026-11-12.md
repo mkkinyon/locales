@@ -172,6 +172,16 @@ More precisely, for every rectangle \(r\le w_C\to z_1\) with \(\mathcal U[r]\ne0
 
 This constraint complements, rather than replaces, the referee's **infinite-chromatic cross-link graph** and nowhere-distributivity constraints. In a bad cover, finite rank m gives an explicit 2^m-colouring; a genuine Q-hole cannot have finite product-box rank at any of its nonzero rectangular open patches.
 
+**Proposition 4.2 (locally hereditary infinite chromaticity of a rank-one hole).** Under the assumptions of Corollary 4.1, keep the SAME bad cover C and canonical open hole E_C. For **every** nonzero relatively open sublocale V⊆E_C, one can choose a pure rectangle \(r_V=a_V\boxtimes b_V\le w_C\to z_1\) with
+\[
+0\ne\mathcal U[r_V]\le V,\qquad a_V\wedge b_V=0,
+\]
+such that the associated cross-link graph on the members of the **same C** has infinite chromatic number, and this remains true for every refinement of C.
+
+*Proof.* Because E_C is a relatively open U-sublocale, V=U∧O(q) for an ambient open q≤w_C→z₁ (taking q to represent the relative open). Choose a rectangle \(r_V\le q\) with U[r_V]≠0. The cover condition \(r_V\wedge w_C\le z_1\) implies disjoint coordinate opens, by applying the diagonal frame map and joining over C. If the cross-link graph admitted a finite coloring, joining colour classes would give a finite cover F with \(r_V\wedge w_F\le z_1\), hence \(r_V\le\Phi_2(z_1)=z_1\), contradicting the nonzero U restriction. The same cover condition persists under every refinement of C. □
+
+Thus a hypothetical **rank-one hole must carry unbounded finite chromatic complexity in EVERY nonzero relatively open part**, for the SAME fixed cover, not only for the original rectangle as a whole. This is a precise local/combinatorial analogue of the referee's closed-support “self-similarity,” and is still only a necessary condition.
+
 **Generalization:** Theorem 2.1 and Corollary 2.2 are true with \(\mathcal U\) replaced by ANY closed T=C(d) with \(\Phi_2(d)=d\). Thus the same finite-box exclusion applies to Q′ holes in W₂. What is specifically rank-one is the localization to the **nonregular Urysohn boundary** G and the equivalence with Question Q.
 
 ### 4.2 Atomless finite-box control (no false equivalence with atomicity)
