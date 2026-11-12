@@ -227,6 +227,29 @@ K_C=\mathfrak c(e_C)
 \]
 This establishes a precise, intrinsic **strengthening** of the earlier closed-remainder self-reduction, in ONE support operation, for the same marked hole E. It does not say that the new core is minimal among all possible Q′ counterexamples, or that taking support of the *entire new cover-hole* on K is idempotent.
 
+### 4.3 Two new structural sufficient conditions for Q′
+
+The normalization yields explicit sufficient conditions that do **not** mention W or W₂ in their hypotheses.
+
+**Corollary 4.2 (hereditarily nonzero cover patches).** Suppose that for **every nonzero closed sublocale** \(Y\hookrightarrow X\), and **every open cover** \(\mathcal V\) of Y,
+\[
+\boxed{t_{\mathcal V}^{\,Y}\ne0_Y.}
+\tag{4.4}
+\]
+Then \(\mathcal W(X)=\mathcal W_2(X)\).
+
+*Proof.* Otherwise the canonical closed support K of a nonzero first-step hole is a **nonzero closed** sublocale of X, and its inherited bad cover C_K has \(t_{C_K}^{\,K}=0\) by Theorem 4.1, contradiction. □
+
+This is a sufficient condition, NOT necessary: the completed branching Scott dcpo has Q′ positive but an infinite cover with \(t_C=0\). Its value is that it is phrased **entirely in the rather-below cover calculus** rather than in the unknown closed hull equality.
+
+**Corollary 4.3 (hereditarily locally compact/regular closed patches).** Suppose **every nonzero closed sublocale** \(Y\hookrightarrow X\) contains a **nonzero open** sublocale \(V\subseteq Y\) lying inside some closed sublocale \(J\hookrightarrow Y\) which is either **compact OR regular**. Then \(\mathcal W(X)=\mathcal W_2(X)\).
+
+*Proof.* Otherwise choose normalized K. By the previously proved one-sided rigidity theorem (from [the frontier stop note](ProjectA_Qprime_FRONTIER_ONE_SIDED_RIGIDITY_EXIT_TREE_STOP_2026-11-12.md)), D₂(K)=D(K) on J×K and K×J. The Boolean witness B(E) lies in D₂(K) but is DISJOINT from D(K) because its C matching value is zero. Hence the B(E) coordinates both vanish on any open v≤J, in particular on the given nonzero V. Joint zero-reflection on K is contradicted. □
+
+This criterion does not rely on the still separately audited hyperconnected-strip theorem, and one may substitute any **independently established one-sided D₂=D patch class** for "closed compact or regular."
+
+Both corollaries are **strong sufficient classes**, not purported characterizations. Their failure in familiar positive controls is entirely possible. They put the "self-similarity" observation to work as a genuine obstruction theorem without seeking a new counterexample construction.
+
 ## 5. A formal lax naturality statement for the prenucleus
 
 For any closed inclusion \(i:K\to X\), let \(q=i^{(2)*}:Q_X\to Q_K\) be its frame map. For every z∈Q_X, frame maps preserve implications only in the **lax** direction
