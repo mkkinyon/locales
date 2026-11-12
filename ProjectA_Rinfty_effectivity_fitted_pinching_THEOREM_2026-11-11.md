@@ -154,7 +154,35 @@ The new theorem gives
 \]
 The last equality is CO-01's externally checked (or subsequent nonblind-corrobated LCH) square-saturation theorem. Thus **the square of the nontransitive fitted diagonal is a genuine kernel pair**, hence an effective equivalence relation.
 
-## 7. Adversarial caveats and research directions
+## 7. A first concrete description of the quotient's extra opens
+
+Let \(V\) be a Hausdorff space and \(Z=\bigwedge_{K\subseteq V\text{ compact}}\mathfrak o(V\setminus K)\). For a closed subspace \(F\subseteq V\), let \(i:F\hookrightarrow V\). Since pullback preserves all sublocale meets,
+\[
+i^{-1}(Z)=\bigwedge_{K\subseteq V,\ K\text{ compact}}\mathfrak o_F(F\setminus(F\cap K))
+=\bigwedge_{C\subseteq F,\ C\text{ compact}}\mathfrak o_F(F\setminus C)=:Z_F.
+\tag{7.1}
+\]
+(The middle equality holds because every compact \(C\subseteq F\) is also compact in \(V\), and \(F\cap K\) is compact in F for compact K in V.)
+
+Because the open complement of F and the closed F are complementary sublocales in V,
+\[
+\boxed{\quad V\setminus F\in\mathcal N(Z)\quad\iff\quad Z\wedge F=0
+\quad\iff\quad Z_F=0.\quad}
+\tag{7.2}
+\]
+If \(F\) is **locally compact Hausdorff**, then \(Z_F=0\): the interiors (relative to F) of its compact neighborhoods cover F, and \(Z_F\) is disjoint from each such interior. The open-cover restriction principle yields the zero sublocale. Therefore
+\[
+\boxed{F\subseteq V\ \text{closed and locally compact}\quad\Longrightarrow\quad V\setminus F\in\mathcal N(Z).}
+\tag{7.3}
+\]
+
+In particular, these Z-neighborhoods are **not limited to cocompact opens**. For \(V\cong\mathbb N^{\mathbb N}\), let
+\[
+F=\{(n,0,0,\ldots):n\in\mathbb N\}.
+\]
+This is closed, discrete, infinite, and noncompact. Yet \(V\setminus F\in\mathcal O(Q_Z)\), by (7.3). Thus the generic-point quotient is strictly finer on the ordinary V-points than the bare cocompact topology, although still hyperconnected and coarser than the original V topology. Determining the full neighborhood filter \(\mathcal N(Z)\) remains an interesting next question.
+
+## 8. Adversarial caveats and research directions
 
 1. **Classical setting:** the projection lemma and the Boolean-probe separation are used in ordinary classical locale theory. Do not infer a constructive internal theorem without checking positivity/overt hypotheses.
 2. **No general Loc exactness claim:** the proof works because Z is fitted, and depends on the particular presentation (0.1). It does not imply arbitrary localic equivalence relations are effective.
