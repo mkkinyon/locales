@@ -108,6 +108,17 @@ But \(h_K\) reflects zero and \(v\ne0_K\), contradiction. QED.
 
 **Proof strength:** Only ONE coordinate's closed support was needed; no assumption of spatiality of the generalized target, the localic square, or of B(E). Spatiality/Baire are required only on X and its closed subspaces. **Do not** falsely claim both h and k factor through K_h; the proof uses ambient lifts and the finite cover \(F\cup\{t_F\}\).
 
+**Theorem 3.1A (exact category obstruction, no Baire assumption).** Let X be ANY SPATIAL locale, C an ordinarily point-finite cover, and suppose a finite-cover-compatible pair fails C. Then there exists a **NONEMPTY CLOSED TOPological subspace K⊆X which is meagre in itself**. More precisely one may take the least closed support \(K=K_h\) of the FIRST coordinate after restricting the target to the nonzero C-zero closed quotient. On that K,
+\[
+\boxed{\ell_{C|K}=0_K, \qquad K=\bigcup_{n\in\mathbb N}F_n(K)}
+\tag{3.3a}
+\]
+where \(F_n(K)=\{x\in K:\#\{c\in C:x\in c\}\le n\}\) is CLOSED NOWHERE DENSE in K for every n.
+
+*Proof.* The finite-cover argument in Theorem 3.1, using only the zero-valued cover and zero-reflection of h_K, shows NO nonempty K-open can meet only finitely many restricted C-members; no Baire hypothesis is used for this step. Thus \(\ell_{C|K}=0\). Since C is point-finite, the closed F_n cover K. If some F_n had nonempty interior W⊆K, the maximal-simultaneous-intersection argument of Lemma 2.1 would produce a nonempty open meeting only finitely many C-members, contradiction. Therefore each F_n is closed nowhere dense and K is meagre. □
+
+This strengthens the negative direction: a point-finite weak fitting defect necessarily constructs a concrete CLOSED **first-category** coordinate support, not merely a failure of the Baire property. The hereditary-Baire theorem is precisely the exclusion of such supports.
+
 **Corollary 3.2 (finite-fixed full-cover domination).** Under Theorem 3.1's hypotheses, for ANY point-finite cover C and ANY finite-fixed \(d\in Q\), \(\Phi_2(d)=d\),
 \[
 \boxed{w_C\to d=d.}
