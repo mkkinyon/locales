@@ -99,6 +99,34 @@ No spatiality or compactness assumptions are needed.
 
 **Consequence:** The earlier spatial-base product formula for U was unnecessarily restrictive. If \(\mathcal U(Z)=\Delta_Z\), then \(\mathcal U(Z\times Y)=\Delta_Z\times\mathcal U(Y)\) for every potentially POINTLESS fiber Y, and likewise if \(\mathcal I(Z)=\mathcal U(Z)\), the U relation is \(\mathcal I(Z)\times\mathcal U(Y)\).
 
+### 1.3 First-step pre-nucleus and the I=U class are product-exact
+
+Because \(z_T=d_{\mathcal U(T)}=\Phi_T(0)=\Phi_{2,T}(0)\), Theorem 1.1 is equivalently the **exact rank-zero/first-stage product identity**
+\[
+\boxed{
+z_{Z\times Y}=
+\bigl(z_Z\boxtimes1_{Y^2}\bigr)
+\vee\bigl(1_{Z^2}\boxtimes z_Y\bigr),
+\quad z_T=\Phi_T(0)=\Phi_{2,T}(0).
+}
+\tag{1.4}
+\]
+This does NOT say \(\Phi_2\) commutes with products at arbitrary q or at the SECOND stage \(z_T\); those are much harder and remain unproved here.
+
+**Corollary 1.4 (arbitrary pointfree product stability/reflection of I=U).** If Z,Y are both NONZERO locales, then
+\[
+\boxed{
+\mathcal I(Z\times Y)=\mathcal U(Z\times Y)
+\iff
+\bigl[\mathcal I(Z)=\mathcal U(Z)\ \text{and}\ 
+\mathcal I(Y)=\mathcal U(Y)\bigr].
+}
+\tag{1.5}
+\]
+*Proof.* Sufficiency follows from (1.2)–(1.3). Conversely if I(Z)<U(Z), since both are CLOSED sublocales there is a NONZERO relatively open piece \(V\subseteq U(Z)\) disjoint from I(Z). The product \(V\times U(Y)\) is nonzero (U(Y) contains the nonzero diagonal of Y), and is disjoint from \(I(Z)\times I(Y)\) but lies inside \(U(Z)\times U(Y)\); hence strictness persists in the product. The Y factor is symmetric. □
+
+The same proof shows that the class \(\mathcal U=\Delta\) is preserved and reflected by binary products with nonzero other factor. This extends the product behavior of the I=U class beyond coherent/spatial hypotheses directly at the point-free relation level.
+
 ## 2. The localic compact-fiber tube-cover identity
 
 Let Y be COMPACT (not assumed spatial), Z arbitrary, and take any rectangle cover of \(Z\times Y\):
