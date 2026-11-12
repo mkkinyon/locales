@@ -1,0 +1,156 @@
+# Project A — Rank-one Q: finite-box colouring and local product rigidity
+
+**12 November 2026. New INTERNAL bounded theorem; not externally audited, no originality claim.** This begins the user-approved return from Q′ to **Question Q**, following the referee's rank-one observation and subsequent addendum. The problem \(Q\) is **NOT solved**, but the first bounded test yields a new sufficient class directly using **finite stabilization** and the referee's infinite-chromatic linking graph, rather than a further geometric counterexample. The theorem concerns **arbitrary locales**, including pointless ones, and all rectangles are interpreted in the localic product.
+
+## 0. The exact rank-one problem
+
+Let L=O(X), \(Q=L\oplus L\) (here Q denotes the product frame, not the open problem label), and \(w_C=\bigvee_{c\in C}c\boxtimes c\). Define full and finite diagonal-neighborhood pre-nuclei:
+\[
+\Phi(q)=\bigvee_{\mathcal C\text{ cover}}(w_\mathcal C\to q),\qquad
+\Phi_2(q)=\bigvee_{F\text{ finite cover}}(w_F\to q).
+\]
+Put
+\[
+z_1=\Phi(0)=\Phi_2(0)=d_{\mathcal U},
+\qquad \mathcal U=\mathfrak c_{X^2}(z_1).
+\]
+Question Q is exactly
+\[
+\boxed{\Phi_2(z_1)=z_1\Longrightarrow\Phi(z_1)=z_1.}
+\tag{0.1}
+\]
+The hypothesis says \(\mathcal W_2=\mathcal U\), and the desired conclusion says \(\mathcal W=\mathcal U\).
+
+We know by the rectangle basis of \(L\oplus L\) that \(\Phi(z_1)>z_1\) iff there is a cover C and pure rectangle \(r=a\boxtimes b\not\le z_1\) with \(r\wedge w_C\le z_1\), equivalently
+\[
+\boxed{(a\wedge c)\boxtimes(b\wedge c)\le z_1\qquad(\forall c\in C).}
+\tag{0.2}
+\]
+Since \(\delta^*(z_1)=0\) and C covers, the local inequalities force \(a\wedge b=0\). Thus *disjoint* coordinate rectangles suffice throughout.
+
+The initial referee's independent cross-link graph construction shows that any counterexample with finite stabilization must produce an **infinite-chromatic** graph on C, with edges between c,c′ when \(\mathcal U\) meets the cross rectangle \((a\wedge c)\boxtimes(b\wedge c')\) or its reversal.
+
+## 1. Finite-box decomposition of a localic relation
+
+Let \(T=\mathfrak c(d)\hookrightarrow X^2\) be ANY closed localic relation. For a rectangle \(r=a\boxtimes b\), put
+\[
+T[r]=T\wedge\mathfrak o(r).
+\]
+We say **\(T[r]\) has product-box rank ≤m** if it is the **join as a sublocale** of m product sublocales:
+\[
+\boxed{T[r]=\bigvee_{i=1}^{m}(S_i\times T_i),\quad
+S_i\le\mathfrak o_X(a),\ T_i\le\mathfrak o_X(b),\quad
+S_i\times T_i\le T[r].}
+\tag{1.1}
+\]
+The factor sublocales need not be spatial, compact, regular or open. Product means their *localic* product, embedded into X² by the two inclusions. The empty sublocale has rank 0. We use the elementary facts:
+(a) the sublocale lattice is distributive for **finite** joins and meets;
+(b) pullback of a product sublocale by an open rectangle gives the product of the corresponding open restrictions; and
+(c) over Set, a product of two nonzero locales is nonzero (equivalently products of nonempty locale objects are nonempty; locale surjections are pullback stable).
+In case of any foundational reservation about (c), the argument also applies, without that issue, to **spatial** locally compact sober X with spatial factor sublocales; an external audit should specifically check (c) for arbitrary pointless locales.
+
+## 2. Main finite-box colouring lemma
+
+**Theorem 2.1 (finite-box rank bounds cross-link chromatic number).** Suppose \(T[r]\) has rank ≤m as in (1.1), and a cover C of X satisfies
+\[
+\boxed{T\wedge\mathfrak o((a\wedge c)\boxtimes(b\wedge c))=0\quad
+\text{for each }c\in C.}
+\tag{2.1}
+\]
+Then there exists a FINITE coarsening \(F=\{u_\tau:\tau\in\{0,1\}^m\}\) of C, with **at most \(2^m\) nonempty members**, satisfying
+\[
+\boxed{T\wedge\mathfrak o(r\wedge w_F)=0,\qquad
+r\wedge w_F\le d.}
+\tag{2.2}
+\]
+Equivalently the cross-link graph \(G_C(a,b;T)\) has a proper vertex colouring with at most \(2^m\) colours.
+
+*Proof.* For each i and each c∈C, define a bit
+\[
+\epsilon_i(c)=
+\begin{cases}
+1 & S_i\wedge\mathfrak o(c)\ne0,\\
+0 & S_i\wedge\mathfrak o(c)=0.
+\end{cases}
+\tag{2.3}
+\]
+If \(\epsilon_i(c)=1\), then \(T_i\wedge\mathfrak o(c)=0\): otherwise their product is nonzero and lies inside the prohibited same-member restriction (2.1). Thus for every c and i, at least one of the two coordinate restrictions vanishes.
+
+Partition C according to \(\epsilon(c)\in2^m\); define \(u_\tau=\bigvee_{\epsilon(c)=\tau}c\). Empty colour classes may be dropped. These u form a FINITE cover because C covers. For each i and each τ:
+- if τ_i=0, \(S_i\wedge\mathfrak o(u_\tau)=0\), because every member of the class misses S_i;
+- if τ_i=1, \(T_i\wedge\mathfrak o(u_\tau)=0\), because every member misses T_i.
+
+Therefore
+\[
+(S_i\times T_i)\wedge\mathfrak o(u_\tau\boxtimes u_\tau)=0
+\]
+for every i,τ. By finite distributivity and (1.1),
+\(T[r]\wedge\mathfrak o(w_F)=0\), proving (2.2). The same partition is a proper colouring: if a cross-link c–c′ occurs, finite decomposition (1.1) shows an i with S_i meeting c and T_i meeting c′ (or reversed), so their ith colour bits differ. □
+
+**Remark (scope of product positivity).** This is a proof in the sublocale lattice rather than an argument from ordinary pairs. In particular "not locally linked" is tested by the *actual nonzero localic product*, not only by spatial points.
+
+**Corollary 2.2 (finite-fixed closed relations cannot have holes on finite-box patches).** If \(d\) is **finite-cover fixed**, i.e. \(\Phi_2(d)=d\), and a rectangle r is such that T[r] has finite box rank, then for EVERY arbitrary X-cover C,
+\[
+\boxed{r\wedge w_C\le d\quad\Longrightarrow\quad r\le d.}
+\tag{2.4}
+\]
+*Proof.* By Theorem 2.1 coarsen C to a finite F with \(r\wedge w_F\le d\). Hence \(r\le w_F\to d\le\Phi_2(d)=d\). □
+
+This is a strictly local condition: it makes no claim about \(T\) outside the chosen rectangle.
+
+## 3. A new positive class for Q localized to the nonregular Urysohn boundary
+
+Let
+\[
+G=\mathcal U\wedge\mathfrak o(z_1^{**}),
+\qquad
+K_{\rm reg}=\operatorname{cl}(\operatorname{int}\mathcal U)=\mathfrak c(z_1^{**}).
+\tag{3.1}
+\]
+The previously established universal regular-core theorem says
+\(K_{\rm reg}\le\mathcal W\le\mathcal W_2\le\mathcal U\).
+
+Call \(r=a\boxtimes b\le z_1^{**}\) a **finite-box patch in G** if \(\mathcal U[r]\ne0\) and \(\mathcal U[r]\) admits a finite product-box decomposition as (1.1). (It is already a relatively open sublocale of G.)
+
+**Theorem 3.1 (locally finite-box residual criterion, NEW INTERNAL).** Suppose the join of all finite-box patches in G is **dense in G** (equivalently every nonzero relatively open sublocale of G contains a nonzero finite-box rectangular patch). Then
+\[
+\boxed{\mathcal W_2=\mathcal U\quad\Longrightarrow\quad\mathcal W=\mathcal U.}
+\tag{3.2}
+\]
+In other words, **Question Q holds for every locale with such a locally finite-product decomposable nonregular Urysohn boundary.**
+
+*Proof.* Assume \(\Phi_2(z_1)=z_1\), but \(\Phi(z_1)>z_1\). Choose C with nonzero regular-open hole
+\[
+E=\mathcal U\wedge\mathfrak o(\rho_C),\qquad\rho_C=w_C\to z_1.
+\]
+The inclusion \(K_{\rm reg}\le\mathcal W\) and the fact that E is disjoint from \(\mathcal W\) imply \(0\ne E\le G\). By density of finite-box patches in G, E meets a finite-box patch \(\mathcal U[r_0]\) nontrivially. Because their intersection is relatively open in U and rectangles join-generate Q, there is a pure rectangle \(r'=a'\boxtimes b'\le r_0\wedge\rho_C\) with \(\mathcal U[r']\ne0\). Restrict the finite product decomposition of \(\mathcal U[r_0]\) to this rectangle: each box remains a product of open restrictions, so \(\mathcal U[r']\) has finite box rank. We have \(r'\wedge w_C\le z_1\) and \(r'\not\le z_1\). Corollary 2.2 contradicts finite stabilization at z₁. □
+
+**What this covers and what it does NOT.** When G=0 (U regular closed), it recovers the old regular-core positive mechanism. When G contains a dense family of *genuine finite product regions*—even products of nonspatial or atomless sublocales—the new finite-box argument supplies a different positive mechanism. This hypothesis is NOT claimed necessary, nor is it shown to subsume the earlier atomic-Boolean criterion. A Hausdorff perfect space has \(G=\Delta\) and need not possess finite-box diagonal patches although W=U; thus the criterion should be regarded as a useful **new sufficient class** rather than an approximate characterization of Q.
+
+## 4. Rank-one obstruction sharpened
+
+**Corollary 4.1 (infinite rectangular complexity in every genuine Q-hole).** Under \(\Phi_2(z_1)=z_1\), if \(\Phi(z_1)>z_1\) and \(E_C=\mathcal U\wedge\mathfrak o(w_C\to z_1)\ne0\), then
+\[
+\boxed{\text{NO nonzero relatively open sublocale of }E_C
+\text{ is a finite product-box join.}}
+\tag{4.1}
+\]
+More precisely, for every rectangle \(r\le w_C\to z_1\) with \(\mathcal U[r]\ne0\), the product-box rank of \(\mathcal U[r]\) is infinite (cannot equal any finite m). Otherwise apply Corollary 2.2 to r.
+
+This constraint complements, rather than replaces, the referee's **infinite-chromatic cross-link graph** and nowhere-distributivity constraints. In a bad cover, finite rank m gives an explicit 2^m-colouring; a genuine Q-hole cannot have finite product-box rank at any of its nonzero rectangular open patches.
+
+**Generalization:** Theorem 2.1 and Corollary 2.2 are true with \(\mathcal U\) replaced by ANY closed T=C(d) with \(\Phi_2(d)=d\). Thus the same finite-box exclusion applies to Q′ holes in W₂. What is specifically rank-one is the localization to the **nonregular Urysohn boundary** G and the equivalence with Question Q.
+
+## 5. Why this is not an answer to Q
+
+1. The proof requires the existence of finite product-box *sublocales* inside the Urysohn relation. No argument shows that their relatively open pieces are dense in G for arbitrary L. In particular, \(G=\Delta\) in many Hausdorff non-discrete locales, where such a density assertion may fail.
+2. Infinite chromatic number is a NECESSARY property of a bad cover, but high chromatic number by itself does not construct a cover, a linked rectangle, or a point-free density defect.
+3. The new criterion is independent of the earlier **Boolean distributivity** sufficient condition in form; whether it yields strictly new concrete examples needs testing.
+4. The predecessor *rank-zero* statement \(\Phi(0)=\Phi_2(0)\) is NOT being used as a hidden blanket compactness principle. Only the **finite fixedness of d=z₁** and the explicitly described finite product-box regions enter.
+5. The only new claim here is the **finite-box colouring theorem and its rank-one local application**, which require external scrutiny especially concerning nonzero products of arbitrary sublocales and the sublocale join/restriction step. No universal conclusion about Q is asserted.
+
+## 6. Follow-up discipline
+
+This bounded rank-one segment has a definite outcome: the referee's infinite-chromatic obstruction can be turned into an explicit finite-cover construction whenever the linked relation has locally finite product-box rank. It removes an entire class of prospective rank-one holes and gives a positive theorem for G with a dense finite-box patch family. The next step should be a **deliberate counter-control**: test whether a truly nonregular Urysohn boundary can have atomless finite-box patches while \(\mathcal W_2<\mathcal U\), and distinguish local rank from atomicity; alternatively attack a rank-one hole with provably **infinite** box rank, rather than another generic forcing gadget.
+
+**STATUS: INTERNAL WORKING PROOF, NOT INDEPENDENTLY AUDITED. UNIVERSAL Q/Q′ OPEN.**
