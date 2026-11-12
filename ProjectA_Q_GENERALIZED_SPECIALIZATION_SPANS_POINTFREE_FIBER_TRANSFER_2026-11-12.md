@@ -204,6 +204,26 @@ The new span mechanism explains a class of *stable full fitting witnesses* whose
 
 For a hypothetical Q or Q′ counterexample, a nonzero open hole E is disjoint from D(Y), so it cannot meet ANY generalized predecessor span image. Thus if \(\Sigma(Y)\) were dense in W₂(Y), that hole would be impossible. This is a necessary obstruction reformulation, not yet a direct rank-one solution.
 
+### 6.1 Exact absence of LOCAL generalized predecessors in a canonical Q/Q′ Boolean hole
+
+**Proposition 6.1 (local predecessor exclusion by the SAME bad cover).** Let \(E=\mathcal W_2(Y)\wedge\mathfrak o(w_C\to d_{\mathcal W_2(Y)})>0\) be any canonical full-versus-finite OPEN hole, and let \(M=O(B(E))\) with coordinate maps \(h,k:O(Y)\to M\). For EVERY nonzero \(m\in M\), there is NO frame homomorphism
+\[
+p_m^*:O(Y)\longrightarrow\downarrow m
+\]
+satisfying
+\[
+p_m^*(a)\le(m\wedge h(a))\wedge(m\wedge k(a))
+\qquad\text{for all }a\in O(Y).
+\tag{6.1}
+\]
+*Proof.* The marked bad cover C has \(\bigvee_{c\in C}h(c)\wedge k(c)=0_M\). If p_m existed, all its C-values would be zero; but because C is a cover and p_m preserves arbitrary joins and top,
+\[
+m=p_m^*(1)=\bigvee_{c\in C}p_m^*(c)=0_{\downarrow m},
+\]
+contradicting m≠0. □
+
+This is a genuinely **pointfree local no-predecessor condition on the CANONICAL BOOLEAN HOLE**, not merely an absence of ordinary common-predecessor point pairs. It holds for Q′ holes and hence for Q holes. It is nevertheless an IMMEDIATE consequence of the fixed bad-cover equation and **ALSO holds on the Boolean probe of a WEAK fitting defect**; the additional condition that B(E) be dense in a NONZERO RELATIVELY OPEN W₂- or U-piece remains indispensable.
+
 **Useful targeted question:** Let \(B=B(\mathcal U(Y))\) be the canonical Boolean witness on a rank-one-stabilized locale \(\mathcal W_2(Y)=\mathcal U(Y)\). Does every nonzero relatively open part of B support some generalized predecessor \(p:T\to Y\), over some NONZERO open T⊆B, below the two restricted coordinate maps? A YES would solve Q for that locale, but a NO might already be visible in previously known Q-positive nonregular T₁ examples. Do NOT automatically assume this local-predecessor property is equivalent to Q; the available proof establishes only sufficiency.
 
 **Status: NEW INTERNAL PROOFS, not externally audited or priority checked. Both Q and Q′ universally OPEN.**
