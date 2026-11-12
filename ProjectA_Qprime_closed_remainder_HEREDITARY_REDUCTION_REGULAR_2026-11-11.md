@@ -196,7 +196,11 @@ which is **noncompact, connected, not zero-dimensional, not scattered**, and now
 
 The space also satisfies \(h_{\rm cc}=0\): a compact closed sublocale with nonempty interior meeting Y contains a closed noncompact Hilbert ball; one meeting S or T contains closure of a nonempty S-open, hence all of the noncompact closed T. The fixed hyperconnected remainder \(X\setminus S=Y\cup T\) is noncompact.
 
-**Nonregular Urysohn control:** Within the open square Y² the Urysohn relation is exactly its pointfree diagonal: distinct Y-points have disjoint bounded metric neighborhoods whose closures remain disjoint in X. Since Y has no isolated points, this diagonal has empty interior in Y². Therefore the global \(\mathcal U(X)\) is **not regular closed** (its regular core misses the open Y², while \(\mathcal U\) contains Δ_Y). Thus equality W=W₂ here is NOT explained solely by the universal regular-core inclusion.
+**Nonregular Urysohn control (localic rectangle argument, not just point pairs):** Restrict to the **open locale square** Y². If a,b∈O(Y) are disjoint, write a and b as joins of **bounded metric balls whose closures lie respectively within a and b**. Every such ball's closure in X equals its ordinary closed Hilbert ball (all boundary T-neighborhoods can exclude a bounded set), hence each cross rectangle is far *in X*. Coproduct distributivity shows that the whole \(a\boxtimes b\) lies in the restriction of \(d_{\mathcal U(X)}\). Since Y is Hausdorff in the strong localic sense, these rectangles join-generate the complement of \(\Delta_Y\). Conversely U(X) contains Δ_X. Thus, as **localic subobjects** (even without assuming spatiality of the entire square),
+\[
+\boxed{\mathcal U(X)\wedge\mathfrak o(Y^2)=\Delta_Y.}
+\]
+Because Y has no isolated points, Δ_Y has empty interior: no nonzero rectangular open can lie inside Δ_Y. Any open in X² meeting Y² would restrict to a nonzero open in Y², so \(\operatorname{int}\mathcal U(X)\) misses Y². Its closure also misses this *open* square, while U(X) contains Δ_Y. Hence \(\mathcal U(X)\) is **not regular closed**. Equality W=W₂ here is therefore NOT a mere consequence of the universal regular-core inclusion.
 
 These topological controls have not been externally checked; the frame-theoretic main theorems §§1–4 stand independently of the example.
 
