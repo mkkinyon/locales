@@ -272,6 +272,29 @@ The completed nonempty-powerset Scott domain \(S=\mathcal P(\omega)\setminus\{\v
 \]
 Its Boolean pair is a WEAK fitted defect, not the Booleanization of a nonzero OPEN hole in W₂. This example falsifies any inference that chromatic saturation or a noncompact nonregular accumulation frontier alone contradicts Q.
 
+### 6.1 A sharp literature-guided boundary: point-finite does NOT replace locally finite
+
+Ferreira–Picado, *On Point-Finiteness in Pointfree Topology* (2006), §4, record the older **Dowker–Strauss point-finite** condition for a cover C:
+\[
+\boxed{
+x=\bigwedge_{F\subseteq_{\mathrm{fin}}C}(x\vee t_F)
+\quad\text{for every }x\in L,\qquad t_F=\bigvee(C\setminus F).
+}
+\tag{6.1}
+\]
+See https://www.mat.uc.pt/preprints/ps/p0630.pdf (printed p. 8, equation (4.1)). They emphasize that this old condition is not the optimal pointfree counterpart of classical point-finiteness and introduce a corrected notion. Our claim concerns ONLY (6.1).
+
+**Proposition 6.1 (the Scott singleton cover is DS point-finite).** For S=P(ω)\{∅} with Scott topology and \(C=\{c_n=\uparrow\{n\}:n\in\omega\}\), condition (6.1) HOLDS, although \(\ell_C=0\) and the standard Boolean pair proves \(\mathcal D_2(S)>\mathcal D(S)\).
+
+*Proof.* An arbitrary Scott-open x is an upper set, and \(t_F=\{A\ne\varnothing:A\setminus F\ne\varnothing\}\), with finite F now identified with a finite index set. As ordinary subsets of S,
+\[
+\bigcap_{F\mathrm{\ finite}}(x\cup t_F)
+=x\cup\{A\subseteq\omega:A\text{ infinite}\}.
+\]
+The frame meet on the left is the **Scott interior** of this set. Every infinite A not in x has no Scott-basic neighborhood ↑G (G finite nonempty) contained in that set: any G⊆A lies outside x because x is upward, and G itself is FINITE, so G is outside the union. Therefore the Scott interior equals x. This proves (6.1). The cover is nowhere locally finite (every nonzero Scott open meets every c_n), and the Cantor Boolean pair yields a weak full-versus-finite fitting defect. □
+
+Thus the exact locally finite pre-nucleus result **does not extend to DS point-finite covers**, even for algebraic sober Scott locales. This is an actual falsification test, not merely a missing proof. It does NOT establish anything negative about Q itself, because S has \(\mathcal U=\mathcal W=\mathcal W_2=S^2\). The newer **modified** point-finite condition of Ferreira–Picado has not been tested here.
+
 **Conclusion / bounded next target:** We now have a precise choice-free closed frontier \(H_C\) and a smaller **graph-refined** closed frontier \(H^\chi_{C,r}\) on an actual proposed bad rectangle. Compact or regular frontiers eliminate the obstruction, and compact frontiers yield exact TWO-stage finite simulation. A hypothetical Q counterexample must have a genuinely noncompact, nonregular chromatic accumulation frontier throughout its hole. The remaining mathematical question is whether the **far-rectangle-generated nature of \(d_{\mathcal U}\)** and finite stabilization can exclude such a frontier, rather than whether one can add further pathologies to an example. No contradiction is presently established.
 
 **STATUS: NEW INTERNAL WORKING RESULTS; Q and Q′ remain OPEN.**
