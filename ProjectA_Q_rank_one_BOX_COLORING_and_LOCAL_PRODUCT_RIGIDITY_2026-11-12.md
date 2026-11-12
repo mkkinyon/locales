@@ -184,6 +184,16 @@ Thus a hypothetical **rank-one hole must carry unbounded finite chromatic comple
 
 **Generalization:** Theorem 2.1 and Corollary 2.2 are true with \(\mathcal U\) replaced by ANY closed T=C(d) with \(\Phi_2(d)=d\). Thus the same finite-box exclusion applies to Q′ holes in W₂. What is specifically rank-one is the localization to the **nonregular Urysohn boundary** G and the equivalence with Question Q.
 
+### 4.1a Genuine atomless one-box patches with POINTLESS fitted-diagonal density
+
+The rank-one box criterion is not restricted to isolated ordinary pairs. In the earlier **compact cofinite-apex** control \(X=Y\sqcup Z\sqcup\{p\}\), with \(Y=\mathbb R\) crowded, Z infinite discrete, and each p-neighborhood containing all but finitely many old points, the actual spatial closed Urysohn relation satisfies
+\[
+\mathcal U|_{Y\times Y}=Y\times Y.
+\]
+For any two disjoint nonempty bounded intervals a,b⊂Y, the restriction \(\mathcal U[a\boxtimes b]=\mathfrak o(a)\times\mathfrak o(b)\) has **product-box rank 1** and atomless Booleanization (ordinary real intervals admit arbitrarily fine disjoint nonempty opens). Yet because X is T₁, the full fitted diagonal D has **no ordinary points** in a×b. Its density there follows from \(\mathcal W=\mathcal U\), proved earlier by the cofinite apex-neighborhood argument. Thus this is an actual **nonzero pointless fitting remnant dense in a one-box Urysohn patch**, not merely a finite atomic example. The rank-one finite-box lemma is compatible with such genuine point-free behavior.
+
+This control is compact (so Q is already known to hold) and U is regular closed (G=0); it demonstrates that box rank and Boolean atomicity/pointlessness are DIFFERENT invariants, not that Theorem 3.1 settles a new nonregular example. The earlier topological computation is inherited, not independently re-audited here.
+
 ### 4.2 Atomless finite-box control (no false equivalence with atomicity)
 
 Let Y denote the **compact two-apex** control from our October W/U phase, whose nonregular U boundary contains the two opposite apex pairs and for which \(W_2(Y)=W(Y)<U(Y)\). Let S be the **completed branching algebraic Scott dcpo** of nonempty finite/infinite binary partial functions. Then \(\mathcal U(S)=S^2\) via dense common-predecessor pairs, but the Booleanization of \(S^2\) is **atomless**: every nonzero basic Scott rectangle contains disjoint nonzero subrectangles obtained by splitting a fresh binary coordinate in one factor.
