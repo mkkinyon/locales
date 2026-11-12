@@ -171,6 +171,8 @@ Therefore global rank-one stabilization FAILS under the closed inclusion Y↪X, 
 \]
 But \(\Phi_{2,X}(0)=\Phi_{2,X}^2(0)=0\). Thus the finite pre-nucleus may stabilize after ONE step at bottom and FAIL to stabilize after one step at a CLOSED-SQUARE bottom ε, even when the corresponding closed sublocale Y is **perfect T₁**. This defeats a natural but invalid inductive path from X's rank-one equation to a closed support.
 
+**Important separation-axiom qualification.** Although the CLOSED sublocale Y in Theorem 3.1 is perfect and T₁, the ambient X is **NOT T₁**: p is a generic point with closure all of X. Thus this construction disproves unrestricted CLOSED HEREDITY of rank-one fixedness, **not** closed heredity inside the subclass of sober T₁ ambient locales. The latter strengthening remains untested. Do not use this example to dismiss a possible T₁-specific hereditary theorem.
+
 ### 3.1 A useful limit of the far-generation method
 
 The extreme example \(z_X=0\) while \(z_Y>0\) shows that **the special far-rectangle formula alone does not prevent arbitrarily large new far separation upon closed restriction**. The marked-hole rigidity of Theorem 2.1 uses the additional D₂-density and support conditions; it cannot be replaced with ordinary hereditary behavior of U. It also shows why simply assuming "the perfect chromatic frontier is \(T_1\)" does NOT allow us to restart Q inside that frontier.
