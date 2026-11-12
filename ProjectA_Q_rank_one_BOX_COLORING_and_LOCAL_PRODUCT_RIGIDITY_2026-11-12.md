@@ -46,8 +46,7 @@ S_i\times T_i\le T[r].}
 The factor sublocales need not be spatial, compact, regular or open. Product means their *localic* product, embedded into X² by the two inclusions. The empty sublocale has rank 0. We use the elementary facts:
 (a) the sublocale lattice is distributive for **finite** joins and meets;
 (b) pullback of a product sublocale by an open rectangle gives the product of the corresponding open restrictions; and
-(c) over Set, a product of two nonzero locales is nonzero (equivalently products of nonempty locale objects are nonempty; locale surjections are pullback stable).
-In case of any foundational reservation about (c), the argument also applies, without that issue, to **spatial** locally compact sober X with spatial factor sublocales; an external audit should specifically check (c) for arbitrary pointless locales.
+(c) over classical Set, the localic product of two nonzero locales is nonzero. **Point-free verification of (c):** The frame coproduct (L\oplus M) is the tensor product of the underlying sup-lattices. Define the SUP-lattice maps (\pi_L:L\to2), (\pi_M:M\to2) by (\pi_L(a)=1\) iff (a\ne0\), and similarly for M. They preserve arbitrary joins (but need NOT be frame maps). Their tensor gives a join-homomorphism (L\otimes M\to2\) sending the pure rectangle (a\boxtimes b\) to 1 exactly when both (a,b\ne0\). Hence nonzero coordinate opens yield a nonzero product, with **no ordinary points assumed**. This avoids invoking arbitrary pullback stability of locale surjections, which was not established here. The standard sup-lattice-tensor representation of frame coproducts is the only structural input to this verification.
 
 ## 2. Main finite-box colouring lemma
 
