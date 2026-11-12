@@ -50,7 +50,7 @@ Equivalently, **each projection \(B(E)\to K\) is individually dense**; the same 
 
 *Proof.* From (0.2), \(\alpha\) preserves zero, so \(h(a)=0\iff k(a)=0\) for every a∈L. The formerly joint zero ideal is therefore EACH coordinate zero ideal. The adjoint characterization in the independently reviewed theorem identifies their generators as the two p_{i*} values, proving (1.2). If \(v\ge e\) in \(O(K)\) and \(h_K(v)=0\), then v≤e by (1.2), hence v=e, the bottom of O(K). Ditto k. Density of the projections is precisely zero-reflection by their inverse-image frame maps. □
 
-**Important editorial correction.** The earlier normal-form paper and referee packet emphasized only “jointly zero-reflecting” and cautioned that this does not *in general* imply separate zero reflection. That logical warning is correct for arbitrary frame-map pairs. But **for the canonical symmetric E, the stronger separate property DOES hold**. No previously established theorem fails; the previous statement was unnecessarily weak. The *weak fitting-defect* normalization from an unsymmetrized chosen T_C need NOT have this property until it is symmetrized as in §3.
+**Important editorial correction.** The earlier normal-form paper and referee packet emphasized only “jointly zero-reflecting” and cautioned that this does not *in general* imply separate zero reflection. That logical warning is correct for arbitrary frame-map pairs. But **for the canonical symmetric E, the stronger separate property DOES hold**. No previously established theorem fails; the previous statement was unnecessarily weak. The *canonical weak fitting-defect sublocale* T_C is ALSO symmetric; see §2.5. Separate reflection therefore holds for its Booleanization after support reduction as well.
 
 ## 2. Every nonzero clopen region contains a genuine square of the SAME marked hole
 
@@ -96,6 +96,20 @@ E=\coprod_{i=1}^n(E\wedge O(u_i\boxtimes u_i)),
 \tag{2.5}
 \]
 This is stronger than just nonzero intersections with separate one-coordinate strips, although it does NOT force a bounded chromatic graph on any summand.
+
+### 2.5 Canonical WEAK defects are symmetric too — the decisive adversarial observation
+
+The same argument applies directly to the **canonical weak fitting-defect sublocale**
+\[
+T_C=\mathcal D_2(X)\wedge\mathfrak c_{X^2}(w_C)\ne0
+\]
+whenever \(\mathcal D_2(X)>\mathcal D(X)\). Both D₂ and \(\mathfrak c(w_C)\) are swap-invariant, so **T_C itself is symmetric**, and its Booleanization B(T_C) is invariant. Thus the two coordinate frame maps on \(O(B(T_C))\) have equal zero ideals. After passing to their least closed coordinate support K, **each** separately reflects zero and **every** nonzero K-clopen u has
+\[
+T_C\wedge O(u\boxtimes u)\ne0.
+\]
+All of the symmetry, separate support and clopen-square recurrence assertions therefore hold for canonical WEAK defects too. They are **not signs that the defect is relatively open in W₂**.
+
+**Corrected scope:** The earlier sentence that an “unsymmetrized chosen T_C” may require the doubling trick was too weak/misleading. **For the canonical T_C of (2.5), no doubling is necessary.** The separate Boolean-doubling theorem below serves to show the stronger fact that **arbitrary noncanonical** Boolean-valued fitting witnesses can be symmetrized. The completed branching Scott control supplies canonical symmetric weak T_C while W=W₂=U. This is the cleanest anti-drift falsification check.
 
 ## 3. No-go: every weak Boolean witness can be made equally symmetric and individually supported
 
@@ -202,7 +216,7 @@ On the other hand any nonzero relatively open \(U(X)\wedge O(r)\) contains ordin
 
 This control is **stronger than the trivial perfect-Hausdorff diagonal example**: \(G_\perp\) is genuinely NONZERO because U(P)>I(P), and U is globally nonregular closed because its ambient interior is zero, even while Q holds. Thus the earlier locally finite-box sufficient theorem is not close to a characterization of Q. **Genuine Urysohn geometry supports infinite product-box complexity in every nonzero open part of its exceptional sector WITHOUT any rank-one defect.** A proof of Q must allow **fibered-diagonal pieces** \(\Delta_H\times R\), not merely finite sums of ordinary products \(S\times T\).
 
-**Provenance:** The finite coherent \(W(P)=U(P)\) and the finite-fence pair (0,4) occur in earlier Project A records; the product-density argument above is supplied independently. This is a deliberate *control* of our strategy, not a new counterexample or an originality claim.
+**Provenance:** The finite coherent \(W(P)=U(P)\) and the finite-fence pair (0,4) occur in earlier Project A records; the product-density argument above is supplied independently. This is a deliberate *control* of our strategy, not a new counterexample or an originality claim. A direct enumeration of the finite P relation checks \(|C_P|=20\), \(|I(P)|=20\), and \(|U(P)|=|\operatorname{cl}C_P|=32\) of the 36 pairs, including \((0,4)\in U(P)\setminus I(P)\).
 
 ## 6. Summary and stop rule
 
