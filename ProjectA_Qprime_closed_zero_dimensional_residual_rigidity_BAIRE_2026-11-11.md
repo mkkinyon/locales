@@ -220,6 +220,21 @@ Furthermore the compact-closed-neighborhood strip h_cc is zero: a compact closed
 
 The zero-dimensional closed-core lemma nevertheless excludes any W/W2 discrepancy on the entire T×T, which is where the previous mixed-strip localization would force one.
 
+### 4.1 The Urysohn relation is genuinely nonregular-closed
+
+This X also avoids the trivial explanation \(\mathcal U=\operatorname{cl}(\operatorname{int}\mathcal U)\). Indeed the open sublocale Y is a non-discrete regular Hausdorff space. Within its **open square** \(Y^2\subseteq X^2\), the Urysohn relation restricts to the diagonal \(\Delta_Y\): distinct Y-points admit relatively bounded neighborhoods whose closures in X are disjoint (a bounded closed Hilbert ball is closed in X). Thus
+\[
+\mathcal U(X)\wedge\mathfrak o(Y\times Y)=\Delta_Y.
+\]
+Since Y has no isolated points, \(\Delta_Y\) has empty interior in \(Y^2\). Therefore \(\operatorname{int}\mathcal U(X)\) is disjoint from this open square, and so is its **closure** when restricted to the open square, whereas \(\mathcal U(X)\) still contains \(\Delta_Y\). Consequently
+\[
+\boxed{\operatorname{cl}(\operatorname{int}\mathcal U(X))<\mathcal U(X).}
+\]
+This ensures that the positive Q′ result for X is not merely an application of the established universal regular-core inclusion.
+
+**Qualification:** This argument establishes nonregular-closedness of U, but does not claim to compute the entire boundary \(H_2=\mathcal W_2\wedge G\), or that the Baire residual \(T^2\) itself meets \(H_2\) nontrivially.
+
+
 ## 5. Conceptual residue and an exact Boolean-reflection diagnosis
 
 We now have THREE independently meaningful residual-positive mechanisms:
