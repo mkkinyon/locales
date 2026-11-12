@@ -130,6 +130,35 @@ The unrestricted pointfree U product formula gives
 
 **No claims:** This theorem does not apply to the Cohen Boolean algebra RO(Cantor) (which is NOT countably distributive), to arbitrary uncountably based Y, or to general nonBoolean Z. Countably distributive is a strong assumption about the BOOLEAN BASE frame, not compactness of Z (indeed nontrivial atomless Z here is noncompact).
 
+## 2.4 Weight-distributivity theorem (arbitrary basis cardinal)
+
+The proof above is not inherently countable. What matters is matching the **size of the fiber basis** to the **distributivity degree of the Boolean base**.
+
+Fix an infinite cardinal \(\kappa\), and say a COMPLETE Boolean algebra M satisfies **SD_\(\kappa\)** if EVERY family of at most \(\kappa\) partitions of 1_M, with arbitrary cardinalities of parts, admits a common partition refinement. Equivalently, for every indexed family \((P_i)_{i\in I}\), \(|I|\le\kappa\),
+\[
+\boxed{1_M=\bigvee_{(p_i)\in\prod_{i\in I}P_i}\bigwedge_{i\in I}p_i.}
+\tag{2.4a}
+\]
+This is the exact partition definition; terminology like “\(\kappa\)-distributive” can have several conventions.
+
+**Theorem 2.4 (basis-weight vs Boolean-distributivity transfer; NEW INTERNAL).** Let \(Z=\operatorname{Loc}(M)\) for a nonzero complete Boolean algebra M satisfying SD_\(\kappa\), and let Y have an open basis of cardinality at most \(\kappa\). Then
+\[
+\boxed{
+\begin{aligned}
+D(Z\times Y)&=\Delta_Z\times D(Y),\\
+D_2(Z\times Y)&=\Delta_Z\times D_2(Y),\\
+W(Z\times Y)&=\Delta_Z\times W(Y),\\
+W_2(Z\times Y)&=\Delta_Z\times W_2(Y),\\
+U(Z\times Y)&=\Delta_Z\times U(Y).
+\end{aligned}}
+\tag{2.4b}
+\]
+All equality levels are preserved and reflected. No spatiality or compactness of Y is assumed.
+
+*Proof.* Index the basis as \((b_i)_{i\in I}\), \(|I|\le\kappa\). The rectangle-coefficient formula (0.2), selection of a partition \(P_i\) for each i, global refinement, and assignment \(v_{c,m}=\bigvee_{\{i:c_i=c\}}b_i\) work without any countability assumption once SD_\(\kappa\) replaces SDω. If the original product cover C has finitely many members, grouping by its original c-label again yields a FINITE Y-cover on each Boolean cell. The two fitted-diagonal inclusions and closure/U consequences are identical to Theorems 2.1–2.2. □
+
+**Borderline caution:** The existence of nonzero atomless SD_\(\kappa\) Boolean algebras for a particular \(\kappa\) depends on the available forcing constructions and set-theoretic hypotheses. We have explicitly exhibited a ZFC σ-closed forcing example for \(\kappa=\omega\); this does not automatically supply arbitrary \(\kappa\). The theorem is conditional on SD_\(\kappa\) and requires no existence assertion for larger \(\kappa\).
+
 ## 3. An entirely pointless NONREGULAR Urysohn example with NO predecessor spans off diagonal
 
 Let \(P\) be the countably closed forcing of countable partial functions \(p:\omega_1\rightharpoonup\{0,1\}\), ordered by extension. The union of a decreasing countable chain of conditions is a condition, so P is σ-closed. Any condition splits by a fresh ordinal coordinate, so P is atomless. Let
