@@ -160,7 +160,51 @@ Both u,v are frame maps, compatible with finite covers and incompatible with the
 
 **Interpretation:** The Boolean orientation (4.2) is canonical only up to a noncanonical maximal choice and belongs to B(E), not necessarily to the ambient open E or a coordinate clopen of K. In fact every coordinate clopen t∈O(K) has h(t)=k(t)=αh(t), while an orientation b satisfies αb=¬b. Thus **no nontrivial Boolean orientation can be the image of a coordinate clopen**. There is NO general method here to lift the chosen Boolean half to a FINITE cover of K, and the Scott doubled-pair control proves that orientation itself is not the missing argument for Q.
 
-## 5. Summary and stop rule
+## 5. Genuine Urysohn control: infinite product-box complexity can coexist with POSITIVE rank-one stabilization even off inseparability
+
+The preceding Boolean doubling is a WEAK fitting control. There is also a useful **genuine rank-one Urysohn** control against over-interpreting infinite product-box rank.
+
+Let \(H=2^\omega\) be Cantor space, a compact perfect zero-dimensional Hausdorff space. Let \(P\) be the finite six-point upper-Alexandrov poset
+\[
+0<5>1<4>2<3
+\]
+(with its transitive closure and no other comparabilities). It is finite coherent and sober, and its relations satisfy
+\[
+W(P)=U(P)>I(P).
+\]
+Specifically the pair (0,4) has NO common upper bound, so is outside \(I(P)=\operatorname{cl}\Delta_P\), but the closures of the basic opens ↑0={0,5} and ↑4={4} meet at 1, so (0,4) belongs to U(P).
+
+Set \(X=H\times P\), a **compact**, locally compact sober locale with spatial square. Ordinary product-neighborhood closure gives
+\[
+\boxed{U(X)=\Delta_H\times U(P),\qquad I(X)=\Delta_H\times I(P)}
+\tag{5.1}
+\]
+with coordinates permuted to \(H^2\times P^2\).
+
+**Claim 5.1 (a genuine positive Q instance).**
+\[
+\boxed{D_2(X)=D(X),\quad W(X)=W_2(X)=U(X).}
+\tag{5.2}
+\]
+The first equality is trivial from COMPACTNESS of X: any cover has a finite subcover. For the W equality there is an independent dense-point argument: the common-specialization-predecessor pairs \(C_P=\{(p,q):\exists t\le p,q\}\) are dense in U(P) because the finite coherent P satisfies \(W(P)=U(P)\). The **actual point pairs** \(((h,p),(h,q))\), with h∈H and (p,q)∈C_P, belong to D(X), by the common predecessor (h,t). They are dense in U(X)=Δ_H×U(P): any nonempty relative basic open chooses a nonempty H-open neighborhood around h and a nonempty U(P) neighborhood, each of which contains such a point. Hence closure of D(X) is all U(X). No blanket product-preservation theorem for D is needed.
+
+**Claim 5.2 (nontrivial off-inseparability boundary, nowhere finite-box).** Because H has NO isolated points,
+\[
+\operatorname{int}_{X^2}U(X)=0,\qquad
+G_\perp=U(X)\wedge O(d_{I(X)})\ne0
+\tag{5.3}
+\]
+(the pair ((h,0),(h,4)) lies in G_perp for every h). Yet for EVERY rectangle r with nonzero \(U(X)\wedge O(r)\), that relatively open restriction has **INFINITE product-box rank**: it cannot be a finite join of genuine product sublocales \(S_i\times T_i\le U(X)\wedge O(r)\).
+
+*Proof.* A nonzero product sublocale \(S\times T\le U(X)\) is forced into a single Cantor fiber \(\{h\}\times P\) on BOTH coordinate factors. To see this without relying on ordinary points of S or T, take their nonzero H-coordinate projections and their nonempty CLOSED image supports A,B⊂H. If x∈A and y∈B are distinct, choose disjoint clopen H-neighborhoods u∋x and v∋y. The respective restrictions of S and T to u×P and v×P are both nonzero (since x,y lie in their closed image supports), and the product of two nonzero locales is nonzero. But \(U(X)\) has no point, indeed no sublocale, on the mixed clopen rectangle \((u\times P)\boxtimes(v\times P)\): this is a far rectangle. Contradiction. Thus A×B lies on the diagonal of H² and, with A,B nonempty, A=B={h}. Each S_i×T_i is therefore supported over one Cantor fiber h_i.
+
+On the other hand any nonzero relatively open \(U(X)\wedge O(r)\) contains ordinary pairs for ALL h in a nonempty H-open set (the H-coordinate intersection of the sides of r). Cantor's no-isolated-point property makes that set infinite. It cannot be covered as a localic sublocale by finitely many fiber-supported product boxes. □
+
+This control is **stronger than the trivial perfect-Hausdorff diagonal example**: \(G_\perp\) is genuinely NONZERO because U(P)>I(P), and U is globally nonregular closed because its ambient interior is zero, even while Q holds. Thus the earlier locally finite-box sufficient theorem is not close to a characterization of Q. **Genuine Urysohn geometry supports infinite product-box complexity in every nonzero open part of its exceptional sector WITHOUT any rank-one defect.** A proof of Q must allow **fibered-diagonal pieces** \(\Delta_H\times R\), not merely finite sums of ordinary products \(S\times T\).
+
+**Provenance:** The finite coherent \(W(P)=U(P)\) and the finite-fence pair (0,4) occur in earlier Project A records; the product-density argument above is supplied independently. This is a deliberate *control* of our strategy, not a new counterexample or an originality claim.
+
+## 6. Summary and stop rule
 
 **Genuine strengthening:** The least closed support of a canonical symmetric pre-nucleus hole is the least closed support of EACH coordinate. Both projections from B(E) and E into K are individually dense. The same marked strong hole persists nontrivially in the square of every nonzero clopen part of K (Q′), and in every clopen part of the ORIGINAL Q-counterexample meeting K (Q).
 
