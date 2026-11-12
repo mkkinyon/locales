@@ -106,6 +106,32 @@ For nonzero Z, W=U on the product iff W₂(Y)=U(Y); but this latter equality is 
 
 **Important scope:** The method requires DENSITY of actual predecessor spans in W₂(Y). It does not assert that mere equality W=W₂ implies span density; nor does it prove that every finite-cover-compatible generalized pair has a common predecessor. Replacing that density assumption by arbitrary D₂-density is EXACTLY the unresolved pointfree base-change difficulty.
 
+### 2.4 Independent easy product corollaries: the W=I and W₂=I classes
+
+These follow from the PREVIOUS universal \(\mathcal I\)-product formula and from naturality, **without** the generalized span theorem. They belong in the general theorem ledger rather than being counted as evidence that span density is automatic.
+
+**Corollary 2.4.** For arbitrary locales Z,Y,
+\[
+\boxed{
+\begin{aligned}
+\mathcal W(Z)=\mathcal I(Z),\ \mathcal W(Y)=\mathcal I(Y)
+&\Longrightarrow \mathcal W(Z\times Y)=\mathcal I(Z\times Y),\\
+\mathcal W_2(Z)=\mathcal I(Z),\ \mathcal W_2(Y)=\mathcal I(Y)
+&\Longrightarrow \mathcal W_2(Z\times Y)=\mathcal I(Z\times Y).
+\end{aligned}}
+\tag{2.8}
+\]
+*Proof.* For either \(R=\mathcal W\) or \(R=\mathcal W_2\), naturality gives
+\[
+\mathcal I(Z\times Y)\le R(Z\times Y)\le R(Z)\times R(Y)
+=\mathcal I(Z)\times\mathcal I(Y)=\mathcal I(Z\times Y).
+\]
+All inclusions are equalities. □
+
+Thus both classes are closed under ARBITRARY BINARY PRODUCTS; by induction under all FINITE products. No reflection statement for arbitrary POINTLESS factors is asserted.
+
+If W₂(Y)=I(Y), span density (2.1) is AUTOMATIC because Δ_Y⊆Σ(Y) and its closure is I(Y)=W₂(Y). This recovers the second product case using the more elaborate span proof, but the direct naturality argument is preferable.
+
 ## 3. A directly checkable condition on the CANONICAL Boolean witness
 
 Let \(B=B(\mathcal W_2(Y))\) denote Isbell's least dense Boolean sublocale of W₂(Y), with canonical coordinate maps \(h,k:B\to Y\). Suppose that B has an OPEN COVER by sublocales \(B_i\) such that on each \(B_i\) there exists a generalized predecessor
