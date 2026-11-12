@@ -293,6 +293,14 @@ See https://www.mat.uc.pt/preprints/ps/p0630.pdf (printed p. 8, equation (4.1)).
 \]
 The frame meet on the left is the **Scott interior** of this set. Every infinite A not in x has no Scott-basic neighborhood ↑G (G finite nonempty) contained in that set: any G⊆A lies outside x because x is upward, and G itself is FINITE, so G is outside the union. Therefore the Scott interior equals x. This proves (6.1). The cover is nowhere locally finite (every nonzero Scott open meets every c_n), and the Cantor Boolean pair yields a weak full-versus-finite fitting defect. □
 
+The example exhibits a sharp infinitary Heyting discrepancy:
+\[
+\boxed{\bigwedge_{F\text{ finite}}t_F=0,\qquad
+\bigvee_{F\text{ finite}}t_F^*=0.}
+\tag{6.2}
+\]
+The first equation says every condition in the point-finite (Dowker–Strauss) sense is eventually discarded by finite deletions, while the second says NO nonzero open can avoid even one cofinite tail: each tail is dense. This is exactly where a false infinitary De Morgan interchange would destroy the weak fitting defect.
+
 Thus the exact locally finite pre-nucleus result **does not extend to DS point-finite covers**, even for algebraic sober Scott locales. This is an actual falsification test, not merely a missing proof. It does NOT establish anything negative about Q itself, because S has \(\mathcal U=\mathcal W=\mathcal W_2=S^2\). The newer **modified** point-finite condition of Ferreira–Picado has not been tested here.
 
 **Conclusion / bounded next target:** We now have a precise choice-free closed frontier \(H_C\) and a smaller **graph-refined** closed frontier \(H^\chi_{C,r}\) on an actual proposed bad rectangle. Compact or regular frontiers eliminate the obstruction, and compact frontiers yield exact TWO-stage finite simulation. A hypothetical Q counterexample must have a genuinely noncompact, nonregular chromatic accumulation frontier throughout its hole. The remaining mathematical question is whether the **far-rectangle-generated nature of \(d_{\mathcal U}\)** and finite stabilization can exclude such a frontier, rather than whether one can add further pathologies to an example. No contradiction is presently established.
