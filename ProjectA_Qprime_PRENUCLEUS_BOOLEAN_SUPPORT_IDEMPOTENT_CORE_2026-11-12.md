@@ -206,6 +206,27 @@ For the sound-strip assertion, suppose v∈O(K) is such that W(K)=W₂(K) when r
 
 This **strengthens** the earlier conditional observation "if a minimal closed counterexample exists, then t_C and safe strips vanish." The normalized core ALWAYS exists given a Q′ counterexample, with NO minimal-counterexample hypothesis and NO transfinite-limit continuity assumption. It is not necessarily a minimal *locale* counterexample—only an irredundant support for the fixed E.
 
+### 4.2 Comparison with ALL earlier closed-remainder patches
+
+The new coordinate-support open \(e_C\) **contains every previously proposed locally safe patch for the chosen hole**, not merely its rather-below remainder:
+\[
+\boxed{t_C^X\le e_C.}
+\tag{4.2}
+\]
+Indeed apply the same finite-cover argument from Theorem 4.1 to the ORIGINAL Boolean pair h,k on X: if v≺∨F with F finite in C, compatibility with \(\{v^*\}\cup F\), together with the zero value on C, forces h(v)=k(v)=0. Therefore v≤e_C; join over all F,v.
+
+More generally, let \(a\in O(X)\) be **hull-sound**: W(X) and W₂(X) agree on the union of its two coordinate strips. Since D(X)≤O(w_C), the relatively open E is disjoint from D(X), hence also from its closure W(X). Soundness makes E disjoint from the two a-strips, which implies h(a)=k(a)=0 and so \(a\le e_C\). Thus e_C contains the **largest** hull-sound open of X, when defined, and in particular \(h_{\rm hc},h_{\rm cc}\le e_C\) using their previously established strip theorems (with their separate audit provenance).
+
+Consequently the canonical support core is always contained in the prior mixed closed remainder:
+\[
+\boxed{
+K_C=\mathfrak c(e_C)
+\le\mathfrak c(t_C\vee h_{\rm hc}\vee h_{\rm cc}).
+}
+\tag{4.3}
+\]
+This establishes a precise, intrinsic **strengthening** of the earlier closed-remainder self-reduction, in ONE support operation, for the same marked hole E. It does not say that the new core is minimal among all possible Q′ counterexamples, or that taking support of the *entire new cover-hole* on K is idempotent.
+
 ## 5. A formal lax naturality statement for the prenucleus
 
 For any closed inclusion \(i:K\to X\), let \(q=i^{(2)*}:Q_X\to Q_K\) be its frame map. For every z∈Q_X, frame maps preserve implications only in the **lax** direction
