@@ -154,7 +154,7 @@ A small comparison helps locate the exact new difficulty. Suppose a,b∈L and C 
 \[
 (a\wedge c)^*\vee(b\wedge c)^*=1\qquad(c\in C).
 \]
-Then \((a\wedge c)^*\vee(b\wedge c)^*=a^*\vee b^*\vee c^*\). Put t=a*∨b*. The equation t∨c*=1 implies c≤t (meet both sides with c). Since C covers 1, \(t=1\), so (a,b) is itself far. This *local-to-global gluing for individual far pairs* needs no finite-stabilization hypothesis. Rank one is hard precisely because the LOCAL rectangles need only lie below the **JOIN** \(z_1\) of far rectangles; they need not themselves be far.
+**One must NOT use the false Heyting identity** \((a\wedge c)^*=a^*\vee c^*\) (it fails for ordinary topological opens). Instead, relative pseudocomplementation in the principal ideal \(\downarrow c\) gives the VALID identities \(c\wedge(a\wedge c)^*=c\wedge a^*\) and \(c\wedge(b\wedge c)^*=c\wedge b^*\). Meeting the assumed local far equality with c gives \(c=c\wedge(a^*\vee b^*)\), so \(c\le a^*\vee b^*\). Since C covers 1, \(a^*\vee b^*=1\), and (a,b) is itself far. This *local-to-global gluing for individual far pairs* needs no finite-stabilization hypothesis. Rank one is hard precisely because the LOCAL rectangles need only lie below the **JOIN** \(z_1\) of far rectangles; they need not themselves be far.
 
 For a topological picture of this distinction, on the ordinary real line the product of the disjoint opens (0,1) and (1,2) lies in the far-relation open \(z_1\) (U=diagonal), although the closures of the two entire opens meet at 1. This is an illustration, not a Q counterexample.
 
