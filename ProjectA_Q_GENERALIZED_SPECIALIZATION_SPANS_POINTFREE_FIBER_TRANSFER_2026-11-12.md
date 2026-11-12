@@ -144,9 +144,37 @@ Let \(B=B(\mathcal W_2(Y))\) denote Isbell's least dense Boolean sublocale of W�
 
 *Proof.* Each \((p_i,h_i,k_i)\) is a span, so the image in Y² of B_i lies in Σ(Y). The \(B_i\)'s COVER B; hence the sublocale join of their images contains B. Since B is DENSE in W₂(Y), Σ(Y) is dense there. □
 
-This formulation is genuinely *on a dense sublocale of W₂(Y)*, not on finite subcovers of Y itself. It is a strong, testable SUFFICIENT condition. An even simpler sufficient hypothesis is a SINGLE predecessor \(p:B\to Y\), but (3.1) allows a varying predecessor on open pieces; in many spatial finite examples such a global predecessor need not exist.
+This formulation is genuinely *on a dense sublocale of W₂(Y)*, not on finite subcovers of Y itself. It is a strong, testable SUFFICIENT condition. **In a complete Boolean source, local predecessors can always be disjointified and pasted into a SINGLE global predecessor, as proved in §3.3**; the apparently weaker local option introduces no extra generality in classical Set.
 
 **Corollary 3.2 (direct positive Q test).** If Y happens to satisfy \(\mathcal W_2(Y)=\mathcal U(Y)\) and (3.1), then \(\mathcal W(Y)=\mathcal U(Y)\). This is a positive class of the original rank-one Q question. No claim that (3.1) is automatic from rank-one stabilization is made.
+
+### 3.3 Boolean disjointification: the local predecessor condition is equivalent to ONE GLOBAL predecessor
+
+The criterion in Corollary 3.1 can be simplified substantially **in classical set theory** because \(B=B(W₂(Y))\) is a COMPLETE BOOLEAN locale.
+
+**Proposition 3.3 (Boolean-valued predecessor selection).** Let h,k:Y-valued locale maps from a Boolean locale B (i.e. frame maps O(Y)→M=O(B), with M complete Boolean). The following are equivalent:
+1. An OPEN COVER \(\{B_i=O_B(m_i)\}_{i\in I}\) of B exists with local maps \(p_i:B_i\to Y\) satisfying \(p_i\preceq h|_{B_i},k|_{B_i}\).
+2. ONE GLOBAL map \(p:B\to Y\) exists satisfying \(p\preceq h,k\).
+
+*Proof.* (2)⇒(1) is immediate. For (1)⇒(2), well-order I and disjointify the Boolean cover:
+\[
+n_i=m_i\wedge\neg\bigvee_{j<i}m_j.
+\]
+The \(n_i\) are pairwise disjoint, \(n_i\le m_i\), and \(\bigvee_i n_i=1_M\). Restrict the map p_i to O_B(n_i) (a clopen summand), obtaining a frame map \(q_i^*:O(Y)\to\downarrow n_i\). Because the n_i form a disjoint cover, define
+\[
+\boxed{p^*(a)=\bigvee_{i\in I}q_i^*(a)\in M.}
+\]
+This preserves arbitrary joins, finite meets (cross terms for distinct i vanish), and 1. It is a frame homomorphism and hence a locale map. For each a, \(q_i^*(a)\le n_i\wedge h(a)\wedge k(a)\), so joining yields \(p^*(a)\le h(a)\wedge k(a)\) as required. □
+
+Thus the open-local predecessor criterion on the canonical BOOLEAN witness is simply the existence of a **single frame map**
+\[
+\boxed{p^*:O(Y)\to O(B(W₂(Y)))\quad\text{with}\quad
+p^*(a)\le h(a)\wedge k(a)\ (\forall a).}
+\tag{3.2}
+\]
+There is no genuine additional flexibility in requiring it merely locally on a cover of this particular BOOLEAN locale. This uses classical choice to well-order an arbitrary cover; it does NOT say arbitrary locale-valued maps on arbitrary nonBoolean source locales can be pasted without compatibility.
+
+A subtle but important point: the equivalence of (1) and (2) does **NOT** mean that the existence of p is necessary for \(W(Y)=W₂(Y)\) or for Q. It is a strong pointfree selection property of the two CANONICAL Boolean coordinate maps, and a useful sufficient criterion. It may fail for Q-positive locales whose closed fitted-diagonal density is essentially non-spanned.
 
 ## 4. Fully pointless NONCOMPACT fiber with nontrivial Urysohn boundary — explicit control
 
