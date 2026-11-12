@@ -224,6 +224,48 @@ Then
 
 **No local compactness needed** for the finite-cover elimination direction; spatiality of the square is only used to infer the closed relation from ordinary D-point density. A purely locale-theoretic variant could replace pointwise density with suitable dense sublocale inclusions.
 
+### 7.2 Variable-rank tails: the closed-frontier localization
+
+The fixed-rank argument has a useful extension which makes the *remaining* design window precise.
+
+**Proposition 7.2 (frontier localization, new internal).** Let L,R be disjoint opens of any locale X, with open sublocales A⊆L, B⊆R. Suppose there are finite covers F_n of X and descending families of opens \(T_n^A\subseteq A\), \(T_n^B\subseteq B\) such that
+\[
+w_{F_0}\wedge(L\boxtimes R)\le A\boxtimes B
+\quad\text{and}\quad
+w_{F_n}\wedge(A\boxtimes B)
+\le (T_n^A\boxtimes B)\vee(A\boxtimes T_n^B).
+\tag{7.2}
+\]
+Define the **closed accumulation frontiers** (closed sublocales of A and B)
+\[
+H_A=\bigwedge_n\operatorname{cl}_A\mathfrak o(T_n^A),\qquad
+H_B=\bigwedge_n\operatorname{cl}_B\mathfrak o(T_n^B).
+\tag{7.3}
+\]
+Then the actual finite-cover fitted relation restricted to the mixed open satisfies
+\[
+\boxed{\mathcal D_2(X)\wedge\mathfrak o(L\boxtimes R)
+\ \le\ (H_A\times B)\vee(A\times H_B),}
+\tag{7.4}
+\]
+where the right side is a sublocale of the open \(A\times B\hookrightarrow L\times R\). In particular if **both frontiers vanish**, then \(\mathcal D_2\) and its closure \(\mathcal W_2\) vanish on \(L\times R\).
+
+*Proof.* The first cover confines the sublocale to A×B. The complement in A×B of the closed union on the right is the open product
+\[
+(A\setminus H_A)\times(B\setminus H_B).
+\]
+It has an open cover by products U×V where U is disjoint from \(\operatorname{cl}_A(T_n^A)\) for some n and V from \(\operatorname{cl}_B(T_m^B)\) for some m. Since the T-families are descending, for N=max(n,m) the right side of (7.2) restricts to zero on U×V, so \(\mathcal D_2\) does as well. These rectangles cover the complement, proving (7.4). With H_A=H_B=0 the finite relation vanishes on the entire mixed open, and so does its closure (closure commutes with restriction to opens). □
+
+**Baire consequence.** If A is a **spatial Baire space** and the descending opens \(T_n^A\) have empty ordinary intersection, then \(H_A\) has **empty interior** in A. Otherwise some nonempty open U lies inside all \(\overline{T_n^A}\), so every \(T_n^A\cap U\) is dense and open in U; the Baire theorem would give a point in their intersection. Similarly for B. Thus absent actual *infinite-rank* completion points, any nonzero frontier is **nowhere dense**. Nonzero frontiers can still exist: in ordinary \(\mathbb R\), let C be a nowhere-dense perfect Cantor set and
+\[
+T_n=\{x:0<\operatorname{dist}(x,C)<1/(n+1)\}.
+\]
+Then the \(T_n\) are descending opens with empty intersection but \(\bigcap_n\overline{T_n}=C\), a perfect nowhere-dense frontier. This ordinary metric example merely verifies the combinatorics of the frontier; **regularity of \(\mathbb R\) rules out Q′ there**.
+
+For our fixed-rank bridge construction, \(A=\coprod_{k,m}A_{k,m}\), \(T_n^A=A_{\ge n}\), and similarly B. Each \(T_n^A\) is **clopen in A**, and \(\bigcap_n T_n^A=\emptyset\) because every fibre has finite rank. Thus \(H_A=H_B=0\), and Proposition 7.2 recovers the finite-cut vanishing.
+
+**Prospective escape, not a claimed construction:** allow variable rank so that \(H_A\) or \(H_B\) is a nonzero **nowhere-dense, potentially atomless** boundary inside a bridge wing. Then the finite-cover relation could be supported in these thin fronts without any ordinary infinite-rank common-supremum points. To obtain a genuine Q′ gap one would still need (i) an actual nonzero finite-cover sublocale there, (ii) full D absent on a relatively open part of its closure, and (iii) survival of the earlier nonregular Urysohn boundary. These remain demanding independent conditions.
+
 ## 8. Status and research implications
 
 This is a **fully distributed countable family** of separate limit suprema z_k, with arbitrary completed forcing labels within each fixed-rank bridge fibre. It is non-product, noncompact, locally compact, sober, algebraic-frame and noncoherent. Its \(\mathcal U\) boundary is nonregular closed and contains (x,y) outside W. Its D₂>D defect lives on a **closed core**, yet W₂=W *globally*.
