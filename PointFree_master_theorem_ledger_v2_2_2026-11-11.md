@@ -1,3 +1,19 @@
+> **12 NOV 2026 — Q DIRECT FAR-GENERATION TEST: MARKED LOCAL RANK-ONE STABILITY, GLOBAL CLOSED HEREDITY FALSE (NEW INTERNAL).** Suppose X hypothetically violates Q: \(\Phi_{2,X}(z_X)=z_X=d_{\mathcal U(X)}\) but a cover C has \(\rho=w_C\to z_X>z_X\), with nonzero marked hole \(E=\mathcal U(X)\wedge O(\rho)\). Let K=C_X(e) be the independently audited LEAST closed common coordinate support of E. The previous exact support theorem gives \(E=\mathcal W_2(K)\wedge O_{K^2}(\rho_K)\). The FAR-RECTANGLE formula gives the functorial inclusion \(\mathcal U(K)\le\mathcal U(X)|_{K^2}\), hence SANDWICH:
+\[
+\boxed{E=\mathcal W_2(K)\wedge O(\rho_K)
+=\mathcal U(K)\wedge O(\rho_K)
+=(\mathcal U(X)|_{K^2})\wedge O(\rho_K).}
+\]
+For \(\varepsilon=(e\boxtimes1)\vee(1\boxtimes e)\) and \(z_K=d_{\mathcal U(K)}=\Phi_{2,X}(\varepsilon)\) under the exact closed-restriction pre-nucleus identity, this gives the EXPLICIT local far/frame equality
+\[
+\boxed{\rho_K\wedge z_K
+=\rho_K\wedge(z_X\vee\varepsilon)
+=\rho_K\wedge d_{\mathcal W_2(K)}
+=\rho_K\wedge\Phi_{2,K}(z_K),\qquad
+\rho_K\le\Phi_K(z_K).}
+\]
+Thus finite rank-one stabilization survives EXACTLY ON THE SAME MARKED OPEN even if it fails elsewhere on K². **SHARP CONTROL:** For ANY sober Y, form X=Y∪{p}, opens ∅ and {p}∪V for V open in Y. Then X is sober hyperconnected, z_X=0 and W=W₂=U=X², while Y is CLOSED with its unchanged topology. If Y is the compact PERFECT T₁ two-apex control, \(\Phi_{2,Y}^2(0)>\Phi_{2,Y}(0)\); so rank-one finite fixedness is NOT closed-hereditary even with a perfect T₁ closed sublocale. Algebraically \(\Phi_{2,X}^2(0)=\Phi_{2,X}(0)=0\) but \(\Phi_{2,X}^2(\varepsilon)>\Phi_{2,X}(\varepsilon)\). This is an actual falsification of the hoped-for induction on closed supports, not a Q counterexample. The far-growth created by closed restriction is forbidden on the marked open but can be arbitrarily large outside it. [Full checked proof and generic-point control](ProjectA_Q_MARKED_URYSOHN_LOCALITY_and_GENERIC_POINT_NONHEREDITY_2026-11-12.md). **I only; Q,Q′ still OPEN.**
+
 > **12 NOV 2026 — NEW ONE-SIDED CANTOR–BENDIXSON RIGIDITY AND RANK-ONE PERFECT CHROMATIC KERNEL (INTERNAL ONLY).** If a CLOSED sublocale H⊆X is spatial T₁, every finite-cover-compatible generalized pair that matches a cover C to 0 and has its FIRST coordinate in H actually has that coordinate in the **CLOSED Cantor–Bendixson perfect kernel P(H)**. Proof: at each derivative stage an isolated point p is OPEN in the current T₁ closed support and its singleton is CLOSED COMPACT in X; if the first coordinate assigns it a nonzero target value, restrict target to that open and violate the independently audited one-sided compact rigidity. At transfinite limits, frame maps kill arbitrary JOINS of previously removed opens. Hence for EVERY C,
 \[
 \boxed{\mathcal D_2(X)\wedge(H\times X)\wedge\mathfrak c_{X^2}(w_C)
