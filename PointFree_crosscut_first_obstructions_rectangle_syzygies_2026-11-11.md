@@ -204,6 +204,21 @@ generates \(H_2(\mathbf I,\mathbf C;\mathbb Z)\cong\mathbb Z\), and its boundary
 
 **m≥4.** For \(P_m=(A_2)^{\oplus m}\) the critical 2×2 window has \(\mathrm{Ord}(P_{m-2})\simeq S^{m-3}\), hence \(\widetilde H_0=0\). Therefore the *first potential* two-sided obstruction H_3 vanishes for m≥4, while the first nonzero relative group moves to H_m≅Z. This agrees with the sharp connectivity ladder and verifies that the explicit tetrahedral class is a genuinely **low-degree** phenomenon, not a disguised general formula for all m.
 
+### Canonical I/D duality versus unequal edge modules
+
+The independently checked **edgewise Dowker comparison** identifies \(\mathbf I\) and \(\mathbf D\) in the undercategory of \(\mathbf C\): the triangle of canonical maps commutes up to the specified homotopy. Consequently their homotopy cofibres and **all** their relative homology groups/sheaves are canonically equivalent:
+\[
+H_k(\mathbf I,\mathbf C;R)\cong H_k(\mathbf D,\mathbf C;R)
+\quad\text{for every }k.
+\tag{4.1}
+\]
+This does **not** mean their first relative skeletal edge modules are isomorphic. In the previously independently checked Stone-indexed triangle wedge \(W_S(P,v)\), the explicitly endpoint-labelled modules are
+\[
+L_I\cong M_R^{\oplus12},\qquad
+L_D\cong M_R^{\oplus10}\oplus N_R^{\oplus2}\oplus Q_R^{\oplus2},
+\]
+with \(M_R=R[h(S)]\), \(N_R=R[h(S^2)]\), and \(Q_R=\operatorname{coker}(M_R\to N_R)\). Yet **both canonical maps are equivalences**, so all the corresponding relative homology sheaves vanish. This is a useful check on the distinction between **edge-generation data** and the **actual crosscut obstruction** after witness triangles and higher simplices impose relations.
+
 ## 5. Coherent patched Stone-sheaf extension, with correct qualifications
 
 Let X be coherent and let \(\mathscr H_\kappa\) be the established patched Stone-sheaf ∞-topos. Use the exact prior resolutions \(f_q:\mathcal F_q\to h(D_q)\) and \(g_{r,s}:\mathcal G_{r,s}\to h(R_{r,s})\). Apply the free R-module functor into connective derived R-module sheaves. The corresponding relative spectral sequences have E¹ terms
