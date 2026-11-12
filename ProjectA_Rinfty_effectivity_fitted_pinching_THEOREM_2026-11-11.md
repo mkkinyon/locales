@@ -154,6 +154,8 @@ The new theorem gives
 \]
 The last equality is CO-01's externally checked (or subsequent nonblind-corrobated LCH) square-saturation theorem. Thus **the square of the nontransitive fitted diagonal is a genuine kernel pair**, hence an effective equivalence relation.
 
+> **SUBSEQUENT GEOMETRY RESULT (11 NOV, internally proved):** The previously unresolved full neighborhood filter and sober-point spectrum for the original Baire-space \(V\) are now calculated **exactly** in [the Baire quotient geometry theorem](ProjectA_Rinfty_quotient_Baire_sigma_compact_GEOMETRY_2026-11-11.md). Specifically, \(Z\le\mathfrak o(V\setminus F)\) iff the closed Polish \(F\) is \(\sigma\)-compact; the sober quotient has precisely the ordinary points \(V\) and one new generic point, with opens \(\varnothing\) and \(\{\infty\}\cup(V\setminus F)\) for closed \(\sigma\)-compact \(F\). This later result supersedes the "still open" wording in §§7–8 here, **not** the effectivity proof itself.
+
 ## 7. A first concrete description of the quotient's extra opens
 
 Let \(V\) be a Hausdorff space and \(Z=\bigwedge_{K\subseteq V\text{ compact}}\mathfrak o(V\setminus K)\). For a closed subspace \(F\subseteq V\), let \(i:F\hookrightarrow V\). Since pullback preserves all sublocale meets,
