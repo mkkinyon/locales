@@ -176,6 +176,47 @@ Under rank-one fixedness W₂=U, the same criterion proves Q, and only the NONRE
 
 **IMPORTANT HONESTY CHECK:** (4.2) is only a **sufficient criterion assembled from already known positive mechanisms**, not a new characterization. The Arrieta example shows the global Boolean-predecessor selection criterion is far too strong; restricting it to the exceptional boundary is necessary before using it in any attempted Q proof. NO proof is given that span images are dense on that boundary under finite rank-one stabilization. That remains open.
 
+### 4.3 A genuinely exposed rank-one test: pointless Boolean base × Arrieta's anti-Urysohn locale
+
+Set \(Z=\operatorname{Loc}(\operatorname{RO}(2^\omega))\), a nonzero POINTLESS, atomless Boolean locale; let A be Arrieta's strongly Hausdorff anti-Urysohn locale. Put \(X=Z\times A\). We can PROVE all the following facts without knowing W(X) or W₂(X):
+
+**Proposition 4.3 (pointfree rank-one stress test).**
+\[
+\boxed{
+I(X)=\Delta_X,\quad
+\Sigma(X)=\Delta_X,\quad
+U(X)=\Delta_Z\times A²,\quad
+\operatorname{int}_{X²}U(X)=0,\quad
+U(X)>I(X).
+}
+\tag{4.3}
+\]
+
+*Proof.* Z is Boolean, so \(I(Z)=U(Z)=\Delta_Z\); A is strongly Hausdorff and anti-Urysohn, so \(I(A)=\Delta_A\), \(U(A)=A²\). The UNIVERSAL pointfree I/U product theorems give
+\[
+I(X)=\Delta_Z\times\Delta_A=\Delta_X,\qquad
+U(X)=\Delta_Z\times A².
+\]
+Strong Hausdorffness of X implies Σ(X)=Δ_X by Theorem 3.1.
+
+To show the interior is zero, first note that the diagonal \(\Delta_Z\) of an ATOMLESS Boolean locale has zero interior. For any nonzero pure rectangle \(a\boxtimes b\in O(Z²)\), either \(a\wedge b=0\), in which case it already misses Δ, or \(a\wedge b>0\), in which case split this element into two disjoint nonzero Boolean pieces \(c,d\le a\wedge b\), so \(0<c\boxtimes d\le a\boxtimes b\) is disjoint from Δ. Thus no nonzero pure rectangle lies under the diagonal, giving \(\operatorname{int}\Delta_Z=0\). The same rectangle argument in \(Z²\times A²\) shows \(\operatorname{int}(\Delta_Z\times A²)=0\). Finally A is ordinary Hausdorff with distinct points, hence has nonzero disjoint opens a,b, and the product \(\Delta_Z\times O_{A²}(a\boxtimes b)\) is nonzero inside U(X) but outside I(X). □
+
+This is a **concrete off-inseparability entirely nonregular Urysohn sector** in a locale with no ordinary points. Neither the regular core nor any generalized predecessor spans can fill it, since
+\[
+\boxed{\operatorname{cl}(\operatorname{int}U(X))=0,\qquad
+\operatorname{cl}\Sigma(X)=I(X)=\Delta_X.}
+\]
+There is NO claim that the sector lies in W₂(X): that is the **EXACT OPEN calculation**.
+
+**Explicit rank-one test in the product frame.** Let \(Q_X=O(X²)\) and \(e=d_{\Delta_Z}\boxtimes1_{A²}=d_{U(X)}\). Then
+\[
+\boxed{W₂(X)=U(X)\iff\Phi_{2,X}(e)=e.}
+\tag{4.4}
+\]
+The full question on this X is whether \(\Phi_X(e)=e\). We have NOT established either equality. If \(\Phi_{2,X}(e)=e\) but \(\Phi_X(e)>e\), this X would provide a Q counterexample; if both are fixed, it would give a genuinely POINTLESS example requiring a positive mechanism beyond the regular core and specialization spans. If \(\Phi_{2,X}(e)>e\), the original Q antecedent fails and the result would still test rank-one preservation under pointfree products.
+
+**Discipline:** Arrieta's construction is an imported literature control, not a new candidate claimed to work; (4.3) is proved, (4.4) is an equivalent TARGET, and no rank-one result on X is asserted. This is a much sharper next test than continuing to pile necessary conditions onto generic Q holes.
+
 ## 5. Research decision
 
 - **Two-apex success:** The generalized-span method is genuine; it recovers exactly the positive and negative cofinite-apex W₂ geometry, with explicit Boolean-valued comparable maps despite the T₁ property.
