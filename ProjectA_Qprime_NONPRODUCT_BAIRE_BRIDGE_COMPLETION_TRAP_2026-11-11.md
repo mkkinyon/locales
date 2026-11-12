@@ -214,6 +214,8 @@ Suppose instead the bridge wing consists only of the **finite** partial binary c
 
 But a finite-condition upper-Alexandrov space is generally **not sober**. Its sobrification is the ideal completion \(\operatorname{Idl}(S_{\rm fin})\), whose points are directed lower sets of finite conditions. In the present case that is exactly the completed partial-function dcpo S, **including the unbounded-block conditions in G**. The frame of opens, and therefore ALL our localic fitted-diagonal and Urysohn constructions, are unchanged by passing to sobrification. Thus merely deleting the infinitely supported points from the *presentation* cannot delete their locale-theoretic effect.
 
+This classical identification is recorded, for example, in M. Erné, *Minimal bases, ideal extensions, and basic dualities*, Topology Proceedings **29** (2005), Theorem 6.A, attributing it to R.-E. Hoffmann; see https://topology.nipissingu.ca/tp/reprints/v29/tp29207.pdf . The Baire property for continuous dcpos is also classical (e.g. Keye Martin, *A Foundation for Computation*, Theorem 6.5.2); the elementary algebraic proof above does not depend on it.
+
 This is the **sobrification trap** supplementing the Baire-completion trap: finite-condition point calculations risk overlooking precisely the complete generic objects that rescue the full diagonal when the locale is treated correctly. An honest counterexample must evade this mechanism in its **actual sober/locale representation**, not just among the chosen displayed points.
 
 ## 7. Outcome and next constraints
