@@ -134,19 +134,19 @@ The inclusion \(K_{\rm reg}\le\mathcal W\) and the fact that E is disjoint from 
 
 **What this covers and what it does NOT.** When G=0 (U regular closed), it recovers the old regular-core positive mechanism. When G contains a dense family of *genuine finite product regions*—even products of nonspatial or atomless sublocales—the new finite-box argument supplies a different positive mechanism. This hypothesis is NOT claimed necessary, nor is it shown to subsume the earlier atomic-Boolean criterion. A Hausdorff perfect space has \(G=\Delta\) and need not possess finite-box diagonal patches although W=U; thus the criterion should be regarded as a useful **new sufficient class** rather than an approximate characterization of Q.
 
-### 3.2 Full one-step interchange if finite-box patches are dense in the entire U
+### 3.2 Unrestricted one-stage implication under a STRONGER rectangular hypothesis
 
-An even stronger hypothesis yields equality after ONE iteration, without assuming finite stabilization.
-
-**Corollary 3.2 (conditional one-stage interchange).** If relatively open finite-box rectangular patches have **dense union in the whole closed relation U**, then
+The **unconditional stage-one simulation** in Corollary 2.2A gives a separate sufficient condition for
 \[
-\boxed{\Phi(z_1)=\Phi_2(z_1).}
-\tag{3.3}
+\Phi(z_1)=\Phi_2(z_1).
 \]
+It suffices that **EVERY nonzero rectangular restriction** \(\mathcal U[r]\), \(r=a\boxtimes b\), have finite product-box rank. Indeed, for any cover C and rectangle \(r\le w_C\to z_1\), the finite simulation directly gives \(r\le\Phi_2(z_1)\). Rectangles join-generate \(Q\), so \(\Phi(z_1)\le\Phi_2(z_1)\); the reverse inclusion is automatic.
 
-*Proof.* The inequality \(\Phi_2(z_1)\le\Phi(z_1)\) is automatic. Otherwise choose cover C and rectangle \(r\le w_C\to z_1\) with \(r\not\le\Phi_2(z_1)\). This gives a nonzero relatively open sublocale \(E=\mathfrak c(\Phi_2(z_1))\wedge O(r)\) of U. By density of finite-box patches, E meets one. Refine to a rectangle r′≤r inside that patch, retaining a nonzero intersection with E; r′ has finite box rank and still satisfies \(r'\wedge w_C\le z_1\). Corollary 2.2A yields \(r'\le\Phi_2(z_1)\), contradiction. □
-
-**Scope:** The hypothesis is very strong and generally fails for the diagonal of a perfect Hausdorff space, even though Q holds there. The more useful *Q-only* criterion Theorem 3.1 asks for finite box patches only in the nonregular boundary G, since every genuine Q-hole is confined there.
+**IMPORTANT ADVERSARIAL CORRECTION:** A previous version of this section claimed that DENSITY of finite-box open patches in the whole U sufficed for \(\Phi(z_1)=\Phi_2(z_1)\). That proof was WRONG: for a strict difference, the nonzero sublocale
+\[
+\mathfrak c(\Phi_2(z_1))\wedge\mathfrak o(r)
+\]
+is relatively open in the CLOSED locale \(\mathfrak c(\Phi_2(z_1))\), **not** necessarily relatively open in U. It may be nowhere dense in U, so dense finite-box patches of U can MISS it. We withdraw the density-based general one-stage claim. Theorem 3.1 on **Question Q** is UNAFFECTED because under \(\Phi_2(z_1)=z_1\), its canonical hole E is indeed a nonzero relatively OPEN sublocale of U. Corollary 2.2A and the stronger **all-rectangle** statement above remain valid.
 
 ### 3.3 Rank-zero local far-separation is not the hard part
 
@@ -195,6 +195,6 @@ For the locally compact sober product \(X=Y\times S\), the previously internally
 
 ## 6. Follow-up discipline
 
-This bounded rank-one segment has a definite outcome: the referee's infinite-chromatic obstruction can be turned into an explicit finite-cover construction whenever the linked relation has locally finite product-box rank. It removes an entire class of prospective rank-one holes and gives a positive theorem for G with a dense finite-box patch family. The next step should be a **deliberate counter-control**: test whether a truly nonregular Urysohn boundary can have atomless finite-box patches while \(\mathcal W_2<\mathcal U\), and distinguish local rank from atomicity; alternatively attack a rank-one hole with provably **infinite** box rank, rather than another generic forcing gadget.
+This bounded rank-one segment has a definite outcome (with the explicit §3.2 withdrawn-claim warning): the referee's infinite-chromatic obstruction can be turned into an explicit finite-cover construction whenever the linked relation has locally finite product-box rank. It removes an entire class of prospective rank-one holes and gives a positive theorem for G with a dense finite-box patch family. The next step should be a **deliberate counter-control**: test whether a truly nonregular Urysohn boundary can have atomless finite-box patches while \(\mathcal W_2<\mathcal U\), and distinguish local rank from atomicity; alternatively attack a rank-one hole with provably **infinite** box rank, rather than another generic forcing gadget.
 
 **STATUS: INTERNAL WORKING PROOF, NOT INDEPENDENTLY AUDITED. UNIVERSAL Q/Q′ OPEN.**
