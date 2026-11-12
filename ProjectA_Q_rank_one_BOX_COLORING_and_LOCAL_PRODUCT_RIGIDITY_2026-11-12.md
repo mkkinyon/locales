@@ -86,6 +86,8 @@ Therefore
 for every i,τ. By finite distributivity and (1.1),
 \(T[r]\wedge\mathfrak o(w_F)=0\), proving (2.2). The same partition is a proper colouring: if a cross-link c–c′ occurs, finite decomposition (1.1) shows an i with S_i meeting c and T_i meeting c′ (or reversed), so their ith colour bits differ. □
 
+**Graph-theoretic sharpness.** Each product box contributes a (possibly empty) complete bipartite subgraph between cover members meeting its left and right factors; the no-loop hypothesis makes those vertex classes disjoint. Therefore the cross-link graph is a union of at most m bicliques and admits the above m-bit colouring. The numerical bound \(2^m\) cannot be improved **solely from this abstract biclique-union hypothesis**: on the vertices \(2^m\), take the m bipartite cut graphs separating bit 0 from bit 1 in each coordinate. Their union is the complete graph \(K_{2^m}\), whose chromatic number is \(2^m\). This does NOT assert that every such abstract graph is realizable as a Urysohn cross-link graph of a locale.
+
 **Remark (scope of product positivity).** This is a proof in the sublocale lattice rather than an argument from ordinary pairs. In particular "not locally linked" is tested by the *actual nonzero localic product*, not only by spatial points.
 
 **Corollary 2.2A (ONE-step finite simulation; no stabilization assumed).** For ANY closed T=C(d), ANY locale X, ANY rectangle r with finite product-box rank T[r], and ANY arbitrary cover C,
