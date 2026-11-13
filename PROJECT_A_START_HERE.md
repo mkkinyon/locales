@@ -1,5 +1,7 @@
 # Project A — specialized historical navigation (A track)
 
+> **Cohen multiplication of nonregular Arrieta-arm controls (13 Nov; internal):** [Boolean-base persistent-kernel transfer](ProjectA_Q_BOOLEAN_BASE_ANTIURYSOHN_KERNEL_COHEN_ARRIETA_PRODUCT_2026-11-13.md) proves \(Q′(Z\times F)\Rightarrow Q′(Z\times X(T,G))\) when Z is Boolean and T is anti-Urysohn, with F the persistent closed core. Compact F yields Q′ automatically. In particular the noncompact nonregular Arrieta single-point-core example remains \(W=W_2<U\) after multiplication by pointless Cohen Z. New working proof, not independently audited.
+
 > **Q′ Cohen × rational-arm test CLOSED (13 Nov; internal):** [Regular-patch elimination, Q′ closed-remainder transfer and Cohen × noncompact rational two-apex test](ProjectA_Q_REGULAR_PATCH_REMAINDER_AND_COHEN_RATIONAL_PRODUCT_2026-11-13.md) prove \(D_2(Z\times X_{\mathrm{cof}})=D(Z\times X_{\mathrm{cof}})\) for **every regular Z**, including pointless Cohen \(Z_C\). The product retains \(W=W_2<U\). The general theorem transfers Q′ positivity from a closed remainder across globally closed regular patches. New INTERNAL working proof; Q/Q′ still OPEN.
 
 > **Q′ restarted (13 Nov; new internal working theorem):** [Supercompact-open bases give exact full-\(D\) product transfer and preserve Q′-positive factors](ProjectA_Q_SUPERCOMPACT_BASE_D_PRODUCT_QPRIME_TRANSFER_2026-11-13.md). Includes Sierpiński and all upper-Alexandrov bases. Proposed next concrete control: Cohen × noncompact rational-arm two-apex locale; **Q/Q′ still OPEN**.
