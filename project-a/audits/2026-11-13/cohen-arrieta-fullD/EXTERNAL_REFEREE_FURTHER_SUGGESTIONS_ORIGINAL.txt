@@ -1,0 +1,23 @@
+Yes, six of them. I checked the first two step by step just now; the others are sketches or questions.
+
+**Checked**
+
+1. **A one-real witness for E.1.** The independent-coordinate pair of §D is not needed. Take M₀ = RO(C), h₁(u) = ro(V_u), and k₁ = τ⁻¹∘h₁, where τ flips bit 0 only.
+   - τ maps K_n to itself for every n ≥ 1. So for a cylinder R and large n, pick p ∈ K_n∩R; then p and τp both lie in any neighbourhood V of K_n. Hence h₁(u)∧k₁(u) meets R, and the pair matches every cover.
+   - The equalizer is 0, because {x₀=1} and {x₀=0} are complementary.
+   - So E.1 holds with one Cohen real c and its one-bit flip. §F's all-bit flip fails only because it moves every K_n off itself, so the warning in §F is about that particular pair, not about dependent coordinates in general.
+   - It also shows D(A) is strictly larger than Δ_A ∨ B(A²), since this pair lives on a nowhere dense graph.
+
+2. **A sharper B.1.** For Boolean Z, strongly Hausdorff Y and any f, g: Z → Y, let s be the support of eq(f,g). The binary cover {u_f ∨ (s⊠1), u_g} has matching value exactly s. So a pair of sections lies in D₂(Z×Y) if and only if f = g. With a third cover member the same conclusion holds over any subfit base.
+
+**Sketches and questions**
+
+3. **Fitting does not commute with base change.** E.1 says fit(Z×Δ_A) is strictly below Z×fit(Δ_A) inside Z×A², while closure does commute. In forcing terms, f and g are generic reals, D.2 is a genericity argument, and u_f is "A minus the point c", a cover that exists only in the extension. This suggests a new axiom: "no Boolean base has a non-diagonal pair of sections in D(Z×Y)". It follows from strong Hausdorffness and from F-separatedness, and it implies T_U. Whether it equals T_U I do not know.
+
+4. **Which bases witness strictness.** Atomic Z never does, since D of a disjoint sum of copies of A is the sum of the D(A). Any Z that adds a Cohen real does, by pulling back the witness. For measure algebras I expect no section witness, because a cover by small neighbourhoods has squares of small measure. That would make the phenomenon one of category, not measure.
+
+5. **Only two levels.** Z_C×A is Lindelöf (M is ccc, A is second countable), so D there equals the countable-cover version. The gap between D₂ and D is exactly finite versus countable.
+
+6. **Shape of D(A).** I conjecture that, for a closed N ⊆ C² off the diagonal, B(N) lies in D(A) exactly when N ∩ ⋃ₙ(K_n×K_n) is dense in N. The three cases I know agree: C² and the one-bit-flip graph satisfy it, the all-bit-flip graph does not.
+
+If you send the definitions of W, W₂, U, Q and Q′, I can test them against items 1 and 2. Want me to add these to the report as a second tab, with the proofs of 1 and 2 written out?
