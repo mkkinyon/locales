@@ -1,8 +1,7 @@
 # Point-Free Topology — Start here
 
-
-
 **Post-referee mathematical developments:** [Cohen × Arrieta reconciliation and further-ideas triage](ProjectA_Q_COHEN_ARRIETA_EXTERNAL_REFEREE_RECONCILIATION_AND_IDEAS_2026-11-13.md): a one-bit-flip Cohen witness, a binary section-rigidity argument, and a countable-cover reduction. These extensions remain internally checked only; Q/Q′ remain OPEN.
+
 **13 November — Cohen × Arrieta full-\(D\) resolution (externally blind-refereed, with one repair):** The remaining [nonclosed \(D\)-product question](ProjectA_Q_COHEN_ARRIETA_FULL_D_PRODUCT_NEGATIVE_2026-11-13.md) is now answered **NEGATIVELY**: \(D(Z_C\times A)\subsetneq\Delta_{Z_C}\times D(A)\). Two independent Cantor coordinates define an **all-cover** compatible pair on Arrieta \(A\), but the corresponding graphs inside \(Z_C\times A\) are disjoint closed sublocales, and their open complements form a binary cover killing the pair. The earlier [finite-\(D_2\) failure and category formulation](ProjectA_Q_COHEN_ARRIETA_D2_BINARY_FAILURE_AND_FULL_D_FRONTIER_2026-11-13.md) remain useful. **Q and Q′ are still OPEN** because N3's \(W=W_2=U\) closed product formula is unaffected. The [priority ledger](ProjectA_Q_POSTREFEREE_PRIORITIES_2026-11-13.md) now redirects to the relative nowhere-density question in \(D_2\).
 
 
