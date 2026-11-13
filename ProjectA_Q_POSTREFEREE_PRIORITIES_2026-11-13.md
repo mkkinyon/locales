@@ -1,5 +1,7 @@
 # Project A — post-referee idea triage and research priorities (13 November 2026)
 
+> **Priority 1 refinement (later 13 Nov):** The [noncompact rational-arm controls](ProjectA_Q_NONCOMPACT_TWO_APEX_FILTER_CONTROLS_2026-11-13.md) and [general filtered-apex/clopen-gluing no-go theorems](ProjectA_Q_FILTERED_APEX_REGULAR_ARMS_AND_CLOPEN_GLUE_NO_GO_2026-11-13.md) eliminate **all filtered three-apex constructions with regular Hausdorff arms**, regardless of tail filter, and **clopen Q′-positive cloud replacements with a Q′-positive closed remainder**. These are new internally checked results, not external certificates. The remaining Priority 1 design target is **nonregular overlapping attached cores that are not clopen-patch removable**. Do not keep trying simple regular rational tails or disjoint clopen Arrieta clouds.
+
 This is a **decision ledger**, not a theorem paper. It follows the [13 Nov mathematical reconciliation](ProjectA_Q_POSTREFEREE_RECONCILIATION_2026-11-13.md) and preserves the referee's [raw further ideas](project-a/audits/2026-11-12/Q-postsession7/EXTERNAL_FURTHER_IDEAS_2026-11-13.txt). Both Q and Q′ remain **OPEN**. The priority order reflects potential to resolve a concrete mathematical obstruction, verification cost, and known no-go results; it does not presume each segment must produce a headline theorem.
 
 ## 1. Triage of the five referee suggestions
