@@ -1,0 +1,68 @@
+# Project A — post-referee idea triage and research priorities (13 November 2026)
+
+This is a **decision ledger**, not a theorem paper. It follows the [13 Nov mathematical reconciliation](ProjectA_Q_POSTREFEREE_RECONCILIATION_2026-11-13.md) and preserves the referee's [raw further ideas](project-a/audits/2026-11-12/Q-postsession7/EXTERNAL_FURTHER_IDEAS_2026-11-13.txt). Both Q and Q′ remain **OPEN**. The priority order reflects potential to resolve a concrete mathematical obstruction, verification cost, and known no-go results; it does not presume each segment must produce a headline theorem.
+
+## 1. Triage of the five referee suggestions
+
+| Idea | Judgment | Action |
+| --- | --- | --- |
+| **1. Shoenfield absoluteness gives arbitrary Boolean-base closed-hull transfer** | **Interesting but HIGH-RISK conjectural program; not proved.** The countably presented locale/quasi-Polish correspondence is genuine (de Brecht/Heckmann), and Σ¹₂/Π¹₂ absoluteness for real parameters is standard. However the claimed Π¹₁ cover coding, Σ¹₂ membership in Φ and Φ₂, complexity of transfinite *least fixed points*, and exact passage from Boolean-valued internal Y to external product sublocales are all unverified. Ground opens and new opens must not be conflated. | **Park behind narrow lemmas.** Do not record W_ε(Z×Y)=Δ_Z×W_ε(Y), forcing invariance of Q/Q′, or permission to “assume CH/MA” as established. |
+| **2. N4 over ordinary Cantor K** | **Accept, internally checked at proof-sketch level.** The very same Boolean target T=B(K×K) maps to spatial K via its first-coordinate projection; the binary product cover and Scott endpoint maps remain valid. It proves D₂(K×S)⊊Δ_K×D₂(S). | Record as a new spatial control alongside Cohen N4. No independent second referee yet. |
+| **3. Quasi-Polish reduction of Q′ to point sets and non-metacompact covers** | **Substantially sound, useful search restriction.** Countably presented locales correspond classically to quasi-Polish spaces; their finite products are spatial and quasi-Polish, and closed subspaces are Baire. Thus the closed W₂ relation can be studied in the ordinary product space. The Baire/point-finite theorem rules out a defect caused by a cover admitting a point-finite open refinement. It is **not** a proof that the required non-metacompact examples exist. | Use as a *filter on explicit candidates*, not a blanket theorem reducing the universal localic problem to points. Verify the proposed candidate is sober/quasi-Polish, has W<U, and admits a genuinely bad non-point-finite-refinable cover. |
+| **4. Exact W₂ formula using spans in the coherent envelope** | **Accept, with a new direct proof.** W₂(X)=cl_{X²}(Σ(X̂)∧X²). This does **not** follow merely by restricting a dense sublocale; that inference would be false in general. It follows by applying Boolean lower selection E.1 directly to B(D₂(X)) and extending the selected lattice map to X̂. Full proof is in the reconciliation. | Add as an internally reconstructed theorem; use for ghost-geometry diagnostics, not as a substitute for relative-open density. |
+| **5. Finite chromatic witnesses and Kneser/Borsuk candidates** | **First part correct; construction proposal speculative.** By de Bruijn–Erdős, χ(Γ)>k forces a **finite** subgraph with χ>k. On a support where every nonzero patch has infinite chromatic link graph, finite such witnesses exist in every patch. But being a high-chromatic abstract graph does not make it realizable as the link graph of a locale cover relative to a closed relation. | Keep as diagnostic and possible design vocabulary, **low priority** until an explicit topological realization exists. |
+
+**Referee's trailing negative observation.** The co-tail calculation is valid in the stated situation: if r∧w_C≤d, C={c_n}, r∧(t_N⊠t_N)≤d and Φ₂(d)=d, then the finite cover {c_0,…,c_{N−1},t_N} proves r≤d. Do not elevate the phrase “generic two-colouring never creates a W₂-hole” to a universal theorem without a precise hypothesis supplying the tail inequality. N3 itself already excludes the Cohen × anti-Urysohn *closed-level* test.
+
+## 2. Ordered concrete work
+
+### Priority 1 — Noncompact higher-rank two-apex relatives (main Q′ test)
+
+**Goal:** an explicit X with a finite-cover fixed open d=d_{W₂}, and a cover C for which E_C=C(d)∧O(w_C→d)>0. Equivalently, a failure of Q′. The smaller task is a noncompact X with W₂<U and tractable nontrivial Φ-rank (not yet a Q′ failure).
+
+- Start from the referee's compact countable two-apex Y of N6 and the separately verified repository two-apex space. Parametrize the neighbourhood filters/tails; identify exactly which finite-cover calculation creates Φ₂(z)>z.
+- Replace the cofinite tails by genuinely noncompact accumulating tails or more intricate filters, taking care to preserve sober/localic semantics and explicit behaviour of the square.
+- Compute the ordinary point-set U, candidate W₂, and an explicit all-cover square. Check **relative interior of a defect**, rather than merely D₂≠D.
+- Apply the necessary tests: noncompact/nonregular closed support, Baire/point-finite obstruction, locally infinite chromaticity where appropriate. A failed attempt that isolates which necessary condition breaks is useful research progress.
+- **Stop condition:** if every candidate collapses under a point-finite refinement or compact/regular remainder, record the no-go and vary the filter mechanism instead of repeating equivalent examples.
+
+### Priority 2 — The remaining Cohen × Arrieta nonclosed formula
+
+**Question:** Does D(Z_C×A)=Δ_{Z_C}×D(A)? **Only this D-level product claim remains open**; N3 already gives W=W₂=U=Δ×A².
+
+- Reformulate as a coverwise ability to find a common Boolean partition/local splitting for an **arbitrary** product cover.
+- Separate the finite-cover case (N4 shows D₂ can fail to multiply over a Cohen base with another fibre) from the all-cover case; a D₂ counterexample for Scott S does **not** settle the Arrieta A question.
+- Do not re-open the already resolved closed Cohen × Arrieta test.
+
+### Priority 3 — Quasi-Polish / non-metacompact search lens
+
+- Use the countably presented/quasi-Polish equivalence for explicit spatial candidates; then W₂ is the largest closed relation in which each finite cover-square is dense, and Q′ tests density of every full cover-square in that closed relation.
+- An actual counterexample in this class requires a cover with **no point-finite open refinement** by the Baire finiteization argument. First establish that a proposed quasi-Polish candidate and cover have this property; do not assume it.
+- This may run in tandem with Priority 1; it is a *criterion for rejecting candidates* rather than a stand-alone hunt for arbitrary non-metacompact spaces.
+
+### Priority 4 — Deploy the coherent-envelope exact formula
+
+Explore whether the ghost predecessor selected over B(D₂(X)) can be made to respect a marked full cover in the presence of additional hypotheses. A successful argument must imply **relative-open density**, not only existence of a ghost span or closed-hull equality. The known Arrieta and Boolean×fence controls defeat naive converse assertions. This is a conceptual adjunct to Priority 1.
+
+### Priority 5 — Finite chromatic obstructions
+
+Extract finite high-chromatic subfamilies in any explicit candidate passing the support-reduction test. Only then consider Kneser/Borsuk-style realization and whether the required graph actually comes from open-cover cross-links. No general realization theorem is presently known.
+
+### Priority 6 — Shoenfield/Boolean-valued sketch (deferred)
+
+Before seeking the all-Boolean product equality for W or W₂:
+
+1. Fix a precise coding of a countably presented frame and prove the asserted complexity for “basic r≤Φ(q)” and for Φ₂ with a **ground-real code q**. A proof for only one-step Φ says nothing about transfinite Φ∞.
+2. Establish preservation of **least fixed opens**, not just preservation of truth for a single ground-coded predicate.
+3. Prove a categorical dictionary identifying Boolean-base product covers, generalized endpoint maps, and the *internal* operator Φ in the Boolean-valued model with their *external* localic versions. Track arbitrary new names/covers.
+4. Test against N4 and the spatial Cantor variant at the **nonclosed** D₂ level, without incorrectly demanding those counterexamples survive closure.
+
+Unless the first two precise lemmas work, do not spend further effort on the transfer prediction or CH/MA remark. De Brecht's [Quasi-Polish Spaces](https://arxiv.org/abs/1108.1445) supplies the descriptive-topological starting point; it does not supply the forcing/product theorem claimed here.
+
+## 3. Status and handoff
+
+- **Audited pre-referee core:** 26/26 packet claim groups accepted by the external referee, with four named imports and corrected source attribution.
+- **Referee results N2–N7:** independent origin, proof-sketch recheck internally; N3 and N4 merit a truly separate second mathematical reading before broad reuse.
+- **Further suggestions:** idea 2 and 4 upgraded to *internally reconstructed results*; idea 3 a sound filtering framework; idea 5 an elementary necessary consequence but unproved construction; idea 1 deferred pending foundational proofs.
+- **Neither Q nor Q′ is settled.** A route merely producing ghost contact, a nonclosed D₂ failure, or finite graph obstruction is not enough.
+- **Next research segment:** Priority 1, beginning with an explicit family of noncompact two-apex relatives and exact cover calculations. No guaranteed headline result is expected.
