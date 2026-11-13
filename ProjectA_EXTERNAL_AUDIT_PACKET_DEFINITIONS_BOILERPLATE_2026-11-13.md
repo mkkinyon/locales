@@ -111,7 +111,7 @@ The rank-zero element is
 \[
   z=\Phi(0)=\Phi_2(0),\qquad U(X)=C_{X^2}(z).
 \]
-The fixed-point rank-two closure is \(W_2(X)=C_{X^2}(d)\), where \(d=\Phi_2^\infty(0)\) denotes the stabilized transfinite iteration from \(0\).
+The finite-cover closed hull is \(W_2(X)=C_{X^2}(d)\), where \(d=\Phi_2^\infty(0)\) denotes the stabilized transfinite iteration from \(0\).
 
 The two **universal open questions** (status as of 13 November 2026) are:
 
