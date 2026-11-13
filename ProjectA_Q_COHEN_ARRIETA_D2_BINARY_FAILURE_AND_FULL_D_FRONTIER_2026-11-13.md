@@ -1,5 +1,8 @@
 # Project A — Cohen × Arrieta: an explicit D₂ failure and the surviving full-D question
 
+> **Historical frontier status superseded later 13 Nov:** The [full fitted-diagonal Cohen×Arrieta product question](ProjectA_Q_COHEN_ARRIETA_FULL_D_PRODUCT_NEGATIVE_2026-11-13.md) has now been **answered negatively by a separate graph-complement argument** with a genuinely all-cover-compatible pair. This note's D₂ witness, slab-splitting lemma, countable-cover reduction, frame shadow calculus and category formulation remain valid, but claims here that full D is still open are historical. **Q and Q′ remain open.** The new full-D result has only internal verification so far.
+
+
 **13 November 2026. Newly reconstructed internal calculations, not externally audited.** Continuation of [post-referee priorities](ProjectA_Q_POSTREFEREE_PRIORITIES_2026-11-13.md). **The remaining full-D equation D(Z_C×A)=Δ_{Z_C}×D(A) is STILL OPEN.** The present note proves a sharp **finite-D₂ failure**, reduces arbitrary product covers to countable ones, identifies a fixed-ground-cover splitting obstruction, and describes Arrieta's compact Cantor shadow. It does not infer a Q′ hole from these weak defects.
 
 ## 1. An exact localic Baire-category reformulation of Q′
