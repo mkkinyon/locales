@@ -179,7 +179,34 @@ Nevertheless **D₂(X)=D(X)=Δ_X**: every open is complemented, so finite-cover-
 
 This is the decisive **negative control** for treating spectral ghost predecessors as Q evidence. A hypothetical Q-hole's Boolean witness would have precisely the same remainder pattern, plus the independent fact of being dense in a NONZERO relatively OPEN portion of U. The latter geometric condition was NOT used in Theorem 3.1.
 
-## 6. What this segment decides (and what it does not)
+## 6. Exact open-hole reformulation in the coherent envelope
+
+The externally reviewed prenucleus support theorem proved, for \(d_0=d_{W₂(X)}\) and any X-cover C,
+\[
+E_C
+=\operatorname{int}_{W₂(X)}
+\operatorname{cl}_{X²}\bigl(D₂(X)\wedge\mathfrak c_{X²}(w_C)\bigr).
+\tag{6.1}
+\]
+(This is an EQUALITY OF SUBLOCALES, not a statement about the ordinary point sets; see [prenucleus external-vs-internal reconciliation](project-a/audits/2026-11-12/Qprime-prenucleus-internal/ProjectA_Qprime_PRENUCLEUS_EXTERNAL_VS_INTERNAL_RECONCILIATION_2026-11-12.md).)
+
+Substituting Theorem 1.1 yields the exact coherent-envelope formula
+\[
+\boxed{
+E_C=
+\operatorname{int}_{W₂(X)}
+\operatorname{cl}_{X²}\left(
+\bigl(D(\widehat X)\wedge X²\bigr)\wedge
+\mathfrak c_{X²}(w_C)
+\right).
+}
+\tag{6.2}
+\]
+Thus a Q′ failure is precisely a cover for which the **weak defect obtained by restricting the full fitted diagonal of the compact coherent envelope** has closure with NONZERO INTERIOR inside the closed fitted hull W₂(X). Mere existence of the external spectral boundary R_C (Lemma 2.1) is NOT sufficient: discrete X=N has \(R_C=\beta N\setminus N\ne0\) but NO weak fitting defect; branching Scott X has a weak defect but (6.2) is ZERO on all covers because W=W₂. A Q failure additionally requires W₂(X)=U(X).
+
+This places the independently audited **relatively OPEN strong-versus-weak distinction** inside one universal compact coherent envelope. In particular, the missing implication is not a statement merely about point selection in the external remainder R_C. It asks whether a particular restricted fitted relation has a weak full-cover defect that is **somewhere dense in the rank-one Urysohn hull**.
+
+## 7. What this segment decides (and what it does not)
 
 **Proved exact geometry:** finite fitting on arbitrary X is the trace of full fitting on one canonical compact coherent \(\widehat X\), and every C-bad Boolean prime predecessor is a genuine frame map into the cover's closed spectral remainder \(R_C\subseteq\widehat X\) disjoint from X. In algebraic frames, it even lies in the cover-independent compact-open corona R_cpt.
 
