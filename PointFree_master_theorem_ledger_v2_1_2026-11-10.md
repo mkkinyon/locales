@@ -1,5 +1,7 @@
 # Point-Free Topology — Master theorem ledger (unified version 2.1)
 
+> **13 Nov 2026 scope notice:** This dated v2.1 ledger remains the canonical *10 November sheaf/homotopy* inventory. The later Q/Q′ branch is consolidated separately in the [13 Nov referee reconciliation](ProjectA_Q_POSTREFEREE_RECONCILIATION_2026-11-13.md) and [priority list](ProjectA_Q_POSTREFEREE_PRIORITIES_2026-11-13.md), which supersede any Q-related research-status prediction in this historical ledger. The new Boolean splitting theorem N3 closes the Cohen × Arrieta **closed-level** test; Q and Q′ remain open.
+
 **Version 2.1 · 10 November 2026 · third independent blind sheaf-homotopy audit reconciled.**
 
 **Current authority:** [corrected post-audit nonconstant-sheaf theorem account](PointFree_nonconstant_sheaf_Cech_CANONICAL_2026-11-10.md); [original third blind referee report](audits/2026-11-10/postaudit-sheaf/Referee_report_original.md), [issue-by-issue reconciliation](PointFree_postaudit_sheaf_EXTERNAL_referee_reconciliation_2026-11-10.md), [earlier canonical coherent chains/hulls account](PointFree_coherent_chain_hulls_CANONICAL_2026-11-10.md). All stable entries of [v2.0](PointFree_master_theorem_ledger_v2_0_2026-11-10.md) are inherited below **without rewriting their original mathematical statements**. The new items distinguish (a) claims **blind-checked after specific repairs** from (b) **new referee-origin theorems checked internally only after the report**. No novelty/priority claim.
