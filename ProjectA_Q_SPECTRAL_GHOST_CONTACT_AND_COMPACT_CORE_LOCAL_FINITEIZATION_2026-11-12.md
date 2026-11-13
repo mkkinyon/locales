@@ -193,6 +193,17 @@ K(a,b)
 \]
 The intersection in P is exactly {1}, since cl ↑0={0,1,5}, cl ↑4={1,2,4}. Consequently K(a,b)≅O_B(u), NONCOMPACT. Thus a noncompact contact core on a U-linked DISJOINT rectangle does occur in a Q-POSITIVE nonregular pointless locale.
 
+**Explicit nonzero ghost contact with NO Q-hole (stronger control).** Fix u=1_B, and choose an INFINITE maximal antichain \(\{v_i:i\in I\}\) of nonzero Boolean elements of B with \(\bigvee_i v_i=1_B\); this is possible in an atomless COMPLETE Boolean algebra. Put
+\[
+C=\{v_i\boxtimes1_P:i\in I\},
+\]
+a genuine X-open cover. For a=1_B⊠↑0, b=1_B⊠↑4, the contact core is \(K(a,b)=B\times\{1\}\cong B\). The restrictions of the C-members to K form the antichain cover of B with NO finite subcover. Thus by Theorem 1.2,
+\[
+\boxed{G_C(a,b)\ne0}
+\]
+even though a⊠b is genuinely U-linked and disjoint. But \(W(X)=W₂(X)=U(X)\), so finite rank-one fixedness and full rank-one fixedness BOTH hold, and therefore \(\boxed{w_C\to z_1=z_1}\); in particular \(a\boxtimes b\not\le w_C\to z_1\). This falsifies the inference
+"an actual U-linked disjoint rectangle PLUS a nonzero spectral ghost-contact implies a full-cover open hole." The contact obstruction is necessary for a hole but has no power to force the **relative openness** of a defect.
+
 This does not disprove Corollary 3.1 (only sufficiency was claimed). It does show that the failure of contact compactness, or nonzero spectral ghost-contact for suitable infinite covers, is not alone a route to a counterexample. A Q proof cannot presume every U-linked patch has compact closure-contact.
 
 ## 6. Outcome and stop rule
