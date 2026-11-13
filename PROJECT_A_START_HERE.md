@@ -1,5 +1,7 @@
 # Project A — specialized historical navigation (A track)
 
+> **13 Nov 2026 Q/Q′ update:** For the active Q program, start with the [post-referee reconciliation](ProjectA_Q_POSTREFEREE_RECONCILIATION_2026-11-13.md) and [priorities](ProjectA_Q_POSTREFEREE_PRIORITIES_2026-11-13.md). N3 proves Cohen Boolean × Arrieta **closed-hull** stabilization; both Q and Q′ remain open. The original specialist index below predates this update.
+
 **Current authority:** [unified Point-Free Topology home](POINT_FREE_TOPOLOGY_START_HERE.md), [master theorem ledger v2.0](PointFree_master_theorem_ledger_v2_0_2026-11-10.md), and [open register v1.7](ProjectA_open_problems_register_v1_7_2026-11-10.md). This page is a **specialized subject index** of historical Project A (separation relations, W, composition), with a 9 November baseline. It is not a competing current project or a replacement for the [coherent homotopy phase index](PointFree_coherent_homotopy_PHASE_INDEX_2026-11-10.md). The original dated content below is preserved for provenance.
 
 ## Canonical reference documents
