@@ -1,5 +1,8 @@
 # Project A — Q/Q′ post-referee reconciliation (13 November 2026)
 
+> **Later 13 Nov status update:** The [Cohen × Arrieta nonclosed full-D product](ProjectA_Q_COHEN_ARRIETA_FULL_D_PRODUCT_NEGATIVE_2026-11-13.md), listed below as open, was subsequently **settled NEGATIVELY** by an all-cover-compatible Cohen-valued pair and a binary complement-of-graphs cover. The blind referee's **closed** N3 theorem remains unchanged. This is NEW INTERNAL mathematics, not in the preceding 26-group external certificate. Q and Q′ remain OPEN.
+
+
 **Current audited checkpoint (classical mathematics with choice).** This note supersedes the *status* and next-test predictions of [the 12 November Session 7→8 checkpoint](ProjectA_Q_SESSION8_CONSOLIDATION_2026-11-12.md), but does not rewrite its historical mathematics. The [blind packet](project-a/audits/2026-11-12/Q-postsession7/BLIND_PACKET.md), [independent referee report](project-a/audits/2026-11-12/Q-postsession7/EXTERNAL_BLIND_REFEREE_REPORT_2026-11-12.md), [source-check addendum](project-a/audits/2026-11-12/Q-postsession7/EXTERNAL_SOURCE_CHECK_ADDENDUM_2026-11-13.md), and [referee's further ideas](project-a/audits/2026-11-12/Q-postsession7/EXTERNAL_FURTHER_IDEAS_2026-11-13.txt) remain separate. See [current priorities](ProjectA_Q_POSTREFEREE_PRIORITIES_2026-11-13.md).
 
 ## 1. Questions, notation, and verdict
