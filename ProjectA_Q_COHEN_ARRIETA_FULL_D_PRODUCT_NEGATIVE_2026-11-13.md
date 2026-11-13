@@ -132,3 +132,12 @@ The general Theorem 1.1 explains why strongly Hausdorff **non-F-separated** Y ar
 - All equalities and inequalities concern actual fitted sublocales of localic squares. No density-to-closed-restriction inference is used.
 
 **Audit status:** The category-theoretic graph obstruction and Cohen-Arrieta specialization were derived and adversarially reconstructed internally on 13 November 2026, after the previous blind report. They should receive an independent external audit before being promoted to the certified theorem ledger. The project questions Q/Q′ are unaffected and remain open.
+
+
+## 6. Distinguish this product defect from an internal Q′ weak defect
+
+The pair (s_f,s_g) of §3 lies in **Δ_{Z_C}×D(A)** but **not** in D₂(Z_C×A), since the *binary* product cover already separates it. Thus it does **not** define a weak defect T_C=D₂(Z_C×A)∧C(w_C) of the type relevant to Q′. It is a **failure of nonclosed product preservation**, not a failure of full-cover compatibility *inside the product's D₂*. This distinction is stronger than merely saying that its defect has empty relative interior.
+
+The right intrinsic Q′ criterion remains: for every full X-cover C, the relatively closed T_C=D₂(X)∧C(w_C) must be nowhere dense *in D₂(X)*, equivalently B(D₂(X))∧T_C=0, or B(D₂(X))≤D(X). The Boolean target Z_C used in §3 is **not** thereby being identified with a sublocale of B(D₂(Z_C×A)).
+
+**Next conceptual work:** Study conditions guaranteeing that a Boolean-valued *weak* pair in D₂(X)∧C(w_C) cannot extend to a relatively open D₂ patch. The newly resolved product inequality supplies a valuable nonclosed control, but does not by itself bridge the support-versus-relative-density gap.
