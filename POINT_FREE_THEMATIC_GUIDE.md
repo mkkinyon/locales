@@ -19,6 +19,8 @@
 
 ## 3. The \(\mathcal W,\mathcal H,\mathcal U\) programs
 
+- **Current Q/Q′ branch (13 Nov):** [post-referee theorem/status reconciliation](ProjectA_Q_POSTREFEREE_RECONCILIATION_2026-11-13.md) and [ordered experimental priorities / referee-idea triage](ProjectA_Q_POSTREFEREE_PRIORITIES_2026-11-13.md). Includes Boolean-base splitting and the Cohen × Scott finite-fitting counterexample; Q and Q′ remain open. [Blind referee archive](project-a/audits/2026-11-12/Q-postsession7/README.md).
+
 - [W-phase reconciliation](ProjectA_Wphase_EXTERNAL_referee_reconciliation_2026-11-09.md); [9 Nov W-phase original audit archive](project-a/audits/2026-11-09/Wphase/README.md).
 - [Coherent W=H maximal-point criterion](A-W-equals-H-coherent-maximal-point-criterion-2026-11-09.md).
 - [Finite-branch shrinking](A-W-equals-H-abstract-finite-branch-shrinking-2026-11-09.md) · [H∧U supplements](A-W-H-meet-U-fitted-supplements-and-higher-stage-obstruction-2026-11-09.md).
