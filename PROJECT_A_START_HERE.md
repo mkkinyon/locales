@@ -1,5 +1,7 @@
 # Project A — specialized historical navigation (A track)
 
+> **Q′ Cohen × rational-arm test CLOSED (13 Nov; internal):** [Regular-patch elimination, Q′ closed-remainder transfer and Cohen × noncompact rational two-apex test](ProjectA_Q_REGULAR_PATCH_REMAINDER_AND_COHEN_RATIONAL_PRODUCT_2026-11-13.md) prove \(D_2(Z\times X_{\mathrm{cof}})=D(Z\times X_{\mathrm{cof}})\) for **every regular Z**, including pointless Cohen \(Z_C\). The product retains \(W=W_2<U\). The general theorem transfers Q′ positivity from a closed remainder across globally closed regular patches. New INTERNAL working proof; Q/Q′ still OPEN.
+
 > **Q′ restarted (13 Nov; new internal working theorem):** [Supercompact-open bases give exact full-\(D\) product transfer and preserve Q′-positive factors](ProjectA_Q_SUPERCOMPACT_BASE_D_PRODUCT_QPRIME_TRANSFER_2026-11-13.md). Includes Sierpiński and all upper-Alexandrov bases. Proposed next concrete control: Cohen × noncompact rational-arm two-apex locale; **Q/Q′ still OPEN**.
 
 > **Post-referee consolidated proofs:** [One-bit Cohen witness, strict diagonal/Booleanization inclusion, binary section rigidity, and countable-cover reduction](ProjectA_Q_COHEN_ARRIETA_ONE_BIT_AND_SECTION_RIGIDITY_CANONICAL_2026-11-13.md). These are **internally checked corollaries**; the main Cohen × Arrieta product theorem is externally reviewed. See the separate [referee reconciliation](ProjectA_Q_COHEN_ARRIETA_EXTERNAL_REFEREE_RECONCILIATION_AND_IDEAS_2026-11-13.md).
