@@ -141,3 +141,8 @@ The pair (s_f,s_g) of §3 lies in **Δ_{Z_C}×D(A)** but **not** in D₂(Z_C×A)
 The right intrinsic Q′ criterion remains: for every full X-cover C, the relatively closed T_C=D₂(X)∧C(w_C) must be nowhere dense *in D₂(X)*, equivalently B(D₂(X))∧T_C=0, or B(D₂(X))≤D(X). The Boolean target Z_C used in §3 is **not** thereby being identified with a sublocale of B(D₂(Z_C×A)).
 
 **Next conceptual work:** Study conditions guaranteeing that a Boolean-valued *weak* pair in D₂(X)∧C(w_C) cannot extend to a relatively open D₂ patch. The newly resolved product inequality supplies a valuable nonclosed control, but does not by itself bridge the support-versus-relative-density gap.
+
+
+## 7. Audit handoff (13 November)
+
+The [internal adversarial audit](ProjectA_Q_FULL_D_COHEN_ARRIETA_INTERNAL_AUDIT_2026-11-13.md) provisionally **passes** the general theorem and explicit Cohen specialization after checking the frame homomorphisms, all-cover argument, Boolean equalizer, graph cover, and the distinction from Q/Q′. Arrieta’s primary-source statements were rechecked directly. The separate [external blind prompt](ProjectA_Q_FULL_D_COHEN_ARRIETA_EXTERNAL_BLIND_PROMPT_2026-11-13.md) and [proof packet](ProjectA_Q_FULL_D_COHEN_ARRIETA_EXTERNAL_BLIND_PACKET_2026-11-13.md) contain no internal verdict. **External review pending; do not promote to independently certified status.**
