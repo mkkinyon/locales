@@ -1,5 +1,7 @@
 # Project A — Session 7 to Session 8 Q-program consolidation
 
+> **Historical status notice (13 November 2026):** The independent blind report and subsequent source check have completed. Read the [post-referee mathematical reconciliation](ProjectA_Q_POSTREFEREE_RECONCILIATION_2026-11-13.md) and [updated priorities](ProjectA_Q_POSTREFEREE_PRIORITIES_2026-11-13.md) first. In particular, the Cohen Boolean base × Arrieta **closed** W/W₂/U test described below as open was settled positively by referee-derived Boolean-base splitting N3. Only its nonclosed D product equation remains open. The 12 November proof inventory is retained below unchanged for provenance; **Q and Q′ remain OPEN**.
+
 **12 November 2026.** This is a consolidated map of recent working mathematics, not a new external certification. Its source of truth is the theorem-by-theorem working documents in `mkkinyon/locales`. The old Project A ledgers and status index retain historical provenance. **Q and Q′ remain open.**
 
 ## 1. Fixed notation, questions, and logical dependencies
