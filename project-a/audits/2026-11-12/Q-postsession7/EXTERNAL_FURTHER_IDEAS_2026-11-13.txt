@@ -1,0 +1,23 @@
+Yes, a few. Only the first is substantial, and it is a sketch I have not checked in detail.
+
+**1. Closed-hull transfer over any Boolean base may follow from Shoenfield absoluteness (sketch).**
+Take Y countably presented (countably many generators and relations; as I recall these are exactly the quasi-Polish spaces).
+- **Complexity.** The cover relation of Y is Π¹₁ in the presentation. "A basic rectangle lies under Φ(q)" is then Σ¹₂ in q: there exist a cover and a well-founded derivation tree. The same holds for Φ₂.
+- **Absoluteness.** Ground-model stages of the iteration persist upward, and a ground fixed point stays fixed in any forcing extension. So the opens defining W(Y) and W₂(Y) do not change under forcing.
+- **Transfer.** For Boolean Z, covers of Z×Y patch along partitions of the base, as in N3. So Φ on Z×Y above `d_Z⊠1` should be the internal Φ of Y in the Boolean-valued model. That would give `W_ε(Z×Y) = Δ_Z×W_ε(Y)` for every Boolean Z, Cohen included, with no distributivity.
+- **Consequences.** N3 is the rank-one case, where no absoluteness is needed. N4 shows why D₂ itself cannot transfer this way: it is cut out by new finite covers. Q and Q′ for a countably presented Y would be forcing-invariant, so you could assume CH or MA when attacking them.
+- **Unchecked.** The internal/external dictionary and the complexity count. The argument needs a real parameter, so it says nothing about second-countable locales that are not countably presented.
+
+**2. N4 already works over ordinary Cantor space K.**
+The same T, h, k and binary cover give `D₂(K×S) ⊊ Δ_K×D₂(S)`. So the failure comes from a perfect base, not from pointlessness. This is the concrete instance behind the packet's caution after (C.7).
+
+**3. For quasi-Polish X, Q′ is a point-set question.**
+X² is spatial there, so W₂ is the greatest closed R ⊆ X×X in which every finite cover square is relatively dense. Q′ asks whether every cover square is then dense in it. Such spaces are hereditarily Baire, so by B.3 only covers with no point-finite refinement can matter. The search space is non-metacompact quasi-Polish spaces with W < U.
+
+**4. An exact description of W₂.**
+E.1 and (F.1) together give `W₂(X) = cl_{X²}(Σ(X̂) ∧ X²)`. In words, W₂ is the closure of pairs that share a Boolean-valued common predecessor in the coherent envelope. Q′ asks whether these ghost-mediated spans add anything beyond D(X). Arrieta's space shows this is a description, not a proof route.
+
+**5. The chromatic frontier is finitely witnessed.**
+By de Bruijn–Erdős, a hole forces, for each k, a finite subfamily of C whose link graph is not k-colourable. By (B.3) this holds among the members meeting any nonzero open of the support. That suggests building candidate counterexamples from finite graphs with high chromatic number for topological reasons, such as Kneser or Borsuk graphs. The construction idea is speculation; the finite-witness statement is not.
+
+One negative result from the audit: a generic two-colouring of a countable cover never creates a W₂-hole over the Cohen base. The condition forces `r∧(t_N⊠t_N) ≤ d` for a tail `t_N`, and the finite cover `{c₀,…,c_{N−1},t_N}` then gives `r ≤ d`. That is what pointed me toward idea 1.
