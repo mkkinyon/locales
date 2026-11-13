@@ -1,5 +1,7 @@
 # Project A — noncompact two-apex filter controls: two opposite no-go mechanisms
 
+> **Later 13 Nov generalization:** The [filtered-apex/clopen-gluing theorems](ProjectA_Q_FILTERED_APEX_REGULAR_ARMS_AND_CLOPEN_GLUE_NO_GO_2026-11-13.md) show that **all** regular Hausdorff arms with arbitrary decreasing tails are Q′-positive; this supersedes the suggestion in §5 below that merely mixing dense and nondense rational tails may help. Disjoint clopen anti-Urysohn cloud replacements fail too. The explicit models here remain correct negative controls.
+
 **13 November 2026. Bounded working research segment; internally checked, not independently audited.** This begins [Priority 1](ProjectA_Q_POSTREFEREE_PRIORITIES_2026-11-13.md) after the external referee's compact two-apex N6. It constructs explicit **noncompact, countably based, sober T₁** spaces and finds why the two easiest modifications fail to test Q′. It neither proves nor refutes universal Q or Q′.
 
 ## 1. A preliminary scattered-support stop rule
