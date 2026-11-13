@@ -71,6 +71,10 @@
 
 - **[Q′ independent-referee reconciliation](ProjectA_Qprime_referee_reconciliation_and_bounded_checks_2026-11-09.md)** — verified structural results, global upgrades of C5/C6, and two bounded referee suggestions closed. **Q/Q′ remain open and deferred.** The active focus is now W as a separation relation in its own right.
 
+## Reusable external-audit preamble
+
+- **[Definitions and notation boilerplate (copy-and-trim)](ProjectA_EXTERNAL_AUDIT_PACKET_DEFINITIONS_BOILERPLATE_2026-11-13.md)** — core locale/sublocale/cover definitions plus optional hierarchy, Q/Q′, Boolean-product, and provenance modules. Paste the relevant definitions **into each blind packet**; preserve already submitted packets and reports.
+
 ## Audit provenance
 
 - **[9 November Q′ blind audit archive](project-a/audits/2026-11-09/Qprime/README.md)** — original packet and independent referee report, separate internal audit, and a standalone reconciliation; no original report was rewritten.
