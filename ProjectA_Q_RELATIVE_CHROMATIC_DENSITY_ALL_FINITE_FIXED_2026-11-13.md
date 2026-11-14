@@ -84,7 +84,7 @@ An affirmative example would be a candidate for an actual Q′ hole only if fini
 
 Do not replace the endpoint cross-link graph by a prime-predecessor graph: the canonical countable-V example shows those notions are inequivalent. Avoid presenting (1.1) as a new constraint beyond finite compatibility; its added value is precise **localic localization and density**.
 
-**Status:** Direct frame/distributivity calculation internally checked; not externally audited. Universal Q/Q′ OPEN.
+**Status (updated 14 November):** Direct frame/distributivity calculation internally checked and included in the independent blind referee review (no incorrect theorem found). Universal Q/Q′ OPEN.
 
 
 **14 November referee reconciliation.** The proof only needs two colors to handle a binary coarsening; arbitrary finite colorings follow by the finite-family cut identity, which in fact holds without the cover hypothesis as a finite distributive lattice equality. It is the *application to dense matching squares* that requires the coarsened family to cover \(X\). The graph obstruction tests color-coarsenings of the given cover \(C\); it is not a substitute for compatibility with all independent finite **ambient** covers. The [Polish disjoint-pairs control](ProjectA_Q_RELATIVE_BAIRE_INCIDENCE_PROFILES_POLISH_CONTROL_2026-11-13.md) makes this distinction explicit. See the [reconciliation](ProjectA_Q_DENSITY_EXTERNAL_REFEREE_RECONCILIATION_AND_NEXT_STEPS_2026-11-14.md).
