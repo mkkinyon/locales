@@ -135,3 +135,37 @@ the second equality holding since the \(C\)-term is \(w_C\to d_R=1_P\). By contr
 Therefore **Q′ does not imply that every \(\Phi_2\)-fixed open is \(\Phi\)-fixed**. Any proof scheme trying to establish that global fixed-point equality as an intermediate step toward Q′ is too strong. It must exploit **the canonical least fixed point \(d_0\)**, not an arbitrary finite-fixed closed relation.
 
 **Adversarial conclusion.** The earlier Polish disjoint-infinite-set control failed unrelated finite covers. This Scott control is stronger: *all* finite \(X\)-cover squares are dense on a **Baire closed subspace**, yet the infinite \(C\)-square is zero there. The only missing hypothesis for a Q′ counterexample is precisely that the bad relation contains a **nonzero open of \(W_2\)**. Hence no proof based merely on “finite squares dense on a Baire relation” can work; the open placement inside \(W_2\) must be used. This is an elementary spatial manifestation of the already known weak-versus-strong Scott defect distinction, not a novel universal counterexample.
+
+
+## 6. Exact Boolean visibility criterion at the **canonical** W₂ stage
+
+The Scott nontransfer in §5 tells us to formulate the open-placement requirement precisely, rather than demand it at every finite-fixed \(d\). Let
+\[
+Y=W_2(X)=\overline{D_2(X)}^{\,X^2},\qquad
+K_C=Y\wedge\mathfrak c_{X^2}(w_C),\qquad
+A_C=D_2\wedge\mathfrak c_{X^2}(w_C).
+\]
+Here \(D_2\) is **dense** in \(Y\), \(K_C\) is **closed** in \(Y\), and \(A_C\le K_C\).
+
+**Proposition 6.1 (weak defect becomes strong iff somewhere dense).** For a fixed cover \(C\), the following are equivalent:
+
+1. \(C\) witnesses failure of Q′: \(w_C|_Y\) is **not** dense in \(Y\).
+2. \(K_C\) contains a nonzero **open** sublocale of \(Y\).
+3. \(\operatorname{int}_Y(\overline{A_C}^{\,Y})\ne0\).
+4. There exists a **nonzero Boolean sublocale** \(B\le A_C\) whose closure in \(Y\) has nonzero interior.
+
+*Proof.* (1)⇔(2) is the definition of density of an open in \(Y\): its closed complement has nonempty interior.
+
+(2)⇒(3): Choose nonzero \(Y\)-open \(V\le K_C\). Since \(D_2\) is dense in \(Y\), \(D_2\wedge V\) is dense in \(V\). But \(D_2\wedge V\le A_C\), so \(\overline{A_C}^{\,Y}\) contains \(V\). Conversely, (3)⇒(2) because \(A_C\le K_C\) and \(K_C\) is closed in \(Y\).
+
+(2)⇒(4): For nonzero \(Y\)-open \(V\le K_C\), let \(B(V)\) be its **least dense Boolean sublocale**. Since \(D_2\wedge V\) is dense in \(V\), minimality of \(B(V)\) gives
+\[
+0\ne B(V)\le D_2\wedge V\le A_C.
+\]
+As \(B(V)\) is dense in the nonzero \(Y\)-open \(V\), its closure in \(Y\) contains \(V\). Thus (4). Finally (4)⇒(3) is immediate. □
+
+This is a **criterion, not a proof of Q′**. It states exactly what a generalized weak Boolean finite/full defect needs to become strong: its closure must acquire **nonzero interior in the canonical finite fitted-diagonal closure** \(W_2\). Neither being Baire as a closed subspace nor being somewhere dense in some *smaller* \(\Phi_2\)-fixed closed relation is enough.
+
+**Scott verification.** In §5, \(B(R)\le A_C\) is a genuine weak defect. Its closure in \(Y=X^2\) is \(R\), which is **nowhere dense**. Hence condition (4) fails and Q′ holds. At the different finite-fixed closed relation \(R=\mathfrak c(w_C)\), the same Boolean sublocale is dense and witnesses \(\Phi(d_R)\ne d_R\). This juxtaposition is the exact reason the **canonical** qualifier in Proposition 6.1 is indispensable.
+
+**Next step for external audit.** Check (1.1), Corollaries 2.1–2.2, the spatial closed-rectangle translation, the elementary Scott construction, and Proposition 6.1; then assess whether the criterion gives a viable route to proving *all* Boolean weak defects nowhere dense in \(W_2\), or merely restates Q′. We currently regard Proposition 6.1 as an **exact reformulation**, not an independent extra constraint.
