@@ -139,7 +139,7 @@ D\le D_2\le W_2\le U,\qquad
 W\le W_2\le U,
 \tag{3.1}
 \]
-where \(D_2\) is the finite-cover fitted diagonal and \(W_2=\operatorname{cl}D_2\); both Q/Q′ involving W₂ are OPEN and DEFERRED.
+where \(D_2\) is the finite-cover fitted diagonal and \(W_2=\operatorname{cl}D_2\); both Q/Q′ involving W₂ were OPEN at this 10 November checkpoint; they were subsequently **refuted** by the [14 November dense-rational-bridge theorem](ProjectA_Q_DENSE_RATIONAL_BRIDGE_CANONICAL_2026-11-14.md), which gives W=I<W₂=U, while every compact locale has D=D₂ and W=W₂ (see the [post-Q consolidation](ProjectA_postQ_frontier_consolidation_duality_2026-11-14.md)).
 \[
 I\le V\le V_2\le C(d_2)\le F,\qquad U\le C(d_2),
 \tag{3.2}
