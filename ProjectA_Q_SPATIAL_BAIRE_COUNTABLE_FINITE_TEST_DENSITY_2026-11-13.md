@@ -1,6 +1,6 @@
 # Project A / Q′ — spatial Baire plus countable finite-cover tests forces matching-square density
 
-**13 November 2026 (America/Denver); NEW INTERNAL bounded sufficient criterion, not externally audited. Q/Q′ OPEN.** This is a direct, genuinely **relative Baire argument inside \(W_2\)**, complementing [localic chromatic density](ProjectA_Q_RELATIVE_CHROMATIC_DENSITY_ALL_FINITE_FIXED_2026-11-13.md) and the [canonical spectral predecessor-lifting no-go](ProjectA_Q_CANONICAL_SPECTRAL_PREDECESSOR_LIFT_NO_GO_2026-11-13.md). It deliberately does **not** assume that weak Boolean defects have ordinary points.
+**13 November 2026 (America/Denver); internally checked and included in the blind external audit completed 14 November (no incorrect theorem found). Q/Q′ OPEN.** This is a direct, genuinely **relative Baire argument inside \(W_2\)**, complementing [localic chromatic density](ProjectA_Q_RELATIVE_CHROMATIC_DENSITY_ALL_FINITE_FIXED_2026-11-13.md) and the [canonical spectral predecessor-lifting no-go](ProjectA_Q_CANONICAL_SPECTRAL_PREDECESSOR_LIFT_NO_GO_2026-11-13.md). It deliberately does **not** assume that weak Boolean defects have ordinary points.
 
 ## 0. Set-up
 
@@ -75,4 +75,7 @@ A strong C-hole would produce a nonzero relatively open E⊂Y disjoint from \(U_
 
 The actual open problem is to find **nontrivial classes** of frames/locales for which the C-bad pairs have a countable finite-test separating family, or to replace spatial Baire by a genuinely point-free density principle controlling the corresponding nonspatial Gδ intersection. These are actionable subproblems; no general result is claimed.
 
-**Verification status:** internally checked pointwise Baire argument and binary coarsening; not externally audited. **Q and Q′ remain OPEN.**
+**Verification status:** internally checked pointwise Baire argument and binary coarsening; external blind audit completed 14 November (no incorrect theorem found). **Q and Q′ remain OPEN.**
+
+
+**14 November referee reconciliation.** The existence of a countable *presentation* of a quasi-Polish (or second-countable) space **does not give** a countable family of finite ambient covers with the detection property (1.1). These are different quantifiers. Quasi-Polish spaces do give a natural conditional target for this theorem because of their Baire character and the spatiality of their localic products; obtaining the specified detecting family remains the main obstacle. Separately, the [locally finite refinement theorem](ProjectA_Q_DENSITY_EXTERNAL_REFEREE_RECONCILIATION_AND_NEXT_STEPS_2026-11-14.md) gives \(D_2=D\) for locales whose covers admit locally finite refinements *without* any Baire/spatial assumption, and should be preferred where applicable. The countable point-finite result above remains a valid conditional variant, not an optimal theorem.
