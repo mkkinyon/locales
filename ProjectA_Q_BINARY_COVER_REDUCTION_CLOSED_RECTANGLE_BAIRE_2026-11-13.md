@@ -90,3 +90,38 @@ Ordinary Baire category alone excludes **countable** subcovers, not arbitrary on
 5. **Closed-support gate:** By the independently checked [closed-atomic theorem](ProjectA_Q_CLOSED_ATOMIC_SCATTERED_WEAK_DEFECT_NO_GO_2026-11-13.md), any weak C-defect already has atomless least closed coordinate supports. Our remaining category problem concerns their possible *relatively open* manifestation.
 
 **Research decision.** In the next test, concentrate on **arbitrary binary covers** and the way their disjoint closed rectangles sit in \(W_2\), rather than enumerating all finite covers or only coloring the offending C. The exact finite cut identity is suitable for the next external audit packet. Universal Q/Q′ remain OPEN.
+
+
+## 5. Strong Scott closed/Baire countercontrol: *all* finite-cover squares dense, but C vanishes
+
+There is a direct spatial Baire model showing that **even full finite-cover density on a closed relation is not enough**. Let
+\[
+X=\mathcal P(\omega)\setminus\{\varnothing\}
+\]
+with the Scott topology for inclusion. A basis consists of the opens \(\uparrow P=\{A:P\subseteq A\}\) for finite nonempty \(P\subseteq\omega\). The countable cover
+\[
+C=\{c_n:n\in\omega\},\qquad c_n=\{A:n\in A\},
+\]
+covers \(X\). Define the **closed** spatial relation
+\[
+R=\{(A,B)\in X^2:A\cap B=\varnothing\}=X^2\setminus w_C.
+\]
+It is nonempty, and \(w_C|_R=0\).
+
+**Proposition 5.1.** The subspace \(R\) is Baire. For **every finite \(X\)-cover F**, its matching-square open \(w_F\) restricts to a **dense open in \(R\)**, despite \(w_C|_R=0\).
+
+*Proof (Baire).* The relative topology of \(R\) has a basis of the nonempty patches
+\[
+R_{P,Q}=\{(A,B)\in R:P\subseteq A,\ Q\subseteq B\},
+\]
+where \(P,Q\) are finite, nonempty, disjoint subsets of \(\omega\). Given a sequence \(G_0,G_1,\ldots\) of dense open subsets of \(R\) and a nonempty basic patch, recursively refine to nested basic patches \(R_{P_n,Q_n}\subseteq G_n\), ensuring \(P_n\subseteq P_{n+1}\) and \(Q_n\subseteq Q_{n+1}\). This is possible because each dense open meets the previous basic patch, and a compatible finite extension can be taken around a point in the intersection. The unions \(P_\infty=\bigcup_nP_n\) and \(Q_\infty=\bigcup_nQ_n\) remain disjoint and nonempty, giving \((P_\infty,Q_\infty)\in R\cap\bigcap_nG_n\) inside the initial patch. Thus \(R\) is Baire.
+
+*Proof (finite-cover density).* Let \(F\) be a finite cover of \(X\). For each \(n\in\omega\), the singleton point \(\{n\}\in X\) belongs to at least one \(f\in F\). By finite pigeonhole, **some single member \(f\in F\) contains \(\{n\}\) for infinitely many \(n\)**; write \(J\subseteq\omega\) for this infinite set. Scott opens are upward closed, so \(c_n\subseteq f\) for each \(n\in J\). Given any nonempty basic \(R_{P,Q}\), choose distinct fresh \(n,m\in J\setminus(P\cup Q)\). Then
+\[
+(A,B)=(P\cup\{n\},\,Q\cup\{m\})\in R_{P,Q}\cap(f\times f).
+\]
+Therefore \(w_F|_R\) is dense open. □
+
+**Proposition 5.2 (no open-hole interpretation).** The closed set \(R\) has **empty interior** in \(X^2\): any nonempty basic rectangle \((\uparrow P)\times(\uparrow Q)\) contains the overlapping pair \((P\cup Q,P\cup Q)\). Thus \(R\) is nowhere dense in the spatial topological square. In this Scott example the diagonal is dense in the square (every pair of nonempty Scott opens intersects), so the closure of the fitted diagonal is the whole square, \(W_2=X^2\), and \(R\) supplies **no nonzero relatively open C-hole**.
+
+**Adversarial conclusion.** The earlier Polish disjoint-infinite-set control failed unrelated finite covers. This Scott control is stronger: *all* finite \(X\)-cover squares are dense on a **Baire closed subspace**, yet the infinite \(C\)-square is zero there. The only missing hypothesis for a Q′ counterexample is precisely that the bad relation contains a **nonzero open of \(W_2\)**. Hence no proof based merely on “finite squares dense on a Baire relation” can work; the open placement inside \(W_2\) must be used. This is an elementary spatial manifestation of the already known weak-versus-strong Scott defect distinction, not a novel universal counterexample.
