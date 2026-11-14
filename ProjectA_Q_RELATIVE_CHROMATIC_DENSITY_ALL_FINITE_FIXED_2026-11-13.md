@@ -51,6 +51,21 @@ If \(\Gamma_V\) admitted the finite coloring \(\kappa\), every monochromatic off
 
 For Q′, \(Y=W_2\), so this is a fully **relative** endpoint-density test. It neither projects a nowhere-dense spectral predecessor boundary nor replaces localic opens with ordinary pairs.
 
+
+### 1.3 An elementary hyperconnected-patch eliminator
+
+Call a nonzero locale H **hyperconnected** (irreducible) when any two nonzero opens of H meet nontrivially.
+
+**Corollary 1.3.** A nonzero marked hole E for any \(\Phi_2\)-fixed d cannot contain a nonzero hyperconnected open sublocale. Consequently, if \(Y=\mathfrak c(d)\) has a **\(\pi\)-base of hyperconnected opens** (every nonzero open contains one), then \(\Phi(d)=d\). In particular, if \(W_2\) has such a \(\pi\)-base, Q′ holds for X. The rank-one analog applies when \(z_1\) is finite-fixed and \(\mathfrak c(z_1)\) has such a \(\pi\)-base.
+
+*Direct proof using binary covers.* Suppose \(0\ne V\le E\) is hyperconnected. Restrict the two product projections to V, giving frame maps \(h,k:L\to\mathcal O(V)\). For each c∈C,
+\[
+h(c)\wedge k(c)=0_V,
+\]
+because V lies in the C-hole. Hyperconnectedness forces \(h(c)=0\) or \(k(c)=0\). Partition C into \(C_h=\{c:h(c)\ne0\}\) and its complement. Put \(u=\bigvee C_h\), \(v=\bigvee(C\setminus C_h)\); \(\{u,v\}\) is a binary X-cover. But \(k(u)=0\) and \(h(v)=0\), so its matching square restricts to **zero** on V, contradicting the density of every finite-cover square on the nonzero Y-open V. □
+
+**Adversarial scope check.** This is a geometric rephrasing of an **already known atomlessness necessary condition**, not an independent route past it. For any locale E, “E has no nonzero hyperconnected open sublocale” is equivalent to “the double-negation Booleanization \(B(E)\) is atomless”: an atom of \(B(E)\) is represented by a nonzero hyperconnected open of E, and conversely any hyperconnected open has a two-element Booleanization. The original Boolean weak-defect argument already rules out atoms. The \(\pi\)-base corollary is a convenient sufficient condition to check **on \(W_2\)**, not evidence that the general case is solved.
+
 ## 2. The Boolean no-go and pointwise/local distinction
 
 **Adversarial check A (no extra Boolean equation).** Any nonzero Boolean finite-cover-compatible pair \(h,k:L\to M\) with \(h(c_i)\wedge k(c_i)=0\) for all i also has an infinite-chromatic cross-link graph defined by nonzero Boolean values \(h(c_i)\wedge k(c_j)\vee h(c_j)\wedge k(c_i)\). Indeed the finite block cover B from (1.3) has matching value top while its diagonal-index terms vanish. So infinite chromaticity **on a Boolean weak defect**, by itself, is old information and **does not prove Q′**. The new emphasis in Theorem 1.1 is the **every-nonzero-open-subchart density** of the monochromatic union inside an actual marked E⊂W₂.
