@@ -1,3 +1,5 @@
+> **14 NOV 2026 — CURRENT FRONTIER.** Use the [post-Q/Q′ frontier and duality consolidation](ProjectA_postQ_frontier_consolidation_duality_2026-11-14.md) for current statuses. **Q and Q′ are false** by the [audited dense-rational-bridge example](ProjectA_Q_DENSE_RATIONAL_BRIDGE_CANONICAL_2026-11-14.md). Earlier Q/Q′ entries below are dated historical snapshots.
+
 # Point-Free Topology — thematic guide to a large historical research repository
 
 **10 November 2026.** The repository contains hundreds of largely chronological Markdown notes. This page intentionally adds navigation **without moving or renaming files**, protecting the original proofs, dead ends, referee provenance and links. The [unified start page](POINT_FREE_TOPOLOGY_START_HERE.md) and [master theorem ledger v2.1](PointFree_master_theorem_ledger_v2_1_2026-11-10.md) are the current authority for status.
@@ -19,7 +21,7 @@
 
 ## 3. The \(\mathcal W,\mathcal H,\mathcal U\) programs
 
-- **Current Q/Q′ branch (13 Nov):** [post-referee theorem/status reconciliation](ProjectA_Q_POSTREFEREE_RECONCILIATION_2026-11-13.md) and [ordered experimental priorities / referee-idea triage](ProjectA_Q_POSTREFEREE_PRIORITIES_2026-11-13.md). Includes Boolean-base splitting and the Cohen × Scott finite-fitting counterexample; Q and Q′ remain open. [Blind referee archive](project-a/audits/2026-11-12/Q-postsession7/README.md).
+- **Historical Q/Q′ branch (13 Nov, superseded on 14 Nov):** [post-referee theorem/status reconciliation](ProjectA_Q_POSTREFEREE_RECONCILIATION_2026-11-13.md) and [ordered experimental priorities / referee-idea triage](ProjectA_Q_POSTREFEREE_PRIORITIES_2026-11-13.md). Includes Boolean-base splitting and the Cohen × Scott finite-fitting counterexample; Q and Q′ were open at that checkpoint. [Blind referee archive](project-a/audits/2026-11-12/Q-postsession7/README.md).
 
 - [W-phase reconciliation](ProjectA_Wphase_EXTERNAL_referee_reconciliation_2026-11-09.md); [9 Nov W-phase original audit archive](project-a/audits/2026-11-09/Wphase/README.md).
 - [Coherent W=H maximal-point criterion](A-W-equals-H-coherent-maximal-point-criterion-2026-11-09.md).
