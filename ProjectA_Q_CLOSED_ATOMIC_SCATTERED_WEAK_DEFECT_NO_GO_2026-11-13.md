@@ -1,95 +1,110 @@
-# Project A / Q, Q′ — closed-atomic support obstruction and scattered-space positive class
+# Project A / Q, Q′ — closed-atomic support obstruction; scattered-space positive class
 
-**13 November 2026 (America/Denver). INTERNAL ADVERSARIAL AUDIT, not externally refereed.** This note audits the new scattered-space argument from the direct density programme. It is deliberately stated using an explicit **closed-atomic** frame condition: the literature has multiple nonidentical uses of “scattered locale.” For a **spatial** locale the ordinary topological scatteredness condition suffices.
+**13 November 2026 (America/Denver); INTERNAL ADVERSARIAL AUDIT, not externally refereed.** The claim below is stated with an explicit **closed-atomic** frame condition. Published usages of “scattered locale” vary; only the standard *topological* scatteredness convention is used in the spatial corollary.
 
-## 0. Definitions
+## 0. Set-up and precise hypothesis
 
-Let (L=\mathcal O(X)). For an (L)-cover (C\subseteq L), let (w_C=\bigvee_{c\in C}c\boxtimes c\in L\oplus L=\mathcal O(X^2)). Define
+For \(L=\mathcal O(X)\) and an \(L\)-cover \(C\), put
 \[
-D_2=\bigwedge_{F\text{ finite cover}}\mathfrak o(w_F),\qquad
+w_C=\bigvee_{c\in C}c\boxtimes c\in P=L\oplus L,
+\qquad
+D_2=\bigwedge_{F\text{ finite cover}}\mathfrak o(w_F),
+\qquad
 D=\bigwedge_{C\text{ arbitrary cover}}\mathfrak o(w_C)
 \]
-in the sublocale coframe. Thus (D\le D_2). A pair (h,k:L\to M) of frame homomorphisms is *binary compatible* when
+in the sublocale coframe, so \(D\le D_2\). Maps \(h,k:L\to M\) are *binary-cover compatible* if, for every \(u\vee v=1_L\),
 \[
-h(u)\wedge k(u)\vee h(v)\wedge k(v)=1_M
-\qquad\text{for every }u\vee v=1_L.
+(h(u)\wedge k(u))\vee(h(v)\wedge k(v))=1_M. \tag{0.1}
 \]
-Finite-cover compatibility implies binary compatibility.
+In particular, compatibility with every finite cover implies (0.1).
 
-We call (L) **closed-atomic** if for every (e<1_L), the interval frame ([e,1_L]\cong\mathcal O(\mathfrak c_X(e))) has an atom: some (a>e) with no element strictly between (e) and (a). Do not confuse this explicit property with other definitions of scattered frames/locales.
+Call \(L\) **closed-atomic** when, for every \(e<1_L\), the interval frame
+\(\mathcal O(\mathfrak c_X(e))\cong [e,1_L]\) has an atom \(a>e\).
 
-## 1. Exact one-coordinate obstruction
+## 1. Main obstruction, arbitrary targets
 
-**Theorem 1.1 (atomless least closed supports of weak defects).** Let (L,M) be frames with (M\ne\{0\}). Suppose (h,k:L\to M) are binary compatible, but for some arbitrary (L)-cover (C),
+**Theorem 1.1 (atomless closed supports of defective coordinate maps).**
+Let \(h,k:L\to M\) be binary-cover compatible maps into a nontrivial frame \(M\), and suppose some arbitrary cover \(C\) is defective:
 \[
-m_C=\bigvee_{c\in C}h(c)\wedge k(c)<1_M.\tag{1.1}
+m_C=\bigvee_{c\in C}h(c)\wedge k(c)<1_M. \tag{1.1}
 \]
-Pass to the nontrivial quotient frame (M'=\uparrow m_C), whose quotient map is (q(t)=t\vee m_C). Write (h'=qh,k'=qk). Their (C)-matching value is (0_{M'}=m_C), and they remain binary compatible. Put
+Pass to the nontrivial quotient frame \(M'=\uparrow m_C\) via \(q(t)=t\vee m_C\), and set \(h'=qh,k'=qk\). The matching value of \(C\) is now \(0_{M'}=m_C\). The least closed supports of **both** coordinate maps \(h',k'\) have atomless frames of opens. Explicitly, if
 \[
 e_h=\bigvee\{a\in L:h'(a)=0_{M'}\},\qquad
-e_k=\bigvee\{a\in L:k'(a)=0_{M'}\}.
+e_k=\bigvee\{a\in L:k'(a)=0_{M'}\},
 \]
-Then **both** interval frames ([e_h,1]) and ([e_k,1]) are atomless.
+then both \([e_h,1]\) and \([e_k,1]\) are atomless.
 
-*Proof for the first coordinate.* Rename (M',h',k') as (M,h,k), with (\bigvee_C h(c)\wedge k(c)=0_M). Let (e=e_h). The arbitrary-join property of (h) gives (h(e)=0_M), and
+*Proof.* Rename \(M',h',k'\) as \(M,h,k\), so \(\bigvee_C h(c)\wedge k(c)=0_M\). Let \(e=e_h\). Since \(h\) preserves all joins,
 \[
-h(t)=0_M\iff t\le e,\qquad h(t)=h(t\vee e).\tag{1.2}
+h(e)=0_M,\qquad h(t)=0_M\iff t\le e,\qquad h(t)=h(t\vee e). \tag{1.2}
 \]
-Since (M) is nontrivial and (h(1)=1_M), (e<1).
+Also \(e<1_L\), since \(M\) is nontrivial and \(h(1_L)=1_M\).
 
-Suppose (a>e) is an atom of the interval ([e,1]). For every (c\in C) the element (a\wedge(c\vee e)\in[e,a]) equals either (e) or (a). Partition
+Suppose \([e,1_L]\) has an atom \(a>e\). For every \(c\in C\),
+\(a\wedge(c\vee e)\) lies in \([e,a]\), so it equals either \(e\) or \(a\).
+Partition \(C=C_1\sqcup C_0\), where
 \[
-C_1=\{c\in C:a\le c\vee e\},\quad
-C_0=\{c\in C:a\wedge(c\vee e)=e\},\quad
-u=\bigvee C_1,\quad v=\bigvee C_0.
+C_1=\{c:a\le c\vee e\},\qquad
+C_0=\{c:a\wedge(c\vee e)=e\},
+\qquad u=\bigvee C_1,\quad v=\bigvee C_0.
 \]
-Then (u\vee v=1), so \(\{u,v\}\) is a binary cover. From (1.2), (h(a)\ne0_M). For (c\in C_1), (h(a)\le h(c)); for (c\in C_0), (h(a)\wedge h(c)=0_M). Hence
+The family \(C_1\) is **nonempty**, because
 \[
-h(a)\le h(u),\qquad h(a)\wedge h(v)=0_M.\tag{1.3}
+a=a\wedge\bigvee_{c\in C}(c\vee e)
+ =\bigvee_{c\in C}\bigl(a\wedge(c\vee e)\bigr)>e.
 \]
-Meet binary compatibility (1=h(u)\wedge k(u)\vee h(v)\wedge k(v)) with (h(a)). By (1.3),
+Moreover \(u\vee v=1_L\), so \(\{u,v\}\) is a binary cover. By (1.2),
+\(h(a)\neq0_M\), \(h(a)\le h(c)\) for all \(c\in C_1\), and
+\(h(a)\wedge h(c)=0_M\) for all \(c\in C_0\). Thus
+\[
+h(a)\le h(u),\qquad h(a)\wedge h(v)=0_M. \tag{1.3}
+\]
+Meet the binary-cover identity (0.1) with \(h(a)\). By (1.3) and arbitrary distributivity in \(M\),
 \[
 h(a)=h(a)\wedge k(u)
 =\bigvee_{c\in C_1}\bigl(h(a)\wedge k(c)\bigr)=0_M,
 \]
-since (h(a)\le h(c)) for every (c\in C_1) and (h(c)\wedge k(c)=0_M) for each (c\in C). Contradiction. Thus ([e_h,1]) is atomless. Interchange (h,k) to obtain the second claim. □
+since \(h(a)\le h(c)\) and \(h(c)\wedge k(c)=0_M\) for every \(c\in C_1\). Contradiction. The argument for \(e_k\) interchanges the coordinates. □
 
-**Audit note.** The proof works for an *arbitrary* target frame (M), including nonspatial and Boolean targets. The essential step is the infinitary distributive law (t\wedge\bigvee s_i=\bigvee(t\wedge s_i)), valid in every frame. No pointwise decomposition or choice of ordinary points occurs.
+**Key point:** This is a *weak-defect* obstruction involving arbitrary, possibly nonspatial target frames. It is not restricted to ordinary pairs or relatively open holes.
 
-## 2. Scattered positive class
+## 2. Consequences for D, W and scattered spaces
 
-**Corollary 2.1.** If (L) is closed-atomic, every binary-compatible pair of frame maps (h,k:L\to M) respects every arbitrary (L)-cover. Consequently,
+**Corollary 2.1.** If \(L\) is closed-atomic, every binary-compatible pair into any frame matches every arbitrary cover. Therefore
 \[
-\boxed{D_2(X)=D(X),\qquad W_2(X)=W(X).}\tag{2.1}
+\boxed{D_2(X)=D(X),\qquad W_2(X)=W(X).} \tag{2.1}
 \]
-*Proof.* Otherwise Theorem 1.1 constructs a nonzero closed quotient ([e_h,1]) lacking atoms, contradicting closed-atomicity. Maps into arbitrary frames classify morphisms into (X^2), and factoring through (D_2) (respectively (D)) is precisely finite-cover (respectively all-cover) compatibility. Thus equality of all such factorization predicates yields (D_2=D). Taking closures gives (W_2=W). □
+*Proof.* A defective pair would contradict closed-atomicity by Theorem 1.1. A locale map into \(X^2\), represented by a coordinate pair into its domain frame, factors through \(D_2\) exactly when it matches every finite cover, and through \(D\) when it matches every cover. Equality of these universal factorization conditions yields \(D_2=D\). Taking closures yields \(W_2=W\). □
 
-**Corollary 2.2 (ordinary scattered spaces).** Suppose (X) is spatial and its sober point space is *topologically scattered*: every nonempty closed subspace has an isolated point. Then (L=\mathcal O(X)) is closed-atomic, because the singleton of an isolated point is an atom in the frame of opens of the corresponding nonempty closed subspace. Therefore (2.1) holds. No local compactness, regularity, metacompactness, Baire property, or spatiality of (X^2) or (W_2(X)) is required.
+**Corollary 2.2 (topologically scattered spatial locales).** Suppose \(X\) is spatial and the ordinary sober point space of \(X\) is scattered: **every nonempty closed subspace has an isolated point**. Then \(L\) is closed-atomic. Indeed each nonzero closed sublocale \(\mathfrak c(e)\) is represented by the corresponding nonempty closed point subspace, and an isolated singleton there is an atom of \([e,1]\). Consequently (2.1) holds, without local compactness, regularity, Baire assumptions, or spatiality of the *localic square* \(X^2\).
 
-**Remark on the name.** Picado–Pultr, *Frames and Locales* (2012), VI §8.1, use “scattered space” in precisely the ordinary closed-subspace sense. Some locale-theoretic definitions of scatteredness refer instead to Boolean sublocales or complemented sublocales; **this note makes no assertion that those point-free notions coincide with closed-atomicity**.
+*Terminology check:* Picado–Pultr, *Frames and Locales* (2012), VI §8.1, give this topological definition of scattered spaces. Other usages of “scattered locale” involve complemented or Boolean sublocales; **no identification with closed-atomicity is asserted here**.
 
-## 3. Fixed-point strengthening, Q and Q′
+## 3. Full-versus-finite fixed points and Q/Q′
 
-Let (P=L\oplus L) and
+Write
 \[
 \Phi_2(d)=\bigvee_{F\text{ finite cover}}(w_F\to d),\qquad
 \Phi(d)=\bigvee_{C\text{ arbitrary cover}}(w_C\to d).
 \]
-**Lemma 3.1.** If every finite-cover-compatible pair of frame maps into any target frame respects every arbitrary cover (in particular if (D_2=D)), then every (\Phi_2)-fixed (d\in P) is also (\Phi)-fixed.
+**Lemma 3.1.** If \(D_2=D\), then **every \(\Phi_2\)-fixed open \(d\in P\) is also \(\Phi\)-fixed.**
 
-*Proof.* Suppose (\Phi_2(d)=d) but (\Phi(d)>d). Choose a cover (C) for which (r=(w_C\to d)\nleq d). In the closed sublocale (Y=\mathfrak c_{X^2}(d)), the relatively open sublocale (E=\mathfrak o_Y(r)) is nonzero and its (C)-matching open vanishes. For each finite cover (F), (w_F|_Y) and hence (w_F|_E) are dense open: (w_F\to d=d). Pass from (\mathcal O(E)) to its nontrivial double-negation Booleanization (B(E)). Every dense open becomes top, whereas (w_C|_E=0) remains bottom. The coordinate maps (L\rightrightarrows\mathcal O(E)\to B(E)) therefore define a nontrivial finite-compatible but (C)-defective pair, contradiction. □
+*Proof.* If \(\Phi_2(d)=d\) but \(\Phi(d)>d\), choose \(C\) with
+\(r=(w_C\to d)\nleq d\). The relatively open sublocale
+\(E=\mathfrak o_{\mathfrak c_{X^2}(d)}(r)\) is nonzero and has \(w_C|_E=0\). For every finite cover \(F\), \(w_F\to d=d\), so \(w_F\) is dense open on \(\mathfrak c(d)\) and on \(E\). Compose the two coordinate maps \(L\rightrightarrows\mathcal O(E)\) with the canonical quotient to the **nontrivial double-negation Booleanization** \(B(E)\). Every finite-cover matching square becomes top (it was dense), while the \(C\)-square remains bottom. This constructs a finite-compatible, \(C\)-defective pair, contradicting \(D_2=D\). □
 
-Thus under closed-atomicity, the **full and finite pre-nuclei have the same fixed points**, not necessarily the same pointwise values at one stage. In particular Q′ holds, and the rank-one Q implication holds whenever its finite-fixed premise (\Phi_2(z_1)=z_1) applies. **Do not claim unconditional one-step equality \(\Phi=\Phi_2\).**
+Thus in the closed-atomic class, the two pre-nuclei have the **same fixed points**, not necessarily the same value at each individual stage. In particular, **Q′** holds, and the rank-one **Q** implication holds under its specified finite-fixed premise \(\Phi_2(z_1)=z_1\). We do **not** assert the unconditional one-step identity \(\Phi=\Phi_2\).
 
-## 4. Internal adversarial checks and limitations
+## 4. Adversarial checks and limitations
 
-1. **Target reduction valid.** (t\mapsto t\vee m_C) preserves arbitrary joins, finite meets, and top; the quotient is nontrivial precisely because (m_C<1_M). Bottom in (M') is (m_C), not original (0_M).
-2. **Zero kernel principal.** The join (e_h) of all zero-mapped opens is again zero-mapped; conversely (h'(a)=0\iff a\le e_h). This justifies all comparisons in the closed-support interval.
-3. **Atom partition exhaustive.** (a\wedge(c\vee e)\in[e,a]), so it is exactly (e) or (a). Even an infinite (C) yields a legitimate binary *coarsening* \(\{u,v\}\).
-4. **No pointwise leap.** The proof uses arbitrary frame morphisms and does not assume generalized pairs arise from ordinary points.
-5. **Sublocale passage.** Equality (D_2=D) follows from the same universal factorization property, not from coincidence of ordinary points.
-6. **Not a necessity criterion.** Closed-atomicity is sufficient, not necessary: compact atomless spatial frames have (D_2=D) because all covers admit finite subcovers.
-7. **Known weak-defect examples.** A Scott or Arrieta Boolean weak defect must have both coordinate least closed supports atomless; this is a new consistency test, not a claim that their entire source frames are atomless.
-8. **One-step caveat.** The strong equality of fixed-point sets follows from Lemma 3.1; it does not establish \(\Phi(q)=\Phi_2(q)\) for arbitrary (q).
+1. **Closed quotient bottom:** In \(M'=\uparrow m_C\), the bottom is \(m_C\), not original \(0_M\); \(q(t)=t\vee m_C\) is a frame quotient preserving finite meets and arbitrary joins.
+2. **Kernel support:** The zero kernel of any frame map is principal, generated by \(e_h\). Thus restriction to \([e_h,1]\) is legitimate even for nonspatial \(M\).
+3. **Partition:** The two cases for \(a\wedge(c\vee e)\) are exhaustive because \(a\) is an atom. The first part \(C_1\) is nonempty because \(C\) covers, and \(u,v\) are genuine elements of \(L\).
+4. **Infinite joins:** The final contradiction uses \(h(a)\wedge\bigvee_{C_1}k(c)=\bigvee_{C_1}(h(a)\wedge k(c))\), which holds in every frame.
+5. **No pointwise substitution:** Equality \(D_2=D\) is justified by the universal property across all frame targets, not by an ordinary point-set argument.
+6. **Not necessary:** Compact atomless spatial frames still satisfy \(D_2=D\), because every cover has a finite subcover; they need not be closed-atomic.
+7. **Existing weak defects:** Any Scott or Arrieta weak finite/full defect must satisfy the **atomless normalized coordinate-support** obstruction. This is a test of candidate defects, not a claim that their source frames have no atoms.
+8. **Rank-one caution:** The fixed-point lemma addresses Q under its premise; it does not assert \(\Phi(z_1)=z_1\) when \(\Phi_2(z_1)\neq z_1\).
 
-**Status:** This theorem and its consequences have passed the algebraic internal audit here, but have **not** been externally refereed or checked for originality. Universal Q and Q′ remain OPEN.
+**AUDIT STATUS:** Algebraically checked internally, with exact hypotheses and nonspatial-target handling. Not externally audited and not checked for originality. Universal Q and Q′ remain OPEN.
