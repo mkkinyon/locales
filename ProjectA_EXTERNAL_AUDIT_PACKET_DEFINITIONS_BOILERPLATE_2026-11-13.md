@@ -1,5 +1,8 @@
 # Project A — reusable definitions and notation for external audit packets
 
+> **14 NOV 2026 — STATUS UPDATE:** Universal Q and Q′ are now **answered negatively** by the [dense-rational-bridge counterexample](ProjectA_Q_DENSE_RATIONAL_BRIDGE_CANONICAL_2026-11-14.md). Both a blind external referee and an independent internal audit found the construction valid; the original Φ/Φ₂ equivalence was separately verified. This file's 13 November wording is retained where historical, but **future packets must use the resolved status**. No literature-priority claim.
+
+
 **Template, 13 November 2026.** This is a **copy-and-trim preamble**, not a stand-alone theorem or an assertion that every item is relevant to every audit. Its canonical home is the Point-free Topology repository. For an external referee, **paste the applicable sections into the actual packet**: a link to this file alone is not a substitute for defining notation in the packet. Remove irrelevant optional modules and all editorial instructions before submission.
 
 The **core** below is intended for Project A's separation-relation / fitted-diagonal branch. Audits of coherent sheaves, classifying anima, crosscut nerves, or other branches need their **own additional definitions**; those symbols are not silently covered here.
@@ -113,12 +116,12 @@ The rank-zero element is
 \]
 The finite-cover closed hull is \(W_2(X)=C_{X^2}(d)\), where \(d=\Phi_2^\infty(0)\) denotes the stabilized transfinite iteration from \(0\).
 
-The two **universal open questions** (status as of 13 November 2026) are:
+The two **original universal questions** (answered negatively on 14 November 2026) are:
 
 - **Q:** For every locale \(X\), does \(\Phi_2(z)=z\) imply \(\Phi(z)=z\)? Equivalently, does \(W_2(X)=U(X)\) imply \(W(X)=U(X)\)?
 - **Q′:** For every locale \(X\), does \(W_2(X)=W(X)\)? Equivalently, is \(B(D_2(X))\le D(X)\) for every \(X\)?
 
-Q′ would imply Q. Neither is known in general; an example with \(D_2(X)\ne D(X)\) alone disproves **neither** question.
+Q′ would imply Q. Both are false in general; an example with \(D_2(X)\ne D(X)\) alone would still disprove **neither** question. The decisive example has \(W=I<W_2=U\).
 
 For a full cover \(\mathscr C\), define the **weak defect**
 \[

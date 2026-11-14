@@ -1,3 +1,5 @@
+> **14 NOV 2026 — CURRENT Q/Q′ STATUS: BOTH FALSE.** The [canonical dense-rational-bridge counterexample](ProjectA_Q_DENSE_RATIONAL_BRIDGE_CANONICAL_2026-11-14.md), [independent-blind-referee reconciliation](ProjectA_Q_DENSE_RATIONAL_BRIDGE_REFEREE_RECONCILIATION_2026-11-14.md), and [audit archive](project-a/audits/2026-11-14/Q-dense-rational-bridge/README.md) establish an étale, second-countable, locally compact, sober T₁ example with `D=Δ` and `W=I<W₂=U=X×_ℝX`. The original Φ/Φ₂ equivalence was explicitly checked after the referee report. **All statements below describing universal Q or Q′ as open are historical and superseded.** Literature novelty/priority has not been reviewed.
+
 # Point-Free Topology — Start here
 
 **Post-referee mathematical developments:** [Consolidated one-bit Cohen and weak-subfit rigidity proofs](ProjectA_Q_COHEN_ARRIETA_ONE_BIT_AND_SECTION_RIGIDITY_CANONICAL_2026-11-13.md) and the [full referee reconciliation](ProjectA_Q_COHEN_ARRIETA_EXTERNAL_REFEREE_RECONCILIATION_AND_IDEAS_2026-11-13.md). These extensions are **internally checked only**; Q/Q′ remain OPEN. The next active work is relative nowhere-density inside (D_2).
