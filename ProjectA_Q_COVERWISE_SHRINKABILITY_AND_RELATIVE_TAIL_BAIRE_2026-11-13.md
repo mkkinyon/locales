@@ -153,6 +153,16 @@ This is a decisive negative check on interpretation: **\(p_C=0\)** and **dense t
 
 The Baire corollary is also *conditional*. An intersection of countably many dense opens need not be an open sublocale, and emptiness of its set of ordinary points does **not** automatically make the intersection sublocale zero in a nonspatial setting.
 
+### 3.1 Internal no-go: Booleanization erases the density distinction
+
+There is an important adversarial interpretation check. For any locale E, its Booleanization \(B(E)\) is the **least dense sublocale** of E. Therefore, for an E-open \(v\),
+\[
+v\text{ is dense in }E\quad\Longleftrightarrow\quad B(E)\le\mathfrak o_E(v). \tag{3.1}
+\]
+Applied to the tail square in Theorem 2.1, this says that relative tail density is exactly the statement that each tail square restricts to **top** on the Booleanization of E. In generalized-pair language, it is the already known equation \(h(t_F)\wedge k(t_F)=1\) for the canonical Boolean pair. Theorem 2.1 supplies the appropriate *geometric location* for that equation, **not an independent extra finite-cover constraint**.
+
+Moreover, in a complete Boolean frame the only dense open **element** is top, so the usual localic Baire condition on the Booleanization itself has no useful content here. The nontrivial Baire issue must concern the *embedding* of the Boolean part as a dense sublocale of a **relatively open E in \(W_2\)**, or the tail-intersection in \(W_2\). One must not present the Stone-ultrafilter Baire diagnostic or the localic tail reformulation as a proof of additional density.
+
 ## 4. Research decision
 
 The earlier uniform closed core \(R_X\) can be refined to a cover-dependent core \(\mathfrak c_X(p_C)\), and the \(\Phi_2\)-fixed-point condition gives **dense finite-tail squares in every hypothetical marked hole**. This is a clean intrinsic formulation of the kind of recurrence a Q′ hole must support.
