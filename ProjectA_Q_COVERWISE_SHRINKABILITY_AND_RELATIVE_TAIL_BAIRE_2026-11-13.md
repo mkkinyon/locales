@@ -49,7 +49,7 @@ r\wedge(c\boxtimes c)\le (w_C\to d)\wedge w_C\le d.
 \]
 Thus \(r\wedge w_G\le d\), whence \(r\le w_G\to d=d\). Join over all such \(u\) and swap coordinates for the second half. Inside \(Y_d\), (1.2) says the marked hole has empty intersection with the open sectors \(p_C\boxtimes1\) and \(1\boxtimes p_C\), so it factors through their common closed complement (1.3). □
 
-**Corollary 1.2.** If \(p_C=1\), then \(w_C\to d=d\) at **every** finite-fixed \(d\). Moreover \(D_2(X)\le\mathfrak o(w_C)\): every finite-cover-compatible generalized pair respects this particular arbitrary cover. If \(p_C=1\) for **every** cover, then \(D_2=D\) (stronger than Q′).
+**Corollary 1.2.** If \(p_C=1\), then \(w_C\to d=d\) at **every** finite-fixed \(d\). Moreover \(D_2(X)\le\mathfrak o(w_C)\): otherwise the nonzero closed \(C\)-zero part of \(D_2\) would give a finite-compatible pair into a nonzero target with \(w_C=0\); Lemma 1.3 below would force its coordinate maps to annihilate \(p_C=1\), contradicting unitality. If \(p_C=1\) for **every** cover, then \(D_2=D\) (stronger than Q′).
 
 The previous compact/regular closed-patch invariant \(p_X\) (join of ambient opens supported in globally closed compact/regular sublocales) satisfies
 \[
@@ -74,7 +74,7 @@ Then
 \]
 Consequently \(h(u^*)=k(u^*)=1\); since \(u\wedge u^*=0\), both \(h(u)\) and \(k(u)\) are zero. Preserve the defining join. □
 
-In particular, if **either** coordinate map is zero-reflecting, then \(p_C=0\). This applies after passing to the appropriate least closed coordinate support of a weak defect; in particular, for the independently established symmetric marked Q′ hole, both coordinate maps separately reflect zero after the canonical closed-support reduction. On that *reduced* locale \(K\), the **restricted** cover \(C_K\) therefore satisfies
+In particular, if **either** coordinate map is zero-reflecting, then \(p_C=0\). This applies to any weak defect that factors through a **common** closed coordinate support on which at least one coordinate reflects zero. In particular, for the independently established symmetric marked Q′ hole, both coordinate maps separately reflect zero after the canonical closed-support reduction. A one-coordinate support reduction alone does **not** automatically make the other coordinate factor through the same closed sublocale. On that *reduced* locale \(K\), the **restricted** cover \(C_K\) therefore satisfies
 \[
 \boxed{p_{C_K}=0.} \tag{1.6}
 \]
