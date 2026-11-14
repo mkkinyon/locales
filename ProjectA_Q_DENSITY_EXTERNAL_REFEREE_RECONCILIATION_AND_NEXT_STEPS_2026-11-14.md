@@ -109,9 +109,17 @@ h(g)\le
 
 Since \(G\) covers, \(\bigvee_{g\in G}h(g)=1\le m\). Thus \(m=1\), proving (3.1) by the universal factorization property of \(D_2\). \(\square\)
 
-**Corollary 3.2.** If every open cover of \(X\) admits a locally finite refinement (with this precise frame-theoretic meaning), then \(D_2=D\), and hence \(W_2=W\). No spatiality, separation, or Baire hypotheses are required.
+**Corollary 3.2 (locally finite refinements).** Suppose every open cover \(C\) of \(X\) admits a refinement \(G\) that is itself locally finite: there is a further open cover \(H\) such that every \(h\in H\) meets only finitely many \(g\in G\). Then \(D_2=D\) and \(W_2=W\), without spatiality, separation, or Baire hypotheses. Indeed Theorem 3.1 applies **to \(G\)**, yielding \(D_2\le O(w_G)\); refinement gives \(w_G\le w_C\), hence \(D_2\le O(w_C)\). The locality condition in Theorem 3.1 concerns finite incidence with the *tested cover*, while this corollary uses a locally finite **refinement of** an arbitrary tested cover. Conflating the two is a potential pitfall.
 
 This is stronger in hypotheses/conclusion in a different direction from the previously known spatial hereditary-Baire point-finite result, and is to be credited to the external referee pending a literature search. **No claim of novelty relative to the point-free paracompactness literature is made.**
+
+### 3.3 C-singular core: an immediate localization
+
+For a cover \(C\), define the open
+\[
+U_C=\bigvee\{g\in L:\#\{c\in C:g\wedge c\ne0\}<\infty\}.
+\]
+The proof of Theorem 3.1 works *separately for each such* \(g\): if \(m_C=\bigvee_{c\in C}h(c)\wedge k(c)\), then \(h(U_C)\le m_C\) and \(k(U_C)\le m_C\) for any finite-cover-compatible pair. After normalizing a defect by the quotient \(M\to\uparrow m_C\), both coordinate maps kill \(U_C\), so their least closed supports lie in \(\mathfrak c_X(U_C)\). This is a useful frame-intrinsic **finite-incidence singular core** condition on any candidate defect. It does not rule out defects supported on a nowhere-dense core, and it is not a proof of Q′.
 
 ## 4. Closed-atomic equals scattered-space frames
 
@@ -123,11 +131,11 @@ Therefore the **closed-atomic condition is a frame characterization of the ordin
 
 ## 5. Corrections to the controls and visibility wording
 
-- **Scott product:** In the example \(X=\mathcal P(\omega)\setminus\{\varnothing\}\) with Scott topology, every basic \(\uparrow P\) is compact open, so \(X\) is locally compact and sober. The localic square agrees with the topological product. Its closed sublocale \(R\) of disjoint pairs is therefore represented by the ordinary closed subspace, allowing the spatial Baire and finite-density arguments as written.
+- **Scott product:** In the example \(X=\mathcal P(\omega)\setminus\{\varnothing\}\) with Scott topology, each basic \(\uparrow F\) for finite nonempty \(F\subseteq\omega\) is compact open, so \(X\) is locally compact and sober. The localic square agrees with the topological product. Its closed sublocale \(R\) of disjoint pairs is therefore represented by the ordinary closed subspace, allowing the spatial Baire and finite-density arguments as written.
 - **Scott has a finest cover:** \(C=\{c_n\}\) refines every open cover of \(X\): any cover member containing \(\{n\}\) contains all of \(c_n=\uparrow\{n\}\). Thus \(D=O(w_C)\) and \(W=U=X^2\) for an elementary reason. The example remains valid and important as a **negative control**, not as an example in the open regime of Q′.
 - **Polish control:** The localic square of the Polish \(X=[\omega]^\omega\) is spatial; it is regular, so \(D_2=D=\Delta\) and \(W_2=W=U=\Delta\). The disjoint-pair closed relation lies outside \(W_2\).
 - **Existential Scott correction:** The old phrase “the particular \(B(R)\) has nowhere-dense closure, hence condition (4) fails” is not logically sufficient by itself because (4) is existential. The valid justification is \(K_C=R\) itself is closed nowhere dense in \(W_2=X^2\), so no \(B\le A_C\le K_C\) can have closure with nonzero interior.
-- **Visiblity is not a new constraint:** Proposition 6.1 remains an exact reformulation of Q′ at the **canonical** \(W_2\), not a solution.
+- **Visibility is not a new constraint:** Proposition 6.1 remains an exact reformulation of Q′ at the **canonical** \(W_2\), not a solution.
 - **Terminology:** \(D_2\) as fitted sublocale means *finite-cover tests*, not the second iterate. The proofs distinguish open complements \(C(w)\) from closure \(\operatorname{cl}S\).
 
 ## 6. Countably presented / quasi-Polish intermediate setting
