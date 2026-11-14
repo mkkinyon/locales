@@ -1,5 +1,8 @@
 # Project A — finite-cover spectral envelope and the nowhere-dense ghost boundary
 
+> **IMPORTANT POST-NOTE ADVERSARIAL CORRECTION (13 Nov; internal):** [Canonical predecessor-lift no-go](ProjectA_Q_CANONICAL_SPECTRAL_PREDECESSOR_LIFT_NO_GO_2026-11-13.md) gives a genuine X-cover C of a countable coproduct of finite V-spaces, and a finite-compatible prime pair \(P_x,P_y\), which **matches C at its endpoints** but has **no C-matching common prime predecessor**. Yet \(D_2(X)=D(X)\). Thus the image of the ghost-predecessor incidence is strictly larger than the C-bad locus even for our **canonical** ideal-completion envelope. The incidence projection is **not** an equivalent replacement for endpoint matching-square density. Prefer direct endpoint density; do not infer badness from “all predecessors avoid C.”
+
+
 **13 November 2026 (America/Denver); NEW INTERNAL proof/interpretation, NOT externally audited.** This follows the [coverwise shrinkability / relative-tail diagnostic](ProjectA_Q_COVERWISE_SHRINKABILITY_AND_RELATIVE_TAIL_BAIRE_2026-11-13.md). The point is to put finite-cover fitting and the infinitary density gap in the same **compact coherent envelope**, retaining the distinction between ordinary locale points and prime-filter ghosts. No claim to originality of the ideal-completion construction or prime ideal theorem; **universal Q/Q′ remain OPEN**.
 
 ## 0. Standing definitions
