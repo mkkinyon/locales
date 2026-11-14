@@ -1,6 +1,6 @@
 # Project A / Q, Q′ — closed-atomic support obstruction; scattered-space positive class
 
-**13 November 2026 (America/Denver); INTERNAL ADVERSARIAL AUDIT, not externally refereed.** The claim below is stated with an explicit **closed-atomic** frame condition. Published usages of “scattered locale” vary; only the standard *topological* scatteredness convention is used in the spatial corollary.
+**Originally internally audited on 13 November 2026; the theorem was independently blind-refereed on 14 November (no error found).** Published usages of “scattered locale” vary. The frame condition below is now identified precisely with the topology of a **scattered sober \(T_0\) space**; it is not a new wider point-free class. See §2.3.
 
 ## 0. Set-up and precise hypothesis
 
@@ -79,7 +79,18 @@ since \(h(a)\le h(c)\) and \(h(c)\wedge k(c)=0_M\) for every \(c\in C_1\). Contr
 
 **Corollary 2.2 (topologically scattered spatial locales).** Suppose \(X\) is spatial and the ordinary sober point space of \(X\) is scattered: **every nonempty closed subspace has an isolated point**. Then \(L\) is closed-atomic. Indeed each nonzero closed sublocale \(\mathfrak c(e)\) is represented by the corresponding nonempty closed point subspace, and an isolated singleton there is an atom of \([e,1]\). Consequently (2.1) holds, without local compactness, regularity, Baire assumptions, or spatiality of the *localic square* \(X^2\).
 
-*Terminology check:* Picado–Pultr, *Frames and Locales* (2012), VI §8.1, give this topological definition of scattered spaces. Other usages of “scattered locale” involve complemented or Boolean sublocales; **no identification with closed-atomicity is asserted here**.
+*Terminology/provenance:* The precise location of the scattered-space definition in Picado–Pultr, *Frames and Locales* (2012), VI §8.1, has **not** been checked against the book itself. We use the explicit topological definition in Corollary 2.2, and do not equate it with other uses of “scattered locale”.
+
+### 2.3 Converse: every closed-atomic frame is spatial and scattered
+
+**Proposition 2.3 (referee observation).** The following are equivalent for a frame \(L\):
+
+1. Every proper closed interval frame \([e,1_L]\) has an atom.
+2. \(L\cong\mathcal O(X)\) for a scattered sober \(T_0\) space \(X\).
+
+*Proof.* (2)⇒(1) is Corollary 2.2. Conversely, let \(u\nleq v\) and put \(e=u\to v<1_L\). Choose an atom \(a>e\) in \([e,1]\) and set \(p=a\to e\). If \(x\nleq p\), then \(a\wedge x\nleq e\), so atomicity forces \(a\le x\vee e\). Therefore if \(x,y\nleq p\), we get \(a\le(x\vee e)\wedge(y\vee e)=(x\wedge y)\vee e\), hence \(x\wedge y\nleq p\). Thus \(p\) is a prime element of \(L\), defining a frame map \(L\to2\). Also \(v\le e\le p\) whereas \(u\nleq p\) (else \(a\wedge u\le e=u\to v\), yielding \(a\le u\to v=e\)). These points separate every \(u\nleq v\), so \(L\) is spatial. For each proper \(e\), an atom of \([e,1]\) is a nonempty minimal open of the corresponding closed point subspace; \(T_0\) then makes it an isolated singleton. Hence the space is scattered. A scattered \(T_0\) space is sober because every nonempty irreducible closed subspace has an isolated point, which must be its generic point. \(\square\`
+
+The theorem gives a useful intrinsic test and a point-free proof, but the **class is exactly the familiar scattered \(T_0\) class**.
 
 ## 3. Full-versus-finite fixed points and Q/Q′
 
@@ -88,7 +99,7 @@ Write
 \Phi_2(d)=\bigvee_{F\text{ finite cover}}(w_F\to d),\qquad
 \Phi(d)=\bigvee_{C\text{ arbitrary cover}}(w_C\to d).
 \]
-**Lemma 3.1.** If \(D_2=D\), then **every \(\Phi_2\)-fixed open \(d\in P\) is also \(\Phi\)-fixed.**
+**Lemma 3.1 (sharpened).** \(D_2=D\) **if and only if** every \(\Phi_2\)-fixed open \(d\in P\) is also \(\Phi\)-fixed. This follows immediately from \(D_2=\operatorname{Fix}(\Phi_2)\) and \(D=\operatorname{Fix}(\Phi)\) as subsets of \(P\). The original independent Booleanization proof of the nontrivial direction is retained below.
 
 *Proof.* If \(\Phi_2(d)=d\) but \(\Phi(d)>d\), choose \(C\) with
 \(r=(w_C\to d)\nleq d\). The relatively open sublocale
@@ -107,4 +118,4 @@ Thus in the closed-atomic class, the two pre-nuclei have the **same fixed points
 7. **Existing weak defects:** Any Scott or Arrieta weak finite/full defect must satisfy the **atomless normalized coordinate-support** obstruction. This is a test of candidate defects, not a claim that their source frames have no atoms.
 8. **Rank-one caution:** The fixed-point lemma addresses Q under its premise; it does not assert \(\Phi(z_1)=z_1\) when \(\Phi_2(z_1)\neq z_1\).
 
-**AUDIT STATUS:** Algebraically checked internally, with exact hypotheses and nonspatial-target handling. Not externally audited and not checked for originality. Universal Q and Q′ remain OPEN.
+**AUDIT STATUS (updated 14 November):** Original algebraic proof internally checked and independently blind-refereed (no error found); the converse spatial/scattered characterization above was supplied by that referee and checked internally. Literature originality has not been assessed. Universal Q and Q′ remain OPEN. See [reconciliation](ProjectA_Q_DENSITY_EXTERNAL_REFEREE_RECONCILIATION_AND_NEXT_STEPS_2026-11-14.md).
