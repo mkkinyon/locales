@@ -148,9 +148,32 @@ Thus if \(X\) has a countable frame presentation, its localic \(X^2\), the close
 
 **Intermediate question (QP-Q′).** Is \(W_2(X)=W(X)\) for every quasi-Polish \(X\)? This is a concrete target at which our relative category method becomes automatically available. It remains open in this programme.
 
-## 7. Remaining research priorities
+## 7. Exact rectangular witness formulation for Q′
 
-1. **Canonical maximality, not an arbitrary finite-fixed relation:** the Scott closed/Baire control refutes any universal “finite-square density on a Baire closed relation implies C-density” proof. Require actual nonzero relative openness in \(W_2\).
+Define a relation on opens of \(X\) by
+\[
+a\,N\,b\quad\Longleftrightarrow\quad
+D_2(X)\wedge O_{X^2}(a\boxtimes b)\ne0.
+\]
+Because \(D_2\) is dense in \(W_2=\operatorname{cl}D_2\), this means exactly that the indicated relatively open rectangle of \(W_2\) is nonzero.
+
+**Proposition 7.1 (referee's rectangle form, checked here).** For an arbitrary cover \(C\), the corresponding matching open \(w_C\) is dense in \(W_2\) **if and only if**
+\[
+\forall a,b\in L\quad
+\bigl(a\,N\,b\bigr)\Longrightarrow
+\bigl(\exists c\in C\bigr)\ 
+\bigl((a\wedge c)\,N\,(b\wedge c)\bigr).
+\tag{7.1}
+\]
+Consequently Q′ fails precisely when there is a triple \((a,b,C)\) with \(C\) a cover, \(a\,N\,b\), and \((a\wedge c)\not N(b\wedge c)\) for every \(c\in C\). Such a witness necessarily has \(a\wedge b=0\).
+
+*Proof.* Relatively open rectangles form a basis of \(W_2\). The right-hand statement says each nonzero such rectangle meets one \(c\boxtimes c\) in a nonzero \(D_2\)-open patch. Density of \(D_2\) in \(W_2\) equates nonzero relatively open patches of \(D_2\) and \(W_2\). Taking the join over \(c\) gives density of \(w_C\) and the converse. If \(a\wedge b\ne0\), the cover identity \(a\wedge b=\bigvee_{c\in C}(a\wedge b\wedge c)\) supplies a \(c\) with nonzero meet. Since \(\Delta_X\le D_2\), the corresponding restricted rectangle meets \(D_2\), contrary to failure of (7.1). \(\square\)
+
+This **witness shape** is rigorous, but the further suggestion that \(N\) is the “largest completely prime binary-local relation” is not recorded as a theorem: “binary-local” and the claimed universal property need precise definitions and proof. Do not confuse the existence of an abstract weak defective relation with the required *canonical* \(N\).
+
+## 8. Remaining research priorities
+
+1. **Canonical maximality and the rectangle witness (7.1):** the Scott closed/Baire control refutes any universal “finite-square density on a Baire closed relation implies C-density” proof. Require actual nonzero relative openness in \(W_2\).
 2. **Arbitrary ambient binary covers:** coarsenings of \(C\) alone cannot distinguish weak/strong defects (decider lemma); the finite-cut reduction makes arbitrary binary ambient covers sufficient. Seek a geometric mechanism joining these tests inside the canonical \(W_2\).
 3. **Concrete controls within the open regime:** favor a nonregular, noncompact locale without a finest cover, with \(W\ne U\) and finite closure beyond rank one. Reuse the existing Arrieta/two-apex and Cohen controls rather than rebuilding their solved cases; test whether a new construction genuinely evades the proven positive classes.
 4. **Quasi-Polish Q′ as intermediate problem:** exploit automatically Baire open holes and countable bad covers; do **not** infer a countable separating family of finite covers without proof.
