@@ -126,4 +126,12 @@ Therefore \(w_F|_R\) is dense open. □
 
 **Proposition 5.2 (no open-hole interpretation).** The closed set \(R\) has **empty interior** in \(X^2\): any nonempty basic rectangle \((\uparrow P)\times(\uparrow Q)\) contains the overlapping pair \((P\cup Q,P\cup Q)\). Thus \(R\) is nowhere dense in the spatial topological square. In this Scott example the diagonal is dense in the square (every pair of nonempty Scott opens intersects), so the closure of the fitted diagonal is the whole square, \(W_2=X^2\), and \(R\) supplies **no nonzero relatively open C-hole**.
 
+**Corollary 5.3 (sharp fixed-point nontransfer).** In this example put \(d_R=w_C\in P\), so \(R=\mathfrak c_{X^2}(d_R)\). Proposition 5.1 says
+\[
+\boxed{\Phi_2(d_R)=d_R, \qquad \Phi(d_R)=1_P>d_R,} \tag{5.1}
+\]
+the second equality holding since the \(C\)-term is \(w_C\to d_R=1_P\). By contrast, **every** arbitrary-cover matching square is dense in the **whole** \(X^2\): given any nonempty basic rectangle, choose a singleton \(\{n\}\) and one cover member containing it, and extend both coordinates by \(n\). Thus \(\Phi(0)=\Phi_2(0)=0\), so the canonical finite fixed point is \(d_0=0\), and Q′ holds: \(W_2=W=X^2\).
+
+Therefore **Q′ does not imply that every \(\Phi_2\)-fixed open is \(\Phi\)-fixed**. Any proof scheme trying to establish that global fixed-point equality as an intermediate step toward Q′ is too strong. It must exploit **the canonical least fixed point \(d_0\)**, not an arbitrary finite-fixed closed relation.
+
 **Adversarial conclusion.** The earlier Polish disjoint-infinite-set control failed unrelated finite covers. This Scott control is stronger: *all* finite \(X\)-cover squares are dense on a **Baire closed subspace**, yet the infinite \(C\)-square is zero there. The only missing hypothesis for a Q′ counterexample is precisely that the bad relation contains a **nonzero open of \(W_2\)**. Hence no proof based merely on “finite squares dense on a Baire relation” can work; the open placement inside \(W_2\) must be used. This is an elementary spatial manifestation of the already known weak-versus-strong Scott defect distinction, not a novel universal counterexample.
