@@ -82,6 +82,12 @@ This is a stronger cover-dependent obstruction than simply having no compact/reg
 
 Two elementary bookkeeping facts: finite covers have \(p_C=1\); if \(C'\) refines \(C\), then \(p_{C'}\le p_C\). Neither fact implies that \(p_C\) is complemented, dense, or regular.
 
+**Further normalized-tail consequence (previously implicit in the point-finite Baire analysis).** Under the hypotheses of Lemma 1.3, for *each* finite F⊂C the finite cover \(F\cup\{t_F\}\) forces
+\[
+h(t_F)\wedge k(t_F)=1,\quad\text{hence }h(t_F)=k(t_F)=1. \tag{1.7}
+\]
+If h (or k) reflects zero on a common closed-support reduction K, then \(t_F^*=0_K\) in \(\mathcal O(K)\): from \(h(t_F)=1\), \(h(t_F^*)=0\), and zero-reflection applies. Therefore **every finite tail of the restricted bad cover is dense in K**, and every nonzero K-open intersects infinitely many cover members. This is a useful source-side necessity, not the needed density *inside \(W_2\)*. The earlier [point-finite Baire note](ProjectA_Q_BAIRE_POINTFINITE_RIGIDITY_AND_FAR_REDUNDANCY_2026-11-12.md) already used the equality \(h(t_F)=k(t_F)=1\).
+
 ## 2. A relative dense-tail theorem
 
 For each **finite** subset \(F\subseteq C\), put
