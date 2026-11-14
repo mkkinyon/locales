@@ -1,6 +1,6 @@
 # Project A / Q′ — binary-cover reduction, finite cut identity and closed-rectangle category formulation
 
-**13 November 2026 (America/Denver); INTERNAL proof segment, not externally refereed. Universal Q/Q′ OPEN.** This continues the [relative Baire incidence-profile programme](ProjectA_Q_RELATIVE_BAIRE_INCIDENCE_PROFILES_POLISH_CONTROL_2026-11-13.md). The main gain is a **point-free exact reduction of all finite-cover tests to binary-cover tests**. Thus the ambient tests missing from the Polish countercontrol can themselves be taken binary, but need not arise as coarsenings of the bad cover C.
+**Original working note, 13 November 2026; independently blind-refereed on 14 November (no false theorem found; clarifications and stronger algebraic scope incorporated). Universal Q/Q′ OPEN.** This continues the [relative Baire incidence-profile programme](ProjectA_Q_RELATIVE_BAIRE_INCIDENCE_PROFILES_POLISH_CONTROL_2026-11-13.md). The main gain is a **point-free exact reduction of all finite-cover tests to binary-cover tests**. Thus the ambient tests missing from the Polish countercontrol can themselves be taken binary, but need not arise as coarsenings of the bad cover C.
 
 ## 0. Notation
 
@@ -13,7 +13,7 @@ When \(F\) covers \(1_L\), every \(B_S\) is a binary \(L\)-cover.
 
 ## 1. Exact finite-cut identity
 
-**Theorem 1.1 (finite matching-square cut identity).** For every **finite cover** \(F=(f_1,\dots,f_n)\) in any frame \(L\),
+**Theorem 1.1 (finite matching-square cut identity).** For every **finite indexed family** \(F=(f_1,\dots,f_n)\) in any frame \(L\),
 \[
 \boxed{\quad
 w_F=\bigwedge_{S\subseteq[n]}w_{B_S}
@@ -24,13 +24,13 @@ as **opens in \(P=L\oplus L\)**. No spatiality hypothesis is used. Repetitions o
 
 *Proof.* In \(P\), put \(x_i=f_i\boxtimes1\) and \(y_i=1\boxtimes f_i\). These satisfy \(\bigvee_i x_i=\bigvee_i y_i=1_P\). Equation (1.1) is a **finite bounded-distributive-lattice identity** in these variables. To verify it, work in the finite distributive sublattice they generate (finitely generated distributive lattices are finite), where distinct elements can be separated by a homomorphism to the two-element lattice.
 
-Under any such \(0/1\)-valuation, let \(A=\{i:x_i=1\}\), \(B=\{i:y_i=1\}\); both are nonempty because the \(x_i\) and \(y_i\) each cover top. The left side \(w_F\) evaluates to \(1\) iff \(A\cap B\ne\varnothing\). Each binary cut \(w_{B_S}\) evaluates to \(1\) iff \(A,B\) both meet \(S\), or both meet \([n]\setminus S\).
+Under any such \(0/1\)-valuation, let \(A=\{i:x_i=1\}\), \(B=\{i:y_i=1\}\). The left side \(w_F\) evaluates to \(1\) iff \(A\cap B\ne\varnothing\). If either \(A\) or \(B\) is empty, both sides of (1.1) are zero. Otherwise both are nonempty, and the following argument applies unchanged. Each binary cut \(w_{B_S}\) evaluates to \(1\) iff \(A,B\) both meet \(S\), or both meet \([n]\setminus S\).
 
 If \(A\cap B\ne\varnothing\), every cut evaluates to \(1\). If \(A\cap B=\varnothing\), choose \(S=A\); then the \(S\)-side has no \(y_i=1\), while the complement has no \(x_i=1\), so this cut evaluates to \(0\). Hence the two sides of (1.1) agree under all \(0/1\)-valuations. They are equal in the finite distributive sublattice, and therefore in \(P\). □
 
-**Independent sanity check:** The underlying finite Boolean truth-table condition was exhaustively checked for \(1\le n\le6\) (nonempty index-support pairs); there were zero counterexamples. The proof does not depend on the computation.
+**Independent sanity checks:** The original truth-table test ran through \(n\le6\); a later internal audit ran through \(n\le8\) (86,368 nonempty ordered support pairs), and the blind referee independently checked the unrestricted (including empty-support) identity through \(n\le6\). No failures. The proof does not depend on the computation.
 
-**Remark.** Equation (1.1) is an identity of **open elements**, not merely equality of ordinary point sets or of resulting sublocales. This is materially stronger than the spatial pointwise binary coarsening observation.
+**Remark.** Equation (1.1) is the instance \(x_i=f_i\boxtimes1,\ y_i=1\boxtimes f_i\) of a finite identity in **arbitrary distributive lattices**, without a cover premise. The cover premise is needed only to make each \(B_S\) a genuine binary cover in §2. Equation (1.1) is an identity of **open elements**, not merely equality of ordinary point sets or of resulting sublocales. This is materially stronger than the spatial pointwise binary coarsening observation.
 
 ## 2. Consequences for D₂ and finite pre-nucleus fixed points
 
@@ -60,6 +60,8 @@ Write
 *Proof.* The forward hypothesis means every binary matching-square open restricts to a **dense** open in the closed locale \(Y=\mathfrak c(d)\). By (1.1), each finite \(w_F\) is a **finite meet** of such opens, hence also dense in \(Y\). Therefore \((w_F\to d)=d\) for all finite F. The reverse implication is immediate. □
 
 **Critical qualification:** We do **not** assert equality of the one-step maps \(\Phi_{\mathrm{bin}}=\Phi_2\). In a general Heyting algebra the implication of a finite meet is not necessarily the join of the individual implications. Equation (2.2) is a statement about their **fixed-point sets**.
+
+**14 November addendum (stagewise strictness and bound).** The referee supplied a six-point Alexandrov example with \(\Phi_{\mathrm{bin}}(d)<\Phi_2(d)\), despite (2.2). A separate proof is in [the referee reconciliation, §1.1](ProjectA_Q_DENSITY_EXTERNAL_REFEREE_RECONCILIATION_AND_NEXT_STEPS_2026-11-14.md). For every \(d\in P\) we nevertheless have the pointwise estimate \(\Phi_{\mathrm{bin}}(d)\le\Phi_2(d)\le\Phi_{\mathrm{bin}}^\omega(d)\), because each finite-cover residual is a finite composite of binary-cut residuals. This does not identify the one-step operators or establish an exact ordinal-rank ratio.
 
 ## 3. Geometric form in spatial X: disjoint closed rectangles
 
@@ -98,7 +100,7 @@ There is a direct spatial Baire model showing that **even full finite-cover dens
 \[
 X=\mathcal P(\omega)\setminus\{\varnothing\}
 \]
-with the Scott topology for inclusion. A basis consists of the opens \(\uparrow P=\{A:P\subseteq A\}\) for finite nonempty \(P\subseteq\omega\). The countable cover
+with the Scott topology for inclusion. A basis consists of the opens \(\uparrow P=\{A:P\subseteq A\}\) for finite nonempty \(P\subseteq\omega\). Each \(\uparrow P\) is compact open (a Scott-open cover of it has a member containing \(P\), hence all of \(\uparrow P\)); the space is locally compact and sober. Consequently its **localic square coincides with its ordinary topological product**, and the closed sublocale \(C(w_C)\) is represented by the ordinary closed set of disjoint pairs used below. The countable cover
 \[
 C=\{c_n:n\in\omega\},\qquad c_n=\{A:n\in A\},
 \]
@@ -134,6 +136,8 @@ the second equality holding since the \(C\)-term is \(w_C\to d_R=1_P\). By contr
 
 Therefore **Q′ does not imply that every \(\Phi_2\)-fixed open is \(\Phi\)-fixed**. Any proof scheme trying to establish that global fixed-point equality as an intermediate step toward Q′ is too strong. It must exploit **the canonical least fixed point \(d_0\)**, not an arbitrary finite-fixed closed relation.
 
+**Additional structural check (14 November):** The membership cover \(C=\{c_n\}\) is a **finest cover**: for any open cover \(G\), the singleton point \(\{n\}\) lies in some \(g\in G\), and Scott upward closure gives \(c_n=\uparrow\{n\}\le g\). Thus \(D=O(w_C)\), \(\Phi=w_C\to(-)\), and \(W=U=X^2\); this example is deliberately outside the nontrivial Q′ regime.
+
 **Adversarial conclusion.** The earlier Polish disjoint-infinite-set control failed unrelated finite covers. This Scott control is stronger: *all* finite \(X\)-cover squares are dense on a **Baire closed subspace**, yet the infinite \(C\)-square is zero there. The only missing hypothesis for a Q′ counterexample is precisely that the bad relation contains a **nonzero open of \(W_2\)**. Hence no proof based merely on “finite squares dense on a Baire relation” can work; the open placement inside \(W_2\) must be used. This is an elementary spatial manifestation of the already known weak-versus-strong Scott defect distinction, not a novel universal counterexample.
 
 
@@ -166,6 +170,6 @@ As \(B(V)\) is dense in the nonzero \(Y\)-open \(V\), its closure in \(Y\) conta
 
 This is a **criterion, not a proof of Q′**. It states exactly what a generalized weak Boolean finite/full defect needs to become strong: its closure must acquire **nonzero interior in the canonical finite fitted-diagonal closure** \(W_2\). Neither being Baire as a closed subspace nor being somewhere dense in some *smaller* \(\Phi_2\)-fixed closed relation is enough.
 
-**Scott verification.** In §5, \(B(R)\le A_C\) is a genuine weak defect. Its closure in \(Y=X^2\) is \(R\), which is **nowhere dense**. Hence condition (4) fails and Q′ holds. At the different finite-fixed closed relation \(R=\mathfrak c(w_C)\), the same Boolean sublocale is dense and witnesses \(\Phi(d_R)\ne d_R\). This juxtaposition is the exact reason the **canonical** qualifier in Proposition 6.1 is indispensable.
+**Scott verification.** In §5, \(B(R)\le A_C\) is a genuine weak defect. Its closure in \(Y=X^2\) is \(R\), which is **nowhere dense**. More importantly, **the entire closed complement \(K_C=R\) is nowhere dense**, so no \(B\le A_C\le K_C\) can have closure with nonzero interior. This establishes failure of existential condition (4), and Q′ holds. At the different finite-fixed closed relation \(R=\mathfrak c(w_C)\), the same Boolean sublocale is dense and witnesses \(\Phi(d_R)\ne d_R\). This juxtaposition is the exact reason the **canonical** qualifier in Proposition 6.1 is indispensable.
 
-**Next step for external audit.** Check (1.1), Corollaries 2.1–2.2, the spatial closed-rectangle translation, the elementary Scott construction, and Proposition 6.1; then assess whether the criterion gives a viable route to proving *all* Boolean weak defects nowhere dense in \(W_2\), or merely restates Q′. We currently regard Proposition 6.1 as an **exact reformulation**, not an independent extra constraint.
+**External audit outcome (14 November):** An independent blind referee checked (1.1), Corollaries 2.1–2.2, the spatial closed-rectangle translation, the Scott construction and Proposition 6.1, finding no false theorem. Their localic-product and existential-proof clarifications have been incorporated above. See [the reconciliation and next-step ledger](ProjectA_Q_DENSITY_EXTERNAL_REFEREE_RECONCILIATION_AND_NEXT_STEPS_2026-11-14.md). Proposition 6.1 remains an **exact reformulation**, not an independent constraint.
