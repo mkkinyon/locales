@@ -156,3 +156,31 @@ have join a; none dominates b because \(v\) contains every \(q_k\) but the secon
 **Scope precision.** The proof for general compact metrizable K only needs an open c containing p (not necessarily clopen). The metric hypothesis supplies the convergent sequence; an extension to arbitrary compact Hausdorff K would require a replacement for this step. This is still a theorem about **lax-double constructions**, not a proof of (LC-PT) for arbitrary locally compact spaces.
 
 **Interpretation.** The Booleanization construction is one instance of a much broader failure mode: *any* pointless quotient between the two compact Hausdorff sheets forces a way-below defect near a point in its closed support. This substantially narrows the usefulness of trying to repair (LC-PT) by merely changing the pointless quotient in the same two-sheet architecture.
+
+
+## 9. Exact T1/point-fit classification within the lax-double family
+
+For the same K and an **arbitrary** sublocale Q⊆K (including Q=0), the following are equivalent for \(X_Q\):
+
+1. \(X_Q\) is T1.
+2. Every ordinary point of \(X_Q\) is fitted.
+3. Q has no ordinary points.
+
+We already proved (3)⇒(1),(2) in §8. Conversely, if Q has a point r, its inclusion into K determines some \(p\in K\). On any X-open (u,v), the inequality q(u)≤q(v) implies
+\[
+p\in u\quad\Longrightarrow\quad p\in v,
+\]
+since the point r of Q evaluates the two sides. Thus \(p_0\le p_1\) in the ordinary specialization order. In particular X_Q is not T1; the first-projection fiber of \(\mathcal A(X_Q)\) over p_0 contains p_1, so p_0 is not fitted.
+
+Furthermore, \(X_Q\) is TU **iff** Q=0: for Q nonzero, the two frame homomorphisms to \(\mathcal O(Q)\) distinguish (0,1), while for Q=0 the frame \(L_Q=H\times H\) describes the disjoint sum of two regular locales, which is TU.
+
+Combining this classification with §8 yields a concise model-specific conclusion:
+\[
+\boxed{
+K\text{ compact metrizable Hausdorff},\
+X_Q\text{ T1 and locally compact}
+\quad\Longrightarrow\quad Q=0
+\quad\Longrightarrow\quad X_Q\text{ TU}.
+}
+\]
+That is, **(LC-PT) holds for this entire two-sheet lax-gluing architecture**. This is a limited positive result about a concrete family, not the unrestricted (LC-PT) theorem.
