@@ -113,3 +113,46 @@ We now have a control construction satisfying
 It realizes the exact zero-fiber generalized-comparison pattern from the [zero-fiber obstruction note](ProjectA_LCPT_ZERO_FIBER_OBSTRUCTION_2026-11-15.md), over a crowded compact Hausdorff closed locus K. Its failure of local compactness happens precisely where dense open representatives of regular opens are needed.
 
 **Next task:** identify whether the explicit way-below obstruction generalizes to *any* proposed point-fitted generalized-comparability witness over a locally compact sober T1 space, or whether there is a different construction that avoids it. Do not assume this example is a negative (LC-PT) answer.
+
+
+## 8. Strengthening: Booleanization is not special (internal follow-up)
+
+The failure of local compactness above does **not** depend on the regular-open quotient as such. It persists for the lax double built from **any nonzero pointless sublocale** of a compact metric Hausdorff space.
+
+**Proposition (general pointless-quotient lax double).** Let K be a compact metrizable Hausdorff space, and let \(q:\mathcal O(K)\twoheadrightarrow\mathcal O(Q)\) be the frame quotient corresponding to a **nonzero pointless sublocale** \(Q\hookrightarrow K\). Define
+\[
+L_Q=\{(u,v)\in\mathcal O(K)^2:q(u)\le q(v)\}.
+\]
+Then the corresponding locale \(X_Q\) is **compact, spatial, sober, T1, point-fitted, non-TU, and not locally compact**.
+
+*Proof of all but non-local-compactness.* The coordinatewise frame operations and the two open/closed copies of K are exactly as in §§1–2. The point set is two copies of K and is spatial and sober. Since Q has **no points**, it meets no one-point closed sublocale [p] of K. Open/closed complementarity gives \(Q\le O(K\setminus\{p\})\), so
+\[
+q(K\setminus\{p\})=1_Q.\tag{8.1}
+\]
+This supplies the cross-sheet T1 separator \((1,K\setminus\{p\})\) and also proves fittedness of each closed-sheet point by the argument of §3. Open-sheet points are fitted because K is regular. Compactness is coordinatewise. The two quotient-composite maps \(L_Q\rightrightarrows\mathcal O(Q)\) are distinct, ordered frame homomorphisms (they differ at (0,1)), so X_Q is non-TU.
+
+*Non-local-compactness.* The closure \(\operatorname{cl}_K(Q)\) is a nonzero closed sublocale of compact Hausdorff K, hence has some ordinary point p. In any neighborhood N of p,
+\[
+Q\wedge O(N)\ne0.\tag{8.2}
+\]
+Fix a clopen neighborhood c of p if K is zero-dimensional; in general take any open neighborhood c of p and work with a=(c,c\setminus\{p\}). Equation (8.1) makes a an element of \(L_Q\).
+
+Suppose \(b=(u,v)\ll a\) with p∈u. Then b≤a and q(u)≤q(v). For every neighborhood N of p, (8.2) applied to \(N\cap u\) says \(q(N\cap u)\ne0\); hence
+\[
+0\ne q(N\cap u)\le q(N\cap v),
+\]
+so \(N\cap v\ne\varnothing\). Thus p∈cl(v). Since K is metrizable, choose pairwise distinct \(q_n\in v\) converging to p.
+
+Let \(T_n=\{p\}\cup\{q_k:k\ge n\}\); it is a **closed scattered compact** subspace of K. A nonzero sublocale of a scattered sober space has a point: this follows by applying the constant-open-piece lemma in [the scattered reduction](ProjectA_LCPT_CLOSED_POINT_SCATTERED_EXCISION_2026-11-15.md) to its embedding. Therefore \(Q\wedge T_n=0\) (otherwise Q would contain a point). The open/closed decomposition implies \(Q\le O(K\setminus T_n)\), and hence
+\[
+q(c\setminus T_n)=q(c).
+\]
+The increasing elements
+\[
+d_n=(c,c\setminus T_n)\in L_Q
+\]
+have join a; none dominates b because \(v\) contains every \(q_k\) but the second coordinate of \(d_n\) excludes the whole tail. This contradicts \(b\ll a\). Thus every b≪a has p outside its first coordinate, so their join cannot equal a. The frame \(L_Q\) is not continuous. \(\square\)
+
+**Scope precision.** The proof for general compact metrizable K only needs an open c containing p (not necessarily clopen). The metric hypothesis supplies the convergent sequence; an extension to arbitrary compact Hausdorff K would require a replacement for this step. This is still a theorem about **lax-double constructions**, not a proof of (LC-PT) for arbitrary locally compact spaces.
+
+**Interpretation.** The Booleanization construction is one instance of a much broader failure mode: *any* pointless quotient between the two compact Hausdorff sheets forces a way-below defect near a point in its closed support. This substantially narrows the usefulness of trying to repair (LC-PT) by merely changing the pointless quotient in the same two-sheet architecture.
