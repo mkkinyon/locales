@@ -1,0 +1,152 @@
+Yes! On reflection, I have several additional observations. Two are fairly immediate consequences of the theorem, but a third suggests a more general structural investigation. I think they're worth recording separately from the referee report.
+
+## **1. A complete description of the fitted sublocales**
+
+This is perhaps the cleanest consequence that the packet doesn't explicitly state.
+
+Since the open and closed sheets are complementary in the sublocale coframe, we have an isomorphism
+
+\\[ \mathcal S(Z)\cong\mathcal S(K)\times\mathcal S(K), \\]
+
+given by
+
+\\[ G\longmapsto(G\wedge F,G\wedge U). \\]
+
+In these coordinates, (B8) becomes the remarkably simple formula
+
+\\[ \boxed{ \operatorname{Sat}\_{\mathcal A}(H,C) =(H,C\vee(P\wedge H)). } \tag{1} \\]
+
+Consequently:
+
+**Corollary.** A sublocale \\(G=H_F\vee C_U\\) is fitted in \\(Z\\) if and only if
+
+\\[ \boxed{P\wedge H\leq C.} \tag{2} \\]
+
+In particular, a sublocale \\(H_F\\) of the closed sheet is fitted in \\(Z\\) precisely when
+
+\\[ P\wedge H=0. \\]
+
+This gives a complete description of the fitted sublocales of these two-sheet locales.
+
+It also explains the Cantor example very economically: every point sublocale is disjoint from \\(P\\), but the entire first sheet is not.
+
+I would promote (2) to an explicit corollary.
+
+## **2. An exact criterion for arbitrary-join preservation**
+
+Formula (1) suggests something stronger than the Cantor counterexample.
+
+For a family \\((H_i,C_i)\\), we have
+
+\\[ \operatorname{Sat}\left(\bigvee_i(H_i,C_i)\right) = \left( \bigvee_i H_i,\\, \bigvee_i C_i\vee \left(P\wedge\bigvee_i H_i\right) \right), \\]
+
+whereas
+
+\\[ \bigvee_i\operatorname{Sat}(H_i,C_i) = \left( \bigvee_i H_i,\\, \bigvee_i C_i\vee \bigvee_i(P\wedge H_i) \right). \\]
+
+Taking every \\(C_i=0\\) establishes the converse implication in the following characterization.
+
+**Corollary.** Saturation preserves arbitrary joins if and only if
+
+\\[ \boxed{ P\wedge\bigvee_i H_i = \bigvee_i(P\wedge H_i) } \tag{3} \\]
+
+for every family of sublocales \\(H_i\leq K\\).
+
+Thus the exact obstruction is an order-theoretic property of \\(P\\) inside \\(\mathcal S(K)\\).
+
+For example, (3) holds whenever \\(P\\) is complemented in the sublocale lattice. This follows from the distributivity properties of complemented elements in coframes.&#x20;
+
+[image](https://www.google.com/s2/favicons?domain=https://www.mat.uc.pt\&sz=32)
+
+mat.uc.pt
+
+
+
+This puts the Cantor example into a larger framework. Its significance is not merely that arbitrary-join preservation fails, but that it produces a nonzero \\(P\\) for which (3) fails maximally on the family of point sublocales.
+
+I would consider investigating which fitted sublocales \\(P\\) satisfy (3). This seems like a natural little problem in its own right.
+
+## **3. Can every fitted sublocale occur as the interface?**
+
+This is the observation I find most interesting.
+
+The theorem suggests that the saturation behavior depends only on \\(P\\), rather than on the full gluing frame \\(L\\).
+
+Indeed, suppose we start with *any fitted sublocale* \\(P\hookrightarrow K\\), where \\(K\\) is zero-dimensional. Write \\(i:P\hookrightarrow K\\) and define
+
+\\[ \boxed{ L_P= \\{(c,v)\in\mathcal O(K)^2: i^\*(c)\leq i^\*(v)\\}. } \tag{4} \\]
+
+I claim that this construction realizes the prescribed interface.
+
+First, \\(L_P\\) is a subframe: the defining inequality is preserved under coordinatewise arbitrary joins and finite meets because \\(i^\*\\) is a frame homomorphism.
+
+Second, \\(L_P\\) contains every diagonal pair \\((c,c)\\), as well as \\((0,1)\\).
+
+Third,
+
+\\[ (1,v)\in L_P \iff i^\*(v)=1 \iff P\leq O_K(v). \\]
+
+Consequently, the interface computed from (B1) is
+
+\\[ \bigwedge\_{P\leq O_K(v)}O_K(v) =\operatorname{fit}\_K(P) =P. \\]
+
+So we obtain:
+
+**Proposed realization theorem.** Every fitted sublocale \\(P\\) of a zero-dimensional locale \\(K\\) can occur as the exact cross-sheet specialization interface of a two-sheet gluing satisfying the packet's hypotheses.
+
+There's more. If an arbitrary admissible gluing \\(L\\) has interface \\(P\\), the argument used in (B3) shows that
+
+\\[ (c,v)\in L\implies i^\*(c)\leq i^\*(v). \\]
+
+Therefore
+
+\\[ \boxed{L\subseteq L_P.} \\]
+
+In other words, \\(L_P\\) is the **largest admissible gluing frame with prescribed interface&#x20;**\\(P\\).
+
+This is a potentially useful classification result. All such gluings with the same \\(P\\) have identical saturation formulas under the canonical identification of their sublocale lattices.
+
+Notice the distinction: their full frames of opens can differ, but their canonical specialization and fitting behavior is controlled by the same \\(P\\).
+
+I would want to examine this more carefully before declaring it consolidated, but the proof looks quite direct.
+
+## **4. A characterization of the&#x20;**\\(T_1\\)**&#x20;phenomenon**
+
+There is also a neat interpretation of the original motivation.
+
+Assume \\(K\\) is spatial and zero-dimensional. Then the gluing \\(Z\\) is spatial, with its points arranged in two copies of the points of \\(K\\).
+
+The cross-sheet specialization relation on ordinary points is exactly
+
+\\[ p_F\preceq p_U \iff p\text{ is a point of }P. \\]
+
+All same-sheet specialization relations are equality, and there is no reverse cross-sheet specialization.
+
+It follows that
+
+\\[ \boxed{ Z\text{ is }T_1 \iff P\text{ has no points}. } \tag{5} \\]
+
+Therefore the phenomenon we have been studying—nontrivial localic specialization in a spatial sober \\(T_1\\) locale—occurs precisely when
+
+\\[ P\neq0 \quad\text{but}\quad \operatorname{pt}(P)=\varnothing. \\]
+
+This brings us directly back to the original point-free motivation. The cross-sheet interface is literally invisible to the ordinary specialization graph.
+
+## **My assessment**
+
+I see two possible ways to use these observations.
+
+The conservative option would be to add (1)–(3) as corollaries to the existing consolidation. They are straightforward consequences of the audited theorem.
+
+The more interesting option would be to investigate the realization construction (4). It raises some natural questions:
+
+- How much of the gluing frame \\(L\\) is determined by \\(P\\)?
+- What are the smallest admissible gluing frames with a given \\(P\\)?
+- Which additional properties—compactness, coherence, local compactness, sobriety—can be imposed while prescribing \\(P\\)?
+- Can we use the construction to produce particularly simple examples of nonzero pointless specialization interfaces?
+
+The last question appeals to me. The Cantor construction is ingenious, but (4) suggests that we might be able to construct such examples much more systematically.
+
+**My strongest recommendation is to record the elementary corollaries and examine the realization theorem.** These observations are additional deductions, not parts of the completed blind audit, so I would give them a fresh mathematical check before relying on them.
+
+I don't think this necessarily warrants a major new research direction, but it might substantially clarify what the open/closed-interface theorem is really telling us.
