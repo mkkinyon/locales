@@ -1,6 +1,6 @@
-# Project A — The A/A-op join need not be M: four-point diamond
+# Project A — Alternative verification of the known S≠M diamond
 
-**Internally checked counterexample · 15 November 2026.** This result was found **after** the LC-A blind referee packet and is not externally audited. It closes the newly posed universal question (A-JOIN) **negatively**. No novelty claim.
+**Provenance correction · 15 November 2026.** This is a short alternative calculation of an **already established** four-point obstruction, not a newly discovered counterexample. The relation \(\mathcal S:=\mathcal A\vee\mathcal A^{op}\) and the strict diamond example occur in [the 10 November graph-to-locale revisit](ProjectA_Cameron_Kumar_revisit_graph_to_locale_hierarchy_2026-11-10.md), and \(\mathcal S\le\mathcal M\) with its sharp equality criterion were subsequently [independently audited in SC+](ProjectA_SCplus_CANONICAL_2026-11-15.md). The 'A-JOIN' shorthand below is historical and should not appear as a new open problem or result.
 
 For any locale X put \(\mathcal I=\operatorname{cl}(\Delta)\), \(\mathcal D=\operatorname{fit}(\Delta)\), \(\mathcal M=\mathcal I\wedge\mathcal D\). The relation \(\mathcal A\) is universally defined by \(u_1\le u_2\); its transpose \(\mathcal A^{op}\) by \(u_2\le u_1\). The universal inequalities
 \[
@@ -34,7 +34,7 @@ The ordinary points of \(\mathcal A(P)\) are precisely comparable ordered pairs 
 
 It follows that
 \[
-\boxed{\mathcal A(P)\vee\mathcal A(P)^{op}\subsetneq\mathcal M(P)=P^2.}
+\boxed{\mathcal S(P)=\mathcal A(P)\vee\mathcal A(P)^{op}\subsetneq\mathcal M(P)=P^2.}
 \]
 
 This is an extremely small, fully spatial counterexample; no nonspatial product or image subtleties are involved.
@@ -43,4 +43,4 @@ This is an extremely small, fully spatial counterexample; no nonspatial product 
 
 The same argument works for **any finite bounded T0 Alexandrov poset with two incomparable elements**, since its diagonal contains a least and greatest point of the square, forcing I=D=whole, whereas the union of the two order graphs misses incomparable pairs.
 
-**Status:** (A-JOIN) closed **false** for arbitrary locales, internally checked. The distinct user question (A-DUAL)—whether there is a *conceptually closure-side* natural relation between \(\Delta\) and \(\mathcal I\), as opposed to merely transposing \(\mathcal A\)—remains open/deferred.
+**Status:** the known \(\mathcal S\ne\mathcal M\) counterexample is independently audited in the SC+ program; the present presentation is an internal cross-check. The distinct (A-DUAL)—a *conceptually closure-side* natural relation between \(\Delta\) and \(\mathcal I\)—remains open/deferred.
