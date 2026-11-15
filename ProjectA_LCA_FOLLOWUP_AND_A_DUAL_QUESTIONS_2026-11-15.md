@@ -62,7 +62,7 @@ A further question, suggested by the external referee: can a **first-countable o
 ## 5. Order of work and status
 
 1. Archive/consolidate the blindly verified (LC-A) counterexample, with the short proof and the \((T_U)\) identification.
-2. Check the literature (Johnstone, Arrieta, Isbell, Banaschewski, Picado–Pultr), especially priority and existing implications \((pt\text{-}fit)\leftrightarrow(T_U)\).
+2. Check the literature (Johnstone, Arrieta, Isbell, Banaschewski, Picado–Pultr), especially priority and existing implications \((pt\text{-}fit)\leftrightarrow(T_U)\). A [preliminary primary-source checkpoint](ProjectA_TU_PTFIT_LITERATURE_CHECK_2026-11-15.md) is now recorded, without a priority claim.
 3. Return to (LC-PT); leave A-DUAL and A-JOIN in the question register until their turn.
 
 The universal proposition in §1 is **internally checked** and could warrant its own audit if used in deeper results. The open questions are not covert theorem claims.
