@@ -1,3 +1,5 @@
+> **15 NOV 2026 SUPERSESSION NOTE:** Section 5's proposed S=M frontier is now answered in the stably locally compact class by the [independently blind-refereed SC+ theorem](ProjectA_SCplus_CANONICAL_2026-11-15.md), with [reconciliation](ProjectA_SCplus_EXTERNAL_REFEREE_RECONCILIATION_2026-11-15.md). The all-locale necessary condition holds, but the converse fails for compact locally compact sober noncoherent spaces. This 14 November status note is preserved as a historical decision record. **Next: (A-SC).**
+
 # Project A — Post-Q/Q′ frontier consolidation, duality limits, and next priorities
 
 **14 November 2026.** Bounded consolidation of the unified Point-free Topology project after the independently blind-refereed dense-rational-bridge theorem. The aim is to distinguish settled universal questions, positive restricted classes, new internally checked consequences, and genuinely open frontiers. This is **not** a new independent audit or an originality claim. Dated historical notes should be read with the supersession information below.
