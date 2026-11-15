@@ -1,3 +1,5 @@
+> **RESOLVED 15 NOVEMBER 2026 — HISTORICAL FRONTIER NOTE.** Question (LC-A) below is **answered negatively**, contrary to its old unresolved label. The independent blind referee confirmed the compact, locally compact, sober T1 counterexample. See [canonical negative theorem](ProjectA_LCA_COUNTEREXAMPLE_CANONICAL_2026-11-15.md), [reconciliation](ProjectA_LCA_EXTERNAL_REFEREE_RECONCILIATION_2026-11-15.md), and [follow-up register](ProjectA_LCA_FOLLOWUP_AND_A_DUAL_QUESTIONS_2026-11-15.md). The open LC-PT point-fitting converse and A-DUAL question replace LC-A as next research tasks; the historical exploration below is preserved, not current.
+
 # Project A — Beyond stable local compactness: first oriented-specialization tests
 
 **Research frontier note · 15 November 2026.** This note begins the post-(A-SC) investigation. Its new observations are **internally checked only**, not independently blind-refereed. The [independently audited theorem](ProjectA_ASC_CANONICAL_2026-11-15.md) proves \(\mathcal A(X)\) spatial for every *stably* locally compact \(X\). The question here is whether stable continuity is necessary when \(X\) is merely locally compact and sober.
