@@ -1,6 +1,6 @@
 # Project A — (LC-PT) candidate counterexample by discrete-defect gluing
 
-**15 November 2026. Complete internal proof candidate; NOT YET externally audited.** The claims below require an adversarial second reading before upgrading the problem register. No literature-priority claim is made. Compare the independently audited [stable-local-compactness theorem (A-SC)](ProjectA_ASC_CANONICAL_2026-11-15.md) and the [open/closed interface calculus](ProjectA_LCPT_OPEN_CLOSED_INTERFACE_2026-11-15.md).
+**15 November 2026. Formal [internal adversarial audit](ProjectA_LCPT_DISCRETE_GLUE_INTERNAL_ADVERSARIAL_AUDIT_2026-11-15.md) completed with no mathematical defect found; independent external audit STILL PENDING.** The claims below must not be promoted as externally verified before that separate review. No literature-priority claim is made. Compare the independently audited [stable-local-compactness theorem (A-SC)](ProjectA_ASC_CANONICAL_2026-11-15.md) and the [open/closed interface calculus](ProjectA_LCPT_OPEN_CLOSED_INTERFACE_2026-11-15.md).
 
 ## 1. Statement
 
@@ -92,6 +92,8 @@ T_p=T_p\wedge F
 \]
 Hence every F-sheet point is fitted in X as well.
 
+**Second fittedness check (generalized-map form).** Suppose h:Y→X factors through every O_X(b_{p,d}). On the open part of Y where h lands in U, the induced map to K factors through every O_K(d\setminus\{p\}); their sublocale meet is 0 by the preceding calculation, so that open part of Y is zero. Thus h factors through F. Its restriction to F then lies in every clopen neighborhood of p, hence in the point sublocale [p_F]. This independently confirms the fittedness argument without passing through ordinary point sets.
+
 **Adversarial checkpoint:** Steps (6)–(7) deliberately use sublocale meets and the open/closed complement law. The mere topological intersection of the neighborhoods would have been insufficient.
 
 ## 6. A nonzero generalized specialization comparison
@@ -101,7 +103,7 @@ Let \(B=\operatorname{RO}(K)\), the complete Boolean frame of regular open subse
 j:\mathcal O(K)\twoheadrightarrow B,\qquad j(w)=\operatorname{int}\overline w
 \tag{8}
 \]
-be the double-negation frame quotient. Compose the first and second coordinate projections \(L\to\mathcal O(K)\) with j, obtaining frame homomorphisms
+be the double-negation frame quotient, where joins in B are regularized unions (so j really preserves arbitrary joins **as a map to B**). Compose the first and second coordinate projections \(L\to\mathcal O(K)\) with j, obtaining frame homomorphisms
 \[
 f^*,g^*:L\longrightarrow B,\qquad
 f^*(c,v)=j(c),\quad g^*(c,v)=j(v).
