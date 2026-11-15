@@ -53,7 +53,7 @@ A warning: there are **nonzero zero-fiber maps to perfectly regular locally comp
 
 Consequently neither spatiality nor local compactness of **the target alone** rules out (3). A proof of (LC-PT) must use the specific **oriented-specialization structure** of \(E_a\), not just the existence of a fiberwise-empty map.
 
-This example is a formal calibration, not a candidate counterexample to (LC-PT): K itself is Hausdorff and TU.
+This example is a formal calibration, not a candidate counterexample to (LC-PT): K itself is Hausdorff and TU. The subsequently constructed [Boolean lax double](ProjectA_LCPT_BOOLEAN_LAX_DOUBLE_NONLC_CONTROL_2026-11-15.md) **realizes** the generalized comparison over B(K) inside a compact sober T1 point-fitted non-TU space, but an explicit way-below argument proves that this new space is **not locally compact**.
 
 ## 4. Current status and possible tests
 
