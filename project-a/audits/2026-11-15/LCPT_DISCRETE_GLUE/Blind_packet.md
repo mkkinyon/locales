@@ -1,9 +1,10 @@
-# Blind audit packet — proposed negative answer to (LC-PT)
+# Independent blind audit packet — discrete-defect gluing and (LC-PT)
 
-**Independently review the assertions below; all are proposed, not externally certified.** Definitions: the oriented specialization relation \(\mathcal A(X)\) universally imposes \(a_1\le a_2\) on \(X\times X\); \(X\) is TU if \(\mathcal A(X)=\Delta_X\). A point sublocale \([p]\) is fitted if it equals the intersection (in the sublocale lattice) of all open sublocales containing it. Stably locally compact is stronger than merely locally compact.
+**Only the proposed theorem, definitions, and its proposed proof are included.** This packet intentionally omits the internal audit. No external correctness certification or literature-priority claim is made.
 
+The oriented specialization sublocale \(\mathcal A(X)\hookrightarrow X^2\) is presented by \(u_1\le u_2\) for every open \(u\). The locale is *totally unordered* (TU) if \(\mathcal A(X)=\Delta_X\); equivalently, every comparable pair of maps \(f\le g:E\to X\) from any locale E is equal. A point sublocale \([p]\) is *fitted* when it is the meet of all open sublocales containing it, with meet taken in the sublocale lattice.
 
-**15 November 2026. Complete internal proof candidate; NOT YET externally audited.** The claims below require an adversarial second reading before upgrading the problem register. No literature-priority claim is made. Compare the independently audited [stable-local-compactness theorem (A-SC)] (context link omitted) and the [open/closed interface calculus] (context link omitted).
+The question (LC-PT) asks if locally compact, sober, T1 and all points fitted imply TU. This packet proposes **no**, in a compact first-countable example. The independently established positive result under the **stronger stable local compactness** hypothesis gives an important consistency check. Critically test all assertions; do not assume the central theorem is correct.
 
 ## 1. Statement
 
@@ -95,6 +96,8 @@ T_p=T_p\wedge F
 \]
 Hence every F-sheet point is fitted in X as well.
 
+**Second fittedness check (generalized-map form).** Suppose h:Y→X factors through every O_X(b_{p,d}). On the open part of Y where h lands in U, the induced map to K factors through every O_K(d\setminus\{p\}); their sublocale meet is 0 by the preceding calculation, so that open part of Y is zero. Thus h factors through F. Its restriction to F then lies in every clopen neighborhood of p, hence in the point sublocale [p_F]. This independently confirms the fittedness argument without passing through ordinary point sets.
+
 **Adversarial checkpoint:** Steps (6)–(7) deliberately use sublocale meets and the open/closed complement law. The mere topological intersection of the neighborhoods would have been insufficient.
 
 ## 6. A nonzero generalized specialization comparison
@@ -104,7 +107,7 @@ Let \(B=\operatorname{RO}(K)\), the complete Boolean frame of regular open subse
 j:\mathcal O(K)\twoheadrightarrow B,\qquad j(w)=\operatorname{int}\overline w
 \tag{8}
 \]
-be the double-negation frame quotient. Compose the first and second coordinate projections \(L\to\mathcal O(K)\) with j, obtaining frame homomorphisms
+be the double-negation frame quotient, where joins in B are regularized unions (so j really preserves arbitrary joins **as a map to B**). Compose the first and second coordinate projections \(L\to\mathcal O(K)\) with j, obtaining frame homomorphisms
 \[
 f^*,g^*:L\longrightarrow B,\qquad
 f^*(c,v)=j(c),\quad g^*(c,v)=j(v).
@@ -141,18 +144,13 @@ These extra diagnostics suggest a possible **second-countability** boundary for 
 
 The open sheet \(U\cong K\) is TU, but **every nonempty open of X meeting the F-sheet is non-TU**. Indeed, let \(a=(c,v)\) be such an open; then c is nonempty. In the Boolean frame \(B=\operatorname{RO}(K)\), \(j(c)\ne0\). Restrict the generalized comparable pair \((f,g)\) of §6 to the nonzero open sublocale \(O_E(j(c))\). Because \(j(c)\le j(v)\), both f and g now factor through \(O_X(a)\); they remain distinct on the open e, whose pullbacks are 0 and 1. Thus \(O_X(a)\) is not TU.
 
-Consequently, in the notation of the earlier [maximal-open-core reduction] (context link omitted),
+Consequently, in the notation of the earlier maximal-open-core reduction,
 \[
 U_{\rm TU}=U\cong K,\qquad F_{\rm TU}=F\cong K.
 \tag{11}
 \]
 The closed non-TU core is therefore **entirely crowded** (Cantor), in exact agreement with the previous point-fitted perfect-core obstruction.
 
-There is also a normalized zero-fiber witness for \(E_e(X)=\mathcal A(X)\wedge O(e_2)\wedge C(e_1)\), using the open e=(∅,K): on the source E, \(f^*(e)=0\), \(g^*(e)=1\), so the entire nonzero Boolean witness lands in \(E_e(X)\). Since every F-sheet point is fitted, the first-projection pullback of \(E_e\) over any ordinary point is zero by the [zero-fiber proposition] (context link omitted). Thus this example realizes the earlier **nonzero generalized comparison with all ordinary fibers empty**.
+There is also a normalized zero-fiber witness for \(E_e(X)=\mathcal A(X)\wedge O(e_2)\wedge C(e_1)\), using the open e=(∅,K): on the source E, \(f^*(e)=0\), \(g^*(e)=1\), so the entire nonzero Boolean witness lands in \(E_e(X)\). Since every F-sheet point is fitted, the first-projection pullback of \(E_e\) over any ordinary point is zero by the zero-fiber proposition. Thus this example realizes the earlier **nonzero generalized comparison with all ordinary fibers empty**.
 
 Finally, since the ordinary specialization order of X is equality, \(\operatorname{pt}(\mathcal A(X))\) consists exactly of diagonal pairs; the nonzero off-diagonal Boolean witness forces \(\mathcal A(X)\) to be **nonspatial**.
-
-
-## Minimal independent cross-check request
-
-In particular, construct or refute a nonzero generalized comparison for which \(f^*(\varnothing,K)=0\), \(g^*(\varnothing,K)=1\), while both ordinary point fibers above the closed sheet vanish. If you find an error, determine whether the weaker open/closed filter-interface observations survive.
