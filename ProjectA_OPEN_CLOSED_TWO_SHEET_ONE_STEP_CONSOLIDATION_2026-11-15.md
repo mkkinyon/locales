@@ -1,6 +1,6 @@
 # Project A — zero-dimensional two-sheet interfaces and one-step specialization fitting
 
-**15 November 2026. Consolidated internal theorem draft.** The foundational Cantor discrete-defect gluing and its negative (LC-PT) conclusion were independently blind-refereed. The full cross-sheet computation in the follow-up addendum and the general theorem in this document **have not** been independently refereed. No literature-priority claim is made.
+**15 November 2026. Post-referee canonical consolidation.** The full cross-sheet computation, arbitrary-source one-step theorem, finite-join propagation, and Cantor infinitary obstruction **passed an independent blind external audit with no mathematical repairs**. The additional realization, fitted-classification, join-continuity, and ordinary-point corollaries in §§8–11 were developed **after** that audit and have been checked internally only. [Audit reconciliation](ProjectA_OPEN_CLOSED_TWO_SHEET_EXTERNAL_REFEREE_RECONCILIATION_2026-11-15.md). No literature-priority claim is made.
 
 ## 1. Conventions
 
@@ -38,7 +38,7 @@ Define the **global-open remnant** in the common sheet \(K\) by
 P=\bigwedge_{(1,v)\in L}O_K(v).
 \tag{4}
 \]
-\(P\) may be nonzero and pointless. For a sublocale \(H\hookrightarrow K\), write \(H_F\hookrightarrow F\hookrightarrow Z\) and \(H_U\hookrightarrow U\hookrightarrow Z\). The notation \((P\wedge H)_U\) means the corresponding sublocale of the open sheet.
+\(P\) may be nonzero and pointless. In (5), \(\Delta_K(P)\) means the image of the composite \(P\hookrightarrow K\xrightarrow{\Delta_K}K\times K\), **not** the diagonal of the set of ordinary points of \(P\). For a sublocale \(H\hookrightarrow K\), write \(H_F\hookrightarrow F\hookrightarrow Z\) and \(H_U\hookrightarrow U\hookrightarrow Z\). The notation \((P\wedge H)_U\) means the corresponding sublocale of the open sheet.
 
 ## 3. Exact cross-sheet specialization
 
@@ -71,7 +71,7 @@ Since \(h\) factors through \(P\), \(h^*(v\vee d^c)=1\). As \(h^*d\) is compleme
 \tag{7}
 \]
 
-**Proof.** Reflexivity supplies \(H_F\le\operatorname{Sat}(H_F)\). Lemma 1, restricted to \(H_F\times U\), supplies the image \((P\wedge H)_U\). Thus
+**Proof.** Reflexivity supplies \(H_F\le\operatorname{Sat}(H_F)\). More precisely, restricting the cross block \(\Delta_K(P)\) of Lemma 1 to \(H_F\times U\) produces \(\Delta_K(P\wedge H)\), whose second-projection image is exactly \((P\wedge H)_U\). Thus
 \[
 H_F\vee(P\wedge H)_U
 \le\operatorname{Sat}(H_F)
@@ -130,7 +130,7 @@ In the Cantor discrete-defect gluing, the remnant is
 \[
 P=\bigwedge_{p\in K}O_K(K\setminus\{p\})\ne0
 \]
-and is pointless. Every closed first-sheet point \([p_F]\) is fitted (the externally audited point-fittedness result), so \(\operatorname{Sat}([p_F])=[p_F]\). But \(K\) is spatial, hence \(\bigvee_{p\in K}[p_F]=F\), and (11) gives \(\operatorname{Sat}(F)=F\vee P_U>F\). Thus
+and is pointless. The remnant is nonzero because every punctured open \(K\setminus\{p\}\) is dense and contains the nonzero Booleanization sublocale \(B_K\): if \(j\) is a dense nucleus, then \(j(a)\wedge a^*=0\) forces \(j(a)\le a^{**}\), whence \(B_K\le O_K(K\setminus\{p\})\). Its being pointless follows because no ordinary point lies in all punctured opens. Every closed first-sheet point \([p_F]\) is fitted (the externally audited point-fittedness result), so \(\operatorname{Sat}([p_F])=[p_F]\). But \(K\) is spatial, hence \(\bigvee_{p\in K}[p_F]=F\), and (11) gives \(\operatorname{Sat}(F)=F\vee P_U>F\). Thus
 \[
 \boxed{
 \operatorname{Sat}\left(\bigvee_{p\in K}[p_F]\right)
@@ -145,7 +145,7 @@ The finite-join propagation lemma **must not** be extended to arbitrary joins. T
 - **Sierpiński-style double:** \(L=\{(c,v):c\le v\}\); then \(P=K\), and (11) adds the second-sheet copy of the first-sheet part.
 - **Cantor discrete-defect gluing:** the intermediate case \(0<P<K\) with nonzero pointless P; the theorem is a genuinely localic calculation and not a pointwise specialization computation.
 
-**Checked internally:** subframe globalization (6), arbitrary test locales in Lemma 1, regular-implies-fit, finite coframe distributivity, relative fitting in an open sheet, and the spatiality argument in (13). **Not checked externally:** the new general formulas (5), (7), (11), (13). All remain subject to independent adversarial review.
+**Audit status:** Equations (5), (7), (10), (11), and (13) have passed a genuinely blind independent review, **without mathematical repairs**. The reviewer also checked the arbitrary-locale generalized points, source generality, and the Cantor remnant. The structural corollaries in §§8–11, based on a later referee follow-up, are **internally checked only**; see the [reconciliation](ProjectA_OPEN_CLOSED_TWO_SHEET_EXTERNAL_REFEREE_RECONCILIATION_2026-11-15.md) for the precise boundary.
 
 **Sources:**
 
@@ -153,4 +153,102 @@ The finite-join propagation lemma **must not** be extended to arbitrary joins. T
 - R. N. Ball, J. Picado, A. Pultr, *When Are Sublocales Joins of Closed Sublocales?*, introductory characterizations of fitness: https://ems.press/content/serial-article-files/44773?nt=1
 - Existing repository: `ProjectA_LCPT_OPEN_CLOSED_INTERFACE_2026-11-15.md`, `ProjectA_LCPT_CROSS_SHEET_PERFECT_KERNEL_POSTAUDIT_2026-11-15.md`, `ProjectA_LCPT_DISCRETE_DEFECT_GLUE_COUNTEREXAMPLE_2026-11-15.md`.
 
-**Research positioning:** This reaches a natural stopping point for the open/closed interface. After external review, compare *only* second-countable (LC-PT) and the graph/homotopy connection as next projects, per the agreed agenda.
+**Research positioning:** The general interface calculation is complete enough for this stage. After consolidation, compare *only* second-countable (LC-PT) and the graph/homotopy connection as next projects, per the agreed agenda.
+
+## 8. Coordinates and a complete description of fitted sublocales (post-referee)
+
+The complementary open and closed sublocales (F,U) give an isomorphism of **complete lattices**
+\[
+\mathcal S(Z)\xrightarrow{\cong}\mathcal S(K)\times\mathcal S(K),
+\qquad G\longmapsto(G\wedge F,G\wedge U).
+\tag{14}
+\]
+Its inverse sends ((H,C)) to (H_F\vee C_U). Indeed, (F\vee U=Z), (F\wedge U=0), and the sublocale lattice is distributive; hence (G=(G\wedge F)\vee(G\wedge U)). The restrictions identify the intervals below (F,U) with (mathcal S(K)). In particular, joins and meets in these coordinates are coordinatewise (although **infinite distributivity of finite meets over arbitrary joins is not valid**).
+
+The audited one-step theorem (11) is therefore exactly
+\[
+\boxed{\operatorname{Sat}_{\mathcal A}(H,C)
+=\operatorname{fit}_Z(H,C)=(H,C\vee(P\wedge H)).}
+\tag{15}
+\]
+
+**Corollary 4 (fitted sublocales).** A sublocale (G=H_F\vee C_U) is fitted in (Z) if and only if
+\[
+\boxed{P\wedge H\le C.}\tag{16}
+\]
+Thus (H_F) is fitted precisely when (P\wedge H=0). This is an equality **of sublocales**, not a statement about ordinary points.
+
+## 9. Exact obstruction to preserving arbitrary joins (post-referee)
+
+**Corollary 5.** Under the hypotheses of §2, (operatorname{Sat}_{\mathcal A,Z}) preserves arbitrary joins if and only if
+\[
+\boxed{P\wedge\bigvee_iH_i=\bigvee_i(P\wedge H_i)
+\qquad\text{for all families }(H_i)\subseteq\mathcal S(K).}
+\tag{17}
+\]
+
+**Proof.** Apply (15) to (\bigvee_i(H_i,C_i)) and to the separate summands, using the complete-lattice product (14). Equation (17) gives equality of upper coordinates and hence suffices. For necessity set every (C_i=0); the remaining upper coordinates are exactly the two sides of (17). \(\square\)
+
+If (P) is **complemented** in (mathcal S(K)), (17) holds: a complemented element of a complete distributive lattice determines a direct-product decomposition, and meeting with it preserves all joins. Conversely, if (K) is **spatial** and (P\ne0) is **pointless**, (17) fails. Indeed,
+\[
+K=\bigvee_{p\in\operatorname{pt}(K)}[p],\quad
+P\wedge[p]=0\ (\forall p),
+\]
+so the left side of (17) is (P) and the right side is zero. This generalizes the Cantor failure in §6: **every nonzero pointless interface over a spatial base obstructs arbitrary-join preservation**.
+
+## 10. Realization and maximality of prescribed interfaces (post-referee)
+
+Let (P\hookrightarrow K) be an arbitrary **fitted** sublocale, with inclusion (i) and quotient frame homomorphism (i^*:\mathcal O(K)\to\mathcal O(P)). Define
+\[
+\boxed{L_P=\{(c,v)\in\mathcal O(K)^2:i^*(c)\le i^*(v)\}.}
+\tag{18}
+\]
+
+**Theorem 6 (realization and largest gluing).** If (K) is zero-dimensional, then (L_P) is an admissible two-sheet subframe, its interface is exactly (P), and every other admissible two-sheet frame (L) with interface (P) satisfies (L\subseteq L_P). Hence the possible interfaces are **exactly the fitted sublocales of (K)**, and each has a canonical largest admissible gluing.
+
+**Proof.** The defining inequality is stable under coordinatewise arbitrary joins and finite meets since (i^*) is a frame homomorphism. Every ((c,c)) and (e=(0,1)) lies in (L_P). Moreover,
+\[
+(1,v)\in L_P\iff i^*(v)=1\iff P\le O_K(v).
+\]
+Thus the interface calculated from (4) is (igwedge_{P\le O(v)}O(v)=\operatorname{fit}_K(P)=P).
+
+For maximality, let ((c,v)\in L) and let (d\le c) be complemented. The globalizing identity (6) gives ((1,v\vee d^c)\in L), so (P\le O_K(v\vee d^c)); equivalently (i^*(v)\vee i^*(d^c)=1). Since (i^*(d)) and (i^*(d^c)) are complementary, (i^*(d)\le i^*(v)). Joining over all complemented (d\le c) gives (i^*(c)\le i^*(v)). Therefore ((c,v)\in L_P). \(\square\)
+
+For clarity about the exact extent of this classification, write (P_L) for the interface of (L). The preceding argument yields an **order-reversing Galois correspondence**
+\[
+\boxed{L\subseteq L_P\iff P\le P_L.}\tag{19}
+\]
+Here (L) ranges over admissible subframes, ordered by inclusion, and (P) over fitted sublocales, also ordered by inclusion. The implication from right to left uses (L\subseteq L_{P_L}\subseteq L_P); the converse follows by examining the pairs ((1,v)). In particular,
+\[
+P_{L_P}=P,\qquad L\subseteq L_{P_L},
+\]
+and (L\mapsto L_{P_L}) is an extensive idempotent enlargement. The full gluing frame need not be determined by its interface; its **saturation and fitting operators are**, under the canonical identification (14).
+
+The endpoint checks are (L_0=\mathcal O(K)^2) and (L_K=\{(c,v):c\le v\}). No assertion is made here about smallest admissible presentations of a prescribed nontrivial (P).
+
+## 11. Ordinary specialization, (T_1), and point-fittedness (post-referee)
+
+Assume that (K) is **spatial** and zero-dimensional. For any admissible (L), the two coordinate-evaluation families separate the elements of (L), so (Z) is spatial and its point space is sober. Each point sends (e) to (0) or (1) and hence belongs to exactly one of the two sheets; there are no extra points.
+
+The within-sheet specialization relations are equality; there is no (U\to F) specialization; and the cross-sheet block (5) gives
+\[
+p_F\preceq q_U\iff p=q\text{ and }p\text{ factors through }P.
+\tag{20}
+\]
+The coordinate criterion (16) also says that the ordinary point sublocale ([p_F]) is fitted exactly when (p) does **not** factor through (P), whereas every upper-sheet point is fitted. Consequently,
+\[
+\boxed{Z\text{ is }T_1\iff\text{every ordinary point sublocale is fitted}
+\iff\operatorname{pt}(P)=\varnothing.}
+\tag{21}
+\]
+In this family, localic specialization is nontrivial but invisible to the ordinary specialization graph **exactly when** (P\ne0) is pointless.
+
+If (K) is compact, (Z) is compact for every admissible (L): a cover of ((1,1)) covers each compact coordinate, and finitely many cover each coordinate. **Local compactness is not automatic.** In particular, the maximal construction for the Booleanization (P=B_K) of Cantor space is the already studied [Boolean lax double](ProjectA_LCPT_BOOLEAN_LAX_DOUBLE_NONLC_CONTROL_2026-11-15.md), whose failure of continuity is proved internally there, including a broader pointless-quotient version. That note is **not independently blind-refereed** and should not be confused with the independently audited *locally compact* discrete-defect gluing.
+
+## 12. Status, provenance, and boundary of this consolidation
+
+**Independently blind-refereed, positive:** equations (5), (7), (10), (11), and the Cantor arbitrary-join counterexample (13), including the generalized-point proof and the zero-dimensionality/fitness hypotheses. See the [external-versus-internal reconciliation](ProjectA_OPEN_CLOSED_TWO_SHEET_EXTERNAL_REFEREE_RECONCILIATION_2026-11-15.md) and [original blind report](project-a/audits/2026-11-15/OPEN_CLOSED_TWO_SHEET/Referee_report_original.md). The original internal audit and blind prompt/packet remain separate, unmodified historical records.
+
+**Post-referee and separately checked internally, not part of that blind verdict:** equations (14)–(21), the fitted classification, arbitrary-join criterion, realization/maximality, Galois correspondence, and (T_1) equivalences. The referee proposed the first four structural directions in a subsequent [follow-up](project-a/audits/2026-11-15/OPEN_CLOSED_TWO_SHEET/Referee_followup_original.txt); the Galois formulation and the spatial-point obstruction are subsequent internal deductions. All are recorded with proofs above, not silently attributed to the blind audit.
+
+**Deferred:** minimal gluing frames, systematic compactness/coherence/local-compactness-preserving realizations, and further join-continuity classification. At this stopping point, the agreed next decision concerns **only** second-countable (LC-PT) versus the graph/homotopy connection. No literature novelty or priority assertion is made.
