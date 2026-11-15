@@ -18,7 +18,7 @@ and
 \operatorname{fit}(\mathcal A)=\operatorname{fit}(\mathcal A^{op})=\mathcal D.
 \]
 
-*Proof.* Reflexivity gives \(\Delta\le\mathcal A\). For the closure inclusion, write \(d_2=\bigvee_{u\wedge v=0}(u_1\wedge v_2)\), the largest product open missing \(\Delta\), so \(\mathcal I=C(d_2)\). On \(\mathcal A\), \(u_1\wedge v_2\le u_2\wedge v_2=0\) for each disjoint u,v. Thus \(\mathcal A\le\mathcal I\).
+*Proof.* Reflexivity gives \(\Delta\le\mathcal A\). For the closure inclusion, write \(d_{\mathcal I}=\bigvee_{u\wedge v=0}(u_1\wedge v_2)\), the largest product open missing \(\Delta\), so \(\mathcal I=C(d_{\mathcal I})\). On \(\mathcal A\), \(u_1\wedge v_2\le u_2\wedge v_2=0\) for each disjoint u,v. Thus \(\mathcal A\le\mathcal I\).
 
 For the fitted inclusion, take any open \(W\in\mathcal O(X^2)\) such that \(\Delta\le O(W)\), write \(W=\bigvee_i u_{i,1}\wedge v_{i,2}\), and note \(\bigvee_i(u_i\wedge v_i)=1\). In \(\mathcal O(\mathcal A)\), because \(v_{i,1}\le v_{i,2}\),
 \[
