@@ -142,3 +142,16 @@ Natural next tasks:
 3. Keep careful track of point-generated versus presented sublocales: a locally compact nonstable **SC+** counterexample does not automatically refute (LC-A).
 
 **Status:** Sections 2–4 are newly derived, internally checked working results. They have not received an independent blind audit and should not be promoted to the same evidential tier as the stably locally compact (A-SC) theorem.
+
+
+## 6. Subsequent internal tests (15 November 2026)
+
+A further internally checked note, [Semilattice retractions and nonstable LC-A tests](ProjectA_ASC_MEET_RETRACTION_2026-11-15.md), develops:
+
+1. A pointfree **meet/join retraction principle**: a compatible continuous idempotent semilattice operation makes \(\mathcal A(X)\) a locale retract of \(X^2\); if the square is spatial, so is \(\mathcal A(X)\).
+2. An explicit **nonstable sober Alexandrov meet-semilattice** \(P=\{c,a,p,g_0,g_1,\ldots\}\) with \(c<a,p<g_n\) and \(g_{n+1}<g_n\), where \(\uparrow a\cap\uparrow p=\{g_n\}\) is noncompact. The only open containing \(c\) is \(P\), so **no** stable/coherent open cover exists; nonetheless \(\mathcal A(P)\) is spatial by retraction.
+3. The referee's noncoherent sequence-tree \(T\) is covered by coherent open cones and tail neighborhoods; therefore \(\mathcal A(T)\) is spatial.
+4. A **closed-point obstruction**: the fiber of \(\mathcal A(X)\to X\) over \(p\) is \(\operatorname{fit}_X([p])\); if \(p\) is closed, its nonspatiality would imply that \(\mathcal A(X)\) is nonspatial.
+5. The specialization graph \(G_{\le_X}\) is a **sober topological subspace** of \(X^2\) whenever \(X\) is sober. This alone does not establish spatiality of the presented relation.
+
+These deductions await external audit. **(LC-A) remains open.**
