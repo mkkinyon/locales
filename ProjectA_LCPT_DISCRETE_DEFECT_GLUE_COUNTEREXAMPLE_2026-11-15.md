@@ -133,3 +133,18 @@ It cannot be second-countable. For each \(p\in K\), the open \(b_p=(K,K\setminus
 The two copies \(p_F,p_U\) of any p cannot have disjoint open neighborhoods: for any \(p\in c\) and \(p\in v'\), the open set \(c\cap v'\) contains p and a nonempty neighborhood punctured at a relatively discrete defect \(c\setminus v\), so it meets v. Hence the space is non-Hausdorff in the ordinary sense too.
 
 These extra diagnostics suggest a possible **second-countability** boundary for future study; they do not alter the (LC-PT) construction.
+
+## 9. Exact maximal TU open locus and the zero-fiber witness
+
+The open sheet \(U\cong K\) is TU, but **every nonempty open of X meeting the F-sheet is non-TU**. Indeed, let \(a=(c,v)\) be such an open; then c is nonempty. In the Boolean frame \(B=\operatorname{RO}(K)\), \(j(c)\ne0\). Restrict the generalized comparable pair \((f,g)\) of §6 to the nonzero open sublocale \(O_E(j(c))\). Because \(j(c)\le j(v)\), both f and g now factor through \(O_X(a)\); they remain distinct on the open e, whose pullbacks are 0 and 1. Thus \(O_X(a)\) is not TU.
+
+Consequently, in the notation of the earlier [maximal-open-core reduction](ProjectA_LCPT_MAXIMAL_TU_OPEN_CORE_2026-11-15.md),
+\[
+U_{\rm TU}=U\cong K,\qquad F_{\rm TU}=F\cong K.
+\tag{11}
+\]
+The closed non-TU core is therefore **entirely crowded** (Cantor), in exact agreement with the previous point-fitted perfect-core obstruction.
+
+There is also a normalized zero-fiber witness for \(E_e(X)=\mathcal A(X)\wedge O(e_2)\wedge C(e_1)\), using the open e=(∅,K): on the source E, \(f^*(e)=0\), \(g^*(e)=1\), so the entire nonzero Boolean witness lands in \(E_e(X)\). Since every F-sheet point is fitted, the first-projection pullback of \(E_e\) over any ordinary point is zero by the [zero-fiber proposition](ProjectA_LCPT_ZERO_FIBER_OBSTRUCTION_2026-11-15.md). Thus this example realizes the earlier **nonzero generalized comparison with all ordinary fibers empty**.
+
+Finally, since the ordinary specialization order of X is equality, \(\operatorname{pt}(\mathcal A(X))\) consists exactly of diagonal pairs; the nonzero off-diagonal Boolean witness forces \(\mathcal A(X)\) to be **nonspatial**.
