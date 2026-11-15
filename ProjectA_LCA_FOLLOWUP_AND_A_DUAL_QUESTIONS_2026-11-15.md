@@ -1,10 +1,10 @@
 # Project A — Post-(LC-A) questions and the interval below M
 
-**Research questions and preliminary frame-theoretic observation · 15 November 2026.** This document records the user's distinct long-term question about a **dual** to \(\mathcal A\), without claiming that transposition solves it. Mathematical statements in §1 have been checked internally after the LC-A blind audit; they were **not** part of that audit.
+**Research questions and lower-hierarchy cross-reference · 15 November 2026; provenance corrected.** This document records the user's distinct deferred question about a conceptual **dual** to \(\mathcal A\). Its lower-hierarchy placement restates established work on \(\mathcal S=\mathcal A\vee\mathcal A^{op}\) from [the 10 November Cameron–Kumar revisit](ProjectA_Cameron_Kumar_revisit_graph_to_locale_hierarchy_2026-11-10.md) and the [independently refereed SC+ theorem](ProjectA_SCplus_CANONICAL_2026-11-15.md), rather than introducing a new join. The additional meet identity \(\mathcal A\wedge\mathcal A^{op}=\Delta\) is internally checked here.
 
 ## 1. The location of oriented specialization
 
-For any locale X, set \(\mathcal I=\operatorname{cl}(\Delta)\), \(\mathcal D=\operatorname{fit}(\Delta)\), \(\mathcal M=\mathcal I\wedge\mathcal D\), and let \(\mathcal A\) be universally presented by \(u_1\le u_2\).
+For any locale X, set \(\mathcal I=\operatorname{cl}(\Delta)\), \(\mathcal D=\operatorname{fit}(\Delta)\), \(\mathcal M=\mathcal I\wedge\mathcal D\), and let \(\mathcal A\) be universally presented by \(u_1\le u_2\). **The pre-existing symmetric relation** is \(\mathcal S:=\mathcal A\vee\mathcal A^{op}\); earlier notes also write \(\mathcal B:=\mathcal A^{op}\). Thus \(\Delta\le\mathcal A,\mathcal A^{op}\le\mathcal S\le\mathcal M\).
 
 **Proposition (all locales).**
 \[
@@ -39,13 +39,13 @@ The inclusion \(\mathcal A\le\mathcal I\) shows that the **same** \(\mathcal A\)
 
 Possible future tests (no assertions): look for a universal construction emphasizing closure rather than fitting; use the two projections' asymmetric fibers (fitted point hull versus point closure); examine Hochster/co-Hochster duality, specialization versus co-specialization, and the interaction with symmetric reflexive relations in the original graph project. Any proposed candidate must be defined as an actual sublocale, tested on nonspatial examples, and compared with \(\mathcal A\) and \(\mathcal A^{op}\), not only on ordinary points.
 
-## 3. Resolved question A-JOIN — false
+## 3. Established SC+ obstruction, rechecked (not a new question)
 
-The identity \(\mathcal A(X)\vee\mathcal A(X)^{op}=\mathcal M(X)\) **fails**, already for the finite four-point Alexandrov diamond \(P=\{0,a,b,1\}\) with \(0<a,b<1\) and \(a,b\) incomparable.
+The identity \(\mathcal S(X)=\mathcal M(X)\) **fails**, already for the finite four-point Alexandrov diamond \(P=\{0,a,b,1\}\) with \(0<a,b<1\) and \(a,b\) incomparable.
 
 Because \((0,0)\in\Delta_P\) is the least and \((1,1)\in\Delta_P\) the greatest point of \(P^2\), the fitted hull and closure of the diagonal are both \(P^2\). Hence \(\mathcal M(P)=P^2\). But the points of \(\mathcal A(P)\vee\mathcal A(P)^{op}\) are just comparable pairs, so \((a,b)\) is missing. Thus the containment from §1 is strict.
 
-[Full short counterexample](ProjectA_A_JOIN_DIAMOND_COUNTEREXAMPLE_2026-11-15.md). **CLOSED (negative); internally checked after the LC-A blind audit.**
+[Short independent recalculation](ProjectA_A_JOIN_DIAMOND_COUNTEREXAMPLE_2026-11-15.md). This obstruction was **already recorded on 10 November and incorporated in the externally audited SC+ theorem**. The label '(A-JOIN)' had mistakenly suggested a newly posed and solved question; it is retained only as a historical cross-reference.
 
 ## 4. Open question LC-PT — the next substantive frontier
 
@@ -63,6 +63,6 @@ A further question, suggested by the external referee: can a **first-countable o
 
 1. Archive/consolidate the blindly verified (LC-A) counterexample, with the short proof and the \((T_U)\) identification.
 2. Check the literature (Johnstone, Arrieta, Isbell, Banaschewski, Picado–Pultr), especially priority and existing implications \((pt\text{-}fit)\leftrightarrow(T_U)\). A [preliminary primary-source checkpoint](ProjectA_TU_PTFIT_LITERATURE_CHECK_2026-11-15.md) is now recorded, without a priority claim.
-3. Return to (LC-PT); leave A-DUAL open/deferred; A-JOIN is already refuted by the finite diamond.
+3. Return to (LC-PT), now with an [internally checked scattered closed-remainder reduction](ProjectA_LCPT_CLOSED_POINT_SCATTERED_EXCISION_2026-11-15.md); leave A-DUAL open/deferred. The diamond obstruction \(\mathcal S\ne\mathcal M\) is established SC+ background.
 
-The universal proposition in §1 is **internally checked** and could warrant its own audit if used in deeper results. The open questions are not covert theorem claims.
+The hull inclusions for \(\mathcal S\) are **established, previously recorded** and the SC+ statement is independently audited; the additional meet identity in §1 is internally checked. The open questions are not covert theorem claims.
