@@ -41,11 +41,12 @@ Both cl D and fit I contain J, but only cl D⊆U follows automatically from U cl
 Calculate comparison of J with cl D∧fit I; determine when M=Δ, J=U, or I=D. Study behavior of cl and fit under each other, and under Hochster duality in coherent frames. Use finite Priestley/Alexandrov examples to verify any conjectural identity, retaining point-free nucleus calculations for general claims.
 
 Background: standard fact that sublocales form a coframe, nuclei a frame, and joins of nuclei need not be pointwise. See Picado–Pultr and literature on fitting and sublocale nuclei.
-\n## 5. Addendum (15 November 2026): oriented specialization inside M
+
+## 5. Addendum (15 November 2026): oriented specialization inside M
 
 The internally checked universal proposition [with proof](ProjectA_LCA_FOLLOWUP_AND_A_DUAL_QUESTIONS_2026-11-15.md) places the presented oriented-specialization relation \(\mathcal A\) and its coordinate transpose between \(\Delta\) and \(\mathcal M=\mathcal I\wedge\mathcal D\):
 \[
 \Delta\le\mathcal A,\mathcal A^{op}\le\mathcal M,
 \qquad\mathcal A\wedge\mathcal A^{op}=\Delta.
 \]
-They have the same closure \(\mathcal I\) and fitted hull \(\mathcal D\) as \(\Delta\). The join question \(\mathcal A\vee\mathcal A^{op}\stackrel?=\mathcal M\) is open. A *conceptually distinct* closure-side dual remains a separate deferred question, despite the fact that \(\mathcal A\) itself also lies below I. This addendum is internal and was **not** in the LC-A external referee packet.
+They have the same closure \(\mathcal I\) and fitted hull \(\mathcal D\) as \(\Delta\). The join identity \(\mathcal A\vee\mathcal A^{op}=\mathcal M\) is **false**, by the [four-point diamond](ProjectA_A_JOIN_DIAMOND_COUNTEREXAMPLE_2026-11-15.md). A *conceptually distinct* closure-side dual remains a separate deferred question, despite the fact that \(\mathcal A\) itself also lies below I. This addendum is internal and was **not** in the LC-A external referee packet.
