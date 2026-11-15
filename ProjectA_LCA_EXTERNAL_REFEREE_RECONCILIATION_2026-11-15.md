@@ -29,7 +29,7 @@ The referee also sketched (not blind-audited) a **scattered-K criterion** and a 
 
 - (LC-PT): in locally compact sober T1, is \((pt\text{-}fit)\Rightarrow(T_U)\)?
 - (A-DUAL): find a natural closure-side “dual” to \(\mathcal A\) in \([\Delta,\mathcal I]\) (not trivially resolved by transposition).
-- (A-JOIN): is \(\mathcal A\vee\mathcal A^{op}=\mathcal I\wedge\mathcal D\)?
+- (A-JOIN): **CLOSED (false)** after this audit, by an internally checked [four-point diamond counterexample](ProjectA_A_JOIN_DIAMOND_COUNTEREXAMPLE_2026-11-15.md).
 - (COUNT-A): can a first- or second-countable locally compact sober T1 space fail \((T_U)\)?
 
 See [follow-up and dual question ledger](ProjectA_LCA_FOLLOWUP_AND_A_DUAL_QUESTIONS_2026-11-15.md). No claim that the LC-A example is first in the literature; inspect Johnstone, Arrieta and further sources before asserting novelty.
