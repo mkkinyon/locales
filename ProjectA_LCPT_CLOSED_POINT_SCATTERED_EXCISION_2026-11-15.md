@@ -76,7 +76,7 @@ Apply the constant-open-piece lemma to \(f:Z'\to F\). There is a nonzero open \(
 
 **Corollary.** The same conclusion holds for a **closed discrete** remainder F (finite or infinite), with a shorter proof: the first-projection fiber over each p is [p], and the open singleton fibers cover the closed part of \(\mathcal A(X)\). The one-point theorem is the case F=[p].
 
-**Scope warning:** the general closed F need not be scattered. Ordinary point fibers may then fail to detect a nonzero pointless piece of the closed part. This is the remaining obstruction to the full LC-PT question.
+**Scope warning:** the general closed F need not be scattered. Ordinary point fibers may then fail to detect a nonzero pointless piece of the closed part. For **sober T1 spaces**, a shorter argument using the [maximal open TU locus](ProjectA_LCPT_MAXIMAL_TU_OPEN_CORE_2026-11-15.md) shows that the closed non-TU core of any point-fitted non-TU space has **no isolated points**. The latter result does not settle the full LC-PT question.
 
 ## 5. Concrete calibration
 
