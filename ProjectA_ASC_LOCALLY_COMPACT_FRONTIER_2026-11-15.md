@@ -155,3 +155,15 @@ A further internally checked note, [Semilattice retractions and nonstable LC-A t
 5. The specialization graph \(G_{\le_X}\) is a **sober topological subspace** of \(X^2\) whenever \(X\) is sober. This alone does not establish spatiality of the presented relation.
 
 These deductions await external audit. **(LC-A) remains open.**
+
+
+## 7. Ideal completion and continuous-dcpo Scott spaces
+
+The internally checked note [Ideal completion and continuous-domain spatiality](ProjectA_ASC_IDEAL_COMPLETION_2026-11-15.md) proves a full frame isomorphism
+\[
+\mathcal A(\operatorname{Idl}(P))\cong\operatorname{Idl}(P^\to),
+\qquad P^\to=\{(p,q):p\le q\}
+\]
+for every poset \(P\), and hence spatiality for all algebraic-dcpo Scott locales. The standard Scott-continuous retraction \(D\to\operatorname{Idl}(D)\to D\), \(x\mapsto\{a:a\ll x\}\mapsto\sup I\), extends this to **every continuous-dcpo Scott locale**. The earlier sober Alexandrov theorem follows as a special case.
+
+These results are internally checked, not independently refereed. They do not answer (LC-A) for arbitrary locally compact sober spaces, which need not be Scott spaces of continuous dcpos.
