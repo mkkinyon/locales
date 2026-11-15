@@ -123,3 +123,13 @@ The construction meets all four hypotheses of (LC-PT) in the ordinary sober-spat
 It also illustrates why the earlier Boolean lax double over a fixed quotient failed: the new filter-valued interface allows the exceptional defect to be *locally discrete* and hence produces compact-open neighborhoods, without making their intersections compact. Local compactness survives; stability does not.
 
 **Suggested next actions:** (i) a truly independent adversarial read of §2 join closure, §4 compact opens, §5 fitted sublocales, and §6 quotient comparison; (ii) reconcile and update the (LC-PT) problem register only after passing that audit; (iii) ask whether weaker restrictions, such as a countable basis, restore a positive statement. The present compact-open basis is indexed by all points p∈K and need not be countable.
+
+## 8. Further diagnostics: first countability, but not second countability
+
+Because the Cantor space has a countable clopen local basis at each p, the \(b_{p,d}\) above form a **countable neighborhood basis at \(p_F\)**. Indeed, whether p lies in v or in the defect \(c\setminus v\), a sufficiently small clopen d makes \(b_{p,d}\le(c,v)\). The opens \((\varnothing,d)\) form a countable local basis at \(p_U\). Thus X is **first-countable**.
+
+It cannot be second-countable. For each \(p\in K\), the open \(b_p=(K,K\setminus\{p\})\) contains \(p_F\) but not \(p_U\). Any global basis must contain some member \(B_p=(c_p,v_p)\) with \(p_F\in B_p\le b_p\), hence \(p\in c_p\setminus v_p\). But every relatively discrete subset of the second-countable Cantor space is countable, so the defect \(c\setminus v\) of **each** basic open is countable. A countable basis could account for only countably many such p, whereas K is uncountable.
+
+The two copies \(p_F,p_U\) of any p cannot have disjoint open neighborhoods: for any \(p\in c\) and \(p\in v'\), the open set \(c\cap v'\) contains p and a nonempty neighborhood punctured at a relatively discrete defect \(c\setminus v\), so it meets v. Hence the space is non-Hausdorff in the ordinary sense too.
+
+These extra diagnostics suggest a possible **second-countability** boundary for future study; they do not alter the (LC-PT) construction.
