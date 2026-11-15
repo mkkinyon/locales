@@ -39,13 +39,13 @@ The inclusion \(\mathcal A\le\mathcal I\) shows that the **same** \(\mathcal A\)
 
 Possible future tests (no assertions): look for a universal construction emphasizing closure rather than fitting; use the two projections' asymmetric fibers (fitted point hull versus point closure); examine Hochster/co-Hochster duality, specialization versus co-specialization, and the interaction with symmetric reflexive relations in the original graph project. Any proposed candidate must be defined as an actual sublocale, tested on nonspatial examples, and compared with \(\mathcal A\) and \(\mathcal A^{op}\), not only on ordinary points.
 
-## 3. Open question A-JOIN
+## 3. Resolved question A-JOIN — false
 
-Does
-\[
-\mathcal A(X)\vee\mathcal A(X)^{op}=\mathcal M(X)
-\]
-hold for every locale X? The left side is always below M by §1. On finite Sierpiński X, it equals M, but this alone establishes no universal claim. **OPEN; do not assume.**
+The identity \(\mathcal A(X)\vee\mathcal A(X)^{op}=\mathcal M(X)\) **fails**, already for the finite four-point Alexandrov diamond \(P=\{0,a,b,1\}\) with \(0<a,b<1\) and \(a,b\) incomparable.
+
+Because \((0,0)\in\Delta_P\) is the least and \((1,1)\in\Delta_P\) the greatest point of \(P^2\), the fitted hull and closure of the diagonal are both \(P^2\). Hence \(\mathcal M(P)=P^2\). But the points of \(\mathcal A(P)\vee\mathcal A(P)^{op}\) are just comparable pairs, so \((a,b)\) is missing. Thus the containment from §1 is strict.
+
+[Full short counterexample](ProjectA_A_JOIN_DIAMOND_COUNTEREXAMPLE_2026-11-15.md). **CLOSED (negative); internally checked after the LC-A blind audit.**
 
 ## 4. Open question LC-PT — the next substantive frontier
 
@@ -63,6 +63,6 @@ A further question, suggested by the external referee: can a **first-countable o
 
 1. Archive/consolidate the blindly verified (LC-A) counterexample, with the short proof and the \((T_U)\) identification.
 2. Check the literature (Johnstone, Arrieta, Isbell, Banaschewski, Picado–Pultr), especially priority and existing implications \((pt\text{-}fit)\leftrightarrow(T_U)\). A [preliminary primary-source checkpoint](ProjectA_TU_PTFIT_LITERATURE_CHECK_2026-11-15.md) is now recorded, without a priority claim.
-3. Return to (LC-PT); leave A-DUAL and A-JOIN in the question register until their turn.
+3. Return to (LC-PT); leave A-DUAL open/deferred; A-JOIN is already refuted by the finite diamond.
 
 The universal proposition in §1 is **internally checked** and could warrant its own audit if used in deeper results. The open questions are not covert theorem claims.
