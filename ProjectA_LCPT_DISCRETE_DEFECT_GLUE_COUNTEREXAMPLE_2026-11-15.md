@@ -1,15 +1,15 @@
-# Project A — (LC-PT) candidate counterexample by discrete-defect gluing
+# Project A — canonical negative (LC-PT): discrete-defect gluing
 
-**15 November 2026. Formal [internal adversarial audit](ProjectA_LCPT_DISCRETE_GLUE_INTERNAL_ADVERSARIAL_AUDIT_2026-11-15.md) completed with no mathematical defect found; independent external audit STILL PENDING.** The claims below must not be promoted as externally verified before that separate review. No literature-priority claim is made. Compare the independently audited [stable-local-compactness theorem (A-SC)](ProjectA_ASC_CANONICAL_2026-11-15.md) and the [open/closed interface calculus](ProjectA_LCPT_OPEN_CLOSED_INTERFACE_2026-11-15.md).
+**Canonical theorem note · 15 November 2026.** The complete construction passed both a [formal internal adversarial audit](ProjectA_LCPT_DISCRETE_GLUE_INTERNAL_ADVERSARIAL_AUDIT_2026-11-15.md) and an [independent blind external referee report](ProjectA_LCPT_EXTERNAL_REFEREE_RECONCILIATION_2026-11-15.md), with no mathematical correction required. The presentation incorporates the referee's open/closed-complement lemma. The [post-audit cross-sheet addendum](ProjectA_LCPT_CROSS_SHEET_PERFECT_KERNEL_POSTAUDIT_2026-11-15.md) records separate later mathematics. Literature priority remains unchecked.
 
 ## 1. Statement
 
-**Proposed theorem.** There exists a **compact, locally compact, sober \(T_1\)** space \(X\) in which **every point sublocale is fitted**, but
+**Theorem (negative LC-PT).** There exists a **compact, locally compact, sober \(T_1\)** space \(X\) in which **every point sublocale is fitted**, but
 \[
 \boxed{\mathcal A(X)\ne\Delta_X.}
 \tag{1}
 \]
-Thus (LC-PT), without *stable* local compactness, would have a negative answer. The space has a basis of compact opens, but that basis is not stable under finite meets; thus it does not contradict (A-SC).
+Thus (LC-PT), without *stable* local compactness, has a negative answer. The space has a basis of compact opens, but that basis is not stable under finite meets; thus it does not contradict (A-SC).
 
 ## 2. The frame
 
@@ -84,7 +84,7 @@ T_p\wedge U=\bigwedge_{d\ni p}O_U(d\setminus\{p\})=0.
 \]
 For the last equality, \(O_U(d\setminus\{p\})=O_U(d)\wedge O_U(K\setminus\{p\})\), whereas the meet of the clopen neighborhoods O_U(d) of p is the closed point sublocale \([p]\), disjoint from \(O_U(K\setminus\{p\})\). The clopen-neighborhood assertion follows because each O_U(d) is also the closed sublocale of its clopen complement, and \(\bigcup_{d\ni p}(K\setminus d)=K\setminus\{p\}\).
 
-Since an open sublocale U and its closed complement F have join X and meet zero, (6) forces \(T_p\le F\). Restricting (5) to F now yields
+Here is the explicit **open/closed-complement lemma** recommended by the blind referee. For any sublocale \(S\hookrightarrow X\) with quotient \(q:\mathcal O(X)\twoheadrightarrow\mathcal O(S)\), the pullback of \(U=O_X(e)\) is \(O_S(q(e))\). Thus \(S\wedge U=0\) is equivalent to \(q(e)=0\), which is exactly the condition for \(S\) to factor through \(F=C_X(e)\). Applying this lemma to (6) yields \(T_p\le F\). Restricting (5) to F now yields
 \[
 T_p=T_p\wedge F
 =\bigwedge_{d\ni p}O_F(d)=[p_F].
@@ -116,15 +116,17 @@ f^*(c,v)=j(c)\le j(v)=g^*(c,v).
 \]
 These maps are **distinct**, since \(f^*(e)=0\) and \(g^*(e)=1\). Taking the nonzero locale with frame B as source, we have a genuine generalized comparable pair \(f<g:E\to X\). By the defining universal property of \(\mathcal A(X)\), it determines a map \(E\to\mathcal A(X)\) that cannot factor through the diagonal. Therefore \(\mathcal A(X)\ne\Delta_X\).
 
+Both maps have a simpler geometric description: let \(\beta:E\hookrightarrow K\) be the Booleanization sublocale inclusion. Then \(f\) is \(\beta\) followed by the closed-sheet inclusion \(K\cong F\hookrightarrow X\), while \(g\) is \(\beta\) followed by the open-sheet inclusion \(K\cong U\hookrightarrow X\). They are **two copies of the same generalized point**, compared in X.
+
 As B is atomless, its locale E is pointless; this explains how the generalized comparison escapes the ordinary \(T_1\) specialization order and how the zero-point-fiber obstruction arises.
 
-## 7. Consequences / provisional status
+## 7. Consequences / verified status
 
-The construction meets all four hypotheses of (LC-PT) in the ordinary sober-spatial \(T_1\) sense, while showing \(\mathcal A\ne\Delta\). Thus the proposed implication fails **if the checks above survive external audit**.
+The construction meets all four hypotheses of (LC-PT) in the ordinary sober-spatial \(T_1\) sense, while showing \(\mathcal A\ne\Delta\). The main implication **fails**; all central claims and optional refinements survived the independent blind referee audit.
 
 It also illustrates why the earlier Boolean lax double over a fixed quotient failed: the new filter-valued interface allows the exceptional defect to be *locally discrete* and hence produces compact-open neighborhoods, without making their intersections compact. Local compactness survives; stability does not.
 
-**Suggested next actions:** (i) a truly independent adversarial read of §2 join closure, §4 compact opens, §5 fitted sublocales, and §6 quotient comparison; (ii) reconcile and update the (LC-PT) problem register only after passing that audit; (iii) ask whether weaker restrictions, such as a countable basis, restore a positive statement. The present compact-open basis is indexed by all points p∈K and need not be countable.
+**Next research question:** whether additional restrictions, notably **second countability**, restore a positive (LC-PT) statement. The present compact-open basis is indexed by all points p∈K and cannot be countable.
 
 ## 8. Further diagnostics: first countability, but not second countability
 
@@ -150,3 +152,17 @@ The closed non-TU core is therefore **entirely crowded** (Cantor), in exact agre
 There is also a normalized zero-fiber witness for \(E_e(X)=\mathcal A(X)\wedge O(e_2)\wedge C(e_1)\), using the open e=(∅,K): on the source E, \(f^*(e)=0\), \(g^*(e)=1\), so the entire nonzero Boolean witness lands in \(E_e(X)\). Since every F-sheet point is fitted, the first-projection pullback of \(E_e\) over any ordinary point is zero by the [zero-fiber proposition](ProjectA_LCPT_ZERO_FIBER_OBSTRUCTION_2026-11-15.md). Thus this example realizes the earlier **nonzero generalized comparison with all ordinary fibers empty**.
 
 Finally, since the ordinary specialization order of X is equality, \(\operatorname{pt}(\mathcal A(X))\) consists exactly of diagonal pairs; the nonzero off-diagonal Boolean witness forces \(\mathcal A(X)\) to be **nonspatial**.
+
+
+## 10. Post-referee extras and provenance
+
+The independent report confirmed a number of useful further properties:
+
+- The **whole closed sheet F is not fitted**, although each point \([p_F]\) is fitted. An open containing F has the form \((K,K\setminus S)\) with S finite; the nonzero Booleanization sublocale of U belongs to all of them, yet is disjoint from F. Thus even the join of a family of fitted point sublocales need not be fitted.
+- The open sheet U is **dense**, so X is separable. Indeed any open \((c,\varnothing)\) requires c to be an open discrete subset of perfect K, hence c=∅.
+- The space is **hereditarily Lindelöf**: each subset is the union of its two intersections with second-countable Cantor sheets, and an open cover admits a countable subcover on each sheet.
+- The main construction extends to any nonempty perfect Stone space K; the first-countability argument additionally uses metric/countable local bases.
+
+The referee's *subsequent* addendum identified the full cross-sheet specialization carrier with a Cantor–Bendixson nucleus and the open-sheet trace of \(\operatorname{fit}_X(F)\). Those claims are recorded in the [separate post-audit note](ProjectA_LCPT_CROSS_SHEET_PERFECT_KERNEL_POSTAUDIT_2026-11-15.md), and must not be confused with the independently blind-audited assertions in §§1–9.
+
+**Audit archive:** [prompt, packet, original report, and post-audit addendum](project-a/audits/2026-11-15/LCPT_DISCRETE_GLUE/README.md). **No literature-priority claim.**
