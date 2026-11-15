@@ -1,3 +1,5 @@
+> **15 NOV 2026 — ORIENTED SPECIALIZATION UPDATE:** The audited [positive (A-SC)](ProjectA_ASC_CANONICAL_2026-11-15.md) and [negative (LC-A)](ProjectA_LCA_COUNTEREXAMPLE_CANONICAL_2026-11-15.md) delimit the stably-locally-compact versus merely-locally-compact situation. The [interval \(\Delta\le\mathcal A,\mathcal A^{op}\le\mathcal M\) and deferred dual question](ProjectA_LCA_FOLLOWUP_AND_A_DUAL_QUESTIONS_2026-11-15.md) are internally checked/recorded. See [LC-A referee reconciliation](ProjectA_LCA_EXTERNAL_REFEREE_RECONCILIATION_2026-11-15.md). Older frontiers are historical.
+
 > **14 NOV 2026 — CURRENT FRONTIER.** Use the [post-Q/Q′ frontier and duality consolidation](ProjectA_postQ_frontier_consolidation_duality_2026-11-14.md) for current statuses. **Q and Q′ are false** by the [audited dense-rational-bridge example](ProjectA_Q_DENSE_RATIONAL_BRIDGE_CANONICAL_2026-11-14.md). Earlier Q/Q′ entries below are dated historical snapshots.
 
 # Point-Free Topology — thematic guide to a large historical research repository
