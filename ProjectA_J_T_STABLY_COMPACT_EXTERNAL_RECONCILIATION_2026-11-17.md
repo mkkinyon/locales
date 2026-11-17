@@ -53,7 +53,7 @@ Each \(M(u)\) is nonempty. A first step \(u<x\) forces \(u<z\) for every \(z\in 
 As the two sets are nonempty, this establishes equivalence between opposite-side geodesics and the nonnesting of \(M(u),M(r)\). The exact graph criterion is
 \[
 (x,y)\in\mathcal T\iff
-\exists u\sim r\in A_{xy}: M(u)\not\subseteq M(r),\ M(r)\not\subseteq M(u).
+\exists u,r\in A_{xy}: u\sim r,\ M(u)\not\subseteq M(r),\ M(r)\not\subseteq M(u).
 \]
 The proof works for **arbitrary posets**; finiteness is not used.
 
