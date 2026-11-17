@@ -106,7 +106,7 @@ is spatial. Combined with the lax inclusion (3.2), this proves
 \[
 \boxed{\mathcal V_{X\times X}\subsetneq\mathcal V_X\times\mathcal V_X.}\tag{4.1}
 \]
-This strictness is undetectable from ordinary points.
+This strictness follows from the difference in spatiality. No assertion that the two sublocales have identical ordinary point sets is needed or currently established: for a general subset (T_X), the point set of ([T_X]) may exceed (T_X).
 
 **Earlier D and M witnesses.** The same \(X\) gives an open rational slice of \(\mathcal D_X\), so \(\mathcal D_{X\times X}<\mathcal D_X\times\mathcal D_X\). Adjoin a patch-isolated greatest specialization point \(\omega\) to obtain \(Y\), with the old \(X\) closed in \(Y\). Then \(\mathcal I_Y=Y^2\), so \(\mathcal M_Y=\mathcal D_Y\); restriction of point-induced sublocales along the closed inclusion gives \(\mathcal D_X=\mathcal D_Y\wedge X^2\). Thus \(\mathcal M_{Y\times Y}<\mathcal M_Y\times\mathcal M_Y\). These D/M claims are part of the same still-internally-audited product program, not an independent external finding.
 
