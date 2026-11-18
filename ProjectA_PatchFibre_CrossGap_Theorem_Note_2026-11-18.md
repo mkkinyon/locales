@@ -1,6 +1,6 @@
 # Project A — pointless patch fibres and the open cross-gap equalizer
 
-**18 November 2026.** Consolidated research theorem note for independent audit. **Status:** The patch-fibre comparison (Theorem A) has passed an internal adversarial check. The cross-gap assertion (Theorem B) has an internally supported proof, conditional on the explicit Cantor-fusion induction in Lemma 5; an independent audit is requested. Neither statement establishes the global assertion `K_q = T∘T`.
+**18 November 2026.** Consolidated research theorem note, updated after the independent blind referee report and addendum of the same date. **Status:** Theorems A and B and Lemmas 1–8 passed independent review under the finite-fence geometric hypotheses below. The referee requested precise patch/upper typing, a global two-phase fusion induction, and a compact-support clarification; these repairs are included here. Theorem C and Corollary A.1 record the referee's subsequently checked addendum. Nothing here proves the global assertion `K_q = T∘T`.
 
 ## 1. Construction and conventions
 
@@ -11,6 +11,17 @@ Let `P=[0,1]` with its Euclidean patch topology and the closed height-one partia
 \]
 
 The `P_n` travel through the geometric gap between two disjoint compact Cantor antichains `K<M`; the `Q_n` travel through the gap between `M<L`. Their endpoints in `M` enumerate disjoint dense countable sets `A={a_n}` and `B={b_n}`. Every sufficiently late `P_n` visits every prescribed nonempty upper-open subset compactly contained in the first gap, and likewise `Q_n` in the second. In fact the mesh estimate gives this for every fixed nonempty open subinterval of its gap.
+
+For clarity, the geometric facts used in the proofs are:
+
+1. Each component is finite (apart from singleton components), there are finitely many components of index at most `n`, and strict edge lengths tend to zero.
+2. No two vertices in distinct components are comparable; each nontrivial component has height one, so each strict order pair joins a minimal and a maximal vertex.
+3. Every sufficiently late `P_n` (respectively `Q_n`) visits every fixed nonempty Euclidean open subinterval of its own gap.
+4. The middle endpoints `a_n,b_n` are pairwise distinct, and each colour's endpoints are dense in the perfect compact set `M`.
+5. A patch-closed component-saturated set meeting infinitely many fence components contains **all** of `E`; thus any generic-neighborhood complement meets `E` only finitely.
+6. Compact cutoffs inside either chosen mediator meet no components of the other colour, and the mediators' closures lie strictly inside their disjoint gaps.
+
+These are the **assumed finite-fence geometric properties**; the present note does not independently construct every vertex by coordinates. Theorem A needs only the closed order and the first two shrinking/finiteness properties. The cross-gap and graph-generation theorems also use the remaining density, forcing and gap-separation properties.
 
 Let `X` be the locale of Euclidean-open **upper** sets of `P`; write `p:P_patch→X` for the canonical patch map. The quotient `q:X→Q` has as opens the component-saturated upper opens. The quotient has a generic point `p_∞`, characterized by those saturated opens that meet `E`. A saturated patch-closed set meeting infinitely many fence components contains all of `E` (finite-fence forcing); thus the complement of any `p_∞`-neighborhood meets `E` only finitely, and every other quotient open misses `E`.
 
@@ -80,7 +91,13 @@ For an **arbitrary** family of Euclidean opens `(O_i)`, let
 
 `D` is upper-closed relative to the upper-open `W`. Moreover every `x∈W` lies in some `O_i`, and `D∩O_i⊂D_{O_i}`, so `D` is Euclidean locally finite in `W`. All its points are minimal fence vertices. For `d∈D` the upper cone `↑d` is finite, is contained in `W`, and meets `D` exactly in `{d}`. The Euclidean closed-discreteness of `D` in `W` permits a Euclidean-open neighborhood `N⊂W` of `↑d` avoiding `D\{d}`. Then `r(N)` is an upper-open neighborhood of `d` meeting `D` only at `d`. Thus `D` is a **closed discrete subspace in the upper topology of `W`**.
 
-For a pointless `S≤X`, `S∧D=0`: any sublocale of the closed discrete locale `D` is spatial, because every frame quotient of `\mathcal P(D)` is complete atomic Boolean. Let `λ:O(X)↠O(S)` be restriction. Within `W`, the open `R` and its closed complement `D` have join `W`; finite distributivity of the sublocale lattice and `S∧D=0` imply `λ(W)=λ(R)`. Hence
+For a pointless `S≤X`, `S∧D=0`: every sublocale of the closed discrete locale `D` is spatial. Indeed, if `j` is a nucleus on the powerset frame `\mathcal P(D)`, then inflationarity and meet preservation imply
+
+\[
+j(A)=A\cup j(\varnothing).
+\]
+
+To see the nontrivial inclusion, `j(A)\cap(D\setminus A)\subseteq j(A)\cap j(D\setminus A)=j(\varnothing)`. The quotient is therefore the powerset of `D\setminus j(\varnothing)`. In particular, every nonzero sublocale has an ordinary point. Let `λ:O(X)↠O(S)` be restriction. Within `W`, the open `R` and its closed complement `D` have join `W`; finite distributivity of the sublocale lattice and `S∧D=0` imply `λ(W)=λ(R)`. Hence
 
 \[
  λr(\bigcup_iO_i)=\bigvee_iλr(O_i). \tag{A3}
@@ -91,6 +108,14 @@ Combined with preservation of finite meets, `ρ=λr:O(P_patch)→O(S)` is a **fr
 Conversely, `p^{-1}(S)` is pointless. For every patch-open `O`, the difference `D_O` is closed discrete relative to `O` and so meets `p^{-1}(S)` in zero. Therefore `O` and `r(O)` have **identical** restrictions to `p^{-1}(S)`. Every open of the latter is consequently the restriction of an upper-open; i.e. `p_S^*:O(S)→O(p^{-1}S)` is surjective. The section makes it injective. This proves (A). ∎
 
 **Scope warning.** The patch counit `p` is not a closed map in this example (a maximal fence singleton is patch-closed but not upper-closed). Theorem A neither asserts that `p` is Vermeulen-proper nor invokes any general proper-descent theorem. It works for the *specific pointless pullbacks*.
+
+**Corollary A.1 (minimal-vertex avoidance; referee addendum).** Let `M_min` be the set of minimal vertices in nontrivial fence components. The same comparison `p^{-1}(S)→S` is an isomorphism for **any** sublocale `S≤X` satisfying
+
+\[
+S\wedge[m]=0\qquad(m\in M_{\min}). \tag{M}
+\]
+
+**Proof.** Each discrepancy `D` from (A2) is a discrete sublocale of an upper-open and is supported on `M_min`. If `S∧D` were nonzero, the discrete-sublocale argument just given would produce an ordinary point `[m]≤S` for some `m∈M_min`, contrary to (M). Thus `λr` preserves arbitrary joins and the section exists just as before. Likewise `D_O=O\setminus r(O)` is patch-discrete and supported on `M_min`. Any point of a nonzero meet `p^{-1}(S)∧D_O` would map under `p` to an ordinary minimal vertex point of `S`, again contradicting (M). Hence upper opens still generate the opens of `p^{-1}(S)`, and the comparison is an isomorphism. This includes pointful examples (e.g. a maximal fence vertex or a singleton component). The hypothesis is sufficient, not asserted necessary. ∎
 
 ## 3. Compact cutoff and richness of generic supports
 
@@ -116,7 +141,7 @@ are infinite. Furthermore no finite union of vertical and horizontal coordinate 
 
 **Proof.** If the first selected-coordinate set were finite, choose nonempty relatively open `W'` in `C_0` with `\overline{W'}⊂W`. The first-coordinate projection of this closure is compact and meets `E_P` finitely. Lemma 1 provides a `p_∞`-neighborhood whose first-coordinate pullback misses `\overline{W'}`; since `S≤F`, this would give `S∧W'=0`, contradicting density of `S` in `C_0`. The other coordinate is symmetric. For the final assertion, each one-point vertical or horizontal section has zero intersection with `S` because the factors of `F` are pointless. If a nonempty relatively open part of `C_0` lay in finitely many such sections, density of `S` would be contradicted. ∎
 
-In applying this lemma to a nonzero closed restriction of `F`, first restrict to a relatively compact patch-open rectangle where the restriction stays nonzero, then take its least closed support. Such a rectangle exists because these rectangles form an open cover of `U_P×U_Q`.
+In applying this lemma to a nonzero closed restriction `F∧C`, choose a patch-open rectangle `V` with **compact closure contained in** `U_P×U_Q` and `F∧C∧V≠0`. Take `C_0` to be the *least ambient patch-closed support* of that restriction, not merely its closure relative to the open rectangle. Then `C_0⊂C∩\overline V`, so `C_0` is a compact Euclidean-closed subset of the patch square, and the restricted sublocale is dense in `C_0` by minimality. Such a rectangle exists because the relatively compact rectangles cover the mediator product.
 
 ## 4. Cantor graph with two selected projections
 
@@ -137,7 +162,11 @@ In applying this lemma to a nonzero closed restriction of `F`, first restrict to
 3. Maintain *two separate finite component registries*, one for each coordinate. When a newly chosen anchor coordinate happens to be any fence vertex (even in its unselected coordinate), reserve its whole finite component for that coordinate. No future new anchor coordinate may use a different vertex of a reserved component. Parent anchors may persist but are not new reservations.
 4. At depth `n`, all current coordinate intervals avoid **every unreserved vertex** of the first `n` fence components; for a component with a reserved anchor coordinate, only its single reserved vertex is permitted in the union of current intervals for that coordinate. Enforce the same finite exclusions for every previously reserved component, regardless of index.
 
-At a node `s`, first retain `z_s` for child 0. Use Lemma 3, excluding all already reserved component vertices and the finite coordinate values of the anchors just chosen, to select the color-`P` anchor for child 1 and color-`Q` anchor for child 2. All choices lie in `C_0∩int R_s` and can be made in fresh components above the current stage. The finite-exclusion lemma guarantees this after each added restriction. Register all fence components hit by *either* coordinate of either new anchor. Shrink disjoint closed intervals about the three anchors inside `R_s`; the finiteness of each reserved component permits removal of all its other vertices, and the first-`n` restriction is finite. Continue simultaneously at the finitely many nodes at each depth.
+**Global two-phase construction at depth `n`.** There are only finitely many nodes `s` of depth `n`. Keep every old anchor `z_s` as the proposed anchor of child `s0`.
+
+**Phase I: choose all new anchors before shrinking any rectangles.** Process the finitely many nodes sequentially. At each node use Lemma 3 to choose a colour-`P` anchor for child `s1` and a colour-`Q` anchor for child `s2`, inside `C_0∩int R_s`, in respectively fresh selected components of index `>n+1`. At every choice forbid, in **each coordinate separately**, (i) every vertex of every already registered finite component, (ii) every coordinate value of old or newly chosen anchors that could conflict with a sibling, and (iii) all as-yet unreserved vertices in the first `n+1` components. The forbidden sets are finite unions of closed nowhere-dense coordinate sections in `C_0`, so selected anchors of arbitrarily large index remain available. Immediately after **each** new anchor is chosen, register the entire finite fence component containing either of its coordinates if that coordinate is a fence vertex, including its *unselected* coordinate. The two registries are global for the entire level, not local to individual parents.
+
+**Phase II: shrink all children using the final registries.** Only after anchors at **every** depth-`n` node are fixed, choose disjoint small closed coordinate intervals around all three anchors within each parent rectangle. Require diameter `<2^{-(n+1)}`; forbid (i) every vertex other than its designated anchor coordinate in every registered component for that coordinate, and (ii) every vertex of each still-unreserved component of index at most `n+1`. These are finite exclusions, and no forbidden value is an anchor: previous anchors are registered when selected, and all new anchors avoided the previous registries. Hence sufficiently small intervals exist. They enforce the component-exclusion invariant **globally across all new children**, including components reserved at nodes processed late in Phase I. All anchors lie in the interiors of their child rectangles.
 
 Define
 
@@ -149,11 +178,21 @@ Nested compactness and shrinking diameters give exactly one limit point on each 
 
 Finally, suppose two distinct first-coordinate limit points were vertices in one fence component of index `j`. At any depth beyond `j`, the component-exclusion invariant permits at most the one registered vertex of that component in the union of all intervals. This is impossible. The same argument applies to the second projection. Since all strict comparabilities are within finite fence components, both projections are antichains. ∎
 
-**Comment for the referee.** The induction is the principal constructive claim requiring independent scrutiny. In particular, check simultaneous feasibility of the child-anchor choices and exclusion invariants, rather than accepting a generic assertion that “some Cantor subset” exists.
+**Audit history.** The independent referee specifically checked the finite-component exclusions and supplied the global two-phase formulation above. The original per-node phrasing was insufficiently explicit about later reservations at other nodes of the same level.
 
 ## 5. Booleanization of the graph and the two-step strips
 
 Write `B(Z)` for the least dense sublocale (double-negation Booleanization) of `Z`.
+
+**Ambient typing convention.** `D`, `M`, and `Γ` in this section carry their **Euclidean patch** topologies, whereas `H_G` and `T` are sublocales of the **upper** square `X×X`. Define the sublocales of the patch square
+
+\[
+\widehat H=(p\times p)^{-1}(H_G),\qquad
+\widehat T=(p\times p)^{-1}(T),\qquad
+\widehat{T^{[2]}}=(p\times p)^{-1}(T\circ T). \tag{PT}
+\]
+
+Here `\widehat{T^{[2]}}` is a single pullback of the *already composed* upper relation; no equality with `\widehat T\circ\widehat T` is assumed. All Booleanization inclusions below are made in the patch square, equivalently as factorization statements for maps into `X×X`.
 
 **Lemma 6 (generic inclusion, with both point tests).** The graph from Lemma 5 satisfies
 
@@ -166,23 +205,23 @@ Write `B(Z)` for the least dense sublocale (double-negation Booleanization) of `
 **Lemma 7 (corrected dense strips).** For a **perfect compact antichain** `D⊂U_P` with dense `D∩E_P` (or analogously `D⊂U_Q` with dense `D∩E_Q`),
 
 \[
- \mathcal B(D\times M)\le T,
- \qquad\mathcal B(M\times D)\le T. \tag{DS'}
+ \mathcal B(D\times M)\le\widehat T,
+ \qquad\mathcal B(M\times D)\le\widehat T. \tag{DS'}
 \]
 
-**Proof.** In `D×U_P`, component-equivalent ordinary pairs are dense: every nonempty relative open in `D` contains selected vertices from arbitrarily late fences, and each late fence visits every prescribed nonempty open in `U_P`. Thus `B(D×U_P)≤H_G`. Likewise ordinary component pairs are dense in `U_P×M`, using the dense sequence `a_n`, so `B(U_P×M)≤H_G`. Their pullbacks to `D×U_P×M` along the open product projections are dense sublocales, and their meet contains the least dense sublocale of that triple. Projecting to `D×M` along the open surjection gives a dense image inside `H_G∘H_G=T`, hence an image containing `B(D×M)`. Reverse coordinates or exchange colors to obtain the remaining cases. **Perfection (or the explicit unbounded-index condition) is essential**: the claim is false for a singleton fence vertex. ∎
+**Proof.** In `D×U_P`, component-equivalent ordinary pairs are dense: every nonempty relative open in `D` contains selected vertices from arbitrarily late fences, and each late fence visits every prescribed nonempty open in `U_P`. Thus `B(D×U_P)≤\widehat H`. Likewise ordinary component pairs are dense in `U_P×M`, using the dense sequence `a_n`, so `B(U_P×M)≤\widehat H`. Their pullbacks to `D×U_P×M` along the open product projections are dense sublocales, and their meet contains the least dense sublocale of that triple. Its image in the upper triple is a genuine composable witness for the two copies of `H_G`. Projecting to `D×M` along the open surjection gives a dense patch image whose map into the upper square factors through `H_G∘H_G=T`; hence that image contains `B(D×M)` and establishes the stated *patch-typed* inclusion. Reverse coordinates or exchange colors to obtain the remaining cases. **Perfection (or the explicit unbounded-index condition) is essential**: the claim is false for a singleton fence vertex. ∎
 
 **Lemma 8 (graph-restricted composition).** For the graph in Lemma 5,
 
 \[
- \boxed{\mathcal B(\Gamma)\le T\circ T.} \tag{B2}
+ \boxed{\mathcal B(\Gamma)\le\widehat{T^{[2]}}.} \tag{B2}
 \]
 
-**Proof.** By Lemma 7, `B(D_P×M)≤T` and `B(M×D_Q)≤T`. On the *same* locale `Γ×M`, both projections onto the strip domains are homeomorphisms, because `Γ→D_P` and `Γ→D_Q` are homeomorphisms. Hence `B(Γ×M)` factors through the pullbacks of both copies of `T`, giving an actual composable sublocale. Its outer-coordinate image lies in `T∘T`. Projection `Γ×M→Γ` is open surjective, and the image of `B(Γ×M)` is dense in `Γ`, so that image contains `B(Γ)`. **Restrict to the graph before composing**; density on the full `D_P×M×D_Q` is not enough to survive a nowhere-dense graph restriction. ∎
+**Proof.** By Lemma 7, `B(D_P×M)≤\widehat T` and `B(M×D_Q)≤\widehat T`. On the *same* locale `Γ×M`, both projections onto the strip domains are homeomorphisms, because `Γ→D_P` and `Γ→D_Q` are homeomorphisms. Hence `B(Γ×M)` factors through the pullbacks of both copies of the upper relation `T`, giving an actual composable sublocale over the upper triple. Its outer-coordinate image in the upper square lies in `T∘T`. Projection `Γ×M→Γ` is open surjective, and the patch image of `B(Γ×M)` is dense in `Γ`, so that image contains `B(Γ)`. This proves the stated patch-pullback inclusion. **Restrict to the graph before composing**; density on the full `D_P×M×D_Q` is not enough to survive a nowhere-dense graph restriction. ∎
 
 ## 6. Theorem B: equality on the open cross-gap rectangle
 
-**Theorem B (cross-gap restricted effectivity, audit candidate).** Under the finite-fence hypotheses,
+**Theorem B (cross-gap restricted effectivity; externally audited).** Under the finite-fence hypotheses,
 
 \[
  \boxed{\mathcal K_q\wedge(U_P\times U_Q)
@@ -194,22 +233,45 @@ Write `B(Z)` for the least dense sublocale (double-negation Booleanization) of `
 
 Put `R=(p×p)^{-1}(T∘T)`, a sublocale of the regular Hausdorff patch square. Suppose `F≰R`. Regular locales are fit, hence all their sublocales are fitted. There is therefore a patch-open sublocale containing `R` but not `F`; its patch-closed complement `C` satisfies `R∧C=0` and `F∧C≠0`.
 
-Restrict `F∧C` to some patch-open rectangle compactly contained in `U_P×U_Q` on which it remains nonzero, and take the least closed support `C_0` of that restriction. Lemmas 1–5 produce a compact Cantor graph `Γ⊂C_0⊂C` with selected perfect antichain projections. Lemma 6 gives nonzero `B(Γ)≤F`; Lemma 8 places the same sublocale in the patch pullback `R` (indeed its map to `X²` factors through `T∘T`). Thus `0≠B(Γ)≤R∧C=0`, contradiction. Hence `F≤R`.
+Choose a patch-open rectangle `V` with compact closure inside `U_P×U_Q` such that `F∧C∧V≠0`, and let `C_0` be the least **ambient patch-closed** support of this restriction. Then `C_0⊂C∩\overline V` is compact. Lemmas 1–5 produce a compact Cantor graph `Γ⊂C_0⊂C` with selected perfect antichain projections. Lemma 6 gives nonzero `B(Γ)≤F`; Lemma 8 places the same sublocale in the patch pullback `R` (indeed its map to `X²` factors through `T∘T`). Thus `0≠B(Γ)≤R∧C=0`, contradiction. Hence `F≤R`.
 
 The isomorphism `(p×p)|_F:F≅G_P^*×G_Q^*` transports this factorization to the **upper** square, proving `G_P^*×G_Q^*≤T∘T`. Conversely `T≤K_q`, so `T∘T≤K_q` by transitivity, with no general associativity claim. Together with (E), this yields (53). ∎
 
-## 7. Audit priorities and limits
+## 7. Theorem C: Cantor graphs generate the generic product
+
+Let `\mathscr C` denote the set of all nonempty compact Cantor graphs `Γ⊂U_P×U_Q` such that both coordinate projections are homeomorphisms onto compact Cantor antichains `D_P,D_Q`, with `D_P∩E_P` and `D_Q∩E_Q` dense in their respective projections.
+
+**Theorem C (graph generation; referee addendum).** In the **patch** square,
+
+\[
+\boxed{F=\bigvee_{\Gamma\in\mathscr C}\mathcal B(\Gamma).}\tag{G}
+\]
+
+Consequently, for **every** patch-square sublocale `R`,
+
+\[
+\boxed{F\le R\quad\Longleftrightarrow\quad
+\mathcal B(\Gamma)\le R\text{ for all }\Gamma\in\mathscr C.}\tag{G'}
+\]
+
+**Proof.** Lemma 6 uses only the perfect antichain projections and the two dense selected traces, so `B(Γ)≤F` for every `Γ∈\mathscr C`. Put `J=⋁_{Γ∈\mathscr C}B(Γ)`; then `J≤F`. Suppose `F≰J`. Fittedness of the regular patch square gives a patch-closed sublocale `C` such that `J∧C=0` but `F∧C≠0`. Restrict `F∧C` to a relatively compact patch-open rectangle `V⊂U_P×U_Q` where it remains nonzero, and take its least **ambient closed** support `C_0⊂C∩\overline V`. Lemmas 2–5 produce `Γ∈\mathscr C` contained in `C_0`. But Lemma 6 gives `0≠B(Γ)≤J∧C`, a contradiction. Thus `F=J`, and (G') is immediate. ∎
+
+Theorem A identifies `F` isomorphically with the generic product `G_P^*×G_Q^*` in the upper square. Under that **specific isomorphism**, the sublocales `B(Γ)` transfer to a generating family for the upper generic product. There is no assertion that arbitrary relation composition commutes with the join in (G).
+
+**Structural use.** Theorem B may be split into the graph-generation theorem (G), which mentions no relation `T`, and the separate relation-specific inclusion `B(Γ)≤(p×p)^{-1}(T∘T)` for each graph, furnished by Lemmas 7–8. This separation makes (G') available for testing other candidate relations.
+
+## 8. Audit record and limits
 
 This note does **not** assert global `(H_G∘H_G)∘(H_G∘H_G)=K_q`. The central remaining difficulty is combining restricted equalizer calculations over the entire upper square without an illicit infinitary join/interchange or proper-descent argument.
 
-Independent referee priorities:
+The independent blind referee of 18 November 2026 accepted Theorems A and B and their supporting lemmas relative to the stated geometry, requesting the following clarifications, all incorporated in this revision:
 
-1. Test Theorem A's local-finiteness and **arbitrary-family** join calculation, and the inference from pointless to zero intersection with closed discrete sublocales.
-2. Attack the finite-component cutoff and the richness lemma for arbitrary **nonspatial** closed support.
-3. Examine every step of Lemma 5's ternary fusion, especially the simultaneous selected-color anchors, reserved-component condition, antichain projections, and persistence of anchors.
-4. Test the two-sided generic point conditions in Lemma 6.
-5. Verify the perfected dense-strip lemma and graph-specific `Γ×M` image, with all localic product/projection hypotheses.
-6. Verify use of fittedness and **restricted** descent via Theorem A; do not invoke general proper descent of `p`.
-7. Look for a small model or explicit counterexample if any claim fails, and distinguish repairs from genuinely false conclusions.
+1. Type the patch Booleanization statements as pullbacks from upper-square relations.
+2. Choose all new anchors at a given finite depth before shrinking the rectangles, with global per-coordinate component registries.
+3. Use compact **ambient** closed supports of restrictions to relatively compact rectangles.
+4. Spell out the nuclei calculation for arbitrary discrete locales.
+5. Itemize the finite-fence geometric assumptions, which were not independently reconstructed from coordinates.
+
+The subsequent referee addendum proposed Theorem C (G) and Corollary A.1 (M); their arguments have been independently checked internally and are recorded above. Neither result is a global kernel-pair decomposition.
 
 **Background sources:** J. Picado and A. Pultr, *Frames and Locales: Topology without Points* (regular/fit locales and sublocale nuclei); A. Jung, A. Kegelmann and M. A. Moshier, *Stably Compact Spaces and Closed Relations* (compact pospaces); M. H. Escardó, *The regular-locally-compact coreflection of a stably locally compact locale* (patch). The present arguments are intended to be self-contained apart from standard locale facts just named.
