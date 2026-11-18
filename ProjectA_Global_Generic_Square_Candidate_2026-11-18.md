@@ -1,6 +1,6 @@
 # Project A — recovering the global generic-square inclusion
 
-**18 November 2026. Research candidate; NOT yet externally audited.** This note extends the independently audited patch-fibre/Cantor-graph method beyond the open `P`–`Q` cross-gap rectangle. Its proposed conclusion is the **global generic-square inclusion**
+**18 November 2026. Internally stress-tested research candidate; NOT yet externally audited.** This note extends the independently audited patch-fibre/Cantor-graph method beyond the open `P`–`Q` cross-gap rectangle. Its proposed conclusion is the **global generic-square inclusion**
 
 \[
 \boxed{G\times G\le T\circ T,\qquad G=q^{-1}([p_\infty]),\quad T=H_G\circ H_G.}\tag{64*}
@@ -50,7 +50,9 @@ C_0=\overline{A_P}\cup\overline{A_Q}
 =\overline{B_P}\cup\overline{B_Q}.
 \]
 
-Thus the four closed intersections `\overline{A_α}∩\overline{B_β}` cover the compact Baire space `C_0`; at least one has nonempty relative interior `W`. Both designated selected traces are dense in `W`. Removing finitely many coordinate sections cannot exhaust a nonempty relative open of `W` (Lemma 1), so each colour's coordinate trace is in fact infinite and has unbounded component indices. Choose a patch-open rectangle `V` with `C_0∩V≠∅` and `cl_{C_0}(C_0∩V)⊂W`. Because `S` is dense in `C_0`, its restriction to `V` is dense in `C_0∩V`, and its least ambient closed support `C_1=cl_{C_0}(C_0∩V)` inherits the two selected-colour density properties and the finite-section avoidance. ∎
+Thus the four closed intersections `\overline{A_α}∩\overline{B_β}` cover the compact Baire space `C_0`; at least one has nonempty relative interior `W`. Both designated selected traces are dense in `W`: if `O⊂W` is relatively open and nonempty, then `O` meets each of `A_α` and `B_β` because `W` lies inside their respective closures. A **finite** set of coordinate values cannot exhaust either trace in such an `O`: remove the corresponding finitely many nowhere-dense point sections (Lemma 1) to obtain another nonempty relative open subset of `O` still meeting the selected trace. Since every fence component is finite, the selected component indices are therefore unbounded in every relative open of `W`.
+
+Choose a patch-open rectangle `V` with `C_0∩V≠∅` and `cl_{C_0}(C_0∩V)⊂W`. Because `S` is dense in `C_0`, its restriction to `V` is dense in `C_0∩V`. Consequently its least ambient closed support is exactly `C_1=cl_{C_0}(C_0∩V)`: any smaller closed candidate would omit an open part of `C_0∩V` on which `S` is nonzero. Every nonempty relative open of `C_1` meets the dense relatively open portion `C_0∩V`, so the same selected-colour richness and finite-section avoidance pass to `C_1`. This argument uses **ordinary points of the compact closed support**, never points of the pointless sublocale `S`. ∎
 
 **Lemma 3 (global coloured Cantor graphs).** Every `0≠S≤F_∞` with compact least closed support `C_0` admits a compact Cantor graph `Γ⊂C_0` whose projections `D_1,D_2` are compact Cantor antichains and such that, for fixed colours `α,β`,
 
@@ -97,7 +99,7 @@ Let `𝒞_∞` comprise **all** nonempty compact Cantor graphs in `P²` having a
 
 **Proposition 7 (candidate (64*)).** Under the stated finite-fence hypotheses, `G×G≤T∘T`.
 
-**Proof.** By (62*) and (4), `F_∞≤(p×p)^{-1}(T∘T)`. Every ordinary point `m∈M_min` lies in a single finite comparability component `C_m`; the saturated upper-open complement of `C_m` descends to a quotient neighborhood of `p_∞` but omits `m`. Thus `G∧[m]=0` for every minimal fence vertex `m`. Corollary A.1 (minimal-vertex avoidance) of the audited cross-gap theorem note gives the **specific isomorphism** `p^{-1}(G)≅G`, hence `(p×p)|_{F_∞}:F_∞≅G×G`. Transport the displayed patch-pullback inclusion through this isomorphism to obtain `G×G≤T∘T` in `X×X`. No assertion that the full patch counit is proper is used. ∎
+**Proof.** By (62*) and (4), `F_∞≤(p×p)^{-1}(T∘T)`. Every ordinary point `m∈M_min` lies in a single finite comparability component `C_m`; the saturated upper-open complement of `C_m` descends to a quotient neighborhood of `p_∞` but omits `m`. Thus `G∧[m]=0` for every minimal fence vertex `m`. Corollary A.1 (minimal-vertex avoidance) of the audited cross-gap theorem note gives the **specific isomorphism** `p^{-1}(G)≅G`, hence `(p×p)|_{F_∞}:F_∞≅G×G`. In fact the original Theorem A also applies: the upper topology of a compact closed pospace is sober, and the same finite-component complement excludes **every** ordinary point of `X` from `G`, so `G` is pointless. Transport the displayed patch-pullback inclusion through this isomorphism to obtain `G×G≤T∘T` in `X×X`. No assertion that the full patch counit is proper is used. ∎
 
 This result, **if its global colour-localization and strip extensions survive adversarial audit**, repairs the earlier route to (64) while leaving the global kernel-pair equality `K_q=T∘T` unresolved. The remaining obstacle is a valid localic decomposition or detection theorem for the non-generic component and boundary pieces of `K_q`; (64*) by itself does not settle that problem.
 
@@ -111,3 +113,15 @@ This result, **if its global colour-localization and strip extensions survive ad
 6. Are all Booleanization inclusions typed in the patch square, and is the transfer to `X²` performed only via the special-fibre isomorphism?
 
 No blanket proper-descent or infinitary interchange law is assumed.
+
+## 7. Internal adversarial check (18 November 2026)
+
+**Outcome:** No invalid inference found in (64*) under the stated geometric hypotheses; retain **candidate** status pending independent review. The following checks distinguish the old, actually invalid proper-descent argument from the present restricted method.
+
+* **Global cutoff:** The saturation of `C` adds only finitely many complete finite comparability components, because every non-singleton component point is in `E`. A compact union with finitely many finite sets is patch-closed. The saturated complement is both upper-open and quotient-open, and meets `E`; it is therefore a valid generic neighborhood. No closedness of `p` is invoked.
+* **Colour localization:** The equalities `C_0=cl(A_P)∪cl(A_Q)=cl(B_P)∪cl(B_Q)` follow from *coordinate* `E`-richness on every nonempty support open, not from any supposed point-density of `S`. Finite Baire selects an open subset of one of four closed intersections; density of selected anchors on that region survives arbitrary finite coordinate exclusions. Passing to the closure of a smaller relative open portion preserves this property.
+* **Global fusion:** At any finite stage, all earlier and newly chosen anchors have distinct coordinates where required. Each new anchor excludes the finitely many previously registered fence-component vertices in **both** coordinates. Reserve any component hit by either coordinate, even when unselected. Shrink all rectangles **only after** selecting all anchors at that depth; then every potential conflict is a finite forbidden coordinate value not itself an anchor. The reasoning is independent of the ambient location and allows `α=β`.
+* **Strip extension:** The corrected dense-strip proof factors through `D×U_α×M` and uses no placement restriction on `D`; one needs only the local unbounded-index condition, ensured by perfection and dense selected-colour traces. The ambient relation claims are always in the *patch pullback* `(p×p)^{-1}T`.
+* **Graph and transfer:** The generic point tests for `B(Γ)` use nowhere-dense **closed** intersections with a generic-neighborhood complement and empty **open** traces for non-generic quotient opens. Composition is performed on `Γ×M` before imaging. The final reflection uses the isomorphism on `G×G`, not surjectivity or properness of `p×p` on the entire square.
+
+**Residual risk / audit request:** An independent referee should try to break the fixed-colour support localization and the global strip extension using a compact support concentrated near `K`, `M`, `L`, or a singleton-component accumulation point. The old global result was rejected for a real reason; the present argument avoids that reason but is not yet externally checked.
