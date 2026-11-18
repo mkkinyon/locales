@@ -130,3 +130,55 @@ Moreover the audited restricted cross-gap result places that same generic block 
 **Subsequent geometric verification:** `ProjectA_FiniteFence_Explicit_Coordinates_Verification_2026-11-18.md` specifies three scaled ternary Cantor sets, disjoint eventually-constant dense endpoint sequences, and recursively selected monotone rational interior vertices with mesh `<1/(800n)`. It verifies the closed order, patch identification, strong forcing, quotient generic-point filter, and segment confinement. For the selected thresholds `r=.44`, `s=.46`, the mesh is small enough that the two closed lower mediator bounds are actually **disjoint**, a strengthening of Lemma 3's merely finite overlap. The combined result remains a proof candidate until independently checked.
 
 **What to do next:** Carry out a separate adversarial check of the explicit-coordinate proof and the specialized closed-support composition argument; only then consider another external audit package. No new external package was created in this turn.
+
+## 8. Integrated coordinate–localic audit and a stronger witness (18 November 2026)
+
+**Verdict (internal, not independent):** Substituting the explicit coordinates into the entire argument reveals no further gap. In that model the overlap `F` in (3) is **empty**, which makes the two-step obstruction shorter and eliminates the only dependence on excluding early components. The localic statements continue to depend on the separately audited patch-fibre comparison and global four-step inclusion. This integrated check does not claim to establish the full kernel-pair equality.
+
+Write `A=D_P`, `B=D_Q`, where the selected left-middle `P` endpoint is in `M^-⊂[.4,.43333…]` and the selected right-middle `Q` endpoint is in `M^+⊂[.46666…,.5]`. Take `r=.44`, `s=.46`, and
+
+\[
+C_- = \downarrow[0,.44],\qquad C_+=\downarrow[.46,1]. \tag{I1}
+\]
+
+**Geometry and selected supports.** Every strict order comparison is an edge of Euclidean length `<1/(800n)≤1/800`. If a point belonged to both sets in (I1), it would have strict comparisons to some real coordinates `≤.44` and `≥.46`; because height is one, at least one strict edge would have length at least `(.46-.44)/2=.01`, a contradiction. Thus `C_-∧C_+=0`. Each selected `P_n` stays wholly to the left of `.44`, and each selected `Q_m` stays wholly to the right of `.46`, by (SC). Their minimal vertices still accumulate densely in their respective fixed mediator gaps, since *each* selected fence traverses the entire corresponding gap with mesh tending to zero. The persistent-anchor construction of Lemma 4 therefore supplies compact perfect lower-closed `D_P⊂U_P` and `D_Q⊂U_Q`, avoiding all forbidden fence vertices.
+
+**Point generation under closed restriction.** Let `c` be a complemented element of the sublocale lattice, with complement `c'`. For arbitrary `(x_i)`, set `y=∨_i(c∧x_i)≤c`. The distributive-lattice identity gives `x_i=(x_i∧c)∨(x_i∧c')≤y∨c'`, whence `c∧∨_ix_i≤c∧(y∨c')=y`. The reverse inequality is immediate. Thus `c∧∨_ix_i=∨_i(c∧x_i)`. Applying this to the closed rectangles `D_P×X` and `X×D_Q` restricts `H_G=[E_G]` to the ordinary component pairs with the indicated source or target. Every such pair with source in `D_P` has target in `C_-`; every pair with target in `D_Q` has source in `C_+`. Therefore
+
+\[
+H_G\wedge(D_P\times X)\le D_P\times C_-,\qquad
+H_G\wedge(X\times D_Q)\le C_+\times D_Q.\tag{I2}
+\]
+
+**Composition before image.** Put `Z=π₁₂^{-1}H_G∧π₂₃^{-1}H_G≤X³`. By (I2), `Z∧π₁₃^{-1}(D_P×D_Q)` forces its middle coordinate simultaneously into `C_-` and `C_+`, hence is zero. The inverse image of the *open complement* of the closed rectangle is therefore top. The outer projection `Z→X²` factors through that open complement, and its image `T=H_G∘H_G` lies there. In particular,
+
+\[
+T\wedge(D_P\times D_Q)=0. \tag{I3}
+\]
+
+This inference factors the map **before** taking its localic image. It uses neither unstable closed base change nor any associativity of composition.
+
+**Nonzero generic witness.** Every nonempty relative open of `D_P` and `D_Q` contains infinitely many permitted fence vertices. Hence any compact patch-closed cutoff meeting the full fence vertex set `E` finitely is nowhere dense on each selected Cantor. Also every quotient-open not containing the generic point misses `E`, so its patch-open trace on either Cantor is empty. The two quotient-point tests show that the nonzero least dense sublocale
+
+\[
+W=\mathcal B(D_P\times D_Q)\ne0
+\]
+
+of the patch Cantor square belongs to `(p×p)^{-1}(G_P^*×G_Q^*)`. Meanwhile the inverse image along `p×p` of the upper-closed rectangle in (I3) is precisely the patch-closed `D_P×D_Q`, so `W∧(p×p)^{-1}T=0`.
+
+There is a **stronger upper-localic conclusion** than (MC2-). By the previously established special-fibre isomorphisms `p^{-1}(G_α^*)≅G_α^*`, the comparison
+
+\[
+(p\times p)^{-1}(G_P^*\times G_Q^*)\longrightarrow G_P^*\times G_Q^*
+\]
+
+is an isomorphism. Transport `W` through it and call the resulting nonzero sublocale `S`. Meets with `T` are detected under this isomorphism, and the previously audited restricted cross-gap/four-step result includes the whole generic product in `T∘T`. Therefore
+
+\[
+\boxed{0\ne S\le G_P^*\times G_Q^*\le T\circ T,
+\qquad S\wedge T=0.}\tag{I4}
+\]
+
+This supplies a nonzero **upper-localic** witness which is disjoint from the two-step relation, not only a patch witness disproving an inclusion. In particular `T<T∘T` holds as a strict sublocale inequality in this explicit model (the general inclusion `T≤T∘T` follows from reflexivity of `H_G`; strictness follows from (I4)). The cross-gap equality `\mathcal K_q∧(U_P×U_Q)=G_P^*×G_Q^*` also shows that the two-step defect already occurs inside a completely identified piece of the kernel pair.
+
+**Audit boundaries.** The exact open/closed complementation, the dense Booleanization test, the special-fibre comparison, and the interpretation of image-based composition are the four localic points which should be retested in an eventual external package. The present verification is internal; the independent referee for the global generic-square theorem did not review either these selected lower Cantors or the explicit coordinate construction. No new external audit package is prepared here.
