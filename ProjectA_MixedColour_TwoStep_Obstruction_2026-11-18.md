@@ -182,3 +182,20 @@ is an isomorphism. Transport `W` through it and call the resulting nonzero sublo
 This supplies a nonzero **upper-localic** witness which is disjoint from the two-step relation, not only a patch witness disproving an inclusion. In particular `T<T∘T` holds as a strict sublocale inequality in this explicit model (the general inclusion `T≤T∘T` follows from reflexivity of `H_G`; strictness follows from (I4)). The cross-gap equality `\mathcal K_q∧(U_P×U_Q)=G_P^*×G_Q^*` also shows that the two-step defect already occurs inside a completely identified piece of the kernel pair.
 
 **Audit boundaries.** The exact open/closed complementation, the dense Booleanization test, the special-fibre comparison, and the interpretation of image-based composition are the four localic points which should be retested in an eventual external package. The present verification is internal; the independent referee for the global generic-square theorem did not review either these selected lower Cantors or the explicit coordinate construction. No new external audit package is prepared here.
+
+## 9. Local ubiquity of the two-step obstruction
+
+The selected-colour density argument does not depend on the size or location of the mediator subintervals. It yields a strengthening which is **local in both outer coordinates**.
+
+**Corollary (locally ubiquitous two-step defect; internally checked).** For any nonempty upper opens `V_P⊂U_P` and `V_Q⊂U_Q`, there is a sublocale `S_{V_P,V_Q}` satisfying
+
+\[
+\boxed{0\ne S_{V_P,V_Q}
+\le (G\wedge V_P)\times(G\wedge V_Q)
+\le T\circ T,\qquad
+S_{V_P,V_Q}\wedge T=0.}\tag{I5}
+\]
+
+**Proof.** Since the upper opens are Euclidean open in the patch topology, choose compact nondegenerate intervals strictly inside each. The selected high-index `P` minimal vertices with endpoint in `M^-` remain dense in the first interval, and the selected high-index `Q` minimal vertices with endpoint in `M^+` remain dense in the second: their index sets are unbounded and *every* selected fence traverses its whole fixed gap with vanishing mesh. Run the persistent-anchor construction inside these two smaller intervals, giving lower-closed compact Cantors `D_P'⊂V_P`, `D_Q'⊂V_Q` with the same component-confinement properties. The closed support and Booleanization argument of §8 produces a nonzero patch witness `W'` beneath the generic product restricted to `V_P×V_Q`, annihilated by the patch pullback of `T`. Transport through the special-fibre isomorphism as in (I4). The global four-step inclusion supplies the middle inequality. ∎
+
+Equivalently, in the patch pullback of the generic cross-gap product, **no restriction to a nonempty mediator rectangle is wholly contained in the pullback of `T`**. This does *not* imply that the entire meet `T∧(G_P^*×G_Q^*)` vanishes. Determining whether that meet is zero, or possesses intrinsically mixed-colour nonspatial pieces, is a separate question.
