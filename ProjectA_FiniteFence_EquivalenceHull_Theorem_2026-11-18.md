@@ -1,8 +1,21 @@
 # Project A — finite-fence quotient and the four-step equivalence hull
 
+> **Post-referee correction (18 November 2026): THE MAIN THEOREM IS
+> UNPROVED.** The independent blind referee found that the dense-strip lemma
+> as stated below is **false** (a singleton selected fence vertex is a
+> counterexample), although its perfect-Cantor version is repairable.
+> The assertions of **proper-surjection descent** through the patch counit
+> in (64) and (66) are **invalid**: the counit is perfect but not proper
+> in Vermeulen's required sense. The claimed equality (67) therefore
+> remains unproved. Read the companion
+> [post-referee status note](ProjectA_FiniteFence_Effectivity_PostReferee_2026-11-18.md)
+> for the corrected statements, verified partial results, and next targets.
+> The text below is retained as the original *pre-audit* working proof attempt,
+> not as a valid proof of (66)–(67).
+
 **Working theorem note, 18 November 2026.**  This consolidates the proposed
-argument (60)–(67) of Session 9.  The final equality has **not** yet received an
-independent external audit.  In particular, the support/Cantor-tree argument,
+argument (60)–(67) of Session 9, prior to its independent external audit.
+In particular, the support/Cantor-tree argument,
 the dense-strip lemma, and the kernel-pair support bound below should be read
 as proof obligations rather than as results established independently.
 
