@@ -1,6 +1,6 @@
-# Project A — recovering the global generic-square inclusion
+# Project A — global generic-square generation and colour-sensitive bounds
 
-**18 November 2026. Internally stress-tested research candidate; NOT yet externally audited.** This note extends the independently audited patch-fibre/Cantor-graph method beyond the open `P`–`Q` cross-gap rectangle. Its proposed conclusion is the **global generic-square inclusion**
+**18 November 2026. Consolidated following independent blind audit and referee addendum.** The full proof of (62*) and (64*) has passed independent scrutiny **conditional on the explicitly stated finite-fence geometric assumptions**. The abstract localic implication is supported; a separate coordinate-level realization and proof of the strong forcing/traversal hypotheses have **not** been audited. The same-colour two-step refinement from the referee addendum is recorded below, with the mixed-colour minimal-step question left open.
 
 \[
 \boxed{G\times G\le T\circ T,\qquad G=q^{-1}([p_\infty]),\quad T=H_G\circ H_G.}\tag{64*}
@@ -67,7 +67,7 @@ D_1\cap E_\alpha\text{ is dense in }D_1,
 
 Let `𝒞_∞` comprise **all** nonempty compact Cantor graphs in `P²` having antichain projections and fixed (possibly equal) selected colours `α,β` with dense traces as in (2).
 
-**Proposition 4 (global graph generation; candidate).**
+**Theorem 4 (global graph generation; conditionally verified).**
 
 \[
 \boxed{F_\infty=\bigvee_{\Gamma\in\mathscr C_\infty}\mathcal B(\Gamma)}
@@ -78,7 +78,7 @@ Let `𝒞_∞` comprise **all** nonempty compact Cantor graphs in `P²` having a
 
 ## 4. The perfected strips are global in the selected endpoint
 
-**Lemma 5 (global coloured strips; candidate extension).** Let `D⊂P` be any perfect compact **antichain** with `D∩E_α` dense, for `α∈{P,Q}`. Then, in the patch square,
+**Lemma 5 (global coloured strips; conditionally verified).** Let `D⊂P` be any perfect compact **antichain** with `D∩E_α` dense, for `α∈{P,Q}`. Then, in the patch square,
 
 \[
 \mathcal B(D\times M),\quad \mathcal B(M\times D)
@@ -87,7 +87,7 @@ Let `𝒞_∞` comprise **all** nonempty compact Cantor graphs in `P²` having a
 
 **Proof.** The proof of the corrected dense-strip lemma needs only: (i) every nonempty relative open of `D` contains selected vertices from arbitrarily late `α`-fences; (ii) all sufficiently late `α`-fences meet every nonempty open in the fixed mediator `U_α`; (iii) their endpoints are dense in `M`. It does **not** use `D⊂U_α`. Thus the same dense component-pair traces in `D×U_α` and `U_α×M`, open pullbacks to `D×U_α×M`, and open image to `D×M` prove (3). ∎
 
-**Lemma 6 (global graph composition; candidate).** Every `Γ∈𝒞_∞` satisfies
+**Lemma 6 (global graph composition; conditionally verified).** Every `Γ∈𝒞_∞` satisfies
 
 \[
 \mathcal B(\Gamma)\le(p\times p)^{-1}(T\circ T).\tag{4}
@@ -97,13 +97,13 @@ Let `𝒞_∞` comprise **all** nonempty compact Cantor graphs in `P²` having a
 
 ## 5. Special-fibre descent, and the remaining global problem
 
-**Proposition 7 (candidate (64*)).** Under the stated finite-fence hypotheses, `G×G≤T∘T`.
+**Theorem 7 (global generic-square inclusion; conditionally verified (64*)).** Under the stated finite-fence hypotheses, `G×G≤T∘T`.
 
 **Proof.** By (62*) and (4), `F_∞≤(p×p)^{-1}(T∘T)`. Every ordinary point `m∈M_min` lies in a single finite comparability component `C_m`; the saturated upper-open complement of `C_m` descends to a quotient neighborhood of `p_∞` but omits `m`. Thus `G∧[m]=0` for every minimal fence vertex `m`. Corollary A.1 (minimal-vertex avoidance) of the audited cross-gap theorem note gives the **specific isomorphism** `p^{-1}(G)≅G`, hence `(p×p)|_{F_∞}:F_∞≅G×G`. In fact the original Theorem A also applies: the upper topology of a compact closed pospace is sober, and the same finite-component complement excludes **every** ordinary point of `X` from `G`, so `G` is pointless. Transport the displayed patch-pullback inclusion through this isomorphism to obtain `G×G≤T∘T` in `X×X`. No assertion that the full patch counit is proper is used. ∎
 
-This result, **if its global colour-localization and strip extensions survive adversarial audit**, repairs the earlier route to (64) while leaving the global kernel-pair equality `K_q=T∘T` unresolved. The remaining obstacle is a valid localic decomposition or detection theorem for the non-generic component and boundary pieces of `K_q`; (64*) by itself does not settle that problem.
+The independent referee found the global colour-localization, strip extension, and special-fibre reflection correct relative to the geometric assumptions. This repairs the earlier route to (64) while leaving `K_q=T∘T` **unproved**. The remaining obstacle is a valid localic decomposition or detection theorem for the non-generic component and boundary pieces of `K_q`.
 
-## 6. Adversarial checklist before promotion
+## 6. Audit and geometric-realization checklist
 
 1. Does compact saturation of an arbitrary patch-closed set meeting `E` finitely give a **quotient-open generic neighborhood** without hidden properness?
 2. Does Baire's finite colour localization on a *nonspatial* least closed support really preserve both selected-coordinate richness properties on its compact refinement?
@@ -124,4 +124,71 @@ No blanket proper-descent or infinitary interchange law is assumed.
 * **Strip extension:** The corrected dense-strip proof factors through `D×U_α×M` and uses no placement restriction on `D`; one needs only the local unbounded-index condition, ensured by perfection and dense selected-colour traces. The ambient relation claims are always in the *patch pullback* `(p×p)^{-1}T`.
 * **Graph and transfer:** The generic point tests for `B(Γ)` use nowhere-dense **closed** intersections with a generic-neighborhood complement and empty **open** traces for non-generic quotient opens. Composition is performed on `Γ×M` before imaging. The final reflection uses the isomorphism on `G×G`, not surjectivity or properness of `p×p` on the entire square.
 
-**Residual risk / audit request:** An independent referee should try to break the fixed-colour support localization and the global strip extension using a compact support concentrated near `K`, `M`, `L`, or a singleton-component accumulation point. The old global result was rejected for a real reason; the present argument avoids that reason but is not yet externally checked.
+**External audit verdict (18 November 2026).** The independent referee verified (62*) and (64*) relative to the stated compact-pospace and finite-fence hypotheses. No fatal localic inference or missing hypothesis was found for those *conditional* implications. In particular, the referee independently checked global compact cutoffs, fixed-colour Baire localization on nonspatial supports, the two-phase fusion with coinciding colours, the extension of perfected strips beyond a mediator, graph-before-composition, and the isomorphic transfer through `p^{-1}(G)≅G`.
+
+**Outstanding geometric verification.** The archive supplied no complete coordinate construction. The strongest premise—every closed saturated set meeting infinitely many finite-fence components contains all of `E`—must be independently verified together with late-fence traversal, dense distinct endpoints, closedness of the order, and compactness of the stated patch model before applying the theorems unconditionally to a concrete example.
+
+## 8. Referee addendum: same-colour graphs need only two steps
+
+Define the upper-to-patch pullbacks
+
+\[
+\widehat H=(p\times p)^{-1}H_G,\qquad
+\widehat T=(p\times p)^{-1}T,\qquad
+\widehat{T^{[2]}}=(p\times p)^{-1}(T\circ T).
+\]
+
+**Proposition 8 (same-colour graph, two steps).** Fix `α∈{P,Q}`. Suppose `Γ⊂P²` is a compact Cantor graph whose coordinate projections `D_1,D_2` are perfect compact sets and the maps `Γ→D_i` are homeomorphisms. If `D_1∩E_α` and `D_2∩E_α` are both dense, then
+
+\[
+\boxed{\mathcal B(\Gamma)\le\widehat T.}\tag{A1}
+\]
+
+The antichain assumption on `D_i` is **not needed** for this particular composition statement, although it was needed for the global graph-generation proof.
+
+**Proof.** The dense component-pair argument already gives the *one-step* patch-typed inclusions
+
+\[
+\mathcal B(D_1\times U_\alpha)\le\widehat H,
+\qquad\mathcal B(U_\alpha\times D_2)\le\widehat H.\tag{A2}
+\]
+
+Indeed every nonempty relatively open part of either perfect projection contains selected vertices from arbitrarily high-index `α`-fences, each of which visits any prescribed nonempty patch-open part of `U_α`. Pull both sublocales back to the **same** locale `Γ×U_α`. The projections to `D_1×U_α` and `U_α×D_2` are homeomorphisms, so their pullbacks contain `B(Γ×U_α)`. This supplies a composable upper-localic witness for `H_G∘H_G=T`. The outer-coordinate projection `Γ×U_α→Γ` is open surjective; the patch image of `B(Γ×U_α)` is dense in `Γ` and therefore contains `B(Γ)`. Thus `B(Γ)≤\widehat T`. ∎
+
+**Corollary 9 (same-mediator generic products).** With `G_α^*=G∧U_α`,
+
+\[
+\boxed{G_\alpha^*\times G_\alpha^*\le T
+\qquad(\alpha=P,Q).}\tag{A3}
+\]
+
+**Proof.** Pull the generic product to the patch mediator square `U_α×U_α`. For any nonzero closed restriction, pass to a compact ambient closed support inside a relatively compact open rectangle. A compact subset of this mediator meeting `E_α` finitely also meets `E` finitely, since the opposite-colour components do not enter the mediator. Global compact saturation therefore gives selected-coordinate richness of the *same* colour in both projections. The two-phase Cantor fusion constructs, inside the support, a graph with perfect Cantor antichain projections and both selected `E_α` traces dense. Its nonzero Booleanization lies in the patch generic product by both quotient-point tests, and Proposition 8 places it inside `\widehat T`. The fitted closed-annihilator argument yields the entire patch generic-product inclusion. The special-fibre isomorphisms `p^{-1}(G_α^*)≅G_α^*` transfer it to `X²`. ∎
+
+This is **only** an inclusion for the generic product. It is **not** an asserted formula for `K_q∧(U_α×U_α)`, since ordinary pairs in the same finite fence also belong to that kernel-pair restriction.
+
+## 9. Four colour classes and the mixed-colour two-step question
+
+Let `J_{αβ}` be the join of `B(Γ)` over all global generating Cantor graphs `Γ` whose designated selected colours are `(α,β)`. Since the two colours need not be uniquely determined, these classes may overlap; nevertheless Theorem 4 gives
+
+\[
+F_\infty=J_{PP}\vee J_{PQ}\vee J_{QP}\vee J_{QQ}.\tag{A4a}
+\]
+
+Proposition 8 and Lemma 6 sharpen their respective relation bounds to
+
+\[
+\boxed{J_{PP}\vee J_{QQ}\le\widehat T,\qquad
+J_{PQ}\vee J_{QP}\le\widehat{T^{[2]}}.}\tag{A4b}
+\]
+
+The two-step bound for *same-colour* pieces follows from a **common** upper-open mediator visited by all late fences of that colour. For mixed colours the original four-step proof goes through two potentially different mediators and the middle Cantor set `M`. This does **not** prove that four steps are minimal for any mixed-colour graph.
+
+The concrete open problem is
+
+\[
+\boxed{G_P^*\times G_Q^*\stackrel{?}{\le}T.}\tag{MC2}
+\]
+
+Since the restricted cross-gap equalizer is already identified with this generic product and is contained in `T∘T`, a negative solution to (MC2) would separate two-step from four-step containment **on a precisely controlled open block**. A positive solution would require a mixed-colour two-step mechanism more subtle than the one-mediator argument above. Suggested tests: try constructing a mixed-colour Cantor graph with incompatible middle-endpoint accumulation supports, or find an upper-localic common mediator whose Booleanization survives restriction to the graph.
+
+**Provenance and scope.** Proposition 8 and Corollary 9 were proposed with proofs in the referee's separately authored follow-up addendum of 18 November 2026. Their arguments have been checked internally here; they are consequences conditional on the same geometric hypotheses, not claims of an additional separate blind audit. The global kernel-pair equality remains open.
