@@ -36,7 +36,15 @@ Their inverse images in the *ambient* patch space are `\widetilde G_P` and `\wid
  \boxed{\mathcal K_q\wedge(U_P\times U_Q)=G_P^*\times G_Q^*.} \tag{E}
 \]
 
-For reference, its reverse inclusion holds because both factors map constantly to `p_∞`. For the upper inclusion, a quotient open missing `p_∞` restricts to zero on both gaps; a neighborhood of `p_∞` has closed saturated complement meeting `E` finitely. Compact cutoffs inside the disjoint gaps, followed by saturation of the finitely many touched components, produce separate quotient-open tests that agree with the original test on one gap and equal top on the other. The equalizer therefore satisfies the two generic-neighborhood conditions independently. This argument is *specific to these disjoint open gaps* and does not use global patch descent.
+**Proof of (E), included for completeness.** The reverse inclusion follows because the two generic factors both map constantly to the point sublocale `[p_∞]`, so their product factors through the kernel pair.
+
+For the upper inclusion put `Z=K_q∧(U_P×U_Q)`. If a quotient open `V` does not belong to the neighborhood filter of `p_∞`, its upper-open inverse image `q^{-1}V` misses `E`. As `E_P` is dense in the first gap and `E_Q` in the second, this inverse image restricts to zero on **both** `U_P` and `U_Q` (a nonempty patch-open trace would contain a fence vertex). Thus both projections of `Z` satisfy the required negative point tests.
+
+Suppose next that `V∈p_∞` and let `S=P\setminus q^{-1}V`. This is patch-closed, component-saturated and meets `E` finitely. Choose a compact patch-closed cutoff `C_P` with `\overline{U_P}⊂\operatorname{int}C_P` and `C_P` wholly inside the first gap. Let `A_P=S∩C_P`; saturate `A_P` by adjoining the **finitely many entire** `P_n` components it meets. The result `S_P` is compact, closed, saturated and contained in `S`, with `S_P∩U_P=S∩U_P` and `S_P∩U_Q=∅`. Its complement descends to a quotient open `V_P∈p_∞`. The trace of `q^{-1}V_P` on `U_P` agrees with that of `q^{-1}V`; its trace on `U_Q` is top. Since the two quotient-coordinate maps agree on `Z`, testing them against `V_P` forces the first projection of `Z` to lie in `q^{-1}V`.
+
+Perform the symmetric construction with a compact cutoff `C_Q` inside the second gap. The resulting quotient open `V_Q∈p_∞` has top trace on `U_P` and the same trace as `V` on `U_Q`; the equalizer test forces the second projection of `Z` into `q^{-1}V`.
+
+Thus **both** projections of `Z` satisfy all positive and negative quotient-open tests for `[p_∞]`. Hence `Z≤G_P^*×G_Q^*`, proving (E). This uses only disjoint compact cutoffs and finite-component saturation, **not** any global patch-descent theorem. ∎
 
 ## 2. Theorem A: pointless sublocales do not see shrinking fence edges
 
