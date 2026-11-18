@@ -1,6 +1,6 @@
 # Project A — global generic-square generation and colour-sensitive bounds
 
-**18 November 2026. Consolidated following independent blind audit and referee addendum.** The full proof of (62*) and (64*) has passed independent scrutiny **conditional on the explicitly stated finite-fence geometric assumptions**. The abstract localic implication is supported; a separate coordinate-level realization and proof of the strong forcing/traversal hypotheses have **not** been audited. The same-colour two-step refinement from the referee addendum is recorded below, with the mixed-colour minimal-step question left open.
+**18 November 2026. Consolidated following independent blind audit and referee addendum.** The full proof of (62*) and (64*) has passed independent scrutiny **conditional on the explicitly stated finite-fence geometric assumptions**. The abstract localic implication is supported; a separate coordinate-level realization and proof of the strong forcing/traversal hypotheses have **not** been audited. The same-colour two-step refinement from the referee addendum is recorded below. A subsequent **not-yet-externally-audited, extra-hypothesis** negative solution to the mixed-colour question is in `ProjectA_MixedColour_TwoStep_Obstruction_2026-11-18.md`.
 
 \[
 \boxed{G\times G\le T\circ T,\qquad G=q^{-1}([p_\infty]),\quad T=H_G\circ H_G.}\tag{64*}
@@ -183,12 +183,12 @@ J_{PQ}\vee J_{QP}\le\widehat{T^{[2]}}.}\tag{A4b}
 
 The two-step bound for *same-colour* pieces follows from a **common** upper-open mediator visited by all late fences of that colour. For mixed colours the original four-step proof goes through two potentially different mediators and the middle Cantor set `M`. This does **not** prove that four steps are minimal for any mixed-colour graph.
 
-The concrete open problem is
+The concrete question posed at the time of the external audit was
 
 \[
 \boxed{G_P^*\times G_Q^*\stackrel{?}{\le}T.}\tag{MC2}
 \]
 
-Since the restricted cross-gap equalizer is already identified with this generic product and is contained in `T∘T`, a negative solution to (MC2) would separate two-step from four-step containment **on a precisely controlled open block**. A positive solution would require a mixed-colour two-step mechanism more subtle than the one-mediator argument above. Suggested tests: try constructing a mixed-colour Cantor graph with incompatible middle-endpoint accumulation supports, or find an upper-localic common mediator whose Booleanization survives restriction to the graph.
+Since the restricted cross-gap equalizer is already identified with this generic product and is contained in `T∘T`, a negative solution to (MC2) would separate two-step from four-step containment **on a precisely controlled open block**. The follow-on note `ProjectA_MixedColour_TwoStep_Obstruction_2026-11-18.md` develops just such a negative result, **conditional on segment-confined fences**: compact *closed lower* Cantor source/target sets choose late components whose middle endpoints lie in separated regions. The corresponding two one-step mediator supports intersect only in finitely many early vertices and those give no composable pair. This forces `T` to vanish on a closed rectangle while a nonzero Booleanization of its patch Cantor square belongs to the generic cross-gap product. The proof is internally checked but **has not received independent adversarial review**, and the segment-confinement condition is additional to the earlier abstract audit assumptions.
 
 **Provenance and scope.** Proposition 8 and Corollary 9 were proposed with proofs in the referee's separately authored follow-up addendum of 18 November 2026. Their arguments have been checked internally here; they are consequences conditional on the same geometric hypotheses, not claims of an additional separate blind audit. The global kernel-pair equality remains open.
