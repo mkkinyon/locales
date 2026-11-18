@@ -184,32 +184,34 @@ It follows that inclusion between sublocales **of these closed blocks**
 is reflected by patch pullback, notwithstanding the failure of general
 proper descent for \(p^2\).
 
-Assuming the *still conditional* patch kernel formula (65), the
-cross-gap block has no ordinary component pairs, so
+**Update after the restricted \(K\times L\) internal audit.** A direct
+quotient-open calculation, without (65) or proper descent, now gives
 \[
  \mathcal K_q\wedge(K\times L)
   =(\Lambda_E\wedge K)\times(\Lambda_E\wedge L). \tag{B3}
 \]
-The first strong restricted target is therefore
+The corrected Cantor-graph/strip argument gives
 \[
  \boxed{(\Lambda_E\wedge K)\times(\Lambda_E\wedge L)
-       \le T\circ T.} \tag{B4?}
+       \le T\circ T.} \tag{B4}
 \]
-Neither (B3) nor (B4?) is asserted unconditionally.
-Even establishing (B4?) would not settle (E), because the generic
-patch fibre has additional support in the geometric gaps.
+Together these imply
+\(\mathcal K_q\wedge(K\times L)=(T\circ T)\wedge(K\times L)\).
+The proof and a proposed extension to all nine Cantor blocks are recorded
+in [the restricted-block theorem note](ProjectA_FiniteFence_Restricted_Blocks_2026-11-18.md).
+This supersedes the *conditional* statuses of (B3) and (B4?) above,
+but does **not** establish (E) on the geometric gaps.
 
 ## 5. Immediate research priorities
 
-1. Compute the *full* two tails \(\Lambda_E\wedge K\) and
-   \(\Lambda_E\wedge L\), not only their least dense sublocales.
-   Test whether the \(K\times L\) bridge can reach their product,
-   perhaps through Cantor graphs supported in arbitrary nonzero
-   patch-closed cross-gap pieces.
-2. Make the closed-support/Cantor fusion lemma rigorous **first on**
-   \(K\times L\), where no comparability-order or colour-localization
-   complications occur.
-3. Determine what replaces invalid global proper descent.
+1. Adversarially test the proposed **nine-block formula (6?)** in the
+   restricted-block note, especially the ordinary-support split when
+   \(I=J\), and the two-colour localization when \(M\) occurs.
+2. Determine what replaces invalid global proper descent, beginning
+   with one coordinate in a geometric gap or fence interior.
+3. Investigate whether the localic kernel-pair calculation can be
+   propagated across the gap-to-Cantor and gap-to-gap rectangles
+   using saturated-open tests.
    It may be preferable to prove inclusion directly in \(X^2\) by
    open/closed tests. General surjectivity of \(p\) is insufficient.
 
