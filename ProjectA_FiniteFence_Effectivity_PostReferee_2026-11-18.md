@@ -221,3 +221,16 @@ and its separately authored
 *ProjectA_FiniteFence_Effectivity_Referee_Addendum_2026-11-18.md*;
 Escardó, *The regular-locally-compact coreflection*;
 Vermeulen, *Proper maps of locales*, Theorem 5.6.
+
+
+## 5. Later Session 9 development: pointless patch comparison and open cross-gap
+
+A new companion note, `ProjectA_PatchFibre_CrossGap_Theorem_Note_2026-11-18.md`, consolidates a general **pointless patch-fibre isomorphism** `p^{-1}(S)≅S` for this shrinking finite-fence pospace (internally audited), and a **candidate exact cross-gap equality**
+
+\[
+ \mathcal K_q\wedge(U_P\times U_Q)
+   =(T\circ T)\wedge(U_P\times U_Q)
+   =G_P^*\times G_Q^*.
+\]
+
+The latter relies on a selected-coordinate richness lemma, a simultaneous antichain Cantor-graph fusion with finite-component reservations, corrected perfect-Cantor dense strips, and graph-restricted composition. A blind external audit is being requested. These claims use **no general proper descent** of the patch counit. The global equality `(E)` at the top of this status note **remains unproved**, even if the cross-gap result survives review.
