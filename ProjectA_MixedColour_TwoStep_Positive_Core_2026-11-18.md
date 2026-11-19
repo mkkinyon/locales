@@ -186,3 +186,54 @@ All three displayed sublocales are *upper-localic*. The left strictness is witne
 **Additional internal checks.** (i) The simultaneous Cantor lemma demands density of each *endpoint-conditioned* anchor set `A_k`, verified by full-gap traversal for every sufficiently late fence with its endpoint in `V_k`; mere density of their union would not suffice. (ii) Persistence of anchors ensures all countably many label types appear densely on the *final* Cantor, not only in the construction intervals. (iii) The negative closed-support obstruction cannot be applied to `D_P^+,D_Q^+`, since neither family of selected fence endpoints is confined to a one-sided part of `M`. (iv) Both nontrivial inclusions in (P12) are proved in the patch square before being transported through the already audited special-fibre isomorphism; no ordinary two-edge path or general image-base-change law is invoked.
 
 **Status:** This strengthening is a new internally checked conditional result, not an independently audited theorem. The key new proof obligation for a future referee is the simultaneous labelled-Cantor lemma and its interaction with one-step point-generated relation traces.
+
+## 8. Streamlined orientation test: a common open middle channel
+
+**Subsequent simplification.** The simultaneous countably-labelled Cantor construction of §7 is valid as a sufficient mechanism, but **is unnecessary for the strict left inequality in (P14)**. The earlier one-label persistent-anchor Cantors already give a thin positive witness if the two selected endpoint regions are reversed. This supplies a geometrically transparent companion to the negative obstruction.
+
+**Lemma 3 (common patch-mediator test).** Let `A,B,V` be nonempty locally compact Hausdorff patch subspaces of `P` (as in the compact Cantors and open interval used below), and assume the ordinary component-equivalent pair sets
+
+\[
+E_G\cap(A\times V)\quad\text{and}\quad E_G\cap(V\times B)
+\]
+
+are dense in `A×V` and `V×B`, respectively (with their patch product topologies). Then
+
+\[
+\boxed{\mathcal B(A\times B)\le(p\times p)^{-1}T.}\tag{P15}
+\]
+
+**Proof.** On the patch triple `A×V×B`, the two upper-localic one-step relation pullbacks contain respectively the ordinary dense sets `(E_G∩(A×V))×B` and `A×(E_G∩(V×B))`. Hence both are dense *sublocales* of the patch triple and contain its Booleanization. The latter factors through the actual upper-localic composable-pair sublocale before the outer image is taken. The outer projection `A×V×B→A×B` is open surjective; its image of the Booleanization is dense in `A×B`, and its composite to `X²` factors through `T`. Minimality of Booleanization now gives (P15). ∎
+
+The middle `V` here need only be a **patch subspace**; it is not required to be an upper-open sublocale of `X`.
+
+For an opposing criterion, suppose `A,B≤X` are closed and `C_-,C_+≤X` are disjoint closed sublocales such that
+
+\[
+H\wedge(A\times X)\le A\times C_-,\qquad
+H\wedge(X\times B)\le C_+\times B.
+\]
+
+Then the pullback of the outer closed rectangle to the composable-pair locale forces the middle coordinate into `C_-∧C_+=0`. Factoring through the open complement **before taking image** gives `T∧(A×B)=0`. This is the disjoint-support specialization of Lemma 1 in the obstruction note. In particular, the two tests are genuinely asymmetric: one requires *density of both traces over a common mediator*, the other requires *disjointness of their closed middle supports*.
+
+**Proposition (opposite endpoint orientations).** Let `M_L` and `M_R` be the first-level left and right Cantor pieces of `M`, with
+
+\[
+M_L\subset[.4,.433\overline3],\qquad
+M_R\subset[.466\overline6,.5].
+\]
+
+Inside any prescribed nonempty patch-open subintervals of `U_P` and `U_Q`, construct the compact lower Cantor supports `D_{P,L}`, `D_{P,R}`, `D_{Q,L}`, `D_{Q,R}` by the one-label persistent-anchor method: `D_{P,L}` has a dense trace of minimal `P_n` vertices with `a_n∈M_L` and no other fence vertices, and similarly for the other colour/region combinations. Then:
+
+| Selected endpoint regions | Two-step consequence on the Cantor rectangle |
+| --- | --- |
+| `P` ends in `M_L`, `Q` starts in `M_R` | `T∧(D_{P,L}×D_{Q,R})=0` |
+| `P` ends in `M_R`, `Q` starts in `M_L` | `0≠\mathcal B(D_{P,R}×D_{Q,L})≤F∧\widehat T` |
+
+**Proof of the negative row.** Segment confinement puts each selected `P_n` entirely to the left of `.44` and each selected `Q_m` entirely to the right of `.46`. The uniform strict-edge bound `<1/800` makes the closed lower mediators `\downarrow[0,.44]` and `\downarrow[.46,1]` disjoint. Apply the closed-support test just recalled. This is the previous obstruction.
+
+**Proof of the positive row.** Choose the *patch-open* interval `V=(.44,.46)` in the middle Cantor gap. Every `P_n` with `a_n∈M_R` spans both the outer `P` mediator and `V`, while every `Q_m` with `b_m∈M_L` spans both `V` and the outer `Q` mediator. The vertex mesh tends to zero. Thus, given nonempty relative open `O⊂D_{P,R}` and patch-open `W⊂V`, one can choose a permitted minimal vertex `x∈O` from a selected `P_n` of arbitrarily high index (each fence contributes finitely many vertices); the **same** fence then has a vertex `y∈W`, so `(x,y)∈E_G`. This proves density of `E_G∩(D_{P,R}×V)`. The symmetric argument proves density of `E_G∩(V×D_{Q,L})`. Lemma 3 gives the inclusion in `\widehat T`. Dense permitted minimal vertices in each Cantor give the generic quotient-point tests, so the same nonzero Booleanization belongs to `F`. ∎
+
+Because the positive Cantor rectangle is closed nowhere dense in `U_P×U_Q`, its Booleanization meets the ambient Boolean core `\mathcal B(U_P×U_Q)` in zero, proving the **left strictness** of (P14) without Lemma 2 or any simultaneous countable label schedule. Both rows remain realizable inside every nonempty outer mediator rectangle. The exact meet `T∧F` is still not characterized by these sufficient criteria.
+
+**Adversarial points to retain:** (1) `V=(.44,.46)` is a *patch* mediator, not an asserted upper open; (2) the argument requires **one fence simultaneously meeting both test opens**, supplied by full-gap traversal, not independent density of two vertex sets; (3) dense point-pair traces only imply the Booleanization inclusion and must not be misread as ordinary two-edge paths; (4) the negative row uses closed lower Cantors and the special uniform-mesh separation, not the abstract closed-support criterion alone. An eventual external audit should prioritize the shorter orientation proof and treat the countably-labelled construction as an optional strengthening.
