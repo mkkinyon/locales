@@ -206,4 +206,12 @@ Together, via the independently audited special-fibre comparison,
 \boxed{0<T\wedge(G_P^*\times G_Q^*)<G_P^*\times G_Q^*,}
 \]
 
-and the middle term is **dense relative to the generic product**. Thus two steps capture the common Boolean core but miss nonzero nowhere-dense closed-support pieces; four steps cover the full generic product by (64*). There is no conflict between the dense positive core and the properness witness. The full kernel-pair equality `K_q=T∘T` remains unresolved.
+and the middle term is **dense relative to the generic product**. A further simultaneous endpoint-labelled Cantor construction in the positive-core note gives a nonzero two-step witness on a *nowhere-dense* closed rectangle, disjoint from the ambient Booleanization. Consequently there is the sharper strict sandwich
+
+\[
+\boxed{\mathcal B(G_P^*\times G_Q^*)
+<T\wedge(G_P^*\times G_Q^*)
+<G_P^*\times G_Q^*.}
+\]
+
+Thus two steps capture the common Boolean core **and some thin pieces beyond it**, but miss other nonzero nowhere-dense closed-support pieces; four steps cover the full generic product by (64*). There is no conflict between the dense positive core and the properness witness. The full kernel-pair equality `K_q=T∘T` remains unresolved.
