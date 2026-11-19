@@ -192,3 +192,18 @@ The concrete question posed at the time of the external audit was
 Since the restricted cross-gap equalizer is already identified with this generic product and is contained in `T∘T`, a negative solution to (MC2) would separate two-step from four-step containment **on a precisely controlled open block**. The follow-on note `ProjectA_MixedColour_TwoStep_Obstruction_2026-11-18.md` develops just such a negative result, **conditional on segment-confined fences**: compact *closed lower* Cantor source/target sets choose late components whose middle endpoints lie in separated regions. The corresponding two one-step mediator supports intersect only in finitely many early vertices and those give no composable pair. This forces `T` to vanish on a closed rectangle while a nonzero Booleanization of its patch Cantor square belongs to the generic cross-gap product. The proof is internally checked but **has not received independent adversarial review**, and the segment-confinement condition is additional to the earlier abstract audit assumptions.
 
 **Provenance and scope.** Proposition 8 and Corollary 9 were proposed with proofs in the referee's separately authored follow-up addendum of 18 November 2026. Their arguments have been checked internally here; they are consequences conditional on the same geometric hypotheses, not claims of an additional separate blind audit. The global kernel-pair equality remains open.
+
+## 10. Subsequent resolution of the mixed-colour generic two-step meet
+
+Two subsequent **internally audited, not independently refereed** notes analyze the explicit coordinate model from `ProjectA_FiniteFence_Explicit_Coordinates_Verification_2026-11-18.md`:
+
+* `ProjectA_MixedColour_TwoStep_Obstruction_2026-11-18.md`: closed lower Cantor supports with separated middle endpoint regions give a nonzero sublocale of `G_P^*×G_Q^*` which meets `T` in zero; this happens in every nonempty sub-mediator rectangle. It uses the extra segment-confinement hypothesis (SC), satisfied by the explicit model.
+* `ProjectA_MixedColour_TwoStep_Positive_Core_2026-11-18.md`: the endpoint-conditioned ordinary pair sets are dense in `U_P×M` and `M×U_Q` separately. By Isbell's least-dense-sublocale theorem, the two pulled-back one-step relations intersect in the Booleanization of `U_P×M×U_Q`, even though they have no ordinary simultaneous pair. Image under the open outer projection yields `\mathcal B(U_P×U_Q)≤(p×p)^{-1}T`; the patch generic-fibre tests put the same Booleanization below the generic cross-gap product. This positive result does **not** require (SC), only the earlier conditional endpoint and traversal hypotheses.
+
+Together, via the independently audited special-fibre comparison,
+
+\[
+\boxed{0<T\wedge(G_P^*\times G_Q^*)<G_P^*\times G_Q^*,}
+\]
+
+and the middle term is **dense relative to the generic product**. Thus two steps capture the common Boolean core but miss nonzero nowhere-dense closed-support pieces; four steps cover the full generic product by (64*). There is no conflict between the dense positive core and the properness witness. The full kernel-pair equality `K_q=T∘T` remains unresolved.
