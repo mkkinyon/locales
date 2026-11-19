@@ -127,3 +127,62 @@ There is no contradiction between the positive and negative witnesses. The negat
 **Verdict:** (P1)–(P2), including relative density and propriety, survive this internal audit as concrete conditional theorem candidates. The outstanding question is no longer whether the mixed cross-gap two-step meet vanishes: it is **how much beyond the common Boolean core** lies in `T∧(G_P^*×G_Q^*)`, and whether a conceptual intrinsic description of that proper dense sublocale is possible. Independent adversarial review of this new argument would be prudent at the next consolidation checkpoint, but no external packet is prepared here.
 
 **Primary reference for the key mechanism:** Picado–Pultr, *Locales treated mostly in a covariant way* (chapter excerpt available at `https://www.mat.uc.pt/~picado/publicat/LLNchapter.pdf`), §5.6, Isbell's Density Theorem. It explicitly notes that sublocales induced by disjoint dense subspaces can have a nontrivial localic intersection.
+
+## 7. Beyond the Boolean core: positive witnesses on thin closed Cantors
+
+The dense Boolean core is **not** the whole of the mixed two-step meet. The proof of this stronger assertion requires a simultaneous, countably many-label version of the persistent-anchor construction, so the separate argument is recorded here rather than hidden in the preceding proof.
+
+**Lemma 2 (simultaneous labelled Cantor).** Let `J` be a bounded nonempty Euclidean-open interval, let `(A_k)_{k≥1}` be a countable family of dense subsets of `J`, and let `B⊂J` be countable and disjoint from `⋃_k A_k`. There exists a nonempty compact perfect Cantor set `D⊂J\setminus B` such that `D∩A_k` is dense in `D` for **every** `k`.
+
+**Proof.** Enumerate `B` and choose a sequence `σ(n)` in which every positive integer occurs infinitely often. Build nested closed binary intervals `I_s`, with disjoint siblings, diameters tending uniformly to zero, and an interior anchor `e_s∈⋃_k A_k` at every node. At level `n`, for each node retain `e_s` inside a child `I_{s0}` and choose a fresh anchor `e_{s1}∈A_{σ(n)}` inside a disjoint child `I_{s1}`. Make both children small enough to avoid the first `n` forbidden elements of `B`, retain their anchors in their interiors, and impose the diameter bound. The density of `A_{σ(n)}` and the fact that every anchor avoids `B` make all choices possible. Retained anchors persist down the all-zero descendants. The intersection `D` of the successive unions is a compact perfect Cantor set disjoint from `B`. For every node `s` and every `k`, a later level with `σ(n)=k` installs a persistent `A_k`-anchor in a descendant of `s`. Thus every nonempty relative open subset of `D` contains an `A_k` point. ∎
+
+Choose any compactly contained open intervals `J_P⊂U_P` and `J_Q⊂U_Q`. Let `(V_k)` be a countable base of nonempty relative opens in the middle Cantor set `M`. For every `k`, define
+
+\[
+A^P_k=\{x\in J_P:\ x\text{ is a minimal vertex of }P_n
+\text{ for some }n\text{ with }a_n\in V_k\},\tag{P10}
+\]
+
+and analogously `A^Q_k⊂J_Q` from minimal `Q_n` vertices with `b_n∈V_k`. **Each `A^P_k` is dense in `J_P`, and each `A^Q_k` in `J_Q`:** every `V_k` contains middle endpoints of arbitrarily high indices, and each corresponding late fence has minimal vertices in every prescribed subinterval of its full mediator gap. Take the forbidden sets to be all fence vertices other than the permitted minimal vertices of the appropriate colour. Lemma 2 supplies compact Cantors `D_P^+⊂J_P` and `D_Q^+⊂J_Q` such that
+
+* each `D_α^+` contains a dense trace of its colour's minimal fence vertices and contains **no** maximal or opposite-colour fence vertex;
+* for every basic `V_k⊂M`, the set of vertices in `D_P^+` belonging to `P_n` with `a_n∈V_k` is dense in `D_P^+`, and likewise for `D_Q^+` and the `Q` endpoints `b_n`;
+* each `D_α^+` is a Euclidean compact lower set (every point is either an allowed minimal vertex or a singleton-comparability point), hence a closed sublocale of the upper locale.
+
+It follows that the component-pair traces
+
+\[
+R_P^+=\{(x,a_n):x\in D_P^+\cap V(P_n)\}
+\subset D_P^+\times M,\qquad
+R_Q^+=\{(b_n,y):y\in D_Q^+\cap V(Q_n)\}
+\subset M\times D_Q^+\tag{P11}
+\]
+
+are each dense in their patch rectangles: every relatively open part of a `D_α^+` and every relatively open part of `M` contain a matching labelled pair. Repeating §3 on the patch triple `D_P^+×M×D_Q^+`, both pulled-back one-step relations are dense and therefore contain its Booleanization. Open-surjective outer projection gives
+
+\[
+\boxed{0\ne W^+:=\mathcal B(D_P^+\times D_Q^+)
+\le F\wedge\widehat T.}\tag{P12}
+\]
+
+The inclusion in `F` follows from the generic quotient-point tests as in the earlier selected-support proof: dense allowed fence vertices in both perfect Cantors make all finite-vertex closed cutoffs nowhere dense, while quotient opens missing the generic point have empty trace. The inclusion in `\widehat T` follows from the dense composable-pair Booleanization as just described.
+
+Since each `D_α^+` is a closed nowhere-dense subset of its ambient open mediator, the rectangle `D_P^+×D_Q^+` is closed nowhere dense in `U=U_P×U_Q`. Its open complement is dense, so `\mathcal B(U)` lies in that complement. Therefore
+
+\[
+W^+\wedge\mathcal B(U)=0,\qquad W^+\ne0.\tag{P13}
+\]
+
+Thus `F∧\widehat T` **strictly contains** the ambient Booleanization `\mathcal B(U)`. In fact `F` is dense in `U` by (P9), and the least dense sublocale of `F` is precisely `\mathcal B(U)` (density passes transitively through sublocale inclusions). Transporting through the patch-fibre isomorphism sharpens (P2) to the strict sandwich
+
+\[
+\boxed{\mathcal B(G_P^*\times G_Q^*)
+\;<\; T\wedge(G_P^*\times G_Q^*)
+\;<\; G_P^*\times G_Q^*.}\tag{P14}
+\]
+
+All three displayed sublocales are *upper-localic*. The left strictness is witnessed by the thin positive Cantor `W^+`; the right strictness by the separate thin negative Cantor of the obstruction note. The constructions can both be carried out inside every nonempty mediator rectangle, but they use incompatible endpoint-label distributions on their respective Cantor supports.
+
+**Additional internal checks.** (i) The simultaneous Cantor lemma demands density of each *endpoint-conditioned* anchor set `A_k`, verified by full-gap traversal for every sufficiently late fence with its endpoint in `V_k`; mere density of their union would not suffice. (ii) Persistence of anchors ensures all countably many label types appear densely on the *final* Cantor, not only in the construction intervals. (iii) The negative closed-support obstruction cannot be applied to `D_P^+,D_Q^+`, since neither family of selected fence endpoints is confined to a one-sided part of `M`. (iv) Both nontrivial inclusions in (P12) are proved in the patch square before being transported through the already audited special-fibre isomorphism; no ordinary two-edge path or general image-base-change law is invoked.
+
+**Status:** This strengthening is a new internally checked conditional result, not an independently audited theorem. The key new proof obligation for a future referee is the simultaneous labelled-Cantor lemma and its interaction with one-step point-generated relation traces.
