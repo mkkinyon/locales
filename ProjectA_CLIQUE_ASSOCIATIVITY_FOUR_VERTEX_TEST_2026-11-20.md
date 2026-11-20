@@ -1,3 +1,5 @@
+> **LATER ON 20 NOV 2026 — WORKING RESOLUTION OF THE FIVE-VERTEX TEST:** The [new compact-metric bipartite-saturation and clique power-associativity proof](ProjectA_CLIQUE_COMPACT_METRIC_POWER_ASSOCIATIVITY_WORKING_2026-11-20.md) claims (R∘S)∘T = R∘(S∘T) = I₀×Q₃, and proposes an explicit all-length formula for finite point-clique families on compact metrizable locales. This is **new internal mathematics**, not covered by the preceding independent referee report and not yet adversarially audited. The five-vertex question below is retained as the precise historical setup that motivated the stronger argument.
+
 # Project A — threefold composition of Stone point-cliques: four-vertex test
 ## Research continuation, 20 November 2026 — INTERNAL working proof
 
