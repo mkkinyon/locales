@@ -1,8 +1,8 @@
 # Project A — internal adversarial audit of compact-metric clique power-associativity
 
 **Date:** 20 November 2026  
-**Source reviewed:** [ProjectA_CLIQUE_COMPACT_METRIC_POWER_ASSOCIATIVITY_WORKING_2026-11-20.md](../../../../ProjectA_CLIQUE_COMPACT_METRIC_POWER_ASSOCIATIVITY_WORKING_2026-11-20.md), including the corrected section-thinness argument.  
-**Related older source:** [four-vertex clique test](../../../../ProjectA_CLIQUE_ASSOCIATIVITY_FOUR_VERTEX_TEST_2026-11-20.md).  
+**Source reviewed:** [ProjectA_CLIQUE_COMPACT_METRIC_POWER_ASSOCIATIVITY_WORKING_2026-11-20.md](ProjectA_CLIQUE_COMPACT_METRIC_POWER_ASSOCIATIVITY_WORKING_2026-11-20.md), including the corrected section-thinness argument.  
+**Related older source:** [four-vertex clique test](ProjectA_CLIQUE_ASSOCIATIVITY_FOUR_VERTEX_TEST_2026-11-20.md).  
 **Independence:** This is an **internal adversarial review** of a new, post-referee argument, not an independent blind referee report. The favorable November 20 bounded-diameter referee verdict did **not** include the present saturation/associativity claims.  
 **Mathematical setting:** Classical locale theory; compact metrizable Hausdorff **spatial** outer and middle locales, finite support families, sublocale pullbacks and images.
 
