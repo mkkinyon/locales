@@ -1,3 +1,5 @@
+> **20 NOV 2026 — INTERNAL ADVERSARIAL AUDIT:** [Dedicated internal review](ProjectA_CLIQUE_COMPACT_METRIC_POWER_ASSOCIATIVITY_INTERNAL_ADVERSARIAL_AUDIT_2026-11-20.md) found no fatal error in (G), (B), (5V) or (PA), but requires the two-colour compact graph-fusion lemma and the leaf-versus-full-rectangle induction to be expanded before a blind external audit. This is *not* independent certification; the working status below remains in force.
+
 # Project A — compact-metric point-clique power associativity
 ## New internal proof after five-vertex sector reduction · 20 November 2026
 
