@@ -1,3 +1,5 @@
+> **PRIMARY SOURCE RETRIEVED (21 NOV):** The user supplied Johnstone–Sun's *Weak Products and Hausdorff Locales* (1988), full 21-page article; it has now been read. Its Cor. 1.12 identifies the weak product of spatial locales with the spatial topological product; **our \(p(A,B)\) is precisely this weak product, embedded in \(q(A,B)\), the full localic product**. Cor. 1.5 makes \(p\) dense in \(q\); Prop. 1.19 says \(\Omega(K)\) distributed iff Hausdorff K scattered, directly explaining another part of the scattered-coordinate boundary. Lemma 1.16 treats locally closed pullbacks. See [source-by-source reconciliation](ProjectA_ENDGAME_JOHNSTONE_SUN_WEAK_PRODUCTS_PRIMARY_SOURCE_2026-11-21.md). Earlier text below requesting this paper is **historical and superseded**; the 1988 work **does not itself prove** our mixed rectangular RC or the localic matrix formula MUL.
+
 # Project A — endgame exact comparison: coherent patch calculus versus p/q rectangles
 ## 21 November 2026 · theorem-level literature reconciliation, Segment 3
 
