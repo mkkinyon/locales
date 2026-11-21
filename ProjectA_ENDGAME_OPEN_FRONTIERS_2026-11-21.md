@@ -1,3 +1,5 @@
+> **21 NOV — INDEPENDENT STRUCTURAL REVIEW COMPLETE:** [referee reconciliation](ProjectA_ENDGAME_STRUCTURAL_EXTERNAL_REFEREE_RECONCILIATION_2026-11-21.md) gives a favorable **bounded** result with visible import/site repairs; no general priority judgment. **Rectangular unitality question now settled**: [new referee theorem](ProjectA_CLIQUE_RECTANGULAR_CALCULUS_POSTREFEREE_CANONICAL_2026-11-20.md) §11, **unital iff G finite**, referee-origin and internally checked; don't reopen as a general open question. No independent new audit of broad graph extension, ordinal ranks, or TWIST.
+
 > **21 NOV — CLOSED DOCUMENTARY ISSUE:** Original C and A/B fourth-audit packets have now been supplied, with their literal P1–P6 and P1–P5 premises mapped [here](PointFree_ENDGAME_FOURTH_AUDIT_PREMISE_TRACE_2026-11-21.md). Any remaining text asking to locate those **original** packets is superseded; the separate possible task of rechecking old proofs is still optional.
 
 # Point-free topology — current unresolved questions and deferred work
