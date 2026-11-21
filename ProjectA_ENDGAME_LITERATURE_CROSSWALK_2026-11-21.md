@@ -1,3 +1,5 @@
+> **COMPOSITION DEEP DIVE (21 NOV, SEGMENT 2):** The decisive classical antecedent is **Christopher Townsend's 1996 Chapter 4 preframe calculus for closed compact-Hausdorff localic relations**; modern categorical context: Karazeris–Tsamis (2021) and Borlido–Karazeris–Reggio–Tsamis (2024). Spectral-distributor counterparts appear in Hofmann–Nora, Jung–Kegelmann–Moshier, and Dickmann–Schwartz–Tressl. These cover substantial known associative subcategories; **the mixed nonclosed p/q calculus and parameterized nonspatial scattered-index formula have no exact predecessor located so far (not a novelty verdict)**. See [detailed source comparison](ProjectA_ENDGAME_COMPOSITION_LITERATURE_DEEP_DIVE_2026-11-21.md).
+
 # Unified Point-Free Topology Project — endgame literature map, tranche 1
 ## 21 November 2026 · Session 10 · work toward the 25 November wrap-up
 
