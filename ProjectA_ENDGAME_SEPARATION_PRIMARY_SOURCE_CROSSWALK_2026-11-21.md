@@ -81,3 +81,23 @@ The [Q/Q′ dense rational bridge](ProjectA_Q_DENSE_RATIONAL_BRIDGE_CANONICAL_20
 5. If preparing a survey, cite the Juhász–Soukup–Szentmiklóssy/Arrieta anti-Urysohn example and the compact T₁ LC-A example side-by-side; their point-free lessons are genuinely different.
 
 **No novelty verdict** from this note. The 1988 user-supplied original and 2024 published article were available; no new user-provided source is requested immediately. The older Isbell/Dowker–Strauss originals may be retrieved if the endgame demands precise historical theorem phrasing.
+
+
+## V. Additional directly checked normality and conormality predecessors
+
+**W. H. Cornish, *Normal Lattices*, J. Austral. Math. Soc. 14 (1972), 200–215, Theorem 2.4**, full original article https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B71E90ADA1C98165B2EDD8C7B40BB289/S1446788700010041a.pdf/div-class-title-normal-lattices-div.pdf . **Source read:** pp.200–202, abstract and Theorem 2.4. For a distributive lattice with 0, every prime ideal contains a unique minimal prime iff the annihilator ideals of disjoint x,y are comaximal. When a top 1 exists, his condition (h) is the *witness form*:
+\[
+x\wedge y=0 \Longrightarrow \exists x_1,y_1:
+x\wedge x_1=y\wedge y_1=0,\quad x_1\vee y_1=1.
+\]
+This is **known classical lattice theory**. For coherent frame L, project's independently audited equivalence \(\mathcal I=\mathcal U\iff K(L)\text{ conormal}\) connects it to Cornish's normal-lattice/unique-minimal-prime condition. The converse/equality for arbitrary frames **does not follow** from applying Cornish to the full underlying frame: the relevant bounded distributive lattice is **K(L)**. This distinction was already made in [A-literature-separation-status](A-literature-separation-status-2026-10-21.md). Terminology "normal" in Cornish means modern **conormal** in this spectral convention; don't confuse with frame normality.
+
+**J. Gutiérrez García and J. Picado**, *On the Parallel Between Normality and Extremal Disconnectedness* (2013), original author preprint https://www.mat.uc.pt/preprints/ps/p1304.pdf. **Original source text checked** (abstract and Remark 2.2 via source extraction). Remark 2.2 explicitly states that in a **normal frame** the rather-below relation \(a\prec b\iff a^*\vee b=1\) is interpolative, hence (classically) agrees with the completely-below relation \(a\prec\prec b\). Applied to the generating far rectangles of the project \(\mathcal U\) and completely separated rectangles of the functional relation \(\mathcal F\), this gives the **known-background implication**
+\[
+L\text{ normal}\Longrightarrow \mathcal U=\mathcal F.
+\]
+The *general* relation equality \(\mathcal U=\mathcal F\) need not imply normality and is not claimed equivalent by that source. The project formulation is an immediate relation translation of known interpolation, rather than a new normality theorem.
+
+**Bibliographic correction:** Dowker–Strauss, *Separation Axioms for Frames*, belongs to the 1972 symposium proceedings **published in 1974**, as verified in Paseka–Šmarda (1992) reference [5], pp.223–240. Distinguish this from their 1985 *T₁- and T₂-Axioms for Frames* and Dowker–Papert's 1967 *On Urysohn's Lemma*.
+
+**Current status:** the core background classification is now anchored to original sources. Remaining priority work concerns the genuinely **intermediate sublocale relations** and the strict noncoherent hull/rank examples, not the general normality or minimal-prime characterizations.
