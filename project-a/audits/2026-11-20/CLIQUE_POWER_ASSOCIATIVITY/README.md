@@ -1,7 +1,9 @@
+> **POST-REVIEW STATUS — 20 NOV 2026: MATHEMATICALLY ACCEPTED AND SUBSTANTIALLY STRENGTHENED.** The [independent blind referee report](INDEPENDENT_REFEREE_REPORT.md) finds no invalid implication in the submitted compact-metric theorem, but gives a **new closed-support proof** valid for arbitrary compact Hausdorff spaces. The [independent referee addendum](REFEREE_ADDENDUM.md) proves a larger **associative finite-join calculus of arbitrary bipartite point-generated or full rectangles** and directed-walk formulas. The current [post-referee canonical theorem](../../../../ProjectA_CLIQUE_RECTANGULAR_CALCULUS_POSTREFEREE_CANONICAL_2026-11-20.md) and [claim-by-claim reconciliation](../../../../ProjectA_CLIQUE_POWER_ASSOCIATIVITY_REFEREE_RECONCILIATION_2026-11-20.md) supersede the *status*, not the preserved text, of the original candidate. Original referee reports are archived **separately**; the internal audit was withheld from the blind reviewer. The submitted two-colour Cantor-graph generation lemma remains valid for metric spaces but is no longer necessary for the main theorem. **New frontier:** associativity beyond finite rectangular joins; no unrestricted or infinitary-join result.
+
 # Project A — compact-metric clique power associativity
 ## Blind external audit handoff · 20 November 2026
 
-**Research status:** New **repaired candidate**, not yet independently audited. This archive is distinct from the independent bounded diameter / exact rank referee cycle earlier on 20 November 2026. Its results are logically stronger: equality of the **full localic intermediate powers**, not merely their common completion threshold or point sets.
+**Historical submission status:** The following text describes the **original blind packet** before the independent referee reports arrived. The current post-referee verdict is recorded above. This archive is distinct from the independent bounded diameter / exact rank referee cycle earlier on 20 November 2026. Its results are logically stronger: equality of the **full localic intermediate powers**, not merely their common completion threshold or point sets.
 
 ### Blind package navigation
 
@@ -34,4 +36,4 @@ A referee should try to falsify any of these rather than defer to a prior positi
 
 ### Independence rule
 
-The blind package is **free of the internal verdict**. If a referee report and optional addendum are later received, archive them here as distinct original documents before reconciling them with the internal work. Until then, maintain (G), (B), (C2), (PA), (5V) as **candidate** theorems, without changing the externally verified bounded-diameter rank status.
+The blind package is **free of the internal verdict**. If a referee report and optional addendum are later received, archive them here as distinct original documents before reconciling them with the internal work. **Historical handoff instruction (now superseded):** Before receiving the independent referee, these were candidate results. Read the current verdict and reconciliation above. The separately audited bounded-diameter rank theorem remains valid.
