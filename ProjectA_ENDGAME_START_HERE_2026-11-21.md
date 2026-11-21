@@ -1,3 +1,5 @@
+> **21 NOV 2026 — ADVERSARIAL CONSOLIDATION AUDIT AND REPAIRS:** Read [internal adversarial audit](ProjectA_ENDGAME_CONSOLIDATION_INTERNAL_ADVERSARIAL_AUDIT_2026-11-21.md) alongside [corrected ledger v3.1](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md). **Key repairs:** \(\mathcal H\) is **not** always transitive (even coherently); the finite p/q rectangular algebra is **not asserted unital**, though the larger graph extension is; and late referee-addendum/internal results have separate provenance. Restored compact/coherent \(\mathcal D=\mathcal U\) normality, exact \(\omega+m\) H ranks, and unrestricted \(L^*\) formula. Historical proofs/reports preserved.
+
 # Point-free topology — start here
 ## Endgame research archive · active consolidation, 21–25 November 2026
 
@@ -8,7 +10,7 @@
 | Read in this order | What it does |
 |---|---|
 | 1. [Mathematical big-picture spine](ProjectA_ENDGAME_BIG_PICTURE_SPINE_2026-11-21.md) | What questions connect the three strands; basic definitions, overarching story and representative examples. Still a first-pass synthesis. |
-| 2. [CURRENT theorem ledger v3.0](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) | Major results, exact hypotheses and current proof statuses. **This supersedes older historical ledgers on current claims.** |
+| 2. [CURRENT theorem ledger v3.1](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) | Major results, exact hypotheses and current proof statuses. **This supersedes older historical ledgers on current claims.** |
 | 3. [Proof dependency atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md) | Which theorems import other theorems; dangerous changes of ambient category; where localic pullback/image proof is necessary. |
 | 4. [Endgame literature crosswalk](ProjectA_ENDGAME_LITERATURE_CROSSWALK_2026-11-21.md) | Primary sources, known results and unresolved theorem-to-literature comparisons. **Not a novelty/priority certificate.** |
 | 5. [Open-frontier register](ProjectA_ENDGAME_OPEN_FRONTIERS_2026-11-21.md) | Unresolved mathematical and documentary questions, plus an explicit list of historically open problems since settled. |
