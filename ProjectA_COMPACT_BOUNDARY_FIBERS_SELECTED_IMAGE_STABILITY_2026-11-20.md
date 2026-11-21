@@ -172,6 +172,16 @@ The graph-probe calculation then gives
 
 **Theorem 3.1 (INTERNAL NEGATIVE BOUNDARY-BASE EXAMPLE).** A globally **open, proper** compact metrizable Stone projection whose open part consists of finite-sheeted blocks may become graph-nonassociative when its **closed target boundary has a nontrivial Cantor base** supporting pointlessly overlapping induced spatial subsets. Here the boundary restriction is Cantor×Cantor→Cantor, and all ordinary finite sheets outside are harmless. In contrast, Theorem 2.3 has the *same sort* of infinite compact domain fiber but a **single closed target point**, and is associative.
 
+### 3.1. Consequence and qualification for ordinary undirected graphs
+
+For either of the projection maps f (the positive f or the negative f_-), set G=X⊔Y and consider the **small** reflexive symmetric ordinary graph relation
+\[
+H_f=\Delta_G\vee\Gamma_f\vee\Gamma_f^\smile.
+\]
+Because f is a continuous map between compact Hausdorff spaces, this H_f is itself a **closed** relation on compact G. The general compact-closed relational calculus already gives associativity of its powers, **without** (S1),(S2)! Furthermore, since f is surjective, its twofold power equals the kernel pair of the natural retraction \(r:G\to Y\) (r|X=f, r|Y=id), and all longer powers agree with that kernel pair.
+
+Therefore the negative boundary map f_- becomes nonassociative **only after adding the nonclosed selected-support rectangles** R and T. Do not mistake failure of the **enlarged algebra** for failure of the closed undirected graph H_f itself. To produce a *single non-power-associative reflexive symmetric graph* in the negative case, symmetrize the union \(\Delta_G\vee R\vee F\vee T\) with converses as in the prior four-level examples; the unique three-step route along the distinct clopen levels preserves the graph-probe discrepancy. This distinction is important for the original Cameron–Kumar graph motivation.
+
 ## 4. Conceptual synthesis and audit agenda
 
 The key distinction is **not** boundary-fiber cardinality: both examples have an infinite compact Cantor fiber and arbitrarily large finite-sheet blocks. Rather, it is whether the selected witness map admits an *unstable spatial image* on the closed target boundary. A singleton target boundary forces every nonzero selected boundary support to surject openly to that singleton, whereas a Cantor target boundary supports the classic pointless dense-meet Q∧I despite ordinary disjointness.
