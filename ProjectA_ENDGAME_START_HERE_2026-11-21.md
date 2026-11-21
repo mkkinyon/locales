@@ -9,16 +9,19 @@
 
 ### The current entry points
 
-**Recommended first encounter:** [Five worked examples: mathematical cold read](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md). This begins with a finite five-point graph and ends with a six-point homotopy comparison, with proof links and exact audit status. It is easier to read before the theorem ledger.
+**Recommended first encounter:** [From graphs to localic relations — the final mathematical synthesis](ProjectA_ENDGAME_MATHEMATICAL_SYNTHESIS_2026-11-21.md). It explains the *single motivating question*, the three branches, their genuine links and failed implications, and why five examples suffice to make the theory readable. Follow it with the [five worked examples](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md); consult the detailed ledger only when exact statements or provenance matter.
 
 | Read in this order | What it does |
 |---|---|
-| 1. [Five worked examples](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md) | An example-first introduction to separation, nontransitive H, finite covers, genuinely localic composition, and higher witnesses. |
-| 2. [Mathematical big-picture spine](ProjectA_ENDGAME_BIG_PICTURE_SPINE_2026-11-21.md) | What questions connect the three strands; basic definitions, overarching story and representative examples. Still a first-pass synthesis. |
-| 3. [CURRENT theorem ledger v3.1](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) | Major results, exact hypotheses and current proof statuses. **This supersedes older historical ledgers on current claims.** |
-| 4. [Proof dependency atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md) | Which theorems import other theorems; dangerous changes of ambient category; where localic pullback/image proof is necessary. |
-| 5. [Endgame literature crosswalk](ProjectA_ENDGAME_LITERATURE_CROSSWALK_2026-11-21.md) | Primary sources, known results and unresolved theorem-to-literature comparisons. **Not a novelty/priority certificate.** |
-| 6. [Open-frontier register](ProjectA_ENDGAME_OPEN_FRONTIERS_2026-11-21.md) | Unresolved mathematical and documentary questions, plus an explicit list of historically open problems since settled. |
+| 1. [Integrated mathematical synthesis](ProjectA_ENDGAME_MATHEMATICAL_SYNTHESIS_2026-11-21.md) | A sustained mathematical narrative connecting the diagonal hierarchy, actual localic composition, higher witnesses, and five sharp examples; distinguishes audited interfaces from imported results. |
+| 2. [Five worked examples](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md) | Concrete finite-order, coherent-hull, rational-bridge, rectangular-composition and six-point-homotopy calculations. |
+| 3. [Notation, ambient categories and assumptions](ProjectA_ENDGAME_NOTATION_AND_ASSUMPTIONS_2026-11-21.md) | One-page scope and import map; guards against invalid pointwise/infinitary substitutions. |
+| 4. [Current theorem ledger v3.2](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) | Forty-seven theorem groups, exact hypotheses, independent audit scope, referee-origin addenda, and deferred boundaries. **Supersedes historical statuses.** |
+| 5. [Proof dependency atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md) | Which theorems import other theorems; where actual localic image, Booleanization and sheaf descent are essential. |
+| 6. [Endgame literature crosswalk](ProjectA_ENDGAME_LITERATURE_CROSSWALK_2026-11-21.md) | Existing primary-source theory and comparisons. **Not a claim of novelty or priority.** |
+| 7. [Open-frontier register](ProjectA_ENDGAME_OPEN_FRONTIERS_2026-11-21.md) | Unresolved research or proof/documentation tasks with historical open questions already resolved. |
+
+The earlier [big-picture spine](ProjectA_ENDGAME_BIG_PICTURE_SPINE_2026-11-21.md) is retained as the *first-pass synthesis* in the record; the new integrated synthesis is preferred for readers unfamiliar with the project.
 
 ### The three mathematical branches
 
