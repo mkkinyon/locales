@@ -51,6 +51,23 @@ This bound is independent of the localic algebra. In particular, any scattered \
 \]
 with the order topology has \(Y^{(m)}\ne\varnothing\) for every finite m. It is compact, metrizable, Hausdorff, zero-dimensional and scattered.
 
+### 2.1. Complementary finite-height theorem (INTERNAL)
+
+**Proposition 2.2 (finite scattered height gives finite chart rank).** Let \(f:X\to Y\) be continuous between Hausdorff spaces, assume \(Y\) is scattered with **finite Cantor–Bendixson height h**, and suppose every fiber of f has at most N points. Then
+\[
+\boxed{\rho_{\rm lc}(f)\le hN.}\tag{FH}
+\]
+
+**Proof.** Put \(S_i=Y^{(i)}\setminus Y^{(i+1)}\), for \(0\le i<h\). Each \(S_i\) is **discrete and locally closed** in Y: it is the open isolated-point layer inside the closed subspace \(Y^{(i)}\). The preimage \(T_i=f^{-1}(S_i)\) is locally closed in X and **discrete** in its own subspace topology. Indeed for a selected \(x\in T_i\), choose a Y-open neighborhood V isolating f(x) within S_i, and then use Hausdorffness of X to separate x from the finitely many other points of \(f^{-1}(f(x))\). The resulting X-open neighborhood isolates x in T_i.
+
+For each i, partition the finite fibers \(T_i\to S_i\) into at most N classes on which f is injective (choose an enumeration of each finite fiber). Because \(T_i\) and \(S_i\) are **discrete**, each class is open in T_i and its image is open in S_i. Since \(T_i\) and \(S_i\) are locally closed in X and Y, each class and image is locally closed in its ambient space. Each restricted map is a homeomorphism between discrete locally closed sectors. There are at most hN charts, as claimed. □
+
+Thus if a finite-to-one map over a scattered base has **bounded fibers and finite scattered height**, it falls in the internally verified safe finite-chart algebra. Our counterexample deliberately uses **infinite scattered height**, and it shows finite height cannot simply be dropped from the rank bound (FH).
+
+**Lemma 2.3 (finite-to-one maps over scattered bases have scattered sources).** If f:X→Y is continuous, X Hausdorff, Y scattered, and all f-fibers finite, then X is scattered. For a nonempty A⊂X choose y isolated in f(A); an open neighborhood of y intersects f(A) only in y. The finite set \(A\cap f^{-1}(y)\) has a point x isolated in that finite set by Hausdorffness. Intersect the corresponding source neighborhood with the preimage of the neighborhood isolating y to isolate x in A. □
+
+Hence **every** continuous finite-to-one map between compact Hausdorff spaces with scattered target lies between compact scattered spaces, so its graph and converse are automatically safe by Theorem 1.2—even if its locally closed chart rank is infinite. No assumption of a uniform fiber bound is needed for the safety assertion.
+
 ### 3. Exactly two-to-one compact metric safe map with infinite chart rank
 
 **Theorem 3.1 (INTERNAL; refutes the finite-to-one necessity question).** There exist compact metrizable scattered Hausdorff spaces X,Y and a continuous surjection f:X→Y such that:
