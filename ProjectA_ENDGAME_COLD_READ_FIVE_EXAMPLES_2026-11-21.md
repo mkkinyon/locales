@@ -125,7 +125,23 @@ i.e. π0 and π1 are isomorphisms and π2 is an epimorphism, **not necessarily a
 \]
 so the bound is sharp: π2 of the chain object is destroyed. It is a direct finite witness to the difference between *binary graph/chain 1-type reconstruction* and the genuinely higher data lost from binary descriptions. The binary I,D graphs **plus the patch topology** nevertheless recover all higher patched I_n and D_n as simplicial subsets; the functorial reconstruction requires a binary **isomorphism**, not arbitrary graph-preserving maps unless they preserve M₂.
 
-**Lesson:** classification of binary relations, relational composition, and higher common-witness homotopy are connected but different. The Dowker strand is not simply a corollary of a binary graph hierarchy.
+**An especially transparent companion pair (original fourth-audit C8a).** Let
+\[
+P=A_2\oplus B_{\rm anti}\oplus C_2,\qquad
+Q=A_2\oplus B_{\rm chain}\oplus C_2,
+\]
+where \(B_{\rm anti}\) is a two-element antichain and \(B_{\rm chain}\) a two-element chain. Under the common underlying six-element **discrete patch space**, an ordinary nonempty tuple belongs to \(I_n\) **iff** it does not contain *both distinct top elements* of C, and belongs to \(D_n\) **iff** it does not contain *both distinct bottom elements* of A. Both tests are **independent of the middle order**. Hence **all patched higher \(I_n,D_n\) (and their simplicial maps) literally agree** between P and Q; so do their meet spaces \(M_n\).
+
+By contrast, the finite chain order complexes are
+\[
+|\mathrm{Ch}(P)|\simeq S^0*S^0*S^0=S^2,\qquad
+|\mathrm{Ch}(Q)|\simeq S^0*|\Delta^1|*S^0\simeq1.
+\]
+Every M-simplex can be coned off by **either designated middle vertex**: appending this vertex never creates a forbidden pair of distinct extreme vertices. This gives a direct extra-degeneracy contraction of \(M_\bullet(P)\) and \(M_\bullet(Q)\). It proves the *sharpness* of 2-connectivity without hiding the calculation behind an abstract criterion.
+
+**Independent finite check (21 Nov).** Enumerating all nonempty faces of the corresponding finite complexes gave chain f-vectors \((6,12,8)\) for P and \((6,13,12,4)\) for Q; the I, D and M face sets agree across P/Q. The M face counts are \((6,13,12,4)\), and the complex is a cone on a middle vertex. This finite enumeration supports the explicit order/witness calculation; **it is not an independent proof of the general internal 2-connectivity theorem**.
+
+**Lesson:** classification of binary relations, relational composition, and higher common-witness homotopy are connected but different. Even **all higher patched I/D witness spaces** fail to recover the chain 2-type across differing spectral orders. The Dowker strand is not simply a corollary of a binary graph hierarchy.
 
 **Source/status:** [higher meet-hull canonical §§0–3](PointFree_binary_meet_hull_CANONICAL_2026-11-11.md), [fourth-audit final reconciliation](PointFree_audit4_FINAL_RECONCILIATION_2026-11-11.md). The groupoid and sharp 2-connectivity results were **post-verdict proposals independently cross-checked by the opposite referee**, not claims included in the original blind packet. The proofs use preexisting **P1–P6** premises that the fourth referee **did not reprove**; see [cold-read dependency trace](PointFree_ENDGAME_FOURTH_AUDIT_PREMISE_TRACE_2026-11-21.md). No intrinsic localic shape theorem or site-independence is claimed.
 
