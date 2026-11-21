@@ -7,7 +7,7 @@ Companion authoritative [current theorem ledger v3.0](ProjectA_ENDGAME_THEOREM_L
 
 ### A. Coherent diagonal and graph powers
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  P["Classical coherent frame / Priestley patch representation"] --> A["A: proconstructible sublocale characterization"]
  A --> B["B: actual Loc pullback/image composition matches patch-closed set composition"]
@@ -17,13 +17,13 @@ flowchart TD
  F["Separate coherent diagonal theorem W=U"] --> G["S²=J and S⁴=U∨V"]
  E --> G
  B --> G
-\`\`\`
+```
 
 **Gate:** The [coherent canonical proof](ProjectA_coherent_composition_canonical_proof_2026-11-08.md) explicitly **imports** W=U. Do not say it follows from Theorem B in isolation. All its words are **finite** and source locales **coherent**; arbitrary joins, arbitrary noncoherent locales, and all relation sublocales remain outside. The category equivalence with Stone **closed** relations is an **internally derived endgame corollary** (not original blind claim), using this actual Loc-image gate and the classical compact Hausdorff closed relation calculus. Related [exact source comparison](ProjectA_ENDGAME_EXACT_COMPARISON_PATCH_AND_PQ_2026-11-21.md).
 
 ### B. Stably compact hierarchy and specialization
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  P["Compact Hausdorff patch + patch-closed specialization order"] --> Q["Perfect nucleus & stably locally compact sublocale machinery"]
  Q --> R["I, D, V, W, J, T are spatial/perfect with order-saturation points"]
@@ -31,13 +31,13 @@ flowchart TD
  Q --> A["Oriented specialization A spatial on stably locally compact"]
  S --> M["S=M iff every interval a chain (stable case)"]
  Z["Compact sober T1 nonstable counterexample"] --> N["No unrestricted A=[G≤]"]
-\`\`\`
+```
 
 Source order and scope: [J/T canonical](ProjectA_J_T_COMPARABILITY_GRAPH_STABLY_COMPACT_CANONICAL_2026-11-17.md), [SC+](ProjectA_SCplus_CANONICAL_2026-11-15.md), [A-SC](ProjectA_ASC_CANONICAL_2026-11-15.md), [LC-A negative](ProjectA_LCA_COUNTEREXAMPLE_CANONICAL_2026-11-15.md). **Classical point set claims do not yield localic subobject equalities** without the perfect/spatiality argument. “Stably locally compact” ≠ “locally compact”; LC-A is specifically an example of their difference. The J/T **new eight-vertex sharpness** is post-referee addendum, not covered by original blind packet.
 
 ### C. Fitting/closure and counterexamples
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  A["Arrieta / Isbell fitted & closed diagonal theory"] --> B["D=fit Δ; I=cl Δ; V=fit I; W=cl D"]
  B --> C["Full vs finite cover nuclei Φ, Φ₂"]
@@ -46,7 +46,7 @@ flowchart TD
  D --> F["W=I < W₂=U"]
  E --> F
  G["Isbell least dense Boolean sublocale"] --> E
-\`\`\`
+```
 
 [Q/Q′ canonical](ProjectA_Q_DENSE_RATIONAL_BRIDGE_CANONICAL_2026-11-14.md) distinguishes (i) all-cover descent, (ii) finite-cover dense matching, (iii) the nonzero pointless Boolean witness B(J), (iv) ambient **closed hull** saturation. Do not claim arbitrary Δ-cover meets equal finite-cover meets, or infer their hull inequality merely from pointwise data. Its post-referee **quasi-Polish** corollary uses de Brecht 2013. Previous Q-open entries are **false historical statuses**.
 
@@ -54,7 +54,7 @@ flowchart TD
 
 ### D. Compact Hausdorff rectangle → charts → balanced graphs
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  J["Johnstone–Sun 1988 weak product vs full product"] --> P["p(A,B)=[A×B]; q(A,B)=[A]×[B]"]
  P --> RC["RC: mixed p/q rectangle composition; all 4 input types"]
@@ -63,7 +63,7 @@ flowchart TD
  RC --> BAL["Balanced nonzero-overlap & monomial graph extension"]
  CH --> N["Finite-chart positive theorems; counterexamples"]
  BAL --> N
-\`\`\`
+```
 
 **Gate RC is required:** [rectangular canonical](ProjectA_CLIQUE_RECTANGULAR_CALCULUS_POSTREFEREE_CANONICAL_2026-11-20.md), external audit repaired candidate; p/q weak/full product antecedent **L** [Johnstone–Sun comparison](ProjectA_ENDGAME_JOHNSTONE_SUN_WEAK_PRODUCTS_PRIMARY_SOURCE_2026-11-21.md). In graph extensions [postreferee canonical](ProjectA_GRAPH_EXTENSIONS_POSTREFEREE_CANONICAL_2026-11-21.md), composition with charts uses locally closed restriction LC and partial graph PH; associativity of RHR is the nontrivial balanced overlap equivalence. There is an explicit graph-probe **nonassociator** despite proper open surjection, so do not infer from openness/properness alone.
 
@@ -71,7 +71,7 @@ flowchart TD
 
 ### E. Scattered matrices
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  S["Scattered K + compact Hausdorff P; singleton-sector SPLIT"] --> MAT["MATn: all sublocales fibrewise from closed sectors"]
  MAT --> MUL["MUL: exact binary composition indexed matrix rule"]
@@ -79,7 +79,7 @@ flowchart TD
  MUL --> FIN
  FIN --> PATH["Finite graph path expansion"]
  MUL --> DISC["Discrete-index complete lattice + binary composition comparison"]
-\`\`\`
+```
 
 Source [matrix reconciliation](ProjectA_BALANCED_WITNESS_SCATTERED_MATRIX_POSTREFEREE_RECONCILIATION_2026-11-21.md) / [matrix note](ProjectA_SCATTERED_INDEX_LOCALLY_FINITE_LOCALIC_RELATION_MATRICES_2026-11-21.md). **The crucial image proof**: form actual composability sublocale Q in a triple product, split Q into the MATn **closed sectors**, then take arbitrary-join-preserving localic image and reconstruct by SPLIT. It is generally **invalid** to distribute localic pullback/meet over an infinite join of entries. Arbitrary matrix binary multiplication exists but is **not associative** merely by this formula. FINMAT uses *finite* supports.
 
@@ -93,7 +93,7 @@ Source [matrix reconciliation](ProjectA_BALANCED_WITNESS_SCATTERED_MATRIX_POSTRE
 
 ### G. Dowker and classifying anima
 
-\`\`\`mermaid
+```mermaid
 flowchart TD
  P["Coherent Priestley patch + actual proconstructible localization"] --> CH["Patched chain and higher I/D witness simplicial objects"]
  CH --> R["Stone-sheaf Čech descent + chain→I,D arrows"]
@@ -103,7 +103,7 @@ flowchart TD
  D --> X["Post-verdict crossrefereed M_n fundamental groupoid & sharp 2-connectivity"]
  C --> G["Relative Stone-indexed gluing, H¹ and nonconstancy"]
  G --> Y["Post-verdict crossrefereed finite-pair acyclic constancy"]
-\`\`\`
+```
 
 Critical sites: [chain-hulls canonical](PointFree_coherent_chain_hulls_CANONICAL_2026-11-10.md), [sheaf Čech canonical](PointFree_nonconstant_sheaf_Cech_CANONICAL_2026-11-10.md), [binary meet-hull canonical](PointFree_binary_meet_hull_CANONICAL_2026-11-11.md), [relative-gluing canonical](PointFree_relative_gluing_twisted_CANONICAL_2026-11-11.md), [fourth-audit final reconciliation](PointFree_audit4_FINAL_RECONCILIATION_2026-11-11.md).
 
