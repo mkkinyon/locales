@@ -1,3 +1,5 @@
+> **21 NOV — CLOSED DOCUMENTARY ISSUE:** Original C and A/B fourth-audit packets have now been supplied, with their literal P1–P6 and P1–P5 premises mapped [here](PointFree_ENDGAME_FOURTH_AUDIT_PREMISE_TRACE_2026-11-21.md). Any remaining text asking to locate those **original** packets is superseded; the separate possible task of rechecking old proofs is still optional.
+
 > **21 NOV COLD-READ DEPENDENCY UPDATE:** [fourth-audit premises P1–P6 trace](PointFree_ENDGAME_FOURTH_AUDIT_PREMISE_TRACE_2026-11-21.md) identifies the earlier independently audited foundations, but the original C/A-B fourth-audit dispatch packets are not present in the public GitHub tree. Literal P1–P6 wording and its one-to-one prior-theorem mapping remain to be recovered before publication. This does **not** retract any conditional fourth-audit verdict. [Five-example reader walkthrough](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md) is now the mathematical entry point.
 
 # Point-free topology — current unresolved questions and deferred work
