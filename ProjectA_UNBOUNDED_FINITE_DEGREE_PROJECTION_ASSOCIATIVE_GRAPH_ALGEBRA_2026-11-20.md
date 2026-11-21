@@ -199,6 +199,27 @@ For infinite I the resulting compact Hausdorff spaces may be nonmetrizable; if t
 
 **Warning:** This one-point-boundary result does **not** assert any corresponding theorem when the closed boundary is an arbitrary nonspatial sublocale or an infinite compact fiber. In that case the p-action of the kernel pair may acquire a full nonspatial product; the specific proof of (ACT) uses spatiality of the one-point-legged boundary strip.
 
+### 8.2. A symmetric graph corollary: infinitely many finite stars, localic rank two
+
+On G=X⊔Y, form the **reflexive symmetric point-generated** graph relation
+\[
+H=\Delta_G\vee g\vee g^\smile.
+\]
+Every ordinary connected component is a star centered at \(y\in Y\), with leaves the finite fiber f^-1(y) (including infinity's singleton fiber). Its diameter is ≤2, while its vertex counts are unbounded when d_i is unbounded.
+
+The exact localic square follows directly, with no unrestricted associativity step:
+\[
+H\circ H=\Delta_G\vee g\vee g^\smile\vee K.
+\tag{STAR2}
+\]
+Write r:G=X⊔Y→Y for r|X=f and r|Y=id. Then its kernel pair is precisely \(\Delta_Y\vee g\vee g^\smile\vee K\), and since \(\Delta_X\le K\),
+\[
+\boxed{H\circ H=\ker(r).}
+\]
+The associative algebra of Theorem 8.1 and K²=K, Kg=g, g^smile K=g^smile imply that **every** parenthesized k-factor power for k≥2 equals this same kernel pair. This is a positive infinite point-generated graph realization: ordinary diameter two and exact localic completion rank two coexist with unbounded finite degree and infinite inverse-branch cover number.
+
+The contrast with the earlier **negative symmetric spike and infinite-fiber projection graphs** is instructive: those can acquire ghost edges between *distinct ordinary components* at the third parenthesized product, whereas here the stable local-sheet calculus recovers the ordinary two-step connectedness exactly.
+
 ### 9. Significance and next questions
 
 The conjectured necessity of a **finite** locally closed inverse-branch cover fails in this example:
