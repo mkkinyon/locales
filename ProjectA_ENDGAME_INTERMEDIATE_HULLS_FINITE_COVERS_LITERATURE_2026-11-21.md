@@ -105,3 +105,19 @@ with a named uniformity, a nearness, or a previously studied diagonal relation. 
 **Recommended canonical exposition:** place S1's filter formula (our Eq. for V) directly after definition of the hierarchy; use the explicit ordinary-point identity ptD=ptD2 before presenting the bridge example; distinguish *generic abstract hull theory* from *special diagonal geometry*. Avoid claiming that the sophisticated literature on exact filters already proves our composition or rank theorems; and avoid claiming no earlier exact formulation without comprehensive search.
 
 **Remaining close source request (optional):** Arrieta's 2022 doctoral thesis *A Study of Localic Subspaces, Separation, and Variants of Normality and Their Duals* (full 2022 thesis at https://addi.ehu.es/bitstream/handle/10810/57201/TESIS_IGOR_ARRIETA_TORRES.pdf?isAllowed=y&sequence=1), and Clementino–Picado–Pultr 2018 with its correction. The thesis is a plausible place for further unpublished/hard-to-find variants of intermediate hull comparison. URLs located; **not yet read closely**. No urgent user upload needed until these links fail or a precise critical assertion requires it.
+
+
+## 7. Full 2022 Arrieta thesis — additional exact categorical crosswalk (late Segment 5)
+
+**New primary-source extraction:** Igor Arrieta, *A Study of Localic Subspaces, Separation, and Variants of Normality and Their Duals*, PhD thesis, University of Coimbra / University of the Basque Country, 2022; indexed full PDF https://addi.ehu.es/bitstream/handle/10810/57201/TESIS_IGOR_ARRIETA_TORRES.pdf?isAllowed=y&sequence=1 . **Directly read textual extracts** of Chapter 7 §7.2–7.5, especially **Theorem 7.2.2**, **Proposition 7.3.7**, **Lemma 7.5.1**. The web PDF screenshot failed, so do not imply page-by-page visual inspection of the full thesis.
+
+- **Definition/§7.3.1:** smooth sublocales are arbitrary joins of complemented (= equivalently locally closed) sublocales. This is \(\mathcal S_b(L)\).
+- **Thm 7.2.2** (citing Picado–Pultr–Tozzi 2019): if X is \(T_1\), the joins of closed sublocales \(\mathcal S_c(\Omega X)\) are precisely the induced sublocales \([A]\) for ordinary \(A\subseteq X\).
+- **Prop 7.3.7** (proof in thesis): \(S\hookrightarrow L\) is smooth **iff** every locale surjection \(f:M\twoheadrightarrow L\) is stable upon pulling back along S; in their notation \(f[f^{-1}[S]]=S\). The proof relies on already known formula for complemented sublocales (Prop 7.3.6).
+- **Lemma 7.5.1**: in a \(T_D\)-space X the induced spatial sublocales are precisely the smooth sublocales \(\mathcal S_b(\Omega X)\).
+
+**Project connection (simple consequence, not newly discovered pullback-stability):** For compact Hausdorff G, \(p(A,B)=[A\times B]_{G^2}\) is **smooth**, since \(G^2\) is T₁ and every point sublocale is closed; hence surjections into \(G^2\) pull back stably along the inclusion p(A,B). This is a **classical categorical positive property of point-generated rectangles**. No corresponding conclusion for \(q(A,B)=[A]\times_{\rm Loc}[B]\) follows merely from its inclusion in the same compact Hausdorff ambient square: q may be nonspatial and is not identified as smooth by the source. This helps conceptualize one side of project RC but **does not imply the full mixed RC composition law or associativity**.
+
+The categorical positive property is relevant beyond current hull review, so it should be cross-linked from the **composition** literature and ultimate manuscript overview.
+
+**Exhaustive-source caution:** The thesis chapter on diagonal separation repeats the already known sH/Fsep classification and the Chapter 7 text addresses smoothness/closed joins; a targeted indexed-text search did **not** find the particular finite-cover closed-hull construction \(\mathcal W_2\). This is not proof of absence from the thesis or wider literature, and no priority verdict is made.
