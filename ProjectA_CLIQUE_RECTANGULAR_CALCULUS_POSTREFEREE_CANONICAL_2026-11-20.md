@@ -103,7 +103,7 @@ Define
 
 **Theorem 6.1 (referee addendum).** The collection \(\mathscr R(G)\) is closed under composition, with associative multiplication; so is its finite-join closure \(\mathscr R_\vee(G)\). Converse preserves both and is an involution. The latter is a finite-join-distributive associative algebra with zero. Neither a multiplicative identity inside \(\mathscr R_\vee(G)\) nor arbitrary-join closure is asserted.
 
-**Proof.** For r with support labels (A,B), s with (C,D), and t with (E,F), formula (RC) makes either bracketed triple zero iff at least one of V_B∧V_C or V_D∧V_E is zero; otherwise both are q(A,F). This proves associativity of generators. Composition preserves **finite** joins; expanding (R∨R')∘S and its converse distributes associativity to all finite joins. Converse interchanges p(A,B)↔p(B,A), q(A,B)↔q(B,A).
+**Proof.** For r with support labels (A,B), s with (C,D), and t with (E,F), formula (RC) makes both bracketings **equal to** q(A,F) if both V_B∧V_C and V_D∧V_E are nonzero, and **equal to 0 otherwise**. The full outer rectangle q(A,F) may itself be 0 when A or F is empty, so the zero outcome is *not* equivalent to one of the middle intersections vanishing. This proves associativity of generators. Composition preserves **finite** joins; expanding (R∨R')∘S and its converse distributes associativity to all finite joins. Converse interchanges p(A,B)↔p(B,A), q(A,B)↔q(B,A).
 
 **Scope caution:** An arbitrary point-generated localic relation [T] for T⊆G² need not be a finite join of bipartite rectangles. Infinite decomposition into singleton rectangles cannot be substituted, because infinitary distribution of localic composition is not available in general.
 
