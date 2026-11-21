@@ -1,3 +1,5 @@
+> **21 NOV 2026 — INDEPENDENT STRUCTURAL REFEREE AND MATHEMATICAL ADDENDUM.** The [bounded independent structural assessment](ProjectA_ENDGAME_STRUCTURAL_EXTERNAL_REFEREE_RECONCILIATION_2026-11-21.md) rechecked the complete mixed RC (p/p, p/q, q/p, q/q), including empty supports and finite-join associativity, and returned **valid**. Its **separate post-report addendum** proves a stronger new result: **the finite-join rectangular algebra is unital iff the compact Hausdorff ambient G is finite** (the empty case admits the usual zero-unit convention). The proof appears in new §11 below; its status is **referee-origin plus internal check**, **not part of the original blind RC packet**, and no literature priority is asserted.
+
 > **21 NOV 2026 — LITERATURE IDENTIFICATION (NOT A CHANGE TO THE REFEREED RC THEOREM).** By Johnstone–Sun, *Weak Products and Hausdorff Locales* (1988), Cor. 1.5, 1.12 and Prop. 1.19, the two generators here are exactly **the weak and full localic products** of their spatial induced sublocales:
 > \[
 > p(A,B)=[A]_G\mathbin{@}[B]_G,\qquad q(A,B)=[A]_G\times_{\rm Loc}[B]_G.
@@ -176,3 +178,32 @@ Hence a **single infinite, nonrectangular point-generated graph factor**, togeth
 4. **Graph refinements:** understand whether Cantor graphs can be replaced by other explicit compact perfect supports in nonmetrizable settings.
 
 **Provenance:** Theorem 3.1 and the compact-Hausdorff extension are **new independent-referee contributions** in the main referee report. The uniform p/q calculus and directed walk formula are from the **separate addendum**. They were not in the originally submitted compact-metric candidate; this canonical note treats them as postsubmission referee-origin results, checked against the earlier proof dependencies, not silently as an accepted original submission.
+
+
+### 11. New final-assessment referee addendum (21 November): unital iff G finite
+
+The original §6 correctly stated that no general unit inside \(\mathscr R_\vee(G)\) was asserted. The independent 21 November structural referee went further in an **optional mathematical addendum**. The following theorem was **not contained in the original 20 November RC blind audit**; it is independently proposed by the 21 November referee and proof-checked internally in [the final assessment reconciliation](ProjectA_ENDGAME_STRUCTURAL_EXTERNAL_REFEREE_RECONCILIATION_2026-11-21.md).
+
+**Theorem 11.1 (referee addendum).** For any compact Hausdorff space \(G\), the algebra \(\mathscr R_\vee(G)\) of finite joins of p/q rectangles has a two-sided multiplicative identity **if and only if G is finite**. The empty case has the conventional zero-unit algebra; if \(0\ne1\) is required, assume \(G\ne\varnothing\).
+
+*Proof.* If G is finite, it is discrete. The diagonal \(\Delta_G=\bigvee_{x\in G}p(\{x\},\{x\})\) is a finite join and serves as an identity.
+
+Conversely, suppose E is a two-sided identity in the finite-join algebra. Write \(E=\bigvee_{i=1}^N r_i\), where each \(r_i\) is p(A_i,B_i) or q(A_i,B_i), and discard any zero summands. For each \(x\in G\), define
+\[
+e_x=p(\{x\},\{x\})=q(\{x\},\{x\}).
+\]
+Because G is Hausdorff, the singleton is closed and, for every ordinary \(B\subseteq G\),
+\[
+[B]_G\wedge[\{x\}]_G\ne0\iff x\in B.
+\]
+For \(x\notin B\), the open \(G\setminus\{x\}\) contains all generating points of \([B]\) but misses the closed singleton, proving the zero case. Conversely, \(x\in B\) gives the nonzero point sublocale.
+
+Apply **RC** and finite distributivity, using \(E\circ e_x=e_x=e_x\circ E\):
+\[
+\bigvee_{i:x\in B_i}q(A_i,\{x\})=e_x,\qquad
+\bigvee_{i:x\in A_i}q(\{x\},B_i)=e_x.
+\]
+Each summand is \(\le e_x\) since joins cannot cancel points. Therefore whenever \(x\in B_i\), \(A_i\subseteq\{x\}\); whenever \(x\in A_i\), \(B_i\subseteq\{x\}\). Each remaining \(r_i\) has nonempty supports, so taking one \(x\in B_i\) forces \(A_i=B_i=\{x\}\). Thus E is a finite join of diagonal point sublocales \(e_{x_i}\). Since it acts identically on every \(e_x\), all \(x\in G\) occur among the finitely many \(x_i\). Hence G is finite. □
+
+**Consequence:** for **infinite** compact Hausdorff G, adjoining \(\Delta_G\) via the **separately verified** locally closed graph-extension algebra is a genuinely **proper enlargement** of the finite p/q rectangular algebra. The present argument does not concern arbitrary-join completions or unrestricted graph classes, and establishes no novelty priority.
+
