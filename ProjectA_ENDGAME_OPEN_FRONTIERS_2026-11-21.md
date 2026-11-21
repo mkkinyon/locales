@@ -1,5 +1,7 @@
 # Point-free topology — current unresolved questions and deferred work
-## Endgame open-frontier register · 21 November 2026
+## Endgame open-frontier register · 21 November 2026 · corrected after adversarial review
+
+**[Audit correction](ProjectA_ENDGAME_CONSOLIDATION_INTERNAL_ADVERSARIAL_AUDIT_2026-11-21.md):** the earlier historical 21 Oct H-transitivity question is **settled negatively** by the reviewed 24 Oct coherent zigzag example; #7 below is now a *restricted classification* question.
 
 **Interpretation:** "Open" here means unresolved **in the current project sources**, not necessarily an open problem in the mathematical literature. [Current theorem ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md); [proof dependency atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md). This list is **not a mandate** to solve these questions before the intended research stop **Wednesday 25 November 2026**. Primary purpose is resumability.
 
@@ -12,7 +14,7 @@
 
 ### Priority B: specific substantive mathematics worth resuming later
 6. **Intrinsic characterization of the intermediate localic hulls.** Is there a more structural frame/locale description of \(\mathcal V=\operatorname{fit}\mathcal I\), \(\mathcal W=\operatorname{cl}\mathcal D\), and the least simultaneously closed-and-fitted hull \(\mathcal H\) beyond known closure/filter representations and coherent graph powers? Consult [post-V consolidation](A-postV-consolidation-2026-10-24.md) and W audits.
-7. **Global transitivity of the alternating hull \(\mathcal H\).** The 21 October note [on H transitivity](A-alternating-hull-transitivity-2026-10-21.md) left arbitrary-localic transitivity unsettled; later coherent special-case results are positive under additional hypotheses. **Recheck later research before reviving**; no global verdict asserted here.
+7. **Characterize the restricted classes where \(\mathcal H\) is transitive.** The **universal assertion is already false**, even for coherent locales, by the **externally checked two convergent zigzag rays** \( \mathcal H^2\nleq\mathcal H\), [post-V audit](A-postV-external-audit-reconciliation-2026-10-24.md). For coherent locales, \(\mathcal H\) transitive iff \(\mathcal H=\mathcal F\). In the noncoherent setting an **internally checked** locally compact sober scattered T1 example has **transitive \(\mathcal H<\mathcal F\)**, [noncoherent note](A-H-transitivity-noncoherent-counterexample-2026-10-24.md). Thus only finer classification questions—not “Is H always transitive?”—remain open.
 8. **Finite-rank filtration and finer ordinal behavior.** \(\mathcal V\subsetneq\mathcal V_{\rm fin}\) and exact \(\omega\)-rank examples are settled. A general classification of achievable separation-tree ranks/limiting fitted nuclei, especially under compactness, regularity or sobriety, was not completed; higher ordinal searches were intentionally deprioritized.
 9. **Associative fragments beyond finite rectangular sums.** RC, locally closed graph extensions and locally finite matrices are positive. Find useful necessary/sufficient pullback-image criteria for general graph correspondences or safe nonrectangular extensions without demanding full associativity of \(\mathrm{Sub}(X^2)\). Graph probes and balanced-witness criteria give controls.
 10. **Quotient/effectivity and ranks beyond the explicit finite-fence model.** The repaired four-step explicit model and generic-fibre localization are proved under their concrete conditions, but a general theorem prescribing effectivity rank from graph/patch geometry is not established. Fixed parenthesizations matter.
@@ -25,11 +27,12 @@
 15. **Crosscut ladder and classifying-anima comparison.** Internal patched Stone crosscut connectivity theorem may merit a dedicated audit; Haine's classifying-anima identification is definition-level and not a new construction. Accurate comparison with the latest literature is more urgent than forcing a theorem.
 
 ### Already settled — do NOT reopen by accident
+- **The universal transitivity of \(\mathcal H\)**: **negative even for coherent locales**, by the independently reviewed two-ray example; coherent \(\mathcal H\) transitive iff \(\mathcal H=\mathcal F\).
 - The universal Q and Q′ questions on whether \(\mathcal W_2=\mathcal U\) forces \(\mathcal W=\mathcal U\) and on whether W=W₂: **negative**, [Q bridge](ProjectA_Q_DENSE_RATIONAL_BRIDGE_CANONICAL_2026-11-14.md).
 - Finite-rank bars suffice to recover V: **negative**, [Vfin consolidated](A-Vfin-negative-consolidated-proof-2026-10-23.md).
 - Plain T1/local compact sobriety forces \(\mathcal A=\Delta\): **negative**, [LC-A](ProjectA_LCA_COUNTEREXAMPLE_CANONICAL_2026-11-15.md).
 - Associativity for finite sums of compact Hausdorff p/q rectangles: **positive** in the **restricted algebra**, [RC canonical](ProjectA_CLIQUE_RECTANGULAR_CALCULUS_POSTREFEREE_CANONICAL_2026-11-20.md).
-- Finite locally closed graph-chart rank is universally necessary for associative adjunction: **negative** under established counterexamples; exact broad replacement remains open.
+- Finite locally closed graph-chart rank is universally necessary for associative adjunction: **negative**; the referee addendum gives a safe infinite-constant-fibre example, and **internally checked (not individually blind-reviewed)** safe exactly-two-to-one scattered/Cantor examples strengthen this. Exact general safety characterization remains open.
 - Binary I/D information recovers full chain 2-type: **negative**, while 1-type recovery and a sharp 2-connective comparison are established in the specified patched setting.
 - General localic relation composition is associative: **false and known** categorically.
 
