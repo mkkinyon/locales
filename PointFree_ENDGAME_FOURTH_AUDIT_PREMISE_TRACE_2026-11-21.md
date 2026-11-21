@@ -1,7 +1,7 @@
-# SOURCE RECOVERY ADDENDUM — ORIGINAL FOURTH-AUDIT BLIND PACKETS FOUND
-## 21 November 2026 · exact literal premises now available
+# Fourth-audit original packets: verified premise-to-proof trace
+## 21 November 2026 · original 10 November packet sources recovered and directly read
 
-**Supersedes the "missing private packet" blocker in the historical trace below.** The project owner retrieved and supplied the original ZIPs **\`C_Referee_Blind(1).zip\`** and **\`AB_Referee_Blind(1).zip\`**, each containing a blind prompt and an original technical packet. Both technical packets state **10 November 2026**. The contents match the previously documented fourth audit: **C1–C9**, **A1–A4/B1–B4/R1–R3**, the previously accepted premises, and the explicit prohibition on consulting other audit reports during blind review. The original ZIPs are conversation uploads, **not copied into the public GitHub repository**; this is a mathematical paraphrase and precise crosswalk, not a surrogate copy or an alteration of referee materials.
+**Current status: archival dependency list COMPLETE.** The project owner retrieved and supplied the original ZIPs **`C_Referee_Blind(1).zip`** and **`AB_Referee_Blind(1).zip`**, each containing a blind prompt and an original technical packet. Both technical packets state **10 November 2026**. The contents match the previously documented fourth audit: **C1–C9**, **A1–A4/B1–B4/R1–R3**, the previously accepted premises, and the explicit prohibition on consulting other audit reports during blind review. The original ZIPs are conversation uploads, **not copied into the public GitHub repository**; this is a mathematical paraphrase and precise crosswalk, not a surrogate copy or an alteration of referee materials.
 
 ### Packet C, §0: exact premise-number map (now checked against the original)
 
@@ -26,48 +26,28 @@
 
 **Important numbering difference:** **C-P1 coherent relation calculus has no A/B P1 counterpart; C-P5 ordinal-sum theorem has no separately numbered A/B premise; C-P6 is split into A/B P4 and P5**. This confirms why the exact original packet rather than a guessed P1–P6 table was necessary.
 
-### Revised disposition
+### Current disposition
 
 The **literal premise-number identification is now complete**, with source pointers. Prior conditional blind verdicts remain conditional, as explicitly intended by the original packets; we have **not** freshly re-proved all the P-premises. Existing earlier audits document their own repairs and limits. The public repository can now reconstruct the logical dependency list, even though the private original packets remain in the conversation attachment archive.
 
 ---
 
-# Endgame cold-read dependency trace — fourth Dowker/homotopy audit
-## 21 November 2026 · trace what the existing sources actually certify
+### Source-to-proof gates, and what was NOT rechecked
 
-**Purpose:** make the fourth audit's imported **P1–P6 premises** locatable, and flag where its evidence chain cannot be recreated from the public repository alone. **This is a conditional-provenance audit**, not an independent re-proof of higher-homotopy results.
+This is a **literal-list verification**, not a claim that the fourth referees re-proved P1–P6. The actual older foundations remain in the following three independently reviewed packages:
 
-## Main finding
+1. **[Coherent proconstructible/localic composition](ProjectA_coherent_composition_canonical_proof_2026-11-08.md)**: C-P1; in particular its Theorems A/B and the imported separate coherent \(\mathcal W=\mathcal U\) result. Ordinary spectral point composition is justified **only for the proconstructible class**.
+2. **[Repaired coherent chain/hull account](PointFree_coherent_chain_hulls_CANONICAL_2026-11-10.md)** and [independent referee reconciliation](PointFree_chain_hulls_EXTERNAL_referee_reconciliation_2026-11-10.md): C-P2/P3 and AB-P1/P2, including the *canonical arrow under C* and the lower-crosscut **last-vertex map** repair.
+3. **[Repaired nonconstant Stone-sheaf/Čech account](PointFree_nonconstant_sheaf_Cech_CANONICAL_2026-11-10.md)** and [third referee reconciliation](PointFree_postaudit_sheaf_EXTERNAL_referee_reconciliation_2026-11-10.md): C-P4/P5/P6 and AB-P3/P4/P5, including *pointed gluing*, the **ordinal-sum join** repair, and the precise Stone-sheaf site/evaluation/linearization conventions.
 
-The [fourth-audit final reconciliation](PointFree_audit4_FINAL_RECONCILIATION_2026-11-11.md) is explicit that the C packet's original C1–C9 claims were accepted **relative to P1–P6**, which the fourth referee did **not** reprove. The [cross-review addendum](PointFree_binary_meet_hull_CANONICAL_2026-11-11.md) likewise invokes that foundation for its chain→M groupoid and sharp 2-connectivity.
+The specific internal chain→M groupoid and 2-connectivity results in [binary meet-hull canonical](PointFree_binary_meet_hull_CANONICAL_2026-11-11.md) originated **after** the fourth blind C verdict; the opposite A/B referee later cross-checked them. The independent fourth audit's original C1–C9 findings are **conditional** on the C-P premises. The first blind A/B and C reports have different claim ranges and premise numbers; they must not be conflated.
 
-**The fourth original A/B and C blind packets (with the literal P1–P6 statements) are not present as files in the current public repository tree** of 21 November. The [fourth-audit crossreview-stage2 reconciliation](PointFree_audit4_crossreview_stage2_reconciliation_2026-11-11.md) instead says the original blind reports/followups were “preserved unedited in private dispatch artifacts.” The prior project notes/reconciliations are available, but do **not** state a clear **one-to-one table mapping P1,…,P6 to named canonical theorem clauses**.
+### Direct mathematical cold-read check beyond bibliographic matching
 
-**Consequently, this audit cannot certify the *exact literal* P1–P6→earlier-audit mapping without those original fourth-audit packets.** Do not invent P1's name, for example, by guessing from the subject matter. The present verdict is *provenance not fully reconstructible from public canonical files*, **not** a counterexample to a proved theorem.
+The six-point models \(P=A_2\oplus B_{\rm anti}\oplus C_2\) and \(Q=A_2\oplus B_{\rm chain}\oplus C_2\) from C8a have identical **patched** higher \(I_n,D_n\) under the identity of the underlying discrete patch point set, although the two **spectral orders differ**. For a nonempty tuple, its I-condition forbids both top maxima, and D-condition forbids both bottom minima, independent of the middle B-order. The order complex of P is \(S^2\), that of Q contractible. The higher meet \(M_\bullet=I_\bullet\cap D_\bullet\) contracts by inserting either middle vertex; this provides a **separate finite combinatorial consistency check** on sharpness of the post-verdict 2-connectivity claim. The enumeration gives chain face counts (6,12,8) versus (6,13,12,4), with M counts (6,13,12,4) in both. Details appear in [five-example cold read](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md). This finite check does **not** independently establish the general internal sheaf-theoretic connectivity theorem.
 
-## The substantive earlier audited foundations that ARE recoverable
+### Historical disposition
 
-| Mathematical foundation known to be relevant | Earlier independently reviewed source | What may safely be inferred |
-|---|---|---|
-| Coherent spectral/patch locale presentations, proconstructible sublocales, actual localic image/composition | [coherent composition canonical](ProjectA_coherent_composition_canonical_proof_2026-11-08.md), [chain/hull canonical §1](PointFree_coherent_chain_hulls_CANONICAL_2026-11-10.md) | Valid in the coherent/patch regime, with explicit source conditions; does not imply arbitrary locale or all sublocales associate. |
-| Patched chain and higher I,D witness objects; canonical edgewise comparison, finite closed-cover codescent | [chain/hull canonical §§0–5](PointFree_coherent_chain_hulls_CANONICAL_2026-11-10.md), [independent chain audit reconciliation](PointFree_chain_hulls_EXTERNAL_referee_reconciliation_2026-11-10.md), [original 10 Nov chain-hull packet](audits/2026-11-10/chain-hull/BLIND_PACKET.md) | The earlier canonical arrow comparison C→I ≃ C→D, in a chosen Stone sheaf \(\infty\)-topos, was audited **after explicit site and last-vertex repairs**. |
-| Higher frame-cover rectangle/Čech formalism; non-descent of a lower-witness map | [Dowker-phase external audit reconciliation](PointFree_Dowker_EXTERNAL_referee_reconciliation_2026-11-10.md), [Dowker packet](audits/2026-11-10/dowker/BLIND_PACKET.md) | The original audit accepted its numbered claims after two site repairs and substantive proof corrections; its fitted non-descent strengthening originated in referee follow-up. |
-| Sheaf gluing, nonconstant Stone-indexed suspensions, open-chart D-side equations, mixed simplicial join, canonical realization comparisons | [nonconstant-sheaf canonical §§0–E](PointFree_nonconstant_sheaf_Cech_CANONICAL_2026-11-10.md), [third audit reconciliation](PointFree_postaudit_sheaf_EXTERNAL_referee_reconciliation_2026-11-10.md), [third packet](audits/2026-11-10/postaudit-sheaf/BLIND_PACKET.md) | Fifteen original claims accepted **after definition, join and Hurewicz repairs**. The referee explicitly imported the older canonical C→I≃C→D comparison and did not reprove it. |
-| Binary I,D patched graphs reconstruct higher I_n and D_n; chain fundamental groupoid and sharp 2-connectivity | [fourth binary meet-hull addendum](PointFree_binary_meet_hull_CANONICAL_2026-11-11.md), [final fourth reconciliation](PointFree_audit4_FINAL_RECONCILIATION_2026-11-11.md) | C6 in original fourth blind packet was accepted **conditional on P1–P6**; stronger intrinsic M-groupoid and 2-connectivity statements were *post-verdict cross-checked*. No intrinsic localic shape claim. |
-| Relative gluing and twisted H¹, nonconstant homology/nonconstant fundamental groups | [fourth relative gluing canonical](PointFree_relative_gluing_twisted_CANONICAL_2026-11-11.md), [fourth final reconciliation](PointFree_audit4_FINAL_RECONCILIATION_2026-11-11.md) | Original A/B packet relative to earlier premises; finite-pair acyclicity iff constant is **post-verdict cross-check**; all-nontrivial-group H¹ version **internal**. |
+The first version of this trace (earlier commit on 21 November) had reported the **literal P1–P6 source list unavailable**, while locating relevant *thematic* earlier canonical proofs. The two original ZIPs were subsequently uploaded and inspected. That prior access limitation is **now superseded**, not a current open problem; its archival history remains available in Git commits. The ZIPs themselves remain private conversation attachments and are not published in the public repository.
 
-**Additional important site conventions, directly stated in preceding canonicals:**
-- \(\mathscr H_\kappa=\operatorname{Shv}_\infty(\operatorname{Stone}_\kappa,\text{finite jointly surjective families})\), including **empty cover of empty Stone space**.
-- Choose a sufficiently large small site closed under necessary finite products/coprod/pullbacks. No site-size-independence result is claimed.
-- Sheafified Yoneda h and actual finite Stone cover Čech descent; pointwise identification of a higher localic subobject requires separately established proconstructible/spatiality.
-- A map merely preserving **binary I,D graphs** may fail to preserve \(M_2\); the stronger chain-groupoid functoriality needs \(M_2\), while binary **isomorphisms** allow reconstruction.
-- “2-connective” means π0 and π1 isomorphisms and π2 epimorphism, *not* a 2-equivalence or isomorphism of intrinsic locale shapes.
-
-## What still needs exact verification
-
-1. Recover the **original fourth A/B and C referee packets**, especially the section listing P1–P6 *verbatim*. They may remain in the private original conversation/dispatch ZIPs rather than in GitHub. The user or a future investigator can provide them; no mathematical theorem needs to be guessed in the meantime.
-2. For each P_i, record the **literal premise**, the exact section/claim of the earliest canonical that proves it, the earlier independent audit's scope, and any proof repair. Only then mark a literal P_i→source crosswalk “verified”.
-3. If an individual premise is merely cited as a classical theorem (e.g., ∞-topos or Priestley theory), label it literature input rather than “independently proved in this project”.
-4. A second reviewer should examine at least the chain→M descent and 2-connectivity proof relative to the recovered premises if preparing publication. Their *post-verdict* independent cross-check was real, but not a fresh proof of the premises.
-
-**Current disposition:** CONDITIONAL provenance reconstruction complete at the *thematic* level and **blocked at the literal P_i level by missing fourth-audit packet source**. This is a documentation/access issue, not a newly detected mathematical gap. No status upgrade was made to any fourth-audit theorem.
+**Final documentary verdict:** original fourth-audit premise lists **verified and matched**. Earlier proofs retain their own repaired audit status; fourth-audit C1–C9/A1–B4/R1–R3 and post-verdict cross-checks are **not automatically upgraded**. Unresolved substantive questions are recorded separately in [open frontiers](ProjectA_ENDGAME_OPEN_FRONTIERS_2026-11-21.md).
