@@ -1,3 +1,5 @@
+> **20 NOV 2026 — INDEPENDENT VERDICT RECEIVED:** The [independent referee report](project-a/audits/2026-11-20/CLIQUE_POWER_ASSOCIATIVITY/INDEPENDENT_REFEREE_REPORT.md) accepts this submitted metric theorem, but supplies a shorter **compact Hausdorff** proof; the [later addendum](project-a/audits/2026-11-20/CLIQUE_POWER_ASSOCIATIVITY/REFEREE_ADDENDUM.md) extends it to an associative finite-join bipartite rectangle algebra. The [canonical post-referee theorem](ProjectA_CLIQUE_RECTANGULAR_CALCULUS_POSTREFEREE_CANONICAL_2026-11-20.md) and [reconciliation](ProjectA_CLIQUE_POWER_ASSOCIATIVITY_REFEREE_RECONCILIATION_2026-11-20.md) give current status. The original complete repaired candidate is preserved below; its explicit compact-*metric* Cantor-graph lemma remains a valid geometric refinement according to the referee.
+
 # Project A: compact-metric point-clique power associativity
 ## Repaired theorem and complete candidate proof — 20 November 2026
 
