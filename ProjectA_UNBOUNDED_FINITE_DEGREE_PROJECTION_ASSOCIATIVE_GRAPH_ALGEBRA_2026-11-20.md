@@ -182,6 +182,23 @@ The check includes all p/q choices, empty subsets and typed zero products. Finit
 
 **Crucial limitation:** This proof is special to the *clopen finite-sheet blocks plus unique closed point at infinity*. It is not a theorem that every proper, open, finite-to-one map preserves rectangular associativity. The earlier open-proper infinite-compact-fiber counterexample and nonopen two-to-one spike example remain unaffected.
 
+### 8.1. Generalization beyond the metric Cantor example
+
+**Corollary 8.2 (same proof, internal).** Let \((C_i)_{i\in I}\) be **any** family of nonempty compact Hausdorff spaces, and let \(d_i\ge1\) be arbitrary **finite** positive integers, with no common upper bound required. Define
+\[
+Y=\left(\coprod_{i\in I}C_i\right)^*,\quad
+X=\left(\coprod_{i\in I}(C_i\times\{1,\ldots,d_i\})\right)^*
+\]
+when I is infinite, with a one-point compactification of the locally compact disjoint unions (for finite I the analogous finite coproduct is already compact and the point can be adjoined as an isolated clopen point). Let f be the sheetwise projection, sending infinity to infinity.
+
+Then the assertions of Lemmas 3.1, 4.1, formulas (ACT), (REC), and Theorem 8.1 remain valid. The proof uses **only**: each base block is clopen and has finitely many homeomorphic sheets, their disjoint union is the open complement of a **single closed point**, and inverse image of sublocales preserves finite joins. Neither Cantor structure, countability of the index set, zero-dimensionality of each block, nor metrizability is used.
+
+For infinite I the resulting compact Hausdorff spaces may be nonmetrizable; if the finite integers d_i are unbounded, the inverse-branch cover number is still infinite while the adjoining graph algebra is associative.
+
+**Proof.** Replace n by i and the n sheets by d_i sheets in every blockwise calculation. An arbitrary compact subset of the open disjoint union meets only finitely many compact blocks, so f is continuous and open at the compactification point. The base-change argument over the open disjoint union and closed point is unchanged. The graph multiplication table is unchanged.
+
+**Warning:** This one-point-boundary result does **not** assert any corresponding theorem when the closed boundary is an arbitrary nonspatial sublocale or an infinite compact fiber. In that case the p-action of the kernel pair may acquire a full nonspatial product; the specific proof of (ACT) uses spatiality of the one-point-legged boundary strip.
+
 ### 9. Significance and next questions
 
 The conjectured necessity of a **finite** locally closed inverse-branch cover fails in this example:
