@@ -1,3 +1,5 @@
+> **21 NOV 2026 — POSITIVE COMPLEMENT RESOLVED:** The [Michael-selection open finite-to-one theorem](ProjectA_OPEN_FINITE_TO_ONE_STONE_MAPS_SELECTION_THEOREM_2026-11-21.md) proves that every continuous open surjection from compact metrizable X onto compact metrizable **zero-dimensional** Y with fibers bounded by N has **exactly N locally closed homeomorphic sheet charts**, hence its graph lies in the internally derived associative algebra. The present two-to-one Cantor counterexample is **not open** and has infinite chart rank. Also, the finite-discrete-selector obstruction below requires only that Y be perfect Hausdorff, not Baire. Both assertions remain internal pending audit.
+
 # Project A — finite fibers do not control localic graph associativity
 ## 21 November 2026 · Internally derived finite-chart-rank boundary
 
@@ -81,7 +83,7 @@ E=\{(q_n,1/n):n\ge1\}\subset X.
 \]
 Each E point is isolated within E by its clopen height level, so E is a **discrete ordinary subspace**. The map f|E is bijective onto Q. Apply Lemma 2.1 for the claimed nonassociativity.
 
-To show \(\rho_{\rm lc}(f)=\infty\), use Lemma 4.1 below: the existence of a dense discrete selector E into a perfect Baire Y precludes any finite cover of the graph by partial homeomorphisms. □
+To show \(\rho_{\rm lc}(f)=\infty\), use Lemma 4.1 below: the existence of a dense discrete selector E into a perfect Hausdorff Y precludes any finite cover of the graph by partial homeomorphisms. □
 
 **Consequence:** Finite maximum fiber size does not control finite chart rank: here
 \[
@@ -91,13 +93,13 @@ This improves the previous product-projection example, where the negative graph 
 
 ### 4. Direct topological obstruction to finite chart rank
 
-**Lemma 4.1 (Baire obstruction).** Let Y be a nonempty **perfect Baire space** (in particular Cantor space), let Q⊂Y be dense, and let f:X→Y be any map admitting a discrete subset E⊂X with f|E:E→Q bijective. Then f cannot be covered by **finitely many partial homeomorphism charts**, even if no locally closed condition is imposed on their domains and ranges.
+**Lemma 4.1 (Baire obstruction).** Let Y be a nonempty **perfect Hausdorff space** (in particular Cantor space), let Q⊂Y be dense, and let f:X→Y be any map admitting a discrete subset E⊂X with f|E:E→Q bijective. Then f cannot be covered by **finitely many partial homeomorphism charts**, even if no locally closed condition is imposed on their domains and ranges.
 
 **Proof.** Suppose X=U_1∪...∪U_m and f|U_i is a homeomorphism onto its image V_i with the subspace topologies. Put E_i=E∩U_i and D_i=f(E_i)⊂Y. Because E is discrete, each E_i is discrete. The restriction of a homeomorphism implies D_i is discrete as a subspace of Y (since V_i has the subspace topology in Y).
 
 **Claim:** If Y is perfect and D⊂Y is discrete, then its closure has empty interior. Otherwise, some nonempty open O⊂cl_Y(D) has D∩O nonempty and dense in O; no element of D∩O can be isolated *in D*, because every open neighborhood of it inside O contains an open set with another D point, since O has no isolated points. Contradiction. Thus cl_Y(D) is closed nowhere dense.
 
-The sets D_1,...,D_m cover Q, so their closures cover cl_Y(Q)=Y. This is impossible because Y is Baire and cannot be a finite union of nowhere-dense closed sets. □
+The sets D_1,...,D_m cover Q, so their closures cover cl_Y(Q)=Y. This is impossible because a finite union of closed nowhere-dense sets is nowhere dense in every topological space, whereas Q is dense in the nonempty space Y. **No Baire hypothesis is needed.** □
 
 The lemma proves **directly from ordinary topology** that our Cantor-to-Cantor f has infinite chart rank; this does not rely on the localic algebra theorem. It also explains the obstruction intuitively: finitely many invertible graph sheets cannot take a discrete source selector onto an ordinarily dense set of a perfect Baire target.
 
