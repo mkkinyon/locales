@@ -1,3 +1,5 @@
+> **HISTORICAL INTERNAL AUDIT, SUPERSEDED AS CURRENT STATUS (21 NOV 2026):** The [independent report](project-a/audits/2026-11-21/GRAPH_CHART_RANK/INDEPENDENT_REFEREE_REPORT.md) found the graph-extension package **correct with minor repairs, conditional on previously reviewed RC**; the [referee addendum](project-a/audits/2026-11-21/GRAPH_CHART_RANK/REFEREE_ADDENDUM.md) disproved broad finite chart rank necessity and gave a finite-exception functional graph membership theorem. Current [canonical account](ProjectA_GRAPH_EXTENSIONS_POSTREFEREE_CANONICAL_2026-11-21.md) and [reconciliation](ProjectA_GRAPH_EXTENSIONS_REFEREE_RECONCILIATION_2026-11-21.md). This internal audit was withheld from the referee; its original analysis is retained below.
+
 # Project A — internal adversarial audit: graph charts, finite-fiber Cantor obstruction, Michael selection
 **21 November 2026 · Internal verification only; NOT an independent or external referee report**
 
