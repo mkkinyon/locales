@@ -129,6 +129,29 @@ The metric assumption on K is used only to extract a **countably infinite discre
 
 **Significance.** This is a controlled threshold for maps whose global properties are uniformly excellent: every projection f in the family is **open, proper and surjective**, regardless of K. The issue is precisely the ability to select arbitrarily many different witness points in an infinite fiber direction, making the selected source support discrete while its image remains dense.
 
+### 4.3. A single reflexive symmetric ordinary graph with a ghost edge across distinct components
+
+The preceding counterexample is not merely about three heterogeneous, asymmetric relations. On the same compact metric Stone ambient space \(G=\{u\}\amalg Y\amalg X\amalg\{v\}\), put
+\[
+\boxed{H=\Delta_G\vee R\vee R^\smile\vee F\vee F^\smile\vee T\vee T^\smile.}\tag{SYM}
+\]
+This is a **point-generated reflexive symmetric** localic relation, and its ordinary adjacency graph is a genuine undirected graph with loops.
+
+Assign clopen levels 0,1,2,3 to {u},Y,X,{v}. Every non-diagonal edge of H changes level by exactly 1, and only edges joining consecutive levels occur. Consequently any **three-factor** composite from level 0 to level 3 must traverse the unique forward level sequence 0→1→2→3. Finite distributivity and clopen restriction therefore give exact identities
+\[
+\begin{aligned}
+((H\circ H)\circ H)\wedge(\{u\}\times\{v\})
+ &=((R\circ F)\circ T)=0,\\
+(H\circ(H\circ H))\wedge(\{u\}\times\{v\})
+ &=R\circ(F\circ T)=\{(u,v)\}.
+\end{aligned}\tag{SYM3}
+\]
+Thus **a single reflexive symmetric point-generated relation on a compact metrizable Stone locale fails threefold power-associativity**, even though its only nonlinear graph constituent is the converse of a **globally open proper projection**.
+
+The ordinary graph has **no path of any finite length** from u to v. Indeed each x∈X is joined only to its projection f(x)∈Y, the vertex u joins precisely the Y-vertices in I, and the vertex v joins precisely the selected x∈E, all projecting into Q. Any ordinary path from u remains in the I-labeled side; any path from v remains in the Q-labeled side. Yet the right-associated localic third power contains the ordinary pair (u,v), arising entirely from the pointless nonzero overlap [I]∧[Q] **after** the F∘T image collapse.
+
+This is a sharp graph-theoretic contrast with the positive clique and finite-rectangular theorems: the ordinary connected-component partition itself is not preserved by arbitrary *parenthesized localic powers*. The equality (SYM3) is a new **internal** deduction from Theorem 4.1 and the clopen level support, not a separately audited external theorem.
+
 ### 5. Exact necessary probe condition for adding a graph
 
 For any continuous f:X→Y between compact Hausdorff spaces, and any ordinary subsets E⊆X, A⊆Y, the same singleton-marker test gives
