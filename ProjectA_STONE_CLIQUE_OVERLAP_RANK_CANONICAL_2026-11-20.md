@@ -1,3 +1,5 @@
+> **20 NOV 2026 — LATER RESEARCH FRONTIER (NOT PART OF THIS CANONICAL AUDIT):** The [repaired compact-metric clique power-associativity candidate](ProjectA_CLIQUE_COMPACT_METRIC_POWER_ASSOCIATIVITY_REPAIRED_CANDIDATE_2026-11-20.md) proposes full localic equality of all parenthesized powers k≥2 and has [internal support](ProjectA_CLIQUE_COMPACT_METRIC_POWER_ASSOCIATIVITY_INTERNAL_ADVERSARIAL_AUDIT_2026-11-20.md), but **new independent audit is pending**. The verified exact-rank statements in this canonical note are unchanged.
+
 # Project A — Stone-locale clique overlap and composition rank
 ## Canonical post-referee consolidation · 20 November 2026
 
