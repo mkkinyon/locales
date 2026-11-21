@@ -1,3 +1,5 @@
+> **LATER 20 NOV 2026 — THE SPECIFIC UNBOUNDED-DEGREE TEST IS RESOLVED POSITIVELY (INTERNAL):** The [stratified one-point compactification theorem](ProjectA_UNBOUNDED_FINITE_DEGREE_PROJECTION_ASSOCIATIVE_GRAPH_ALGEBRA_2026-11-20.md) proves that despite unbounded finite fibers and infinite locally closed inverse-branch rank, the **entire finite rectangular algebra enlarged by this projection graph and its converse is associative**. The proof uses universal surjectivity of *all selected spatial image maps*, exact p/q kernel-pair actions, and a finite graph multiplication table. Thus the 'open test' in §6 below is historical. This follow-up is **not externally audited**; the prior negative proper two-to-one spike example remains valid.
+
 # Project A — finite-to-one graph maps: open stratified coverings versus proper spike obstructions
 ## New internal research segment · 20 November 2026
 
