@@ -1,5 +1,3 @@
-> **21 NOV 2026 — ADVERSARIAL CONSOLIDATION AUDIT AND REPAIRS:** Read [internal adversarial audit](ProjectA_ENDGAME_CONSOLIDATION_INTERNAL_ADVERSARIAL_AUDIT_2026-11-21.md) alongside [corrected ledger v3.1](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md). **Key repairs:** \(\mathcal H\) is **not** always transitive (even coherently); the finite p/q rectangular algebra is **not asserted unital**, though the larger graph extension is; and late referee-addendum/internal results have separate provenance. Restored compact/coherent \(\mathcal D=\mathcal U\) normality, exact \(\omega+m\) H ranks, and unrestricted \(L^*\) formula. Historical proofs/reports preserved.
-
 # Point-free topology — start here
 ## Endgame research archive · active consolidation, 21–25 November 2026
 
@@ -7,13 +5,16 @@
 
 ### The current entry points
 
+**Recommended first encounter:** [Five worked examples: mathematical cold read](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md). This begins with a finite five-point graph and ends with a six-point homotopy comparison, with proof links and exact audit status. It is easier to read before the theorem ledger.
+
 | Read in this order | What it does |
 |---|---|
+| 1. [Five worked examples](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md) | An example-first introduction to separation, nontransitive H, finite covers, genuinely localic composition, and higher witnesses. |
 | 1. [Mathematical big-picture spine](ProjectA_ENDGAME_BIG_PICTURE_SPINE_2026-11-21.md) | What questions connect the three strands; basic definitions, overarching story and representative examples. Still a first-pass synthesis. |
-| 2. [CURRENT theorem ledger v3.1](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) | Major results, exact hypotheses and current proof statuses. **This supersedes older historical ledgers on current claims.** |
-| 3. [Proof dependency atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md) | Which theorems import other theorems; dangerous changes of ambient category; where localic pullback/image proof is necessary. |
-| 4. [Endgame literature crosswalk](ProjectA_ENDGAME_LITERATURE_CROSSWALK_2026-11-21.md) | Primary sources, known results and unresolved theorem-to-literature comparisons. **Not a novelty/priority certificate.** |
-| 5. [Open-frontier register](ProjectA_ENDGAME_OPEN_FRONTIERS_2026-11-21.md) | Unresolved mathematical and documentary questions, plus an explicit list of historically open problems since settled. |
+| 3. [CURRENT theorem ledger v3.1](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) | Major results, exact hypotheses and current proof statuses. **This supersedes older historical ledgers on current claims.** |
+| 4. [Proof dependency atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md) | Which theorems import other theorems; dangerous changes of ambient category; where localic pullback/image proof is necessary. |
+| 5. [Endgame literature crosswalk](ProjectA_ENDGAME_LITERATURE_CROSSWALK_2026-11-21.md) | Primary sources, known results and unresolved theorem-to-literature comparisons. **Not a novelty/priority certificate.** |
+| 6. [Open-frontier register](ProjectA_ENDGAME_OPEN_FRONTIERS_2026-11-21.md) | Unresolved mathematical and documentary questions, plus an explicit list of historically open problems since settled. |
 
 ### The three mathematical branches
 
@@ -31,6 +32,10 @@ We use **localic** products, not frame direct products: \(X^2=X\times_{\mathrm{L
 
 **Important historical corrections:** Q/Q′ are **refuted**, strict V<Vfin proved, general finite-chart necessity refuted, general TWIST extrapolation not proved, and some referee addenda are only internally checked. Consult current theorem ledger before interpreting an earlier note's “open,” “candidate,” or “pending” labels.
 
+### Fourth-audit provenance, still requiring one original-source check
+
+The [fourth-audit premise trace](PointFree_ENDGAME_FOURTH_AUDIT_PREMISE_TRACE_2026-11-21.md) identifies earlier independently reviewed chain/Čech/Dowker foundations, but the fourth original **P1–P6** literal statement list is preserved in *private dispatch packets* rather than in this public GitHub tree. The current fourth-audit statements are correctly **conditional on those premises**. Recover the original C and A/B packets before claiming an exact P_i-to-prior-theorem crosswalk; no theorem is being retracted on this account.
+
 ### Sources, audits and publication
 
 - The older [A research status index](A-research-status-index.md) is broad and chronology-heavy. It is useful for finding historical work, **not** for authoritative up-to-date statuses.
@@ -40,3 +45,7 @@ We use **localic** products, not frame direct products: \(X^2=X\times_{\mathrm{L
 - A decision to develop one or more research papers may be taken later. No publication-writing deadline has been set. The **planned research stop is 25 November 2026**.
 
 **Last updated:** November 21, 2026. This front door is part of active consolidation and must be reviewed once more at the final stop.
+
+### Adversarial consolidation repairs (21 November)
+
+> **21 NOV 2026 — ADVERSARIAL CONSOLIDATION AUDIT AND REPAIRS:** Read [internal adversarial audit](ProjectA_ENDGAME_CONSOLIDATION_INTERNAL_ADVERSARIAL_AUDIT_2026-11-21.md) alongside [corrected ledger v3.1](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md). **Key repairs:** \(\mathcal H\) is **not** always transitive (even coherently); the finite p/q rectangular algebra is **not asserted unital**, though the larger graph extension is; and late referee-addendum/internal results have separate provenance. Restored compact/coherent \(\mathcal D=\mathcal U\) normality, exact \(\omega+m\) H ranks, and unrestricted \(L^*\) formula. Historical proofs/reports preserved.
