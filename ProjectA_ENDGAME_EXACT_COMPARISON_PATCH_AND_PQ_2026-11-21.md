@@ -43,7 +43,9 @@ Our \(\mathsf{CohProRel}\) has **actual diagonal** as identity. On a two-element
 
 Related source: Kurz–Moshier–Jung, *Stone Duality for Relations* (arXiv:1912.08418v2, published as chapter in *Samson Abramsky on Logic and Structure in Computer Science and Beyond* (2023), pp.159–215, DOI 10.1007/978-3-031-24117-8_5), https://arxiv.org/pdf/1912.08418 . In §5.2 Theorem 5.9 they extend Priestley duality to **weakening/order-compatible** relations via relational cospans/spans and exact squares. This is a powerful established precedent, but their category \(\mathsf{Pri}^{co}\) is not our unrestricted patch-closed relation category unless the order is discrete. Their §1 explicitly distinguishes relations as morphisms from multiary subsets, and the weakening condition is essential.
 
-A newer paper by the **same authors**, *From Zero-Dimensional to Continuous Dualities: A Double-Categorical Account*, arXiv:2610.07695 (6 October 2026), specifically studies extension from zero-dimensional relational dualities to compact Hausdorff and compact ordered spaces using idempotent splitting and double categories. The abstract is available but the **full text was not accessible through web tools in this segment**. Request primary PDF/source if obtainable; do not assign theorem-level overlap yet.
+**Newly retrieved and directly inspected primary text:** Kurz–Moshier–Jung, *From Zero-Dimensional to Continuous Dualities: A Double-Categorical Account*, arXiv:2610.07695v1 (6 October 2026), full PDF https://borowiecki.dev/pdf/2610.07695 (original arXiv version shown on PDF, dated 7 October). It studies duality extended to a **double category** incorporating both maps and relations; **Theorem 4.6** gives Pri-relations/DL-relations duality, **Theorem 4.16** upgrades to double categories, and §6 studies idempotent splitting. It recovers the Stone-space category with **arbitrary closed relations as relational arrows** as the discrete-order case of the Priestley relational calculus. This is the especially close established *relational duality on the right-hand side* of our patched category equivalence.
+
+**Variance/category warning:** **Corollary 5.3** says SubBA is dually equivalent to *Stone spaces equipped with a closed endorelation*, with corresponding relation-preserving **functional** morphisms: it is a result about **relational structures as objects**. It should **not** be quoted as a direct duality between SubBA and our category whose **morphisms themselves are arbitrary closed relations**. The latter relational-morphism-level comparison belongs to the relational/double-category theorem (Thm 4.16), restricted to Stone/Boolean algebras. Keeping these two readings separate is especially important for our final write-up. The 2026 preprint has now been read; **user retrieval is no longer needed**.
 
 ## C. p/q rectangles cannot be recovered from the closed hull
 
@@ -82,12 +84,8 @@ Till Plewe, *Localic Products of Spaces* (1996), DOI 10.1112/plms/s3-73.3.642, i
 - Abbadini/Bezhanishvili/Carai adjacent abstracts and de Vries closed-relation arXiv:2206.05711 §3.
 - Dickmann–Schwartz–Tressl, *Spectral Spaces*, Chapter 5 abstract explaining mono/epi classification.
 - Johnstone–Sun 1988 bibliographic record and abstract, **not full text**.
-- Kurz–Moshier–Jung 2026 new double-category abstract, **not full text**.
+- Kurz–Moshier–Jung 2026, arXiv:2610.07695v1, **full original 30-page PDF via public mirror**, especially §§4–6, Theorems 4.6/4.16, Corollary 5.3. Read directly after initially being unable to access it through arXiv.
 
-**Requested user retrieval (if convenient):**
-1. Johnstone–Sun 1988, *Weak Products and Hausdorff Locales*, LNM 1348, pp.173–193 — highest priority for p/q conceptual overlap.
-2. Kurz–Moshier–Jung 2026, *From Zero-Dimensional to Continuous Dualities*, arXiv:2610.07695 PDF/source — recently posted and directly relevant to the categorical relationship; if arXiv download works for the user, supply the original.
-
-No need to ask for Townsend's thesis, Hofmann–Nora, or Kurz–Moshier–Jung 2021; their primary texts are accessible.
+**Requested user retrieval (if convenient):** Johnstone–Sun 1988, *Weak Products and Hausdorff Locales*, LNM 1348, pp.173–193 — highest priority for p/q conceptual overlap. Its original full text remains inaccessible here, although bibliographic record and abstract are available. **All other major source texts mentioned here are available**, including the newer Kurz–Moshier–Jung 2026 paper via a public full-text mirror.
 
 **No priority or novelty conclusion is asserted.**
