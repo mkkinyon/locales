@@ -34,6 +34,10 @@ We use **localic** products, not frame direct products: \(X^2=X\times_{\mathrm{L
 
 **Important historical corrections:** Q/Q′ are **refuted**, strict V<Vfin proved, general finite-chart necessity refuted, general TWIST extrapolation not proved, and some referee addenda are only internally checked. Consult current theorem ledger before interpreting an earlier note's “open,” “candidate,” or “pending” labels.
 
+### Mathematical stress test after the packet recovery
+
+The [binary meet-hull / 2-connectivity cold read](PointFree_ENDGAME_BINARY_MEET_CONNECTIVITY_COLD_READ_2026-11-21.md) independently enumerates the six-point P/Q models and checks the groupoid witness-descent mechanism and the stated Čech/connectivity proof gates. It **does not** claim a new full verification of sheaf \(\infty\)-topos machinery. Read it after the fifth worked example.
+
 ### Fourth-audit provenance — original packets recovered
 
 The [verified fourth-audit premise trace](PointFree_ENDGAME_FOURTH_AUDIT_PREMISE_TRACE_2026-11-21.md) compares the **original 10 November C and A/B ZIP packets**, now supplied by the project owner, with earlier canonical and externally reviewed coherent/Čech/Dowker sources. It records **C-P1–P6** and **A/B-P1–P5**, whose numbering is not identical. The precise dependency list is now complete. The original packets remain private conversation uploads, rather than being copied into the public repository. The fourth-audit conclusions remain **conditional on the previously reviewed premises**; this reconciliation does not independently re-prove them.
