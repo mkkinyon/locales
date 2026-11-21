@@ -1,3 +1,9 @@
+> **21 NOV 2026 — LITERATURE IDENTIFICATION (NOT A CHANGE TO THE REFEREED RC THEOREM).** By Johnstone–Sun, *Weak Products and Hausdorff Locales* (1988), Cor. 1.5, 1.12 and Prop. 1.19, the two generators here are exactly **the weak and full localic products** of their spatial induced sublocales:
+> \[
+> p(A,B)=[A]_G\mathbin{@}[B]_G,\qquad q(A,B)=[A]_G\times_{\rm Loc}[B]_G.
+> \]
+> Here \( @\) denotes Johnstone–Sun's functorial symmetric-monoidal weak product. Thus \(p(A,B)\) is **dense in** \(q(A,B)\); if A or B is scattered Hausdorff, or locally compact, then \(p=q\). This weak/full distinction is **classical**. The independently reviewed **mixed relational composition identity (RC)**, and its finite-join associative algebra, are **additional claims** and are not established merely by the 1988 product theorem. Johnstone–Sun Lemma 1.16 additionally establishes pullback compatibility for **locally closed** inclusions. Detailed source/proof comparison: [endgame primary-source reconciliation](ProjectA_ENDGAME_JOHNSTONE_SUN_WEAK_PRODUCTS_PRIMARY_SOURCE_2026-11-21.md). Source DOI 10.1007/BFb0081358, pp.173–193.
+
 # Project A — compact-Hausdorff point-generated rectangular composition calculus
 ## Post-referee canonical consolidation · 20 November 2026
 
