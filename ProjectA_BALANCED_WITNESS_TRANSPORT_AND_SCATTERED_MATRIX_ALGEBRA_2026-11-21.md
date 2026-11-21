@@ -1,3 +1,5 @@
+> **21 NOV 2026 — EXTERNAL-AUDIT RECONCILIATION.** The independent blind referee accepts SPLIT, MAT, GRP, ACT, BAL, and the balanced-witness extension conditional on previously reviewed RC. The wreath-product *faithful identification* requires **nonempty fibre P**. The Section 4 discrete-to-scattered complete-lattice transport is accepted, but its broad partial-graph extrapolation is **not proved** without explicit common-ambient pullback/image hypotheses. See [reconciliation](ProjectA_BALANCED_WITNESS_SCATTERED_MATRIX_POSTREFEREE_RECONCILIATION_2026-11-21.md), [referee report](project-a/audits/2026-11-21/BALANCED_WITNESS_SCATTERED_MATRIX/INDEPENDENT_REFEREE_REPORT.md), and [addendum](project-a/audits/2026-11-21/BALANCED_WITNESS_SCATTERED_MATRIX/REFEREE_ADDENDUM.md).
+
 # Project A — balanced witness transport and scattered-index matrix algebras
 ## Research continuation, 21 November 2026 · NEW INTERNAL generalization, independent audit pending
 
@@ -107,7 +109,7 @@ H_{\sigma,h}\circ H_{\tau,g}
 H_{\tau\circ\sigma,\,(g_{\sigma(k)}\circ h_k)_{k\in K}}.
 }\tag{GRP}
 \]
-As an abstract group it is \(\operatorname{Homeo}(P)^{|K|}\rtimes\operatorname{Sym}(|K|)\) with the evident reindexing action. It contains identity Δ_G.
+When \(P\ne\varnothing\), it is faithfully isomorphic, as an abstract group, to \(\operatorname{Homeo}(P)^{|K|}\rtimes\operatorname{Sym}(|K|)\) with the evident reindexing action. It contains identity Δ_G.
 
 Moreover, for t∈{p,q} and ordinary A,B⊆G,
 \[
@@ -149,7 +151,7 @@ g:P\times D\to P\times K,\qquad (p,d)\mapsto(h_d(p),b(d))
 \]
 is continuous (D is discrete), ordinarily bijective and generally not a homeomorphism. Its map \(id_Z\times g\) induces **inverse complete-lattice isomorphisms** on all sublocales, obtained by relabeling plus the homeomorphic action \(id_Z\times h_d\).
 
-If the source and target are locally closed sectors of one compact Hausdorff ambient, and the relevant graph-family partial compositions remain among such sector transports (as in the explicit 15-arrow semigroup), this gives (T),(O) and (G) of Theorem 1.1. This extends the original **untwisted** tensor construction: there is no requirement that the homeomorphisms h_d vary continuously with d at an accumulation in K.
+The **complete-lattice transport** just proved is valid, but it does *not by itself* imply (G),(T),(O) for partially defined graph relations embedded in an arbitrary common compact Hausdorff ambient. Those conclusions require explicit ambient-sector, pullback and image compatibility, which was not specified here and remains a separate proof obligation. A fully justified sufficient replacement uses **partial monomial maps on one common compact scattered index K_*** with homeomorphism graphs on each matched fibre; see the post-referee reconciliation. The fibrewise lattice construction still extends the original untwisted tensor construction, with no continuity requirement on the family h_d.
 
 Theorem 3.1 is a more dramatic unconditional realization **within** G=P×K, because its graph family is automatically closed under composition, even for discontinuous index permutations.
 
