@@ -1,3 +1,5 @@
+> **POST-REFEREE STATUS CORRECTION (20 NOV 2026):** This document is a **historical pre-referee snapshot**. The [new canonical compact-Hausdorff rectangular algebra](ProjectA_CLIQUE_RECTANGULAR_CALCULUS_POSTREFEREE_CANONICAL_2026-11-20.md), [referee reconciliation](ProjectA_CLIQUE_POWER_ASSOCIATIVITY_REFEREE_RECONCILIATION_2026-11-20.md), and [separate independent reports](project-a/audits/2026-11-20/CLIQUE_POWER_ASSOCIATIVITY/README.md) now take precedence. The independent referee accepted the submitted theorem, replaced its main proof with a simpler compact-Hausdorff closed-support method, and the addendum established a larger associative finite-join bipartite calculus. Earlier 'pending' statements below are historical; the compact-metric Cantor-graph lemma remains valid as a separate refinement.
+
 # Project A — compact-metric point-clique powers: pre-referee consolidation
 **20 November 2026 · Repaired candidate for new blind external audit**
 
