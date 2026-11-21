@@ -95,6 +95,8 @@ Source [matrix reconciliation](ProjectA_BALANCED_WITNESS_SCATTERED_MATRIX_POSTRE
 - [Four-step short proof](ProjectA_FourStep_Short_Proof_Consolidated_2026-11-19.md) is a **qualified E** after a necessary special patch-fibre repair, uses the fixed finite-fence coordinate geometry. [Cutoff foundations](ProjectA_FourStep_Fibre_Cutoff_Foundations_CANONICAL_2026-11-20.md) assembles the kernel pair assuming the generic-square inclusion. It is **fixed-bracketing**, not full associativity.
 - [Unrestricted L*](ProjectA_Lstar_canonical_corrected_proof_2026-11-08.md) is **E** after the false principal-downset assertion in the initial proof was corrected; uses standard proper map pullback stability and nonempty directed joins. This result has its own technical spine, not derivable from scattered matrices.
 
+> **21 NOV 2026 — LOCAL COLD READ OF HIGHER MEET-HULL COMPARISON:** [technical six-point and connectivity verification note](PointFree_ENDGAME_BINARY_MEET_CONNECTIVITY_COLD_READ_2026-11-21.md) confirms the P/Q fixed patched I,D but different S²/point chain 2-types, shows M is a cone, checks the witness-independent groupoid inverse, and explicitly isolates the Stone Čech-realization and connectivity-lemma imports. This is **internal conditional verification**; cross-referee status remains unchanged.
+
 ### G. Dowker and classifying anima
 
 ```mermaid
