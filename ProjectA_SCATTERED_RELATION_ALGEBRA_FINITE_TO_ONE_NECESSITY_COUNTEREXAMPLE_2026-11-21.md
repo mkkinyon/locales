@@ -112,4 +112,18 @@ Possible surviving refinements:
 
 A separate follow-up is the **discrete-selector criterion**: if a discrete E⊂X maps onto a countable dense-in-itself subset of a perfect closed part of Y, a nonzero pointless overlap forces a graph-probe associator. Over a scattered Y no such dense-in-itself part exists, which explains why the chart-rank obstruction is topological rather than purely cardinal.
 
+### 4.1. A complementary necessary condition over metric targets (INTERNAL)
+
+**Proposition 4.1 (images of discrete selectors).** Let f:X→Y be continuous between compact metrizable Hausdorff spaces, and suppose the graph of f can be adjoined **associatively** (together with converse) to the complete compact-Hausdorff rectangular algebra on G=X⊔Y. Then for every discrete ordinary subspace E⊂X, the ordinary image f(E)⊂Y must be **scattered**.
+
+**Proof by contrapositive.** A discrete subspace of a separable metric X is countable. If f(E) is non-scattered, there is a nonempty subset S⊆f(E) having no isolated points. Choose one e_s∈E for each s∈S, and set E'={e_s:s∈S}; it is discrete and f(E')=S. Put K=cl_Y S. Because S is dense-in-itself, K has no isolated points, so K is nonempty **perfect compact metric**. The subset S is countable and dense in K, and K\S is also ordinarily dense in K (a countable subset has empty interior in a perfect compact metric space). Consequently the induced sublocales [S] and [K\S] of K are both dense; their meet contains the nonzero least dense sublocale \(\mathcal B(K)\).
+
+Set I=K\S⊂Y. As E' is discrete and f(E')=S disjoint from I, the localic pullback \([E']\wedge f^{-1}([I])\) is 0, since it is the coproduct of zero pullbacks on the source singleton points. On the other hand \([f(E')]\wedge[I]=[S]\wedge[I]\ne0\), viewed inside the closed sublocale K⊂Y. This violates the independently verified graph-probe necessary condition (NR) for associative adjunction. □
+
+The hypothesis of **metric** X is used to make every discrete E countable; metric Y and compactness make K\S dense. This is a **testable necessary condition**, not a characterization of safe maps or chart rank.
+
+Our new scattered example satisfies the condition **automatically** (every subset of a scattered target is scattered) despite having infinite chart rank. The earlier bad Cantor examples violate it by constructing a discrete source selector whose image is a countable crowded subset Q of a perfect closed support. This precisely explains why the scattered theorem evades the graph-probe obstruction.
+
+It suggests that the next nontrivial surviving necessity question should involve **surjections onto perfect compact metrizable targets** and analyze whether finite-to-one safe maps there can still carry infinite chart rank. Merely requiring the overall ambient G to have a perfect component is not obviously sufficient, because a problematic graph might be confined to a closed scattered sector.
+
 **Audit status:** New internal result based on the published Simmons/Picado–Pultr theorem and referee's independently checked finite-to-one membership equivalence. The relational composition reduction and the explicit ω^ω+1 construction have **not yet** been independently externally audited. The earlier positive/negative Cantor results are unaffected.
