@@ -144,7 +144,25 @@ The entire nonspatial outer product is attained. The earlier four-vertex positiv
 
 The metric Cantor-graph generator lemma (G) was accepted in the independent referee's review as a **valid stronger geometric refinement** for arbitrary point-generated endpoints of compact metrizable spaces. It should be preserved separately rather than deleted as redundant.
 
-### 9. Further questions, not theorems
+### 9. A sharp nonrectangular boundary witness (post-referee internal extraction)
+
+**This three-factor extraction is not asserted by the referee's report; it follows directly from the previously verified graph-image mechanism.** Let Y be Cantor space, Q⊂Y a countable dense set, I=Y\Q its dense complement, X=ℕ∪{*} the one-point compactification, and f:ℕ→Q a bijective enumeration. Let G=X⊔Y⊔{b}, a Stone space, and set three **point-generated** relations on G:
+\[
+R=\{b\}\times I,\qquad S=\Gamma_f^{\smile}\subseteq Y\times X,\qquad T=X\times\{*\}.
+\]
+The graph S is spatial and point-generated because it is the graph of the injection of the discrete ℕ into the ordinary compact square. It is **not** a finite join of complete bipartite point-generated rectangles: every nonempty ordinary rectangle contained in this injective graph is a singleton, whereas the graph has infinitely many points.
+
+The genuine pullback of R and S is \(I\times_Y\mathbb N=0\): the map from discrete ℕ lands entirely in Q, disjoint from the induced I. Thus
+\[
+(R\circ S)\circ T=0.
+\]
+On the other hand, \(S\circ T=Q\times\{*\}\) as a **localic image**, since the map ℕ→Y has image the induced sublocale Q. Isbell density gives I∧Q≠0, so the full-rectangle formula yields
+\[
+\boxed{R\circ(S\circ T)=\{b\}\times\{*\}\ne0.}\tag{N}
+\]
+Hence a **single infinite, nonrectangular point-generated graph factor**, together with two ordinary point-generated rectangles, already witnesses nonassociativity on a Stone locale. This sharply illustrates why the positive finite-rectangular calculus cannot be extended to arbitrary point-generated graphs by an infinitary point-edge expansion. The above three-factor simplification is **post-referee internal deduction**, rather than a separately blind-reviewed statement.
+
+### 10. Further questions, not theorems
 
 1. **Beyond finite rectangular joins:** identify conditions on a nonrectangular point-generated ordinary graph T⊆G² that place [T] in an associative subcalculus; unrestricted infinite joins are a genuine obstruction.
 2. **Beyond compact Hausdorff:** seek abstract hypotheses replacing compact closed projections, e.g. proper/closed-coordinate image properties, or test locally compact Hausdorff examples.
