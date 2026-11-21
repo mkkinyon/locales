@@ -1,3 +1,5 @@
+> **21 NOV 2026 — ENDGAME INTERMEDIATE-HULL / FINITE-COVER SOURCE PASS:** [full theorem/source crosswalk](ProjectA_ENDGAME_INTERMEDIATE_HULLS_FINITE_COVERS_LITERATURE_2026-11-21.md) reads Jakl–Suarez *Canonical Extensions via Fitted Sublocales* (2025), Arrieta *On Joins of Complemented Sublocales* (2022), Arrieta *Joins of Closed Sublocales are not Always a Coframe* (2026), Picado–Pultr 2012 cover/nearness theory and nearby exact-filter papers. **Known:** fitting/closure operators and the closed-filter \(\mathscr F_I=\{u:d_I\vee u=1\}\) representation of \(V=\operatorname{fit}I\); finite covers as classical nearness tools. **Elementary project corollary:** \(\operatorname{pt}D=\operatorname{pt}D_2=\mathrm{Cm}\) for every spatial X, yet the separately independently checked dense-bridge example has \(D=\Delta,\ W=I<W_2=U\); the finite/all difference is genuinely **pointless** and arises beyond the common first stage \(\Phi(0)=\Phi_2(0)=d_U\). **No exact W₂ predecessor yet located; no priority verdict.**
+
 # Unified Point-Free Topology Project — big-picture mathematical spine
 ## Endgame working overview, first pass · 21 November 2026
 
