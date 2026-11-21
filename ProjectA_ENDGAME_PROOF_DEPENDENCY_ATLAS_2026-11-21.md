@@ -1,3 +1,5 @@
+> **21 NOV 2026 — DEPENDENCY AUDIT NOTE:** The [internal adversarial review](ProjectA_ENDGAME_CONSOLIDATION_INTERNAL_ADVERSARIAL_AUDIT_2026-11-21.md) corrected [ledger v3.1](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md): **RC finite-join rectangular algebra is not asserted unital**; its *larger partial-homeomorphism graph algebra* contains the unit \(\Delta\). \(\mathcal H\) **is not generally transitive**, not even for coherent locales; [24 Oct reviewed two-ray example](A-H-two-convergent-zigzag-rays-nontransitive-coherent-counterexample-2026-10-24.md) and exact \(\omega+m\) closed-stage iteration belong in the hierarchy. Post-verdict graph-rank cases need distinct E/I status.
+
 # Point-free topology — dependency atlas and audit gates
 ## Endgame consolidation, first pass · 21 November 2026
 
