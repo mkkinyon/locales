@@ -1,3 +1,5 @@
+> **20 NOV 2026 — REPAIRED SUBMISSION AVAILABLE:** The [self-contained repaired candidate](ProjectA_CLIQUE_COMPACT_METRIC_POWER_ASSOCIATIVITY_REPAIRED_CANDIDATE_2026-11-20.md) supersedes this working note *as the current proof for external review*: it expands the full two-colour Cantor fusion and all four induction splits. [Post-internal consolidation](ProjectA_CLIQUE_POWER_ASSOCIATIVITY_POST_INTERNAL_CONSOLIDATION_2026-11-20.md) · [blind handoff](project-a/audits/2026-11-20/CLIQUE_POWER_ASSOCIATIVITY/README.md). This original exploratory text is preserved for provenance. The new theorem remains **externally unverified**.
+
 > **20 NOV 2026 — INTERNAL ADVERSARIAL AUDIT:** [Dedicated internal review](ProjectA_CLIQUE_COMPACT_METRIC_POWER_ASSOCIATIVITY_INTERNAL_ADVERSARIAL_AUDIT_2026-11-20.md) found no fatal error in (G), (B), (5V) or (PA), but requires the two-colour compact graph-fusion lemma and the leaf-versus-full-rectangle induction to be expanded before a blind external audit. This is *not* independent certification; the working status below remains in force.
 
 # Project A — compact-metric point-clique power associativity
