@@ -1,3 +1,5 @@
+> **FOLLOW-UP (20 NOV 2026, INTERNAL):** The [clopen partial-homeomorphism extension](ProjectA_CLOPEN_PARTIAL_HOMEOMORPHISM_RECTANGULAR_ALGEBRA_2026-11-20.md) enlarges the positive algebra beyond total homeomorphisms and gives the noninvertible two-to-one Cantor shift as a concrete safe graph. Neither this extension nor the graph-probe criterion has yet been independently audited; they do not change the external referee's compact-Hausdorff rectangular theorem.
+
 # Project A — returning to ordinary graphs: biclique covers, map graphs, and image stability
 ## First graph-extension segment, 20 November 2026 — NEW INTERNAL deductions
 
