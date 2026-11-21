@@ -205,7 +205,42 @@ Because f is a continuous map between compact Hausdorff spaces, this H_f is itse
 
 Therefore the negative boundary map f_- becomes nonassociative **only after adding the nonclosed selected-support rectangles** R and T. Do not mistake failure of the **enlarged algebra** for failure of the closed undirected graph H_f itself. To produce a *single non-power-associative reflexive symmetric graph* in the negative case, symmetrize the union \(\Delta_G\vee R\vee F\vee T\) with converses as in the prior four-level examples; the unique three-step route along the distinct clopen levels preserves the graph-probe discrepancy. This distinction is important for the original Cameron–Kumar graph motivation.
 
-## 4. Conceptual synthesis and audit agenda
+## 4. Open–closed gluing for selected-image stability
+
+The positive/negative pair above admits an exact abstract local-to-global statement that removes the special role of a singleton target boundary.
+
+For a continuous map h:Z→W of sober spatial locales, say **HSIS(h)** holds if for every ordinary point subset E⊆Z, the induced point-generated image map
+\(
+[E]_Z\to[h(E)]_W
+\)
+is a **pullback-stable locale-surjection**. This is a working abbreviation (hereditary selected-image stability), not established external nomenclature. The target is the induced spatial sublocale on h(E), not its topological closure.
+
+**Lemma 4.1 (open–closed gluing; new internal deduction).** Let f:X→Y be a continuous map of Hausdorff spaces, U⊂Y open, and F=Y\U closed. Put X_U=f^-1(U), X_F=f^-1(F). Then
+\[
+\boxed{\mathrm{HSIS}(f)\iff \mathrm{HSIS}(f|_{X_U}:X_U\to U)\quad\text{and}\quad
+\mathrm{HSIS}(f|_{X_F}:X_F\to F).}\tag{GL}
+\]
+
+**Proof.** Let E⊆X and D=f(E). The induced target [D] restricts along the complementary open and closed sublocales U,F to \([D\cap U]\) and \([D\cap F]\). The induced source [E] restricts along X_U,X_F to \([E\cap X_U]\) and \([E\cap X_F]\). These exact identities use restriction of point-generated spatial sublocales along **open and closed** subspaces, not false intersection rules for arbitrary point-generated subsets.
+
+Given an arbitrary base change T→[D] of e_E:[E]→[D], its target T has a complementary open–closed cover T_U∨T_F=T. The pulled-back image map restricted over T_U is a base change of the selected-image map for E∩X_U under f|X_U; similarly for T_F. If the two stratum maps are HSIS, both restricted pullbacks are surjective. Their image jointly contains T_U∨T_F=T, proving e_E stably surjective.
+
+Conversely, if f is HSIS, take an arbitrary E⊆X_U (respectively X_F). Then its image D lies in U (respectively F), and the induced map of its point-generated locale is the corresponding selected-image map for the restricted f, as a map over the subspace. Thus HSIS descends to both strata. □
+
+**Lemma 4.2 (disjoint-open gluing).** If U is an ordinary topological coproduct of open-and-closed pieces U_i and each f|f^-1(U_i) is HSIS, then f over U is HSIS, regardless of the cardinality of the index set. This follows because induced spatial sublocales and base changes split along arbitrary disjoint open coproduct decompositions; no infinitary distribution of **relation composition** is invoked.
+
+**Corollary 4.3 (stratified safe graph maps).** Suppose f:X→Y is a continuous **compact-Hausdorff surjection** and Y=U∪F is an open/closed complementary decomposition. Suppose:
+1. \(U=\coprod_{i\in I}U_i\), each U_i open clopen in U, and f^-1(U_i) is a finite disjoint union of subspaces each homeomorphic to U_i under f (finite number allowed to depend on i);
+2. the boundary restriction \(h:f^{-1}(F)\to F\) is HSIS.
+Then **f is HSIS**, and by Corollary 1.4 adjoining \(\Gamma_f,\Gamma_f^\smile\) to the compact-Hausdorff finite rectangular algebra is associative.
+
+**Proof.** For any E over one U_i the selected image map is a finite cover by the induced spatial images of the selected sheets, hence pullback-stably surjective by preservation of finite sublocale joins. Lemma 4.2 gives HSIS over U, and hypothesis (2) gives it over F. Lemma 4.1 glues the two and Corollary 1.4 supplies the algebra.
+
+**Interpretation.** A **nontrivial Cantor target boundary is not itself unsafe**: its boundary map could be a homeomorphism or a finite covering (both HSIS), in which case gluing is positive. The negative example in §3 fails because the boundary Cantor projection admits a selected dense-discrete support with an image overlap invisible to the actual pullback. Therefore the correct local-to-global invariant is HSIS of the **map on the closed boundary**, not topological dimension/cardinality of the boundary.
+
+**Specific future test:** Prove necessity, or find a counterexample to necessity, of HSIS for associativity of the entire compact-Hausdorff finite rectangular algebra enlarged by a graph. The graph-probe nonzero-reflection condition is necessary, but full pullback-stable surjectivity might be stronger than the generated algebra can detect.
+
+## 5. Conceptual synthesis and audit agenda
 
 The key distinction is **not** boundary-fiber cardinality: both examples have an infinite compact Cantor fiber and arbitrarily large finite-sheet blocks. Rather, it is whether the selected witness map admits an *unstable spatial image* on the closed target boundary. A singleton target boundary forces every nonzero selected boundary support to surject openly to that singleton, whereas a Cantor target boundary supports the classic pointless dense-meet Q∧I despite ordinary disjointness.
 
