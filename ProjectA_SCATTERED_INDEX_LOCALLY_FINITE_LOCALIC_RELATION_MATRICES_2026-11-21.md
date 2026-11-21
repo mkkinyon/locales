@@ -86,6 +86,25 @@ by associativity and finite distributivity in A(P). Equality holds for every ind
 
 **Interpretation.** The scattered index K lets us treat a localic relation as a genuine matrix, *including pointless P-fiber components*. Local finiteness gives the exact algebraic safeguard against the uncontrolled infinite join interchange that caused trouble elsewhere in Project A.
 
+### 3.1. Exact graph-path expansion for all finite powers
+
+**Corollary 3.2 (INTERNAL).** For any \(R\in\operatorname{Mat}_{\rm rcf}(K,\mathcal A(P))\), every finite power \(R^n\) is unambiguously defined, lies in the same associative algebra, and has entries
+\[
+\boxed{
+(R^n)_{i_0i_n}
+=
+\bigvee_{\substack{i_0\to i_1\to\cdots\to i_n\\
+R_{i_{r-1}i_r}\ne0}}
+R_{i_0i_1}\circ_P
+R_{i_1i_2}\circ_P\cdots\circ_P R_{i_{n-1}i_n}.
+}\tag{PATH}
+\]
+For fixed start \(i_0\) and finite n the index-walk set is **finite** by row-finiteness. The expression can therefore be evaluated using only the known **finite** associativity/distributivity of the base algebra; no unproved arbitrary-index exchange appears.
+
+**Proof.** By Theorem 3.1 the power is independent of parentheses. Apply the finite-index multiplication formula (FINMAT) inductively; each extension of a finite path set by finitely many neighbors stays finite. □
+
+This gives a fully **localic analogue of ordinary adjacency-matrix path counting**: the index walk combinatorics is ordinary finite branching, but each walk carries a composition of potentially nonspatial relations in the P-fiber. In particular it provides a natural algebraic bridge to the original Cameron–Kumar graph-path viewpoint, while still not claiming a Dowker nerve theorem.
+
 ### 4. New graph-theoretic families beyond permutations
 
 **Closed-edge matrices.** Let \(\mathcal C(P)\) be the algebra of **closed relations** on compact Hausdorff P (including 0 and Δ). Theorem 3.1 gives an associative algebra of row-and-column-finite index matrices whose nonzero entries are arbitrary closed relations on P. The **total resulting sublocale relation on G need not be closed**, because its nonzero sectors may accumulate through K. Nevertheless, all its bracketings associate.
