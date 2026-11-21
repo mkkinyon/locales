@@ -10,7 +10,7 @@
 | Read in this order | What it does |
 |---|---|
 | 1. [Five worked examples](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md) | An example-first introduction to separation, nontransitive H, finite covers, genuinely localic composition, and higher witnesses. |
-| 1. [Mathematical big-picture spine](ProjectA_ENDGAME_BIG_PICTURE_SPINE_2026-11-21.md) | What questions connect the three strands; basic definitions, overarching story and representative examples. Still a first-pass synthesis. |
+| 2. [Mathematical big-picture spine](ProjectA_ENDGAME_BIG_PICTURE_SPINE_2026-11-21.md) | What questions connect the three strands; basic definitions, overarching story and representative examples. Still a first-pass synthesis. |
 | 3. [CURRENT theorem ledger v3.1](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) | Major results, exact hypotheses and current proof statuses. **This supersedes older historical ledgers on current claims.** |
 | 4. [Proof dependency atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md) | Which theorems import other theorems; dangerous changes of ambient category; where localic pullback/image proof is necessary. |
 | 5. [Endgame literature crosswalk](ProjectA_ENDGAME_LITERATURE_CROSSWALK_2026-11-21.md) | Primary sources, known results and unresolved theorem-to-literature comparisons. **Not a novelty/priority certificate.** |
