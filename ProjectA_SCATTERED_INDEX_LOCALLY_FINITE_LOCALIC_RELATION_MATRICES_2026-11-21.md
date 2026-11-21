@@ -1,3 +1,5 @@
+> **21 NOV 2026 — EXTERNALLY REFEREED.** The independent blind referee accepts the full binary localic matrix formula (MUL), the row-and-column-finite associative lift (FINMAT), and the finite path expansion (PATH), using MAT as the accepted dependency. No general associativity or infinitary interchange is claimed. The referee addendum gives further *new* corollaries: discrete-index comparison, one-sided finite lifts, finite-flank/sandwich associativity, and a locally compact MAT extension (the latter outside the submitted audit). See [reconciliation](ProjectA_BALANCED_WITNESS_SCATTERED_MATRIX_POSTREFEREE_RECONCILIATION_2026-11-21.md), [referee report](project-a/audits/2026-11-21/BALANCED_WITNESS_SCATTERED_MATRIX/INDEPENDENT_REFEREE_REPORT.md), and [addendum](project-a/audits/2026-11-21/BALANCED_WITNESS_SCATTERED_MATRIX/REFEREE_ADDENDUM.md).
+
 # Project A — exact localic matrix multiplication over scattered indices
 ## 21 November 2026 · NEW INTERNAL theorem and locally finite associative lift
 
@@ -125,3 +127,8 @@ Both arise from one geometric theorem: compact scattered K is an **atomic index*
 The matrix formula (MUL), its proof using the genuinely localic composability locale, and the finite-support associativity reduction should be independently audited before canonical promotion. If certified, they give an explicit bridge between ordinary graph adjacency matrices/path counts and point-free relational composition without pretending that the entire locale-relations category is regular.
 
 **Research sequencing:** test if the finite-support assumption can be weakened to a *finitary overlap condition*; then perform the requested big-picture Project A review; afterward return to intrinsic specialization and Dowker common-witness complexes.
+
+
+### Post-referee corollaries (new referee contributions)
+
+The addendum establishes that the **entire** complete-lattice-valued binary relation calculus over scattered K agrees, via exact matrix reindexing, with that over the underlying **discrete** index D=|K| (preserving composition, converse, diagonal, and arbitrary sublocale meets/joins, but **not** openness or closedness). It also shows that row-finite and column-finite A(P)-valued matrices separately form associative unital finite-join algebras (converse exchanges them), and that **R∘S∘T associates** whenever the left flank R is row-finite and the right flank T is column-finite, even for unrestricted A(P)-valued middle S. The locally compact Hausdorff strengthening of MAT has a referee-origin proof sketch; keep it separate from the audited compact theorem until its scope is independently consolidated. See the linked reconciliation for statements and conditions.
