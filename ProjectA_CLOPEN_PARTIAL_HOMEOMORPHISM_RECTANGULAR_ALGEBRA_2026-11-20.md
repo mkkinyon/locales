@@ -1,3 +1,5 @@
+> **STRENGTHENED LATER ON 20 NOV 2026:** The [locally closed partial-homeomorphism theorem and open-proper counterexample](ProjectA_GRAPH_LOCAL_HOMEOMORPHISM_POSITIVE_OPEN_PROPER_NEGATIVE_2026-11-20.md) show that **clopen is not essential**: locally closed (in particular open or closed) partial homeomorphisms preserve the rectangular calculus, admitting any compact-Hausdorff local homeomorphism. By contrast, even a global open/proper projection can fail when restricted to a discrete induced spatial support. This original clopen proof is retained as a special case. The newer theorem is INTERNAL, not independently blind-refereed.
+
 # Project A — adding clopen partial homeomorphism graphs to the rectangular algebra
 ## New internal positive extension · 20 November 2026
 
