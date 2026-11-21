@@ -34,9 +34,9 @@ We use **localic** products, not frame direct products: \(X^2=X\times_{\mathrm{L
 
 **Important historical corrections:** Q/Q′ are **refuted**, strict V<Vfin proved, general finite-chart necessity refuted, general TWIST extrapolation not proved, and some referee addenda are only internally checked. Consult current theorem ledger before interpreting an earlier note's “open,” “candidate,” or “pending” labels.
 
-### Fourth-audit provenance, still requiring one original-source check
+### Fourth-audit provenance — original packets recovered
 
-The [fourth-audit premise trace](PointFree_ENDGAME_FOURTH_AUDIT_PREMISE_TRACE_2026-11-21.md) identifies earlier independently reviewed chain/Čech/Dowker foundations, but the fourth original **P1–P6** literal statement list is preserved in *private dispatch packets* rather than in this public GitHub tree. The current fourth-audit statements are correctly **conditional on those premises**. Recover the original C and A/B packets before claiming an exact P_i-to-prior-theorem crosswalk; no theorem is being retracted on this account.
+The [verified fourth-audit premise trace](PointFree_ENDGAME_FOURTH_AUDIT_PREMISE_TRACE_2026-11-21.md) compares the **original 10 November C and A/B ZIP packets**, now supplied by the project owner, with earlier canonical and externally reviewed coherent/Čech/Dowker sources. It records **C-P1–P6** and **A/B-P1–P5**, whose numbering is not identical. The precise dependency list is now complete. The original packets remain private conversation uploads, rather than being copied into the public repository. The fourth-audit conclusions remain **conditional on the previously reviewed premises**; this reconciliation does not independently re-prove them.
 
 ### Sources, audits and publication
 
