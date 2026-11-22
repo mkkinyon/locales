@@ -1,3 +1,5 @@
+> **21 NOV — LATER STATUS UPDATE:** Claude's E1 MAT*/MUL* proposal passed a separate fresh ChatGPT blind technical audit, with [canonical proof](ProjectA_MATSTAR_MULSTAR_POSTREFEREE_CANONICAL_2026-11-21.md) and [reconciliation](ProjectA_MATSTAR_MULSTAR_REFEREE_RECONCILIATION_2026-11-21.md). Prior “I” statements below are historical; E2–E5 have not thereby received a separate blind audit. General finite-join product distributivity is now settled positive.
+
 # Claude Opus 5.5 High — independent endgame synthesis review and mathematical reconciliation
 ## 21 November 2026 · genuinely independent model/reading, not a follow-up to the ChatGPT structural referee
 
