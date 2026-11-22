@@ -1,6 +1,8 @@
 # Fourth-audit original packets: verified premise-to-proof trace
 ## 21 November 2026 · original 10 November packet sources recovered and directly read
 
+> **SUPPLEMENT (21 November):** In addition to the previously recovered original technical ZIPs described below, the original **11 November blind referee reports, focused cross-reviews and nonblind comparisons** have now been directly inspected, without publishing their raw contents. See [source inventory and exact grades](PointFree_FOURTH_AUDIT_PRIMARY_REPORTS_REINSPECTION_2026-11-21.md). This preserves the distinction between **original blind** and **post-verdict independently cross-reviewed** work.
+
 **Current status: archival dependency list COMPLETE.** The project owner retrieved and supplied the original ZIPs **`C_Referee_Blind(1).zip`** and **`AB_Referee_Blind(1).zip`**, each containing a blind prompt and an original technical packet. Both technical packets state **10 November 2026**. The contents match the previously documented fourth audit: **C1–C9**, **A1–A4/B1–B4/R1–R3**, the previously accepted premises, and the explicit prohibition on consulting other audit reports during blind review. The original ZIPs are conversation uploads, **not copied into the public GitHub repository**; this is a mathematical paraphrase and precise crosswalk, not a surrogate copy or an alteration of referee materials.
 
 ### Packet C, §0: exact premise-number map (now checked against the original)
