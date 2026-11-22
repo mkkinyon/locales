@@ -3,7 +3,7 @@
 > **SESSION 11 ADOPTED FRAMEWORK:** [Proof-guided two-study narrative](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md) is the current principal reading. This reference incorporates the **arbitrary-parameter** MAT*/MUL*/FINMAT* blind acceptance and the positive **general finite-join** correction. Historical candidate scopes and post-report extras retain independent evidence levels.
 
 # Unified Point-Free Topology — notation, ambient categories, and proof imports
-## Compact one-page reader's reference · 21 November 2026 · after independent structural audit
+## Compact reader's reference · 21 November 2026 · updated after Session 11 audits
 
 **Use after the [adopted two-study proof-guided account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md)**, and before the [theorem ledger v3.2](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md), [proof atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md), or [five worked examples](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md). The [independent structural referee reconciliation](ProjectA_ENDGAME_STRUCTURAL_EXTERNAL_REFEREE_RECONCILIATION_2026-11-21.md) explains which of the interfaces below received a fresh targeted mathematical review, which remain conditional, and which were *not* rechecked.
 
