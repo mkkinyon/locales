@@ -45,7 +45,7 @@ It builds oriented simplicial boundary matrices over \(\mathbf F_p\) (p=2 or3), 
 - For the six-point three-antichain sum P: chain f-vector (6,12,8), meet f-vector (6,13,12,4), H₂(Ch;F₂)=1 and H₂(M;F₂)=0.
 - For Q with middle two-chain: both f-vectors (6,13,12,4), contractible, homology as expected.
 
-**Evidence limit:** These tests verify **homology ranks**, not **π₁-isomorphism**, sheaf internal 2-connectivity, or an ∞-topos realization theorem. Failure of an H₂ map to be surjective would refute the ordinary finite shadow of the 2-connectivity theorem, but passing the tests is only corroboration. The script as uploaded contains the **random-poset** generator; it **does not implement the layered-poset enumeration or n=3 connected-window filtering** also reported in Opus's narrative (3,471 and 3,261 examples). Those additional counts should be recorded as **reported but not independently reproducible from this one attachment**, not called erroneous.
+**Evidence limit:** These tests verify **homology ranks**, not **π₁-isomorphism**, sheaf internal 2-connectivity, or an ∞-topos realization theorem. Failure of an H₂ map to be surjective would refute the ordinary finite shadow of the 2-connectivity theorem, but passing the tests is only corroboration. The script as uploaded contains the **random-poset** generator; it **does not implement the layered-poset enumeration, n=3 connected-window filtering, or the Ch→I diagnostic** also reported in Opus's narrative (3,471 layered cases, 3,261 connected-window cases, and 31/300 random Ch→I H₁ failures). Those additional counts should be recorded as **reported but not independently reproducible from this one attachment**, not called erroneous.
 
 ## 4. Recommendations for the mathematical exposition
 
