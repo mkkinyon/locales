@@ -1,3 +1,5 @@
+> **21 NOV — LATER FINITE-JOIN CORRECTION:** The §4 unrestricted **finite**-join product identity is **true for all locales**, not still open: \\(S\\vee T)\\times Z=(S\\times Z)\\vee(T\\times Z)\\ follows because sublocale inverse image along the product projection preserves finite joins. See [MAT*/MUL* post-referee reconciliation](ProjectA_MATSTAR_MULSTAR_REFEREE_RECONCILIATION_2026-11-21.md). §4 is preserved as a historical report of what was known at that earlier point.
+
 # Opus independent review: spatiality and window-ladder addendum
 ## 21 November 2026 · original addendum and four accompanying scripts reviewed
 
