@@ -97,6 +97,8 @@ Automated ledger check: **47** groups, by letter **A20/B16/C11**, now each with 
 
 **Verdict of this first editorial/source-consistency pass:** **ACCEPTED WITH REPAIRS APPLIED** for the *reader-facing architecture and live navigation*. The five-source example route and central theorem scopes are internally consistent **at the level checked**, and obsolete banners no longer masquerade as live status.
 
+**Later completion notice (21 Nov):** The [47-row second-pass status/provenance review](ProjectA_ENDGAME_SECOND_PASS_47_GROUP_PROVENANCE_2026-11-21.md) has since been completed using accessible original reports and reconciliations. It found and corrected the mixed-grade overstatements in **A18 and B15**; certain original fourth-audit reports remain private user uploads, so their public audit trace is secondary. The paragraph below records the task's *earlier* pending status.
+
 The natural *next* independent editorial pass, if desired, is a **47-row status/provenance spot-check** comparing each claim ID with the actual submitted audit prompt, original referee report, post-report addendum and corrected canonical theorem. That is a substantially larger documentary undertaking than the present front-door and source-link pass; it should not be silently represented as already completed.
 
 **Repository policy:** Keep all historical blind packets and reports unchanged. Correct the live navigation and mathematical synthesis, label uncertainty explicitly, and do not turn model-referee approval into a novelty or publication-readiness claim.
