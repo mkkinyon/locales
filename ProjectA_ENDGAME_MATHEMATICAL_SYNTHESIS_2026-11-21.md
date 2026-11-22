@@ -160,7 +160,7 @@ For a **coherent** locale X with ordered Priestley patch space V, set
 I_n=\{(x_i):\exists u,\ x_i\le u\ \forall i\},\quad
 D_n=\{(x_i):\exists a,\ a\le x_i\ \forall i\},
 \]
-and \(M_n=I_n\cap D_n\). These are patched Stone simplicial spaces arising from the appropriate coherent/proconstructible setup. Their realizations \(\mathbf C,\mathbf I,\mathbf D,\mathbf M\) are taken in a **specified sufficiently large Stone-sheaf \(\infty\)-topos**, not automatically in the intrinsic shape of X. Important parts of ordinary Dowker, nerve, and classifying-anima theory are already in the literature; our setting adds ordered patch/sheaf and comparison-map questions.
+and \(M_n=I_n\cap D_n\). These are patched Stone simplicial spaces arising from the appropriate coherent/proconstructible setup. Their realizations \(\mathbf C,\mathbf I,\mathbf D,\mathbf M\) are taken in a **specified sufficiently large Stone-sheaf \(\infty\)-topos** \(\operatorname{Shv}_\infty(\operatorname{Stone}_\kappa,\text{finite jointly-surjective covers})\), a **κ-condensed-anima setting** (without an asserted hypercompletion or site-size-independence theorem), not automatically in the intrinsic shape of X. Important parts of ordinary Dowker, nerve, and classifying-anima theory are already in the literature; our setting adds ordered patch/sheaf and comparison-map questions.
 
 **Positive reconstruction.** The binary common-upper graph **plus patch topology** determines **all** higher patched \(I_n\): maximal-element clique neighborhoods reconstruct principal down-cones; dually the common-lower graph reconstructs all \(D_n\). This is a theorem about binary graph **isomorphisms** with patch structure, not about arbitrary binary-graph-preserving maps. The latter need not preserve \(M_2\).
 
