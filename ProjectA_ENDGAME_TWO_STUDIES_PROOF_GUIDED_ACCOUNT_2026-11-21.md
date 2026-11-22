@@ -5,6 +5,8 @@
 
 **Audience.** Mathematicians with basic algebra/topology who want to understand what the project actually established, rather than read a chronological research log or a list of 47 theorem groups. This is a **proof-guided synthesis and learning document**, not a finished publication, a new external audit, or a claim of novelty. The three historical A/B/C branches remain in the [authoritative research ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md); **this two-study organization is the adopted *reader-facing* account**. Detailed proofs, assumptions, and evidence statuses stay in their linked canonical sources.
 
+**Starting source:** Peter J. Cameron and Vinod Kumar P. B., [*Graphs on Topological Spaces*](https://arxiv.org/abs/2610.14783) (2026). The five ordinary graph relations in that paper prompted our translation into genuine localic relations; its pointwise graph facts are not claimed as discoveries of this project.
+
 **Central question.** What does an ordinary graph on the points of a locale retain about a genuine sublocale relation? When does the graph suffice to compute a relation or its composition, and when must one remember pointless witnesses, closed supports, or higher simultaneous witnesses?
 
 **Two studies.** I: **genuine binary localic relations**, with three effective calculi (coherent Priestley/patch, Booleanization/closed support, scattered-sector matrices) and sharp failures of naïve pointwise reconstruction; II: **higher simultaneous witnesses**, their Stone-sheaf comparison objects and precise homotopical limitations. They share the coherent patch-language, but II is *not* derived from the binary associative calculi.
@@ -17,7 +19,7 @@
 
 ## 1. From Cameron–Kumar graphs to relations in a localic square
 
-For a locale \(X\), \(X^2\) means its product in \(\mathbf{Loc}\), and a **genuine binary relation** is a sublocale \(R\hookrightarrow X^2\). Its point pairs, the point-generated sublocale of those pairs, and \(R\) itself need not be identical. In particular, the join of all points of \(R\) may miss a nonzero pointless sublocale. Neither sublocale joins nor images should be silently replaced by point-set unions or point images.
+For a locale \(X\), the frame \(\mathcal O(X)\) of opens has arbitrary joins and finite meets distributing over joins; locale maps are dual to frame homomorphisms. A sublocale corresponds to an appropriate quotient of this frame (equivalently, a nucleus). Write \(X^2=X\times_{\mathbf{Loc}}X\) for the **localic product**, not a direct product of frames, and let a **genuine binary relation** be a sublocale \(R\hookrightarrow X^2\). Its point pairs, the point-generated sublocale of those pairs, and \(R\) itself need not be identical. In particular, the join of all points of \(R\) may miss a nonzero pointless sublocale. Neither sublocale joins nor images should be silently replaced by point-set unions or point images.
 
 Write \(\Delta\hookrightarrow X^2\) for the diagonal. Our basic separation and hull relations are
 \[
@@ -31,7 +33,7 @@ Write \(\Delta\hookrightarrow X^2\) for the diagonal. Our basic separation and h
 \mathcal T=\mathcal V\wedge\mathcal W,
 \end{gathered}
 \]
-together with the Urysohn relation \(\mathcal U\), functional relation \(\mathcal F\), and the **least simultaneously closed and fitted** diagonal super-relation \(\mathcal H\). Write \(\mathcal A\) for oriented localic specialization and \(\mathcal A^\smile\) for its converse; put \(\mathcal S=\mathcal A\vee\mathcal A^\smile\). (We reserve \(\mathcal B(K)\) below for the **unrelated** Booleanization operation.) The spectral-point convention is \(x\le y\) if every open containing \(x\) also contains \(y\), so **opens are upsets**. Our order reverses the convention used in some graph papers.
+Here \(\operatorname{cl}(R)\) is the least **closed sublocale** containing \(R\), and \(\operatorname{fit}(R)\) the least **fitted sublocale**, namely the intersection of all open sublocales containing \(R\). The Urysohn relation \(\mathcal U\) is the closed complement of \(\bigvee_{a^*\vee b^*=1} a\boxtimes b\) (\(a^*\) denotes pseudocomplement in \(\mathcal O(X)\)); the functional relation \(\mathcal F\) is the kernel-pair relation of all real-valued locale maps, or of the completely regular reflection. The relation \(\mathcal H\) is the **least simultaneously closed and fitted** diagonal super-relation. See the [precise definition and assumption table](ProjectA_ENDGAME_NOTATION_AND_ASSUMPTIONS_2026-11-21.md) for the full cover and frame formulas. Write \(\mathcal A\) for oriented localic specialization and \(\mathcal A^\smile\) for its converse; put \(\mathcal S=\mathcal A\vee\mathcal A^\smile\). (We reserve \(\mathcal B(K)\) below for the **unrelated** Booleanization operation.) The spectral-point convention is \(x\le y\) if every open containing \(x\) also contains \(y\), so **opens are upsets**. Our order reverses the convention used in some graph papers.
 
 For composable localic relations \(R\le X\times Y\) and \(S\le Y\times Z\), composition means **first \(R\), then \(S\)**:
 \[
@@ -79,13 +81,13 @@ In this finite coherent/Alexandrov setting, the actual localic composition is co
 \]
 Every continuous real-valued function is constant along each specialization edge, hence along the connected comparability graph, so \(\mathcal F=P^2\). The **separate** finite closed/fitted hull computation in the canonical source gives \(\mathcal H=P^2\) as well; graph connectedness by itself would not justify that genuine sublocale equality without the coherent representation theorem.
 
-**Lesson.** Some distinctions in the hierarchy are entirely readable from a small order. The coherent theorem is what licenses the promotion from those point-order computations to **genuine sublocale relations**. [Finite fence computation and audit](A-W-HmeetU-connected-example-finite-poset-product-2026-11-09.md).
+**Lesson.** Some distinctions in the hierarchy are entirely readable from a small order. The coherent theorem is what licenses the promotion from those point-order computations to **genuine sublocale relations**. [Finite fence computation](A-W-HmeetU-connected-example-finite-poset-product-2026-11-09.md) and [W-phase referee reconciliation](ProjectA_Wphase_EXTERNAL_referee_reconciliation_2026-11-09.md).
 
 ### Example 2. Closed-and-fitted does not mean transitive
 
-Form two disjoint alternating Priestley order-zigzag rays \(A=\{a_i\}\), \(B=\{b_i\}\) and a single patch limit \(t\), so both rays converge to \(t\) in the one-point compactification of the discrete union; there are no cross-ray comparisons. Let \(S_A=A\cup\{t\}\) and \(S_B=B\cup\{t\}\). In the associated coherent spectral locale, the **computed least closed-and-fitted diagonal hull** is
+Form two disjoint alternating Priestley order-zigzag rays \(A=\{a_i:i\ge0\}\), \(B=\{b_i:i\ge0\}\), with exactly \(a_{2n}<a_{2n+1}>a_{2n+2}\) and \(b_{2n}<b_{2n+1}>b_{2n+2}\) as strict comparabilities. Add a single point \(t\), incomparable with either ray, and give \(A\cup B\cup\{t\}\) the patch topology of the one-point compactification of the discrete union: both rays converge to \(t\). Let \(S_A=A\cup\{t\}\) and \(S_B=B\cup\{t\}\). In the associated coherent spectral locale, the **computed least closed-and-fitted diagonal hull** is
 \[
-\mathcal H=S_A^2\vee S_B^2.
+\mathcal H=(S_A\times_{\mathrm{Loc}}S_A)\vee(S_B\times_{\mathrm{Loc}}S_B).
 \tag{5}
 \]
 It contains \((a_0,t)\) and \((t,b_0)\), while \((a_0,b_0)\notin\mathcal H\). The triple \((a_0,t,b_0)\) is a genuine composability witness, so
@@ -115,15 +117,15 @@ The coordinate map \(p:X\to\mathbb R\) is an **étale local homeomorphism**. The
 \[
 J=S\times_{\mathbb R}T\cong\mathbb R
 \]
-every *finite* diagonal-cover witness leaves a dense matching locus, hence contains the nonzero pointless Booleanization \(\mathcal B(J)\). The **full** (infinite) open section atlas separates the sector. Thus the finite- and all-cover relations \(\mathcal D_2,\mathcal D\) have the **same ordinary point pairs**, but the sublocale/hull calculation is
+every *finite* diagonal-cover witness leaves a dense matching locus, hence contains the nonzero pointless Booleanization \(\mathcal B(J)\). The **full** (infinite) open section atlas \(\mathscr A=\{S,T\}\cup\{N_q:q\in\mathbb Q\}\), with \(N_q=\bigcup_{\varepsilon>0}N(q,\varepsilon)\), separates the sector. Thus the finite- and all-cover relations \(\mathcal D_2,\mathcal D\) have the **same ordinary point pairs**, but the sublocale/hull calculation is
 \[
 \boxed{\mathcal D=\Delta,\qquad
 \mathcal W=\mathcal I<\mathcal W_2=\mathcal U=X\times_{\mathbb R}X.}
 \tag{8}
 \]
-This settles the historical Q/Q′ finite-versus-all-cover questions **negatively**. The usual finite union of nowhere-dense boundary sets cannot account for every rational matching point; the actual *pointless* intersection is carried by \(\mathcal B(J)\). [Repaired canonical proof and audit](ProjectA_Q_DENSE_RATIONAL_BRIDGE_CANONICAL_2026-11-14.md).
+This settles the historical Q/Q′ finite-versus-all-cover questions **negatively**. The usual finite union of nowhere-dense boundary sets cannot account for every rational matching point; the actual *pointless* intersection is carried by \(\mathcal B(J)\). [Repaired canonical proof](ProjectA_Q_DENSE_RATIONAL_BRIDGE_CANONICAL_2026-11-14.md) and [Q/Q′ referee reconciliation](ProjectA_Q_DENSE_RATIONAL_BRIDGE_REFEREE_RECONCILIATION_2026-11-14.md).
 
-**Lesson.** Two objects may agree on every ordinary pair but disagree as sublocales. The obstruction is not another long order path; it is the intersection of all cover constraints in the sublocale lattice. The paper of Plewe makes the **older** closed-support technique historically visible, but this specific étale/hull calculation has its own detailed project proof and separate evidence status.
+**Lesson.** The finite-cover relation \(\mathcal D_2\) is obtained by taking the meet of the open diagonal-cover sublocales over **finite** covers; \(\mathcal D\) uses **all** covers. They agree on ordinary pairs in this \(T_1\) example but differ as sublocales. The obstruction is not another long order path; it is the intersection of all cover constraints in the sublocale lattice. The paper of Plewe makes the **older** closed-support technique historically visible, but this specific étale/hull calculation has its own detailed project proof and separate evidence status.
 
 ### Compact rectangular composition
 
@@ -316,17 +318,19 @@ Stone-indexed nonconstant Čech gluing, classifying anima, relative cohomology a
 
 ---
 
-# 8. A dependency map, not an omnibus novelty claim
+# Synthesis and reference guide
+
+## 8. A dependency map, not an omnibus novelty claim
 
 | Mathematical interface | What is proved/available | What must not be inferred |
 |---|---|---|
 | Coherent/proconstructible gate | Patch-closed order computes **actual** Loc finite relation words; (2)–(3) | All arbitrary Loc relations associate; \(\mathcal W=\mathcal U\) follows from the composition theorem alone |
-| Isbell/J–S/Plewe → rectangular RC | Closed support and Booleanization support (G′); mixed p/q actual formula (9) | Weak/full or C-scattered criteria are historically new; infinite singleton expansion of arbitrary graphs |
+| Isbell/J–S/Plewe → rectangular RC | Closed support and Booleanization support (G′, **post-referee internal proof reconciliation**); separately reviewed mixed p/q actual formula (9) | Weak/full or C-scattered criteria are historically new; infinite singleton expansion of arbitrary graphs |
 | MAT* → MUL* → FINMAT* | Arbitrary locale \(P\), locally compact scattered \(K\), binary matrices; finite-support associative lift | A discrete-coproduct locale decomposition; arbitrary matrices associate merely from binary MUL* |
 | Patched coherent premise → Stone Čech descent | Higher I/D reconstruction and conditional C→M 2-connectivity | All higher chain homotopy from binary graphs; independence of chosen Stone site or intrinsic locale shape |
 | Hull and rank counterexamples | Nontransitive H, strict \(\mathcal V<\mathcal V_{\rm fin}\), finite/all cover bridge, unbounded composition rank | Equality of these *different* ranks; all points of a sublocale generate that sublocale |
 
-**Evidence labels.** **L**: predecessor theorem in published literature; **E**: submitted claim checked in an independent model-referee packet with stated scope; **X**: post-verdict result separately crosschecked, often conditional on imported premises; **I**: internal or referee-addendum deduction not separately blind checked; **C**: explicit conditional hypotheses or standard imported result; **F**: disproved assertion. These are *not* substitutes for formal verification or human peer review, and they do not certify historical originality. The current [47-group theorem ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) is authoritative for individual labels.
+**Evidence labels.** **L**: predecessor theorem in published literature; **E**: submitted claim checked in an independent model-referee packet with stated scope; **X**: post-verdict result separately crosschecked, often conditional on imported premises; **I**: internal or referee-addendum deduction not separately blind checked; **C**: explicit conditional hypotheses or standard imported result; **F**: disproved assertion. These are *not* substitutes for formal verification or human peer review, and they do not certify historical originality. The current [47-group theorem ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) is authoritative for individual labels. The [dated internal editorial/source review](ProjectA_ENDGAME_EDITORIAL_SOURCE_CONSISTENCY_REVIEW_2026-11-21.md) records source-resolution and navigation repairs made after this version was adopted.
 
 The full source history is deliberately **not** reorganized into this two-study order. Its temporal ordering matters for tracking repaired proofs, failed conjectures and independent reports; the [proof dependency atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md) and [open-frontier register](ProjectA_ENDGAME_OPEN_FRONTIERS_2026-11-21.md) retain that information.
 
