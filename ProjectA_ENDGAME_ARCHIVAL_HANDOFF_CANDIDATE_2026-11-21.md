@@ -73,7 +73,8 @@ The former three-branch [integrated account](ProjectA_ENDGAME_MATHEMATICAL_SYNTH
 - [x] Replace outdated “to do before Nov 25” wording in the current ledger; move completed MAT* / grade-split tasks out of the open frontier queue.
 - [ ] **Author's final reading and any desired revisions** of adopted account, current ledger and open register.
 - [ ] **Explicit archival freeze decision** if/when appropriate; optionally add a dated index/tag, but no such decision/action has occurred.
-- [ ] **Optional** review of private original fourth/early referee raw reports. This is documentary improvement, **not a necessary mathematical theorem**, and should not be silently marked complete.
+- [x] **November 11 fourth-audit original referee report reinspection:** Both original blind reports, both focused independent cross-reviews, two nonblind comparisons and suggestions were [directly reopened in a separate source-recovery pass](PointFree_FOURTH_AUDIT_PRIMARY_REPORTS_REINSPECTION_2026-11-21.md). No theorem grade changed. Raw originals are **still private**; they were not silently published to GitHub.
+- [ ] **Optional** direct inspection of remaining early **October 20/21/23** original reports, and a separate decision whether to preserve user-supplied original reports in a publicly accessible archive. These are documentation tasks, not new mathematical theorems.
 - [ ] **Conditional upon later paper plans only:** rigorous historical priority screening and specialist/publication referee review.
 
 ## 7. How to resume safely in a future session
