@@ -1,6 +1,8 @@
 # Second-pass provenance audit of all 47 theorem groups
 ## Point-free topology · Session 11 · 21 November 2026
 
+> **Supplementary direct-source inspection (21 November 2026):** The user subsequently recovered **both original 11 November A/B and C blind reports, both independently focused opposite-referee follow-ups, both later nonblind audit comparisons, suggestions and their source ZIPs**. These have now been directly read, with exact scope compared to canonical notes in the [primary reports reinspection](PointFree_FOURTH_AUDIT_PRIMARY_REPORTS_REINSPECTION_2026-11-21.md). **No theorem status changed.** The original R/public-repository distinctions below accurately describe the *earlier pass*: the raw user-supplied reports are now directly inspected privately but **not copied to public GitHub**.
+
 **Target:** [current 47-group theorem ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md), read together with the [adopted two-study proof-guided account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md).
 
 **Purpose:** establish for **every** theorem-group identifier what kind of source supports its **evidence grade**, distinguishing the originally submitted blind claim, the original independent review, review-required repairs, published imports, referee-origin follow-up additions, and later internal work. This is **not** an independent proof audit of all 47 claims, a formal verification, a novelty inquiry, or a blanket certification of all earlier reviews. The original reviewer packets and reports are preserved unaltered.
