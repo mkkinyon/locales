@@ -332,6 +332,17 @@ Stone-indexed nonconstant Čech gluing, classifying anima, relative cohomology a
 
 **Evidence labels.** **L**: predecessor theorem in published literature; **E**: submitted claim checked in an independent model-referee packet with stated scope; **X**: post-verdict result separately crosschecked, often conditional on imported premises; **I**: internal or referee-addendum deduction not separately blind checked; **C**: explicit conditional hypotheses or standard imported result; **F**: disproved assertion. These are *not* substitutes for formal verification or human peer review, and they do not certify historical originality. The current [47-group theorem ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) is authoritative for individual labels. The [dated internal editorial/source review](ProjectA_ENDGAME_EDITORIAL_SOURCE_CONSISTENCY_REVIEW_2026-11-21.md) records source-resolution and navigation repairs made after this version was adopted.
 
+### Selected historical sources
+
+The following are **antecedents and reference points**, not a bibliography establishing novelty for the project:
+
+- P. J. Cameron and Vinod Kumar P. B., [*Graphs on Topological Spaces*](https://arxiv.org/abs/2610.14783) (2026): the pointwise graph motivation.
+- J. R. Isbell, [*Product Spaces in Locales*](https://doi.org/10.1090/S0002-9939-1981-0589150-5), *Proc. Amer. Math. Soc.* **81** (1981), 116–118: universal product/spatial multiplier antecedents, as also reproduced in Plewe's Theorem 1.6.
+- P. T. Johnstone and Shuhao Sun, [*Weak Products and Hausdorff Locales*](https://doi.org/10.1007/BFb0081358), in *Categorical Algebra and its Applications*, Lecture Notes in Mathematics **1348** (Springer, 1988), 173–193: weak/full product distinction.
+- Till Plewe, [*Localic Products of Spaces*](https://doi.org/10.1112/plms/s3-73.3.642), *Proc. London Math. Soc.* (3) **73** (1996), 642–678: product-spatiality classifications and the closed-support/dense-trace method.
+
+The exact source-versus-project-claim comparison is in the [current literature crosswalk](ProjectA_ENDGAME_LITERATURE_CROSSWALK_2026-11-21.md) and [full-text Plewe analysis](ProjectA_PLEWE_1996_FULL_PRIMARY_SOURCE_COMPARISON_2026-11-21.md). The full original Plewe journal PDF was supplied privately for the research reading but is **not** redistributed in this repository.
+
 The full source history is deliberately **not** reorganized into this two-study order. Its temporal ordering matters for tracking repaired proofs, failed conjectures and independent reports; the [proof dependency atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md) and [open-frontier register](ProjectA_ENDGAME_OPEN_FRONTIERS_2026-11-21.md) retain that information.
 
 ## 9. The mathematical conclusion
@@ -340,4 +351,4 @@ The full source history is deliberately **not** reorganized into this two-study 
 
 This answers the educational question that motivated the project more faithfully than either a universal “localic graph algebra” or a claim that all results share a single proof device. **The right output is a family of well-scoped calculi and their exact boundaries.**
 
-**Recommended reader route:** this account → [five-example detailed calculations](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md) → [one-page notation/assumptions](ProjectA_ENDGAME_NOTATION_AND_ASSUMPTIONS_2026-11-21.md) → [47-group ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) → chosen canonical proofs and original referee packets. Future publication, if desired, should be selected by **separate theorem-level priority checks**; the project itself may conclude without a paper.
+**Recommended reader route:** this account → [five-example detailed calculations](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md) → [compact notation/assumptions](ProjectA_ENDGAME_NOTATION_AND_ASSUMPTIONS_2026-11-21.md) → [47-group ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) → chosen canonical proofs and original referee packets. Future publication, if desired, should be selected by **separate theorem-level priority checks**; the project itself may conclude without a paper.
