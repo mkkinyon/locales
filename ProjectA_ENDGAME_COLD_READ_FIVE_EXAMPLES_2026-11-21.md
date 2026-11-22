@@ -1,7 +1,9 @@
+> **SESSION 11 ADOPTED EXPOSITION:** This is now the **detailed example companion** to [the two-study proof-guided account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md), not the primary narrative. Its five canonical computations and original audit qualifications are unchanged; the two-study account adds the later MAT*/MUL* arbitrary-parameter bridge and the nonisolated closed-sector calculation.
+
 # Cold read: five examples that explain the point-free topology project
 ## Endgame first-reading mathematical walkthrough · 21 November 2026
 
-**Audience:** a mathematically experienced reader who was **not** present during the project. This is a **worked guide**, not a new independent proof or a claim of publication novelty. Source statements below have been reopened in their dated repository canonical proofs. For current theorem IDs and precise audit scopes use [ledger v3.1](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md), [proof dependencies](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md), and [21 Nov consolidation audit](ProjectA_ENDGAME_CONSOLIDATION_INTERNAL_ADVERSARIAL_AUDIT_2026-11-21.md). The main project grew from Cameron–Kumar, *Graphs on Topological Spaces*, arXiv:2610.14783.
+**Audience:** a mathematically experienced reader who was **not** present during the project. This is a **worked guide**, not a new independent proof or a claim of publication novelty. Source statements below have been reopened in their dated repository canonical proofs. For current theorem IDs and precise audit scopes use [ledger v3.2](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md), [proof dependencies](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md), and [21 Nov consolidation audit](ProjectA_ENDGAME_CONSOLIDATION_INTERNAL_ADVERSARIAL_AUDIT_2026-11-21.md). The main project grew from Cameron–Kumar, *Graphs on Topological Spaces*, arXiv:2610.14783.
 
 ## Five-minute common vocabulary
 
@@ -150,9 +152,9 @@ Every M-simplex can be coned off by **either designated middle vertex**: appendi
 ## Lessons from the cold read
 
 1. **Logical flow succeeds**, once the operations and scopes are stated before the examples. Finite posets explain the graph layer; nontransitive H and the rational bridge explain why hulls remain subtle; rectangles show why composition is genuinely pointfree; six points explain the higher-witness limit.
-2. The existing [big-picture spine](ProjectA_ENDGAME_BIG_PICTURE_SPINE_2026-11-21.md) is a **survey of conclusions** rather than a worked introduction. A newcomer needs *this* example-first route before reading the 46-row theorem ledger.
+2. The existing [big-picture spine](ProjectA_ENDGAME_BIG_PICTURE_SPINE_2026-11-21.md) is a **survey of conclusions** rather than a worked introduction. A newcomer needs *this* example-first route before reading the **47-group** theorem ledger.
 3. **Source-status distinction is essential:** independently blind-reviewed theorem, separately crosschecked referee addendum, and after-verdict internally verified corollary are three different evidential levels. Avoid elevating them by sharing an umbrella document.
 4. **Terminology requiring a glossary:** localic square and product, spatial/point-generated vs full sublocale, closure vs fitting, patch/spectral topology, lower/upper orientation, localic image, Booleanization, exact witness/finite-rank, P1–P6 imported site facts, n-connectivity.
 5. **No new fatal mathematical defect was established in this five-example read.** It is a selective source-grounded cold read, not a second independent proof of each theorem.
 
-**Recommended first-reading order:** this document → [start here](ProjectA_ENDGAME_START_HERE_2026-11-21.md) → [current ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) → only the five linked canonical proofs that interest the reader → [dependency atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md). The original independently reviewed source mathematics, rather than this guide, retains evidential authority.
+**Recommended first-reading order:** [adopted two-study proof-guided account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md) → this detailed companion → [current ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) → only the five linked canonical proofs that interest the reader → [dependency atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md). The original independently reviewed source mathematics, rather than this guide, retains evidential authority.
