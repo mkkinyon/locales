@@ -1,3 +1,5 @@
+> **SESSION 11 INTERNAL ADVERSARIAL AUDIT:** The adopted two-study narrative has passed a [targeted source, finite-example and proof-interface audit](ProjectA_ENDGAME_TWO_STUDIES_INTERNAL_ADVERSARIAL_AUDIT_2026-11-21.md) with **no fatal defect found** and targeted provenance/clarity repairs. This glossary now distinguishes \(\mathcal A^\smile\) (converse specialization) from \(\mathcal B(K)\) (Booleanization), and states three—not two—non-interchange rules.
+
 > **SESSION 11 ADOPTED FRAMEWORK:** [Proof-guided two-study narrative](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md) is the current principal reading. This reference incorporates the **arbitrary-parameter** MAT*/MUL*/FINMAT* blind acceptance and the positive **general finite-join** correction. Historical candidate scopes and post-report extras retain independent evidence levels.
 
 # Unified Point-Free Topology — notation, ambient categories, and proof imports
@@ -18,7 +20,7 @@ Let \(L=\mathcal O(X)\), \(Q=\mathcal O(X\times_{\mathbf{Loc}}X)\). Write \(C(d)
 | \(\mathcal H\) | Least **simultaneously closed and fitted** super-sublocale of \(\Delta\). Need not be transitive, **even coherently**. |
 | \(\mathcal U\) | Urysohn closed relation \(\mathcal U=C(d_{\mathcal U})\), \(d_{\mathcal U}=\bigvee_{a^*\vee b^*=1}a\boxtimes b\), where \(a^*\) is the frame pseudocomplement |
 | \(\mathcal F\) | Functional closed relation \(C(d_{\mathcal F})\): \(d_{\mathcal F}=\bigvee_{f:X\to\mathbb R}(f\times f)^*(\mathbb R^2\setminus\Delta_{\mathbb R})\). Kernel pair of completely regular reflection. |
-| \(\mathcal A,\mathcal B,\mathcal S\) | \(\mathcal A\): oriented localic specialization with generalized-pair condition \(u_1\le u_2\) for all \(u\in L\); \(\mathcal B=\mathcal A^\smile\); \(\mathcal S=\mathcal A\vee\mathcal B\). In coherent spectral points, \(x\le y\) means every open containing x contains y; opens are **upsets**. |
+| \(\mathcal A,\mathcal A^\smile,\mathcal S\) | \(\mathcal A\): oriented localic specialization with generalized-pair condition \(u_1\le u_2\) for all \(u\in L\); \(\mathcal A^\smile\) is its converse; \(\mathcal S=\mathcal A\vee\mathcal A^\smile\). Older sources abbreviate the converse by **\(\mathcal B\)**, but the adopted account avoids that abbreviation to reserve \(\mathcal B(K)\) for Booleanization. In coherent spectral points, \(x\le y\) means every open containing x contains y; opens are **upsets**. |
 
 **Composition convention:** \(R\circ S=\mathrm{im}_{\mathbf{Loc}}(R\times_Y S\to X\times Z)\) means *first R, then S*; it is not ordinary point composition in general. Outside a **separately proven associative class**, do not omit parentheses.
 
@@ -37,7 +39,7 @@ Let \(L=\mathcal O(X)\), \(Q=\mathcal O(X\times_{\mathbf{Loc}}X)\). Write \(C(d)
 | **Higher I/D/M, chain groupoids** | **Coherent** locale, its **patch Stone** space, and chosen sufficiently large \(\mathscr H_\kappa=\mathrm{Shv}_\infty(\operatorname{Stone}_\kappa,\text{finite surjective families})\) | \(I_n,D_n\) require **one simultaneous** bound, not pairwise bounds. Binary graph **isomorphisms** reconstruct higher patched hulls; arbitrary binary-preserving maps may fail \(M_2\). Under-\(\mathbf C\) \(\mathbf C\to\mathbf I,\mathbf C\to\mathbf D\) arrow comparison is a **separate input**. |
 | **Chain→meet 2-connectivity** | Same chosen Stone-sheaf site; degreewise **effective Čech** lower-witness covers and standard realization-connectivity lemma | \(\mathbf C\to\mathbf M\) is 2-connective (π₀,π₁ iso, π₂ epi), **not** a 2-type equivalence. Six-point example tests sharpness, not the general theorem. Site-size independence and intrinsic localic shape are not established. |
 
-## 3. Two operations you must NOT exchange
+## 3. Three operations you must NOT exchange
 
 1. **Point sets vs actual Loc images:** \(\operatorname{pt}(R\circ S)\) may not be ordinary relational composite. Coherent proconstructible and p/q RC are *separate* classes where equality has been **proved** by localic pullback/image mechanisms.
 2. **Infinite meet vs infinite join:** writing \((\bigvee R_i)\wedge(\bigvee S_j)=\bigvee(R_i\wedge S_j)\) for general sublocales is **not valid**. The scattered MUL theorem first forms \(Q=R_{12}\wedge S_{23}\), **then** splits Q, and only then applies the arbitrary-join-preserving image map.
