@@ -1,3 +1,5 @@
+> **SUPERSEDED EVIDENCE STATUS, 21 NOV:** The complete 37-page journal PDF was subsequently supplied and read directly; [full primary-source report](ProjectA_PLEWE_1996_FULL_PRIMARY_SOURCE_COMPARISON_2026-11-21.md) now supersedes all “abstract only / complete paper inaccessible” limitations below. In particular, Plewe Theorem 3.2 *explicitly uses a compact closed support with dense coordinate traces*, and Theorems 2.2/2.6 give the **Q-test for all metrizable**, not just separable, factors. This document is retained as an earlier preliminary reading.
+
 # Project A — Plewe 1996, Isbell 1981, and the closed-support (G′) product criterion
 ## Session 11 first literature comparison · 21 November 2026
 
