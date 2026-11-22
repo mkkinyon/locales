@@ -21,7 +21,7 @@
 
 ### The current entry points
 
-**Recommended first encounter (adopted organization):** [From graphs to localic evidence — two studies, five proof-guided examples](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md). **Study I** develops genuine binary localic relations through coherent patch, Isbell closed supports and scattered-sector matrices; **Study II** develops higher simultaneous witnesses in the specified Stone-sheaf setting. The [original three-branch synthesis](ProjectA_ENDGAME_MATHEMATICAL_SYNTHESIS_2026-11-21.md) remains a useful history of how the research developed, but **is no longer the primary reader-facing narrative**.
+**Recommended first encounter (adopted organization):** [From graphs to localic evidence — two studies, five proof-guided examples](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md). It has now received a [focused internal adversarial reading](ProjectA_ENDGAME_TWO_STUDIES_INTERNAL_ADVERSARIAL_AUDIT_2026-11-21.md): no fatal mathematical defect found, with closed-support proof/provenance, notation and finite-example corrections incorporated. **Study I** develops genuine binary localic relations through coherent patch, Isbell closed supports and scattered-sector matrices; **Study II** develops higher simultaneous witnesses in the specified Stone-sheaf setting. The [original three-branch synthesis](ProjectA_ENDGAME_MATHEMATICAL_SYNTHESIS_2026-11-21.md) remains a useful history of how the research developed, but **is no longer the primary reader-facing narrative**.
 
 | Read in this order | What it does |
 |---|---|
