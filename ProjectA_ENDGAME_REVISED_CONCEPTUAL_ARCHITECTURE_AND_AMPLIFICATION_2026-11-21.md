@@ -1,3 +1,5 @@
+> **STATUS UPDATE — ARCHITECTURE ADOPTED:** By explicit project-owner agreement in Session 11, the two-study architecture proposed here is no longer merely a candidate. The [full proof-guided account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md) is the authoritative reader-facing exposition, while this note retains the additional scattered amplification proof and the editorial reasoning behind the choice.
+
 # From pointwise shadows to localic evidence: revised mathematical architecture
 ## Point-free topology endgame · Session 11 · 21 November 2026
 
@@ -164,4 +166,4 @@ A **single opening mathematical thesis** can introduce both studies:
 - **Historical:** Isbell, Johnstone–Sun, Plewe and Priestley/Stone duality provide foundational concepts and many product-spatiality theorems.
 - **Not proved:** arbitrary relations associate, all TWIST cases are safe, arbitrary infinite joins commute with pullback/composition, high homotopy follows from binary graphs, or all project claims have been published previously or are historically novel.
 
-**Current recommendation:** preserve this alternative outline as a candidate **reader-facing mathematical architecture**; compare it with the integrated synthesis before finalizing a November 25 educational research wrap-up. No need to settle broad conjectures or seek another large blind audit to choose an exposition.
+**Session 11 decision:** This two-study organization was **adopted** as the primary reader-facing mathematical architecture. Its expanded [proof-guided account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md) now supplies the five examples, proof interfaces and evidence gates. The older A/B/C ledger stays a historical research index, not the chapter order. The planned November 25 research stopping date remains a separate decision. No need to settle broad conjectures or seek another large blind audit to choose an exposition.
