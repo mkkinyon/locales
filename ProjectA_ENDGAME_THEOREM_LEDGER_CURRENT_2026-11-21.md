@@ -5,6 +5,8 @@
 
 **Audit language:** Independent blind reports in this repository are *model-generated adversarial referee checks*, not formal verification, human peer review, or literature priority checks. We report exact scope, dependencies and corrections.
 
+> **21 NOV — INDEPENDENT CLAUDE OPUS HIGH READING:** [report reconciliation and script limits](ProjectA_OPUS_ENDGAME_INDEPENDENT_REVIEW_RECONCILIATION_2026-11-21.md). Opus checked selected original proofs and found no counterexample, while challenging the synthesis's three-branch emphasis and identifying new *proposed* generalizations: [arbitrary-parameter MAT*/MUL*](ProjectA_OPUS_SCATTERED_ARBITRARY_PARAMETER_EXTENSION_2026-11-21.md), and [closed-support overlap, weak/full equality, Rees inflation and étale-D](ProjectA_OPUS_RECTANGLE_OVERLAP_REES_ETALE_OBSERVATIONS_2026-11-21.md). These are **new reviewer-origin mathematical contributions with internal proof reconstruction (I), not part of earlier independent E audits** and **not automatically new certified ledger rows**. The 47 existing groups' previous E/X/I verdicts remain unchanged.
+
 ### Status key (may combine categories)
 - **L** — established literature fact, attributed to source. Its re-expression with our notation does not create a priority claim.
 - **E** — project main theorem independently blind-reviewed and positively reconciled **under the listed premises and after repairs**.
