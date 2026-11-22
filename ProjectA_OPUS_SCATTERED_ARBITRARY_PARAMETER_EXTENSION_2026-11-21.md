@@ -1,3 +1,5 @@
+> **21 NOV — POST-REPORT STATUS UPDATE (ORIGINAL PROPOSAL RETAINED):** MAT*, MUL*, and FINMAT* subsequently passed an [independent blind technical audit](ProjectA_MATSTAR_MULSTAR_REFEREE_RECONCILIATION_2026-11-21.md). The clearer [post-referee canonical proof](ProjectA_MATSTAR_MULSTAR_POSTREFEREE_CANONICAL_2026-11-21.md) supersedes this note for proof and current status; the historical “I, not yet E” statements below reflect the time before the audit. The referee addendum’s additional results remain separately labeled.
+
 # Scattered-index sublocale matrices with arbitrary parameter locales
 ## Claude Opus 5.5 High proposal of 21 November 2026 · internal proof reconstruction
 
