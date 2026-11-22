@@ -1,3 +1,5 @@
+> **REPAIR STATUS — APPLIED IN SESSION 11:** [Revised adopted account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md) now includes explicit G′ post-referee provenance and compact-Hausdorff fitness contradiction, removes the overloaded \(\mathcal B\) converse notation, states the existential strict-\(\mathcal V\) scope, adds independent finite counts and the empty-rectangle-unit convention. The [notation/assumptions guide](ProjectA_ENDGAME_NOTATION_AND_ASSUMPTIONS_2026-11-21.md) has been synchronized. The original reports, canonical proofs, and 47 theorem IDs remain unchanged; an external audit of this new exposition has **not** been conducted.
+
 # Internal adversarial audit — adopted two-study proof-guided account
 ## Session 11 · 21 November 2026 · source-checked, not an external review
 
