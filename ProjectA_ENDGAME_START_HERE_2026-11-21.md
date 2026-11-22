@@ -5,6 +5,8 @@
 
 **October 21 primary-audit recovery:** The original broader D1–D9 referee report and both independent coherent/Hochster referee reports, with packets and plank supplement, are [directly inventoried and compared here](ProjectA_OCT21_PRIMARY_REFEREE_REPORTS_REINSPECTION_2026-11-21.md). The original D1–D9 audit explicitly covered the frame-product/heredity scope of **A18**; its previous internal-only grade has been adjusted to the exact external-review evidence, with infinitary/extensivity proof repairs retained.
 
+**October 23 𝒯 referee-report recovery:** Three original blind reports and all prompt/packet pairs on 𝒯, the strict V3/V4 stage and Vfin were [directly inventoried and compared](ProjectA_OCT23_PRIMARY_V_REFEREE_REPORTS_REINSPECTION_2026-11-21.md). The **A11** original/post-verdict split stands; the continuous-frame rank-3 bound in **A19** is now recognized as externally checked in original claim C1 (distinct rank-2 cases remain internal). The general V report's two corrected ancillary mistakes were preserved explicitly.
+
 ## Endgame research archive · active consolidation, 21–25 November 2026
 
 **This is the current reading guide.** The research began in October 2026 with Cameron–Kumar's *Graphs on Topological Spaces* (arXiv:2610.14783): reinterpret five graph relations as **genuine sublocales of the localic square**, understand their separation hierarchy and composition, and compare higher witness/homotopy constructions. The main goal has been **learning and mathematical understanding**; publication is optional and explicitly outside the planned November 25 research wrap-up.
