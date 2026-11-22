@@ -71,7 +71,7 @@ For **every finite** open cover, however, its diagonal-cover square has a **dens
 \[
 J=S\times_{\mathbb R}T\cong\mathbb R.
 \]
-This finite-cover density is a Baire/category argument exploiting the dense rational bridge coordinates. The nonzero Isbell Booleanization \(B(J)\), **pointless**, lies in the finite-cover diagonal relation \(\mathcal D_2\wedge J\), but the full-cover relation \(\mathcal D\) misses J. Closing that nonzero dense Boolean witness fills J. The full computation gives
+This finite-cover density follows from the elementary fact that a finite union of closed nowhere-dense boundaries cannot contain a dense set of rationals; no Baire-category theorem is required. The nonzero Isbell Booleanization \(B(J)\), **pointless**, lies in the finite-cover diagonal relation \(\mathcal D_2\wedge J\), but the full-cover relation \(\mathcal D\) misses J. Closing that nonzero dense Boolean witness fills J. The full computation gives
 \[
 \boxed{\mathcal D=\Delta,\quad \mathcal W=\mathcal I<\mathcal W_2=\mathcal U=X\times_{\mathbb R}X.}
 \]
