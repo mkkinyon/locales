@@ -43,7 +43,7 @@ The main conceptual point is that **closure** and **fitting** are two different 
 
 ### 2.1. A positive theorem: coherence makes graph words reliable
 
-For **coherent locales** and **proconstructible spectral sublocale relations**, the actual localic pullback and image coincide with the **patch-closed ordinary relation composite**. This gives an associative **finite-word** calculus with diagonal as identity, converse, and finite joins. It is a substantive theorem about actual Loc images, not an informal invocation of Stone/Priestley duality.
+For **coherent locales** and **proconstructible spectral sublocale relations**, the actual localic pullback and image coincide with the **patch-closed ordinary relation composite**. This gives an associative **finite-word** calculus with diagonal as identity, converse, and finite joins. The central dictionary is classical Priestley duality, but its use for genuine localic relation composition requires verifying **once** that the restricted proconstructible pullback and image calculations agree with patch-closed point composition. After that verification, the coherent formulas are naturally short order-theoretic consequences.
 
 The coherent calculus yields, as genuine sublocale equalities,
 \[
