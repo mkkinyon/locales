@@ -1,0 +1,133 @@
+# Second-pass provenance audit of all 47 theorem groups
+## Point-free topology · Session 11 · 21 November 2026
+
+**Target:** [current 47-group theorem ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md), read together with the [adopted two-study proof-guided account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md).
+
+**Purpose:** establish for **every** theorem-group identifier what kind of source supports its **evidence grade**, distinguishing the originally submitted blind claim, the original independent review, review-required repairs, published imports, referee-origin follow-up additions, and later internal work. This is **not** an independent proof audit of all 47 claims, a formal verification, a novelty inquiry, or a blanket certification of all earlier reviews. The original reviewer packets and reports are preserved unaltered.
+
+**Outcome:** Two ledger-grade inconsistencies requiring an actual repair were identified and corrected immediately: **A18** and **B15** (§2). Several other groups correctly mix grades, with indispensable scope qualifications recorded below. No new counterexample to a mathematical theorem was found by this *documentary* comparison.
+
+## 1. Method and evidence-visibility key
+
+The repository's *current* ledger has **47** rows: **A01–A20 (20), B01–B16 (16), C01–C11 (11)**. The earlier [first editorial/source pass](ProjectA_ENDGAME_EDITORIAL_SOURCE_CONSISTENCY_REVIEW_2026-11-21.md) established that all rows have source hyperlinks; **the present task tests the *type and scope of evidence***, not just link existence.
+
+For each row, a source or original reviewer statement was checked where accessible. Labels in this report are **visibility/provenance classes**, and are **not additional theorem grades**:
+
+- **P** — a public **original blind referee report** in this repository was reopened directly and its stated scope checked;
+- **R** — a dated mathematical reconciliation **explicitly quotes or summarizes** the original private/user-uploaded review and repairs. The **original report was not directly accessible in this public repository** during this pass; report-backed facts are therefore attributable to the *reconciliation*, not independently certified here against the private original;
+- **J** — a distinct **referee addendum** or theorem proposed **after** an earlier original blind verdict; when published as a separate file, its actual text or canonical reconciliation was examined;
+- **X** — a post-verdict result **cross-checked by another referee**; this is evidence beyond I but **not an original blind submission** of that result;
+- **I** — a project working note or internal post-report verification; does **not** confer E under the ledger's current definition;
+- **L** — a previously published mathematical antecedent credited as such; no claim of project invention;
+- **C** — a listed *imported theorem, site or geometric hypothesis*, or a needed post-review proof repair; a theorem's mathematical truth and its evidence boundary must be kept separate.
+
+**Important historical caveat:** the two **20 October** foundation reviews **both had access to the internal audit** and expressly were **not strictly blind**. A new example supplied by a reviewer in that process and checked internally is not a **project theorem originally blind-refereed** merely because it appeared in a review. Separate 21 October and later strictly blind sessions have their own grades.
+
+**Visibility caveat:** Some original 21 October and fourth-audit A/B/C reports, and the 10 November fourth-packet original ZIPs, were uploaded privately to project conversations and are **not public GitHub files**. They were previously read and reconciled in the repository, but this pass did **not** re-open their raw private bytes. Rows classified **R** below therefore record *secondary traceability*; obtaining/re-reading the originals would increase documentary certainty but is not a justification for unearned grade promotion.
+
+## 2. Changes made to the authoritative ledger
+
+### A18 — composite E overstatement repaired
+
+The former A18 assigned **E** to the *whole family* of arbitrary frame coproducts, frame direct products, open heredity, and counterexamples to closed heredity.
+
+The [21 October independent reconciliation](A-external-audit-reconciliation-2026-10-21.md) reports acceptance of **arbitrary frame-coproduct preservation**, but explicitly requires the **infinite-family finite-support cp-ideal nonvanishing argument**. The [expanded working proof](A-coproduct-preservation-I-U.md) supplies that argument, and itself ends with a request for independent audit. The direct-product and open/closed-heredity statements also appear in the [structural working note](A-I-equals-U-structural-study.md), but the available provenance does not show their inclusion in that **same** focused original blind theorem packet.
+
+**Corrected A18:** **E+C for the independently accepted coproduct assertion, with the subsequent repaired proof not separately re-blind-checked; I for the auxiliary frame-product and heredity components pending direct original-packet confirmation.** No mathematical statement is withdrawn.
+
+### B15 — reviewer-origin counterexample is I, not E
+
+The published effectiveness theorem of **Vermeulen (1994)** remains **L**. The explicit saturation-operator nonidempotence example is described in its [source note](A-saturation-operator-nonidempotence.md) as **supplied by the Claude referee during the 20 October process and checked in our reconciliation**. The [20 October reconciliation](A-external-audits-reconciliation-2026-10-20.md) explicitly states those reviews were **not strictly blind**. There is no separate original blind submission/review of this particular example in the accessible record.
+
+**Corrected B15:** **L for the published proper-effectivity theorem; I (referee-origin, subsequently internally verified) for the project's nonidempotence example.** This is an evidence-grade correction only, not a mathematical objection.
+
+## 3. Group-by-group evidence matrix — A (20 groups)
+
+| ID | Record | Source checked or traced | Exact provenance boundary |
+|---|---|---|---|
+| **A01** | L | [Separation primary-source crosswalk](ProjectA_ENDGAME_SEPARATION_PRIMARY_SOURCE_CROSSWALK_2026-11-21.md) | Earlier separation axioms and Arrieta–Picado–Pultr fitted diagonal are published antecedents; no new E grade implied. |
+| **A02** | P+R | [24 Oct original report](A-postV-external-Claude-referee-report-2026-10-24.md); [post-V reconciliation](A-postV-external-audit-reconciliation-2026-10-24.md) | Composite universal hull/inclusion record spans multiple audits; the later J/T refinements are not all one original packet. |
+| **A03** | P+C | [8 Nov coherent original](project-a/audits/2026-11-08/ProjectA_coherent_composition_EXTERNAL_referee_report_2026-11-08.md) | Actual localic proconstructible composition reviewed with proof clarifications. **\(\mathcal W=\mathcal U\)** is a separate established coherent input. |
+| **A04** | P+L | [17 Nov J/T original](ProjectA_J_T_STABLY_COMPACT_BLIND_REFEREE_REPORT_2026-11-17.md) | Accepted under perfect nucleus/Hofmann–Mislove/patch inputs; no inference that *all* arbitrary stably compact sublocales are spatial. |
+| **A05** | P | [SC+ original](project-a/audits/2026-11-15/SCplus/Referee_report_original.md); [reconciliation](ProjectA_SCplus_EXTERNAL_REFEREE_RECONCILIATION_2026-11-15.md) | Correct after the coinitial-diagonal-cover clarification; locally compact nonstable controls remain separate. |
+| **A06** | P | [A-SC original](project-a/audits/2026-11-15/ASC/Referee_report_original.md); [LC-A original](project-a/audits/2026-11-15/LCA/Referee_report_original.md) | Positive stable case and negative nonstable example originally reviewed **separately**; optional refinements in later addenda not thereby E. |
+| **A07** | R+L | [21 Oct coherent audit comparison](A-coherent-external-audits-reconciliation-2026-10-21.md) | Two privately supplied coherent independent assessments summarized; Cornish conormality itself classical. Original private reports not re-opened this pass. |
+| **A08** | P | [9 Nov W-phase original](project-a/audits/2026-11-09/Wphase/Independent_Blind_Referee_Report_2026-11-09.md) | Explicit **C1 repair** required to prove \(\mathcal U\) fitted \(\Rightarrow\mathcal U=\mathcal F\). Repaired theorem, not original unrepaired argument, earns E. |
+| **A09** | P | [9 Nov W-phase original](project-a/audits/2026-11-09/Wphase/Independent_Blind_Referee_Report_2026-11-09.md) | Connected strict diamond Z8 audited; its two strictness defects are **factorwise**, not intrinsically coupled. |
+| **A10** | P | [24 Oct original](A-postV-external-Claude-referee-report-2026-10-24.md) | Finite Alexandrov and noncoherent controls are reviewed only within the packet's specified examples. |
+| **A11** | R+I | [23 Oct Vfin reconciliation](A-V-fin-negative-independent-audit-reconciliation-and-generic-points-2026-10-23.md); [canonical](A-Vfin-negative-consolidated-proof-2026-10-23.md) | Original **T1 cofinite-sheet** strictness was blindly reviewed, per reconciliation; **sober T0 generic-point** model was referee-suggested afterward, checked internally. |
+| **A12** | P+I | [14 Nov bridge original](project-a/audits/2026-11-14/Q-dense-rational-bridge/EXTERNAL_BLIND_REFEREE_REPORT.md) | Original referee accepted rational-bridge Q/Q′ **under packet definitions** but explicitly did **not** check that those match older \(\Phi,\Phi_2\) formulations; subsequent translation I. |
+| **A13** | L+I | [Intermediate-hull source map](ProjectA_ENDGAME_INTERMEDIATE_HULLS_FINITE_COVERS_LITERATURE_2026-11-21.md) | Standard closure/fitting abstract machinery and an internal notation translation; no independent novel hull-operator claim. |
+| **A14** | R+P+I | [Lower products reconciliation](ProjectA_LOWER_PRODUCTS_EXTERNAL_REFEREE_RECONCILIATION_2026-11-17.md); [W-phase original](project-a/audits/2026-11-09/Wphase/Independent_Blind_Referee_Report_2026-11-09.md) | Finite-factor cases and repaired lower-product packet supported; **referee A3–A5** and stronger product conjectures retain post-report I, not blanket E. |
+| **A15** | P | [Sober far-grid original](project-a/audits/2026-11-08/far-grid/ProjectA_far_grid_EXTERNAL_referee_report_2026-11-08.md); [subfit original](project-a/audits/2026-11-08/far-grid/ProjectA_subfit_far_grid_EXTERNAL_referee_report_2026-11-08.md) | Two distinct blind reports confirm two false-converse witnesses; F refers to the **disproved converse**, not the validity of its counterexamples. |
+| **A16** | R+L | [21 Oct dual-normality reconciliation](A-external-audit-reconciliation-2026-10-21.md) | External audit reported compact normality/coherent duality with repairs; source is a private original plus reconciliation, not an original report reread here. |
+| **A17** | P+I | [24 Oct original](A-postV-external-Claude-referee-report-2026-10-24.md) | Coherent nontransitive \(\mathcal H\), coherent transitivity criterion and exact \(\omega+m\) stages reviewed. Later noncoherent transitive-\(\mathcal H\) example I. |
+| **A18** | **R+C+I** | [21 Oct reconciliation](A-external-audit-reconciliation-2026-10-21.md); [expanded coproduct working proof](A-coproduct-preservation-I-U.md) | **GRADE REPAIRED:** original coproduct acceptance has an explicitly demanded infinitary cp-ideal proof repair; later product/heredity claims separately I on available evidence. |
+| **A19** | I | [Continuous rank-three working proof](A-V-continuous-frame-universal-depth-three-2026-10-22.md) and linked companion rank notes | Working upper bounds, not separately blind-reviewed in the current record; grade I is appropriately conservative. |
+| **A20** | L+I | [Equality/kernel-pair characterization](A-equality-characterizations.md) | Published separation premises plus the internal mono/epi warning; \(\mathcal F=\Delta\) does not imply a completely regular locale. |
+
+## 4. Group-by-group evidence matrix — B (16 groups)
+
+| ID | Record | Source checked or traced | Exact provenance boundary |
+|---|---|---|---|
+| **B01** | L (+specified E) | [Composition literature deep dive](ProjectA_ENDGAME_COMPOSITION_LITERATURE_DEEP_DIVE_2026-11-21.md) | General Loc nonassociativity predates project; specific counterexamples have independent packets, not a new universal proof. |
+| **B02** | P+I | [8 Nov coherent original](project-a/audits/2026-11-08/ProjectA_coherent_composition_EXTERNAL_referee_report_2026-11-08.md) | Genuine proconstructible Loc calculus reviewed; subsequent equivalence with Stone closed-relation category is **internally** checked. |
+| **B03** | L | [Composition literature deep dive](ProjectA_ENDGAME_COMPOSITION_LITERATURE_DEEP_DIVE_2026-11-21.md) | Classical compact-Hausdorff **closed** relations; do not infer all arbitrary Loc sublocales associate. |
+| **B04** | P+J+R | [20 Nov clique original and reconciliation](ProjectA_CLIQUE_POWER_ASSOCIATIVITY_REFEREE_RECONCILIATION_2026-11-20.md); [21 Nov bounded structural recheck](ProjectA_ENDGAME_STRUCTURAL_EXTERNAL_REFEREE_RECONCILIATION_2026-11-21.md) | **Original 20 Nov packet was compact metric clique theorem**. Compact Hausdorff G′ and mixed p/q RC were **referee-origin afterward**; mixed RC subsequently obtained an **independent structural blind review**, so E is traceable to that **later** packet, not falsely to the original. G′ itself retains distinct provenance. |
+| **B05** | P+C | [Graph-chart original](project-a/audits/2026-11-21/GRAPH_CHART_RANK/INDEPENDENT_REFEREE_REPORT.md) | Associative locally-closed graph-extension **conditional on imported RC**; not a general graph/TWIST theorem. |
+| **B06** | P+C | [Balanced/matrix original](project-a/audits/2026-11-21/BALANCED_WITNESS_SCATTERED_MATRIX/INDEPENDENT_REFEREE_REPORT.md) | Conditional on RC/(G,T,O); empty fibre invalidates faithful wreath identification; correction incorporated. |
+| **B07** | P | [MAT* original](project-a/audits/2026-11-21/MATSTAR_MULSTAR/INDEPENDENT_REFEREE_REPORT.md) | **MAT* and genuine binary MUL*** accepted for **arbitrary locale P**, locally compact scattered Hausdorff K. This higher scope **was** in the specific original packet. |
+| **B08** | P+I | [MAT* original](project-a/audits/2026-11-21/MATSTAR_MULSTAR/INDEPENDENT_REFEREE_REPORT.md) | FINMAT* accepted in original packet, including finite support; **row-only/column-only and extra truncations** are later addenda. General finite-join law independently confirmed. |
+| **B09** | J+I | [MAT* referee addendum](project-a/audits/2026-11-21/MATSTAR_MULSTAR/REFEREE_ADDENDUM.md) and [new reconciliation](ProjectA_MATSTAR_MULSTAR_REFEREE_RECONCILIATION_2026-11-21.md) | Discrete comparison, indexed pullback/image, arbitrary index subspaces and finite truncation **post-report**; original E of MAT* cannot transfer to all these claims. |
+| **B10** | P+I | [20 Nov diameter-rank original](project-a/audits/2026-11-20/BOUNDED_DIAMETER_RANK/INDEPENDENT_REFEREE_REPORT.md); [postreport rank note](ProjectA_BOUNDED_DIAMETER_RANK_EXTERNAL_AUDIT_RECONCILIATION_2026-11-20.md) | Original diameter-two/three ranks E; **exact diameter-one n+2** is subsequent referee-addendum/internally checked result. |
+| **B11** | P+I+O | [Graph-chart original](project-a/audits/2026-11-21/GRAPH_CHART_RANK/INDEPENDENT_REFEREE_REPORT.md); [graph reconciliation](ProjectA_GRAPH_EXTENSIONS_REFEREE_RECONCILIATION_2026-11-21.md) | Original probes/negative examples E conditional RC; safe constant-fibre criterion and scattered exact-two-to-one examples were later. Full safe-graph classification O. |
+| **B12** | P+C | [Generic-fibre original](project-a/audits/2026-11-19/GENERIC_FIBRE_COMPOSITION/INDEPENDENT_BLIND_REFEREE_REPORT.md) | Referee accepted abstract cutoff but **did not reconstruct underlying long finite-fence coordinates**; geometric inputs imported explicitly. |
+| **B13** | P+C | [Four-step original](project-a/audits/2026-11-19/FOURSTEP_BINARY_CLOSED_SEPARATOR/ProjectA_FourStep_Binary_ClosedSeparator_INDEPENDENT_REFEREE_REPORT_2026-11-19.md) | Verdict **valid with specific repairs**, including closed-separator lemma and patch-fibre step; equality is **fixed bracketing**. |
+| **B14** | P+C | [L* original](project-a/audits/2026-11-08/ProjectA_Lstar_EXTERNAL_INDEPENDENT_referee_report_2026-11-08.md) | Original blind report verified arbitrary X,Y and **closed E**; proper pullback stability is named published import. |
+| **B15** | **L+I** | [20 Oct foundation reconciliation](A-external-audits-reconciliation-2026-10-20.md); [nonidempotence example](A-saturation-operator-nonidempotence.md) | **GRADE REPAIRED:** Vermeulen theorem L; referee-supplied example from *non-strictly-blind* foundational review, internally checked, **not E under current key**. |
+| **B16** | J+I | [Structural-review reconciliation](ProjectA_ENDGAME_STRUCTURAL_EXTERNAL_REFEREE_RECONCILIATION_2026-11-21.md) | Rectangle unit iff finite supplied **after** structural referee's original verdict, checked internally; original packet did not contain theorem. |
+
+## 5. Group-by-group evidence matrix — C (11 groups)
+
+| ID | Record | Source checked or traced | Exact provenance boundary |
+|---|---|---|---|
+| **C01** | P+C | [10 Nov chain-hull original](audits/2026-11-10/chain-hull/Referee_report_original.md) | Claims A–H accepted **after proof/site repairs**; still depend on chosen Stone-sheaf site/standard imported results. |
+| **C02** | L | [Dowker and classifying-anima literature crosswalk](ProjectA_ENDGAME_LITERATURE_CROSSWALK_2026-11-21.md) | Ordinary/categorical/higher set-relational Dowker antecedents not claimed as new localic homotopy. |
+| **C03** | R+C | [Fourth-audit final reconciliation](PointFree_audit4_FINAL_RECONCILIATION_2026-11-11.md) | Original C1 relative to P1–P6 accepted **according to reconciliation**; private original fourth report not reread from raw bytes here. |
+| **C04** | R+C | [Fourth-audit final reconciliation](PointFree_audit4_FINAL_RECONCILIATION_2026-11-11.md); [canonical higher meet](PointFree_binary_meet_hull_CANONICAL_2026-11-11.md) | Original C6 binary patched graph reconstruction accepted **conditional on earlier premises**; no arbitrary-map preservation inferred. |
+| **C05** | R+X+C | [Fourth-audit independent cross-review reconciliation](PointFree_audit4_crossreview_stage2_reconciliation_2026-11-11.md) | **Post-verdict** C→M groupoid and 2-connectivity accepted by *opposite A/B referee*, **not original C blind packet**, with effective descent and realization-connectivity/under-C prerequisites. |
+| **C06** | R+C | [Fourth-audit final reconciliation](PointFree_audit4_FINAL_RECONCILIATION_2026-11-11.md) | Original C4–C9 finite controls supported **relative to P1–P6**, distinguished from any new post-verdict 2-type claim. |
+| **C07** | P+R+C | [10 Nov nonconstant-sheaf original](audits/2026-11-10/postaudit-sheaf/Referee_report_original.md); [fourth-audit final reconciliation](PointFree_audit4_FINAL_RECONCILIATION_2026-11-11.md) | Third audit and fourth original claims underwent repairs/site imports. Some later nonconstant extensions in the canonical are not automatically original E. |
+| **C08** | R+X+C | [Fourth cross-review](PointFree_audit4_crossreview_stage2_reconciliation_2026-11-11.md) | New finite-pair gluing constancy-iff-acyclic theorem proposed by A/B after initial verdict and independently cross-checked by C. **Infinite Stone S** for converse; arbitrary infinite complexes not proved. |
+| **C09** | R+E/I | [Fourth final reconciliation](PointFree_audit4_FINAL_RECONCILIATION_2026-11-11.md) | Original restricted B4 (infinite-order group) accepted relative to A/B premises; **all nontrivial groups** enhancement arose in *nonblind internal comparison* and retains I. |
+| **C10** | L+I | [Haine identification](PointFree_classifying_anima_identification_2026-11-11.md) | Definition-level comparison to published classifying anima in **spectral** site, not an original project invention, and not separately blind audited. |
+| **C11** | I+C | [Crosscut ladder working note](PointFree_crosscut_connectivity_ladder_2026-11-11.md) | No separate blind review of the full new ladder identified; chosen Stone-sheaf hypotheses and classical crosscut connectivity inputs remain explicit. |
+
+## 6. Audit of the evidence-grade system itself
+
+The ledger's current key says **E means main claim *independently blind-reviewed***, **X means after-verdict result separately independently cross-checked**, and **I means internally checked only or referee-origin addendum not separately reviewed**. Several historical variants need care:
+
+1. **Submitted but repaired** is legitimately E **after** the repair is accepted, with a **C** tag where a nontrivial imported lemma remains unproved by the packet. Direct original examples: **A03, A08, C01, B13, B14**.
+2. **Original blind claim vs post-verdict addition:** provenance must remain split even if the author/referee later proves an elegant generalization. Principal examples: **A11 T1 vs T0, B04 compact-metric clique vs compact-Hausdorff RC/G′, B10 diameter two/three vs one, B16 unit theorem, C05 2-connectivity, C08 finite-pair constancy, C09 all-groups strengthening**.
+3. **A later distinct blind report can upgrade exactly the theorem it checks:** the **21 Nov structural packet** explicitly reviewed **mixed p/q RC**, so its E label is supported **even though the same formula was first proposed in a 20 Nov addendum**. The review does **not** automatically upgrade every supporting lemma or the exact G′ generation theorem.
+4. **A parent E theorem does not lend E to all consequences:** the separately checked **MAT*/MUL*** does not give E to arbitrary-subspace heredity, all-indexed functoriality, one-sided matrices, or conjectural general TWIST.
+5. **An independent but not blind review is valuable, but does not equal E under this ledger's key:** the 20 Oct foundation audit history and **B15** correction make this explicit.
+6. **Reconciliation is not a copy of an original referee report:** for original fourth A/B/C reports and privately supplied early reports, the public evidence is a dated reconciliation and premise trace. Do not assert a **new original-report reinspection** that did not occur.
+
+## 7. Documentary gaps remaining after this pass
+
+**Raw-primary-report visibility:** The original fourth-audit **C and A/B** packets and two separate original reports, the original Vfin report, and certain 21 Oct coherent/duality reports are referenced as privately supplied and previously read, but **not available as directly fetched public repository documents**. Their original literal claims and qualifiers can be recovered from project attachments if available; this report relies on the **separately authored reconciliations**, and marks the corresponding rows **R**.
+
+**Source-backed E is not proof by this reviewer:** Even where P is available, I checked its asserted verdict, scope, imported assumptions, and major post-verdict distinctions—not every lemma anew. The mathematical work was done in the original audit; this is an audit of **attribution and evidence provenance**.
+
+**Historical novelty:** None of the sources confers priority; the initial [literature map](ProjectA_ENDGAME_LITERATURE_CROSSWALK_2026-11-21.md) and [full Plewe reading](ProjectA_PLEWE_1996_FULL_PRIMARY_SOURCE_COMPARISON_2026-11-21.md) document significant known antecedents. The exact G′ formula, mixed RC and related localic matrix derivations have *not* received an exhaustive priority check.
+
+**Action:** Keep corrected A18 and B15 status, retain all original submitted reports unchanged, and consider a future **raw fourth-reports documentary check** only if the originals are accessible, rather than silently promoting R rows to P. Do not require another broad blind mathematical audit merely to verify archival metadata.
+
+## 8. Disposition
+
+**Result:** **All 47 ledger group IDs have now been matched to a specific accessible source or dated reconciliation and assigned a precise provenance/visibility classification. Two definite E-grade overextensions were found and corrected (A18 and B15).** Several mixed-status entries are accurately qualified without needing to renumber or split theorem IDs.
+
+**No major theorem is withdrawn.** This is a better-maintained account of **what was submitted, independently examined, repaired, introduced afterward, and imported**—not a claim that a single reviewer independently verified 47 mathematical theorems.
+
+**Recommended next action for project endgame:** one author's final pass over the [two-study account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md), [corrected ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md), and this report before archival freeze. Exact historical publication/novelty investigation should be a separate undertaking if one of the mathematical strands is developed into a paper.
