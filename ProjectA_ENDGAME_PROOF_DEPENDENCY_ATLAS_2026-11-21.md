@@ -1,3 +1,5 @@
+> **SESSION 11 DEPENDENCY UPDATE:** The adopted [two-study proof-guided account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md) now gives the principal reader-facing ordering. The MAT→MUL→FINMAT chain below has been upgraded by a **separate focused blind audit** to arbitrary locale parameter P and locally compact scattered Hausdorff K; the original compact-P labels are historical. General **finite** sublocale-pullback join preservation is established; infinite interchange remains unsafe. The higher-sheaf premises remain conditional exactly as before.
+
 > **21 NOV — INDEPENDENT STRUCTURAL REVIEW:** [external referee reconciliation](ProjectA_ENDGAME_STRUCTURAL_EXTERNAL_REFEREE_RECONCILIATION_2026-11-21.md) tested genuine coherent Loc images, four mixed RC cases, compact-scattered sector/MUL and finite matrix supports, patched \(\mathbf C\to\mathbf M\) descent, coherent nontransitive H, and the Q/Q′ bridge. Four interfaces **valid**, three **conditionally valid after visible imported-premise/site qualifiers**. [One-page assumptions chart](ProjectA_ENDGAME_NOTATION_AND_ASSUMPTIONS_2026-11-21.md). Referee's post-report deduction: rectangular finite-join algebra **has a unit iff G is finite**; the graph-extended unit for infinite G is a genuine enlargement. General TWIST, all-index matrix associativity and intrinsic localic homotopy are **not inferred**.
 
 > **21 NOV — FOURTH PACKETS RECOVERED:** The user located original fourth-audit blind packets (prepared 10 Nov); [repaired exact P1–P6 / A/B P1–P5 crosswalk](PointFree_ENDGAME_FOURTH_AUDIT_PREMISE_TRACE_2026-11-21.md) now resolves the missing-literal-premise problem described in earlier banners. Their premises were previously audited in the cited canonical sources; fourth audit remains explicitly conditional and not a new independent validation of premises.
@@ -79,17 +81,17 @@ flowchart TD
 
 ```mermaid
 flowchart TD
- S["Scattered K + compact Hausdorff P; singleton-sector SPLIT"] --> MAT["MATn: all sublocales fibrewise from closed sectors"]
- MAT --> MUL["MUL: exact binary composition indexed matrix rule"]
+ S["Locally compact scattered K + arbitrary locale P; singleton-sector SPLIT"] --> MAT["MAT*: all sublocales fibrewise from closed sectors"]
+ MAT --> MUL["MUL*: exact binary actual-Loc composition index formula"]
  A["Associative fibre algebra with finite joins"] --> FIN["Row/column finite localic matrix algebra"]
  MUL --> FIN
  FIN --> PATH["Finite graph path expansion"]
  MUL --> DISC["Discrete-index complete lattice + binary composition comparison"]
 ```
 
-Source [matrix reconciliation](ProjectA_BALANCED_WITNESS_SCATTERED_MATRIX_POSTREFEREE_RECONCILIATION_2026-11-21.md) / [matrix note](ProjectA_SCATTERED_INDEX_LOCALLY_FINITE_LOCALIC_RELATION_MATRICES_2026-11-21.md). **The crucial image proof**: form actual composability sublocale Q in a triple product, split Q into the MATn **closed sectors**, then take arbitrary-join-preserving localic image and reconstruct by SPLIT. It is generally **invalid** to distribute localic pullback/meet over an infinite join of entries. Arbitrary matrix binary multiplication exists but is **not associative** merely by this formula. FINMAT uses *finite* supports.
+**Current main source:** [arbitrary-parameter MAT*/MUL*/FINMAT* canonical](ProjectA_MATSTAR_MULSTAR_POSTREFEREE_CANONICAL_2026-11-21.md) and [separate blind referee reconciliation](ProjectA_MATSTAR_MULSTAR_REFEREE_RECONCILIATION_2026-11-21.md), superseding the original compact-Hausdorff parameter restriction of the [older matrix reconciliation](ProjectA_BALANCED_WITNESS_SCATTERED_MATRIX_POSTREFEREE_RECONCILIATION_2026-11-21.md) and [older matrix note](ProjectA_SCATTERED_INDEX_LOCALLY_FINITE_LOCALIC_RELATION_MATRICES_2026-11-21.md). **The crucial image proof**: form actual composability sublocale Q in a triple product, split Q into the MATn **closed sectors**, then take arbitrary-join-preserving localic image and reconstruct by SPLIT. It is generally **invalid** to distribute localic pullback/meet over an infinite join of entries. Arbitrary matrix binary multiplication exists but is **not associative** merely by this formula. FINMAT uses *finite* supports.
 
-**Separate provenance:** row/column one-sided algebras, finite-flank law and **discrete-index comparison** arose in referee's **addendum**, not submitted blind proof. Locally compact MAT extension has only a persuasive proof sketch and needs its own verification before upgrade.
+**Separate provenance:** the **arbitrary-parameter locally compact scattered MAT*/MUL*/FINMAT* extension has now received its own focused blind technical audit**. Earlier one-sided matrix, finite-flank and discrete-index comparisons arose in earlier referee addenda; arbitrary-subspace index heredity and indexed image formulas are **post-new-audit addenda** and should not inherit the main theorem's independent review status.
 
 ### F. Generic fibre, four-step effectivity, Scott-continuity
 
@@ -134,6 +136,6 @@ The *source* literature crosswalk is [endgame source ledger](ProjectA_ENDGAME_LI
 
 **Priority 2:** Produce a curated source list: original Cameron–Kumar; Arrieta/Isbell; Johnstone–Sun; Townsend/CHLoc; Hofmann–Nora; Jakl–Suarez; de Brecht; Dowker–Brun–Salbu/Haine. Exact results linked already in literature notes.
 
-**Priority 3:** Prepare final first-reading guide with ~five representative examples, and a residual open-problem register limited to work that is genuinely unresolved (not Q/Q′, not clique associativity inside RC).
+**Priority 3 — COMPLETED in Session 11:** The [adopted two-study proof-guided synthesis](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md) now uses five concrete examples and carries explicit proof/status gates. Remaining work is review of that account against the ledger and a final freeze of truly unresolved frontiers.
 
-**Explicitly deferred:** broad TWIST, locally compact MAT/MUL extension without proof reconciliation, complete rank classification, arbitrary-Loc associativity criteria, all-site intrinsic homotopy/shape, ambitious generalizations of finite-fence four-step generation.
+**Explicitly deferred:** broad TWIST, possible extensions of MAT*/MUL* to index classes beyond the now-audited locally compact scattered case, complete rank classification, arbitrary-Loc associativity criteria, all-site intrinsic homotopy/shape, ambitious generalizations of finite-fence four-step generation.
