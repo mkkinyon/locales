@@ -1,3 +1,5 @@
+> **21 NOV — SESSION 11 REVISED MATHEMATICAL ARCHITECTURE:** [New two-study synthesis and exact scattered amplification corollaries](ProjectA_ENDGAME_REVISED_CONCEPTUAL_ARCHITECTURE_AND_AMPLIFICATION_2026-11-21.md). After the full Plewe source comparison and the independent arbitrary-`P` MAT*/MUL* acceptance, the recommended **reader-facing organization** is: **Study I** genuine binary localic relations (coherent patch, Booleanization/rectangles, scattered matrices, diagonal hull/rank boundaries), **Study II** higher simultaneous witnesses in the specified Stone-sheaf ∞-topos. The **47-group historical A/B/C ledger is retained unchanged**. Newly combined coherent/rectangular coefficient matrix lifts and the rational/irrational nonisolated-index example are **internal formal corollaries**, not additional blind-audited claims. The earlier three-branch synthesis remains an accurate research-history narrative but its compact-`P` MAT/MUL scope is superseded by MAT*/MUL*.
+
 # From graphs to localic relations: a mathematical synthesis
 ## Unified Point-Free Topology project · editorial synthesis following independent structural review · 21 November 2026
 
@@ -128,7 +130,7 @@ Finite joins of these rectangles form an associative, converse-closed, finite-jo
 
 ### 3.2. Scattered indices allow exact matrices — but local finiteness buys association
 
-Take \(G=P\times K\), with P **compact Hausdorff** and K **compact scattered Hausdorff**. The parameterized scattered-sector theorem gives, for the finite products used in composition,
+Take \(G=P\times K\), with **arbitrary locale P** and **locally compact scattered Hausdorff K** (the older compact-Hausdorff hypothesis was superseded by the independently accepted MAT* extension). The parameterized scattered-sector theorem gives, for the finite products used in composition,
 \[
 \mathsf{Sub}(P^n\times K^n)
 \cong\prod_{\mathbf k\in K^n}\mathsf{Sub}(P^n).
@@ -231,7 +233,7 @@ Several pieces of infrastructure were in the literature: the basic closed/fitted
 
 The most important **settled** questions include: coherent proconstructible finite composition; \(V<V_{\rm fin}\) examples; nontransitive coherent H; Q/Q′ negative finite-cover bridge; mixed p/q RC; finite-support scattered matrix algebra; all higher patched I/D reconstructed from binary graph + patch and sharp chain→M connectivity in the chosen site; rectangular unitality iff finite.
 
-The important **unsettled or deferred** issues are not these completed theorems but better general necessary/sufficient **safe graph-adjunction** conditions, wider **MAT/MUL** extensions with fully checked hypotheses, broad **TWIST** common-ambient support, general classification of arbitrary-locale hull collapses, more systematic rank realization/bounds, and extension from patched chosen-site comparisons to genuinely intrinsic **localic shape**. Earlier research notes and the [current frontier register](ProjectA_ENDGAME_OPEN_FRONTIERS_2026-11-21.md) give narrower versions; they need not be solved before an archive wrap-up.
+The important **unsettled or deferred** issues are not these completed theorems but better general necessary/sufficient **safe graph-adjunction** conditions, possible further **MAT/MUL** index-class extensions beyond the already blind-accepted arbitrary-parameter locally compact scattered theorem, broad **TWIST** common-ambient support, general classification of arbitrary-locale hull collapses, more systematic rank realization/bounds, and extension from patched chosen-site comparisons to genuinely intrinsic **localic shape**. Earlier research notes and the [current frontier register](ProjectA_ENDGAME_OPEN_FRONTIERS_2026-11-21.md) give narrower versions; they need not be solved before an archive wrap-up.
 
 ## 8. How to resume or develop this work later
 
