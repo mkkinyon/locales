@@ -1,69 +1,107 @@
 # Point-free topology — start here
 
-**Live reading guide:** [Adopted two-study mathematical account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md) → [five detailed examples](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md) → [assumptions](ProjectA_ENDGAME_NOTATION_AND_ASSUMPTIONS_2026-11-21.md) → [theorem ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md). The historical A/B/C divisions remain repository provenance, not the adopted chapter plan. Our [comparison of Plewe’s full 37-page journal article](ProjectA_PLEWE_1996_FULL_PRIMARY_SOURCE_COMPARISON_2026-11-21.md) and independently checked [arbitrary-parameter MAT*/MUL*/FINMAT*](ProjectA_MATSTAR_MULSTAR_REFEREE_RECONCILIATION_2026-11-21.md) are current; the [first editorial/source-consistency pass](ProjectA_ENDGAME_EDITORIAL_SOURCE_CONSISTENCY_REVIEW_2026-11-21.md) documented navigation, definitions, citations and links, and the [second-pass 47-group audit](ProjectA_ENDGAME_SECOND_PASS_47_GROUP_PROVENANCE_2026-11-21.md) has now traced original-versus-addendum evidence and corrected **A18/B15**, while earlier contrary banners are preserved [here](ProjectA_ENDGAME_HISTORICAL_STATUS_NOTICES_ARCHIVE_2026-11-21.md).
-**Final focused independent audit (21 November):** [Clique overlap-graph ranks, finite-graph realizations, point filtration, rectangular unitality and (G′) background](ProjectA_FINAL_FOCUSED_CLIQUE_UNITALITY_REFEREE_RECONCILIATION_2026-11-21.md) all passed the separate scoped Claude review; the live theorem grades **B04/B10/B16** are updated. **No addendum or further audit** was requested. This was a model-generated review, not a new publication or priority certificate.
-**Fourth-audit primary-source update:** Both original 11 November blind reports and both targeted opposite-referee follow-ups are now [directly checked against our reconciliation](PointFree_FOURTH_AUDIT_PRIMARY_REPORTS_REINSPECTION_2026-11-21.md). These were private conversation uploads and remain **unpublished as raw files** in GitHub; the direct read confirms the current **E/X/I** distinctions.
+*A mathematical reading guide · current as of 21 November 2026*
 
-**October 21 primary-audit recovery:** The original broader D1–D9 referee report and both independent coherent/Hochster referee reports, with packets and plank supplement, are [directly inventoried and compared here](ProjectA_OCT21_PRIMARY_REFEREE_REPORTS_REINSPECTION_2026-11-21.md). The original D1–D9 audit explicitly covered the frame-product/heredity scope of **A18**; its previous internal-only grade has been adjusted to the exact external-review evidence, with infinitary/extensivity proof repairs retained.
+## The question behind the project
 
-**October 23 \(\mathcal V\) referee-report recovery:** Three original blind reports and all prompt/packet pairs on \(\mathcal V\), the strict V3/V4 stage and Vfin were [directly inventoried and compared](ProjectA_OCT23_PRIMARY_V_REFEREE_REPORTS_REINSPECTION_2026-11-21.md). The **A11** original/post-verdict split stands; the continuous-frame rank-3 bound in **A19** is now recognized as externally checked in original claim C1 (distinct rank-2 cases remain internal). The general V report's two corrected ancillary mistakes were preserved explicitly.
+Cameron and Kumar's [*Graphs on Topological Spaces*](https://arxiv.org/abs/2610.14783) prompted a question: **what becomes of separation graphs when we replace a topological space by a locale?**
 
-**October 20 original foundational audits recovered:** Both external reviews, the preceding 19 October internal audit and the original request were [directly compared with the dated reconciliation](ProjectA_OCT20_FOUNDATIONAL_PRIMARY_AUDIT_REINSPECTION_2026-11-21.md). The externals were **not strictly blind**; the referee-origin \(r_{\mathcal I}\) special counterexample remains **B15 I**, while Vermeulen's published proper-effectivity theorem remains **L**. The specifically identified Oct 20/21/23 and Nov 11 report-recovery tasks are now complete, with original uploads preserved privately.
+For a locale \(X\), a binary relation is a **sublocale of the localic square** \(X\times_{\mathbf{Loc}}X\). That is not always captured by an ordinary set of point pairs. Indeed, three things can differ:
 
-## Endgame research archive · active consolidation, 21–25 November 2026
+- an ordinary relation on the points of \(X\);
+- the *point-generated* sublocale of \(X^2\) corresponding to that relation;
+- a **genuine localic relation**, which may contain nonzero information invisible to every ordinary point.
 
-**This is the current reading guide.** The research began in October 2026 with Cameron–Kumar's *Graphs on Topological Spaces* (arXiv:2610.14783): reinterpret five graph relations as **genuine sublocales of the localic square**, understand their separation hierarchy and composition, and compare higher witness/homotopy constructions. The main goal has been **learning and mathematical understanding**; publication is optional and explicitly outside the planned November 25 research wrap-up.
+This difference matters for closure, fitting, separation and—especially—**relational composition**. The project began with the point-free separation hierarchy and grew into two connected mathematical studies:
 
-### The current entry points
+**Study I — Genuine binary localic relations.** When can we calculate with these relations? Three useful regimes emerge: **coherent/patch order**, **compact Hausdorff closed supports and Booleanization**, and **scattered-index matrix decompositions**. Outside restricted regimes, neither pointwise composition nor associative algebra rules are automatically valid.
 
-**Recommended first encounter (adopted organization):** [From graphs to localic evidence — two studies, five proof-guided examples](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md). It has now received a [focused internal adversarial reading](ProjectA_ENDGAME_TWO_STUDIES_INTERNAL_ADVERSARIAL_AUDIT_2026-11-21.md): no fatal mathematical defect found, with closed-support proof/provenance, notation and finite-example corrections incorporated. **Study I** develops genuine binary localic relations through coherent patch, Isbell closed supports and scattered-sector matrices; **Study II** develops higher simultaneous witnesses in the specified Stone-sheaf setting. The [original three-branch synthesis](ProjectA_ENDGAME_MATHEMATICAL_SYNTHESIS_2026-11-21.md) remains a useful history of how the research developed, but **is no longer the primary reader-facing narrative**.
+**Study II — Higher simultaneous witnesses.** How much information is preserved by the binary graphs when we also consider common upper/lower witnesses, patched higher relations, and their simplicial realizations? Binary data with the appropriate patch structure can recover important **1-type** information; it does **not**, by itself, recover the **2-type**.
 
-| Read in this order | What it does |
+The goal of this archive has primarily been **mathematical understanding**. It is a proof-guided research record, not a claim that every deduction is new to the literature or ready for publication.
+
+## Your reading route
+
+**If you read only one document, read the [two-study mathematical account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md).** It is the adopted exposition; it does not require following the historical A/B/C research branches or the chronological audit trail.
+
+For a slow first reading, the following two sittings provide natural stopping points. There is no need to check every proof or citation on this first pass.
+
+| Suggested sitting | Read | What to look for |
+|---|---|---|
+| **First: why point-free changes the answer** | [Main account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md), **Study I, §§1–3** (through Example 4) | The five-point relation hierarchy; a closed-and-fitted hull that fails transitivity; the rational-bridge obstruction; a composite with no ordinary middle point |
+| **Second: what can be calculated, and what cannot be recovered** | Main account, **Study I §§4–5**, **Study II §§6–7**, then **§§8–9** | Scattered-sector matrix multiplication; why its associativity needs restrictions; patched higher witnesses; the six-point 1-type/2-type boundary; final synthesis |
+
+Two companions are particularly useful **alongside** the account rather than as prerequisites:
+
+- [Five worked examples, with fuller computations](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md). Open the corresponding example after encountering it in the main account. It is fine to read just the examples on a first pass.
+- [Notation and assumptions](ProjectA_ENDGAME_NOTATION_AND_ASSUMPTIONS_2026-11-21.md). Keep this nearby as a reference when a relation symbol, ambient category, or imported result needs checking. It is not necessary to memorize the whole notation table before beginning.
+
+**A good first-read question:** at each transition, ask *which part of the argument uses ordinary points, which part uses sublocales, and why the distinction matters*. This is more important initially than retaining every theorem number.
+
+## The five examples — what each is there to teach
+
+| Example in the main account | Point of the example |
 |---|---|
-| 1. **[Adopted proof-guided two-study synthesis](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md)** | Primary self-contained account of the three binary calculi, five example proofs, higher witnesses, and exact source/audit boundaries. |
-| 2. [Detailed five-example computations](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md) | Companion calculations, original canonical proof links, and finite-versus-sheaf-homotopy caveats. |
-| 3. [Notation, ambient categories and assumptions](ProjectA_ENDGAME_NOTATION_AND_ASSUMPTIONS_2026-11-21.md) | Compact technical scope and import map; guards against invalid pointwise/infinitary substitutions. |
-| 4. [Current 47-group theorem ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) | Exact hypotheses, repaired evidence grades (A18/B15), source provenance, and deferred boundaries. **Supersedes historical statuses.** |
-| 5. [Proof dependency atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md) | Which theorems import other theorems; where actual localic image, Booleanization and sheaf descent are essential. |
-| 6. [Endgame literature crosswalk](ProjectA_ENDGAME_LITERATURE_CROSSWALK_2026-11-21.md) | Existing primary-source theory and comparisons. **Not a claim of novelty or priority.** |
-| 7. [Open-frontier register](ProjectA_ENDGAME_OPEN_FRONTIERS_2026-11-21.md) | Unresolved research or proof/documentation tasks with historical open questions already resolved. |
+| **1. Five-point fence** | The basic localic separation relations are already distinct in a manageable finite coherent space. |
+| **2. Two convergent zigzag rays** | The least closed-and-fitted diagonal hull \(\mathcal H\) need **not** be transitive, even coherently. |
+| **3. Rational bridge étale locale** | Finite-cover and unrestricted-cover constructions can agree on ordinary pairs yet differ as genuine sublocales. |
+| **4. Disjoint rational/irrational middle sets** | Two relations can have **empty ordinary pointwise composite** but **full nonzero localic composite** because their middle supports meet pointlessly. |
+| **5. Six-point witness comparison** | Higher patched binary witness data can recover the chain **fundamental groupoid**, but cannot in general recover the chain **2-type**. |
 
-The [big-picture spine](ProjectA_ENDGAME_BIG_PICTURE_SPINE_2026-11-21.md) and [old three-branch integrated account](ProjectA_ENDGAME_MATHEMATICAL_SYNTHESIS_2026-11-21.md) are preserved for history and alternative exposition. **The adopted two-study proof-guided document above is the main mathematical entry point.**
+There is also a short \(P\times(\omega+1)\) example in Study I, §4, showing how the pointless middle-witness mechanism lives inside a **nonisolated closed scattered-index sector**. It connects the compact-support and matrix calculi without requiring you to learn a new general theory first.
 
-### Historical research branches A/B/C (archive and theorem IDs; not the adopted exposition)
+## A small vocabulary to keep in view
 
-**A. Separation, diagonal hulls, graph hierarchy:** [fitted diagonal](A-fitted-diagonal.md), [coherent proof](ProjectA_coherent_composition_canonical_proof_2026-11-08.md), [stably compact J/T graph theorem](ProjectA_J_T_COMPARABILITY_GRAPH_STABLY_COMPACT_CANONICAL_2026-11-17.md), [SC+](ProjectA_SCplus_CANONICAL_2026-11-15.md), [A spatiality](ProjectA_ASC_CANONICAL_2026-11-15.md) and [counterexample](ProjectA_LCA_COUNTEREXAMPLE_CANONICAL_2026-11-15.md), [W-phase referee reconciliation](ProjectA_Wphase_EXTERNAL_referee_reconciliation_2026-11-09.md), [strict V<Vfin proof](A-Vfin-negative-consolidated-proof-2026-10-23.md), [Q/Q′ rational bridge](ProjectA_Q_DENSE_RATIONAL_BRIDGE_CANONICAL_2026-11-14.md).
+Throughout, \(X^2\) means the **localic** product \(X\times_{\mathbf{Loc}}X\), not a direct product of frames. A few recurring relations are
 
-**B. Actual localic composition, graph algebras and matrix calculi:** [arbitrary-parameter scattered-index matrices, newly audited](ProjectA_MATSTAR_MULSTAR_POSTREFEREE_CANONICAL_2026-11-21.md), [coherent composition canonical](ProjectA_coherent_composition_canonical_proof_2026-11-08.md), [compact-Hausdorff mixed p/q rectangle algebra](ProjectA_CLIQUE_RECTANGULAR_CALCULUS_POSTREFEREE_CANONICAL_2026-11-20.md), [locally closed graph extensions and boundaries](ProjectA_GRAPH_EXTENSIONS_POSTREFEREE_CANONICAL_2026-11-21.md), [balanced-witness/scattered-matrix audit reconciliation](ProjectA_BALANCED_WITNESS_SCATTERED_MATRIX_POSTREFEREE_RECONCILIATION_2026-11-21.md), [Stone clique composition rank](ProjectA_STONE_CLIQUE_OVERLAP_RANK_CANONICAL_2026-11-20.md), [generic fibre](ProjectA_GENERIC_FIBRE_COMPOSITION_POSTREFEREE_CANONICAL_2026-11-19.md), [four-step repair](ProjectA_FourStep_Short_Proof_Consolidated_2026-11-19.md), [L* corrected proof](ProjectA_Lstar_canonical_corrected_proof_2026-11-08.md).
+\[
+\begin{aligned}
+\Delta&=\text{the diagonal of }X,\\
+\mathcal I&=\operatorname{cl}\Delta
+  &&\text{(inseparability)},\\
+\mathcal D&=\operatorname{fit}\Delta
+  &&\text{(fitted diagonal)},\\
+\mathcal V&=\operatorname{fit}\mathcal I,\qquad
+\mathcal W=\operatorname{cl}\mathcal D,\\
+\mathcal H&=\text{least sublocale containing }\Delta
+  \text{ that is both closed and fitted},\\
+\mathcal U&=\text{Urysohn separation relation},\\
+\mathcal F&=\text{functional equivalence relation}.
+\end{aligned}
+\]
 
-**C. Higher witnesses/Dowker, sheaf homotopy and classifying anima:** [chain/hull canonical](PointFree_coherent_chain_hulls_CANONICAL_2026-11-10.md), [sheaf Čech canonical](PointFree_nonconstant_sheaf_Cech_CANONICAL_2026-11-10.md), [fourth-audit final reconciliation](PointFree_audit4_FINAL_RECONCILIATION_2026-11-11.md), [binary meet-hull canonical](PointFree_binary_meet_hull_CANONICAL_2026-11-11.md), [relative gluing/twisted coefficients canonical](PointFree_relative_gluing_twisted_CANONICAL_2026-11-11.md), [classifying-anima identification](PointFree_classifying_anima_identification_2026-11-11.md), [crosscut connectivity ladder](PointFree_crosscut_connectivity_ladder_2026-11-11.md).
+In the compact Hausdorff part, \(p(A,B)=[A\times B]\) is the **point-generated** bipartite relation and \(q(A,B)=[A]\times_{\mathbf{Loc}}[B]\) is the **full localic rectangle**. In the higher-witness study, \(M_n=I_n\cap D_n\) denotes a *simultaneous* upper/lower witness construction; it should not be confused with a binary composition power.
 
-### Basic notation and caveats
+The [full notation reference](ProjectA_ENDGAME_NOTATION_AND_ASSUMPTIONS_2026-11-21.md) gives exact definitions, conventions, and theorem-specific hypotheses.
 
-We use **localic** products, not frame direct products: \(X^2=X\times_{\mathrm{Loc}}X\). \(\Delta\) is the diagonal; \(\mathcal I=\operatorname{cl}\Delta\), \(\mathcal D=\operatorname{fit}\Delta\), \(\mathcal V=\operatorname{fit}\mathcal I\), \(\mathcal W=\operatorname{cl}\mathcal D\), \(\mathcal H\) least closed-and-fitted diagonal hull, \(\mathcal U\) Urysohn relation, \(\mathcal F\) functional relation, \(\mathcal A\) oriented specialization, \(\mathcal S=\mathcal A\vee\mathcal A^\smile\), \(\mathcal M=\mathcal I\wedge\mathcal D\), \(\mathcal J=\mathcal I\vee\mathcal D\), \(\mathcal T=\mathcal W\wedge\mathcal V\).
+Three cautions make almost the entire account easier to read:
 
-**Avoid four recurring errors:** (1) a **spatial locale** can have nonspatial sublocales; (2) arbitrary localic relation composition need not associate; (3) patch-closed spectral point formulas do not automatically extend to noncoherent locales; (4) patched Stone-sheaf homotopy is not intrinsic localic shape without additional theorems.
+1. **A spatial locale need not have only spatial sublocales.** A genuine composition may therefore create information unseen by ordinary pairs.
+2. **Localic relation composition need not be associative in general.** The coherent, compact rectangular and finite-support matrix results are deliberately restricted positive calculi. Finite joins and arbitrary infinite joins must not be interchanged casually.
+3. **The higher-homotopy conclusions live in a specified patched Stone-sheaf \(\infty\)-topos**, under explicit descent and connectivity inputs. They are not an unrestricted theorem about intrinsic localic shape.
 
-**Important historical corrections:** Q/Q′ are **refuted**, strict V<Vfin proved, general finite-chart necessity refuted, general TWIST extrapolation not proved, and some referee addenda are only internally checked. Consult current theorem ledger before interpreting an earlier note's “open,” “candidate,” or “pending” labels.
+## When you want to check a proof
 
-### Mathematical stress test after the packet recovery
+The main account links directly to its canonical technical sources. For the three major calculi and the higher comparison, the most useful destinations are:
 
-The [binary meet-hull / 2-connectivity cold read](PointFree_ENDGAME_BINARY_MEET_CONNECTIVITY_COLD_READ_2026-11-21.md) independently enumerates the six-point P/Q models and checks the groupoid witness-descent mechanism and the stated Čech/connectivity proof gates. It **does not** claim a new full verification of sheaf \(\infty\)-topos machinery. Read it after the fifth worked example.
+| Mathematical topic | Go to |
+|---|---|
+| Coherent patch-order relation composition | [Coherent composition canonical proof](ProjectA_coherent_composition_canonical_proof_2026-11-08.md) |
+| Nontransitive closed-fitted hull and rational bridge | [Zigzag proof](A-H-two-convergent-zigzag-rays-nontransitive-coherent-counterexample-2026-10-24.md) and [rational bridge canonical](ProjectA_Q_DENSE_RATIONAL_BRIDGE_CANONICAL_2026-11-14.md) |
+| Compact Hausdorff \(p/q\) rectangles and clique powers | [Rectangular calculus](ProjectA_CLIQUE_RECTANGULAR_CALCULUS_POSTREFEREE_CANONICAL_2026-11-20.md) and [Stone overlap-clique rank](ProjectA_STONE_CLIQUE_OVERLAP_RANK_CANONICAL_2026-11-20.md) |
+| Arbitrary-parameter scattered-index decomposition | [MAT*/MUL*/FINMAT* canonical proof](ProjectA_MATSTAR_MULSTAR_POSTREFEREE_CANONICAL_2026-11-21.md) |
+| Higher witness groupoids, 2-connectivity and gluing | [Binary meet-hull canonical](PointFree_binary_meet_hull_CANONICAL_2026-11-11.md) and [relative gluing canonical](PointFree_relative_gluing_twisted_CANONICAL_2026-11-11.md) |
 
-### Fourth-audit provenance — original packets recovered
+For a *dependency question*—“does this proof actually establish the step being used, or is it imported from a previous theorem?”—consult the [proof dependency atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md). For all exact hypotheses and current evidence grades, use the [47-group theorem ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md). You need neither document to follow the initial story.
 
-The [verified fourth-audit premise trace](PointFree_ENDGAME_FOURTH_AUDIT_PREMISE_TRACE_2026-11-21.md) compares the **original 10 November C and A/B ZIP packets**, now supplied by the project owner, with earlier canonical and externally reviewed coherent/Čech/Dowker sources. It records **C-P1–P6** and **A/B-P1–P5**, whose numbering is not identical. The precise dependency list is now complete. The original packets remain private conversation uploads, rather than being copied into the public repository. The fourth-audit conclusions remain **conditional on the previously reviewed premises**; this reconciliation does not independently re-prove them.
+## After the first reading
 
-### Sources, audits and publication
+**To understand what remains unresolved:** [Open-frontier register](ProjectA_ENDGAME_OPEN_FRONTIERS_2026-11-21.md). Here “open” means **unresolved in our project**, not necessarily open in the published literature.
 
-- The older [A research status index](A-research-status-index.md) is broad and chronology-heavy. It is useful for finding historical work, **not** for authoritative up-to-date statuses.
-- The older [Project A ledger v1.9](ProjectA_master_theorem_ledger_v1_9_2026-11-09.md) and [Point-Free ledger v2.2](PointFree_master_theorem_ledger_v2_2_2026-11-11.md) remain archival snapshots.
-- Independent blind reports and candidate packets must remain **unaltered**; read post-referee reconciliation for the corrected result. These are **model-generated adversarial checks**, not human peer review or formal proof verification.
-- The [Johnstone–Sun weak/full-product review](ProjectA_ENDGAME_JOHNSTONE_SUN_WEAK_PRODUCTS_PRIMARY_SOURCE_2026-11-21.md) identifies classical foundations of p/q; [Townsend/spectral relation comparison](ProjectA_ENDGAME_COMPOSITION_LITERATURE_DEEP_DIVE_2026-11-21.md) and [Arrieta separation review](ProjectA_ENDGAME_SEPARATION_PRIMARY_SOURCE_CROSSWALK_2026-11-21.md) distinguish known theory from project synthesis.
-- A decision to develop one or more research papers may be taken later. No publication-writing deadline has been set. The **planned research stop is 25 November 2026**.
+**To compare with prior work:** [Literature crosswalk](ProjectA_ENDGAME_LITERATURE_CROSSWALK_2026-11-21.md), including Cameron–Kumar, Isbell, Johnstone–Sun, Plewe and the established point-free separation literature. The project's exact novelty/priority has **not** been systematically certified.
 
-**Reader-facing synthesis adopted and internally audited in Session 11 (November 21, 2026).** The mathematics and evidence ledger have undergone two editorial/provenance passes. The [archival candidate handoff](ProjectA_ENDGAME_ARCHIVAL_HANDOFF_CANDIDATE_2026-11-21.md) identifies what remains before a final freeze; the planned November 25 stopping point does not itself certify a completed archive.
+**To inspect the research history or audit evidence:** [Archival handoff candidate](ProjectA_ENDGAME_ARCHIVAL_HANDOFF_CANDIDATE_2026-11-21.md) and [source-by-source provenance review](ProjectA_ENDGAME_SECOND_PASS_47_GROUP_PROVENANCE_2026-11-21.md). The historical A/B/C identifiers are filing and provenance labels, **not** reading chapters. The more detailed [original three-branch synthesis](ProjectA_ENDGAME_MATHEMATICAL_SYNTHESIS_2026-11-21.md) is retained as a record of the route by which the results were discovered.
 
-### Adversarial consolidation repairs (21 November)
+Several mathematical claims were refined or independently checked *after* their first referee reports. In particular, the later [focused clique/rectangular audit](ProjectA_FINAL_FOCUSED_CLIQUE_UNITALITY_REFEREE_RECONCILIATION_2026-11-21.md) checked full-support generation, exact clique ranks, finite-overlap realizations and unitality. The [current ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md), rather than any old dated “pending” banner, determines their present status. Model-generated independent audits are evidence of careful checking, **not human peer review, formal verification, or a publication-priority certificate**.
 
-> **21 NOV 2026 — ADVERSARIAL CONSOLIDATION AUDIT AND REPAIRS:** Read [internal adversarial audit](ProjectA_ENDGAME_CONSOLIDATION_INTERNAL_ADVERSARIAL_AUDIT_2026-11-21.md) alongside [corrected ledger v3.1](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md). **Key repairs:** \(\mathcal H\) is **not** always transitive (even coherently); the finite p/q rectangular algebra is **not asserted unital**, though the larger graph extension is; and late referee-addendum/internal results have separate provenance. Restored compact/coherent \(\mathcal D=\mathcal U\) normality, exact \(\omega+m\) H ranks, and unrestricted \(L^*\) formula. Historical proofs/reports preserved.
+The planned **25 November 2026** research stopping point is an organizational milestone, not a deadline to prove outstanding conjectures or a declaration that the archive has already been frozen.
