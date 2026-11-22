@@ -73,7 +73,7 @@ On **stably compact** locales, the named relations \(\mathcal I,\mathcal D,\math
 \]
 The example explicitly exhibits a point triple \((a_0,t,b_0)\) composable through the common patch limit t while \((a_0,b_0)\) lies outside the least closed/fitted hull. The key theorem is a **sublocale** statement, secured by coherent closed/fitted reconstruction. In the coherent class, \(\mathcal H\) is transitive **iff** \(\mathcal H=\mathcal F\). Related closed-stage hull constructions first stabilize at every ordinal \(\omega+m\), \(m\ge1\); their limit stages involve **closure of the preceding join**. These are separate, earlier-reviewed theorems, not results rechecked by the 21 November final structural packet. [Two-ray example](A-H-two-convergent-zigzag-rays-nontransitive-coherent-counterexample-2026-10-24.md); [ordinal stages](A-H-formal-hull-odd-powers-omega-plus-m-2026-10-24.md).
 
-**Second: finite proof complexity can fail to generate a fitted relation.** A *bar* is a frame-coproduct open w satisfying \(w\vee d_{\mathcal I}=1\). Well-founded rectangular separation trees measure the depth of such a proof. For a countable first-countable T₁ construction (original blind reviewed) and a simpler sober T₀ refinement (post-verdict referee suggestion checked internally),
+**Second: bars certified by finite-rank separation trees need not cut out the full fitted relation.** A *bar* is a frame-coproduct open w satisfying \(w\vee d_{\mathcal I}=1\). Well-founded rectangular separation trees measure the depth of such a proof. For a countable first-countable T₁ construction (original blind reviewed) and a simpler sober T₀ refinement (post-verdict referee suggestion checked internally),
 \[
 \boxed{\mathcal V\subsetneq \mathcal V_{\mathrm{fin}},}
 \]
