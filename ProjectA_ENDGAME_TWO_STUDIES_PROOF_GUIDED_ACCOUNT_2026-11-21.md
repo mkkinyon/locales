@@ -1,6 +1,8 @@
 # From graphs to localic evidence: two studies, five proof-guided examples
 ## A mathematical account of the Point-Free Topology project · adopted reader-facing synthesis · 21 November 2026
 
+**Internal adversarial audit (21 Nov):** [claim-by-claim source and finite-case audit](ProjectA_ENDGAME_TWO_STUDIES_INTERNAL_ADVERSARIAL_AUDIT_2026-11-21.md) found no fatal mathematical error in the checked interfaces, but required sharpening the provenance and generation proof of (G′), an overloaded symbol, and certain finite/example scopes. Those editorial/proof-interface repairs are integrated below. This is **internal** checking, not a new external or formal proof certificate.
+
 **Audience.** Mathematicians with basic algebra/topology who want to understand what the project actually established, rather than read a chronological research log or a list of 47 theorem groups. This is a **proof-guided synthesis and learning document**, not a finished publication, a new external audit, or a claim of novelty. The three historical A/B/C branches remain in the [authoritative research ledger](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md); **this two-study organization is the adopted *reader-facing* account**. Detailed proofs, assumptions, and evidence statuses stay in their linked canonical sources.
 
 **Central question.** What does an ordinary graph on the points of a locale retain about a genuine sublocale relation? When does the graph suffice to compute a relation or its composition, and when must one remember pointless witnesses, closed supports, or higher simultaneous witnesses?
@@ -29,7 +31,7 @@ Write \(\Delta\hookrightarrow X^2\) for the diagonal. Our basic separation and h
 \mathcal T=\mathcal V\wedge\mathcal W,
 \end{gathered}
 \]
-together with the Urysohn relation \(\mathcal U\), functional relation \(\mathcal F\), and the **least simultaneously closed and fitted** diagonal super-relation \(\mathcal H\). Write \(\mathcal A\) for oriented localic specialization, \(\mathcal B=\mathcal A^\smile\) for its converse, and \(\mathcal S=\mathcal A\vee\mathcal B\). The spectral-point convention is \(x\le y\) if every open containing \(x\) also contains \(y\), so **opens are upsets**. Our order reverses the convention used in some graph papers.
+together with the Urysohn relation \(\mathcal U\), functional relation \(\mathcal F\), and the **least simultaneously closed and fitted** diagonal super-relation \(\mathcal H\). Write \(\mathcal A\) for oriented localic specialization and \(\mathcal A^\smile\) for its converse; put \(\mathcal S=\mathcal A\vee\mathcal A^\smile\). (We reserve \(\mathcal B(K)\) below for the **unrelated** Booleanization operation.) The spectral-point convention is \(x\le y\) if every open containing \(x\) also contains \(y\), so **opens are upsets**. Our order reverses the convention used in some graph papers.
 
 For composable localic relations \(R\le X\times Y\) and \(S\le Y\times Z\), composition means **first \(R\), then \(S\)**:
 \[
@@ -48,8 +50,8 @@ This is the smallest-sublocale image of the **actual localic composability pullb
 
 It yields the **finite** relation-word identities
 \[
-\boxed{\mathcal I=\mathcal A\mathcal B,\quad
-\mathcal D=\mathcal B\mathcal A,\quad
+\boxed{\mathcal I=\mathcal A\mathcal A^\smile,\quad
+\mathcal D=\mathcal A^\smile\mathcal A,\quad
 \mathcal V=\mathcal D^2,\quad
 \mathcal W=\mathcal I^2,\quad
 \mathcal S^2=\mathcal J.}\tag{2}
@@ -70,12 +72,12 @@ a<m,\qquad a<k,\qquad b<k,\qquad b<n,
 \]
 and no further strict comparisons. The comparability graph is the path \(m-a-k-b-n\). The **common-upper** relation \(\mathcal I\) contains \((a,b)\), witnessed by \(k\), but \(\mathcal D\), the **common-lower** relation, does not. Conversely, \((m,k)\in\mathcal D\), witnessed by \(a\), but \((m,k)\notin\mathcal I\).
 
-In this finite coherent/Alexandrov setting, the actual localic composition is computed by (2)–(3). A two-step common-upper path exists between every pair **except** the two ordered pairs with endpoints \(m,n\). Therefore
+In this finite coherent/Alexandrov setting, the actual localic composition is computed by (2)–(3). An independent enumeration gives \(|\mathcal I|=15\), \(|\mathcal D|=17\), and \(|\mathcal I^2|=23\). A two-step common-upper path exists between every pair **except** the two ordered pairs with endpoints \(m,n\). Therefore
 \[
 \boxed{\mathcal U=\mathcal W=P^2\setminus\{(m,n),(n,m)\}.}
 \tag{4}
 \]
-Every continuous real-valued function is constant along each specialization edge, hence along the connected comparability graph, so \(\mathcal F=P^2\). The direct finite hull calculation gives \(\mathcal H=P^2\) as well.
+Every continuous real-valued function is constant along each specialization edge, hence along the connected comparability graph, so \(\mathcal F=P^2\). The **separate** finite closed/fitted hull computation in the canonical source gives \(\mathcal H=P^2\) as well; graph connectedness by itself would not justify that genuine sublocale equality without the coherent representation theorem.
 
 **Lesson.** Some distinctions in the hierarchy are entirely readable from a small order. The coherent theorem is what licenses the promotion from those point-order computations to **genuine sublocale relations**. [Finite fence computation and audit](A-W-HmeetU-connected-example-finite-poset-product-2026-11-09.md).
 
@@ -141,9 +143,9 @@ q(A,D),&[B]_G\wedge[C]_G\ne0,\\
 }
 \tag{9}
 \]
-The full outer \(q(A,D)\) can itself be zero if \(A\) or \(D\) is empty. With that qualification, the finite-join \(p/q\) rectangular algebra is associative, converse-closed, and contains zero. Its **multiplicative unit exists inside that finite-join algebra iff \(G\) is finite** (a **post-referee** theorem, internally checked, not in the original rectangular blind candidate).
+The full outer \(q(A,D)\) can itself be zero if \(A\) or \(D\) is empty. With that qualification, the finite-join \(p/q\) rectangular algebra is associative, converse-closed, and contains zero. Its **multiplicative unit exists inside that finite-join algebra iff \(G\) is finite** (counting the one-element zero algebra when \(G=\varnothing\); otherwise assume \(G\ne\varnothing\)). This is a **post-referee** theorem, internally checked, not in the original rectangular blind candidate.
 
-**Proof mechanism.** A nonzero sublocale \(W\le [A]\times[D]\) has a least compact closed ambient support \(K\), with both \(A\)- and \(D\)-coordinate traces dense in \(K\). More strongly, the separately checked **full-sublocale generation** theorem reconstructs
+**Proof mechanism.** A nonzero sublocale \(W\le [A]\times[D]\) has a least compact closed ambient support \(K\), with both \(A\)- and \(D\)-coordinate traces dense in \(K\). More strongly, the **full-sublocale generation theorem (G′)**, **proposed in a referee's post-verdict mathematical addendum and internally proof-reconciled**, reconstructs
 \[
 \boxed{
 [A]_G\times_{\rm Loc}[D]_G=
@@ -153,6 +155,8 @@ K\cap(A\times G),\,K\cap(G\times D)\text{ dense in }K}}
 }
 \tag{G′}
 \]
+**Why the join is the whole product.** Every indicated \(\mathcal B(K)\) lies in the product because the two coordinate-trace sublocales are dense in \(K\), and their meet contains the least dense sublocale. Let \(J\) denote their join. If \(J<[A]\times_{\rm Loc}[D]\), **fitness of the compact Hausdorff ambient locale** supplies an ambient open sublocale \(O\ge J\) that does not contain the full product. Its complementary closed sublocale \(F\) meets that product in some \(0\ne W\). The least closed support \(K'\) of \(W\) is a qualifying compact closed support lying in \(F\), so \(0\ne\mathcal B(K')\le J\wedge F=0\), a contradiction. This proves the **generation direction**; density alone would not suffice. The **mixed RC formula (9)** was subjected to a separate later independent structural review, which must not be conflated with an original blind audit of the referee-origin (G′).
+
 Nonzero middle overlap has a nonempty compact closed support; over that support, the two composability pullbacks are dense, and their meet contains its least dense sublocale. Localic image of that meet saturates each outer \(\mathcal B(K)\), giving the full outer rectangle. This proves (9) without an ordinary middle point. The generating formula (G′) is a **whole-sublocale representation**, not merely the spatiality test from Plewe; *its precise historical priority has not been determined*. [Rectangular canonical proof](ProjectA_CLIQUE_RECTANGULAR_CALCULUS_POSTREFEREE_CANONICAL_2026-11-20.md).
 
 ### Example 4. Disjoint rational/irrational middle sets produce a full composite
@@ -227,7 +231,7 @@ The nonzero coefficient lies in the **closed, nonopen \((\omega,\omega)\) index 
 
 Three additional types of obstruction from the research archive remain mathematically distinct:
 
-- **Bar/proof-tree rank** in the \(\mathcal V\)-program: finite separation trees can have arbitrarily large ranks, and a specific exact rank-\(\omega\) bar gives \(\mathcal V\subsetneq\mathcal V_{\mathrm{fin}}\). A derivation of a new exact rank is **not** a pointfree Booleanization witness or a localic matrix-composition rank. [Consolidated strictness proof](A-Vfin-negative-consolidated-proof-2026-10-23.md).
+- **Bar/proof-tree rank** in the \(\mathcal V\)-program: finite separation trees can have arbitrarily large ranks, and an explicit **countable first-countable \(T_1\) example** with an exact rank-\(\omega\) bar gives \(\mathcal V\subsetneq\mathcal V_{\mathrm{fin}}\) **for that locale** (not a universal strictness statement). A derivation of a new exact rank is **not** a pointfree Booleanization witness or a localic matrix-composition rank. [Consolidated strictness proof](A-Vfin-negative-consolidated-proof-2026-10-23.md).
 - **Hull iteration**: the closed/fitted \(\mathcal H\) process can have specified first stabilization ordinals \(\omega+m\), \(m\ge1\), with **closure** at limit stages. This is neither the \(\mathcal V\)-bar rank nor graph diameter. [Ordinal calculation](A-H-formal-hull-odd-powers-omega-plus-m-2026-10-24.md).
 - **Relational composition depth**: locally finite/rectangular Stone examples have graph components of ordinary diameter \(\le1\) yet arbitrarily growing localic composition rank; some exact-rank refinements were **post-report internal checks**. [Stone rank canonical](ProjectA_STONE_CLIQUE_OVERLAP_RANK_CANONICAL_2026-11-20.md).
 
@@ -296,7 +300,7 @@ However, chains do detect the middle order. Their order complexes satisfy
 |\mathrm{Ch}(Q)|\simeq S^0*|\Delta^1|*S^0\simeq *.
 \tag{16}
 \]
-Moreover, \(M_\bullet(P)\) and \(M_\bullet(Q)\) are cones: adjoining either specified middle vertex does not introduce a prohibited extreme pair. Therefore
+The direct finite enumeration gives chain-complex face counts \((6,12,8)\) for \(P\) and \((6,13,12,4)\) for \(Q\), while the two meet-witness complexes each have face counts \((6,13,12,4)\). Moreover, \(M_\bullet(P)\) and \(M_\bullet(Q)\) are cones: adjoining either specified middle vertex does not introduce a prohibited extreme pair. Therefore
 \[
 \boxed{\mathbf M(P)\simeq\mathbf M(Q)\simeq *;\qquad
 \mathbf C(P)\simeq S^2,\quad\mathbf C(Q)\simeq *.}\tag{17}
