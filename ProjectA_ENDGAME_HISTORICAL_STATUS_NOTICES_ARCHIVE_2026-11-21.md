@@ -172,3 +172,21 @@ These are the dated **chronological notices that previously appeared before the 
 
 
 
+
+---
+
+## Additional earlier README notices formerly inside its body (verbatim)
+
+These posts previously appeared after the opening current-guidance paragraph and before the first substantive section. They are historical, particularly the **Q/Q′ remain open** statement, which was later refuted.
+
+> **CURRENT STATUS — 10 November 2026 (three independent blind audits).** Former tracks A (separation relations) and C (coherent homotopy) are one program; B is archived. **Start with the [unified index](POINT_FREE_TOPOLOGY_START_HERE.md), [theorem ledger v2.1](PointFree_master_theorem_ledger_v2_1_2026-11-10.md), [open-problem register v1.8](ProjectA_open_problems_register_v1_8_2026-11-10.md), and [thematic guide](POINT_FREE_THEMATIC_GUIDE.md).** The latest audited mathematics A1–E3 is in the [corrected nonconstant-sheaf account](PointFree_nonconstant_sheaf_Cech_CANONICAL_2026-11-10.md); the original [third blind report](audits/2026-11-10/postaudit-sheaf/Referee_report_original.md) and [reconciliation](PointFree_postaudit_sheaf_EXTERNAL_referee_reconciliation_2026-11-10.md) are separate. The earlier [canonical chain/hull account](PointFree_coherent_chain_hulls_CANONICAL_2026-11-10.md) remains foundational. The referee's new nonabelian full-homotopy counterexample came **after** its audited claims and has been checked internally, not blind-refereed. No complete literature-priority or intrinsic-localic-shape claim is made.
+
+> **HISTORICAL SUBJECT INDEX (9 November):** [Project A entry point](PROJECT_A_START_HERE.md) remains useful for the separation hierarchy, W/Q′/composition, and older canonical proofs. Its dated status is not a second current master. [Previous ledger v1.9](ProjectA_master_theorem_ledger_v1_9_2026-11-09.md) and [previous problem register v1.6](ProjectA_open_problems_register_v1_6_2026-11-09.md) are preserved as snapshots. Q and Q′ remain OPEN and DEFERRED; the 9 November [W-phase reconciliation](ProjectA_Wphase_EXTERNAL_referee_reconciliation_2026-11-09.md) stands.
+
+Research notebook inspired by P. J. Cameron and V. Kumar, *Graphs on topological spaces* ([arXiv:2610.14783](https://arxiv.org/abs/2610.14783)).
+
+**Exploratory mathematics, not a submission-ready paper.** The foundational results and two principal counterexamples have now received an internal audit and two external adversarial reviews (20 October 2026). These were **not strictly blind**, and correctness of all peripheral notes and novelty/priority remain open. Start with the **[consolidated theorem outline](A-consolidated-theorems.md)** and the **[external-audit reconciliation](A-external-audits-reconciliation-2026-10-20.md)** rather than treating dated exploratory notes as current status.
+
+> **Research continuity (21 October 2026):** Start with the [research-status index](A-research-status-index.md). It distinguishes audited results, working proofs, open problems, and corrected false leads. See also [closure properties](A-closure-properties-I-U.md), [Scott-continuity converse ledger](A-scott-continuity-converse-status-2026-10-21.md), and [Cornish/minimal-prime literature ledger](A-literature-separation-status-2026-10-21.md).
+
+
