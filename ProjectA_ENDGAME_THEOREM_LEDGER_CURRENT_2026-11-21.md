@@ -1,6 +1,8 @@
 > **21 NOV — SESSION 11 BLIND AUDIT STATUS UPDATE:** Arbitrary-locale MAT*, genuine binary MUL* and FINMAT* now **E** from a distinct focused independent model referee, [reconciled here](ProjectA_MATSTAR_MULSTAR_REFEREE_RECONCILIATION_2026-11-21.md). The former open **finite-join product identity** is generally true by coframe-homomorphism pullback, not by special compactness assumptions. Additional post-report referee deductions remain separate **I**. This changes **B07–B09 scope/status notes**, not the 47-group count. Previous Claude-origin “I pending” banner below is historical and superseded.
 
 
+> **SESSION 11 READER-FACING CONSOLIDATION:** The A/B/C IDs in this **47-group ledger** remain the authoritative *research-provenance taxonomy*. The adopted **mathematical exposition** now has [two studies and five proof-guided examples](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md); detailed [five-example companion](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md) and [exact hypotheses](ProjectA_ENDGAME_NOTATION_AND_ASSUMPTIONS_2026-11-21.md). This editorial reorganization does **not** change independent audit grades. In particular B07–B08 already record the separately blind-reviewed arbitrary-locale MAT*/MUL*/FINMAT* extension, and C05 retains the post-verdict/site-conditional 2-connectivity provenance.
+
 # Point-free topology — current authoritative theorem ledger
 ## Endgame consolidation draft v3.2 · 21 November 2026 · planned close 25 November
 
