@@ -134,6 +134,9 @@ The ledger's current key says **E means main claim *independently blind-reviewed
 
 ## 8. Disposition
 
+**Subsequent final focused independent audit (21 November 2026):** Claude directly accepted the finite Stone overlap-clique localic formula and exact completion rank (A1), arbitrary finite connected overlap-graph realization (A2), point filtration (A3) and **unital iff finite** rectangular criterion (B), while also separately verifying the full support-generation **(G′)** and its fitness argument; see [final focused report reconciliation](ProjectA_FINAL_FOCUSED_CLIQUE_UNITALITY_REFEREE_RECONCILIATION_2026-11-21.md). Consequently the **current ledger now marks B04's (G′) background, B10's exact clique/realization/filtration, and B16's unitality theorem as E**. The **historical J+I or P+I labels in this table** describe their **pre-final-audit provenance**, not the current grade. Discoveries in old referee addenda and the new independent checking remain different events. No other theorem grade was promoted; no further audit or addendum is requested.
+
+
 **Result:** **All 47 ledger group IDs have now been matched to a specific accessible source or dated reconciliation and assigned a precise provenance/visibility classification. Two definite E-grade overextensions were found and corrected (A18 and B15).** Several mixed-status entries are accurately qualified without needing to renumber or split theorem IDs.
 
 **No major theorem is withdrawn.** This is a better-maintained account of **what was submitted, independently examined, repaired, introduced afterward, and imported**—not a claim that a single reviewer independently verified 47 mathematical theorems.
