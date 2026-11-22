@@ -27,7 +27,7 @@ Relational composition uses the genuine localic pullback followed by image, with
 \begin{cases}X_1\times Y_2,&Y_1\wedge X_2\ne0,\\0,&Y_1\wedge X_2=0.\end{cases}
 \tag{R}
 \]
-For nonzero middle W, projection from the composability locale is a pullback of W→1, an **open surjection in classical Loc**. This proves (R) without assuming that W has points. Composition distributes over **finite** joins of sublocales; no arbitrary-join exchange is asserted.
+For nonzero middle W, projection from the composability locale is a pullback of W→1, an **open surjection in classical Loc**. This proves (R) without assuming that W has points. In the **compact-Hausdorff rectangular setting used here**, composition distributes over **finite** joins of the relevant sublocales, using the requisite product/pullback stability. No assertion of finite-join distributivity for **all arbitrary localic relation triples** is needed, and no arbitrary-join interchange is asserted.
 
 ### 2. Compact closed-support richness
 
