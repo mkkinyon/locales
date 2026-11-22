@@ -17,25 +17,25 @@
 # Point-free topology — start here
 ## Endgame research archive · active consolidation, 21–25 November 2026
 
-**Read this instead of the first fifty chronological files.** The research began in October 2026 with Cameron–Kumar's *Graphs on Topological Spaces* (arXiv:2610.14783): reinterpret five graph relations as **genuine sublocales of the localic square**, understand their separation hierarchy and composition, and compare higher witness/homotopy constructions. The main goal has been **learning and mathematical understanding**; publication is optional and explicitly outside the planned November 25 research wrap-up.
+**This is the current reading guide.** The research began in October 2026 with Cameron–Kumar's *Graphs on Topological Spaces* (arXiv:2610.14783): reinterpret five graph relations as **genuine sublocales of the localic square**, understand their separation hierarchy and composition, and compare higher witness/homotopy constructions. The main goal has been **learning and mathematical understanding**; publication is optional and explicitly outside the planned November 25 research wrap-up.
 
 ### The current entry points
 
-**Recommended first encounter:** [From graphs to localic relations — the final mathematical synthesis](ProjectA_ENDGAME_MATHEMATICAL_SYNTHESIS_2026-11-21.md). It explains the *single motivating question*, the three branches, their genuine links and failed implications, and why five examples suffice to make the theory readable. Follow it with the [five worked examples](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md); consult the detailed ledger only when exact statements or provenance matter.
+**Recommended first encounter (adopted organization):** [From graphs to localic evidence — two studies, five proof-guided examples](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md). **Study I** develops genuine binary localic relations through coherent patch, Isbell closed supports and scattered-sector matrices; **Study II** develops higher simultaneous witnesses in the specified Stone-sheaf setting. The [original three-branch synthesis](ProjectA_ENDGAME_MATHEMATICAL_SYNTHESIS_2026-11-21.md) remains a useful history of how the research developed, but **is no longer the primary reader-facing narrative**.
 
 | Read in this order | What it does |
 |---|---|
-| 1. [Integrated mathematical synthesis](ProjectA_ENDGAME_MATHEMATICAL_SYNTHESIS_2026-11-21.md) | A sustained mathematical narrative connecting the diagonal hierarchy, actual localic composition, higher witnesses, and five sharp examples; distinguishes audited interfaces from imported results. |
-| 2. [Five worked examples](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md) | Concrete finite-order, coherent-hull, rational-bridge, rectangular-composition and six-point-homotopy calculations. |
+| 1. **[Adopted proof-guided two-study synthesis](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md)** | Primary self-contained account of the three binary calculi, five example proofs, higher witnesses, and exact source/audit boundaries. |
+| 2. [Detailed five-example computations](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md) | Companion calculations, original canonical proof links, and finite-versus-sheaf-homotopy caveats. |
 | 3. [Notation, ambient categories and assumptions](ProjectA_ENDGAME_NOTATION_AND_ASSUMPTIONS_2026-11-21.md) | One-page scope and import map; guards against invalid pointwise/infinitary substitutions. |
 | 4. [Current theorem ledger v3.2](ProjectA_ENDGAME_THEOREM_LEDGER_CURRENT_2026-11-21.md) | Forty-seven theorem groups, exact hypotheses, independent audit scope, referee-origin addenda, and deferred boundaries. **Supersedes historical statuses.** |
 | 5. [Proof dependency atlas](ProjectA_ENDGAME_PROOF_DEPENDENCY_ATLAS_2026-11-21.md) | Which theorems import other theorems; where actual localic image, Booleanization and sheaf descent are essential. |
 | 6. [Endgame literature crosswalk](ProjectA_ENDGAME_LITERATURE_CROSSWALK_2026-11-21.md) | Existing primary-source theory and comparisons. **Not a claim of novelty or priority.** |
 | 7. [Open-frontier register](ProjectA_ENDGAME_OPEN_FRONTIERS_2026-11-21.md) | Unresolved research or proof/documentation tasks with historical open questions already resolved. |
 
-The earlier [big-picture spine](ProjectA_ENDGAME_BIG_PICTURE_SPINE_2026-11-21.md) is retained as the *first-pass synthesis* in the record; the new integrated synthesis is preferred for readers unfamiliar with the project.
+The [big-picture spine](ProjectA_ENDGAME_BIG_PICTURE_SPINE_2026-11-21.md) and [old three-branch integrated account](ProjectA_ENDGAME_MATHEMATICAL_SYNTHESIS_2026-11-21.md) are preserved for history and alternative exposition. **The adopted two-study proof-guided document above is the main mathematical entry point.**
 
-### The three mathematical branches
+### Historical research branches A/B/C (archive and theorem IDs; not the adopted exposition)
 
 **A. Separation, diagonal hulls, graph hierarchy:** [fitted diagonal](A-fitted-diagonal.md), [coherent proof](ProjectA_coherent_composition_canonical_proof_2026-11-08.md), [stably compact J/T graph theorem](ProjectA_J_T_COMPARABILITY_GRAPH_STABLY_COMPACT_CANONICAL_2026-11-17.md), [SC+](ProjectA_SCplus_CANONICAL_2026-11-15.md), [A spatiality](ProjectA_ASC_CANONICAL_2026-11-15.md) and [counterexample](ProjectA_LCA_COUNTEREXAMPLE_CANONICAL_2026-11-15.md), [W-phase referee reconciliation](ProjectA_Wphase_EXTERNAL_referee_reconciliation_2026-11-09.md), [strict V<Vfin proof](A-Vfin-negative-consolidated-proof-2026-10-23.md), [Q/Q′ rational bridge](ProjectA_Q_DENSE_RATIONAL_BRIDGE_CANONICAL_2026-11-14.md).
 
@@ -67,7 +67,7 @@ The [verified fourth-audit premise trace](PointFree_ENDGAME_FOURTH_AUDIT_PREMISE
 - The [Johnstone–Sun weak/full-product review](ProjectA_ENDGAME_JOHNSTONE_SUN_WEAK_PRODUCTS_PRIMARY_SOURCE_2026-11-21.md) identifies classical foundations of p/q; [Townsend/spectral relation comparison](ProjectA_ENDGAME_COMPOSITION_LITERATURE_DEEP_DIVE_2026-11-21.md) and [Arrieta separation review](ProjectA_ENDGAME_SEPARATION_PRIMARY_SOURCE_CROSSWALK_2026-11-21.md) distinguish known theory from project synthesis.
 - A decision to develop one or more research papers may be taken later. No publication-writing deadline has been set. The **planned research stop is 25 November 2026**.
 
-**Last updated:** November 21, 2026. This front door is part of active consolidation and must be reviewed once more at the final stop.
+**Reader-facing synthesis adopted in Session 11 (November 21, 2026).** This front door remains provisional until the planned research stop on November 25, 2026.
 
 ### Adversarial consolidation repairs (21 November)
 
