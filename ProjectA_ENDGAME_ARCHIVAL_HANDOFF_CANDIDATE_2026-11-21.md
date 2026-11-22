@@ -74,7 +74,8 @@ The former three-branch [integrated account](ProjectA_ENDGAME_MATHEMATICAL_SYNTH
 - [ ] **Author's final reading and any desired revisions** of adopted account, current ledger and open register.
 - [ ] **Explicit archival freeze decision** if/when appropriate; optionally add a dated index/tag, but no such decision/action has occurred.
 - [x] **November 11 fourth-audit original referee report reinspection:** Both original blind reports, both focused independent cross-reviews, two nonblind comparisons and suggestions were [directly reopened in a separate source-recovery pass](PointFree_FOURTH_AUDIT_PRIMARY_REPORTS_REINSPECTION_2026-11-21.md). No theorem grade changed. Raw originals are **still private**; they were not silently published to GitHub.
-- [ ] **Optional** direct inspection of remaining early **October 20/21/23** original reports, and a separate decision whether to preserve user-supplied original reports in a publicly accessible archive. These are documentation tasks, not new mathematical theorems.
+- [x] **October 21 original referee reports:** Three independently written original reports (one D1–D9 audit and two coherent-relations/Hochster audits), both packet sets and supplementary plank note were [directly reopened](ProjectA_OCT21_PRIMARY_REFEREE_REPORTS_REINSPECTION_2026-11-21.md); the original **A18 product/heredity audit scope** has been restored in the current evidence grade. Their raw bytes remain private conversation uploads, not copied to public GitHub.
+- [ ] **Optional** direct inspection of remaining early **October 20 and 23** originals, and a separate decision on public archival release of privately supplied referee source materials. These are documentation tasks, not new mathematical theorems.
 - [ ] **Conditional upon later paper plans only:** rigorous historical priority screening and specialist/publication referee review.
 
 ## 7. How to resume safely in a future session
