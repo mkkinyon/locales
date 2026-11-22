@@ -1,3 +1,5 @@
+> **POST-SUBMISSION RESULT — 21 NOV 2026:** [Original independent report](INDEPENDENT_REFEREE_REPORT.md) and [separate referee addendum](REFEREE_ADDENDUM.md) have been archived unchanged. Main MAT*/MUL*/FINMAT* claims accepted with exposition clarifications; [post-referee proof](../../../../ProjectA_MATSTAR_MULSTAR_POSTREFEREE_CANONICAL_2026-11-21.md) and [reconciliation](../../../../ProjectA_MATSTAR_MULSTAR_REFEREE_RECONCILIATION_2026-11-21.md). Subsequent “pending” descriptions below are the historical **pre-audit** status.
+
 # MAT*/MUL* arbitrary-parameter blind technical audit — 21 November 2026
 
 ## Purpose
