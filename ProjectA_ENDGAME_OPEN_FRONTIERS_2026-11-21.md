@@ -35,6 +35,8 @@
 15. **Crosscut ladder and classifying-anima comparison.** Internal patched Stone crosscut connectivity theorem may merit a dedicated audit; Haine's classifying-anima identification is definition-level and not a new construction. Accurate comparison with the latest literature is more urgent than forcing a theorem.
 
 ### Already settled — do NOT reopen by accident
+- **Arbitrary-parameter MAT*/MUL*/FINMAT*.** Independently accepted in a separate focused blind technical review; [canonical proof and exact status](ProjectA_MATSTAR_MULSTAR_POSTREFEREE_CANONICAL_2026-11-21.md). New referee addendum corollaries have their own provenance.
+- **Finite-join product distributivity in unrestricted Loc.** **Positive:** \((S\vee T)\times Z=(S\times Z)\vee(T\times Z)\) for all locales, because pullback of sublocales preserves finite joins. This does not state an arbitrary infinite-join law.
 - **The universal transitivity of \(\mathcal H\)**: **negative even for coherent locales**, by the independently reviewed two-ray example; coherent \(\mathcal H\) transitive iff \(\mathcal H=\mathcal F\).
 - The universal Q and Q′ questions on whether \(\mathcal W_2=\mathcal U\) forces \(\mathcal W=\mathcal U\) and on whether W=W₂: **negative**, [Q bridge](ProjectA_Q_DENSE_RATIONAL_BRIDGE_CANONICAL_2026-11-14.md).
 - Finite-rank bars suffice to recover V: **negative**, [Vfin consolidated](A-Vfin-negative-consolidated-proof-2026-10-23.md).
