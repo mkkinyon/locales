@@ -9,7 +9,7 @@
 
 **Central question.** What does an ordinary graph on the points of a locale retain about a genuine sublocale relation? When does the graph suffice to compute a relation or its composition, and when must one remember pointless witnesses, closed supports, or higher simultaneous witnesses?
 
-**Two studies.** I: **genuine binary localic relations**, with three effective calculi (coherent Priestley/patch, Booleanization/closed support, scattered-sector matrices) and sharp failures of naïve pointwise reconstruction; II: **higher simultaneous witnesses**, their Stone-sheaf comparison objects and precise homotopical limitations. They share the coherent patch-language, but II is *not* derived from the binary associative calculi.
+**Two studies.** I: **genuine binary localic relations**, starting from specialization and its **two diagonal hulls**, then developing three effective calculi (coherent Priestley/patch, Booleanization/closed support, scattered-sector matrices) and sharp failures of naïve pointwise reconstruction; II: **higher simultaneous witnesses**, their Stone-sheaf comparison objects and precise homotopical limitations. They share the coherent patch-language, but II is *not* derived from the binary associative calculi.
 
 **Five anchors** (in their pedagogical order): a five-point fence; two convergent Priestley zigzag rays; a rational bridge étale locale; disjoint rational/irrational middle sets; a pair of six-point order complexes. A small additional example on \(P\times(\omega+1)\) combines the second and third binary calculi. For all exact computations in an example see [five-example cold read](ProjectA_ENDGAME_COLD_READ_FIVE_EXAMPLES_2026-11-21.md).
 
@@ -33,7 +33,34 @@ Write \(\Delta\hookrightarrow X^2\) for the diagonal. Our basic separation and h
 \mathcal T=\mathcal V\wedge\mathcal W,
 \end{gathered}
 \]
-Here \(\operatorname{cl}(R)\) is the least **closed sublocale** containing \(R\), and \(\operatorname{fit}(R)\) the least **fitted sublocale**, namely the intersection of all open sublocales containing \(R\). The Urysohn relation \(\mathcal U\) is the closed complement of \(\bigvee_{a^*\vee b^*=1} a\boxtimes b\) (\(a^*\) denotes pseudocomplement in \(\mathcal O(X)\)); the functional relation \(\mathcal F\) is the kernel-pair relation of all real-valued locale maps, or of the completely regular reflection. The relation \(\mathcal H\) is the **least simultaneously closed and fitted** diagonal super-relation. See the [precise definition and assumption table](ProjectA_ENDGAME_NOTATION_AND_ASSUMPTIONS_2026-11-21.md) for the full cover and frame formulas. Write \(\mathcal A\) for oriented localic specialization and \(\mathcal A^\smile\) for its converse; put \(\mathcal S=\mathcal A\vee\mathcal A^\smile\). (We reserve \(\mathcal B(K)\) below for the **unrelated** Booleanization operation.) The spectral-point convention is \(x\le y\) if every open containing \(x\) also contains \(y\), so **opens are upsets**. Our order reverses the convention used in some graph papers.
+Here \(\operatorname{cl}(R)\) is the least **closed sublocale** containing \(R\), and \(\operatorname{fit}(R)\) the least **fitted sublocale**, namely the intersection of all open sublocales containing \(R\). The Urysohn relation \(\mathcal U\) is the closed complement of \(\bigvee_{a^*\vee b^*=1} a\boxtimes b\) (\(a^*\) denotes pseudocomplement in \(\mathcal O(X)\)); the functional relation \(\mathcal F\) is the kernel-pair relation of all real-valued locale maps, or of the completely regular reflection. The relation \(\mathcal H\) is the **least simultaneously closed and fitted** diagonal super-relation. See the [precise definition and assumption table](ProjectA_ENDGAME_NOTATION_AND_ASSUMPTIONS_2026-11-21.md) for the full cover and frame formulas.
+
+### Specialization: one relation, two diagonal hulls
+
+For **any** locale \(X\), let \(\mathcal A\hookrightarrow X^2\) be its **oriented localic specialization relation**: the largest sublocale on which
+\[
+(\pi_1^*a)|_{\mathcal A}\le(\pi_2^*a)|_{\mathcal A}
+\qquad\text{for every }a\in\mathcal O(X).
+\]
+Write \(\mathcal A^\smile\) for its converse and set
+\[
+\boxed{\mathcal S=\mathcal A\vee\mathcal A^\smile.}
+\]
+Thus \(\mathcal S\) is the **symmetric, reflexive specialization relation**. On points of a coherent spectral locale, \(\mathcal S\) is the comparability relation of the specialization order, but the definition above is **localic** and makes sense without any points. We reserve \(\mathcal B(K)\) below for the *unrelated* Booleanization operation. Our spectral-point convention is \(x\le y\) when every open containing \(x\) also contains \(y\), so **opens are upsets**; this reverses the order convention of some graph papers.
+
+Here is a useful fact **requiring no coherence or spatiality assumption**:
+\[
+\boxed{\Delta\le\mathcal S\le\mathcal I\wedge\mathcal D,
+\qquad
+\operatorname{cl}(\mathcal S)=\mathcal I,
+\qquad
+\operatorname{fit}(\mathcal S)=\mathcal D.}
+\]
+**Why?** Reflexivity gives \(\Delta\le\mathcal S\). On \(\mathcal A\), the pullbacks \(a_1\le a_2\) for each open \(a\). If \(a\wedge b=0\), then \(a_1\wedge b_2\le a_2\wedge b_2=0\), which places \(\mathcal A\) in the inseparability relation \(\mathcal I=\operatorname{cl}\Delta\). For an open cover \(\mathcal C\), the diagonal-cover open \(\bigvee_{c\in\mathcal C}(c_1\wedge c_2)\) restricts on \(\mathcal A\) to \(\bigvee_{c\in\mathcal C}c_1=1\); hence \(\mathcal A\le\mathcal D=\operatorname{fit}\Delta\). Both arguments work with coordinates reversed, so \(\mathcal A^\smile\le\mathcal I\wedge\mathcal D\) as well. The closure and fitting identities follow by applying these monotone hull operators to \(\Delta\le\mathcal S\le\mathcal I,\mathcal D\), respectively. [All-locale specialization-hull proof](ProjectA_Cameron_Kumar_revisit_graph_to_locale_hierarchy_2026-11-10.md).
+
+**Interpretation.** The two lower branches of the separation hierarchy arise by **closing** and by **fitting the same specialization relation**. Neither \(\mathcal I\) nor \(\mathcal D\) is just an unrelated construction from \(\Delta\), and \(\mathcal S\) need not equal their meet. This perspective is already meaningful before any theory of relation composition.
+
+Nor should \(\mathcal A\) be mistaken for the sublocale generated by its ordinary specialization pairs. A [compact, locally compact, sober \(T_1\) example](ProjectA_LCA_COUNTEREXAMPLE_CANONICAL_2026-11-15.md) has *trivial point specialization*, yet \(\mathcal A>\Delta\): even the oriented starting relation can retain **pointless information**. Under stronger stability hypotheses it is spatial, so the distinction is sensitive to the ambient class.
 
 For composable localic relations \(R\le X\times Y\) and \(S\le Y\times Z\), composition means **first \(R\), then \(S\)**:
 \[
@@ -50,7 +77,7 @@ This is the smallest-sublocale image of the **actual localic composability pullb
 
 **Proof gate, not optional rhetoric.** One must first identify a proconstructible sublocale via a compact-element-preserving quotient of the coherent frame, then verify that the actual pullback and image of restricted spectral maps remain in that class and have the stated point sets. Merely observing that the pointwise composites agree would not prove equality of arbitrary sublocales. Once this bridge is established, the subsequent calculations become honest order theory. [Full coherent proof](ProjectA_coherent_composition_canonical_proof_2026-11-08.md), [independent review scope](ProjectA_ENDGAME_STRUCTURAL_EXTERNAL_REFEREE_RECONCILIATION_2026-11-21.md).
 
-It yields the **finite** relation-word identities
+This is the **coherent upgrade of the all-locale specialization-hull picture**: whereas the preceding identities \(\operatorname{cl}\mathcal S=\mathcal I\) and \(\operatorname{fit}\mathcal S=\mathcal D\) hold for every locale, the following *finite composition-word* identities use the restricted, genuine proconstructible spectral calculus:
 \[
 \boxed{\mathcal I=\mathcal A\mathcal A^\smile,\quad
 \mathcal D=\mathcal A^\smile\mathcal A,\quad
@@ -64,6 +91,8 @@ Importing the **separate coherent theorem** \(\mathcal W=\mathcal U\), not confu
 \mathcal S^4=\mathcal U\vee\mathcal V.
 \tag{3}
 \]
+Thus the original undirected specialization graph has an exact localic **square** \(\mathcal S^2=\mathcal I\vee\mathcal D\), and—with the separate \(\mathcal W=\mathcal U\) input—an exact **fourth power** \(\mathcal S^4=\mathcal U\vee\mathcal V\). This recovers a graph-power thread of the Cameron–Kumar motivation *inside* our coherent theory, rather than replacing the more general compact-support and scattered-index calculi of the following sections. [Coherent graph-power discussion](ProjectA_Cameron_Kumar_revisit_graph_to_locale_hierarchy_2026-11-10.md).
+
 The normal/conormal dualities of the compact-open lattice sharpen the corresponding equality classes; those directions are part of the hierarchy, not blanket claims of normality for every frame.
 
 ### Example 1. The five-point fence makes the hierarchy visible
