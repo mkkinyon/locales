@@ -14,7 +14,7 @@ For a locale \(X\), a binary relation is a **sublocale of the localic square** \
 
 This difference matters for closure, fitting, separation and—especially—**relational composition**. The project began with the point-free separation hierarchy and grew into two connected mathematical studies:
 
-**Study I — Genuine binary localic relations.** When can we calculate with these relations? Three useful regimes emerge: **coherent/patch order**, **compact Hausdorff closed supports and Booleanization**, and **scattered-index matrix decompositions**. Outside restricted regimes, neither pointwise composition nor associative algebra rules are automatically valid.
+**Study I — Genuine binary localic relations.** It begins with **oriented specialization** \(\mathcal A\) and its symmetric version \(\mathcal S=\mathcal A\vee\mathcal A^\smile\): for any locale, the closed and fitted hulls of \(\mathcal S\) are exactly \(\mathcal I\) and \(\mathcal D\). Coherence then supplies explicit graph-power identities. Three further calculational regimes emerge: **coherent/patch order**, **compact Hausdorff closed supports and Booleanization**, and **scattered-index matrix decompositions**. Outside restricted regimes, neither pointwise composition nor associative algebra rules are automatically valid.
 
 **Study II — Higher simultaneous witnesses.** How much information is preserved by the binary graphs when we also consider common upper/lower witnesses, patched higher relations, and their simplicial realizations? Binary data with the appropriate patch structure can recover important **1-type** information; it does **not**, by itself, recover the **2-type**.
 
@@ -28,7 +28,7 @@ For a slow first reading, the following two sittings provide natural stopping po
 
 | Suggested sitting | Read | What to look for |
 |---|---|---|
-| **First: why point-free changes the answer** | [Main account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md), **Study I, §§1–3** (through Example 4) | The five-point relation hierarchy; a closed-and-fitted hull that fails transitivity; the rational-bridge obstruction; a composite with no ordinary middle point |
+| **First: why point-free changes the answer** | [Main account](ProjectA_ENDGAME_TWO_STUDIES_PROOF_GUIDED_ACCOUNT_2026-11-21.md), **Study I, §§1–3** (through Example 4) | The two hulls of symmetric specialization; the five-point relation hierarchy; a nontransitive closed-and-fitted hull; the rational bridge; composition without an ordinary middle point |
 | **Second: what can be calculated, and what cannot be recovered** | Main account, **Study I §§4–5**, **Study II §§6–7**, then **§§8–9** | Scattered-sector matrix multiplication; why its associativity needs restrictions; patched higher witnesses; the six-point 1-type/2-type boundary; final synthesis |
 
 Two companions are particularly useful **alongside** the account rather than as prerequisites:
@@ -57,6 +57,8 @@ Throughout, \(X^2\) means the **localic** product \(X\times_{\mathbf{Loc}}X\), n
 \[
 \begin{aligned}
 \Delta&=\text{the diagonal of }X,\\
+\mathcal A&=\text{oriented localic specialization},\quad
+\mathcal S=\mathcal A\vee\mathcal A^\smile,\\
 \mathcal I&=\operatorname{cl}\Delta
   &&\text{(inseparability)},\\
 \mathcal D&=\operatorname{fit}\Delta
@@ -69,6 +71,8 @@ Throughout, \(X^2\) means the **localic** product \(X\times_{\mathbf{Loc}}X\), n
 \mathcal F&=\text{functional equivalence relation}.
 \end{aligned}
 \]
+
+The starting point in Study I is the **all-locale** identity \(\operatorname{cl}(\mathcal S)=\mathcal I\), \(\operatorname{fit}(\mathcal S)=\mathcal D\); the stronger composition formulas for powers of \(\mathcal S\) require the **coherent** relation calculus. [Original specialization-hull argument](ProjectA_Cameron_Kumar_revisit_graph_to_locale_hierarchy_2026-11-10.md).
 
 In the compact Hausdorff part, \(p(A,B)=[A\times B]\) is the **point-generated** bipartite relation and \(q(A,B)=[A]\times_{\mathbf{Loc}}[B]\) is the **full localic rectangle**. In the higher-witness study, \(M_n=I_n\cap D_n\) denotes a *simultaneous* upper/lower witness construction; it should not be confused with a binary composition power.
 
